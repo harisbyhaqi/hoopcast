@@ -1,4 +1,4 @@
-# 🏀 NBA Score Predictor
+# 🏀 NBA Game Predictor
 
 A machine learning project that forecasts **NBA game scores** using the past two seasons of data.  
 The system predicts **team points scored** and simulates outcomes to estimate win probabilities.
