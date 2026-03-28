@@ -11,6 +11,16 @@ function renderStats(stats) {
   document.getElementById("hero-acc").textContent  = stats.win_accuracy + "%";
 }
 
+function formatDate(iso) {
+  const d = new Date(iso + "T12:00:00");   // avoid TZ shift on date-only strings
+  return d.toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric" });
+}
+
+function formatTimestamp(iso) {
+  const d = new Date(iso);
+  return d.toLocaleString("en-US", { timeZone: "America/New_York", hour: "2-digit", minute: "2-digit", timeZoneName: "short" });
+}
+
 function renderCard(m) {
   const winner = m.win_prob_a >= m.win_prob_b ? m.team_a : m.team_b;
 
@@ -24,7 +34,7 @@ function renderCard(m) {
         <span class="team-abbr">${m.team_a.abbr}</span>
         <span class="team-name">${m.team_a.name}</span>
       </div>
-      <div class="vs-divider">VS</div>
+      <div class="vs-divider">@</div>
       <div class="team-block">
         <img class="team-logo" src="${m.team_b.logo}" alt="${m.team_b.abbr}" loading="lazy" onerror="this.style.display='none'">
         <span class="team-abbr">${m.team_b.abbr}</span>
@@ -59,18 +69,34 @@ async function init() {
     const data = await loadPredictions();
     renderStats(data.model_stats);
 
+    // Section heading — show today's date
+    if (data.date) {
+      document.getElementById("matchups-date").textContent = formatDate(data.date);
+    }
+
     const grid = document.getElementById("cards-grid");
     grid.innerHTML = "";
-    data.matchups.forEach(m => grid.appendChild(renderCard(m)));
 
+    if (!data.matchups || data.matchups.length === 0) {
+      grid.innerHTML = `
+        <div class="no-games">
+          <span class="no-games-icon">🏀</span>
+          <p>No games scheduled today.</p>
+          <p class="no-games-sub">Check back tomorrow — predictions update automatically each morning.</p>
+        </div>`;
+    } else {
+      data.matchups.forEach(m => grid.appendChild(renderCard(m)));
+    }
+
+    // Last updated timestamp
     if (data.generated) {
       document.getElementById("generated-note").textContent =
-        `Predictions generated on ${data.generated} using 10 000 Monte Carlo simulations.`;
+        `Last updated ${formatTimestamp(data.generated)} · 10 000 Monte Carlo simulations per game`;
     }
   } catch (err) {
     console.error(err);
     document.getElementById("cards-grid").innerHTML =
-      `<p style="color:#7a7f94">Could not load predictions.</p>`;
+      `<p style="color:#7a7f94;grid-column:1/-1">Could not load predictions — try refreshing.</p>`;
   }
 }
 

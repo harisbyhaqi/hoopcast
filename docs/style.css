@@ -319,6 +319,18 @@ h2 {
   text-align: center;
 }
 
+/* no games state */
+.no-games {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 64px 24px;
+  color: var(--muted);
+}
+
+.no-games-icon { font-size: 3rem; display: block; margin-bottom: 16px; }
+.no-games p   { font-size: 1.05rem; }
+.no-games-sub { font-size: .88rem; margin-top: 8px; color: var(--muted); }
+
 /* ── How it works ────────────────────────────────────────────── */
 .how-section { background: var(--surface); }
 
