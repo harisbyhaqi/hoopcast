@@ -1,47 +1,33 @@
 """
 Daily update script — run by GitHub Actions.
-1. Fetches recent games (last 60 days) to build current team rolling stats
-2. Gets today's scheduled games from ScoreboardV2
-3. Runs the pre-trained model + Monte Carlo for each matchup
-4. Writes docs/predictions.json
+
+Data sources (both bypass the stats.nba.com block):
+  * Today's schedule → cdn.nba.com live scoreboard JSON (public CDN, no auth)
+  * Team rolling stats → data/processed/games_preprocessed.csv (committed to repo)
+
+Flow:
+  1. Fetch today's NBA schedule from CDN
+  2. Load pre-computed team features from processed CSV
+  3. Run pre-trained RF model + Monte Carlo for each matchup
+  4. Write docs/predictions.json
 """
 import os, sys, json, time
-from datetime import date, timedelta
-
 import numpy as np
 import pandas as pd
 import joblib
-
-# ── Patch nba_api to use browser-like headers before any imports ──────────
-# stats.nba.com blocks requests that don't look like they come from a browser.
-from nba_api.stats.library import http as _nba_http
-
-_nba_http.NBAStatsHTTP.HEADERS = {
-    "Host": "stats.nba.com",
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/123.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "x-nba-stats-origin": "stats",
-    "x-nba-stats-token": "true",
-    "Referer": "https://www.nba.com/",
-    "Origin": "https://www.nba.com",
-    "Connection": "keep-alive",
-}
-_nba_http.NBAStatsHTTP.timeout = 120
-# ─────────────────────────────────────────────────────────────────────────
+import requests
+from datetime import date
 
 sys.path.insert(0, os.path.dirname(__file__))
-from utils import rolling_team_stats, home_flag, FEATURE_COLS
+from utils import FEATURE_COLS
 from simulate import monte_carlo
 
-ROOT        = os.path.join(os.path.dirname(__file__), "..")
-MODEL_PATH  = os.path.join(ROOT, "models", "points_rf.joblib")
-OUT_PATH    = os.path.join(ROOT, "docs", "predictions.json")
+ROOT           = os.path.join(os.path.dirname(__file__), "..")
+MODEL_PATH     = os.path.join(ROOT, "models", "points_rf.joblib")
+PROCESSED_PATH = os.path.join(ROOT, "data", "processed", "games_preprocessed.csv")
+OUT_PATH       = os.path.join(ROOT, "docs", "predictions.json")
+
+CDN_SCOREBOARD = "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
 
 TEAM_NAMES = {
     "ATL":"Atlanta Hawks","BOS":"Boston Celtics","BKN":"Brooklyn Nets",
@@ -67,148 +53,81 @@ TEAM_IDS = {
     "UTA":1610612762,"WAS":1610612764,
 }
 
+
 def logo_url(abbr):
     tid = TEAM_IDS.get(abbr, 0)
     return f"https://cdn.nba.com/logos/nba/{tid}/global/L/logo.svg"
 
 
-def _retry(fn, retries=4, base_delay=10):
-    """Call fn(), retrying on exception with exponential back-off."""
-    for attempt in range(retries):
-        try:
-            return fn()
-        except Exception as exc:
-            if attempt == retries - 1:
-                raise
-            wait = base_delay * (2 ** attempt)
-            print(f"  Attempt {attempt+1} failed ({exc.__class__.__name__}). Retrying in {wait}s ...")
-            time.sleep(wait)
+def fetch_todays_schedule() -> list[dict]:
+    """
+    Fetch today's games from the NBA CDN live scoreboard.
+    Returns list of {"away": abbr, "home": abbr} dicts.
+    """
+    print(f"Fetching today's schedule from NBA CDN ...")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Referer": "https://www.nba.com/",
+    }
+    resp = requests.get(CDN_SCOREBOARD, headers=headers, timeout=30)
+    resp.raise_for_status()
+
+    data   = resp.json()
+    games  = data.get("scoreboard", {}).get("games", [])
+    print(f"  Found {len(games)} game(s).")
+
+    schedule = []
+    for g in games:
+        away = g.get("awayTeam", {}).get("teamTricode")
+        home = g.get("homeTeam", {}).get("teamTricode")
+        if away and home:
+            schedule.append({"away": away, "home": home})
+    return schedule
 
 
-def fetch_recent_games(days: int = 60) -> pd.DataFrame:
-    from nba_api.stats.endpoints import LeagueGameFinder
-    today      = date.today()
-    date_from  = (today - timedelta(days=days)).strftime("%m/%d/%Y")
-    date_to    = today.strftime("%m/%d/%Y")
-    print(f"Fetching games from {date_from} to {date_to} ...")
-    time.sleep(2)
-
-    def _fetch():
-        lg = LeagueGameFinder(
-            date_from_nullable=date_from,
-            date_to_nullable=date_to,
-            league_id_nullable="00",
-            timeout=120,
-        )
-        return lg.get_data_frames()[0]
-
-    df = _retry(_fetch)
-    print(f"  Got {len(df)} team-game rows.")
-    return df
-
-
-def build_team_features(df: pd.DataFrame) -> dict:
-    """Return {abbr: feature_dict} using each team's most recent rolling stats."""
-    df = df.copy()
-    df["GAME_DATE"] = pd.to_datetime(df["GAME_DATE"])
-    df = df.dropna(subset=["PTS","FG_PCT","FG3_PCT","REB","AST","TOV","MATCHUP"])
-    df["home"] = df["MATCHUP"].apply(home_flag)
-    df = rolling_team_stats(df)
+def build_team_features(processed_path: str) -> dict:
+    """
+    Load processed CSV and return the most recent rolling feature row per team.
+    {abbr: {feat_col: value, ...}}
+    """
+    df = pd.read_csv(processed_path, parse_dates=["GAME_DATE"])
     df = df.dropna(subset=FEATURE_COLS)
-
-    team_feats = {}
+    features = {}
     for abbr, grp in df.groupby("TEAM_ABBREVIATION"):
         last = grp.sort_values("GAME_DATE").iloc[-1]
-        team_feats[abbr] = {col: float(last[col]) for col in FEATURE_COLS}
-    return team_feats
-
-
-def fetch_todays_games(today_str: str) -> list[dict]:
-    """Return list of {team_a, team_b, home_a, home_b} for today's schedule."""
-    from nba_api.stats.endpoints import ScoreboardV2
-    print(f"Fetching schedule for {today_str} ...")
-    time.sleep(2)
-
-    def _fetch():
-        return ScoreboardV2(game_date=today_str, league_id="00", day_offset=0, timeout=120)
-
-    sb     = _retry(_fetch)
-    header = sb.get_data_frames()[0]   # GameHeader
-    ls     = sb.get_data_frames()[1]   # LineScore (has TEAM_ABBREVIATION)
-
-    if header.empty:
-        print("  No games scheduled today.")
-        return []
-
-    games = []
-    for _, row in header.iterrows():
-        gid = row["GAME_ID"]
-        teams = ls[ls["GAME_ID"] == gid].reset_index(drop=True)
-        if len(teams) < 2:
-            continue
-        # home team is the one whose matchup contains "vs."
-        home_row  = teams[teams["TEAM_ABBREVIATION"].apply(
-            lambda a: _is_home(a, row.get("MATCHUP", ""), teams)
-        )]
-        # Simpler: home team ID is HOME_TEAM_ID in header
-        home_id  = row.get("HOME_TEAM_ID")
-        visitor_id = row.get("VISITOR_TEAM_ID")
-
-        home_abbr    = teams[teams["TEAM_ID"] == home_id]["TEAM_ABBREVIATION"].values
-        visitor_abbr = teams[teams["TEAM_ID"] == visitor_id]["TEAM_ABBREVIATION"].values
-
-        if len(home_abbr) == 0 or len(visitor_abbr) == 0:
-            continue
-
-        games.append({
-            "team_a": visitor_abbr[0],   # visitor = team_a
-            "team_b": home_abbr[0],      # home    = team_b
-            "home_a": 0,
-            "home_b": 1,
-        })
-    print(f"  Found {len(games)} game(s).")
-    return games
-
-
-def _is_home(abbr, matchup_str, teams):
-    return False   # unused helper kept for clarity
+        features[abbr] = {col: float(last[col]) for col in FEATURE_COLS}
+    print(f"Loaded features for {len(features)} teams from processed CSV.")
+    return features
 
 
 def main():
-    today     = date.today()
-    today_str = today.strftime("%m/%d/%Y")
-
+    today = date.today()
     model = joblib.load(MODEL_PATH)
 
-    # Step 1 – recent games → team features
-    raw_df     = fetch_recent_games(days=60)
-    team_feats = build_team_features(raw_df)
+    schedule   = fetch_todays_schedule()
+    team_feats = build_team_features(PROCESSED_PATH)
 
-    # Step 2 – today's schedule
-    schedule = fetch_todays_games(today_str)
-
-    # Step 3 – predict
     results = []
     for g in schedule:
-        a, b = g["team_a"], g["team_b"]
-        if a not in team_feats or b not in team_feats:
-            print(f"  Skipping {a} vs {b} — no recent data.")
+        away, home = g["away"], g["home"]
+        if away not in team_feats or home not in team_feats:
+            print(f"  Skipping {away} @ {home} — team not in processed data.")
             continue
 
-        feat_a = {**team_feats[a], "home": g["home_a"]}
-        feat_b = {**team_feats[b], "home": g["home_b"]}
+        feat_away = {**team_feats[away], "home": 0}
+        feat_home = {**team_feats[home], "home": 1}
 
-        sim = monte_carlo(feat_a, feat_b, model, n=10_000)
+        sim = monte_carlo(feat_away, feat_home, model, n=10_000)
 
         results.append({
-            "team_a": {"abbr": a, "name": TEAM_NAMES.get(a, a), "logo": logo_url(a)},
-            "team_b": {"abbr": b, "name": TEAM_NAMES.get(b, b), "logo": logo_url(b)},
+            "team_a": {"abbr": away, "name": TEAM_NAMES.get(away, away), "logo": logo_url(away)},
+            "team_b": {"abbr": home, "name": TEAM_NAMES.get(home, home), "logo": logo_url(home)},
             "score_a": sim["score_a"],
             "score_b": sim["score_b"],
             "win_prob_a": round(sim["win_prob_a"] * 100, 1),
             "win_prob_b": round(sim["win_prob_b"] * 100, 1),
         })
-        print(f"  {a} {sim['score_a']} - {b} {sim['score_b']}  |  {a} {sim['win_prob_a']*100:.1f}%")
+        print(f"  {away} {sim['score_a']} @ {home} {sim['score_b']}  |  {away} wins {sim['win_prob_a']*100:.1f}%")
 
     payload = {
         "date": today.strftime("%Y-%m-%d"),
