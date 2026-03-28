@@ -132,7 +132,7 @@ def main():
     payload = {
         "date": today.strftime("%Y-%m-%d"),
         "generated": pd.Timestamp.now(tz="UTC").strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "model_stats": {"mae": 8.67, "rmse": 10.94, "win_accuracy": 68.5},
+        "model_stats": {"mae": 8.82, "rmse": 11.18, "win_accuracy": 69.7},
         "matchups": results,
     }
 

@@ -1,12 +1,28 @@
 {
   "date": "2026-03-28",
-  "generated": "2026-03-28T04:38:56Z",
+  "generated": "2026-03-28T04:43:27Z",
   "model_stats": {
     "mae": 8.67,
     "rmse": 10.94,
     "win_accuracy": 68.5
   },
   "matchups": [
+    {
+      "team_a": {
+        "abbr": "BKN",
+        "name": "Brooklyn Nets",
+        "logo": "https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "LAL",
+        "name": "Los Angeles Lakers",
+        "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
+      },
+      "score_a": 83.3,
+      "score_b": 99.1,
+      "win_prob_a": 8.2,
+      "win_prob_b": 91.8
+    },
     {
       "team_a": {
         "abbr": "LAC",
@@ -18,10 +34,10 @@
         "name": "Indiana Pacers",
         "logo": "https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg"
       },
-      "score_a": 114.5,
-      "score_b": 119.0,
-      "win_prob_a": 34.3,
-      "win_prob_b": 65.7
+      "score_a": 114.4,
+      "score_b": 117.6,
+      "win_prob_a": 39.5,
+      "win_prob_b": 60.5
     },
     {
       "team_a": {
@@ -34,10 +50,10 @@
         "name": "Boston Celtics",
         "logo": "https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg"
       },
-      "score_a": 117.3,
-      "score_b": 113.2,
-      "win_prob_a": 63.7,
-      "win_prob_b": 36.3
+      "score_a": 116.7,
+      "score_b": 114.9,
+      "win_prob_a": 56.6,
+      "win_prob_b": 43.4
     },
     {
       "team_a": {
@@ -50,10 +66,10 @@
         "name": "Cleveland Cavaliers",
         "logo": "https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg"
       },
-      "score_a": 116.3,
-      "score_b": 122.9,
-      "win_prob_a": 27.8,
-      "win_prob_b": 72.2
+      "score_a": 118.0,
+      "score_b": 124.3,
+      "win_prob_a": 29.3,
+      "win_prob_b": 70.7
     },
     {
       "team_a": {
@@ -66,10 +82,10 @@
         "name": "Memphis Grizzlies",
         "logo": "https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg"
       },
-      "score_a": 116.3,
-      "score_b": 112.7,
-      "win_prob_a": 62.0,
-      "win_prob_b": 38.0
+      "score_a": 116.7,
+      "score_b": 110.0,
+      "win_prob_a": 71.7,
+      "win_prob_b": 28.3
     },
     {
       "team_a": {
@@ -82,10 +98,10 @@
         "name": "Oklahoma City Thunder",
         "logo": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"
       },
-      "score_a": 118.5,
-      "score_b": 119.0,
-      "win_prob_a": 48.6,
-      "win_prob_b": 51.4
+      "score_a": 117.9,
+      "score_b": 117.7,
+      "win_prob_a": 51.9,
+      "win_prob_b": 48.1
     },
     {
       "team_a": {
@@ -98,10 +114,10 @@
         "name": "Toronto Raptors",
         "logo": "https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg"
       },
-      "score_a": 112.9,
-      "score_b": 117.4,
-      "win_prob_a": 34.9,
-      "win_prob_b": 65.0
+      "score_a": 111.6,
+      "score_b": 114.0,
+      "win_prob_a": 41.2,
+      "win_prob_b": 58.8
     },
     {
       "team_a": {
@@ -114,10 +130,10 @@
         "name": "Denver Nuggets",
         "logo": "https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg"
       },
-      "score_a": 116.7,
-      "score_b": 122.3,
-      "win_prob_a": 30.3,
-      "win_prob_b": 69.7
+      "score_a": 118.6,
+      "score_b": 123.5,
+      "win_prob_a": 33.4,
+      "win_prob_b": 66.6
     },
     {
       "team_a": {
@@ -130,10 +146,10 @@
         "name": "Golden State Warriors",
         "logo": "https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg"
       },
-      "score_a": 110.6,
-      "score_b": 110.6,
-      "win_prob_a": 49.7,
-      "win_prob_b": 50.3
+      "score_a": 106.2,
+      "score_b": 111.7,
+      "win_prob_a": 31.3,
+      "win_prob_b": 68.7
     },
     {
       "team_a": {
@@ -146,26 +162,10 @@
         "name": "Portland Trail Blazers",
         "logo": "https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg"
       },
-      "score_a": 114.0,
-      "score_b": 114.1,
-      "win_prob_a": 49.7,
-      "win_prob_b": 50.3
-    },
-    {
-      "team_a": {
-        "abbr": "BKN",
-        "name": "Brooklyn Nets",
-        "logo": "https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"
-      },
-      "team_b": {
-        "abbr": "LAL",
-        "name": "Los Angeles Lakers",
-        "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
-      },
-      "score_a": 79.3,
-      "score_b": 98.5,
-      "win_prob_a": 4.5,
-      "win_prob_b": 95.5
+      "score_a": 115.7,
+      "score_b": 111.4,
+      "win_prob_a": 64.4,
+      "win_prob_b": 35.6
     }
   ]
 }

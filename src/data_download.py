@@ -15,7 +15,7 @@ def download_seasons(seasons):
 
 if __name__ == "__main__":
     import os
-    seasons = ["2025-26", "2024-25", "2023-24"]
+    seasons = ["2025-26", "2024-25"]
     df = download_seasons(seasons)
     out = os.path.join(os.path.dirname(__file__), "..", "data", "raw", "games_raw.csv")
     df.to_csv(out, index=False)
