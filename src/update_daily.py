@@ -12,6 +12,29 @@ import numpy as np
 import pandas as pd
 import joblib
 
+# ── Patch nba_api to use browser-like headers before any imports ──────────
+# stats.nba.com blocks requests that don't look like they come from a browser.
+from nba_api.stats.library import http as _nba_http
+
+_nba_http.NBAStatsHTTP.HEADERS = {
+    "Host": "stats.nba.com",
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/123.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "x-nba-stats-origin": "stats",
+    "x-nba-stats-token": "true",
+    "Referer": "https://www.nba.com/",
+    "Origin": "https://www.nba.com",
+    "Connection": "keep-alive",
+}
+_nba_http.NBAStatsHTTP.timeout = 120
+# ─────────────────────────────────────────────────────────────────────────
+
 sys.path.insert(0, os.path.dirname(__file__))
 from utils import rolling_team_stats, home_flag, FEATURE_COLS
 from simulate import monte_carlo
@@ -49,19 +72,37 @@ def logo_url(abbr):
     return f"https://cdn.nba.com/logos/nba/{tid}/global/L/logo.svg"
 
 
+def _retry(fn, retries=4, base_delay=10):
+    """Call fn(), retrying on exception with exponential back-off."""
+    for attempt in range(retries):
+        try:
+            return fn()
+        except Exception as exc:
+            if attempt == retries - 1:
+                raise
+            wait = base_delay * (2 ** attempt)
+            print(f"  Attempt {attempt+1} failed ({exc.__class__.__name__}). Retrying in {wait}s ...")
+            time.sleep(wait)
+
+
 def fetch_recent_games(days: int = 60) -> pd.DataFrame:
     from nba_api.stats.endpoints import LeagueGameFinder
     today      = date.today()
     date_from  = (today - timedelta(days=days)).strftime("%m/%d/%Y")
     date_to    = today.strftime("%m/%d/%Y")
     print(f"Fetching games from {date_from} to {date_to} ...")
-    time.sleep(1)
-    lg = LeagueGameFinder(
-        date_from_nullable=date_from,
-        date_to_nullable=date_to,
-        league_id_nullable="00",
-    )
-    df = lg.get_data_frames()[0]
+    time.sleep(2)
+
+    def _fetch():
+        lg = LeagueGameFinder(
+            date_from_nullable=date_from,
+            date_to_nullable=date_to,
+            league_id_nullable="00",
+            timeout=120,
+        )
+        return lg.get_data_frames()[0]
+
+    df = _retry(_fetch)
     print(f"  Got {len(df)} team-game rows.")
     return df
 
@@ -86,8 +127,12 @@ def fetch_todays_games(today_str: str) -> list[dict]:
     """Return list of {team_a, team_b, home_a, home_b} for today's schedule."""
     from nba_api.stats.endpoints import ScoreboardV2
     print(f"Fetching schedule for {today_str} ...")
-    time.sleep(1)
-    sb     = ScoreboardV2(game_date=today_str, league_id="00", day_offset=0)
+    time.sleep(2)
+
+    def _fetch():
+        return ScoreboardV2(game_date=today_str, league_id="00", day_offset=0, timeout=120)
+
+    sb     = _retry(_fetch)
     header = sb.get_data_frames()[0]   # GameHeader
     ls     = sb.get_data_frames()[1]   # LineScore (has TEAM_ABBREVIATION)
 
