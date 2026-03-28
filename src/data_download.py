@@ -14,7 +14,9 @@ def download_seasons(seasons):
     return out
 
 if __name__ == "__main__":
-    seasons = ["2024-25", "2023-24"]
+    import os
+    seasons = ["2025-26", "2024-25", "2023-24"]
     df = download_seasons(seasons)
-    df.to_csv("data/raw/games_raw.csv", index=False)
-    print("Saved to data/raw/games_raw.csv")
+    out = os.path.join(os.path.dirname(__file__), "..", "data", "raw", "games_raw.csv")
+    df.to_csv(out, index=False)
+    print(f"Saved {len(df)} rows to {out}")
