@@ -1,6 +1,6 @@
 async function loadPredictions() {
-  const res = await fetch("predictions.json");
-  if (!res.ok) throw new Error("Failed to load predictions.json");
+  const res = await fetch("predictions.json?v=" + Date.now());
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
 }
 
@@ -94,7 +94,7 @@ async function init() {
   } catch (err) {
     console.error(err);
     document.getElementById("cards-grid").innerHTML =
-      `<p style="color:#7a7f94;grid-column:1/-1">Could not load predictions. Try refreshing.</p>`;
+      `<p style="color:#7a7f94;grid-column:1/-1">Could not load predictions (${err.message}). Try refreshing.</p>`;
   }
 }
 
