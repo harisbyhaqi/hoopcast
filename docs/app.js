@@ -44,7 +44,7 @@ function renderCard(m) {
 
     <div class="card-scores">
       <span class="score">${m.score_a.toFixed(1)}</span>
-      <span class="score-sep">—</span>
+      <span class="score-sep">vs</span>
       <span class="score">${m.score_b.toFixed(1)}</span>
     </div>
 
@@ -82,7 +82,7 @@ async function init() {
         <div class="no-games">
           <span class="no-games-icon">🏀</span>
           <p>No games scheduled today.</p>
-          <p class="no-games-sub">Check back tomorrow — predictions update automatically each morning.</p>
+          <p class="no-games-sub">Check back tomorrow. Predictions update automatically each morning.</p>
         </div>`;
     } else {
       data.matchups.forEach(m => grid.appendChild(renderCard(m)));
@@ -96,7 +96,7 @@ async function init() {
   } catch (err) {
     console.error(err);
     document.getElementById("cards-grid").innerHTML =
-      `<p style="color:#7a7f94;grid-column:1/-1">Could not load predictions — try refreshing.</p>`;
+      `<p style="color:#7a7f94;grid-column:1/-1">Could not load predictions. Try refreshing.</p>`;
   }
 }
 
