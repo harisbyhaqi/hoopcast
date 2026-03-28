@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 import joblib
 import requests
-from datetime import date
+from datetime import date, datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 from utils import FEATURE_COLS
@@ -64,7 +64,11 @@ def fetch_todays_schedule() -> list[dict]:
     Fetch today's games from the NBA CDN live scoreboard.
     Returns list of {"away": abbr, "home": abbr} dicts.
     """
-    print(f"Fetching today's schedule from NBA CDN ...")
+    # Use ET (UTC-4 during EDT, UTC-5 during EST) to match NBA game-day logic
+    et_offset = timedelta(hours=-4)  # EDT (March = DST active in US)
+    today_et = (datetime.now(timezone.utc) + et_offset).date()
+
+    print(f"Fetching today's schedule from NBA CDN (ET date: {today_et}) ...")
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Referer": "https://www.nba.com/",
@@ -72,8 +76,22 @@ def fetch_todays_schedule() -> list[dict]:
     resp = requests.get(CDN_SCOREBOARD, headers=headers, timeout=30)
     resp.raise_for_status()
 
-    data   = resp.json()
-    games  = data.get("scoreboard", {}).get("games", [])
+    data       = resp.json()
+    scoreboard = data.get("scoreboard", {})
+    games      = scoreboard.get("games", [])
+
+    # Validate that the CDN is serving today's game day (not yesterday's stale data)
+    cdn_date_str = scoreboard.get("gameDate", "")  # e.g. "2026-03-28"
+    if cdn_date_str:
+        try:
+            cdn_date = date.fromisoformat(cdn_date_str)
+            if cdn_date != today_et:
+                print(f"  WARNING: CDN scoreboard date ({cdn_date}) does not match today ET ({today_et}). "
+                      f"Scoreboard not yet updated — returning no games.")
+                return []
+        except ValueError:
+            pass  # unparseable date, proceed anyway
+
     print(f"  Found {len(games)} game(s).")
 
     schedule = []

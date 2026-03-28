@@ -4,11 +4,6 @@ on:
   schedule:
     # 2:00 PM UTC = 10:00 AM ET — after most lineups are confirmed
     - cron: "0 14 * * *"
-  push:
-    branches: [main]
-    paths:
-      - "src/update_daily.py"
-      - ".github/workflows/update_predictions.yml"
   workflow_dispatch:   # manual trigger from GitHub UI
 
 permissions:
