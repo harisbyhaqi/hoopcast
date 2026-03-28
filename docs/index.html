@@ -3,95 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NBA Predictor</title>
+  <title>NBA Picks</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- HEADER -->
   <header>
     <div class="header-inner">
-      <div class="logo-mark">
-        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-          <circle cx="18" cy="18" r="17" stroke="#e35d2b" stroke-width="2"/>
-          <path d="M18 1 Q26 18 18 35" stroke="#e35d2b" stroke-width="1.5" fill="none"/>
-          <path d="M18 1 Q10 18 18 35" stroke="#e35d2b" stroke-width="1.5" fill="none"/>
-          <line x1="1" y1="18" x2="35" y2="18" stroke="#e35d2b" stroke-width="1.5"/>
-        </svg>
-      </div>
-      <span class="site-name">NBA Predictor</span>
+      <span class="site-name">NBA Picks</span>
       <nav>
-        <a href="#matchups">Matchups</a>
-        <a href="#how">How It Works</a>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
         <a href="https://github.com/harisbyhaqi/nba-predictor" target="_blank">GitHub</a>
       </nav>
     </div>
   </header>
 
-  <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
-      <h1>Predict Every Game.<br /><span class="accent">Backed by Data.</span></h1>
+      <h1>Who wins tonight?</h1>
       <p class="hero-sub">
-        Machine learning model trained on 2 seasons of NBA data, predicting
-        scores &amp; win probabilities with <strong id="hero-acc"></strong> win accuracy.
+        Score predictions and win odds for every game, updated each morning.
       </p>
       <div class="hero-stats" id="hero-stats">
-        <div class="stat-pill"><span class="pill-val" id="stat-mae"></span><span class="pill-label">pts MAE</span></div>
-        <div class="stat-pill"><span class="pill-val" id="stat-rmse"></span><span class="pill-label">pts RMSE</span></div>
-        <div class="stat-pill"><span class="pill-val" id="stat-acc"></span><span class="pill-label">win accuracy</span></div>
+        <div class="stat-block"><span class="stat-val" id="stat-acc"></span><span class="stat-label">win accuracy</span></div>
+        <div class="stat-block"><span class="stat-val" id="stat-mae"></span><span class="stat-label">avg pts off</span></div>
       </div>
-      <a href="#matchups" class="cta-btn">View Predictions</a>
     </div>
-    <div class="hero-ball" aria-hidden="true"></div>
   </section>
 
-  <!-- MATCHUPS -->
-  <section class="matchups-section" id="matchups">
+  <section class="games-section" id="games">
     <div class="section-inner">
-      <h2>Today's Games</h2>
-      <p class="section-sub" id="matchups-date">Loading schedule...</p>
+      <div class="games-header">
+        <h2 id="matchups-date">Today</h2>
+      </div>
       <div class="cards-grid" id="cards-grid">
         <div class="skeleton-card"></div>
         <div class="skeleton-card"></div>
         <div class="skeleton-card"></div>
       </div>
-      <p class="generated-note" id="generated-note"></p>
+      <p class="footer-note" id="generated-note"></p>
     </div>
   </section>
 
-  <!-- HOW IT WORKS -->
-  <section class="how-section" id="how">
+  <section class="about-section" id="about">
     <div class="section-inner">
-      <h2>How It Works</h2>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">01</div>
-          <h3>Data Collection</h3>
-          <p>Historical game data is pulled from the NBA Stats API, covering two full seasons of team-level box scores.</p>
+      <h2>How it's built</h2>
+      <div class="about-grid">
+        <div class="about-block">
+          <h3>The data</h3>
+          <p>Two seasons of NBA box scores. Each team's last 5 games are averaged — points, shooting percentages, rebounds, assists, turnovers — along with rest days and home/away.</p>
         </div>
-        <div class="step">
-          <div class="step-num">02</div>
-          <h3>Feature Engineering</h3>
-          <p>Rolling 5-game averages for points, FG%, 3P%, rebounds, assists, turnovers. Plus rest days and home/away flag.</p>
+        <div class="about-block">
+          <h3>The model</h3>
+          <p>A random forest trained to predict each team's final score. This season's games are weighted more heavily so the model stays current as rosters and form shift.</p>
         </div>
-        <div class="step">
-          <div class="step-num">03</div>
-          <h3>Random Forest Model</h3>
-          <p>A 200-tree Random Forest regressor is trained to predict each team's point total given their recent form.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">04</div>
-          <h3>Monte Carlo Simulation</h3>
-          <p>10 000 game simulations add realistic score variance to produce calibrated win probabilities.</p>
+        <div class="about-block">
+          <h3>The odds</h3>
+          <p>Win probabilities come from running each game 10,000 times with realistic score variance added. The percentages reflect how often each team wins across those simulations.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer>
-    <p>Built by <a href="https://github.com/harisbyhaqi" target="_blank">harisbyhaqi</a> &nbsp;·&nbsp; <a href="https://github.com/harisbyhaqi/nba-predictor" target="_blank">View source</a></p>
+    <p>by <a href="https://github.com/harisbyhaqi" target="_blank">harisbyhaqi</a> &nbsp;&middot;&nbsp; <a href="https://github.com/harisbyhaqi/nba-predictor" target="_blank">source</a></p>
   </footer>
 
   <script src="app.js"></script>

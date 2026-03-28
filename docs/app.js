@@ -5,10 +5,8 @@ async function loadPredictions() {
 }
 
 function renderStats(stats) {
-  document.getElementById("stat-mae").textContent  = stats.mae.toFixed(1);
-  document.getElementById("stat-rmse").textContent = stats.rmse.toFixed(1);
-  document.getElementById("stat-acc").textContent  = stats.win_accuracy + "%";
-  document.getElementById("hero-acc").textContent  = stats.win_accuracy + "%";
+  document.getElementById("stat-mae").textContent = stats.mae.toFixed(1) + " pts";
+  document.getElementById("stat-acc").textContent = stats.win_accuracy + "%";
 }
 
 function formatDate(iso) {
@@ -59,7 +57,7 @@ function renderCard(m) {
       </div>
     </div>
 
-    <div class="winner-badge">Predicted winner: ${winner.abbr}</div>
+    <span class="pick-label">pick: <span>${winner.abbr}</span></span>
   `;
   return card;
 }
@@ -91,7 +89,7 @@ async function init() {
     // Last updated timestamp
     if (data.generated) {
       document.getElementById("generated-note").textContent =
-        `Last updated ${formatTimestamp(data.generated)} · 10 000 Monte Carlo simulations per game`;
+        `updated ${formatTimestamp(data.generated)}`;
     }
   } catch (err) {
     console.error(err);
