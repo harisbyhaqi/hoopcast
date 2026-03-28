@@ -1,0 +1,106 @@
+{
+  "generated": "2026-03-27",
+  "model_stats": {
+    "mae": 8.67,
+    "rmse": 10.94,
+    "win_accuracy": 68.5
+  },
+  "matchups": [
+    {
+      "team_a": {
+        "abbr": "OKC",
+        "name": "Oklahoma City Thunder",
+        "logo": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "BOS",
+        "name": "Boston Celtics",
+        "logo": "https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg"
+      },
+      "score_a": 110.2,
+      "score_b": 104.9,
+      "win_prob_a": 68.8,
+      "win_prob_b": 31.2
+    },
+    {
+      "team_a": {
+        "abbr": "LAL",
+        "name": "Los Angeles Lakers",
+        "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "GSW",
+        "name": "Golden State Warriors",
+        "logo": "https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg"
+      },
+      "score_a": 102.9,
+      "score_b": 103.9,
+      "win_prob_a": 45.5,
+      "win_prob_b": 54.5
+    },
+    {
+      "team_a": {
+        "abbr": "MIL",
+        "name": "Milwaukee Bucks",
+        "logo": "https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "MIA",
+        "name": "Miami Heat",
+        "logo": "https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg"
+      },
+      "score_a": 113.9,
+      "score_b": 102.5,
+      "win_prob_a": 84.4,
+      "win_prob_b": 15.7
+    },
+    {
+      "team_a": {
+        "abbr": "DEN",
+        "name": "Denver Nuggets",
+        "logo": "https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "MIN",
+        "name": "Minnesota Timberwolves",
+        "logo": "https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg"
+      },
+      "score_a": 109.6,
+      "score_b": 109.7,
+      "win_prob_a": 49.0,
+      "win_prob_b": 51.0
+    },
+    {
+      "team_a": {
+        "abbr": "NYK",
+        "name": "New York Knicks",
+        "logo": "https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "IND",
+        "name": "Indiana Pacers",
+        "logo": "https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg"
+      },
+      "score_a": 114.3,
+      "score_b": 108.9,
+      "win_prob_a": 67.5,
+      "win_prob_b": 32.6
+    },
+    {
+      "team_a": {
+        "abbr": "DAL",
+        "name": "Dallas Mavericks",
+        "logo": "https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "PHX",
+        "name": "Phoenix Suns",
+        "logo": "https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg"
+      },
+      "score_a": 111.0,
+      "score_b": 107.7,
+      "win_prob_a": 62.0,
+      "win_prob_b": 38.0
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NBA Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="logo-mark">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+          <circle cx="18" cy="18" r="17" stroke="#e35d2b" stroke-width="2"/>
+          <path d="M18 1 Q26 18 18 35" stroke="#e35d2b" stroke-width="1.5" fill="none"/>
+          <path d="M18 1 Q10 18 18 35" stroke="#e35d2b" stroke-width="1.5" fill="none"/>
+          <line x1="1" y1="18" x2="35" y2="18" stroke="#e35d2b" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <span class="site-name">NBA Predictor</span>
+      <nav>
+        <a href="#matchups">Matchups</a>
+        <a href="#how">How It Works</a>
+        <a href="https://github.com/harisbyhaqi/nba-predictor" target="_blank">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Predict Every Game.<br /><span class="accent">Backed by Data.</span></h1>
+      <p class="hero-sub">
+        Machine learning model trained on 2 seasons of NBA data — predicting
+        scores &amp; win probabilities with <strong id="hero-acc">—</strong> win accuracy.
+      </p>
+      <div class="hero-stats" id="hero-stats">
+        <div class="stat-pill"><span class="pill-val" id="stat-mae">—</span><span class="pill-label">pts MAE</span></div>
+        <div class="stat-pill"><span class="pill-val" id="stat-rmse">—</span><span class="pill-label">pts RMSE</span></div>
+        <div class="stat-pill"><span class="pill-val" id="stat-acc">—</span><span class="pill-label">win accuracy</span></div>
+      </div>
+      <a href="#matchups" class="cta-btn">View Predictions</a>
+    </div>
+    <div class="hero-ball" aria-hidden="true"></div>
+  </section>
+
+  <!-- MATCHUPS -->
+  <section class="matchups-section" id="matchups">
+    <div class="section-inner">
+      <h2>Featured Matchups</h2>
+      <p class="section-sub">Predicted scores &amp; win probabilities via Monte Carlo simulation (10 000 runs)</p>
+      <div class="cards-grid" id="cards-grid">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+      <p class="generated-note" id="generated-note"></p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-section" id="how">
+    <div class="section-inner">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Data Collection</h3>
+          <p>Historical game data is pulled from the NBA Stats API — two full seasons of team-level box scores.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Feature Engineering</h3>
+          <p>Rolling 5-game averages for points, FG%, 3P%, rebounds, assists, turnovers. Plus rest days and home/away flag.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Random Forest Model</h3>
+          <p>A 200-tree Random Forest regressor is trained to predict each team's point total given their recent form.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h3>Monte Carlo Simulation</h3>
+          <p>10 000 game simulations add realistic score variance to produce calibrated win probabilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Built by <a href="https://github.com/harisbyhaqi" target="_blank">harisbyhaqi</a> &nbsp;·&nbsp; <a href="https://github.com/harisbyhaqi/nba-predictor" target="_blank">View source</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
