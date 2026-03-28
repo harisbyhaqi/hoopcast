@@ -1,28 +1,12 @@
 {
   "date": "2026-03-28",
-  "generated": "2026-03-28T04:44:22Z",
+  "generated": "2026-03-28T14:35:38Z",
   "model_stats": {
     "mae": 8.82,
     "rmse": 11.18,
     "win_accuracy": 69.7
   },
   "matchups": [
-    {
-      "team_a": {
-        "abbr": "BKN",
-        "name": "Brooklyn Nets",
-        "logo": "https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"
-      },
-      "team_b": {
-        "abbr": "LAL",
-        "name": "Los Angeles Lakers",
-        "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
-      },
-      "score_a": 83.3,
-      "score_b": 99.1,
-      "win_prob_a": 8.5,
-      "win_prob_b": 91.5
-    },
     {
       "team_a": {
         "abbr": "LAC",
@@ -36,8 +20,8 @@
       },
       "score_a": 114.4,
       "score_b": 117.6,
-      "win_prob_a": 38.8,
-      "win_prob_b": 61.2
+      "win_prob_a": 38.7,
+      "win_prob_b": 61.3
     },
     {
       "team_a": {
@@ -52,8 +36,8 @@
       },
       "score_a": 116.7,
       "score_b": 114.9,
-      "win_prob_a": 56.2,
-      "win_prob_b": 43.8
+      "win_prob_a": 56.7,
+      "win_prob_b": 43.3
     },
     {
       "team_a": {
@@ -68,8 +52,8 @@
       },
       "score_a": 118.0,
       "score_b": 124.3,
-      "win_prob_a": 29.4,
-      "win_prob_b": 70.6
+      "win_prob_a": 28.7,
+      "win_prob_b": 71.3
     },
     {
       "team_a": {
@@ -84,8 +68,8 @@
       },
       "score_a": 116.7,
       "score_b": 110.0,
-      "win_prob_a": 72.5,
-      "win_prob_b": 27.5
+      "win_prob_a": 72.7,
+      "win_prob_b": 27.3
     },
     {
       "team_a": {
@@ -100,8 +84,8 @@
       },
       "score_a": 117.9,
       "score_b": 117.7,
-      "win_prob_a": 50.5,
-      "win_prob_b": 49.5
+      "win_prob_a": 51.3,
+      "win_prob_b": 48.7
     },
     {
       "team_a": {
@@ -116,8 +100,8 @@
       },
       "score_a": 111.6,
       "score_b": 114.0,
-      "win_prob_a": 41.7,
-      "win_prob_b": 58.3
+      "win_prob_a": 41.3,
+      "win_prob_b": 58.7
     },
     {
       "team_a": {
@@ -132,8 +116,8 @@
       },
       "score_a": 118.6,
       "score_b": 123.5,
-      "win_prob_a": 32.9,
-      "win_prob_b": 67.1
+      "win_prob_a": 34.5,
+      "win_prob_b": 65.5
     },
     {
       "team_a": {
@@ -148,8 +132,8 @@
       },
       "score_a": 106.2,
       "score_b": 111.7,
-      "win_prob_a": 31.2,
-      "win_prob_b": 68.8
+      "win_prob_a": 31.1,
+      "win_prob_b": 68.9
     },
     {
       "team_a": {
@@ -164,8 +148,24 @@
       },
       "score_a": 115.7,
       "score_b": 111.4,
-      "win_prob_a": 64.8,
-      "win_prob_b": 35.2
+      "win_prob_a": 65.1,
+      "win_prob_b": 34.9
+    },
+    {
+      "team_a": {
+        "abbr": "BKN",
+        "name": "Brooklyn Nets",
+        "logo": "https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "LAL",
+        "name": "Los Angeles Lakers",
+        "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
+      },
+      "score_a": 83.3,
+      "score_b": 99.1,
+      "win_prob_a": 7.3,
+      "win_prob_b": 92.7
     }
   ]
 }
