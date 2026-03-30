@@ -120,11 +120,16 @@ def build_team_features(processed_path: str) -> dict:
     """
     Load current season features only — ensures predictions reflect
     how teams are actually playing this year, not past seasons.
+    Regular season SEASON_IDs start with '2' (e.g. 22025). Filter to
+    those only so preseason (1xxxx) and playoff (4xxxx) IDs don't skew max().
     """
     df = pd.read_csv(processed_path, parse_dates=["GAME_DATE"])
     df = df.dropna(subset=FEATURE_COLS)
 
-    # Restrict to current season only for rolling feature lookup
+    # Keep only regular season rows (SEASON_ID like 22025, 22024)
+    df = df[df["SEASON_ID"].astype(str).str.match(r"^2\d{4}$")]
+
+    # Restrict to current regular season only
     current_season = df["SEASON_ID"].astype(int).max()
     df = df[df["SEASON_ID"].astype(int) == current_season]
 

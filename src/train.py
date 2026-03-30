@@ -17,9 +17,11 @@ CURRENT_SEASON_WEIGHT = 8.0   # current season games count 8x more than last sea
 def train(processed_path: str = PROCESSED_PATH, model_path: str = MODEL_PATH):
     df = pd.read_csv(processed_path)
 
-    # Weight the most recent season more heavily (auto-detected from data)
-    # SEASON_ID format: e.g. "22025" = 2025-26, "22024" = 2024-25
-    latest_season = df["SEASON_ID"].astype(int).max()
+    # Weight the most recent regular season more heavily.
+    # Filter to regular season only (SEASON_ID like 22025) before finding max
+    # so preseason (1xxxx) and playoff (4xxxx) IDs don't skew the result.
+    regular = df[df["SEASON_ID"].astype(str).str.match(r"^2\d{4}$")]
+    latest_season = regular["SEASON_ID"].astype(int).max()
     current_mask = df["SEASON_ID"].astype(int) == latest_season
     weights = np.where(current_mask, CURRENT_SEASON_WEIGHT, 1.0)
 
