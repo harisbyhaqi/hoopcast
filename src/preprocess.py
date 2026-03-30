@@ -9,8 +9,9 @@ OUT_PATH  = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "
 def preprocess(raw_path: str = RAW_PATH, out_path: str = OUT_PATH) -> pd.DataFrame:
     df = load_csv(raw_path)
 
-    # Drop rows missing key columns
-    df = df.dropna(subset=["PTS", "FG_PCT", "FG3_PCT", "REB", "AST", "TOV", "MATCHUP"])
+    # Drop rows missing key columns or with corrupted data (e.g. partial live game snapshots)
+    df = df.dropna(subset=["PTS", "FG_PCT", "FG3_PCT", "REB", "AST", "TOV", "MATCHUP", "WL"])
+    df = df[df["PTS"] >= 60]  # a team scoring <60 in a finished game is impossible
 
     # Home flag
     df["home"] = df["MATCHUP"].apply(home_flag)
