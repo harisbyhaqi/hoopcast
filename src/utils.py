@@ -5,7 +5,9 @@ import numpy as np
 FEATURE_COLS = [
     "pts_roll5", "fgpct_roll5", "fg3pct_roll5",
     "reb_roll5", "ast_roll5", "tov_roll5",
-    "rest_days", "home"
+    "rest_days", "home",
+    "win_pct_last10",   # recent momentum (soft signal)
+    "pts_diff_roll5",   # rolling point differential (net rating proxy)
 ]
 
 
@@ -25,7 +27,13 @@ def rolling_team_stats(df: pd.DataFrame, window: int = 5) -> pd.DataFrame:
         df.loc[idx, "reb_roll5"]   = grp["REB"].shift(1).rolling(window, min_periods=1).mean()
         df.loc[idx, "ast_roll5"]   = grp["AST"].shift(1).rolling(window, min_periods=1).mean()
         df.loc[idx, "tov_roll5"]   = grp["TOV"].shift(1).rolling(window, min_periods=1).mean()
-        df.loc[idx, "rest_days"]   = grp["GAME_DATE"].diff().dt.days.fillna(3).clip(1, 10)
+        df.loc[idx, "rest_days"]    = grp["GAME_DATE"].diff().dt.days.fillna(3).clip(1, 10)
+        df.loc[idx, "win_pct_last10"] = (
+            (grp["WL"] == "W").astype(float).shift(1).rolling(10, min_periods=1).mean()
+        )
+        df.loc[idx, "pts_diff_roll5"] = (
+            grp["PLUS_MINUS"].shift(1).rolling(window, min_periods=1).mean()
+        )
 
     return df
 

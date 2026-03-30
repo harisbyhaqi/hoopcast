@@ -1,15 +1,18 @@
 """
 Daily update script — run by GitHub Actions.
 
-Data sources (both bypass the stats.nba.com block):
-  * Today's schedule → cdn.nba.com live scoreboard JSON (public CDN, no auth)
-  * Team rolling stats → data/processed/games_preprocessed.csv (committed to repo)
+Data sources:
+  * Today's schedule  → cdn.nba.com live scoreboard JSON
+  * Team rolling stats → data/processed/games_preprocessed.csv (current season only)
+  * Injury report     → ESPN unofficial API (no key needed)
+  * Player PPG        → BallDontLie API (for injury impact sizing)
 
 Flow:
   1. Fetch today's NBA schedule from CDN
-  2. Load pre-computed team features from processed CSV
-  3. Run pre-trained RF model + Monte Carlo for each matchup
-  4. Write docs/predictions.json
+  2. Load pre-computed team features from current season only
+  3. Fetch injury report and compute partial score adjustments for key injured players
+  4. Run pre-trained RF model + Monte Carlo (with injury offsets) for each matchup
+  5. Write docs/predictions.json
 """
 import os, sys, json, time
 import numpy as np
@@ -27,7 +30,18 @@ MODEL_PATH     = os.path.join(ROOT, "models", "points_rf.joblib")
 PROCESSED_PATH = os.path.join(ROOT, "data", "processed", "games_preprocessed.csv")
 OUT_PATH       = os.path.join(ROOT, "docs", "predictions.json")
 
-CDN_SCOREBOARD = "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
+CDN_SCOREBOARD    = "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
+BALLDONTLIE_BASE  = "https://api.balldontlie.io/v1"
+
+# Fraction of an injured player's PPG the team loses.
+# The rest (~67%) gets redistributed to teammates.
+INJURY_IMPACT = {
+    "out":          0.30,
+    "doubtful":     0.30,
+    "questionable": 0.12,
+    "day-to-day":   0.08,
+}
+KEY_PLAYER_PPG_THRESHOLD = 15.0
 
 TEAM_NAMES = {
     "ATL":"Atlanta Hawks","BOS":"Boston Celtics","BKN":"Brooklyn Nets",
@@ -53,6 +67,13 @@ TEAM_IDS = {
     "UTA":1610612762,"WAS":1610612764,
 }
 
+ESPN_TEAM_IDS = {
+    "ATL":1,"BOS":2,"BKN":17,"CHA":30,"CHI":4,"CLE":5,"DAL":6,"DEN":7,
+    "DET":8,"GSW":9,"HOU":10,"IND":11,"LAC":12,"LAL":13,"MEM":29,"MIA":14,
+    "MIL":15,"MIN":16,"NOP":3,"NYK":18,"OKC":25,"ORL":19,"PHI":20,"PHX":21,
+    "POR":22,"SAC":23,"SAS":24,"TOR":28,"UTA":26,"WAS":27,
+}
+
 
 def logo_url(abbr):
     tid = TEAM_IDS.get(abbr, 0)
@@ -60,11 +81,6 @@ def logo_url(abbr):
 
 
 def fetch_todays_schedule() -> list[dict]:
-    """
-    Fetch today's games from the NBA CDN live scoreboard.
-    Returns list of {"away": abbr, "home": abbr} dicts.
-    """
-    # Use America/New_York to correctly handle EST/EDT transitions automatically
     from zoneinfo import ZoneInfo
     today_et = datetime.now(ZoneInfo("America/New_York")).date()
 
@@ -80,20 +96,17 @@ def fetch_todays_schedule() -> list[dict]:
     scoreboard = data.get("scoreboard", {})
     games      = scoreboard.get("games", [])
 
-    # Validate that the CDN is serving today's game day (not yesterday's stale data)
-    cdn_date_str = scoreboard.get("gameDate", "")  # e.g. "2026-03-28"
+    cdn_date_str = scoreboard.get("gameDate", "")
     if cdn_date_str:
         try:
             cdn_date = date.fromisoformat(cdn_date_str)
             if cdn_date != today_et:
-                print(f"  WARNING: CDN scoreboard date ({cdn_date}) does not match today ET ({today_et}). "
-                      f"Scoreboard not yet updated — returning no games.")
+                print(f"  WARNING: CDN date ({cdn_date}) != today ET ({today_et}). No games returned.")
                 return []
         except ValueError:
-            pass  # unparseable date, proceed anyway
+            pass
 
     print(f"  Found {len(games)} game(s).")
-
     schedule = []
     for g in games:
         away = g.get("awayTeam", {}).get("teamTricode")
@@ -105,22 +118,115 @@ def fetch_todays_schedule() -> list[dict]:
 
 def build_team_features(processed_path: str) -> dict:
     """
-    Load processed CSV and return the most recent rolling feature row per team.
-    {abbr: {feat_col: value, ...}}
+    Load current season features only — ensures predictions reflect
+    how teams are actually playing this year, not past seasons.
     """
     df = pd.read_csv(processed_path, parse_dates=["GAME_DATE"])
     df = df.dropna(subset=FEATURE_COLS)
+
+    # Restrict to current season only for rolling feature lookup
+    current_season = df["SEASON_ID"].astype(int).max()
+    df = df[df["SEASON_ID"].astype(int) == current_season]
+
     features = {}
     for abbr, grp in df.groupby("TEAM_ABBREVIATION"):
         last = grp.sort_values("GAME_DATE").iloc[-1]
         features[abbr] = {col: float(last[col]) for col in FEATURE_COLS}
-    print(f"Loaded features for {len(features)} teams from processed CSV.")
+    print(f"Loaded features for {len(features)} teams (current season only).")
     return features
 
 
+# ---------------------------------------------------------------------------
+# Injury handling
+# ---------------------------------------------------------------------------
+
+def fetch_team_injuries(team_abbr: str) -> list[dict]:
+    """Fetch active injury report for a team from ESPN's unofficial API."""
+    espn_id = ESPN_TEAM_IDS.get(team_abbr)
+    if not espn_id:
+        return []
+    try:
+        url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{espn_id}/injuries"
+        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+        result = []
+        for item in data.get("injuries", []):
+            name   = item.get("athlete", {}).get("displayName", "")
+            status = item.get("status", "").lower()
+            if name and status in INJURY_IMPACT:
+                result.append({"name": name, "status": status})
+        return result
+    except Exception as e:
+        print(f"  Could not fetch injuries for {team_abbr}: {e}")
+        return []
+
+
+def get_player_season_ppg(api_key: str, player_name: str) -> float:
+    """Look up a player's current season PPG via BallDontLie."""
+    try:
+        # Find player ID
+        resp = requests.get(
+            f"{BALLDONTLIE_BASE}/players",
+            headers={"Authorization": api_key},
+            params={"search": player_name, "per_page": 5},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        players = resp.json().get("data", [])
+        if not players:
+            return 0.0
+        player_id = players[0]["id"]
+        time.sleep(0.3)
+
+        # Get season averages for current season
+        today  = date.today()
+        season = today.year if today.month >= 10 else today.year - 1
+        resp = requests.get(
+            f"{BALLDONTLIE_BASE}/season_averages",
+            headers={"Authorization": api_key},
+            params={"player_ids[]": player_id, "season": season},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        avgs = resp.json().get("data", [])
+        return float(avgs[0].get("pts", 0.0)) if avgs else 0.0
+    except Exception:
+        return 0.0
+
+
+def compute_injury_offset(team_abbr: str, api_key: str) -> float:
+    """
+    Returns a negative pts offset to apply to a team's predicted score.
+    Only key players (>15 PPG) meaningfully shift the number — and even then
+    only ~30% of their points are lost (teammates absorb the rest).
+    """
+    if not api_key:
+        return 0.0
+
+    injuries = fetch_team_injuries(team_abbr)
+    if not injuries:
+        return 0.0
+
+    total_offset = 0.0
+    for inj in injuries:
+        ppg = get_player_season_ppg(api_key, inj["name"])
+        if ppg < KEY_PLAYER_PPG_THRESHOLD:
+            continue
+        impact    = INJURY_IMPACT.get(inj["status"], 0.0)
+        pts_lost  = ppg * impact
+        total_offset += pts_lost
+        print(f"  Injury: {inj['name']} ({inj['status']}, {ppg:.1f} PPG) "
+              f"→ -{pts_lost:.1f} pts adjustment for {team_abbr}")
+        time.sleep(0.3)
+
+    return -total_offset  # negative = subtract from predicted score
+
+
 def main():
-    today = date.today()
-    model = joblib.load(MODEL_PATH)
+    today     = date.today()
+    model     = joblib.load(MODEL_PATH)
+    bdl_key   = os.environ.get("BALLDONTLIE_API_KEY", "")
 
     schedule   = fetch_todays_schedule()
     team_feats = build_team_features(PROCESSED_PATH)
@@ -135,7 +241,15 @@ def main():
         feat_away = {**team_feats[away], "home": 0}
         feat_home = {**team_feats[home], "home": 1}
 
-        sim = monte_carlo(feat_away, feat_home, model, n=10_000)
+        # Injury adjustments (partial — teammates absorb most of the slack)
+        offset_away = compute_injury_offset(away, bdl_key)
+        offset_home = compute_injury_offset(home, bdl_key)
+
+        sim = monte_carlo(
+            feat_away, feat_home, model, n=10_000,
+            score_a_offset=offset_away,
+            score_b_offset=offset_home,
+        )
 
         results.append({
             "team_a": {"abbr": away, "name": TEAM_NAMES.get(away, away), "logo": logo_url(away)},
@@ -145,7 +259,8 @@ def main():
             "win_prob_a": round(sim["win_prob_a"] * 100, 1),
             "win_prob_b": round(sim["win_prob_b"] * 100, 1),
         })
-        print(f"  {away} {sim['score_a']} @ {home} {sim['score_b']}  |  {away} wins {sim['win_prob_a']*100:.1f}%")
+        print(f"  {away} {sim['score_a']} @ {home} {sim['score_b']}  |  "
+              f"{away} wins {sim['win_prob_a']*100:.1f}%")
 
     payload = {
         "date": today.strftime("%Y-%m-%d"),

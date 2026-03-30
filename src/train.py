@@ -11,7 +11,7 @@ PROCESSED_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "processe
 MODEL_PATH     = os.path.join(os.path.dirname(__file__), "..", "models", "points_rf.joblib")
 
 
-CURRENT_SEASON_WEIGHT = 3.0   # current season games count 3x more than last season
+CURRENT_SEASON_WEIGHT = 8.0   # current season games count 8x more than last season
 
 
 def train(processed_path: str = PROCESSED_PATH, model_path: str = MODEL_PATH):

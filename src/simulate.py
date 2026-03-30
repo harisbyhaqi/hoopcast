@@ -3,15 +3,19 @@ from predict import predict_game, load_model, team_features_from_history
 
 
 def monte_carlo(team_a_feat: dict, team_b_feat: dict,
-                model=None, n: int = 10_000, noise_std: float = 8.0) -> dict:
+                model=None, n: int = 10_000, noise_std: float = 8.0,
+                score_a_offset: float = 0.0, score_b_offset: float = 0.0) -> dict:
     """
     Simulate n games by adding Gaussian noise to predicted scores.
+    score_a_offset / score_b_offset are applied after prediction (e.g. injury adjustments).
     Returns win probability for team A and expected scores.
     """
     if model is None:
         model = load_model()
 
     score_a, score_b = predict_game(team_a_feat, team_b_feat, model)
+    score_a += score_a_offset
+    score_b += score_b_offset
 
     noise_a = np.random.normal(0, noise_std, n)
     noise_b = np.random.normal(0, noise_std, n)
