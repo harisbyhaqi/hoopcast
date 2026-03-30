@@ -1,28 +1,12 @@
 {
   "date": "2026-03-30",
-  "generated": "2026-03-30T23:38:48Z",
+  "generated": "2026-03-30T23:44:10Z",
   "model_stats": {
     "mae": 8.82,
     "rmse": 11.18,
     "win_accuracy": 69.7
   },
   "matchups": [
-    {
-      "team_a": {
-        "abbr": "PHI",
-        "name": "Philadelphia 76ers",
-        "logo": "https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg"
-      },
-      "team_b": {
-        "abbr": "MIA",
-        "name": "Miami Heat",
-        "logo": "https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg"
-      },
-      "score_a": 118.2,
-      "score_b": 117.7,
-      "win_prob_a": 51.7,
-      "win_prob_b": 48.3
-    },
     {
       "team_a": {
         "abbr": "BOS",
@@ -34,10 +18,26 @@
         "name": "Atlanta Hawks",
         "logo": "https://cdn.nba.com/logos/nba/1610612737/global/L/logo.svg"
       },
-      "score_a": 117.8,
-      "score_b": 120.2,
-      "win_prob_a": 41.0,
-      "win_prob_b": 59.0
+      "score_a": 116.6,
+      "score_b": 119.5,
+      "win_prob_a": 40.3,
+      "win_prob_b": 59.7
+    },
+    {
+      "team_a": {
+        "abbr": "PHI",
+        "name": "Philadelphia 76ers",
+        "logo": "https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "MIA",
+        "name": "Miami Heat",
+        "logo": "https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg"
+      },
+      "score_a": 117.0,
+      "score_b": 116.4,
+      "win_prob_a": 52.1,
+      "win_prob_b": 47.9
     },
     {
       "team_a": {
@@ -50,10 +50,10 @@
         "name": "Memphis Grizzlies",
         "logo": "https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg"
       },
-      "score_a": 119.5,
-      "score_b": 115.2,
-      "win_prob_a": 65.3,
-      "win_prob_b": 34.7
+      "score_a": 119.8,
+      "score_b": 116.4,
+      "win_prob_a": 61.1,
+      "win_prob_b": 38.9
     },
     {
       "team_a": {
@@ -66,10 +66,10 @@
         "name": "San Antonio Spurs",
         "logo": "https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg"
       },
-      "score_a": 116.8,
-      "score_b": 117.8,
-      "win_prob_a": 45.8,
-      "win_prob_b": 54.2
+      "score_a": 117.1,
+      "score_b": 119.1,
+      "win_prob_a": 43.3,
+      "win_prob_b": 56.7
     },
     {
       "team_a": {
@@ -82,10 +82,10 @@
         "name": "Dallas Mavericks",
         "logo": "https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg"
       },
-      "score_a": 112.9,
-      "score_b": 117.3,
-      "win_prob_a": 33.9,
-      "win_prob_b": 66.1
+      "score_a": 110.5,
+      "score_b": 117.4,
+      "win_prob_a": 26.7,
+      "win_prob_b": 73.3
     },
     {
       "team_a": {
@@ -98,10 +98,10 @@
         "name": "Utah Jazz",
         "logo": "https://cdn.nba.com/logos/nba/1610612762/global/L/logo.svg"
       },
-      "score_a": 123.1,
-      "score_b": 118.1,
-      "win_prob_a": 66.8,
-      "win_prob_b": 33.2
+      "score_a": 124.5,
+      "score_b": 117.8,
+      "win_prob_a": 72.5,
+      "win_prob_b": 27.5
     },
     {
       "team_a": {
@@ -114,10 +114,10 @@
         "name": "Oklahoma City Thunder",
         "logo": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"
       },
-      "score_a": 116.6,
-      "score_b": 120.6,
-      "win_prob_a": 36.4,
-      "win_prob_b": 63.6
+      "score_a": 117.3,
+      "score_b": 121.6,
+      "win_prob_a": 35.3,
+      "win_prob_b": 64.7
     },
     {
       "team_a": {
@@ -130,10 +130,10 @@
         "name": "Los Angeles Lakers",
         "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
       },
-      "score_a": 103.4,
-      "score_b": 119.9,
-      "win_prob_a": 7.5,
-      "win_prob_b": 92.5
+      "score_a": 98.5,
+      "score_b": 119.4,
+      "win_prob_a": 3.5,
+      "win_prob_b": 96.5
     }
   ]
 }
