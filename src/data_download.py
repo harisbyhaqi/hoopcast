@@ -55,9 +55,16 @@ def download_seasons(seasons, retries=3, timeout=60):
 
 
 if __name__ == "__main__":
+    out = os.path.join(os.path.dirname(__file__), "..", "data", "raw", "games_raw.csv")
     seasons = current_seasons()
     print(f"Downloading seasons: {seasons}")
-    df = download_seasons(seasons)
-    out = os.path.join(os.path.dirname(__file__), "..", "data", "raw", "games_raw.csv")
-    df.to_csv(out, index=False)
-    print(f"Saved {len(df)} rows to {out}")
+    try:
+        df = download_seasons(seasons)
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        df.to_csv(out, index=False)
+        print(f"Saved {len(df)} rows to {out}")
+    except Exception as e:
+        if os.path.exists(out):
+            print(f"WARNING: NBA API unavailable ({e}). Using cached data at {out}.")
+        else:
+            raise
