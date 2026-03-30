@@ -1,6 +1,6 @@
 {
   "date": "2026-03-30",
-  "generated": "2026-03-30T21:56:29Z",
+  "generated": "2026-03-30T22:12:06Z",
   "model_stats": {
     "mae": 8.82,
     "rmse": 11.18,
@@ -20,8 +20,8 @@
       },
       "score_a": 117.4,
       "score_b": 119.5,
-      "win_prob_a": 42.7,
-      "win_prob_b": 57.3
+      "win_prob_a": 42.8,
+      "win_prob_b": 57.2
     },
     {
       "team_a": {
@@ -36,8 +36,8 @@
       },
       "score_a": 114.9,
       "score_b": 119.7,
-      "win_prob_a": 33.1,
-      "win_prob_b": 66.9
+      "win_prob_a": 34.2,
+      "win_prob_b": 65.8
     },
     {
       "team_a": {
@@ -52,8 +52,8 @@
       },
       "score_a": 114.9,
       "score_b": 111.0,
-      "win_prob_a": 63.4,
-      "win_prob_b": 36.6
+      "win_prob_a": 63.5,
+      "win_prob_b": 36.5
     },
     {
       "team_a": {
@@ -68,8 +68,8 @@
       },
       "score_a": 116.1,
       "score_b": 116.8,
-      "win_prob_a": 47.6,
-      "win_prob_b": 52.4
+      "win_prob_a": 47.9,
+      "win_prob_b": 52.1
     },
     {
       "team_a": {
@@ -84,8 +84,8 @@
       },
       "score_a": 113.5,
       "score_b": 117.5,
-      "win_prob_a": 36.7,
-      "win_prob_b": 63.3
+      "win_prob_a": 36.0,
+      "win_prob_b": 64.0
     },
     {
       "team_a": {
@@ -100,8 +100,8 @@
       },
       "score_a": 120.8,
       "score_b": 118.5,
-      "win_prob_a": 58.6,
-      "win_prob_b": 41.4
+      "win_prob_a": 57.9,
+      "win_prob_b": 42.1
     },
     {
       "team_a": {
@@ -116,8 +116,8 @@
       },
       "score_a": 116.3,
       "score_b": 96.0,
-      "win_prob_a": 96.3,
-      "win_prob_b": 3.7
+      "win_prob_a": 96.6,
+      "win_prob_b": 3.4
     },
     {
       "team_a": {
@@ -132,8 +132,8 @@
       },
       "score_a": 107.9,
       "score_b": 117.8,
-      "win_prob_a": 19.6,
-      "win_prob_b": 80.4
+      "win_prob_a": 18.9,
+      "win_prob_b": 81.1
     }
   ]
 }
