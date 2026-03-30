@@ -2,10 +2,10 @@ import os
 import time
 from datetime import date
 import pandas as pd
+import nba_api.library.http as nba_http
 from nba_api.stats.endpoints import leaguegamefinder
-from nba_api.library.http import NBAStatsHTTP
 
-NBAStatsHTTP.STATS_HEADERS = {
+nba_http.STATS_HEADERS = {
     "Host": "stats.nba.com",
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
