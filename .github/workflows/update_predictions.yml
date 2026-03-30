@@ -26,13 +26,25 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Download latest game data
+        run: python src/data_download.py
+
+      - name: Preprocess game data
+        run: python src/preprocess.py
+
+      - name: Retrain model on latest data
+        run: python src/train.py
+
       - name: Run daily predictor
         run: python src/update_daily.py
 
-      - name: Commit updated predictions
+      - name: Commit updated data and predictions
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/predictions.json
+          git add docs/predictions.json \
+                  data/raw/games_raw.csv \
+                  data/processed/games_preprocessed.csv \
+                  models/points_rf.joblib
           git diff --cached --quiet || git commit -m "chore: update predictions for $(date -u +%Y-%m-%d)"
           git push

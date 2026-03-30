@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 import joblib
 import requests
-from datetime import date, datetime, timezone, timedelta
+from datetime import date, datetime, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
 from utils import FEATURE_COLS
@@ -64,9 +64,9 @@ def fetch_todays_schedule() -> list[dict]:
     Fetch today's games from the NBA CDN live scoreboard.
     Returns list of {"away": abbr, "home": abbr} dicts.
     """
-    # Use ET (UTC-4 during EDT, UTC-5 during EST) to match NBA game-day logic
-    et_offset = timedelta(hours=-4)  # EDT (March = DST active in US)
-    today_et = (datetime.now(timezone.utc) + et_offset).date()
+    # Use America/New_York to correctly handle EST/EDT transitions automatically
+    from zoneinfo import ZoneInfo
+    today_et = datetime.now(ZoneInfo("America/New_York")).date()
 
     print(f"Fetching today's schedule from NBA CDN (ET date: {today_et}) ...")
     headers = {

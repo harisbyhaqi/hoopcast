@@ -17,9 +17,10 @@ CURRENT_SEASON_WEIGHT = 3.0   # current season games count 3x more than last sea
 def train(processed_path: str = PROCESSED_PATH, model_path: str = MODEL_PATH):
     df = pd.read_csv(processed_path)
 
-    # Weight current season (season ID starts with "2") more heavily
+    # Weight the most recent season more heavily (auto-detected from data)
     # SEASON_ID format: e.g. "22025" = 2025-26, "22024" = 2024-25
-    current_mask = df["SEASON_ID"].astype(str).str.startswith("22025")
+    latest_season = df["SEASON_ID"].astype(int).max()
+    current_mask = df["SEASON_ID"].astype(int) == latest_season
     weights = np.where(current_mask, CURRENT_SEASON_WEIGHT, 1.0)
 
     X = df[FEATURE_COLS]
