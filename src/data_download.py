@@ -1,4 +1,5 @@
 import os
+import time
 from datetime import date
 import pandas as pd
 from nba_api.stats.endpoints import leaguegamefinder
@@ -14,13 +15,23 @@ def current_seasons() -> list[str]:
     return [current, previous]
 
 
-def download_seasons(seasons):
+def download_seasons(seasons, retries=3, timeout=60):
     frames = []
     for season in seasons:
         print(f"Fetching season {season}")
-        lg = leaguegamefinder.LeagueGameFinder(season_nullable=season)
-        df = lg.get_data_frames()[0]
-        frames.append(df)
+        for attempt in range(1, retries + 1):
+            try:
+                lg = leaguegamefinder.LeagueGameFinder(
+                    season_nullable=season, timeout=timeout
+                )
+                df = lg.get_data_frames()[0]
+                frames.append(df)
+                break
+            except Exception as e:
+                print(f"Attempt {attempt}/{retries} failed for {season}: {e}")
+                if attempt == retries:
+                    raise
+                time.sleep(5 * attempt)
     return pd.concat(frames, ignore_index=True)
 
 
