@@ -28,6 +28,8 @@ jobs:
 
       - name: Download latest game data
         run: python src/data_download.py
+        env:
+          BALLDONTLIE_API_KEY: ${{ secrets.BALLDONTLIE_API_KEY }}
 
       - name: Preprocess game data
         run: python src/preprocess.py

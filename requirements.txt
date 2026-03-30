@@ -6,8 +6,8 @@ numpy>=1.25
 scikit-learn>=1.2
 joblib>=1.3
 
-# NBA data
-nba_api>=1.1
+# NBA data (BallDontLie API — works from GitHub Actions)
+requests>=2.28
 
 # Progress bars (optional, useful for data download)
 tqdm>=4.65
