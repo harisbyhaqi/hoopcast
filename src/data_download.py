@@ -2,10 +2,9 @@ import os
 import time
 from datetime import date
 import pandas as pd
-import nba_api.library.http as nba_http
 from nba_api.stats.endpoints import leaguegamefinder
 
-nba_http.STATS_HEADERS = {
+HEADERS = {
     "Host": "stats.nba.com",
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -40,7 +39,9 @@ def download_seasons(seasons, retries=3, timeout=60):
         for attempt in range(1, retries + 1):
             try:
                 lg = leaguegamefinder.LeagueGameFinder(
-                    season_nullable=season, timeout=timeout
+                    season_nullable=season,
+                    timeout=timeout,
+                    headers=HEADERS,
                 )
                 df = lg.get_data_frames()[0]
                 frames.append(df)
