@@ -7,7 +7,6 @@ FEATURE_COLS = [
     "reb_roll5", "ast_roll5", "tov_roll5",
     "rest_days", "home",
     "win_pct_last10",   # recent momentum (soft signal)
-    "pts_diff_roll5",   # rolling point differential (net rating proxy)
 ]
 
 
