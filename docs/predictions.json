@@ -1,6 +1,6 @@
 {
   "date": "2026-03-30",
-  "generated": "2026-03-30T01:02:05Z",
+  "generated": "2026-03-30T21:56:29Z",
   "model_stats": {
     "mae": 8.82,
     "rmse": 11.18,
@@ -9,83 +9,19 @@
   "matchups": [
     {
       "team_a": {
-        "abbr": "HOU",
-        "name": "Houston Rockets",
-        "logo": "https://cdn.nba.com/logos/nba/1610612745/global/L/logo.svg"
+        "abbr": "PHI",
+        "name": "Philadelphia 76ers",
+        "logo": "https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg"
       },
       "team_b": {
-        "abbr": "NOP",
-        "name": "New Orleans Pelicans",
-        "logo": "https://cdn.nba.com/logos/nba/1610612740/global/L/logo.svg"
-      },
-      "score_a": 113.1,
-      "score_b": 104.5,
-      "win_prob_a": 77.4,
-      "win_prob_b": 22.6
-    },
-    {
-      "team_a": {
-        "abbr": "NYK",
-        "name": "New York Knicks",
-        "logo": "https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg"
-      },
-      "team_b": {
-        "abbr": "OKC",
-        "name": "Oklahoma City Thunder",
-        "logo": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"
-      },
-      "score_a": 93.8,
-      "score_b": 96.0,
-      "win_prob_a": 41.0,
-      "win_prob_b": 59.0
-    },
-    {
-      "team_a": {
-        "abbr": "LAC",
-        "name": "LA Clippers",
-        "logo": "https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg"
-      },
-      "team_b": {
-        "abbr": "MIL",
-        "name": "Milwaukee Bucks",
-        "logo": "https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg"
-      },
-      "score_a": 116.1,
-      "score_b": 102.2,
-      "win_prob_a": 89.0,
-      "win_prob_b": 11.0
-    },
-    {
-      "team_a": {
         "abbr": "MIA",
         "name": "Miami Heat",
         "logo": "https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg"
       },
-      "team_b": {
-        "abbr": "IND",
-        "name": "Indiana Pacers",
-        "logo": "https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg"
-      },
-      "score_a": 116.9,
-      "score_b": 116.0,
-      "win_prob_a": 53.1,
-      "win_prob_b": 46.9
-    },
-    {
-      "team_a": {
-        "abbr": "SAC",
-        "name": "Sacramento Kings",
-        "logo": "https://cdn.nba.com/logos/nba/1610612758/global/L/logo.svg"
-      },
-      "team_b": {
-        "abbr": "BKN",
-        "name": "Brooklyn Nets",
-        "logo": "https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"
-      },
-      "score_a": 110.0,
-      "score_b": 111.6,
-      "win_prob_a": 44.4,
-      "win_prob_b": 55.6
+      "score_a": 117.4,
+      "score_b": 119.5,
+      "win_prob_a": 42.7,
+      "win_prob_b": 57.3
     },
     {
       "team_a": {
@@ -94,30 +30,94 @@
         "logo": "https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg"
       },
       "team_b": {
-        "abbr": "CHA",
-        "name": "Charlotte Hornets",
-        "logo": "https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg"
+        "abbr": "ATL",
+        "name": "Atlanta Hawks",
+        "logo": "https://cdn.nba.com/logos/nba/1610612737/global/L/logo.svg"
       },
       "score_a": 114.9,
-      "score_b": 115.7,
-      "win_prob_a": 47.0,
-      "win_prob_b": 53.0
+      "score_b": 119.7,
+      "win_prob_a": 33.1,
+      "win_prob_b": 66.9
     },
     {
       "team_a": {
-        "abbr": "ORL",
-        "name": "Orlando Magic",
-        "logo": "https://cdn.nba.com/logos/nba/1610612753/global/L/logo.svg"
+        "abbr": "PHX",
+        "name": "Phoenix Suns",
+        "logo": "https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg"
       },
       "team_b": {
-        "abbr": "TOR",
-        "name": "Toronto Raptors",
-        "logo": "https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg"
+        "abbr": "MEM",
+        "name": "Memphis Grizzlies",
+        "logo": "https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg"
       },
-      "score_a": 113.2,
-      "score_b": 121.7,
-      "win_prob_a": 22.6,
-      "win_prob_b": 77.4
+      "score_a": 114.9,
+      "score_b": 111.0,
+      "win_prob_a": 63.4,
+      "win_prob_b": 36.6
+    },
+    {
+      "team_a": {
+        "abbr": "CHI",
+        "name": "Chicago Bulls",
+        "logo": "https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "SAS",
+        "name": "San Antonio Spurs",
+        "logo": "https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg"
+      },
+      "score_a": 116.1,
+      "score_b": 116.8,
+      "win_prob_a": 47.6,
+      "win_prob_b": 52.4
+    },
+    {
+      "team_a": {
+        "abbr": "MIN",
+        "name": "Minnesota Timberwolves",
+        "logo": "https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "DAL",
+        "name": "Dallas Mavericks",
+        "logo": "https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg"
+      },
+      "score_a": 113.5,
+      "score_b": 117.5,
+      "win_prob_a": 36.7,
+      "win_prob_b": 63.3
+    },
+    {
+      "team_a": {
+        "abbr": "CLE",
+        "name": "Cleveland Cavaliers",
+        "logo": "https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "UTA",
+        "name": "Utah Jazz",
+        "logo": "https://cdn.nba.com/logos/nba/1610612762/global/L/logo.svg"
+      },
+      "score_a": 120.8,
+      "score_b": 118.5,
+      "win_prob_a": 58.6,
+      "win_prob_b": 41.4
+    },
+    {
+      "team_a": {
+        "abbr": "DET",
+        "name": "Detroit Pistons",
+        "logo": "https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg"
+      },
+      "team_b": {
+        "abbr": "OKC",
+        "name": "Oklahoma City Thunder",
+        "logo": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"
+      },
+      "score_a": 116.3,
+      "score_b": 96.0,
+      "win_prob_a": 96.3,
+      "win_prob_b": 3.7
     },
     {
       "team_a": {
@@ -126,30 +126,14 @@
         "logo": "https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg"
       },
       "team_b": {
-        "abbr": "POR",
-        "name": "Portland Trail Blazers",
-        "logo": "https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg"
+        "abbr": "LAL",
+        "name": "Los Angeles Lakers",
+        "logo": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
       },
       "score_a": 107.9,
-      "score_b": 115.8,
-      "win_prob_a": 24.1,
-      "win_prob_b": 75.9
-    },
-    {
-      "team_a": {
-        "abbr": "GSW",
-        "name": "Golden State Warriors",
-        "logo": "https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg"
-      },
-      "team_b": {
-        "abbr": "DEN",
-        "name": "Denver Nuggets",
-        "logo": "https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg"
-      },
-      "score_a": 115.1,
-      "score_b": 122.9,
-      "win_prob_a": 24.9,
-      "win_prob_b": 75.1
+      "score_b": 117.8,
+      "win_prob_a": 19.6,
+      "win_prob_b": 80.4
     }
   ]
 }
