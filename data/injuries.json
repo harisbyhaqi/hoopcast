@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T12:09:54-0400",
+ "generated": "2026-10-16T12:21:56-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -388,6 +388,28 @@
   },
   {
    "team": "GSW",
+   "player_id": "4432171",
+   "player": "Moses Moody",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Surgery",
+   "return_date": "2026-12-01",
+   "updated": "2026-10-16T16:14Z",
+   "comment": "Moody (knee) is progressing toward a potential return between December and January after rupturing his left patellar tendon in March, Anthony Slater of ESPN reports."
+  },
+  {
+   "team": "GSW",
+   "player_id": "6430",
+   "player": "Jimmy Butler III",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Surgery",
+   "return_date": "2027-01-02",
+   "updated": "2026-10-16T16:11Z",
+   "comment": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports."
+  },
+  {
+   "team": "GSW",
    "player_id": "3102531",
    "player": "Kristaps Porzingis",
    "status": "out",
@@ -418,28 +440,6 @@
    "return_date": "2026-10-16",
    "updated": "2026-10-12T19:41Z",
    "comment": "Horford (rest) won't play in Tuesday's preseason game against the Lakers, per Nick Friedell of The Athletic."
-  },
-  {
-   "team": "GSW",
-   "player_id": "6430",
-   "player": "Jimmy Butler III",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Surgery",
-   "return_date": "2027-01-02",
-   "updated": "2026-10-02T18:48Z",
-   "comment": "The Warriors hope to have Butler (knee) back early in 2027, per Keith Watkins of Yahoo Sports."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4432171",
-   "player": "Moses Moody",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Surgery",
-   "return_date": "2026-12-01",
-   "updated": "2026-09-28T15:06Z",
-   "comment": "Moody has progressed to light on-court activities as he continues his recovery from a ruptured left patellar tendon, Evan Webeck of The Mercury News reports."
   },
   {
    "team": "HOU",
