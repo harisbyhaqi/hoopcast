@@ -1,0 +1,3845 @@
+{
+ "generated": "2026-10-16T12:09:54-0400",
+ "teams": {
+  "ATL": [
+   {
+    "player_id": "4278039",
+    "player": "Nickeil Alexander-Walker",
+    "position": "G",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4397003",
+    "player": "Giorgi Bezhanishvili",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "4712902",
+    "player": "Cameron Corhen",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "4869342",
+    "player": "Dyson Daniels",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4431941",
+    "player": "RayJ Dennis",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4397020",
+    "player": "Luguentz Dort",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "5106262",
+    "player": "Zuby Ejiofor",
+    "position": "F",
+    "jersey": "20"
+   },
+   {
+    "player_id": "2578185",
+    "player": "Dorian Finney-Smith",
+    "position": "F",
+    "jersey": "8"
+   },
+   {
+    "player_id": "5149077",
+    "player": "Kingston Flemings",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4585618",
+    "player": "Keshon Gilbert",
+    "position": "G",
+    "jersey": "51"
+   },
+   {
+    "player_id": "4712863",
+    "player": "Mouhamed Gueye",
+    "position": "F",
+    "jersey": "18"
+   },
+   {
+    "player_id": "4701230",
+    "player": "Jalen Johnson",
+    "position": "F",
+    "jersey": "1"
+   },
+   {
+    "player_id": "4683857",
+    "player": "Kobe Johnson",
+    "position": "G",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4280151",
+    "player": "Corey Kispert",
+    "position": "F",
+    "jersey": "24"
+   },
+   {
+    "player_id": "3146557",
+    "player": "Jock Landale",
+    "position": "C",
+    "jersey": "31"
+   },
+   {
+    "player_id": "2490149",
+    "player": "CJ McCollum",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4873201",
+    "player": "Asa Newell",
+    "position": "F",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4431680",
+    "player": "Onyeka Okongwu",
+    "position": "F",
+    "jersey": "17"
+   },
+   {
+    "player_id": "5105571",
+    "player": "Henri Veesaar",
+    "position": "C",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4397183",
+    "player": "Aaron Wiggins",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4431714",
+    "player": "Jalen Wilson",
+    "position": "F",
+    "jersey": "22"
+   }
+  ],
+  "BOS": [
+   {
+    "player_id": "4433188",
+    "player": "Devin Carter",
+    "position": "G",
+    "jersey": "99"
+   },
+   {
+    "player_id": "5142621",
+    "player": "Chris Cenac Jr.",
+    "position": "F",
+    "jersey": "12"
+   },
+   {
+    "player_id": "3195",
+    "player": "Mike Conley",
+    "position": "G",
+    "jersey": "45"
+   },
+   {
+    "player_id": "4837238",
+    "player": "Tucker DeVries",
+    "position": "F",
+    "jersey": "26"
+   },
+   {
+    "player_id": "4277951",
+    "player": "Luka Garza",
+    "position": "C",
+    "jersey": "52"
+   },
+   {
+    "player_id": "4251",
+    "player": "Paul George",
+    "position": "F",
+    "jersey": "13"
+   },
+   {
+    "player_id": "5175647",
+    "player": "Hugo Gonzalez",
+    "position": "G",
+    "jersey": "28"
+   },
+   {
+    "player_id": "5176420",
+    "player": "Hayden Gray",
+    "position": "G",
+    "jersey": "44"
+   },
+   {
+    "player_id": "4397251",
+    "player": "Ron Harper Jr.",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4065804",
+    "player": "Sam Hauser",
+    "position": "F",
+    "jersey": "30"
+   },
+   {
+    "player_id": "4398356",
+    "player": "Gabe McGlothan",
+    "position": "F",
+    "jersey": "41"
+   },
+   {
+    "player_id": "5106283",
+    "player": "Dillon Mitchell",
+    "position": "F",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4066354",
+    "player": "Payton Pritchard",
+    "position": "G",
+    "jersey": "11"
+   },
+   {
+    "player_id": "4397424",
+    "player": "Neemias Queta",
+    "position": "C",
+    "jersey": "88"
+   },
+   {
+    "player_id": "4351852",
+    "player": "Mitchell Robinson",
+    "position": "C",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4593841",
+    "player": "Baylor Scheierman",
+    "position": "G",
+    "jersey": "55"
+   },
+   {
+    "player_id": "4065648",
+    "player": "Jayson Tatum",
+    "position": "F",
+    "jersey": "0"
+   },
+   {
+    "player_id": "5106272",
+    "player": "Milos Uzan",
+    "position": "G",
+    "jersey": "29"
+   },
+   {
+    "player_id": "4683689",
+    "player": "Jordan Walsh",
+    "position": "G",
+    "jersey": "27"
+   },
+   {
+    "player_id": "3078576",
+    "player": "Derrick White",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4702745",
+    "player": "Amari Williams",
+    "position": "F",
+    "jersey": "77"
+   }
+  ],
+  "BKN": [
+   {
+    "player_id": "5105626",
+    "player": "Tyler Bilodeau",
+    "position": "F",
+    "jersey": "34"
+   },
+   {
+    "player_id": "5101761",
+    "player": "Mikel Brown Jr.",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4712896",
+    "player": "Noah Clowney",
+    "position": "F",
+    "jersey": "21"
+   },
+   {
+    "player_id": "5175643",
+    "player": "Egor Demin",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4702177",
+    "player": "Keon Ellis",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "4870564",
+    "player": "Joshua Jefferson",
+    "position": "F",
+    "jersey": "9"
+   },
+   {
+    "player_id": "5174655",
+    "player": "Chaney Johnson",
+    "position": "F",
+    "jersey": "31"
+   },
+   {
+    "player_id": "3907823",
+    "player": "Terance Mann",
+    "position": "G",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4687718",
+    "player": "Josh Minott",
+    "position": "F",
+    "jersey": "00"
+   },
+   {
+    "player_id": "4702670",
+    "player": "Grant Nelson",
+    "position": "F",
+    "jersey": "16"
+   },
+   {
+    "player_id": "4278104",
+    "player": "Michael Porter Jr.",
+    "position": "F",
+    "jersey": "17"
+   },
+   {
+    "player_id": "5037873",
+    "player": "Drake Powell",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "3064514",
+    "player": "Julius Randle",
+    "position": "F",
+    "jersey": "30"
+   },
+   {
+    "player_id": "5242502",
+    "player": "Ben Saraf",
+    "position": "G",
+    "jersey": "77"
+   },
+   {
+    "player_id": "4432194",
+    "player": "Day'Ron Sharpe",
+    "position": "C",
+    "jersey": "20"
+   },
+   {
+    "player_id": "5279130",
+    "player": "Nolan Traore",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "3150844",
+    "player": "Moritz Wagner",
+    "position": "C",
+    "jersey": "13"
+   },
+   {
+    "player_id": "5107173",
+    "player": "Danny Wolf",
+    "position": "F",
+    "jersey": "2"
+   }
+  ],
+  "CHA": [
+   {
+    "player_id": "3135045",
+    "player": "Grayson Allen",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "5060701",
+    "player": "Christian Anderson",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4684269",
+    "player": "Kylan Boswell",
+    "position": "G",
+    "jersey": "18"
+   },
+   {
+    "player_id": "2578239",
+    "player": "Pat Connaughton",
+    "position": "G",
+    "jersey": "21"
+   },
+   {
+    "player_id": "4433249",
+    "player": "Moussa Diabate",
+    "position": "F",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4897504",
+    "player": "Wyatt Fricks",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "4701225",
+    "player": "PJ Hall",
+    "position": "C",
+    "jersey": "16"
+   },
+   {
+    "player_id": "4602025",
+    "player": "Sion James",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4278729",
+    "player": "Jarkel Joiner",
+    "position": "G",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4576060",
+    "player": "Ryan Kalkbrenner",
+    "position": "C",
+    "jersey": "11"
+   },
+   {
+    "player_id": "5061575",
+    "player": "Kon Knueppel",
+    "position": "G",
+    "jersey": "7"
+   },
+   {
+    "player_id": "5239590",
+    "player": "Liam McNeeley",
+    "position": "G",
+    "jersey": "33"
+   },
+   {
+    "player_id": "4433287",
+    "player": "Brandon Miller",
+    "position": "F",
+    "jersey": "24"
+   },
+   {
+    "player_id": "2583632",
+    "player": "Royce O'Neale",
+    "position": "F",
+    "jersey": "00"
+   },
+   {
+    "player_id": "4396971",
+    "player": "Naz Reid",
+    "position": "C",
+    "jersey": "0"
+   },
+   {
+    "player_id": "5211176",
+    "player": "Tidjane Salaun",
+    "position": "F",
+    "jersey": "31"
+   },
+   {
+    "player_id": "3032979",
+    "player": "Dennis Schroder",
+    "position": "G",
+    "jersey": "17"
+   },
+   {
+    "player_id": "5281370",
+    "player": "Hannes Steinbach",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "4395651",
+    "player": "Coby White",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4066218",
+    "player": "Grant Williams",
+    "position": "F",
+    "jersey": "2"
+   }
+  ],
+  "CHI": [
+   {
+    "player_id": "5105555",
+    "player": "Tobe Awaka",
+    "position": "F",
+    "jersey": "19"
+   },
+   {
+    "player_id": "4432162",
+    "player": "Brandon Boston Jr.",
+    "position": "G",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4432946",
+    "player": "Jalen Bridges",
+    "position": "F",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4711294",
+    "player": "Matas Buzelis",
+    "position": "F",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4278067",
+    "player": "Nic Claxton",
+    "position": "C",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4066650",
+    "player": "Zach Collins",
+    "position": "F",
+    "jersey": "12"
+   },
+   {
+    "player_id": "5242496",
+    "player": "Noa Essengue",
+    "position": "F",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4871145",
+    "player": "Josh Giddey",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4683750",
+    "player": "Jordan Hawkins",
+    "position": "G",
+    "jersey": "15"
+   },
+   {
+    "player_id": "2990984",
+    "player": "Buddy Hield",
+    "position": "G",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4395626",
+    "player": "Tre Jones",
+    "position": "G",
+    "jersey": "30"
+   },
+   {
+    "player_id": "5044385",
+    "player": "Leonard Miller",
+    "position": "F",
+    "jersey": "11"
+   },
+   {
+    "player_id": "4432822",
+    "player": "Isaac Okoro",
+    "position": "F",
+    "jersey": "35"
+   },
+   {
+    "player_id": "4397689",
+    "player": "Drew Peterson",
+    "position": "F",
+    "jersey": "21"
+   },
+   {
+    "player_id": "2595516",
+    "player": "Norman Powell",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "4593049",
+    "player": "Orlando Robinson",
+    "position": "C",
+    "jersey": "00"
+   },
+   {
+    "player_id": "4898010",
+    "player": "Jaylin Sellers",
+    "position": "G",
+    "jersey": "22"
+   },
+   {
+    "player_id": "4397189",
+    "player": "Jalen Smith",
+    "position": "F",
+    "jersey": "25"
+   },
+   {
+    "player_id": "4432117",
+    "player": "Isaiah Stevens",
+    "position": "G",
+    "jersey": "99"
+   },
+   {
+    "player_id": "4848625",
+    "player": "Dailyn Swain",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4431687",
+    "player": "Patrick Williams",
+    "position": "F",
+    "jersey": "44"
+   },
+   {
+    "player_id": "5095151",
+    "player": "Caleb Wilson",
+    "position": "F",
+    "jersey": "8"
+   }
+  ],
+  "CLE": [
+   {
+    "player_id": "4593815",
+    "player": "Rashaun Agee",
+    "position": "F",
+    "jersey": "19"
+   },
+   {
+    "player_id": "4066328",
+    "player": "Jarrett Allen",
+    "position": "C",
+    "jersey": "31"
+   },
+   {
+    "player_id": "4702099",
+    "player": "Zack Austin",
+    "position": "F",
+    "jersey": "55"
+   },
+   {
+    "player_id": "3934723",
+    "player": "Thomas Bryant",
+    "position": "C",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4997530",
+    "player": "Khalifa Diop",
+    "position": "C",
+    "jersey": "18"
+   },
+   {
+    "player_id": "4431734",
+    "player": "Tristan Enaruna",
+    "position": "F",
+    "jersey": "21"
+   },
+   {
+    "player_id": "3992",
+    "player": "James Harden",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "2995706",
+    "player": "Mario Hezonja",
+    "position": "F",
+    "jersey": "33"
+   },
+   {
+    "player_id": "4898369",
+    "player": "Curtis Jones",
+    "position": "G",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4066757",
+    "player": "Sam Merrill",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "5177362",
+    "player": "Riley Minix",
+    "position": "F",
+    "jersey": "12"
+   },
+   {
+    "player_id": "3908809",
+    "player": "Donovan Mitchell",
+    "position": "G",
+    "jersey": "45"
+   },
+   {
+    "player_id": "4432158",
+    "player": "Evan Mobley",
+    "position": "C",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4701233",
+    "player": "Craig Porter Jr.",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "5023693",
+    "player": "Tyrese Proctor",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "4701845",
+    "player": "Kadary Richmond",
+    "position": "G",
+    "jersey": "16"
+   },
+   {
+    "player_id": "5041951",
+    "player": "Meleek Thomas",
+    "position": "G",
+    "jersey": "15"
+   },
+   {
+    "player_id": "5106268",
+    "player": "Nae'Qwan Tomlin",
+    "position": "F",
+    "jersey": "35"
+   },
+   {
+    "player_id": "4683747",
+    "player": "Jaylon Tyson",
+    "position": "G",
+    "jersey": "20"
+   },
+   {
+    "player_id": "5106261",
+    "player": "Ernest Udeh Jr.",
+    "position": "C",
+    "jersey": "39"
+   },
+   {
+    "player_id": "4576087",
+    "player": "Peyton Watson",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "5457832",
+    "player": "Noam Yaacov",
+    "position": "G",
+    "jersey": "30"
+   }
+  ],
+  "DAL": [
+   {
+    "player_id": "4593125",
+    "player": "Santi Aldama",
+    "position": "F",
+    "jersey": "34"
+   },
+   {
+    "player_id": "5148538",
+    "player": "Tarik Biberovic",
+    "position": "F",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4432582",
+    "player": "Max Christie",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4701208",
+    "player": "Moussa Cisse",
+    "position": "C",
+    "jersey": "30"
+   },
+   {
+    "player_id": "5279129",
+    "player": "Sergio de Larrea",
+    "position": "F",
+    "jersey": "55"
+   },
+   {
+    "player_id": "5105411",
+    "player": "Jorge Diaz Graham",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "5041939",
+    "player": "Cooper Flagg",
+    "position": "F",
+    "jersey": "32"
+   },
+   {
+    "player_id": "4278049",
+    "player": "Daniel Gafford",
+    "position": "F",
+    "jersey": "21"
+   },
+   {
+    "player_id": "5105806",
+    "player": "Jett Howard",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "6442",
+    "player": "Kyrie Irving",
+    "position": "G",
+    "jersey": "11"
+   },
+   {
+    "player_id": "4873153",
+    "player": "Morez Johnson Jr.",
+    "position": "F",
+    "jersey": "14"
+   },
+   {
+    "player_id": "5106040",
+    "player": "Tobi Lawal",
+    "position": "F",
+    "jersey": "33"
+   },
+   {
+    "player_id": "4683688",
+    "player": "Dereck Lively II",
+    "position": "C",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4431775",
+    "player": "Seth Lundy",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4278594",
+    "player": "Naji Marshall",
+    "position": "F",
+    "jersey": "3"
+   },
+   {
+    "player_id": "3138160",
+    "player": "Caleb Martin",
+    "position": "F",
+    "jersey": "16"
+   },
+   {
+    "player_id": "4898238",
+    "player": "John Poulakidas",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "2531367",
+    "player": "Dwight Powell",
+    "position": "F",
+    "jersey": "7"
+   },
+   {
+    "player_id": "5211175",
+    "player": "Zaccharie Risacher",
+    "position": "F",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4432107",
+    "player": "Marcus Sasser",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4278078",
+    "player": "P.J. Washington",
+    "position": "F",
+    "jersey": "25"
+   }
+  ],
+  "DEN": [
+   {
+    "player_id": "4277848",
+    "player": "Marvin Bagley III",
+    "position": "F",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4431767",
+    "player": "Christian Braun",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4698719",
+    "player": "Trevon Brazile",
+    "position": "F",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4588201",
+    "player": "Steven Crowl",
+    "position": "C",
+    "jersey": ""
+   },
+   {
+    "player_id": "3978",
+    "player": "DeMar DeRozan",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4065813",
+    "player": "Alpha Diallo",
+    "position": "F",
+    "jersey": "11"
+   },
+   {
+    "player_id": "4395667",
+    "player": "Dane Goodwin",
+    "position": "G",
+    "jersey": "20"
+   },
+   {
+    "player_id": "3064290",
+    "player": "Aaron Gordon",
+    "position": "F",
+    "jersey": "32"
+   },
+   {
+    "player_id": "4432976",
+    "player": "Coleman Hawkins",
+    "position": "F",
+    "jersey": "43"
+   },
+   {
+    "player_id": "4433607",
+    "player": "DaRon Holmes II",
+    "position": "F",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4565698",
+    "player": "Bryce Hopkins",
+    "position": "F",
+    "jersey": "13"
+   },
+   {
+    "player_id": "3138196",
+    "player": "Cameron Johnson",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "3112335",
+    "player": "Nikola Jokic",
+    "position": "C",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4592427",
+    "player": "Spencer Jones",
+    "position": "F",
+    "jersey": "21"
+   },
+   {
+    "player_id": "3135046",
+    "player": "Tyus Jones",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4432872",
+    "player": "Emanuel Miller",
+    "position": "F",
+    "jersey": "8"
+   },
+   {
+    "player_id": "3936299",
+    "player": "Jamal Murray",
+    "position": "G",
+    "jersey": "27"
+   },
+   {
+    "player_id": "4433629",
+    "player": "Ryan Nembhard",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4431690",
+    "player": "Zeke Nnaji",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "4432181",
+    "player": "Julian Strawther",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "4277890",
+    "player": "Lonnie Walker IV",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "5105592",
+    "player": "Cam Whitmore",
+    "position": "F",
+    "jersey": "00"
+   }
+  ],
+  "DET": [
+   {
+    "player_id": "3908845",
+    "player": "John Collins",
+    "position": "F",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4432166",
+    "player": "Cade Cunningham",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4433621",
+    "player": "Jalen Duren",
+    "position": "C",
+    "jersey": "0"
+   },
+   {
+    "player_id": "2596112",
+    "player": "Javonte Green",
+    "position": "G",
+    "jersey": "31"
+   },
+   {
+    "player_id": "4397449",
+    "player": "Elijah Harkless",
+    "position": "G",
+    "jersey": "94"
+   },
+   {
+    "player_id": "4683771",
+    "player": "Ronald Holland II",
+    "position": "F",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4066372",
+    "player": "Kevin Huerter",
+    "position": "G",
+    "jersey": "27"
+   },
+   {
+    "player_id": "5107199",
+    "player": "Daniss Jenkins",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "4395702",
+    "player": "Isaiah Joe",
+    "position": "G",
+    "jersey": "17"
+   },
+   {
+    "player_id": "5107818",
+    "player": "Isaac Jones",
+    "position": "C",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4700852",
+    "player": "Chaz Lanier",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "5258459",
+    "player": "Ebuka Okorie",
+    "position": "G",
+    "jersey": "23"
+   },
+   {
+    "player_id": "5037878",
+    "player": "Ugonna Onyenso",
+    "position": "C",
+    "jersey": "34"
+   },
+   {
+    "player_id": "2990962",
+    "player": "Taurean Prince",
+    "position": "F",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4278562",
+    "player": "Paul Reed",
+    "position": "F",
+    "jersey": "7"
+   },
+   {
+    "player_id": "3157465",
+    "player": "Duncan Robinson",
+    "position": "F",
+    "jersey": "55"
+   },
+   {
+    "player_id": "4397882",
+    "player": "Tolu Smith",
+    "position": "F",
+    "jersey": "35"
+   },
+   {
+    "player_id": "4684742",
+    "player": "Ausar Thompson",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4592843",
+    "player": "Brice Williams",
+    "position": "F",
+    "jersey": "25"
+   }
+  ],
+  "GSW": [
+   {
+    "player_id": "4397886",
+    "player": "Charles Bassey",
+    "position": "C",
+    "jersey": "28"
+   },
+   {
+    "player_id": "4431914",
+    "player": "Tyler Burton",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "6430",
+    "player": "Jimmy Butler III",
+    "position": "F",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4433149",
+    "player": "LJ Cryer",
+    "position": "G",
+    "jersey": "18"
+   },
+   {
+    "player_id": "3975",
+    "player": "Stephen Curry",
+    "position": "G",
+    "jersey": "30"
+   },
+   {
+    "player_id": "6589",
+    "player": "Draymond Green",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "3213",
+    "player": "Al Horford",
+    "position": "C",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4703396",
+    "player": "Graham Ike",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "5175737",
+    "player": "Yaxel Lendeborg",
+    "position": "F",
+    "jersey": "1"
+   },
+   {
+    "player_id": "4897449",
+    "player": "Malevy Leons",
+    "position": "F",
+    "jersey": "33"
+   },
+   {
+    "player_id": "4066436",
+    "player": "De'Anthony Melton",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4432171",
+    "player": "Moses Moody",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "2990969",
+    "player": "Georges Niang",
+    "position": "F",
+    "jersey": "32"
+   },
+   {
+    "player_id": "3134903",
+    "player": "Gary Payton II",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4709138",
+    "player": "Brandin Podziemski",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "3102531",
+    "player": "Kristaps Porzingis",
+    "position": "C",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4897262",
+    "player": "Will Richard",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4997536",
+    "player": "Gui Santos",
+    "position": "F",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4433159",
+    "player": "Dalen Terry",
+    "position": "G",
+    "jersey": "21"
+   },
+   {
+    "player_id": "5170949",
+    "player": "Alex Toohey",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "4397040",
+    "player": "Brandon Williams",
+    "position": "G",
+    "jersey": "12"
+   }
+  ],
+  "HOU": [
+   {
+    "player_id": "2991235",
+    "player": "Steven Adams",
+    "position": "C",
+    "jersey": "12"
+   },
+   {
+    "player_id": "3037789",
+    "player": "Bogdan Bogdanovic",
+    "position": "G",
+    "jersey": "31"
+   },
+   {
+    "player_id": "3102529",
+    "player": "Clint Capela",
+    "position": "C",
+    "jersey": "30"
+   },
+   {
+    "player_id": "4683860",
+    "player": "Quadir Copeland",
+    "position": "G",
+    "jersey": "25"
+   },
+   {
+    "player_id": "4592857",
+    "player": "Isaiah Crawford",
+    "position": "F",
+    "jersey": "27"
+   },
+   {
+    "player_id": "3202",
+    "player": "Kevin Durant",
+    "position": "F",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4433192",
+    "player": "Tari Eason",
+    "position": "F",
+    "jersey": "17"
+   },
+   {
+    "player_id": "4432394",
+    "player": "Cameron Matthews",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "4709131",
+    "player": "Sean Pedulla",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "5105553",
+    "player": "Julian Phillips",
+    "position": "F",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4871144",
+    "player": "Alperen Sengun",
+    "position": "C",
+    "jersey": "28"
+   },
+   {
+    "player_id": "4711272",
+    "player": "Reed Sheppard",
+    "position": "G",
+    "jersey": "15"
+   },
+   {
+    "player_id": "2990992",
+    "player": "Marcus Smart",
+    "position": "G",
+    "jersey": "36"
+   },
+   {
+    "player_id": "4432639",
+    "player": "Jabari Smith Jr.",
+    "position": "F",
+    "jersey": "10"
+   },
+   {
+    "player_id": "3136777",
+    "player": "Jae'Sean Tate",
+    "position": "F",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4684740",
+    "player": "Amen Thompson",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "5105837",
+    "player": "Bruce Thornton",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4432827",
+    "player": "Oscar Tshiebwe",
+    "position": "C",
+    "jersey": "9"
+   },
+   {
+    "player_id": "2991230",
+    "player": "Fred VanVleet",
+    "position": "G",
+    "jersey": "5"
+   }
+  ],
+  "IND": [
+   {
+    "player_id": "4431752",
+    "player": "Kobe Brown",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "5157066",
+    "player": "Johnny Furphy",
+    "position": "G",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4396993",
+    "player": "Tyrese Haliburton",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4065731",
+    "player": "Jay Huff",
+    "position": "C",
+    "jersey": "32"
+   },
+   {
+    "player_id": "4592829",
+    "player": "Quenton Jackson",
+    "position": "G",
+    "jersey": "29"
+   },
+   {
+    "player_id": "3999",
+    "player": "James Johnson",
+    "position": "F",
+    "jersey": "16"
+   },
+   {
+    "player_id": "2530530",
+    "player": "T.J. McConnell",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "2580365",
+    "player": "Larry Nance Jr.",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "4395712",
+    "player": "Andrew Nembhard",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4396909",
+    "player": "Aaron Nesmith",
+    "position": "G",
+    "jersey": "23"
+   },
+   {
+    "player_id": "3133603",
+    "player": "Kelly Oubre Jr.",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4433076",
+    "player": "Ben Sheppard",
+    "position": "G",
+    "jersey": "26"
+   },
+   {
+    "player_id": "3149673",
+    "player": "Pascal Siakam",
+    "position": "F",
+    "jersey": "43"
+   },
+   {
+    "player_id": "4398207",
+    "player": "Jalen Slawson",
+    "position": "F",
+    "jersey": "18"
+   },
+   {
+    "player_id": "5105854",
+    "player": "Braden Smith",
+    "position": "G",
+    "jersey": "18"
+   },
+   {
+    "player_id": "4278355",
+    "player": "Obi Toppin",
+    "position": "F",
+    "jersey": "1"
+   },
+   {
+    "player_id": "5106060",
+    "player": "Jarace Walker",
+    "position": "F",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4017837",
+    "player": "Ivica Zubac",
+    "position": "C",
+    "jersey": "40"
+   }
+  ],
+  "LAC": [
+   {
+    "player_id": "6580",
+    "player": "Bradley Beal",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4845363",
+    "player": "Cam Christie",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "5106258",
+    "player": "Gradey Dick",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "2991139",
+    "player": "Kris Dunn",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4396907",
+    "player": "Darius Garland",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4066648",
+    "player": "Rui Hachimura",
+    "position": "F",
+    "jersey": "28"
+   },
+   {
+    "player_id": "3913176",
+    "player": "Brandon Ingram",
+    "position": "F",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4432170",
+    "player": "Isaiah Jackson",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "3936099",
+    "player": "Derrick Jones Jr.",
+    "position": "F",
+    "jersey": "5"
+   },
+   {
+    "player_id": "5159895",
+    "player": "Yuki Kawamura",
+    "position": "G",
+    "jersey": "17"
+   },
+   {
+    "player_id": "3448",
+    "player": "Brook Lopez",
+    "position": "C",
+    "jersey": "11"
+   },
+   {
+    "player_id": "5105853",
+    "player": "Fletcher Loyer",
+    "position": "G",
+    "jersey": "26"
+   },
+   {
+    "player_id": "5105832",
+    "player": "Nick Martinelli",
+    "position": "F",
+    "jersey": "12"
+   },
+   {
+    "player_id": "5075626",
+    "player": "Baba Miller",
+    "position": "F",
+    "jersey": "18"
+   },
+   {
+    "player_id": "4396818",
+    "player": "Jordan Miller",
+    "position": "G",
+    "jersey": "22"
+   },
+   {
+    "player_id": "5108024",
+    "player": "Yanic Konan Niederhauser",
+    "position": "C",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4398390",
+    "player": "Jalen Pickett",
+    "position": "G",
+    "jersey": "21"
+   },
+   {
+    "player_id": "4702352",
+    "player": "Kobe Sanders",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4065778",
+    "player": "Max Strus",
+    "position": "G",
+    "jersey": "31"
+   },
+   {
+    "player_id": "4702785",
+    "player": "Jahmyl Telfort",
+    "position": "F",
+    "jersey": "19"
+   },
+   {
+    "player_id": "5254165",
+    "player": "Keaton Wagler",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "4683935",
+    "player": "Blake Wesley",
+    "position": "G",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4397355",
+    "player": "DeAndre Williams",
+    "position": "F",
+    "jersey": ""
+   }
+  ],
+  "LAL": [
+   {
+    "player_id": "5113969",
+    "player": "Cameron Carr",
+    "position": "G",
+    "jersey": "43"
+   },
+   {
+    "player_id": "4684443",
+    "player": "Rafael Castro",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "3945274",
+    "player": "Luka Doncic",
+    "position": "G",
+    "jersey": "77"
+   },
+   {
+    "player_id": "4397014",
+    "player": "Quentin Grimes",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4868423",
+    "player": "Jaden Hardy",
+    "position": "G",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4683774",
+    "player": "Bronny James",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4433599",
+    "player": "Arthur Kaluma",
+    "position": "F",
+    "jersey": "47"
+   },
+   {
+    "player_id": "4433136",
+    "player": "Walker Kessler",
+    "position": "C",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4897943",
+    "player": "Dalton Knecht",
+    "position": "F",
+    "jersey": "4"
+   },
+   {
+    "player_id": "5107258",
+    "player": "William Kyle III",
+    "position": "F",
+    "jersey": "45"
+   },
+   {
+    "player_id": "4592691",
+    "player": "Jake LaRavia",
+    "position": "F",
+    "jersey": "12"
+   },
+   {
+    "player_id": "3155535",
+    "player": "Kevon Looney",
+    "position": "F",
+    "jersey": "55"
+   },
+   {
+    "player_id": "4278580",
+    "player": "Sandro Mamukelashvili",
+    "position": "F",
+    "jersey": "54"
+   },
+   {
+    "player_id": "4702972",
+    "player": "Chris Manon",
+    "position": "G",
+    "jersey": "30"
+   },
+   {
+    "player_id": "5114350",
+    "player": "AK Okereke",
+    "position": "F",
+    "jersey": "31"
+   },
+   {
+    "player_id": "4066457",
+    "player": "Austin Reaves",
+    "position": "G",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4277811",
+    "player": "Collin Sexton",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "5060631",
+    "player": "Adou Thiero",
+    "position": "F",
+    "jersey": "1"
+   },
+   {
+    "player_id": "3907498",
+    "player": "Matisse Thybulle",
+    "position": "G",
+    "jersey": "26"
+   },
+   {
+    "player_id": "4278077",
+    "player": "Jarred Vanderbilt",
+    "position": "F",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4433137",
+    "player": "Ziaire Williams",
+    "position": "F",
+    "jersey": "11"
+   }
+  ],
+  "MEM": [
+   {
+    "player_id": "5041935",
+    "player": "Cameron Boozer",
+    "position": "F",
+    "jersey": "27"
+   },
+   {
+    "player_id": "4896372",
+    "player": "Walter Clayton Jr.",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "5105817",
+    "player": "Carson Cooper",
+    "position": "C",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4903027",
+    "player": "Cedric Coward",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "4600663",
+    "player": "Zach Edey",
+    "position": "C",
+    "jersey": "14"
+   },
+   {
+    "player_id": "2991070",
+    "player": "Jerami Grant",
+    "position": "F",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4684806",
+    "player": "Taylor Hendricks",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "5105550",
+    "player": "GG Jackson",
+    "position": "F",
+    "jersey": "45"
+   },
+   {
+    "player_id": "4065733",
+    "player": "Ty Jerome",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "5231919",
+    "player": "Karim Lopez",
+    "position": "F",
+    "jersey": "35"
+   },
+   {
+    "player_id": "4683934",
+    "player": "Jahmai Mashack",
+    "position": "G",
+    "jersey": "21"
+   },
+   {
+    "player_id": "4594326",
+    "player": "Kris Murray",
+    "position": "F",
+    "jersey": "17"
+   },
+   {
+    "player_id": "4432185",
+    "player": "Micah Peavy",
+    "position": "G",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4431785",
+    "player": "Scotty Pippen Jr.",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "4593016",
+    "player": "Quinten Post",
+    "position": "C",
+    "jersey": "41"
+   },
+   {
+    "player_id": "4595400",
+    "player": "Olivier-Maxence Prosper",
+    "position": "F",
+    "jersey": "18"
+   },
+   {
+    "player_id": "4781746",
+    "player": "Javon Small",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4433083",
+    "player": "Cam Spencer",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "4432810",
+    "player": "Isaiah Stewart",
+    "position": "C",
+    "jersey": "28"
+   },
+   {
+    "player_id": "5112087",
+    "player": "Jaylen Wells",
+    "position": "F",
+    "jersey": "0"
+   }
+  ],
+  "MIA": [
+   {
+    "player_id": "4066261",
+    "player": "Bam Adebayo",
+    "position": "C",
+    "jersey": "13"
+   },
+   {
+    "player_id": "3032977",
+    "player": "Giannis Antetokounmpo",
+    "position": "F",
+    "jersey": "7"
+   },
+   {
+    "player_id": "5107157",
+    "player": "Ryan Conwell",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4837356",
+    "player": "Tre Donaldson",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "3899664",
+    "player": "Simone Fontecchio",
+    "position": "F",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4431772",
+    "player": "Myron Gardner",
+    "position": "F",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4700818",
+    "player": "Vladislav Goldin",
+    "position": "C",
+    "jersey": "50"
+   },
+   {
+    "player_id": "4702784",
+    "player": "J'Vonne Hadley",
+    "position": "F",
+    "jersey": "14"
+   },
+   {
+    "player_id": "2528210",
+    "player": "Tim Hardaway Jr.",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4431786",
+    "player": "Keshad Johnson",
+    "position": "F",
+    "jersey": "16"
+   },
+   {
+    "player_id": "4997528",
+    "player": "Nikola Jovic",
+    "position": "F",
+    "jersey": "5"
+   },
+   {
+    "player_id": "3950760",
+    "player": "Kylor Kelley",
+    "position": "C",
+    "jersey": ""
+   },
+   {
+    "player_id": "4601025",
+    "player": "Pelle Larsson",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4432753",
+    "player": "Gabe Madsen",
+    "position": "G",
+    "jersey": ""
+   },
+   {
+    "player_id": "4898237",
+    "player": "Bez Mbeng",
+    "position": "G",
+    "jersey": "19"
+   },
+   {
+    "player_id": "4278053",
+    "player": "Davion Mitchell",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "3064482",
+    "player": "Bobby Portis",
+    "position": "F",
+    "jersey": "95"
+   },
+   {
+    "player_id": "4431720",
+    "player": "Lester Quinones",
+    "position": "G",
+    "jersey": "25"
+   },
+   {
+    "player_id": "4278076",
+    "player": "Nick Richards",
+    "position": "C",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4693954",
+    "player": "Ian Schieffelin",
+    "position": "F",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4066993",
+    "player": "Dru Smith",
+    "position": "G",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4065697",
+    "player": "Dennis Smith Jr.",
+    "position": "G",
+    "jersey": ""
+   },
+   {
+    "player_id": "6475",
+    "player": "Klay Thompson",
+    "position": "G",
+    "jersey": "11"
+   },
+   {
+    "player_id": "3059319",
+    "player": "Andrew Wiggins",
+    "position": "F",
+    "jersey": "22"
+   }
+  ],
+  "MIL": [
+   {
+    "player_id": "5164559",
+    "player": "Nate Ament",
+    "position": "F",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4433569",
+    "player": "Johni Broome",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "5082206",
+    "player": "Brayden Burries",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4432588",
+    "player": "John Butler Jr.",
+    "position": "F",
+    "jersey": "27"
+   },
+   {
+    "player_id": "4997526",
+    "player": "Ousmane Dieng",
+    "position": "F",
+    "jersey": "21"
+   },
+   {
+    "player_id": "4397475",
+    "player": "AJ Green",
+    "position": "G",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4395725",
+    "player": "Tyler Herro",
+    "position": "G",
+    "jersey": "11"
+   },
+   {
+    "player_id": "5214640",
+    "player": "Kasparas Jakucionis",
+    "position": "G",
+    "jersey": "25"
+   },
+   {
+    "player_id": "4432848",
+    "player": "Jaime Jaquez Jr.",
+    "position": "F",
+    "jersey": "24"
+   },
+   {
+    "player_id": "4697268",
+    "player": "Kam Jones",
+    "position": "G",
+    "jersey": "19"
+   },
+   {
+    "player_id": "3134907",
+    "player": "Kyle Kuzma",
+    "position": "F",
+    "jersey": "18"
+   },
+   {
+    "player_id": "2991043",
+    "player": "Caris LeVert",
+    "position": "G",
+    "jersey": "12"
+   },
+   {
+    "player_id": "5214989",
+    "player": "Bogoljub Markovic",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "4397233",
+    "player": "Pete Nance",
+    "position": "F",
+    "jersey": "35"
+   },
+   {
+    "player_id": "4397140",
+    "player": "Kevin Porter Jr.",
+    "position": "G",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4591725",
+    "player": "Ryan Rollins",
+    "position": "G",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4397114",
+    "player": "Cormac Ryan",
+    "position": "G",
+    "jersey": "30"
+   },
+   {
+    "player_id": "4277922",
+    "player": "Jericho Sims",
+    "position": "C",
+    "jersey": "00"
+   },
+   {
+    "player_id": "4398257",
+    "player": "Jake Stephens",
+    "position": "C",
+    "jersey": "88"
+   },
+   {
+    "player_id": "4277843",
+    "player": "Gary Trent Jr.",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "3133628",
+    "player": "Myles Turner",
+    "position": "C",
+    "jersey": "3"
+   },
+   {
+    "player_id": "5105623",
+    "player": "Kel'el Ware",
+    "position": "C",
+    "jersey": "9"
+   }
+  ],
+  "MIN": [
+   {
+    "player_id": "4432816",
+    "player": "LaMelo Ball",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "5279133",
+    "player": "Joan Beringer",
+    "position": "F",
+    "jersey": "19"
+   },
+   {
+    "player_id": "4432247",
+    "player": "Jaylen Clark",
+    "position": "G",
+    "jersey": "7"
+   },
+   {
+    "player_id": "3934673",
+    "player": "Donte DiVincenzo",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4397002",
+    "player": "Ayo Dosunmu",
+    "position": "G",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4594268",
+    "player": "Anthony Edwards",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "5061585",
+    "player": "Isaiah Evans",
+    "position": "F",
+    "jersey": "33"
+   },
+   {
+    "player_id": "4592699",
+    "player": "Enrique Freeman",
+    "position": "F",
+    "jersey": "25"
+   },
+   {
+    "player_id": "3032976",
+    "player": "Rudy Gobert",
+    "position": "C",
+    "jersey": "27"
+   },
+   {
+    "player_id": "4592492",
+    "player": "Bones Hyland",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4433247",
+    "player": "Jonathan Kuminga",
+    "position": "F",
+    "jersey": "24"
+   },
+   {
+    "player_id": "3136196",
+    "player": "Trey Lyles",
+    "position": "F",
+    "jersey": "41"
+   },
+   {
+    "player_id": "4431828",
+    "player": "KJ Martin",
+    "position": "F",
+    "jersey": "99"
+   },
+   {
+    "player_id": "4431671",
+    "player": "Jaden McDaniels",
+    "position": "F",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4702134",
+    "player": "Norchad Omier",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "4592979",
+    "player": "Zyon Pullin",
+    "position": "G",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4592686",
+    "player": "Antonio Reeves",
+    "position": "G",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4432847",
+    "player": "Terrence Shannon Jr.",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4431695",
+    "player": "Drew Timme",
+    "position": "F",
+    "jersey": "17"
+   },
+   {
+    "player_id": "4895758",
+    "player": "Cody Williams",
+    "position": "F",
+    "jersey": "9"
+   },
+   {
+    "player_id": "5157587",
+    "player": "Rocco Zikarsky",
+    "position": "C",
+    "jersey": "44"
+   }
+  ],
+  "NOP": [
+   {
+    "player_id": "4397136",
+    "player": "Saddiq Bey",
+    "position": "G",
+    "jersey": "41"
+   },
+   {
+    "player_id": "4683736",
+    "player": "Kobe Bufkin",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4712862",
+    "player": "Malik Dia",
+    "position": "F",
+    "jersey": "8"
+   },
+   {
+    "player_id": "5144091",
+    "player": "Jeremiah Fears",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4433623",
+    "player": "Caleb Houstan",
+    "position": "F",
+    "jersey": "33"
+   },
+   {
+    "player_id": "5170947",
+    "player": "AJ Johnson",
+    "position": "G",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4277813",
+    "player": "Herbert Jones",
+    "position": "F",
+    "jersey": "2"
+   },
+   {
+    "player_id": "3442",
+    "player": "DeAndre Jordan",
+    "position": "C",
+    "jersey": "6"
+   },
+   {
+    "player_id": "4431778",
+    "player": "Christian Koloko",
+    "position": "C",
+    "jersey": "35"
+   },
+   {
+    "player_id": "4683634",
+    "player": "Bennedict Mathurin",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "4997538",
+    "player": "Karlo Matkovic",
+    "position": "F",
+    "jersey": "17"
+   },
+   {
+    "player_id": "4576086",
+    "player": "Bryce McGowens",
+    "position": "G",
+    "jersey": "11"
+   },
+   {
+    "player_id": "5061589",
+    "player": "Yves Missi",
+    "position": "C",
+    "jersey": "21"
+   },
+   {
+    "player_id": "4701819",
+    "player": "Jalon Moore",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "4397688",
+    "player": "Trey Murphy III",
+    "position": "F",
+    "jersey": "25"
+   },
+   {
+    "player_id": "3907497",
+    "player": "Dejounte Murray",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4703115",
+    "player": "Jaron Pierre Jr.",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4277956",
+    "player": "Jordan Poole",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4869780",
+    "player": "Derik Queen",
+    "position": "C",
+    "jersey": "22"
+   },
+   {
+    "player_id": "4683742",
+    "player": "Julian Reese",
+    "position": "F",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4431675",
+    "player": "Trendon Watford",
+    "position": "F",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4395628",
+    "player": "Zion Williamson",
+    "position": "F",
+    "jersey": "1"
+   }
+  ],
+  "NYK": [
+   {
+    "player_id": "4397018",
+    "player": "Ochai Agbaji",
+    "position": "G",
+    "jersey": "30"
+   },
+   {
+    "player_id": "4683730",
+    "player": "Jaden Akins",
+    "position": "G",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4277869",
+    "player": "Jose Alvarado",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "3934719",
+    "player": "OG Anunoby",
+    "position": "F",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4065673",
+    "player": "Tony Bradley",
+    "position": "C",
+    "jersey": "18"
+   },
+   {
+    "player_id": "3147657",
+    "player": "Mikal Bridges",
+    "position": "G",
+    "jersey": "25"
+   },
+   {
+    "player_id": "4065670",
+    "player": "Bruce Brown",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "3934672",
+    "player": "Jalen Brunson",
+    "position": "G",
+    "jersey": "11"
+   },
+   {
+    "player_id": "2528426",
+    "player": "Jordan Clarkson",
+    "position": "G",
+    "jersey": "00"
+   },
+   {
+    "player_id": "5211983",
+    "player": "Pacome Dadiet",
+    "position": "F",
+    "jersey": "4"
+   },
+   {
+    "player_id": "5289900",
+    "player": "Mohamed Diawara",
+    "position": "F",
+    "jersey": "51"
+   },
+   {
+    "player_id": "6585",
+    "player": "Andre Drummond",
+    "position": "C",
+    "jersey": "0"
+   },
+   {
+    "player_id": "3914285",
+    "player": "Drew Eubanks",
+    "position": "F",
+    "jersey": "19"
+   },
+   {
+    "player_id": "3062679",
+    "player": "Josh Hart",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4433225",
+    "player": "Tyler Kolek",
+    "position": "G",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4431823",
+    "player": "Miles McBride",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4411057",
+    "player": "Kevin McCullar Jr.",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4838721",
+    "player": "Tyler Nickel",
+    "position": "F",
+    "jersey": "55"
+   },
+   {
+    "player_id": "3914044",
+    "player": "Landry Shamet",
+    "position": "G",
+    "jersey": "44"
+   },
+   {
+    "player_id": "3136195",
+    "player": "Karl-Anthony Towns",
+    "position": "C",
+    "jersey": "32"
+   },
+   {
+    "player_id": "4432808",
+    "player": "James Wiseman",
+    "position": "C",
+    "jersey": "35"
+   }
+  ],
+  "OKC": [
+   {
+    "player_id": "4684208",
+    "player": "Brooks Barnhizer",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "2991350",
+    "player": "Alex Caruso",
+    "position": "G",
+    "jersey": "9"
+   },
+   {
+    "player_id": "5105800",
+    "player": "Josh Dix",
+    "position": "G",
+    "jersey": "21"
+   },
+   {
+    "player_id": "4278073",
+    "player": "Shai Gilgeous-Alexander",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4222252",
+    "player": "Isaiah Hartenstein",
+    "position": "C",
+    "jersey": "55"
+   },
+   {
+    "player_id": "5116468",
+    "player": "Andrew Holifield",
+    "position": "F",
+    "jersey": "17"
+   },
+   {
+    "player_id": "4433255",
+    "player": "Chet Holmgren",
+    "position": "C",
+    "jersey": "7"
+   },
+   {
+    "player_id": "5174983",
+    "player": "Aday Mara",
+    "position": "C",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4683778",
+    "player": "Jared McCain",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4685802",
+    "player": "Robert McCray V",
+    "position": "G",
+    "jersey": "16"
+   },
+   {
+    "player_id": "4900671",
+    "player": "Ajay Mitchell",
+    "position": "G",
+    "jersey": "25"
+   },
+   {
+    "player_id": "5106270",
+    "player": "Otega Oweh",
+    "position": "G",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4897155",
+    "player": "Anthony Pritchard",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4277923",
+    "player": "Zhaire Smith",
+    "position": "G",
+    "jersey": "40"
+   },
+   {
+    "player_id": "5061603",
+    "player": "Thomas Sorber",
+    "position": "C",
+    "jersey": "12"
+   },
+   {
+    "player_id": "5241364",
+    "player": "Bennett Stirtz",
+    "position": "G",
+    "jersey": "14"
+   },
+   {
+    "player_id": "5109790",
+    "player": "Christoph Tilly",
+    "position": "C",
+    "jersey": "33"
+   },
+   {
+    "player_id": "5159925",
+    "player": "Nikola Topic",
+    "position": "G",
+    "jersey": "44"
+   },
+   {
+    "player_id": "4683692",
+    "player": "Cason Wallace",
+    "position": "G",
+    "jersey": "22"
+   },
+   {
+    "player_id": "4593803",
+    "player": "Jalen Williams",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4432823",
+    "player": "Jaylin Williams",
+    "position": "F",
+    "jersey": "6"
+   },
+   {
+    "player_id": "3133626",
+    "player": "Kenrich Williams",
+    "position": "G",
+    "jersey": "34"
+   }
+  ],
+  "ORL": [
+   {
+    "player_id": "4432573",
+    "player": "Paolo Banchero",
+    "position": "F",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4066320",
+    "player": "Desmond Bane",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4348700",
+    "player": "Goga Bitadze",
+    "position": "C",
+    "jersey": "35"
+   },
+   {
+    "player_id": "4712849",
+    "player": "Anthony Black",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4565201",
+    "player": "Malaki Branham",
+    "position": "F",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4278572",
+    "player": "Jamal Cain",
+    "position": "F",
+    "jersey": "8"
+   },
+   {
+    "player_id": "3133635",
+    "player": "Jevon Carter",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4277847",
+    "player": "Wendell Carter Jr.",
+    "position": "C",
+    "jersey": "34"
+   },
+   {
+    "player_id": "4397204",
+    "player": "Colin Castleton",
+    "position": "C",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4702382",
+    "player": "Tristan da Silva",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "4576085",
+    "player": "JD Davison",
+    "position": "G",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4065654",
+    "player": "Jonathan Isaac",
+    "position": "F",
+    "jersey": "1"
+   },
+   {
+    "player_id": "4278075",
+    "player": "Kevin Knox II",
+    "position": "F",
+    "jersey": "24"
+   },
+   {
+    "player_id": "4593034",
+    "player": "Alex Morales",
+    "position": "G",
+    "jersey": "30"
+   },
+   {
+    "player_id": "5107251",
+    "player": "Izaiyah Nelson",
+    "position": "F",
+    "jersey": "25"
+   },
+   {
+    "player_id": "5214637",
+    "player": "Noah Penda",
+    "position": "F",
+    "jersey": "93"
+   },
+   {
+    "player_id": "5239561",
+    "player": "Jase Richardson",
+    "position": "G",
+    "jersey": "11"
+   },
+   {
+    "player_id": "5105875",
+    "player": "Mike Sharavjamts",
+    "position": "G",
+    "jersey": ""
+   },
+   {
+    "player_id": "4432165",
+    "player": "Jalen Suggs",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "6478",
+    "player": "Nikola Vucevic",
+    "position": "C",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4566434",
+    "player": "Franz Wagner",
+    "position": "F",
+    "jersey": "22"
+   }
+  ],
+  "PHI": [
+   {
+    "player_id": "4870562",
+    "player": "Dominick Barlow",
+    "position": "F",
+    "jersey": "25"
+   },
+   {
+    "player_id": "5105637",
+    "player": "Adem Bona",
+    "position": "C",
+    "jersey": "30"
+   },
+   {
+    "player_id": "3917376",
+    "player": "Jaylen Brown",
+    "position": "G",
+    "jersey": "7"
+   },
+   {
+    "player_id": "2581018",
+    "player": "Kentavious Caldwell-Pope",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "5124612",
+    "player": "VJ Edgecombe",
+    "position": "G",
+    "jersey": "77"
+   },
+   {
+    "player_id": "4711297",
+    "player": "Justin Edwards",
+    "position": "F",
+    "jersey": "11"
+   },
+   {
+    "player_id": "3059318",
+    "player": "Joel Embiid",
+    "position": "C",
+    "jersey": "21"
+   },
+   {
+    "player_id": "3904625",
+    "player": "Tacko Fall",
+    "position": "C",
+    "jersey": "99"
+   },
+   {
+    "player_id": "4871141",
+    "player": "Ariel Hukporti",
+    "position": "C",
+    "jersey": "55"
+   },
+   {
+    "player_id": "1966",
+    "player": "LeBron James",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "4702159",
+    "player": "Dillon Jones",
+    "position": "F",
+    "jersey": "35"
+   },
+   {
+    "player_id": "4433144",
+    "player": "Caleb Love",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4431678",
+    "player": "Tyrese Maxey",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4702049",
+    "player": "Duke Miles",
+    "position": "G",
+    "jersey": "31"
+   },
+   {
+    "player_id": "4592444",
+    "player": "Jameer Nelson Jr.",
+    "position": "G",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4873090",
+    "player": "Labaron Philon Jr.",
+    "position": "G",
+    "jersey": "00"
+   },
+   {
+    "player_id": "5099752",
+    "player": "Rayan Rupert",
+    "position": "G",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4351851",
+    "player": "Anfernee Simons",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4897471",
+    "player": "Saint Thomas",
+    "position": "F",
+    "jersey": "19"
+   },
+   {
+    "player_id": "3912848",
+    "player": "Dean Wade",
+    "position": "F",
+    "jersey": "45"
+   },
+   {
+    "player_id": "4432446",
+    "player": "Jabari Walker",
+    "position": "F",
+    "jersey": "33"
+   }
+  ],
+  "PHX": [
+   {
+    "player_id": "3136193",
+    "player": "Devin Booker",
+    "position": "G",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4280245",
+    "player": "Jamaree Bouyea",
+    "position": "G",
+    "jersey": "17"
+   },
+   {
+    "player_id": "4591259",
+    "player": "Koby Brea",
+    "position": "G",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4066383",
+    "player": "Miles Bridges",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "3155526",
+    "player": "Dillon Brooks",
+    "position": "F",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4432646",
+    "player": "Kennedy Chandler",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4888725",
+    "player": "Ryan Dunn",
+    "position": "F",
+    "jersey": "0"
+   },
+   {
+    "player_id": "5105977",
+    "player": "Rasheer Fleming",
+    "position": "F",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4278585",
+    "player": "Collin Gillespie",
+    "position": "G",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4278402",
+    "player": "Jordan Goodwin",
+    "position": "G",
+    "jersey": "23"
+   },
+   {
+    "player_id": "4437244",
+    "player": "Jalen Green",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4291678",
+    "player": "Haywood Highsmith",
+    "position": "F",
+    "jersey": "19"
+   },
+   {
+    "player_id": "4702602",
+    "player": "CJ Huntley",
+    "position": "F",
+    "jersey": "21"
+   },
+   {
+    "player_id": "4601023",
+    "player": "Oso Ighodaro",
+    "position": "F",
+    "jersey": "11"
+   },
+   {
+    "player_id": "3913174",
+    "player": "Luke Kennard",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "5203685",
+    "player": "Khaman Maluach",
+    "position": "C",
+    "jersey": "10"
+   },
+   {
+    "player_id": "5041953",
+    "player": "Koa Peat",
+    "position": "F",
+    "jersey": "18"
+   },
+   {
+    "player_id": "4066268",
+    "player": "Duop Reath",
+    "position": "C",
+    "jersey": "26"
+   },
+   {
+    "player_id": "4592714",
+    "player": "Pat Spencer",
+    "position": "G",
+    "jersey": "61"
+   },
+   {
+    "player_id": "4909710",
+    "player": "Phillip Wheeler",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "4701232",
+    "player": "Mark Williams",
+    "position": "C",
+    "jersey": "25"
+   }
+  ],
+  "POR": [
+   {
+    "player_id": "4683021",
+    "player": "Deni Avdija",
+    "position": "F",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4431736",
+    "player": "Toumani Camara",
+    "position": "F",
+    "jersey": "33"
+   },
+   {
+    "player_id": "4592435",
+    "player": "Branden Carlson",
+    "position": "C",
+    "jersey": "10"
+   },
+   {
+    "player_id": "5081727",
+    "player": "Sidy Cissoko",
+    "position": "G",
+    "jersey": "91"
+   },
+   {
+    "player_id": "5105565",
+    "player": "Donovan Clingan",
+    "position": "C",
+    "jersey": "23"
+   },
+   {
+    "player_id": "5217746",
+    "player": "Yang Hansen",
+    "position": "C",
+    "jersey": "16"
+   },
+   {
+    "player_id": "4683678",
+    "player": "Scoot Henderson",
+    "position": "G",
+    "jersey": "00"
+   },
+   {
+    "player_id": "3995",
+    "player": "Jrue Holiday",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4703889",
+    "player": "Jayson Kent",
+    "position": "G",
+    "jersey": "29"
+   },
+   {
+    "player_id": "4578893",
+    "player": "Vit Krejci",
+    "position": "G",
+    "jersey": "27"
+   },
+   {
+    "player_id": "6606",
+    "player": "Damian Lillard",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4684737",
+    "player": "Jaylen Martin",
+    "position": "G",
+    "jersey": ""
+   },
+   {
+    "player_id": "4279888",
+    "player": "Ja Morant",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "4066399",
+    "player": "Micah Potter",
+    "position": "C",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4914336",
+    "player": "Shaedon Sharpe",
+    "position": "G",
+    "jersey": "17"
+   },
+   {
+    "player_id": "4610139",
+    "player": "Jeremy Sochan",
+    "position": "F",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4593043",
+    "player": "John Tonje",
+    "position": "F",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4066211",
+    "player": "Robert Williams III",
+    "position": "C",
+    "jersey": "35"
+   },
+   {
+    "player_id": "4706557",
+    "player": "Chris Youngblood",
+    "position": "G",
+    "jersey": "11"
+   }
+  ],
+  "SAC": [
+   {
+    "player_id": "4431679",
+    "player": "Precious Achiuwa",
+    "position": "F",
+    "jersey": "9"
+   },
+   {
+    "player_id": "5142620",
+    "player": "Darius Acuff Jr.",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4395650",
+    "player": "Leaky Black",
+    "position": "F",
+    "jersey": "19"
+   },
+   {
+    "player_id": "4433174",
+    "player": "Dylan Cardwell",
+    "position": "C",
+    "jersey": "32"
+   },
+   {
+    "player_id": "4702384",
+    "player": "Nique Clifford",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4397654",
+    "player": "Adam Flagler",
+    "position": "G",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4065732",
+    "player": "De'Andre Hunter",
+    "position": "F",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4917149",
+    "player": "Alex Karaban",
+    "position": "F",
+    "jersey": "33"
+   },
+   {
+    "player_id": "4701192",
+    "player": "Viktor Lakhin",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "3064440",
+    "player": "Zach LaVine",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "5107897",
+    "player": "Jonathan Mogbo",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "4066262",
+    "player": "Malik Monk",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4594327",
+    "player": "Keegan Murray",
+    "position": "F",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4592965",
+    "player": "Tristen Newton",
+    "position": "G",
+    "jersey": "00"
+   },
+   {
+    "player_id": "2583639",
+    "player": "Elfrid Payton",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4279318",
+    "player": "Daeqwon Plowden",
+    "position": "G",
+    "jersey": "29"
+   },
+   {
+    "player_id": "4898371",
+    "player": "Maxime Raynaud",
+    "position": "C",
+    "jersey": "42"
+   },
+   {
+    "player_id": "3155942",
+    "player": "Domantas Sabonis",
+    "position": "F",
+    "jersey": "11"
+   },
+   {
+    "player_id": "5106058",
+    "player": "Emanuel Sharp",
+    "position": "G",
+    "jersey": "34"
+   },
+   {
+    "player_id": "3907387",
+    "player": "Ben Simmons",
+    "position": "G",
+    "jersey": "25"
+   }
+  ],
+  "SAS": [
+   {
+    "player_id": "6578",
+    "player": "Harrison Barnes",
+    "position": "F",
+    "jersey": "40"
+   },
+   {
+    "player_id": "5105337",
+    "player": "Maliq Brown",
+    "position": "F",
+    "jersey": "15"
+   },
+   {
+    "player_id": "5061568",
+    "player": "Carter Bryant",
+    "position": "F",
+    "jersey": "11"
+   },
+   {
+    "player_id": "4845367",
+    "player": "Stephon Castle",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4592479",
+    "player": "Julian Champagnie",
+    "position": "F",
+    "jersey": "30"
+   },
+   {
+    "player_id": "4433176",
+    "player": "RJ Davis",
+    "position": "G",
+    "jersey": "14"
+   },
+   {
+    "player_id": "3155937",
+    "player": "Jon Elmore",
+    "position": "G",
+    "jersey": "33"
+   },
+   {
+    "player_id": "4066259",
+    "player": "De'Aaron Fox",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
+    "player_id": "5107968",
+    "player": "Ja'Kobi Gillespie",
+    "position": "G",
+    "jersey": "17"
+   },
+   {
+    "player_id": "5037871",
+    "player": "Dylan Harper",
+    "position": "G",
+    "jersey": "2"
+   },
+   {
+    "player_id": "6440",
+    "player": "Tobias Harris",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "4395723",
+    "player": "Keldon Johnson",
+    "position": "F",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4713010",
+    "player": "David Jones Garcia",
+    "position": "F",
+    "jersey": "25"
+   },
+   {
+    "player_id": "3064560",
+    "player": "Luke Kornet",
+    "position": "C",
+    "jersey": "7"
+   },
+   {
+    "player_id": "3134916",
+    "player": "Jordan McLaughlin",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "5101845",
+    "player": "Jayden Quaintance",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "5105809",
+    "player": "Tarris Reed Jr.",
+    "position": "C",
+    "jersey": "10"
+   },
+   {
+    "player_id": "4279815",
+    "player": "Terry Taylor",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "4395630",
+    "player": "Devin Vassell",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "5104157",
+    "player": "Victor Wembanyama",
+    "position": "F",
+    "jersey": "1"
+   }
+  ],
+  "TOR": [
+   {
+    "player_id": "2993874",
+    "player": "Kyle Anderson",
+    "position": "F",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4433134",
+    "player": "Scottie Barnes",
+    "position": "F",
+    "jersey": "4"
+   },
+   {
+    "player_id": "4395625",
+    "player": "RJ Barrett",
+    "position": "F",
+    "jersey": "9"
+   },
+   {
+    "player_id": "4431893",
+    "player": "Jamison Battle",
+    "position": "F",
+    "jersey": "77"
+   },
+   {
+    "player_id": "4432586",
+    "player": "Nate Bittle",
+    "position": "C",
+    "jersey": ""
+   },
+   {
+    "player_id": "4432737",
+    "player": "Jaden Bradley",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4433138",
+    "player": "Nimari Burnett",
+    "position": "G",
+    "jersey": "25"
+   },
+   {
+    "player_id": "4898260",
+    "player": "Tyson Degenhart",
+    "position": "F",
+    "jersey": ""
+   },
+   {
+    "player_id": "5149115",
+    "player": "Allen Graves",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "4590360",
+    "player": "Chucky Hepburn",
+    "position": "G",
+    "jersey": "24"
+   },
+   {
+    "player_id": "4432190",
+    "player": "Andre Jackson Jr.",
+    "position": "G",
+    "jersey": "44"
+   },
+   {
+    "player_id": "4431684",
+    "player": "Trayce Jackson-Davis",
+    "position": "F",
+    "jersey": "32"
+   },
+   {
+    "player_id": "4395623",
+    "player": "Trey Jemison III",
+    "position": "C",
+    "jersey": "50"
+   },
+   {
+    "player_id": "4279143",
+    "player": "Tyreke Key",
+    "position": "G",
+    "jersey": "11"
+   },
+   {
+    "player_id": "6450",
+    "player": "Kawhi Leonard",
+    "position": "F",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4702656",
+    "player": "Alijah Martin",
+    "position": "G",
+    "jersey": "55"
+   },
+   {
+    "player_id": "5093267",
+    "player": "Collin Murray-Boyles",
+    "position": "F",
+    "jersey": "30"
+   },
+   {
+    "player_id": "3134908",
+    "player": "Jakob Poeltl",
+    "position": "C",
+    "jersey": "19"
+   },
+   {
+    "player_id": "4395724",
+    "player": "Immanuel Quickley",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4897696",
+    "player": "Jamarion Sharp",
+    "position": "C",
+    "jersey": ""
+   },
+   {
+    "player_id": "4432241",
+    "player": "Jamal Shead",
+    "position": "G",
+    "jersey": "23"
+   },
+   {
+    "player_id": "4397784",
+    "player": "Malachi Smith",
+    "position": "G",
+    "jersey": "18"
+   },
+   {
+    "player_id": "4684272",
+    "player": "Ja'Kobe Walter",
+    "position": "G",
+    "jersey": "14"
+   }
+  ],
+  "UTA": [
+   {
+    "player_id": "4684682",
+    "player": "Jonas Aidoo",
+    "position": "C",
+    "jersey": "13"
+   },
+   {
+    "player_id": "4433268",
+    "player": "Trey Alexander",
+    "position": "G",
+    "jersey": "15"
+   },
+   {
+    "player_id": "4873138",
+    "player": "Ace Bailey",
+    "position": "G",
+    "jersey": "19"
+   },
+   {
+    "player_id": "4277919",
+    "player": "Mo Bamba",
+    "position": "C",
+    "jersey": "44"
+   },
+   {
+    "player_id": "4683933",
+    "player": "Tamar Bates",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "4395997",
+    "player": "Terrell Brown Jr.",
+    "position": "G",
+    "jersey": "16"
+   },
+   {
+    "player_id": "4683766",
+    "player": "Isaiah Collier",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
+    "player_id": "4684793",
+    "player": "Kyle Filipowski",
+    "position": "F",
+    "jersey": "2"
+   },
+   {
+    "player_id": "4278395",
+    "player": "Taylor Funk",
+    "position": "F",
+    "jersey": "33"
+   },
+   {
+    "player_id": "4433627",
+    "player": "Keyonte George",
+    "position": "G",
+    "jersey": "3"
+   },
+   {
+    "player_id": "4432811",
+    "player": "Josh Green",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4397077",
+    "player": "Jaxson Hayes",
+    "position": "C",
+    "jersey": "11"
+   },
+   {
+    "player_id": "4396963",
+    "player": "Blake Hinson",
+    "position": "F",
+    "jersey": "25"
+   },
+   {
+    "player_id": "4433618",
+    "player": "Harrison Ingram",
+    "position": "F",
+    "jersey": "00"
+   },
+   {
+    "player_id": "4277961",
+    "player": "Jaren Jackson Jr.",
+    "position": "F",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4066336",
+    "player": "Lauri Markkanen",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "3133602",
+    "player": "Svi Mykhailiuk",
+    "position": "G",
+    "jersey": "10"
+   },
+   {
+    "player_id": "3102530",
+    "player": "Jusuf Nurkic",
+    "position": "C",
+    "jersey": "30"
+   },
+   {
+    "player_id": "4065663",
+    "player": "Josh Okogie",
+    "position": "G",
+    "jersey": "21"
+   },
+   {
+    "player_id": "5041955",
+    "player": "Darryn Peterson",
+    "position": "G",
+    "jersey": "22"
+   },
+   {
+    "player_id": "5105839",
+    "player": "Brice Sensabaugh",
+    "position": "F",
+    "jersey": "28"
+   }
+  ],
+  "WAS": [
+   {
+    "player_id": "4278129",
+    "player": "Deandre Ayton",
+    "position": "C",
+    "jersey": "6"
+   },
+   {
+    "player_id": "4432187",
+    "player": "Reece Beekman",
+    "position": "G",
+    "jersey": "26"
+   },
+   {
+    "player_id": "4845374",
+    "player": "Bub Carrington",
+    "position": "G",
+    "jersey": "7"
+   },
+   {
+    "player_id": "4432907",
+    "player": "Justin Champagnie",
+    "position": "F",
+    "jersey": "9"
+   },
+   {
+    "player_id": "5104155",
+    "player": "Bilal Coulibaly",
+    "position": "G",
+    "jersey": "0"
+   },
+   {
+    "player_id": "6583",
+    "player": "Anthony Davis",
+    "position": "F",
+    "jersey": "23"
+   },
+   {
+    "player_id": "5142718",
+    "player": "AJ Dybantsa",
+    "position": "F",
+    "jersey": "4"
+   },
+   {
+    "player_id": "5174563",
+    "player": "Kyshawn George",
+    "position": "F",
+    "jersey": "18"
+   },
+   {
+    "player_id": "2581184",
+    "player": "Anthony Gill",
+    "position": "F",
+    "jersey": "16"
+   },
+   {
+    "player_id": "4708972",
+    "player": "Jazian Gortman",
+    "position": "G",
+    "jersey": ""
+   },
+   {
+    "player_id": "5238230",
+    "player": "Tre Johnson",
+    "position": "G",
+    "jersey": "12"
+   },
+   {
+    "player_id": "4432645",
+    "player": "Trevor Keels",
+    "position": "G",
+    "jersey": "13"
+   },
+   {
+    "player_id": "3936296",
+    "player": "Skal Labissiere",
+    "position": "C",
+    "jersey": "17"
+   },
+   {
+    "player_id": "4433622",
+    "player": "Chris Livingston",
+    "position": "F",
+    "jersey": "24"
+   },
+   {
+    "player_id": "4432819",
+    "player": "Tre Mann",
+    "position": "G",
+    "jersey": "1"
+   },
+   {
+    "player_id": "6609",
+    "player": "Khris Middleton",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
+    "player_id": "5105841",
+    "player": "Felix Okpara",
+    "position": "F",
+    "jersey": "34"
+   },
+   {
+    "player_id": "5144126",
+    "player": "Will Riley",
+    "position": "G",
+    "jersey": "27"
+   },
+   {
+    "player_id": "5160992",
+    "player": "Alex Sarr",
+    "position": "C",
+    "jersey": "20"
+   },
+   {
+    "player_id": "4704043",
+    "player": "Steve Settle III",
+    "position": "F",
+    "jersey": "14"
+   },
+   {
+    "player_id": "4997537",
+    "player": "Tristan Vukcevic",
+    "position": "F",
+    "jersey": "00"
+   },
+   {
+    "player_id": "4606840",
+    "player": "Jamir Watkins",
+    "position": "G",
+    "jersey": "5"
+   },
+   {
+    "player_id": "4592216",
+    "player": "Alondes Williams",
+    "position": "G",
+    "jersey": "31"
+   },
+   {
+    "player_id": "4277905",
+    "player": "Trae Young",
+    "position": "G",
+    "jersey": "3"
+   }
+  ]
+ }
+}

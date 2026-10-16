@@ -1,222 +1,146 @@
 """
-Fetch NBA game data from BallDontLie API (works from GitHub Actions) and
-incrementally append new games to data/raw/games_raw.csv.
+Refresh the season schedule and append newly finished games from ESPN.
 
-Requires env var: BALLDONTLIE_API_KEY (free at balldontlie.io)
+Outputs:
+  data/schedule.csv            every game (past + future) for the current and previous season
+  data/raw/games_raw.csv       one row per team per finished game (appended)
+  data/raw/player_games.csv    one row per player per finished game (appended; feeds injury PPG)
+
+No API key needed. Rows that came from nba_api before the ESPN switch are kept as-is;
+ESPN only backfills games after the last nba_api date.
 """
 import os
 import time
-from datetime import date, timedelta
+from datetime import datetime
+
 import pandas as pd
-import requests
 
-RAW_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "raw", "games_raw.csv")
-BASE_URL = "https://api.balldontlie.io/v1"
+import espn
 
-NBA_TEAM_IDS = {
-    "ATL": 1610612737, "BOS": 1610612738, "BKN": 1610612751, "CHA": 1610612766,
-    "CHI": 1610612741, "CLE": 1610612739, "DAL": 1610612742, "DEN": 1610612743,
-    "DET": 1610612765, "GSW": 1610612744, "HOU": 1610612745, "IND": 1610612754,
-    "LAC": 1610612746, "LAL": 1610612747, "MEM": 1610612763, "MIA": 1610612748,
-    "MIL": 1610612749, "MIN": 1610612750, "NOP": 1610612740, "NYK": 1610612752,
-    "OKC": 1610612760, "ORL": 1610612753, "PHI": 1610612755, "PHX": 1610612756,
-    "POR": 1610612757, "SAC": 1610612758, "SAS": 1610612759, "TOR": 1610612761,
-    "UTA": 1610612762, "WAS": 1610612764,
-}
+ROOT          = os.path.join(os.path.dirname(__file__), "..")
+SCHEDULE_PATH = os.path.join(ROOT, "data", "schedule.csv")
+RAW_PATH      = os.path.join(ROOT, "data", "raw", "games_raw.csv")
+PLAYER_PATH   = os.path.join(ROOT, "data", "raw", "player_games.csv")
 
-NBA_TEAM_NAMES = {
-    "ATL": "Atlanta Hawks", "BOS": "Boston Celtics", "BKN": "Brooklyn Nets",
-    "CHA": "Charlotte Hornets", "CHI": "Chicago Bulls", "CLE": "Cleveland Cavaliers",
-    "DAL": "Dallas Mavericks", "DEN": "Denver Nuggets", "DET": "Detroit Pistons",
-    "GSW": "Golden State Warriors", "HOU": "Houston Rockets", "IND": "Indiana Pacers",
-    "LAC": "LA Clippers", "LAL": "Los Angeles Lakers", "MEM": "Memphis Grizzlies",
-    "MIA": "Miami Heat", "MIL": "Milwaukee Bucks", "MIN": "Minnesota Timberwolves",
-    "NOP": "New Orleans Pelicans", "NYK": "New York Knicks", "OKC": "Oklahoma City Thunder",
-    "ORL": "Orlando Magic", "PHI": "Philadelphia 76ers", "PHX": "Phoenix Suns",
-    "POR": "Portland Trail Blazers", "SAC": "Sacramento Kings", "SAS": "San Antonio Spurs",
-    "TOR": "Toronto Raptors", "UTA": "Utah Jazz", "WAS": "Washington Wizards",
-}
+SEASON_PREFIX = {"regular": "2", "playoffs": "4"}
 
 
-def current_bdl_seasons() -> list[int]:
-    """Return [current_season, previous_season] as BallDontLie season years."""
-    today = date.today()
-    year = today.year if today.month >= 10 else today.year - 1
-    return [year, year - 1]
+def season_id(season_end_year: int, season_type: str) -> int:
+    """NBA-style SEASON_ID: 22025 = 2025-26 regular season, 42025 = its playoffs."""
+    return int(f"{SEASON_PREFIX[season_type]}{season_end_year - 1}")
 
 
-def _paginate(api_key: str, endpoint: str, params: list[tuple]) -> list[dict]:
-    """Fetch all pages from a BallDontLie endpoint using cursor-based pagination."""
-    headers = {"Authorization": api_key}
-    results = []
-    cursor = None
-    while True:
-        p = params + [("per_page", 100)]
-        if cursor:
-            p = p + [("cursor", cursor)]
-        resp = requests.get(f"{BASE_URL}/{endpoint}", headers=headers, params=p, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
-        results.extend(data["data"])
-        cursor = data.get("meta", {}).get("next_cursor")
-        if not cursor:
-            break
-        time.sleep(0.5)
-    return results
+def refresh_schedule(today) -> pd.DataFrame:
+    current = espn.season_end_year(today)
+    old = pd.read_csv(SCHEDULE_PATH, dtype={"event_id": str}) if os.path.exists(SCHEDULE_PATH) else pd.DataFrame()
+
+    frames = []
+    for season in (current - 1, current):
+        cached = old[old["season"] == season] if not old.empty else old
+        # Past seasons never change once nothing is left to play; re-fetch only the live one.
+        if season != current and not cached.empty and (cached["status"] != "pre").all():
+            frames.append(cached)
+            continue
+        print(f"Fetching {season - 1}-{str(season)[2:]} schedule from ESPN ...")
+        frames.append(pd.DataFrame(espn.fetch_season_schedule(season)))
+
+    sched = pd.concat(frames, ignore_index=True)
+    sched = sched[sched["season_type"].isin(SEASON_PREFIX)]
+    sched = sched.sort_values(["tip_utc", "event_id"]).reset_index(drop=True)
+    os.makedirs(os.path.dirname(SCHEDULE_PATH), exist_ok=True)
+    sched.to_csv(SCHEDULE_PATH, index=False)
+    print(f"Schedule: {len(sched)} games ({(sched['status'] == 'final').sum()} final) -> {SCHEDULE_PATH}")
+    return sched
 
 
-def fetch_completed_games(api_key: str, start_date: str) -> list[dict]:
-    """Fetch all completed games on or after start_date (YYYY-MM-DD)."""
-    seasons = current_bdl_seasons()
-    params = (
-        [("start_date", start_date)] +
-        [("seasons[]", s) for s in seasons]
-    )
-    games = _paginate(api_key, "games", params)
-    return [g for g in games if isinstance(g.get("status"), str) and "final" in g["status"].lower()]
-
-
-def fetch_player_stats(api_key: str, game_ids: list[int]) -> list[dict]:
-    """Fetch all player stats for the given game IDs in batches of 25."""
-    all_stats = []
-    for i in range(0, len(game_ids), 25):
-        batch = game_ids[i:i + 25]
-        params = [("game_ids[]", gid) for gid in batch]
-        stats = _paginate(api_key, "stats", params)
-        all_stats.extend(stats)
-        time.sleep(1.0)
-    return all_stats
-
-
-def build_team_rows(games: list[dict], player_stats: list[dict]) -> pd.DataFrame:
-    """Aggregate player stats into team-level rows matching the games_raw.csv schema."""
-    if not player_stats:
-        return pd.DataFrame()
-
-    stats_df = pd.DataFrame(player_stats)
-    stats_df["_game_id"] = stats_df["game"].apply(lambda g: g["id"])
-    stats_df["_team_abbr"] = stats_df["team"].apply(lambda t: t["abbreviation"])
-
-    # Normalise turnovers field name across API versions
-    if "turnover" not in stats_df.columns:
-        stats_df["turnover"] = stats_df.get("to", 0)
-
-    # Ensure reb column exists
-    if "reb" not in stats_df.columns:
-        stats_df["reb"] = stats_df.get("oreb", 0) + stats_df.get("dreb", 0)
+def build_rows(game: pd.Series, team_rows: list[dict], player_rows: list[dict]) -> tuple[list[dict], list[dict]]:
+    sid = season_id(int(game["season"]), game["season_type"])
+    gid = f"espn_{game['event_id']}"
+    pts = {t["abbr"]: t["pts"] for t in team_rows}
 
     rows = []
-    for game in games:
-        gid = game["id"]
-        game_date = game["date"][:10]
-        season = game["season"]
-        home_abbr = game["home_team"]["abbreviation"]
-        away_abbr = game["visitor_team"]["abbreviation"]
-        home_score = game.get("home_team_score") or 0
-        away_score = game.get("visitor_team_score") or 0
+    for t in team_rows:
+        abbr = t["abbr"]
+        opp = game["away"] if abbr == game["home"] else game["home"]
+        matchup = f"{abbr} vs. {opp}" if abbr == game["home"] else f"{abbr} @ {opp}"
+        rows.append({
+            "SEASON_ID": sid,
+            "TEAM_ID": espn.TEAM_IDS[abbr],
+            "TEAM_ABBREVIATION": abbr,
+            "TEAM_NAME": espn.TEAM_NAMES[abbr],
+            "GAME_ID": gid,
+            "GAME_DATE": game["date"],
+            "MATCHUP": matchup,
+            "WL": "W" if t["pts"] > pts[opp] else "L",
+            "MIN": 240,
+            "PTS": t["pts"],
+            "FGM": t["fgm"], "FGA": t["fga"],
+            "FG_PCT": round(t["fgm"] / t["fga"], 3) if t["fga"] else 0.0,
+            "FG3M": t["fg3m"], "FG3A": t["fg3a"],
+            "FG3_PCT": round(t["fg3m"] / t["fg3a"], 3) if t["fg3a"] else 0.0,
+            "FTM": t["ftm"], "FTA": t["fta"],
+            "FT_PCT": round(t["ftm"] / t["fta"], 3) if t["fta"] else 0.0,
+            "OREB": t["oreb"], "DREB": t["dreb"], "REB": t["reb"],
+            "AST": t["ast"], "STL": t["stl"], "BLK": t["blk"],
+            "TOV": t["tov"], "PF": t["pf"],
+            "PLUS_MINUS": float(t["pts"] - pts[opp]),
+        })
 
-        for abbr, score, opp_score in [
-            (home_abbr, home_score, away_score),
-            (away_abbr, away_score, home_score),
-        ]:
-            ts = stats_df[(stats_df["_game_id"] == gid) & (stats_df["_team_abbr"] == abbr)]
-            if ts.empty:
-                continue
+    players = [{"GAME_ID": gid, "GAME_DATE": game["date"], "SEASON_ID": sid, **p} for p in player_rows]
+    return rows, players
 
-            fgm = int(ts["fgm"].sum())
-            fga = int(ts["fga"].sum())
-            fg3m = int(ts["fg3m"].sum())
-            fg3a = int(ts["fg3a"].sum())
-            ftm = int(ts["ftm"].sum())
-            fta = int(ts["fta"].sum())
 
-            matchup = (
-                f"{home_abbr} vs. {away_abbr}"
-                if abbr == home_abbr
-                else f"{away_abbr} @ {home_abbr}"
-            )
+def download_new_games(sched: pd.DataFrame) -> int:
+    raw = pd.read_csv(RAW_PATH, dtype={"GAME_ID": str}) if os.path.exists(RAW_PATH) else pd.DataFrame()
+    players = pd.read_csv(PLAYER_PATH, dtype={"GAME_ID": str, "player_id": str}) if os.path.exists(PLAYER_PATH) else pd.DataFrame()
 
-            rows.append({
-                "SEASON_ID": int(f"2{season}"),
-                "TEAM_ID": NBA_TEAM_IDS.get(abbr, 0),
-                "TEAM_ABBREVIATION": abbr,
-                "TEAM_NAME": NBA_TEAM_NAMES.get(abbr, abbr),
-                "GAME_ID": f"bdl_{gid:08d}",
-                "GAME_DATE": game_date,
-                "MATCHUP": matchup,
-                "WL": "W" if score > opp_score else "L",
-                "MIN": 240,
-                "PTS": int(ts["pts"].sum()),
-                "FGM": fgm,
-                "FGA": fga,
-                "FG_PCT": round(fgm / fga, 3) if fga > 0 else 0.0,
-                "FG3M": fg3m,
-                "FG3A": fg3a,
-                "FG3_PCT": round(fg3m / fg3a, 3) if fg3a > 0 else 0.0,
-                "FTM": ftm,
-                "FTA": fta,
-                "FT_PCT": round(ftm / fta, 3) if fta > 0 else 0.0,
-                "OREB": int(ts["oreb"].sum()),
-                "DREB": int(ts["dreb"].sum()),
-                "REB": int(ts["reb"].sum()),
-                "AST": int(ts["ast"].sum()),
-                "STL": int(ts["stl"].sum()),
-                "BLK": int(ts["blk"].sum()),
-                "TOV": int(ts["turnover"].sum()),
-                "PF": int(ts["pf"].sum()),
-                "PLUS_MINUS": float(score - opp_score),
-            })
+    have = set(raw["GAME_ID"]) if not raw.empty else set()
+    # Games before this date came from nba_api with different IDs — don't duplicate them.
+    legacy = raw[~raw["GAME_ID"].str.startswith("espn_")] if not raw.empty else raw
+    cutoff = legacy["GAME_DATE"].max() if not legacy.empty else "0000-00-00"
 
-    return pd.DataFrame(rows)
+    have_players = set(players["GAME_ID"]) if not players.empty else set()
+    final = sched[sched["status"] == "final"]
+    ids = "espn_" + final["event_id"]
+    need_team = (final["date"] > cutoff) & ~ids.isin(have)
+    need_players = ~ids.isin(have_players)
+    todo = final[need_team | need_players]
+    print(f"{need_team.sum()} game(s) need team rows (after {cutoff}), "
+          f"{need_players.sum()} need player rows.")
+
+    new_rows, new_players = [], []
+    for _, game in todo.iterrows():
+        try:
+            team_rows, player_rows = espn.fetch_box_score(game["event_id"])
+        except Exception as e:
+            print(f"  Skipping {game['away']} @ {game['home']} ({game['date']}): {e}")
+            continue
+        if len(team_rows) != 2 or any(t["pts"] is None for t in team_rows):
+            print(f"  Skipping {game['away']} @ {game['home']} ({game['date']}): incomplete box score")
+            continue
+        rows, plist = build_rows(game, team_rows, player_rows)
+        if need_team[game.name]:
+            new_rows += rows
+        if need_players[game.name]:
+            new_players += plist
+        time.sleep(0.2)
+
+    if new_rows:
+        raw = pd.concat([raw, pd.DataFrame(new_rows)], ignore_index=True)
+        raw = raw.sort_values("GAME_DATE", ascending=False).reset_index(drop=True)
+        os.makedirs(os.path.dirname(RAW_PATH), exist_ok=True)
+        raw.to_csv(RAW_PATH, index=False)
+
+    if new_players:
+        players = pd.concat([players, pd.DataFrame(new_players)], ignore_index=True)
+        players = players.sort_values(["GAME_DATE", "GAME_ID"], ascending=False).reset_index(drop=True)
+        players.to_csv(PLAYER_PATH, index=False)
+
+    print(f"Added {len(new_rows)} team rows and {len(new_players)} player rows.")
+    return len(new_rows) // 2
 
 
 if __name__ == "__main__":
-    api_key = os.environ.get("BALLDONTLIE_API_KEY", "")
-
-    if not api_key:
-        print("WARNING: BALLDONTLIE_API_KEY not set. Using cached data.")
-        raise SystemExit(0)
-
-    out = RAW_PATH
-
-    # Determine start date: day after the last game already in the CSV
-    if os.path.exists(out):
-        existing = pd.read_csv(out)
-        last_date = pd.to_datetime(existing["GAME_DATE"]).max().date()
-        start_date = (last_date + timedelta(days=1)).isoformat()
-        print(f"Existing data through {last_date}. Fetching from {start_date} onwards...")
-    else:
-        today = date.today()
-        year = today.year if today.month >= 10 else today.year - 1
-        start_date = f"{year}-10-01"
-        print(f"No existing data. Fetching full season from {start_date}...")
-        existing = None
-
-    games = fetch_completed_games(api_key, start_date)
-    print(f"Found {len(games)} completed game(s) since {start_date}.")
-
-    if not games:
-        print("No new games to add. CSV is already up to date.")
-        raise SystemExit(0)
-
-    game_ids = [g["id"] for g in games]
-    print(f"Fetching player stats for {len(game_ids)} game(s)...")
-    player_stats = fetch_player_stats(api_key, game_ids)
-    print(f"Retrieved {len(player_stats)} player-stat records.")
-
-    new_rows = build_team_rows(games, player_stats)
-    if new_rows.empty:
-        print("No rows built — player stats may not be available yet.")
-        raise SystemExit(0)
-
-    print(f"Built {len(new_rows)} new team-game rows.")
-
-    if existing is not None:
-        combined = pd.concat([existing, new_rows], ignore_index=True)
-    else:
-        combined = new_rows
-
-    combined = combined.sort_values("GAME_DATE", ascending=False).reset_index(drop=True)
-    os.makedirs(os.path.dirname(out), exist_ok=True)
-    combined.to_csv(out, index=False)
-    print(f"Saved {len(combined)} total rows to {out}")
+    today = datetime.now(espn.ET).date()
+    schedule = refresh_schedule(today)
+    download_new_games(schedule)

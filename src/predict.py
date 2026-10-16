@@ -1,8 +1,7 @@
 import os
 import joblib
-import numpy as np
 import pandas as pd
-from utils import FEATURE_COLS
+from utils import FEATURE_COLS, DEFENSE_COLS, team_states
 
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "models", "points_rf.joblib")
 
@@ -13,31 +12,40 @@ def load_model(model_path: str = MODEL_PATH):
     return joblib.load(model_path)
 
 
-def predict_score(features: dict, model=None) -> float:
-    """Predict points for a single team given feature dict."""
+def matchup_row(team: dict, opp: dict) -> dict:
+    """Model input for `team` facing `opp` (team states as returned by utils.team_states)."""
+    row = {col: team.get(col, 0) for col in FEATURE_COLS}
+    for c in DEFENSE_COLS:
+        row[f"opp_{c}"] = opp[c]
+    return row
+
+
+def predict_games(pairs: list[tuple[dict, dict]], model=None) -> list[tuple[float, float]]:
+    """Batch-predict [(score_a, score_b)] for a list of (team_a_state, team_b_state) pairs."""
+    if not pairs:
+        return []
     if model is None:
         model = load_model()
-    row = pd.DataFrame([{col: features.get(col, 0) for col in FEATURE_COLS}])
-    return float(model.predict(row)[0])
+    rows = []
+    for a, b in pairs:
+        rows += [matchup_row(a, b), matchup_row(b, a)]
+    preds = model.predict(pd.DataFrame(rows, columns=FEATURE_COLS))
+    return [(round(float(preds[i]), 1), round(float(preds[i + 1]), 1)) for i in range(0, len(preds), 2)]
 
 
 def predict_game(team_a_feat: dict, team_b_feat: dict, model=None):
     """Return (score_a, score_b) predictions."""
-    if model is None:
-        model = load_model()
-    score_a = predict_score(team_a_feat, model)
-    score_b = predict_score(team_b_feat, model)
-    return round(score_a, 1), round(score_b, 1)
+    return predict_games([(team_a_feat, team_b_feat)], model)[0]
 
 
 def team_features_from_history(team_abbr: str, processed_path: str) -> dict:
-    """Extract the most recent rolling features for a team from processed CSV."""
-    df = pd.read_csv(processed_path, parse_dates=["GAME_DATE"])
-    team_df = df[df["TEAM_ABBREVIATION"] == team_abbr].sort_values("GAME_DATE")
-    if team_df.empty:
+    """A team's current state (after its most recent game) from the processed CSV."""
+    df = pd.read_csv(processed_path, parse_dates=["GAME_DATE"], dtype={"GAME_ID": str})
+    if team_abbr not in set(df["TEAM_ABBREVIATION"]):
         raise ValueError(f"Team '{team_abbr}' not found in processed data.")
-    last = team_df.iloc[-1]
-    return {col: last[col] for col in FEATURE_COLS}
+    latest_sid = int(df.sort_values("GAME_DATE")["SEASON_ID"].iloc[-1])
+    states = team_states(df, pd.Timestamp.today().normalize(), latest_sid)
+    return states.loc[team_abbr].to_dict()
 
 
 if __name__ == "__main__":

@@ -2,12 +2,23 @@ name: Update Daily Predictions
 
 on:
   schedule:
-    # 2:00 PM UTC = 10:00 AM ET — after most lineups are confirmed
+    # Morning: 14:00 UTC = 10 AM EDT / 9 AM EST — last night's results are final.
+    # Full pipeline: results → retrain → rosters/injuries → re-forecast the season.
     - cron: "0 14 * * *"
-  workflow_dispatch:   # manual trigger from GitHub UI
+    # Evening: 22:00 UTC = 6 PM EDT / 5 PM EST — after official injury reports, before 7 PM tips.
+    # Fast path: no new results to download; refresh rosters/injuries and re-forecast.
+    - cron: "0 22 * * *"
+  workflow_dispatch:   # manual trigger from GitHub UI (runs the full pipeline)
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-predictions
+  cancel-in-progress: false
+
+env:
+  EVENING: ${{ github.event.schedule == '0 22 * * *' }}
 
 jobs:
   predict:
@@ -26,27 +37,32 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Download latest game data
+      - name: Run tests
+        run: pytest tests/ -q
+
+      - name: Download schedule and latest results
+        if: env.EVENING != 'true'
         run: python src/data_download.py
-        env:
-          BALLDONTLIE_API_KEY: ${{ secrets.BALLDONTLIE_API_KEY }}
 
       - name: Preprocess game data
         run: python src/preprocess.py
 
+      # The model isn't committed (6 MB/day of repo growth); retraining takes seconds.
       - name: Retrain model on latest data
         run: python src/train.py
 
-      - name: Run daily predictor
+      - name: Snapshot rosters and injury report
+        run: python src/rosters.py
+        continue-on-error: true   # keep yesterday's snapshot rather than skip predictions
+
+      - name: Re-forecast the season
         run: python src/update_daily.py
 
       - name: Commit updated data and predictions
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/predictions.json \
-                  data/raw/games_raw.csv \
-                  data/processed/games_preprocessed.csv \
-                  models/points_rf.joblib
+          git add docs/ data/ models/
           git diff --cached --quiet || git commit -m "chore: update predictions for $(date -u +%Y-%m-%d)"
+          git pull --rebase
           git push

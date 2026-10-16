@@ -1,53 +1,20 @@
 import os
-import joblib
-import numpy as np
 import pandas as pd
-from sklearn.metrics import mean_absolute_error, mean_squared_error
-from utils import FEATURE_COLS
+from train import holdout_metrics
 
 PROCESSED_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "processed", "games_preprocessed.csv")
-MODEL_PATH     = os.path.join(os.path.dirname(__file__), "..", "models", "points_rf.joblib")
 
 
-def evaluate(processed_path: str = PROCESSED_PATH, model_path: str = MODEL_PATH):
-    df = pd.read_csv(processed_path, parse_dates=["GAME_DATE"])
-    model = joblib.load(model_path)
-
-    # Use last 20% of data (by date) as hold-out set
-    df = df.sort_values("GAME_DATE")
-    split = int(len(df) * 0.8)
-    test_df = df.iloc[split:]
-
-    X_test = test_df[FEATURE_COLS]
-    y_test = test_df["target_pts"]
-    preds  = model.predict(X_test)
-
-    mae  = mean_absolute_error(y_test, preds)
-    rmse = np.sqrt(mean_squared_error(y_test, preds))
-
-    # Win prediction accuracy: pair games by GAME_ID and compare predicted winner vs actual
-    test_df = test_df.copy()
-    test_df["pred_pts"] = preds
-
-    paired = test_df.groupby("GAME_ID").filter(lambda g: len(g) == 2)
-    correct = 0
-    total   = 0
-    for _, grp in paired.groupby("GAME_ID"):
-        if len(grp) != 2:
-            continue
-        a, b = grp.iloc[0], grp.iloc[1]
-        pred_winner  = a["TEAM_ABBREVIATION"] if a["pred_pts"]   > b["pred_pts"]   else b["TEAM_ABBREVIATION"]
-        actual_winner= a["TEAM_ABBREVIATION"] if a["target_pts"] > b["target_pts"] else b["TEAM_ABBREVIATION"]
-        correct += int(pred_winner == actual_winner)
-        total   += 1
-
-    win_acc = correct / total if total > 0 else 0.0
-
-    print(f"Hold-out set ({len(test_df)} rows from {test_df['GAME_DATE'].min().date()} to {test_df['GAME_DATE'].max().date()})")
-    print(f"  MAE            : {mae:.2f} pts")
-    print(f"  RMSE           : {rmse:.2f} pts")
-    print(f"  Win accuracy   : {win_acc*100:.1f}%  ({correct}/{total} games)")
-    return {"mae": mae, "rmse": rmse, "win_accuracy": win_acc}
+def evaluate(processed_path: str = PROCESSED_PATH) -> dict:
+    """Train on everything before the hold-out window, score on the window (no overlap)."""
+    df = pd.read_csv(processed_path, parse_dates=["GAME_DATE"], dtype={"GAME_ID": str})
+    m = holdout_metrics(df)
+    print(f"Hold-out set ({m['test_games']} games from {m['test_from']} to {m['test_to']})")
+    print(f"  MAE            : {m['mae']:.2f} pts")
+    print(f"  RMSE           : {m['rmse']:.2f} pts")
+    print(f"  Win accuracy   : {m['win_accuracy']:.1f}%")
+    print(f"  Margin σ       : {m['margin_sigma']:.2f} pts")
+    return m
 
 
 if __name__ == "__main__":
