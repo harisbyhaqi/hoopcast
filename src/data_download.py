@@ -99,6 +99,10 @@ def download_new_games(sched: pd.DataFrame) -> int:
     legacy = raw[~raw["GAME_ID"].str.startswith("espn_")] if not raw.empty else raw
     cutoff = legacy["GAME_DATE"].max() if not legacy.empty else "0000-00-00"
 
+    # Player files from before full box-score lines were stored get re-downloaded once
+    if not players.empty and "fga" not in players.columns:
+        print("player_games.csv has no full stat lines yet — re-downloading player box scores.")
+        players = players.iloc[0:0]
     have_players = set(players["GAME_ID"]) if not players.empty else set()
     final = sched[sched["status"] == "final"]
     ids = "espn_" + final["event_id"]
@@ -133,6 +137,8 @@ def download_new_games(sched: pd.DataFrame) -> int:
 
     if new_players:
         players = pd.concat([players, pd.DataFrame(new_players)], ignore_index=True)
+        stat_cols = players.columns.difference(["GAME_ID", "GAME_DATE", "SEASON_ID", "player_id", "player", "team"])
+        players[stat_cols] = players[stat_cols].fillna(0).astype(int)
         players = players.sort_values(["GAME_DATE", "GAME_ID"], ascending=False).reset_index(drop=True)
         players.to_csv(PLAYER_PATH, index=False)
 

@@ -148,6 +148,13 @@ def _made_att(v: str) -> tuple[int, int]:
     return int(m), int(a)
 
 
+def _made_att_safe(v) -> tuple[int, int]:
+    try:
+        return _made_att(v)
+    except (AttributeError, ValueError):
+        return 0, 0
+
+
 def _to_int(v) -> int:
     try:
         return int(float(str(v).replace("+", "")))
@@ -192,12 +199,24 @@ def parse_box_score(summary: dict) -> tuple[list[dict], list[dict]]:
                     continue
                 st = dict(zip(keys, a["stats"]))
                 ath = a.get("athlete", {})
+                fgm, fga = _made_att_safe(st.get("fieldGoalsMade-fieldGoalsAttempted"))
+                fg3m, fg3a = _made_att_safe(st.get("threePointFieldGoalsMade-threePointFieldGoalsAttempted"))
+                ftm, fta = _made_att_safe(st.get("freeThrowsMade-freeThrowsAttempted"))
                 player_rows.append({
                     "player_id": str(ath.get("id", "")),   # ESPN occasionally ships an athlete with no id
                     "player": ath.get("displayName") or ath.get("shortName", ""),
                     "team": abbr,
                     "min": _to_int(st.get("minutes", 0)),
                     "pts": _to_int(st.get("points", 0)),
+                    "fgm": fgm, "fga": fga, "fg3m": fg3m, "fg3a": fg3a, "ftm": ftm, "fta": fta,
+                    "oreb": _to_int(st.get("offensiveRebounds", 0)),
+                    "dreb": _to_int(st.get("defensiveRebounds", 0)),
+                    "ast": _to_int(st.get("assists", 0)),
+                    "stl": _to_int(st.get("steals", 0)),
+                    "blk": _to_int(st.get("blocks", 0)),
+                    "tov": _to_int(st.get("turnovers", 0)),
+                    "pf": _to_int(st.get("fouls", 0)),
+                    "plus_minus": _to_int(st.get("plusMinus", 0)),
                 })
     return team_rows, player_rows
 

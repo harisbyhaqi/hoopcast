@@ -279,6 +279,8 @@ h2 {
   color: var(--text);
 }
 
+.about-block p a { color: var(--text); text-decoration: underline; }
+
 .about-block p {
   font-size: .88rem;
   color: var(--muted);

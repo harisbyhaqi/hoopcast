@@ -14,7 +14,7 @@ Live predictions: [harisbyhaqi.github.io/nba-predictor](https://harisbyhaqi.gith
 2. **Preprocesses** the data: rolling team form, opponent defense, rest days, home/away records
 3. **Retrains** the Random Forest model, measuring accuracy on the most recent held-out games
 4. **Snapshots rosters and the injury report**, logging any signings, trades, releases and status changes
-5. **Rates every roster** from player Box Plus/Minus
+5. **Rates every roster** from player DARKO DPM (offense + defense)
 6. **Re-forecasts every remaining game** of the season, blending roster strength with current form and adjusting for injuries
 7. **Commits** the results, which redeploys the GitHub Pages site
 
@@ -33,9 +33,10 @@ The site has four views:
 Every game blends two views of each team:
 
 **1. Who's on the roster (team rating)**
-- Each player on today's ESPN roster is rated with **Box Plus/Minus** from [Basketball-Reference](https://www.basketball-reference.com): points per 100 possessions vs. an average player. The last 4 seasons are weighted 6/5/4/3 by minutes, with this season weighted most, so a player in bad (or good) form moves as the season goes. The rating is regressed toward replacement level (−2.0) so short samples don't swing it. Players with no NBA history (rookies, overseas signings) get −1.5.
-- The projected rotation fills 240 minutes in depth-chart order from each player's usual minutes. Team rating = minutes-weighted BPM ≈ net rating per 100 possessions.
-- **Preseason**, it's blended 50/50 with **sportsbook win totals** (`data/preseason_win_totals.csv`, the average of Fanatics and Covers lines, Oct 2026). Win totals see what box scores can't: rookies, new roles, and players returning from injury.
+- Each player on today's ESPN roster is rated with **[DARKO](https://www.darko.app) DPM** (Daily Plus-Minus, by Kostya Medvedovsky): points per 100 possessions vs. an average player. It's built from box scores, on/off-court impact and tracking data, it splits into offense (O-DPM) and defense (D-DPM), and it's updated after every game. So defense that never shows up as a steal or block still counts, and a player in good or bad form moves daily.
+- **Fallback:** for players DARKO doesn't list, and for everyone if darko.app can't be reached, the model uses Box Plus/Minus mapped onto the DPM scale. That's Basketball-Reference BPM for finished seasons, and this season an estimate from ESPN box scores (a regression of per-36 stats onto Basketball-Reference BPM, fitted on last season). Rookies and overseas signings get −1.5.
+- **Depth chart:** each player's minutes are half his usual minutes over recent seasons and half the slot his rating earns on the roster (best players play most). A star coming back from injury still starts, and late-season garbage time doesn't make a bench player a starter. The rotation fills 240 minutes. Team rating = minutes-weighted DPM ≈ net rating per 100 possessions.
+- **Preseason**, it's blended 50/50 with **sportsbook win totals** (`data/preseason_win_totals.csv`, the average of Fanatics and Covers lines, Oct 2026). Win totals see what ratings can't: rookies, new roles, and players returning from injury.
 
 **2. How they're playing (Random Forest)**
 
@@ -59,7 +60,7 @@ Predicts each team's points from **this season's results only**. Form resets eve
 
 ## Injury Adjustments
 
-An injured player's minutes go to the next players down the depth chart (or a replacement-level player if the roster runs out), and the team rating is recomputed. Losing Jokić costs Denver far more than losing a bench guard. The minutes each status removes:
+An injured player drops out of the rotation, everyone below him moves up a slot (or a replacement-level player fills in if the roster runs out), and the team rating is recomputed. Losing Jokić costs Denver far more than losing a bench guard. The minutes each status removes:
 
 | Status | Minutes removed |
 |---|---|
@@ -76,7 +77,8 @@ Out/Doubtful players count against every game until ESPN's estimated return date
 | Source | Used for | Auth |
 |---|---|---|
 | ESPN public API (`site.api.espn.com`) | Schedule, box scores, rosters, injury reports | None |
-| [Basketball-Reference](https://www.basketball-reference.com) advanced stats | Player Box Plus/Minus (cached in `data/bpm/`) | None |
+| [DARKO](https://www.darko.app) | Player DPM (offense + defense) and projected minutes, daily (last pull saved in `data/darko.csv`) | None |
+| [Basketball-Reference](https://www.basketball-reference.com) advanced stats | Fallback player Box Plus/Minus for finished seasons (cached in `data/bpm/`) | None |
 | Fanatics / Covers win totals | Preseason team expectations (one-time, `data/preseason_win_totals.csv`) | None |
 
 > Earlier versions used BallDontLie (its free tier no longer serves box scores) and `cdn.nba.com` / `stats.nba.com` (which block CI runners). Data before 2026-03-30 came from `nba_api`.
@@ -96,7 +98,7 @@ python src/data_download.py   # schedule + new box scores
 python src/preprocess.py      # features
 python src/train.py           # model + models/metrics.json
 python src/rosters.py         # roster & injury snapshot
-python src/ratings.py         # player BPM → team ratings
+python src/ratings.py         # player DARKO DPM → team ratings
 python src/update_daily.py    # full-season forecast → docs/season.json
 python src/evaluate.py        # hold-out accuracy
 
@@ -111,14 +113,15 @@ pytest tests/
 ```
 nba-predictor/
 ├── data/
-│   ├── raw/                     # games_raw.csv (team-games), player_games.csv (player box scores)
+│   ├── raw/                     # games_raw.csv (team-games), player_games.csv (full player box-score lines)
 │   ├── processed/               # games_preprocessed.csv (with features)
 │   ├── schedule.csv             # every game, past and future
 │   ├── rosters.json             # latest roster snapshot
 │   ├── injuries.json            # latest injury report
 │   ├── changes.json             # roster/injury change log
 │   ├── frozen_predictions.csv   # pre-tip predictions used for accuracy
-│   ├── bpm/                     # cached Basketball-Reference advanced stats per season
+│   ├── darko.csv                # last DARKO DPM pull
+│   ├── bpm/                     # cached Basketball-Reference advanced stats per season (fallback)
 │   ├── preseason_win_totals.csv # sportsbook win totals (preseason prior)
 │   └── team_ratings.json        # roster rating, market rating, blended prior, rotation
 ├── docs/                        # GitHub Pages site (index.html, app.js, style.css, season.json)
@@ -131,7 +134,7 @@ nba-predictor/
 │   ├── predict.py               # matchup scoring
 │   ├── simulate.py              # win probability
 │   ├── rosters.py               # roster/injury snapshots + change log
-│   ├── ratings.py               # player BPM → roster-based team ratings
+│   ├── ratings.py               # player DPM → roster-based team ratings
 │   ├── update_daily.py          # full-season forecaster
 │   ├── evaluate.py              # hold-out evaluation
 │   └── utils.py                 # features and team state helpers

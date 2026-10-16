@@ -55,9 +55,9 @@ jobs:
         run: python src/rosters.py
         continue-on-error: true   # keep yesterday's snapshot rather than skip predictions
 
-      - name: Rate rosters (Basketball-Reference BPM)
+      - name: Rate rosters (DARKO DPM)
         run: python src/ratings.py
-        continue-on-error: true   # falls back to the cached BPM tables in data/bpm/
+        continue-on-error: true   # falls back to the last saved DARKO pull / BPM
 
       - name: Re-forecast the season
         run: python src/update_daily.py

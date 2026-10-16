@@ -1,20 +1,28 @@
 """
 Roster-based team strength: who is actually on each team *now*, not how the franchise did last year.
 
-Player ratings come from Basketball-Reference Box Plus/Minus (points per 100 possessions vs. an
-average player), blended over the last few seasons and regressed toward replacement level by minutes
-so stars coming off injured seasons aren't written off. The current season gets the most weight, so
-players who are playing badly (or well) move their rating as the season goes.
+Player ratings are DARKO DPM (Daily Plus-Minus, www.darko.app by Kostya Medvedovsky): points per 100
+possessions vs. an average player, built from box scores, on/off impact and tracking data, split
+into offense (O-DPM) and defense (D-DPM), and re-estimated after every game. So defense that never
+shows up as a steal or block still counts, and players who are playing badly (or well) move daily.
+DARKO's projected minutes per game give the depth chart.
 
-Team rating = minutes-weighted BPM of the projected 10-man rotation on the current ESPN roster,
+Fallback for players DARKO doesn't list (and for everyone if darko.app can't be reached):
+Box Plus/Minus — Basketball-Reference for finished seasons (cached in data/bpm/), and for the
+current season an estimate from our own ESPN box scores (BoxBPM) — mapped onto the DPM scale.
+Players with neither (rookies, overseas signings) get a rookie default.
+
+Team rating = minutes-weighted DPM of the projected rotation on the current ESPN roster
 ≈ net rating per 100 possessions. Preseason it's blended 50/50 with sportsbook win totals
-(data/preseason_win_totals.csv), which see things box scores can't (rookies, new roles).
+(data/preseason_win_totals.csv), which see things ratings can't (rookies, new roles).
 
-Injured players' minutes go to the rest of the roster, so availability changes the rating per game.
+Injured players' minutes go to the next players on the depth chart, so availability changes the
+rating per game.
 
 Outputs:
-  data/bpm/NBA_<year>.csv     cached Basketball-Reference advanced stats (past seasons fetched once)
-  data/team_ratings.json      per-team roster rating, market rating, blended prior, top rotation
+  data/darko.csv              last successful DARKO pull (used if the site can't be reached)
+  data/bpm/NBA_<year>.csv     cached Basketball-Reference advanced stats (finished seasons, fetched once)
+  data/team_ratings.json      per-team roster rating, market rating, blended prior, rotation
 """
 import io
 import json
@@ -32,25 +40,40 @@ import espn
 ROOT          = os.path.join(os.path.dirname(__file__), "..")
 BPM_DIR       = os.path.join(ROOT, "data", "bpm")
 ROSTERS_PATH  = os.path.join(ROOT, "data", "rosters.json")
+PLAYER_PATH   = os.path.join(ROOT, "data", "raw", "player_games.csv")
 TOTALS_PATH   = os.path.join(ROOT, "data", "preseason_win_totals.csv")
 RATINGS_PATH  = os.path.join(ROOT, "data", "team_ratings.json")
+DARKO_PATH    = os.path.join(ROOT, "data", "darko.csv")
 BR_URL        = "https://www.basketball-reference.com/leagues/NBA_{year}_advanced.html"
+DARKO_URL     = "https://www.darko.app/__data.json"
 
 SEASON_WEIGHTS     = (6, 5, 4, 3)   # current season first; weights multiply minutes played
 REPLACEMENT_BPM    = -2.0           # what a freely available fill-in player is worth
 PRIOR_MINUTES      = 1000           # weighted minutes of replacement level mixed into every player
-ROOKIE_BPM         = -1.5           # no NBA history (rookies, overseas signings)
+ROOKIE_RATING      = -1.5           # no NBA history (rookies, overseas signings), DPM scale
 ROOKIE_MPG         = 14.0
+REPLACEMENT_RATING = -2.0           # fills minutes when a roster runs out, DPM scale
 MAX_MPG            = 38.0
 WINS_PER_NET_POINT = 2.7            # ≈ wins added per +1 net rating over 82 games
 MARKET_WEIGHT      = 0.5            # share of the preseason prior that comes from win totals
+
+# Minutes by rating rank among available players (best player first); sums to 240.
+# Projected minutes = half this, half the player's usual minutes over recent seasons.
+MINUTES_CURVE = [34, 33, 31, 29, 27, 24, 20, 16, 12, 8, 6]
+CURVE_WEIGHT  = 0.5
 
 # Share of a player's usual minutes expected given his injury status
 AVAILABILITY = {"out": 0.0, "doubtful": 0.0, "questionable": 0.5, "day-to-day": 0.8}
 
 
-# ESPN name → Basketball-Reference name, where they differ beyond accents/punctuation/suffixes
-NAME_ALIASES = {"ronald holland": "ron holland"}
+# ESPN name → DARKO / Basketball-Reference name, where they differ beyond accents/punctuation/suffixes
+# (applied to every source, so all spellings land on one key)
+NAME_ALIASES = {
+    "ronald holland": "ron holland",
+    "bub carrington": "carlton carrington",
+    "alex sarr": "alexandre sarr",
+    "nic claxton": "nicolas claxton",
+}
 
 
 def name_key(name: str) -> str:
@@ -86,10 +109,10 @@ def parse_advanced(html: str) -> pd.DataFrame:
     return out[out["mp"] > 0]
 
 
-def load_bpm(year: int, refresh: bool) -> pd.DataFrame:
-    """Advanced stats for the season ending in `year`; cached on disk, re-fetched only if `refresh`."""
+def load_bpm(year: int) -> pd.DataFrame:
+    """Basketball-Reference advanced stats for a finished season (ending in `year`); fetched once, then cached."""
     path = os.path.join(BPM_DIR, f"NBA_{year}.csv")
-    if os.path.exists(path) and not refresh:
+    if os.path.exists(path):
         return pd.read_csv(path)
     try:
         resp = requests.get(BR_URL.format(year=year), headers={"User-Agent": "Mozilla/5.0"}, timeout=30)
@@ -108,12 +131,97 @@ def load_bpm(year: int, refresh: bool) -> pd.DataFrame:
         return pd.read_csv(path) if os.path.exists(path) else EMPTY.copy()
 
 
-def player_table(season: int, refresh_current: bool = True) -> pd.DataFrame:
-    """Blended BPM and projected minutes per game for every player, indexed by name_key."""
+# ---------------------------------------------------------------------------
+# ESPN box-score BPM (current season — Basketball-Reference blocks GitHub Actions)
+# ---------------------------------------------------------------------------
+
+BOX_STATS = ["pts", "fga", "fta", "fg3m", "oreb", "dreb", "ast", "stl", "blk", "tov", "pf", "plus_minus"]
+MIN_FIT_MINUTES = 500   # players with less are too noisy to calibrate on
+
+
+def espn_season_totals(season: int, player_path: str = PLAYER_PATH) -> pd.DataFrame:
+    """Regular-season per-player totals from our ESPN box scores: player, g, mp, BOX_STATS."""
+    if not os.path.exists(player_path):
+        return pd.DataFrame(columns=["player", "g", "mp"] + BOX_STATS)
+    df = pd.read_csv(player_path, dtype={"GAME_ID": str, "player_id": str})
+    if "fga" not in df.columns:
+        return pd.DataFrame(columns=["player", "g", "mp"] + BOX_STATS)
+    df = df[(df["SEASON_ID"] == int(f"2{season - 1}")) & (df["min"] > 0)]
+    if df.empty:
+        return pd.DataFrame(columns=["player", "g", "mp"] + BOX_STATS)
+    df = df.assign(pid=df["player_id"].fillna("").replace("", None).fillna(df["player"]))
+    g = df.sort_values("GAME_DATE").groupby("pid")
+    totals = g[BOX_STATS + ["min"]].sum().rename(columns={"min": "mp"})
+    totals["g"] = g.size()
+    totals["player"] = g["player"].last()
+    return totals.reset_index(drop=True)
+
+
+def per36(totals: pd.DataFrame) -> pd.DataFrame:
+    return totals[BOX_STATS].div(totals["mp"], axis=0) * 36
+
+
+class BoxBPM:
+    """
+    Linear map from per-36 box-score stats (incl. plus/minus) to Basketball-Reference BPM,
+    fitted on a past season where we have both. Lets us rate players on this season's ESPN
+    box scores with BPM's scale and meaning.
+    """
+
+    def __init__(self, season: int):
+        from sklearn.linear_model import Ridge
+        from sklearn.model_selection import cross_val_score
+
+        espn_tot = espn_season_totals(season)
+        br = load_bpm(season)
+        espn_tot["key"] = espn_tot["player"].map(name_key)
+        br = br.assign(key=br["player"].map(name_key))
+        m = espn_tot.merge(br[["key", "bpm"]], on="key")
+        m = m[m["mp"] >= MIN_FIT_MINUTES]
+        if len(m) < 100:
+            raise ValueError(f"only {len(m)} players to calibrate on for {season}")
+        X, y, w = per36(m), m["bpm"], m["mp"]
+        self.model = Ridge(alpha=1.0).fit(X, y, sample_weight=w)
+        self.season, self.n = season, len(m)
+        self.cv_r2 = float(cross_val_score(Ridge(alpha=1.0), X, y, cv=5, scoring="r2").mean())
+
+    def predict(self, totals: pd.DataFrame) -> pd.DataFrame:
+        """BPM-format table (player, g, mp, bpm) for the given ESPN season totals."""
+        if totals.empty:
+            return EMPTY.copy()
+        bpm = self.model.predict(per36(totals)).clip(-10, 15)
+        return pd.DataFrame({"player": totals["player"], "g": totals["g"], "mp": totals["mp"], "bpm": bpm})
+
+
+def calibrated_box_bpm(season: int) -> "BoxBPM | None":
+    """Fit on the most recent past season that has both Basketball-Reference and ESPN data."""
+    for year in range(season - 1, season - len(SEASON_WEIGHTS), -1):
+        if not os.path.exists(os.path.join(BPM_DIR, f"NBA_{year}.csv")):
+            continue
+        try:
+            return BoxBPM(year)
+        except ValueError:
+            continue
+    return None
+
+
+def bpm_table(season: int) -> pd.DataFrame:
+    """
+    Blended BPM and minutes per game for every player, indexed by name_key.
+    Past seasons: Basketball-Reference BPM (cached). Current season — and any past season BR
+    isn't available for — BPM estimated from our ESPN box scores via BoxBPM.
+    """
+    box = None
     frames = []
     for i, w in enumerate(SEASON_WEIGHTS):
         year = season - i
-        df = load_bpm(year, refresh=refresh_current and i == 0)
+        df = load_bpm(year) if i > 0 else EMPTY.copy()
+        if df.empty:
+            totals = espn_season_totals(year)
+            if not totals.empty:
+                box = box or calibrated_box_bpm(season)
+                if box:
+                    df = box.predict(totals)
         if not df.empty:
             frames.append(df.assign(w=w))
     if not frames:
@@ -129,43 +237,128 @@ def player_table(season: int, refresh_current: bool = True) -> pd.DataFrame:
 
 
 # ---------------------------------------------------------------------------
+# DARKO DPM (primary)
+# ---------------------------------------------------------------------------
+
+DARKO_COLS = {"player_name": "player", "team_name": "team", "dpm": "dpm", "o_dpm": "o_dpm",
+              "d_dpm": "d_dpm", "x_minutes": "mpg", "season_games": "games", "season": "season"}
+
+
+def parse_darko(payload: dict) -> pd.DataFrame:
+    """Decode darko.app's SvelteKit data payload (devalue-flattened) into one row per player."""
+    data = next(n for n in reversed(payload["nodes"]) if n and n.get("type") == "data")["data"]
+
+    def resolve(i):
+        if isinstance(i, int) and i < 0:
+            return None
+        v = data[i]
+        if isinstance(v, list):
+            return [resolve(x) for x in v]
+        if isinstance(v, dict):
+            return {k: resolve(x) for k, x in v.items()}
+        return v
+
+    players = resolve(0)["players"]
+    df = pd.DataFrame(dict(zip(players["keys"], players["values"])) if isinstance(players, dict) else players)
+    df = df[[c for c in DARKO_COLS if c in df.columns]].rename(columns=DARKO_COLS)
+    for c in ("dpm", "o_dpm", "d_dpm", "mpg"):
+        df[c] = pd.to_numeric(df[c], errors="coerce")
+    return df.dropna(subset=["player", "dpm"])
+
+
+def load_darko() -> pd.DataFrame:
+    """Today's DARKO ratings; falls back to the last successful pull."""
+    try:
+        resp = requests.get(DARKO_URL, headers={"User-Agent": "Mozilla/5.0 (nba-predictor; daily)"}, timeout=30)
+        resp.raise_for_status()
+        df = parse_darko(resp.json())
+        if len(df) < 300:
+            raise ValueError(f"only {len(df)} players in response")
+        os.makedirs(os.path.dirname(DARKO_PATH), exist_ok=True)
+        df.to_csv(DARKO_PATH, index=False)
+        return df
+    except Exception as e:
+        print(f"  WARNING: DARKO fetch failed ({e}); using last saved ratings if present.")
+        return pd.read_csv(DARKO_PATH) if os.path.exists(DARKO_PATH) else pd.DataFrame()
+
+
+def player_table(season: int) -> pd.DataFrame:
+    """
+    Rating (DPM scale) and projected minutes per game for every player, indexed by name_key.
+    Columns: rating, mpg, o, d (offense/defense split, DARKO only), source ("darko" / "bpm").
+    """
+    bpm = bpm_table(season)
+    darko = load_darko()
+    if darko.empty:
+        return pd.DataFrame({"rating": bpm["bpm"], "mpg": bpm["mpg"], "o": None, "d": None, "source": "bpm"})
+
+    darko = darko.assign(key=darko["player"].map(name_key)).drop_duplicates("key").set_index("key")
+    # Usual minutes: multi-season average where we have it (DARKO's projection follows the end of
+    # last season, e.g. 17 mpg for a star who was hurt in March).
+    mpg = bpm["mpg"].reindex(darko.index).fillna(darko["mpg"]).clip(upper=MAX_MPG)
+    table = pd.DataFrame({"rating": darko["dpm"], "mpg": mpg,
+                          "o": darko["o_dpm"], "d": darko["d_dpm"], "source": "darko"})
+
+    # Players DARKO doesn't list: BPM mapped onto the DPM scale (fit on players in both)
+    both = bpm.index.intersection(table.index)
+    rest = bpm.drop(index=both, errors="ignore")
+    if len(both) >= 50 and not rest.empty:
+        import numpy as np
+        slope, intercept = np.polyfit(bpm.loc[both, "bpm"], table.loc[both, "rating"], 1)
+        extra = pd.DataFrame({"rating": slope * rest["bpm"] + intercept, "mpg": rest["mpg"],
+                              "o": None, "d": None, "source": "bpm"})
+        table = pd.concat([table, extra])
+    return table
+
+
+# ---------------------------------------------------------------------------
 # Team ratings
 # ---------------------------------------------------------------------------
 
 def rotation(roster: list[dict], table: pd.DataFrame, availability: dict[str, float] | None = None) -> list[dict]:
     """
-    Projected rotation filling 240 minutes in depth-chart order (usual minutes per game × availability).
-    An injured player's minutes go to the next players down the depth chart — not to the starters —
-    and if the roster runs out, to a replacement-level player.
+    Projected rotation filling 240 minutes. Each available player's minutes are half his usual
+    minutes over recent seasons and half the slot his rating earns on this roster (MINUTES_CURVE),
+    so a star coming back from an injured season still starts and end-of-season garbage-time
+    minutes don't make a bench player a starter. Injured players drop out, everyone below moves
+    up a slot, and if the roster runs out a replacement-level player fills in.
     """
     availability = availability or {}
     players = []
     for p in roster:
         key = name_key(p["player"])
+        a = availability.get(key, 1.0)
+        if a <= 0:
+            continue
         if key in table.index:
-            bpm, mpg = float(table.at[key, "bpm"]), float(table.at[key, "mpg"])
+            rating, usual = float(table.at[key, "rating"]), float(table.at[key, "mpg"])
+            o, d = table.at[key, "o"], table.at[key, "d"]
         else:
-            bpm, mpg = ROOKIE_BPM, ROOKIE_MPG
-        mpg *= availability.get(key, 1.0)
-        if mpg > 0:
-            players.append({"player": p["player"], "bpm": bpm, "mpg": mpg})
+            rating, usual, o, d = ROOKIE_RATING, ROOKIE_MPG, None, None
+        players.append({"player": p["player"], "rating": rating, "o": o, "d": d, "usual": usual, "avail": a})
+
+    players.sort(key=lambda x: -x["rating"])
+    for rank, x in enumerate(players):
+        slot = MINUTES_CURVE[rank] if rank < len(MINUTES_CURVE) else 0.0
+        x["mpg"] = ((1 - CURVE_WEIGHT) * x["usual"] + CURVE_WEIGHT * slot) * x["avail"]
     players.sort(key=lambda x: -x["mpg"])
 
     remaining, rot = 240.0, []
     for x in players:
-        if remaining <= 0:
+        if remaining <= 0 or x["mpg"] <= 0:
             break
         x["min"] = min(x["mpg"], remaining)
         remaining -= x["min"]
         rot.append(x)
     if remaining > 0:
-        rot.append({"player": "Replacement", "bpm": REPLACEMENT_BPM, "mpg": remaining, "min": remaining})
+        rot.append({"player": "Replacement", "rating": REPLACEMENT_RATING, "o": None, "d": None,
+                    "mpg": remaining, "min": remaining})
     return rot
 
 
 def roster_net(roster: list[dict], table: pd.DataFrame, availability: dict[str, float] | None = None) -> float:
-    """≈ team net rating per 100 possessions from the projected rotation's BPM."""
-    return sum(x["bpm"] * x["min"] for x in rotation(roster, table, availability)) / 48
+    """≈ team net rating per 100 possessions from the projected rotation's player ratings."""
+    return sum(x["rating"] * x["min"] for x in rotation(roster, table, availability)) / 48
 
 
 def market_net(wins: float) -> float:
@@ -207,7 +400,10 @@ class TeamRatings:
             "roster": round(self.roster_c[team], 2),
             "market": round(self.market[team], 2) if team in self.market else None,
             "prior": round(self.prior[team], 2),
-            "rotation": [{"player": x["player"], "bpm": round(x["bpm"], 1), "min": round(x["min"], 1)} for x in rot],
+            "rotation": [{"player": x["player"], "rating": round(x["rating"], 1),
+                          "o": None if pd.isna(x["o"]) else round(float(x["o"]), 1),
+                          "d": None if pd.isna(x["d"]) else round(float(x["d"]), 1),
+                          "min": round(x["min"], 1)} for x in rot],
         }
 
 
@@ -223,12 +419,16 @@ def load_rosters(path: str = ROSTERS_PATH) -> dict[str, list[dict]]:
         return json.load(f)["teams"]
 
 
-def build(season: int, refresh_current: bool = True) -> TeamRatings:
-    return TeamRatings(load_rosters(), player_table(season, refresh_current), load_win_totals())
+def build(season: int) -> TeamRatings:
+    return TeamRatings(load_rosters(), player_table(season), load_win_totals())
 
 
 if __name__ == "__main__":
     season = espn.season_end_year(datetime.now(espn.ET).date())
+    box = calibrated_box_bpm(season)
+    if box:
+        print(f"Box-score BPM calibrated on {box.season - 1}-{str(box.season)[2:]}: "
+              f"{box.n} players, cross-validated R² {box.cv_r2:.2f}")
     ratings = build(season)
     teams = {t: ratings.summary(t) for t in espn.TEAM_NAMES}
 
@@ -243,4 +443,6 @@ if __name__ == "__main__":
     print(f"{'team':<5}{'roster':>8}{'market':>8}{'prior':>8}")
     for t, r in sorted(teams.items(), key=lambda kv: -kv[1]["prior"]):
         print(f"{t:<5}{r['roster']:>8.1f}{(r['market'] if r['market'] is not None else float('nan')):>8.1f}{r['prior']:>8.1f}")
+    src = ratings.table["source"].value_counts().to_dict()
+    print(f"Player ratings: {src.get('darko', 0)} from DARKO DPM, {src.get('bpm', 0)} from BPM fallback.")
     print(f"{len(unmatched)} roster players without NBA history (rated as rookies) -> {RATINGS_PATH}")

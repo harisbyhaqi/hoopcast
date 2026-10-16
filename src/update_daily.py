@@ -323,7 +323,7 @@ def main(target: str | None = None):
     hca, league_pts = league_context(past)
     print(f"Home-court advantage {hca:+.1f} pts, league average {league_pts} pts per team.")
 
-    team_ratings = ratings.build(season, refresh_current=False)   # ratings.py refreshes the BPM cache
+    team_ratings = ratings.build(season)
     injuries = load_injuries()
     game_injuries = injuries_by_game(injuries, upcoming)
 

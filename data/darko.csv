@@ -1,0 +1,531 @@
+player,team,dpm,o_dpm,d_dpm,mpg,games,season
+Nikola Jokic,Denver Nuggets,7.35021,5.2328,2.11741,34.6697,65,2026
+Victor Wembanyama,San Antonio Spurs,6.3736,3.96762,2.40598,35.0103,65,2026
+Kawhi Leonard,Los Angeles Clippers,6.26216,5.43096,0.831205,29.718,65,2026
+Shai Gilgeous-Alexander,Oklahoma City Thunder,5.8238,5.20189,0.621904,32.232,68,2026
+Giannis Antetokounmpo,Milwaukee Bucks,5.05769,3.80597,1.25171,19.6397,36,2026
+Luka Doncic,Los Angeles Lakers,4.81532,4.74311,0.072204,20.708,64,2026
+Jayson Tatum,Boston Celtics,4.28029,4.08389,0.196395,31.1206,16,2026
+Chet Holmgren,Oklahoma City Thunder,4.19651,1.66056,2.53595,26.4962,69,2026
+Anthony Edwards,Minnesota Timberwolves,4.18607,4.31111,-0.125035,32.8786,61,2026
+Donovan Mitchell,Cleveland Cavaliers,4.15507,4.74126,-0.586192,34.4836,70,2026
+Cade Cunningham,Detroit Pistons,3.92552,3.26714,0.658377,35.3639,64,2026
+OG Anunoby,New York Knicks,3.59364,1.77494,1.8187,33.9916,68,2026
+Karl-Anthony Towns,New York Knicks,3.56133,2.36907,1.19226,31.8975,76,2026
+Joel Embiid,Philadelphia 76ers,3.56046,2.51608,1.04438,31.7983,38,2026
+Jalen Brunson,New York Knicks,3.35837,4.31018,-0.951806,37.7788,75,2026
+Tyrese Haliburton,Indiana Pacers,3.29127,3.02186,0.269414,18.5121,0,2026
+Kevin Durant,Houston Rockets,3.27696,3.04608,0.230878,29.808,78,2026
+Aaron Gordon,Denver Nuggets,3.1475,2.72186,0.425644,26.0948,36,2026
+Jarrett Allen,Cleveland Cavaliers,3.08532,1.13895,1.94637,24.7588,56,2026
+Isaiah Hartenstein,Oklahoma City Thunder,3.05744,-0.418317,3.47576,19.6533,47,2026
+Jamal Murray,Denver Nuggets,3.03561,3.85135,-0.815737,35.2329,75,2026
+LaMelo Ball,Charlotte Hornets,3.00305,3.22582,-0.22277,27.6584,72,2026
+Bam Adebayo,Miami Heat,2.97282,1.81615,1.15666,18.671,73,2026
+James Harden,Cleveland Cavaliers,2.90519,3.12238,-0.217192,34.5429,70,2026
+Ty Jerome,Memphis Grizzlies,2.90291,3.12752,-0.224607,20.4729,15,2026
+Mitchell Robinson,New York Knicks,2.87184,0.148763,2.72308,12.8251,61,2026
+Scottie Barnes,Toronto Raptors,2.8292,1.33166,1.49754,33.8329,80,2026
+Tyrese Maxey,Philadelphia 76ers,2.66531,2.88132,-0.216015,37.9289,70,2026
+Robert Williams III,Portland Trail Blazers,2.61402,0.187019,2.42701,15.5826,59,2026
+Alex Caruso,Oklahoma City Thunder,2.58603,0.2751,2.31093,22.241,56,2026
+Rudy Gobert,Minnesota Timberwolves,2.45333,-1.54036,3.99369,25.3049,76,2026
+Evan Mobley,Cleveland Cavaliers,2.42498,1.28787,1.13711,31.4367,65,2026
+Devin Booker,Phoenix Suns,2.3621,3.44833,-1.08623,34.5519,64,2026
+Jimmy Butler,Golden State Warriors,2.33039,1.64728,0.683107,18.7267,38,2026
+Jaylen Brown,Boston Celtics,2.23682,3.27175,-1.03493,34.317,71,2026
+Jakob Poeltl,Toronto Raptors,2.21252,-0.480882,2.6934,18.9698,46,2026
+Alperen Sengun,Houston Rockets,2.19228,1.04746,1.14482,33.4625,72,2026
+Stephen Curry,Golden State Warriors,2.18714,3.95886,-1.77172,26.968,43,2026
+De'Aaron Fox,San Antonio Spurs,2.14729,1.96424,0.183045,33.1136,73,2026
+Paul Reed,Detroit Pistons,2.10458,0.234001,1.87058,6.19552,65,2026
+Derrick White,Boston Celtics,2.03836,1.04265,0.995715,33.2269,77,2026
+Steven Adams,Houston Rockets,1.99905,-1.34783,3.34687,9.00114,32,2026
+Jalen Duren,Detroit Pistons,1.98097,0.999851,0.981115,26.0332,70,2026
+Onyeka Okongwu,Atlanta Hawks,1.97723,0.624471,1.35276,28.8838,74,2026
+Stephon Castle,San Antonio Spurs,1.96652,1.7858,0.180727,33.8572,69,2026
+Sandro Mamukelashvili,Toronto Raptors,1.90565,1.00926,0.896396,12.7699,80,2026
+Julian Champagnie,San Antonio Spurs,1.84454,1.11335,0.731191,30.9876,83,2026
+Cason Wallace,Oklahoma City Thunder,1.81597,0.147089,1.66888,25.7349,77,2026
+Jalen Williams,Oklahoma City Thunder,1.80866,1.73406,0.0746021,21.5075,33,2026
+Jalen Suggs,Orlando Magic,1.6878,-0.0282539,1.71606,29.7064,57,2026
+Austin Reaves,Los Angeles Lakers,1.67123,2.54932,-0.878091,35.3754,51,2026
+Franz Wagner,Orlando Magic,1.65966,1.92018,-0.260518,27.4617,34,2026
+Donte DiVincenzo,Minnesota Timberwolves,1.6573,0.171647,1.48565,16.8345,82,2026
+Lauri Markkanen,Utah Jazz,1.61693,1.86633,-0.249405,20.4403,42,2026
+Jaren Jackson Jr.,Utah Jazz,1.61293,0.228326,1.3846,20.2705,48,2026
+Anthony Davis,Washington Wizards,1.60531,0.130428,1.47488,17.3933,20,2026
+Dylan Harper,San Antonio Spurs,1.60425,1.32323,0.28102,24.5867,70,2026
+Josh Minott,Brooklyn Nets,1.58313,0.573022,1.01011,20.73,49,2026
+Kristaps Porzingis,Golden State Warriors,1.56972,0.714407,0.855315,17.832,32,2026
+LeBron James,Los Angeles Lakers,1.53691,1.66581,-0.128901,32.4386,60,2026
+Paul George,Philadelphia 76ers,1.52565,0.343624,1.18202,29.2558,37,2026
+Moussa Diabate,Charlotte Hornets,1.50727,0.0633848,1.44389,23.6621,73,2026
+Jalen Smith,Chicago Bulls,1.48935,0.703127,0.786219,16.9064,53,2026
+CJ McCollum,Atlanta Hawks,1.43858,1.37257,0.0660086,27.6833,76,2026
+Neemias Queta,Boston Celtics,1.42408,-0.388687,1.81277,21.0324,76,2026
+Derrick Jones Jr.,Los Angeles Clippers,1.39442,0.086313,1.3081,23.0615,50,2026
+Amen Thompson,Houston Rockets,1.35833,0.967918,0.390415,37.4177,79,2026
+Brandon Clarke,Memphis Grizzlies,1.2962,-0.080085,1.37629,13.5952,2,2026
+Michael Porter Jr.,Brooklyn Nets,1.29384,2.1935,-0.899663,20.9189,52,2026
+Deni Avdija,Portland Trail Blazers,1.27923,1.85273,-0.5735,30.4973,66,2026
+Luka Garza,Boston Celtics,1.26319,1.26798,-0.0047899,6.67208,69,2026
+Tobias Harris,Detroit Pistons,1.25385,0.473113,0.780733,28.4665,63,2026
+RJ Barrett,Toronto Raptors,1.24419,1.72314,-0.478951,33.5248,57,2026
+Nickeil Alexander-Walker,Atlanta Hawks,1.22641,1.22787,-0.00145768,32.4055,78,2026
+Grant Williams,Charlotte Hornets,1.212,0.318912,0.893086,14.5217,36,2026
+Ajay Mitchell,Oklahoma City Thunder,1.20901,1.2075,0.00151359,28.3998,57,2026
+Fred VanVleet,Houston Rockets,1.20582,-0.0607088,1.26653,12.0647,0,2026
+Miles McBride,New York Knicks,1.19319,0.804009,0.389178,16.8072,41,2026
+Tari Eason,Houston Rockets,1.19169,-0.376043,1.56774,27.6583,60,2026
+Payton Pritchard,Boston Celtics,1.17569,2.19614,-1.02045,30.441,79,2026
+Immanuel Quickley,Toronto Raptors,1.16319,1.23173,-0.068544,19.1875,70,2026
+Brandon Miller,Charlotte Hornets,1.16174,1.54301,-0.381277,29.4049,65,2026
+Dyson Daniels,Atlanta Hawks,1.15659,-0.13141,1.288,24.0517,76,2026
+Clint Capela,Houston Rockets,1.14365,-1.79104,2.93468,3.49581,75,2026
+Goga Bitadze,Orlando Magic,1.12364,-0.679164,1.8028,10.1669,64,2026
+Devin Vassell,San Antonio Spurs,1.11833,0.527744,0.590583,32.7899,68,2026
+Marcus Smart,Los Angeles Lakers,1.11598,-0.135036,1.25101,28.8037,62,2026
+Trae Young,Washington Wizards,1.10176,2.86134,-1.75958,17.063,15,2026
+Donovan Clingan,Portland Trail Blazers,1.09103,-0.291687,1.38272,22.7432,77,2026
+Dereck Lively II,Dallas Mavericks,1.09094,-0.676332,1.76727,10.8845,7,2026
+Ivica Zubac,Indiana Pacers,1.08132,0.00251167,1.07881,14.3859,48,2026
+Ja Morant,Memphis Grizzlies,1.05372,1.59109,-0.537367,21.6807,20,2026
+Wendell Carter Jr.,Orlando Magic,1.04677,-0.771006,1.81777,28.7994,78,2026
+Darius Garland,Los Angeles Clippers,1.04032,2.43416,-1.39384,27.5244,45,2026
+Toumani Camara,Portland Trail Blazers,1.03845,0.0595392,0.978909,31.0434,82,2026
+Pascal Siakam,Indiana Pacers,1.03489,1.68126,-0.646372,26.5648,62,2026
+Dwight Powell,Dallas Mavericks,1.01394,-1.52348,2.53742,11.2305,63,2026
+Jalen Johnson,Atlanta Hawks,0.992889,1.16551,-0.172619,33.1002,72,2026
+Day'Ron Sharpe,Brooklyn Nets,0.976402,-0.333099,1.3095,15.4544,62,2026
+Duncan Robinson,Detroit Pistons,0.966786,0.960121,0.0066658,22.5489,77,2026
+Ausar Thompson,Detroit Pistons,0.964256,-0.963099,1.92735,26.1783,73,2026
+Zion Williamson,New Orleans Pelicans,0.959999,1.5375,-0.577505,23.0207,62,2026
+Mouhamed Gueye,Atlanta Hawks,0.9207,-1.10183,2.02253,6.33246,77,2026
+Sam Hauser,Boston Celtics,0.890574,0.937651,-0.0470766,19.5746,78,2026
+Jordan Walsh,Boston Celtics,0.885943,-0.123728,1.00967,6.79611,68,2026
+Reed Sheppard,Houston Rockets,0.855688,0.274818,0.58087,27.6484,82,2026
+Naz Reid,Minnesota Timberwolves,0.853194,-0.391373,1.24457,26.0431,77,2026
+Matisse Thybulle,Portland Trail Blazers,0.819429,-1.30918,2.12861,8.65342,30,2026
+Christian Braun,Denver Nuggets,0.818833,0.714642,0.104191,27.6558,44,2026
+Kris Murray,Portland Trail Blazers,0.815624,-1.3035,2.11912,4.19818,57,2026
+Keon Ellis,Cleveland Cavaliers,0.812576,-0.27337,1.08595,7.46579,72,2026
+Ryan Rollins,Milwaukee Bucks,0.811506,1.00638,-0.194871,31.3263,74,2026
+Herbert Jones,New Orleans Pelicans,0.810932,-0.429833,1.24077,17.1447,56,2026
+Dean Wade,Cleveland Cavaliers,0.799924,-0.122496,0.92242,12.1249,59,2026
+Miles Bridges,Charlotte Hornets,0.799336,1.21424,-0.414903,28.0928,77,2026
+Collin Murray-Boyles,Toronto Raptors,0.796736,0.0865111,0.710225,31.1426,57,2026
+De'Anthony Melton,Golden State Warriors,0.793864,-0.403042,1.19691,18.6599,49,2026
+Desmond Bane,Orlando Magic,0.78227,0.89774,-0.11547,32.8065,82,2026
+Oso Ighodaro,Phoenix Suns,0.779404,-1.17186,1.95126,25.6536,82,2026
+Jarred Vanderbilt,Los Angeles Lakers,0.729623,-1.31917,2.04879,2.70163,65,2026
+Isaiah Joe,Oklahoma City Thunder,0.722245,1.03165,-0.309404,8.60654,71,2026
+Cameron Johnson,Denver Nuggets,0.707378,0.910679,-0.203301,29.7379,54,2026
+Tyler Herro,Miami Heat,0.704844,1.94573,-1.24089,29.596,33,2026
+Jonathan Isaac,Orlando Magic,0.694655,-1.834,2.52866,11.9419,52,2026
+Jordan Goodwin,Phoenix Suns,0.693339,-0.217502,0.910841,24.1649,70,2026
+Brandin Podziemski,Golden State Warriors,0.677784,0.550912,0.126872,29.6486,82,2026
+Moses Moody,Golden State Warriors,0.674742,0.357069,0.317673,22.8495,60,2026
+Javonte Green,Detroit Pistons,0.666202,-0.77183,1.43803,5.28051,82,2026
+Walker Kessler,Utah Jazz,0.650895,-0.51203,1.16293,16.0053,5,2026
+Ryan Kalkbrenner,Charlotte Hornets,0.645435,-0.387233,1.03267,15.4063,69,2026
+Coby White,Charlotte Hornets,0.63917,1.76892,-1.12975,17.6599,50,2026
+Jrue Holiday,Portland Trail Blazers,0.607426,0.770339,-0.162912,31.4235,53,2026
+Gui Santos,Golden State Warriors,0.605752,0.224198,0.381554,25.3987,68,2026
+Jabari Smith Jr.,Houston Rockets,0.565688,0.179942,0.385747,36.8821,77,2026
+Jaden McDaniels,Minnesota Timberwolves,0.542947,-0.655773,1.19872,29.3187,73,2026
+Kenrich Williams,Oklahoma City Thunder,0.540759,-0.518663,1.05942,3.54845,56,2026
+Kris Dunn,Los Angeles Clippers,0.540206,-0.940921,1.48113,24.2985,82,2026
+Josh Hart,New York Knicks,0.534444,-0.0698523,0.604296,28.8175,67,2026
+Norman Powell,Miami Heat,0.532259,1.40913,-0.876872,21.8602,58,2026
+Jaylin Williams,Oklahoma City Thunder,0.524458,-0.319586,0.844044,16.9258,65,2026
+Landry Shamet,New York Knicks,0.523578,0.153599,0.369979,22.4061,51,2026
+Kyrie Irving,Dallas Mavericks,0.493897,1.31392,-0.820024,15.281,0,2026
+Shaedon Sharpe,Portland Trail Blazers,0.491969,1.43731,-0.94534,10.8291,50,2026
+Harrison Barnes,San Antonio Spurs,0.490558,0.505766,-0.0152085,9.29615,78,2026
+Mikal Bridges,New York Knicks,0.466468,0.433647,0.032821,30.7569,83,2026
+Dejounte Murray,New Orleans Pelicans,0.458933,0.615678,-0.156745,26.945,14,2026
+Kevin Porter Jr.,Milwaukee Bucks,0.45601,-0.203782,0.659792,23.9898,38,2026
+Luke Kornet,San Antonio Spurs,0.42753,-1.2173,1.64483,9.22848,69,2026
+Brandon Ingram,Toronto Raptors,0.423975,0.838864,-0.414889,28.9908,77,2026
+Collin Gillespie,Phoenix Suns,0.417552,0.121264,0.296288,25.6069,80,2026
+Josh Green,Charlotte Hornets,0.413868,-0.618636,1.0325,9.03272,58,2026
+Tristan Vukcevic,Washington Wizards,0.375115,0.448808,-0.0736931,19.5677,49,2026
+Jamal Shead,Toronto Raptors,0.35528,-0.368076,0.723355,26.2013,82,2026
+Jaxson Hayes,Los Angeles Lakers,0.299852,-0.936991,1.23684,16.6974,66,2026
+Grayson Allen,Phoenix Suns,0.299775,0.960032,-0.660257,16.5736,51,2026
+Anthony Black,Orlando Magic,0.29972,-0.840452,1.14017,23.838,64,2026
+Kyle Filipowski,Utah Jazz,0.298991,0.600473,-0.301482,27.4597,77,2026
+John Collins,Los Angeles Clippers,0.282495,-0.254999,0.537493,18.1136,69,2026
+Keshad Johnson,Miami Heat,0.279709,0.0512528,0.228456,5.12631,32,2026
+Jose Alvarado,New York Knicks,0.267517,-0.359611,0.627128,9.30386,69,2026
+Joan Beringer,Minnesota Timberwolves,0.263947,-0.239959,0.503906,1.58836,40,2026
+Sam Merrill,Cleveland Cavaliers,0.263777,1.06743,-0.803654,18.6098,52,2026
+Charles Bassey,Golden State Warriors,0.253511,-0.565924,0.819435,3.6783,13,2026
+Deandre Ayton,Los Angeles Lakers,0.234417,-0.996785,1.2312,21.9049,72,2026
+Baylor Scheierman,Boston Celtics,0.229745,-0.148354,0.378099,12.8832,77,2026
+Paolo Banchero,Orlando Magic,0.220846,0.53267,-0.311824,35.4649,72,2026
+Jalen Green,Phoenix Suns,0.215545,1.30501,-1.08947,31.5089,32,2026
+Oscar Tshiebwe,Utah Jazz,0.188904,-0.00838407,0.197288,17.5096,27,2026
+Zach Edey,Memphis Grizzlies,0.160074,-1.20282,1.36289,15.5812,11,2026
+Gary Payton II,Golden State Warriors,0.157643,-0.156602,0.314245,16.3252,73,2026
+Kasparas Jakučionis,Miami Heat,0.155572,-0.224897,0.380469,15.1327,53,2026
+Josh Okogie,Houston Rockets,0.126339,-1.29797,1.42431,9.80535,78,2026
+Kevin Huerter,Detroit Pistons,0.123861,-0.270043,0.393904,5.78659,69,2026
+Draymond Green,Golden State Warriors,0.102437,-2.07511,2.17755,27.2276,68,2026
+Josh Giddey,Chicago Bulls,0.100806,0.736493,-0.635687,34.0864,54,2026
+Ryan Dunn,Phoenix Suns,0.0921758,-1.35787,1.45004,4.52136,70,2026
+Max Strus,Cleveland Cavaliers,0.0907283,0.56104,-0.470312,19.7879,12,2026
+Ronald Holland II,Detroit Pistons,0.0509428,-1.24779,1.29873,3.91241,78,2026
+Simone Fontecchio,Miami Heat,0.0503307,0.200399,-0.150068,4.74536,70,2026
+Davion Mitchell,Miami Heat,0.0454769,-0.244103,0.28958,29.1293,70,2026
+Kon Knueppel,Charlotte Hornets,0.0303177,0.88992,-0.859602,32.7031,81,2026
+Dominick Barlow,Philadelphia 76ers,0.0299872,-1.01617,1.04616,11.2987,71,2026
+Haywood Highsmith,Phoenix Suns,0.0291107,-0.735406,0.764517,6.74876,7,2026
+Ja'Kobe Walter,Toronto Raptors,0.0263915,-0.334197,0.360588,27.6812,72,2026
+Aaron Wiggins,Oklahoma City Thunder,0.0145348,-0.626165,0.6407,7.1797,65,2026
+Trey Murphy III,New Orleans Pelicans,0.00338566,0.960029,-0.956643,34.4348,66,2026
+Santi Aldama,Memphis Grizzlies,0.00163913,0.376921,-0.375282,20.8719,43,2026
+Damian Lillard,Portland Trail Blazers,-0.0406324,0.641977,-0.682609,11.6817,0,2026
+Aaron Nesmith,Indiana Pacers,-0.0595327,0.113147,-0.17268,24.601,45,2026
+Scotty Pippen Jr.,Memphis Grizzlies,-0.0599819,-0.261074,0.201092,17.8571,10,2026
+Brandon Williams,Dallas Mavericks,-0.0644476,0.511769,-0.576217,28.4848,66,2026
+Olivier-Maxence Prosper,Memphis Grizzlies,-0.0764817,0.199267,-0.275748,4.15584,53,2026
+Nah'Shon Hyland,Minnesota Timberwolves,-0.0779254,0.0162751,-0.0942005,6.1504,71,2026
+Jordan Miller,Los Angeles Clippers,-0.124654,0.343935,-0.468588,17.1677,60,2026
+Daniel Gafford,Dallas Mavericks,-0.125613,-0.882002,0.75639,22.0956,55,2026
+Sidy Cissoko,Portland Trail Blazers,-0.126669,-1.49876,1.37209,9.24339,75,2026
+Cooper Flagg,Dallas Mavericks,-0.129332,0.553911,-0.683242,29.9214,70,2026
+Julius Randle,Minnesota Timberwolves,-0.13621,0.186631,-0.322841,29.7758,79,2026
+Isaiah Jackson,Los Angeles Clippers,-0.13794,-0.695172,0.557233,2.42602,55,2026
+Cormac Ryan,Milwaukee Bucks,-0.158138,0.038492,-0.19663,37.7907,11,2026
+A.J. Green,Milwaukee Bucks,-0.158139,0.252217,-0.410356,29.4731,78,2026
+Kelly Oubre Jr.,Philadelphia 76ers,-0.176536,-0.0337577,-0.142778,28.0604,50,2026
+John Konchar,Utah Jazz,-0.179594,-1.64487,1.46527,22.686,56,2026
+Jay Huff,Indiana Pacers,-0.1819,-0.632198,0.450298,18.7149,82,2026
+Justin Champagnie,Washington Wizards,-0.182444,0.120486,-0.302931,17.7304,69,2026
+Luguentz Dort,Oklahoma City Thunder,-0.192474,-1.19592,1.00345,19.238,69,2026
+Obi Toppin,Indiana Pacers,-0.235296,0.867425,-1.10272,14.1525,24,2026
+Keldon Johnson,San Antonio Spurs,-0.240647,0.119381,-0.360028,13.8916,83,2026
+Zach Collins,Chicago Bulls,-0.253515,-1.46111,1.2076,15.3911,10,2026
+Cedric Coward,Memphis Grizzlies,-0.266774,0.682922,-0.949697,23.8632,62,2026
+Jaylen Clark,Minnesota Timberwolves,-0.267986,-0.812465,0.544479,4.20219,68,2026
+Taylor Hendricks,Memphis Grizzlies,-0.278453,-0.337201,0.0587478,25.4488,59,2026
+Dillon Brooks,Phoenix Suns,-0.29846,0.67045,-0.96891,32.2382,56,2026
+Keegan Murray,Sacramento Kings,-0.308325,-0.443874,0.135549,20.215,23,2026
+Yuki Kawamura,Chicago Bulls,-0.317342,-0.829099,0.511757,8.13327,18,2026
+Collin Sexton,Chicago Bulls,-0.344525,0.27,-0.614525,25.191,68,2026
+Adem Bona,Philadelphia 76ers,-0.354055,-1.40847,1.05442,9.41667,71,2026
+Andrew Nembhard,Indiana Pacers,-0.357329,0.617518,-0.974847,28.4306,57,2026
+JD Davison,Houston Rockets,-0.367412,-1.286,0.918591,1.09466,28,2026
+Devin Carter,Sacramento Kings,-0.372704,-0.555188,0.182484,21.9989,38,2026
+Tre Jones,Chicago Bulls,-0.377332,0.439067,-0.8164,24.4429,65,2026
+Javon Small,Memphis Grizzlies,-0.394844,-0.0910402,-0.303804,20.1169,41,2026
+Ayo Dosunmu,Minnesota Timberwolves,-0.396884,0.104693,-0.501578,24.9414,69,2026
+Jalen Slawson,Indiana Pacers,-0.397863,-1.22,0.822142,23.4028,13,2026
+Saddiq Bey,New Orleans Pelicans,-0.40015,0.682559,-1.08271,26.6313,72,2026
+Scoot Henderson,Portland Trail Blazers,-0.422833,0.152076,-0.574909,22.3285,30,2026
+Kevon Looney,New Orleans Pelicans,-0.433029,-1.45603,1.023,5.78128,21,2026
+Jake LaRavia,Los Angeles Lakers,-0.444214,-1.53395,1.08973,4.70989,82,2026
+Antonio Reeves,Charlotte Hornets,-0.468133,-0.0947759,-0.373357,2.55829,10,2026
+Kel'el Ware,Miami Heat,-0.471014,0.0429276,-0.513942,19.7348,77,2026
+Jamir Watkins,Washington Wizards,-0.479249,-0.929148,0.449899,26.2351,50,2026
+Pete Nance,Milwaukee Bucks,-0.481645,-1.02472,0.543073,26.5515,47,2026
+VJ Edgecombe,Philadelphia 76ers,-0.48266,-0.244777,-0.237882,37.2189,75,2026
+Dylan Cardwell,Sacramento Kings,-0.493936,-1.94492,1.45098,22.4968,44,2026
+Myles Turner,Milwaukee Bucks,-0.511291,-1.22108,0.709787,24.0488,71,2026
+Derik Queen,New Orleans Pelicans,-0.512611,-0.921865,0.409254,32.1153,81,2026
+Pelle Larsson,Miami Heat,-0.512825,-0.37046,-0.142365,22.3112,70,2026
+Jaime Jaquez Jr.,Miami Heat,-0.516854,0.158149,-0.675003,25.2519,75,2026
+Jabari Walker,Philadelphia 76ers,-0.518376,-0.582308,0.0639317,3.31125,64,2026
+Luke Kennard,Los Angeles Lakers,-0.546154,0.0824574,-0.628612,22.3679,78,2026
+Andrew Wiggins,Miami Heat,-0.550501,-0.522072,-0.0284285,26.5581,68,2026
+Asa Newell,Atlanta Hawks,-0.5632,-0.789134,0.225934,6.20176,44,2026
+Jeremy Sochan,New York Knicks,-0.57346,-0.811573,0.238113,1.46341,44,2026
+Quinten Post,Golden State Warriors,-0.576518,-0.555252,-0.0212661,13.575,67,2026
+Will Richard,Golden State Warriors,-0.578258,-0.700389,0.12213,7.85541,69,2026
+Tristan da Silva,Orlando Magic,-0.580175,-0.60098,0.0208049,12.6215,77,2026
+Svi Mykhailiuk,Utah Jazz,-0.586023,0.780763,-1.36679,5.60311,50,2026
+Johnny Furphy,Indiana Pacers,-0.591368,-1.44537,0.854,16.1541,35,2026
+Marcus Sasser,Detroit Pistons,-0.598021,-0.349286,-0.248734,8.15638,38,2026
+Vit Krejci,Portland Trail Blazers,-0.616506,-0.73225,0.115743,6.30058,65,2026
+Cam Spencer,Memphis Grizzlies,-0.634779,0.470275,-1.10505,21.8758,72,2026
+DaRon Holmes II,Denver Nuggets,-0.637467,-0.357504,-0.279964,3.16032,25,2026
+Wendell Moore Jr.,Detroit Pistons,-0.637855,-1.00467,0.366817,3.71217,6,2026
+Domantas Sabonis,Sacramento Kings,-0.646904,-0.152137,-0.494767,17.3098,19,2026
+Bogdan Bogdanovic,Los Angeles Clippers,-0.648639,-0.659355,0.0107162,7.00903,23,2026
+Craig Porter,Cleveland Cavaliers,-0.653087,-1.74035,1.08726,2.80242,64,2026
+Micah Potter,Indiana Pacers,-0.664401,0.0303,-0.694701,20.2357,47,2026
+GG Jackson,Memphis Grizzlies,-0.667116,0.485382,-1.1525,20.8066,55,2026
+Tolu Smith,Detroit Pistons,-0.668257,-1.04452,0.376268,2.35148,15,2026
+Nae'Qwan Tomlin,Cleveland Cavaliers,-0.668316,-0.727963,0.0596471,2.58807,64,2026
+Jock Landale,Atlanta Hawks,-0.679034,-0.546457,-0.132577,16.3914,68,2026
+Julian Phillips,Minnesota Timberwolves,-0.691499,-0.453572,-0.237927,2.45966,48,2026
+Leonard Miller,Chicago Bulls,-0.692244,-0.303117,-0.389127,26.0918,46,2026
+T.J. McConnell,Indiana Pacers,-0.692316,-0.120508,-0.571808,19.0906,56,2026
+Jonathan Mogbo,Toronto Raptors,-0.69292,-2.12123,1.42831,1.60083,40,2026
+Xavier Tillman,Charlotte Hornets,-0.705395,-2.31497,1.60957,1.10457,30,2026
+Myron Gardner,Miami Heat,-0.727169,-0.905535,0.178366,2.89147,45,2026
+Jerami Grant,Portland Trail Blazers,-0.73666,-0.451693,-0.284967,20.5399,57,2026
+Hugo González,Boston Celtics,-0.740614,-1.82208,1.08147,11.8384,74,2026
+Peyton Watson,Denver Nuggets,-0.744284,-0.385653,-0.358631,20.937,54,2026
+Jusuf Nurkic,Utah Jazz,-0.758255,-2.07036,1.31211,11.0196,41,2026
+Aaron Holiday,Houston Rockets,-0.758362,-0.846194,0.0878321,7.26103,57,2026
+Thomas Bryant,Cleveland Cavaliers,-0.77049,-0.698288,-0.0722011,4.08466,60,2026
+Dru Smith,Miami Heat,-0.774054,-1.33184,0.55779,18.7431,70,2026
+Dorian Finney-Smith,Houston Rockets,-0.783658,-1.68147,0.897807,6.43603,37,2026
+Precious Achiuwa,Sacramento Kings,-0.796022,-0.623503,-0.172519,27.2734,73,2026
+Jamal Cain,Orlando Magic,-0.797848,-0.215508,-0.58234,14.4376,40,2026
+Mark Williams,Phoenix Suns,-0.800353,-0.220278,-0.580074,21.3164,60,2026
+Ron Harper Jr.,Boston Celtics,-0.811433,-0.213512,-0.597921,2.32992,29,2026
+Jamaree Bouyea,Phoenix Suns,-0.817485,-1.30928,0.491796,1.4705,46,2026
+Yves Missi,New Orleans Pelicans,-0.835306,-1.70276,0.867452,23.5855,66,2026
+Moussa Cisse,Dallas Mavericks,-0.852057,-1.82182,0.969759,23.5641,38,2026
+Brook Lopez,Los Angeles Clippers,-0.853347,-2.14251,1.28917,24.7241,75,2026
+Jeremiah Fears,New Orleans Pelicans,-0.854445,-0.0514866,-0.802959,36.0286,82,2026
+Branden Carlson,Oklahoma City Thunder,-0.862851,-0.77229,-0.0905612,10.2413,42,2026
+Noah Penda,Orlando Magic,-0.867643,-1.19185,0.324203,3.13126,59,2026
+Bobby Portis,Milwaukee Bucks,-0.912475,-0.0434038,-0.869071,23.7996,67,2026
+Yanic Konan Niederhäuser,Los Angeles Clippers,-0.914241,-1.68151,0.767268,12.8606,41,2026
+Khaman Maluach,Phoenix Suns,-0.924248,-2.68502,1.76077,9.24371,46,2026
+Tim Hardaway Jr.,Denver Nuggets,-0.924436,0.582968,-1.5074,21.7464,80,2026
+Buddy Hield,Atlanta Hawks,-0.924948,-0.538845,-0.386104,3.01027,51,2026
+Tyler Kolek,New York Knicks,-0.930181,-0.490237,-0.439944,1.40832,63,2026
+Ziaire Williams,Brooklyn Nets,-0.944033,-1.54252,0.598491,25.2604,56,2026
+Chris Mañon,Los Angeles Lakers,-0.963999,-1.62003,0.656028,5.34285,9,2026
+Brice Sensabaugh,Utah Jazz,-0.9681,0.849694,-1.81779,22.7759,75,2026
+Jonathan Kuminga,Atlanta Hawks,-0.968886,-0.627412,-0.341474,17.9287,36,2026
+Quenton Jackson,Indiana Pacers,-0.970678,-0.448542,-0.522136,20.8943,49,2026
+Malachi Smith,Brooklyn Nets,-0.984915,-0.613854,-0.371061,36.7185,15,2026
+Chaney Johnson,Brooklyn Nets,-0.996669,-1.25911,0.262442,11.1596,17,2026
+Karlo Matkovic,New Orleans Pelicans,-0.999725,-1.3748,0.375079,20.4354,62,2026
+Dalen Terry,Philadelphia 76ers,-1.00224,-1.83096,0.828715,5.1921,48,2026
+Andre Drummond,Philadelphia 76ers,-1.0123,-2.34286,1.33056,6.56181,63,2026
+Egor Dëmin,Brooklyn Nets,-1.0142,-0.60879,-0.405411,22.3249,52,2026
+Spencer Jones,Denver Nuggets,-1.03232,-1.49659,0.464277,21.4528,64,2026
+E.J. Liddell,Brooklyn Nets,-1.04346,-1.12053,0.0770749,18.8198,26,2026
+Al Horford,Golden State Warriors,-1.04743,-1.29943,0.252008,17.4885,45,2026
+Dalton Knecht,Los Angeles Lakers,-1.04745,-0.105661,-0.941785,4.30294,54,2026
+Quentin Grimes,Philadelphia 76ers,-1.06471,-0.408257,-0.656458,18.8807,75,2026
+Kyle Anderson,Minnesota Timberwolves,-1.06676,-2.43568,1.36892,4.6491,43,2026
+Gary Harris,Milwaukee Bucks,-1.07191,-1.55626,0.484354,20.1877,48,2026
+Jevon Carter,Orlando Magic,-1.07848,-0.97186,-0.106615,3.37838,53,2026
+Rui Hachimura,Los Angeles Lakers,-1.0815,-0.620585,-0.460919,32.8262,68,2026
+Thomas Sorber,Oklahoma City Thunder,-1.09354,-1.02312,-0.0704218,9.1766,0,2026
+Kobe Sanders,Los Angeles Clippers,-1.09396,-0.889336,-0.204622,13.7834,68,2026
+Taurean Prince,Milwaukee Bucks,-1.09457,-0.785846,-0.308726,22.6504,26,2026
+Thanasis Antetokounmpo,Milwaukee Bucks,-1.11517,-2.6394,1.52423,21.6138,34,2026
+Blake Hinson,Utah Jazz,-1.14394,0.0608387,-1.20478,30.6583,14,2026
+Keshon Gilbert,Atlanta Hawks,-1.15228,-1.92238,0.7701,11.7571,4,2026
+MarJon Beauchamp,Philadelphia 76ers,-1.15685,-0.768532,-0.388318,6.15015,14,2026
+Kentavious Caldwell-Pope,Memphis Grizzlies,-1.16604,-0.910882,-0.255155,17.7417,51,2026
+Micah Peavy,New Orleans Pelicans,-1.16917,-1.56649,0.397316,34.8529,61,2026
+Malik Monk,Sacramento Kings,-1.18256,0.186388,-1.36895,25.408,62,2026
+Jaylen Wells,Memphis Grizzlies,-1.19577,0.0489886,-1.24475,20.8251,69,2026
+David Jones,San Antonio Spurs,-1.19995,-0.957395,-0.242554,13.438,11,2026
+Alex Antetokounmpo,Milwaukee Bucks,-1.20963,-0.911471,-0.298163,22.1789,6,2026
+Kobe Brown,Indiana Pacers,-1.21653,-0.309602,-0.906923,23.317,61,2026
+Nikola Vucevic,Boston Celtics,-1.23436,-1.21975,-0.0146127,13.9079,64,2026
+Lachlan Olbrich,Chicago Bulls,-1.25069,-2.29832,1.04763,29.6632,37,2026
+De'Andre Hunter,Sacramento Kings,-1.25201,-0.311266,-0.940743,20.064,45,2026
+Jaylon Tyson,Cleveland Cavaliers,-1.2727,-0.624367,-0.648333,8.98551,66,2026
+Maxi Kleber,Los Angeles Lakers,-1.28184,-2.6409,1.35906,2.88555,42,2026
+Rocco Zikarsky,Minnesota Timberwolves,-1.30221,-1.50451,0.202304,12.5165,5,2026
+Danny Wolf,Brooklyn Nets,-1.309,-1.08669,-0.222311,21.329,57,2026
+Daniss Jenkins,Detroit Pistons,-1.31401,-0.867385,-0.446628,23.8954,72,2026
+Nikola Jovic,Miami Heat,-1.31486,-1.31914,0.00427079,19.1428,47,2026
+Klay Thompson,Dallas Mavericks,-1.32106,-0.741939,-0.579118,15.346,69,2026
+Ben Sheppard,Indiana Pacers,-1.34265,-0.691948,-0.650706,26.295,65,2026
+Matas Buzelis,Chicago Bulls,-1.34934,-0.367748,-0.981593,30.9131,77,2026
+Killian Hayes,Sacramento Kings,-1.3639,-1.75244,0.388546,15.6198,23,2026
+D'Angelo Russell,Washington Wizards,-1.3776,-0.856404,-0.521191,16.3324,26,2026
+Isaiah Stewart,Detroit Pistons,-1.38433,-2.51306,1.12873,7.54678,58,2026
+Justin Edwards,Philadelphia 76ers,-1.39373,-0.982246,-0.411486,7.49371,64,2026
+P.J. Washington,Dallas Mavericks,-1.3989,-1.38139,-0.0175141,26.5268,56,2026
+Tyrese Proctor,Cleveland Cavaliers,-1.40531,-0.546063,-0.859252,5.6226,50,2026
+Keyonte George,Utah Jazz,-1.41381,0.953448,-2.36726,25.7445,54,2026
+Amir Coffey,Phoenix Suns,-1.4355,-0.926822,-0.508677,2.5412,46,2026
+Taelon Peter,Indiana Pacers,-1.4457,-1.3221,-0.123597,27.319,38,2026
+Bryce McGowens,New Orleans Pelicans,-1.46358,-1.15229,-0.311289,19.2655,42,2026
+Anfernee Simons,Chicago Bulls,-1.46594,0.479716,-1.94566,21.0881,55,2026
+Tyus Jones,Denver Nuggets,-1.46657,-0.849247,-0.61732,5.03166,67,2026
+Kyshawn George,Washington Wizards,-1.47179,-1.18001,-0.291779,18.4231,48,2026
+Seth Curry,Golden State Warriors,-1.47811,-0.947714,-0.5304,3.9267,10,2026
+John Poulakidas,Dallas Mavericks,-1.47909,-1.22975,-0.249337,24.9821,13,2026
+Riley Minix,Cleveland Cavaliers,-1.47964,-0.83226,-0.647375,2.14523,9,2026
+David Roddy,Denver Nuggets,-1.4971,-0.835992,-0.661108,15.1553,5,2026
+Pacôme Dadiet,New York Knicks,-1.50135,-0.471407,-1.02995,0.631187,29,2026
+Jae'Sean Tate,Houston Rockets,-1.50489,-2.02267,0.517773,2.68527,46,2026
+Bennedict Mathurin,Los Angeles Clippers,-1.5103,-0.327714,-1.18259,23.6143,54,2026
+Sion James,Charlotte Hornets,-1.51103,-1.53887,0.0278319,15.5653,82,2026
+Nick Richards,Chicago Bulls,-1.51521,-2.09504,0.57983,14.403,47,2026
+Mason Plumlee,San Antonio Spurs,-1.51642,-3.17991,1.66348,1.44084,20,2026
+Tony Bradley,Atlanta Hawks,-1.51988,-2.09704,0.577166,4.64715,40,2026
+Drew Eubanks,Sacramento Kings,-1.52724,-1.94852,0.421284,13.8889,42,2026
+Jared McCain,Oklahoma City Thunder,-1.52732,-0.271827,-1.25549,15.2448,67,2026
+Rasheer Fleming,Phoenix Suns,-1.53804,-1.52014,-0.017903,5.72719,55,2026
+Bez Mbeng,Utah Jazz,-1.54049,-1.86941,0.328925,34.7649,15,2026
+Royce O'Neale,Phoenix Suns,-1.54897,-1.43942,-0.109551,19.7086,78,2026
+Naji Marshall,Dallas Mavericks,-1.55011,-0.749953,-0.80016,28.2317,74,2026
+Daeqwon Plowden,Sacramento Kings,-1.55487,-0.267352,-1.28752,23.0108,32,2026
+Guerschon Yabusele,Chicago Bulls,-1.56058,-0.993417,-0.567163,24.2283,67,2026
+Marvin Bagley III,Dallas Mavericks,-1.57001,-1.1397,-0.430311,24.6462,60,2026
+Julian Strawther,Denver Nuggets,-1.57106,-0.211315,-1.35974,7.27991,57,2026
+Moritz Wagner,Orlando Magic,-1.57171,-0.930956,-0.640752,2.99722,36,2026
+Liam McNeeley,Charlotte Hornets,-1.57409,-0.800776,-0.773314,6.50646,31,2026
+Jordan McLaughlin,San Antonio Spurs,-1.57428,-1.38504,-0.189237,-0.00727492,44,2026
+Bronny James,Los Angeles Lakers,-1.57618,-1.67655,0.100374,4.95011,42,2026
+Anthony Gill,Washington Wizards,-1.58235,-1.2806,-0.301752,23.755,55,2026
+Harrison Ingram,San Antonio Spurs,-1.59007,-1.00914,-0.580924,-2.82088,7,2026
+Trayce Jackson-Davis,Toronto Raptors,-1.59998,-1.57003,-0.0299543,1.81119,52,2026
+Dalano Banton,Boston Celtics,-1.60053,-1.86637,0.265837,5.9906,6,2026
+Nicolas Batum,Los Angeles Clippers,-1.60412,-2.33281,0.728691,9.49897,74,2026
+Tristan Enaruna,Cleveland Cavaliers,-1.60579,-1.14952,-0.456273,23.1577,9,2026
+Elijah Harkless,Utah Jazz,-1.60768,-1.80227,0.194597,23.4831,26,2026
+Alijah Martin,Toronto Raptors,-1.6129,-1.91446,0.301562,18.7848,23,2026
+Noah Clowney,Brooklyn Nets,-1.61353,-0.847473,-0.766061,27.5387,66,2026
+Tristen Newton,Houston Rockets,-1.615,-1.40165,-0.213349,3.69154,1,2026
+Isaiah Livers,Phoenix Suns,-1.61892,-2.04863,0.42971,15.9622,36,2026
+Jalen Wilson,Brooklyn Nets,-1.62809,-1.34819,-0.279902,17.4313,54,2026
+Gabe Vincent,Atlanta Hawks,-1.63845,-0.948025,-0.690423,9.30199,53,2026
+Mike Conley,Minnesota Timberwolves,-1.64396,-2.40907,0.765118,8.67652,54,2026
+Jaden Hardy,Washington Wizards,-1.66314,0.0288047,-1.69194,11.3125,57,2026
+TyTy Washington Jr.,Los Angeles Clippers,-1.67527,-1.9152,0.23993,3.98548,16,2026
+Sharife Cooper,Washington Wizards,-1.67672,-0.256506,-1.42021,21.0124,41,2026
+Bradley Beal,Los Angeles Clippers,-1.7024,-0.58001,-1.12239,16.2894,6,2026
+Isaiah Stevens,Sacramento Kings,-1.71469,-1.99234,0.27765,0.818185,3,2026
+Maxime Raynaud,Sacramento Kings,-1.7148,-1.12606,-0.588743,31.148,74,2026
+RayJ Dennis,Atlanta Hawks,-1.7188,-2.07107,0.352275,12.6158,17,2026
+Isaiah Crawford,Houston Rockets,-1.72355,-1.91512,0.191575,0.517638,14,2026
+Gradey Dick,Toronto Raptors,-1.73472,-1.66241,-0.0723126,1.99796,76,2026
+Jordan Clarkson,New York Knicks,-1.73612,-0.802424,-0.933698,6.05305,73,2026
+Mac McClung,Chicago Bulls,-1.73795,-1.90141,0.163452,9.07374,11,2026
+Max Christie,Dallas Mavericks,-1.73856,-0.813785,-0.924771,23.9232,77,2026
+Noa Essengue,Chicago Bulls,-1.7481,-1.41799,-0.330101,16.8414,2,2026
+Chris Youngblood,Portland Trail Blazers,-1.77182,-1.22994,-0.541873,14.6338,34,2026
+Adou Thiero,Los Angeles Lakers,-1.77416,-1.82569,0.0515337,5.00173,25,2026
+Andre Jackson Jr.,Milwaukee Bucks,-1.77846,-2.03668,0.25822,9.02194,48,2026
+Bilal Coulibaly,Washington Wizards,-1.79138,-1.14763,-0.643751,28.5809,56,2026
+Patrick Baldwin Jr.,Sacramento Kings,-1.79579,-1.88716,0.0913718,2.9135,9,2026
+Corey Kispert,Atlanta Hawks,-1.79589,-0.304687,-1.4912,9.78515,58,2026
+Kevin McCullar Jr.,New York Knicks,-1.79669,-1.66108,-0.135608,-6.49886,21,2026
+Tyrese Martin,Philadelphia 76ers,-1.80457,-1.49601,-0.308561,6.73771,46,2026
+Nique Clifford,Sacramento Kings,-1.81393,-1.61917,-0.194766,34.0095,75,2026
+Chucky Hepburn,Toronto Raptors,-1.81456,-1.41546,-0.399099,15.3316,2,2026
+Dillon Jones,New York Knicks,-1.82962,-1.70839,-0.121228,-0.556075,7,2026
+Jase Richardson,Orlando Magic,-1.83057,-0.71224,-1.11833,3.00835,54,2026
+Tidjane Salaün,Charlotte Hornets,-1.83494,-1.40886,-0.426079,5.09873,37,2026
+Carter Bryant,San Antonio Spurs,-1.83776,-1.7518,-0.0859596,5.19228,71,2026
+Cam Whitmore,Washington Wizards,-1.84015,-0.829958,-1.01019,17.3992,21,2026
+Ariel Hukporti,New York Knicks,-1.85408,-2.85468,1.0006,2.16913,55,2026
+Ethan Thompson,Indiana Pacers,-1.8579,-1.56207,-0.295829,26.4657,32,2026
+Kevin Love,Utah Jazz,-1.85794,-1.37601,-0.481927,2.53379,37,2026
+AJ Lawson,Toronto Raptors,-1.89653,-1.33439,-0.562144,4.64904,24,2026
+Doug McDermott,Sacramento Kings,-1.89798,-1.21667,-0.681306,11.4067,29,2026
+Jonas Valanciunas,Denver Nuggets,-1.90698,-0.903083,-1.00389,2.45451,65,2026
+Emanuel Miller,San Antonio Spurs,-1.9213,-1.42507,-0.496228,0.290365,5,2026
+Tosan Evbuomwan,Charlotte Hornets,-1.93844,-1.67554,-0.262899,0.729803,5,2026
+LJ Cryer,Golden State Warriors,-1.95113,-0.7039,-1.24723,26.7133,18,2026
+PJ Hall,Charlotte Hornets,-1.95347,-1.74904,-0.204434,3.67413,19,2026
+Terrence Shannon Jr.,Minnesota Timberwolves,-1.9581,-0.37162,-1.58648,14.6842,43,2026
+DeAndre Jordan,New Orleans Pelicans,-1.95985,-3.40297,1.44313,4.28955,12,2026
+Kam Jones,Indiana Pacers,-1.98563,-1.39019,-0.595448,27.1928,37,2026
+Lindy Waters III,San Antonio Spurs,-1.9917,-1.49513,-0.496567,0.88034,40,2026
+Will Riley,Washington Wizards,-1.99588,-0.64009,-1.35579,30.5802,74,2026
+Zeke Nnaji,Denver Nuggets,-2.01914,-2.56696,0.547815,2.19074,52,2026
+Nikola Topić,Oklahoma City Thunder,-2.02535,-1.41583,-0.609511,5.24762,10,2026
+Ochai Agbaji,Brooklyn Nets,-2.04065,-1.73717,-0.303476,5.99103,62,2026
+Isaac Okoro,Chicago Bulls,-2.05725,-0.894209,-1.16304,27.2849,63,2026
+Zaccharie Risacher,Atlanta Hawks,-2.0637,-1.65567,-0.408022,9.49307,67,2026
+Kelly Olynyk,San Antonio Spurs,-2.06446,-2.84581,0.781353,0.274116,41,2026
+Malevy Leons,Golden State Warriors,-2.06988,-1.98427,-0.0856178,8.01731,25,2026
+Jamison Battle,Toronto Raptors,-2.07849,-1.22655,-0.85194,5.82417,61,2026
+Olivier Sarr,Cleveland Cavaliers,-2.07877,-2.56054,0.481774,14.4599,4,2026
+Pat Spencer,Golden State Warriors,-2.08147,-1.4567,-0.624776,5.37111,66,2026
+Caleb Martin,Dallas Mavericks,-2.09795,-2.70894,0.610986,14.0967,58,2026
+Trendon Watford,Philadelphia 76ers,-2.11472,-2.22805,0.113331,4.02047,53,2026
+DeMar DeRozan,Sacramento Kings,-2.12055,0.342426,-2.46297,24.244,77,2026
+Trevor Keels,Miami Heat,-2.12494,-1.38435,-0.740593,12.7471,8,2026
+Tyson Etienne,Brooklyn Nets,-2.12913,-0.699155,-1.42997,19.1142,24,2026
+Jalen Pickett,Denver Nuggets,-2.13987,-1.32845,-0.811417,2.65487,50,2026
+Ryan Nembhard,Dallas Mavericks,-2.16095,-1.25405,-0.906901,29.7106,60,2026
+Khris Middleton,Dallas Mavericks,-2.16848,-1.13229,-1.03619,13.0824,63,2026
+John Tonje,Boston Celtics,-2.17131,-1.92264,-0.248672,18.1876,6,2026
+Larry Nance Jr.,Cleveland Cavaliers,-2.1861,-3.00737,0.82127,1.89641,35,2026
+Jarace Walker,Indiana Pacers,-2.1892,-1.0354,-1.1538,29.6518,76,2026
+Jericho Sims,Milwaukee Bucks,-2.19279,-2.18352,-0.00926579,23.2114,67,2026
+Norchad Omier,Los Angeles Clippers,-2.19399,-1.57671,-0.617281,3.05599,6,2026
+Jayson Kent,Portland Trail Blazers,-2.20046,-1.79626,-0.404198,1.17762,5,2026
+Ace Bailey,Utah Jazz,-2.20235,-0.564079,-1.63827,31.056,72,2026
+Curtis Jones,Denver Nuggets,-2.21155,-1.71996,-0.491594,30.0814,10,2026
+Zyon Pullin,Minnesota Timberwolves,-2.22085,-1.39544,-0.825411,3.12134,5,2026
+Nicolas Claxton,Brooklyn Nets,-2.22855,-2.02532,-0.203232,24.8328,69,2026
+Alexandre Sarr,Washington Wizards,-2.24967,-1.00298,-1.24669,21.818,48,2026
+Dennis Schroder,Cleveland Cavaliers,-2.27716,-0.980457,-1.29671,24.5908,70,2026
+Jordan Poole,New Orleans Pelicans,-2.31795,-0.931605,-1.38634,15.1233,39,2026
+Pat Connaughton,Charlotte Hornets,-2.32136,-2.269,-0.0523597,1.36358,42,2026
+Taj Gibson,Memphis Grizzlies,-2.33341,-4.04428,1.71088,4.94124,10,2026
+Jeenathan Williams,Golden State Warriors,-2.33702,-1.52158,-0.815433,12.3643,14,2026
+Jett Howard,Orlando Magic,-2.34036,-0.945919,-1.39444,2.96271,55,2026
+Koby Brea,Phoenix Suns,-2.35255,-1.30517,-1.04738,28.6101,12,2026
+Christian Koloko,Atlanta Hawks,-2.35451,-3.62668,1.27217,3.24264,27,2026
+Caris LeVert,Detroit Pistons,-2.36757,-2.92531,0.55774,15.0773,60,2026
+Blake Wesley,Portland Trail Blazers,-2.39499,-2.27705,-0.117935,1.4406,31,2026
+Nick Smith Jr.,Los Angeles Lakers,-2.40472,-0.634012,-1.77071,5.737,30,2026
+Nolan Traore,Brooklyn Nets,-2.4106,-1.88969,-0.52091,25.656,56,2026
+Drew Timme,Los Angeles Lakers,-2.41227,-1.84876,-0.563509,1.81344,27,2026
+Cam Christie,Los Angeles Clippers,-2.41296,-2.52222,0.109266,2.85435,55,2026
+Max Shulga,Boston Celtics,-2.42112,-1.79228,-0.628839,5.79439,11,2026
+Keaton Wallace,Atlanta Hawks,-2.42113,-1.9377,-0.483437,2.20909,53,2026
+Terance Mann,Brooklyn Nets,-2.42754,-1.79673,-0.630807,25.6064,63,2026
+KJ Simpson,Denver Nuggets,-2.45767,-2.06405,-0.393618,5.34825,20,2026
+Isaiah Collier,Utah Jazz,-2.45884,-0.927207,-1.53163,22.3723,59,2026
+Zach LaVine,Sacramento Kings,-2.52104,-0.164192,-2.35684,20.712,39,2026
+Jahmir Young,Miami Heat,-2.52402,-1.22392,-1.3001,5.12512,14,2026
+Enrique Freeman,Minnesota Timberwolves,-2.52725,-2.15234,-0.374915,5.03284,4,2026
+Trey Alexander,New Orleans Pelicans,-2.52868,-1.90131,-0.627362,6.40957,9,2026
+Julian Reese,Washington Wizards,-2.52937,-2.46001,-0.0693658,32.5551,13,2026
+Hayden Gray,Utah Jazz,-2.57207,-2.10198,-0.470084,4.41453,1,2026
+Jahmai Mashack,Memphis Grizzlies,-2.57797,-2.31832,-0.259647,36.4322,31,2026
+Walter Clayton Jr.,Memphis Grizzlies,-2.63439,-1.47118,-1.16321,31.648,69,2026
+Gary Trent Jr.,Milwaukee Bucks,-2.64465,-0.773109,-1.87154,24.2548,65,2026
+Hunter Dickinson,New Orleans Pelicans,-2.64478,-2.55303,-0.0917492,19.5486,5,2026
+Brooks Barnhizer,Oklahoma City Thunder,-2.64595,-2.31943,-0.326525,34.9848,40,2026
+Alex Morales,Orlando Magic,-2.73366,-2.00011,-0.73355,4.67821,4,2026
+Johni Broome,Philadelphia 76ers,-2.77559,-2.56191,-0.213673,5.36325,11,2026
+Bruce Brown,Denver Nuggets,-2.78886,-2.23821,-0.55065,15.5594,82,2026
+Amari Williams,Boston Celtics,-2.79461,-2.79829,0.00368289,5.96606,22,2026
+Mohamed Diawara,New York Knicks,-2.80583,-1.97011,-0.83572,2.69913,69,2026
+Leaky Black,Washington Wizards,-2.83706,-2.36807,-0.468991,29.6161,15,2026
+Yang Hansen,Portland Trail Blazers,-2.83839,-2.88301,0.0446158,0.864746,43,2026
+Garrett Temple,Toronto Raptors,-2.85008,-3.66284,0.81276,1.26476,22,2026
+Rayan Rupert,Memphis Grizzlies,-2.85269,-2.15098,-0.70171,28.8766,64,2026
+Tre Mann,Charlotte Hornets,-2.86195,-2.16656,-0.695383,2.18418,53,2026
+Josh Oduro,New Orleans Pelicans,-2.87276,-2.41637,-0.456391,25.6787,3,2026
+Vladislav Goldin,Miami Heat,-2.88478,-2.71039,-0.174394,12.3091,9,2026
+Mouhamadou Gueye,Chicago Bulls,-2.90365,-2.91815,0.0145033,18.1736,2,2026
+Sean Pedulla,Los Angeles Clippers,-2.90839,-1.49334,-1.41506,3.26741,7,2026
+Chaz Lanier,Detroit Pistons,-2.98152,-1.71564,-1.26588,0.700865,34,2026
+Patrick Williams,Chicago Bulls,-3.00499,-2.52838,-0.476613,20.8142,72,2026
+Payton Sandfort,Oklahoma City Thunder,-3.01336,-2.32836,-0.684999,27.1009,4,2026
+Tre Johnson,Washington Wizards,-3.05088,-1.29057,-1.76032,30.5022,60,2026
+CJ Huntley,Phoenix Suns,-3.05357,-2.41845,-0.635116,11.1402,4,2026
+Rob Dillingham,Chicago Bulls,-3.08154,-2.43304,-0.648501,18.8659,65,2026
+Russell Westbrook,Sacramento Kings,-3.08962,-0.974537,-2.11508,19.125,64,2026
+Caleb Love,Portland Trail Blazers,-3.12733,-1.29205,-1.83528,8.37324,49,2026
+Tyler Smith,Dallas Mavericks,-3.16706,-1.91908,-1.24798,14.7749,12,2026
+Isaac Jones,Detroit Pistons,-3.21701,-2.32137,-0.895638,2.41489,7,2026
+Cody Williams,Utah Jazz,-3.25399,-2.20359,-1.05039,30.7231,67,2026
+Kyle Kuzma,Milwaukee Bucks,-3.2929,-1.5796,-1.7133,28.0012,69,2026
+Joe Ingles,Minnesota Timberwolves,-3.30043,-3.1433,-0.157131,4.30608,26,2026
+Drake Powell,Brooklyn Nets,-3.301,-1.95128,-1.34972,29.2308,63,2026
+Colin Castleton,Orlando Magic,-3.32749,-2.71499,-0.6125,3.19553,4,2026
+Carlton Carrington,Washington Wizards,-3.34216,-1.54369,-1.79847,26.8559,82,2026
+Ben Saraf,Brooklyn Nets,-3.35718,-2.7635,-0.593686,35.995,44,2026
+Ousmane Dieng,Milwaukee Bucks,-3.43121,-1.84278,-1.58843,25.1843,57,2026
+AJ Johnson,Dallas Mavericks,-3.47608,-1.82309,-1.65299,14.74,48,2026
+Jordan Hawkins,New Orleans Pelicans,-3.69522,-1.79435,-1.90087,10.9342,51,2026
+Trey Jemison,New York Knicks,-3.72355,-3.63585,-0.0877025,-3.82031,13,2026
+Kyle Lowry,Philadelphia 76ers,-3.93438,-4.01821,0.0838284,3.92183,14,2026
+Bismack Biyombo,San Antonio Spurs,-4.18556,-4.57749,0.391929,0.743319,25,2026
+Jeff Green,Houston Rockets,-4.84874,-3.91323,-0.93551,3.74381,30,2026

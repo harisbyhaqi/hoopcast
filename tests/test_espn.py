@@ -30,9 +30,14 @@ def test_parse_box_score():
     assert set(by_team) == {"MEM", "ORL"}
     assert by_team["ORL"]["pts"] == 118 and by_team["MEM"]["pts"] == 111
     assert (by_team["MEM"]["fgm"], by_team["MEM"]["fga"]) == (38, 83)
-    # player points add up to the team score
+    # player lines add up to the team box score
     for abbr, t in by_team.items():
-        assert sum(p["pts"] for p in players if p["team"] == abbr) == t["pts"]
+        mine = [p for p in players if p["team"] == abbr]
+        assert sum(p["pts"] for p in mine) == t["pts"]
+        for k in ("fgm", "fga", "fg3m", "ast", "stl", "blk"):
+            assert sum(p[k] for p in mine) == t[k]
+    jj = next(p for p in players if p["player"] == "Jaren Jackson Jr.")
+    assert (jj["min"], jj["pts"], jj["fgm"], jj["fga"], jj["plus_minus"]) == (33, 30, 12, 22, -21)
 
 
 def test_parse_injuries_normalises_status():
