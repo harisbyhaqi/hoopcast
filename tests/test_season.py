@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 import pandas as pd
 
 import rosters
-from update_daily import accuracy, freeze, injuries_by_game, injury_offset, load_frozen, projected_standings
+from update_daily import accuracy, blend, freeze, injuries_by_game, load_frozen, projected_standings
 
 
 def _game(eid, date, home, away, result=None, p_home=None, frozen=None, type_="regular"):
@@ -43,9 +43,9 @@ def test_injury_horizon():
         for i in range(1, 7)
     ])
     inj = [
-        {"team": "BOS", "player": "A", "status": "out", "return_date": None, "ppg": 25, "pts_lost": 6.0},
-        {"team": "BOS", "player": "B", "status": "out", "return_date": "2026-11-05", "ppg": 20, "pts_lost": 4.5},
-        {"team": "NYK", "player": "C", "status": "questionable", "return_date": None, "ppg": 22, "pts_lost": 2.0},
+        {"team": "BOS", "player": "A", "status": "out", "return_date": None},
+        {"team": "BOS", "player": "B", "status": "out", "return_date": "2026-11-05"},
+        {"team": "NYK", "player": "C", "status": "questionable", "return_date": None},
     ]
     by_game = injuries_by_game(inj, upcoming)
     players = {eid: {i["player"] for i in v} for eid, v in by_game.items()}
@@ -53,8 +53,28 @@ def test_injury_horizon():
     assert players["3"] == {"A", "B"}
     assert players["4"] == {"B"}
     assert "5" not in players
-    off, applied = injury_offset("BOS", by_game["1"])
-    assert off == -10.5 and len(applied) == 2
+
+
+def test_blend_is_roster_only_before_any_games():
+    # Strong roster at home, no games played: form model ignored even if given
+    p = blend((100.0, 130.0), 0, rating_home=5.0, rating_away=-5.0, hca=2.0, league_pts=115.0)
+    assert p["form_weight"] == 0.0
+    assert p["home"] - p["away"] == 12.0          # 10-pt rating gap + 2 home court
+    assert p["home"] + p["away"] == 230.0         # league-average total
+
+
+def test_blend_shifts_to_form_as_season_goes():
+    early = blend((120.0, 100.0), 2, 0.0, 0.0, 0.0, 115.0)
+    later = blend((120.0, 100.0), 40, 0.0, 0.0, 0.0, 115.0)
+    assert 0 < early["form_weight"] < 0.1 < 0.5 < later["form_weight"]
+    assert later["home"] - later["away"] > early["home"] - early["away"]
+    assert blend((120.0, 100.0), 20, 0.0, 0.0, 0.0, 115.0)["form_weight"] == 0.5
+
+
+def test_blend_applies_injuries_regardless_of_weight():
+    base = blend(None, 0, 0.0, 0.0, 0.0, 115.0)
+    hurt = blend(None, 0, 0.0, 0.0, 0.0, 115.0, injury_margin=-4.0)
+    assert (hurt["home"] - hurt["away"]) - (base["home"] - base["away"]) == -4.0
 
 
 def test_freeze_only_before_tip(tmp_path, monkeypatch):

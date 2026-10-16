@@ -53,8 +53,8 @@ def rolling_team_stats(df: pd.DataFrame, window: int = 5) -> pd.DataFrame:
     """
     Compute per-team pre-game features. Every value on a row uses only that team's
     prior games (shift before rolling), so rows are leakage-free training examples.
-    EWM stats carry across seasons (end-of-last-season form is the best prior on opening night);
-    home/away win % reset each season.
+    Everything except rest days resets each season, so a team's first game of a season has
+    no form features (NaN) — before that, team strength comes from ratings.py.
     """
     df = df.copy()
     df["_season"] = df["SEASON_ID"].map(season_of)
@@ -71,6 +71,11 @@ def rolling_team_stats(df: pd.DataFrame, window: int = 5) -> pd.DataFrame:
     ewm = lambda s: s.shift(1).ewm(span=window, min_periods=1).mean()
 
     for _, grp in df.groupby("TEAM_ABBREVIATION"):
+        df.loc[grp.index, "rest_days"] = grp["GAME_DATE"].diff().dt.days.fillna(3).clip(1, 10)
+
+    # Form restarts every season: last year's team is not this year's team (rosters change).
+    # Preseason strength comes from ratings.py instead.
+    for _, grp in df.groupby(["TEAM_ABBREVIATION", "_season"]):
         idx = grp.index
         df.loc[idx, "pts_roll5"]         = ewm(grp["PTS"])
         df.loc[idx, "fgpct_roll5"]       = ewm(grp["FG_PCT"])
@@ -84,14 +89,10 @@ def rolling_team_stats(df: pd.DataFrame, window: int = 5) -> pd.DataFrame:
         df.loc[idx, "efg_allowed_roll5"] = ewm(grp["_opp_efg"])
 
         wins = (grp["WL"] == "W").astype(float)
-        df.loc[idx, "rest_days"]      = grp["GAME_DATE"].diff().dt.days.fillna(3).clip(1, 10)
         df.loc[idx, "win_pct_last10"] = wins.shift(1).rolling(10, min_periods=1).mean().fillna(0.5)
 
-    # Home / away win % within each season, using prior games only
-    k = WIN_PCT_PRIOR_GAMES
-    for _, grp in df.groupby(["TEAM_ABBREVIATION", "_season"]):
-        idx = grp.index
-        wins = (grp["WL"] == "W").astype(float)
+        # Home / away win %, using prior games only
+        k = WIN_PCT_PRIOR_GAMES
         is_home = grp["home"].astype(float)
         for col, mask in (("home_win_pct", is_home), ("away_win_pct", 1 - is_home)):
             w = (wins * mask).cumsum().shift(1).fillna(0)
@@ -110,8 +111,8 @@ def team_states(games: pd.DataFrame, as_of, season_id: int) -> pd.DataFrame:
     """
     Each team's features *after* its most recent game, i.e. what its next game would see.
     Works by appending one placeholder game per team dated `as_of` and reading its pre-game row.
-    `season_id` is the season the placeholder belongs to (resets home/away win % on a new season).
-    Returns a DataFrame indexed by team abbreviation.
+    `season_id` is the season the placeholder belongs to; teams with no games in that season yet
+    get NaN form features. Returns a DataFrame indexed by team abbreviation.
     """
     as_of = pd.Timestamp(as_of)
     teams = sorted(games["TEAM_ABBREVIATION"].unique())

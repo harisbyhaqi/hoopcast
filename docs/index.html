@@ -65,7 +65,7 @@
     <section class="tab-panel" id="tab-standings" hidden>
       <div class="section-inner">
         <h2>Projected standings</h2>
-        <p class="section-sub">Current record plus expected wins from every remaining game's win probability.</p>
+        <p class="section-sub">Current record plus expected wins from every remaining game's win probability. Rating = roster strength in points per 100 possessions vs. an average team.</p>
         <div class="standings-grid" id="standings"></div>
       </div>
     </section>
@@ -98,16 +98,16 @@
       <h2>How it's built</h2>
       <div class="about-grid">
         <div class="about-block">
-          <h3>The data</h3>
-          <p>Box scores from ESPN. Each team's recent form is tracked with exponentially weighted averages (points, shooting, rebounds, assists, turnovers), plus rest days, home/away record and the opponent's defense.</p>
+          <h3>Who's on the roster</h3>
+          <p>Every player on today's roster is rated with Box Plus/Minus from Basketball-Reference (last few seasons, this season weighted most). The projected rotation's minutes-weighted rating is the team's strength. Before the season it's blended 50/50 with sportsbook win totals.</p>
         </div>
         <div class="about-block">
-          <h3>The model</h3>
-          <p>A random forest predicts each team's score. It retrains every morning, with this season's games weighted more heavily. Every remaining game is re-predicted from each team's latest form.</p>
+          <h3>How they're playing</h3>
+          <p>A random forest trained on this season's results only: recent scoring, shooting, defense, rest and home/away record. It counts for nothing on opening night and about half after 20 games, so last year's team doesn't decide this year's games.</p>
         </div>
         <div class="about-block">
-          <h3>The odds</h3>
-          <p>Win probabilities treat the final margin as normally distributed around the predicted margin, with spread measured on held-out games. Key injuries (15+ PPG) lower a team's predicted score.</p>
+          <h3>Injuries &amp; odds</h3>
+          <p>Injured players' minutes go to the rest of the roster and the rating is recomputed, so losing a star costs more than losing a bench player. Win probabilities come from the predicted margin and how far off past predictions have been.</p>
         </div>
       </div>
       <p class="footer-note" id="generated-note"></p>

@@ -1,79 +1,67 @@
 """
 Season forecaster — run by GitHub Actions every morning and evening.
 
-Re-predicts every remaining game of the season from each team's current form, so the
-whole calendar shifts as results, rosters and injuries change.
+Re-predicts every remaining game of the season, so the whole calendar shifts as results,
+rosters and injuries change.
+
+Each game blends two views of team strength:
+  * Roster rating (ratings.py): who is on the team *now* — player BPM over the projected rotation,
+    blended 50/50 with sportsbook win totals preseason. Doesn't care how the franchise did last year.
+  * Current form (the Random Forest): this season's results only — rolling scoring, shooting,
+    defense, rest, home/away record.
+  Form weight = games played / (games played + 20): ~0 on opening night, ~50% after 20 games.
+
+Injuries: injured players' minutes go to the rest of the roster and the rotation's BPM is
+recomputed, so losing a star costs more than losing a bench player. Out/Doubtful apply until
+ESPN's return date (else the next 3 games); Questionable / Day-to-day the next game only, at
+reduced minutes.
 
 Data sources:
   * Schedule          → data/schedule.csv (refreshed from ESPN by data_download.py)
-  * Team form         → data/raw/games_raw.csv (state after each team's latest game)
-  * Injury report     → data/injuries.json (snapshotted by rosters.py)
-  * Roster changes    → data/changes.json (logged by rosters.py)
-  * Player PPG        → data/raw/player_games.csv (our own box scores, for injury sizing)
-  * Model accuracy    → models/metrics.json (written by train.py)
+  * Team form         → data/raw/games_raw.csv (this season's games)
+  * Rosters / ratings → data/rosters.json (rosters.py), data/bpm/ + data/preseason_win_totals.csv (ratings.py)
+  * Injury report     → data/injuries.json (rosters.py)
+  * Roster changes    → data/changes.json (rosters.py)
+  * Model accuracy    → models/metrics.json (train.py)
 
-Flow:
-  1. Compute each team's current state; rest days per game come from the schedule
-  2. For every upcoming game:
-       a. Injury offset (stepped by PPG tier; Out until return date or next 3 games,
-          Questionable/Day-to-day next game only; only players who've been playing)
-       b. H2H offset (avg margin this season, capped at ±2.5 pts)
-       c. Closed-form win probability with the hold-out margin σ
-  3. Freeze the prediction for games tipping off today (data/frozen_predictions.csv)
-     so finished games are scored against what we said before tip-off
-  4. Write docs/season.json: calendar, projected standings, accuracy, injuries, changes
+Writes docs/season.json: calendar, projected standings, accuracy, team ratings, injuries, changes.
+Freezes today's pre-tip predictions in data/frozen_predictions.csv for scoring.
 
 Usage: python src/update_daily.py [YYYY-MM-DD]   (defaults to today, Eastern time)
 """
 import os, sys, json
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 
 import numpy as np
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(__file__))
 import espn
+import ratings
 from preprocess import clean_games
 from predict import load_model, predict_games
-from simulate import simulate_game, DEFAULT_MARGIN_SIGMA
-from utils import season_of, team_states
+from simulate import win_probability, DEFAULT_MARGIN_SIGMA
+from utils import season_of, team_states, FEATURE_COLS
 
 ROOT          = os.path.join(os.path.dirname(__file__), "..")
 SCHEDULE_PATH = os.path.join(ROOT, "data", "schedule.csv")
-PLAYER_PATH   = os.path.join(ROOT, "data", "raw", "player_games.csv")
 METRICS_PATH  = os.path.join(ROOT, "models", "metrics.json")
 INJURIES_PATH = os.path.join(ROOT, "data", "injuries.json")
 CHANGES_PATH  = os.path.join(ROOT, "data", "changes.json")
 FROZEN_PATH   = os.path.join(ROOT, "data", "frozen_predictions.csv")
 OUT_PATH      = os.path.join(ROOT, "docs", "season.json")
 
-KEY_PLAYER_PPG_THRESHOLD = 15.0
-RECENT_TEAM_GAMES        = 10   # a player absent this long is already baked into team form
-OUT_DEFAULT_GAMES        = 3    # Out/Doubtful with no return date: apply to the team's next N games
-CHANGES_SHOWN            = 150
-
-
-# Stepped injury impact: pts actually lost given star's PPG tier and status.
-# Reflects that elite players are harder to replace than role players.
-# Teammates absorb the rest of the usage so we don't remove the full PPG.
-def _injury_pts_lost(ppg: float, status: str) -> float:
-    if status in ("out", "doubtful"):
-        if ppg >= 30:   return 8.0
-        elif ppg >= 25: return 6.0
-        elif ppg >= 20: return 4.5
-        else:           return 3.0   # 15-20 PPG
-    elif status == "questionable":
-        if ppg >= 25:   return 3.0
-        elif ppg >= 20: return 2.0
-        else:           return 1.5
-    elif status == "day-to-day":
-        if ppg >= 25:   return 1.5
-        else:           return 1.0
-    return 0.0
+FORM_GAMES          = 20     # games until current form and roster rating count equally
+OUT_DEFAULT_GAMES   = 3      # Out/Doubtful with no return date: apply to the team's next N games
+INJURY_NOTE_MINUTES = 12     # only list injured players who'd normally play this much
+INJURY_NOTE_MIN_PTS = 0.5    # ...and only when the team's injuries cost at least this much
+DEFAULT_HCA         = 2.5
+DEFAULT_TEAM_PTS    = 114.0
+CHANGES_SHOWN       = 150
 
 
 # ---------------------------------------------------------------------------
-# Schedule & rest
+# Schedule, rest & league context
 # ---------------------------------------------------------------------------
 
 def load_schedule() -> pd.DataFrame:
@@ -87,6 +75,16 @@ def rest_days(schedule: pd.DataFrame, team: str, game_date: str) -> float:
         return 10.0
     days = (date.fromisoformat(game_date) - date.fromisoformat(prior["date"].max())).days
     return float(np.clip(days, 1, 10))
+
+
+def league_context(games_df: pd.DataFrame) -> tuple[float, float]:
+    """(home-court advantage in points, average team points) over the last ~2 seasons of regular-season games."""
+    reg = games_df[games_df["SEASON_ID"].astype(str).str.startswith("2")].sort_values("GAME_DATE").tail(2 * 2460)
+    if reg.empty:
+        return DEFAULT_HCA, DEFAULT_TEAM_PTS
+    hca = float(reg.loc[reg["home"] == 1, "PLUS_MINUS"].mean())
+    recent = reg.tail(2460)   # last season's scoring environment
+    return round(hca, 2), round(float(recent["PTS"].mean()), 1)
 
 
 # ---------------------------------------------------------------------------
@@ -123,55 +121,6 @@ def compute_h2h_offsets(away: str, home: str, season_df: pd.DataFrame) -> tuple[
 # Injuries
 # ---------------------------------------------------------------------------
 
-class PlayerImpact:
-    """PPG and recent-availability lookups from our own player box scores."""
-
-    def __init__(self, player_path: str = PLAYER_PATH):
-        if os.path.exists(player_path):
-            df = pd.read_csv(player_path, dtype={"GAME_ID": str, "player_id": str})
-            df["season"] = df["SEASON_ID"].map(season_of)
-        else:
-            df = pd.DataFrame(columns=["GAME_ID", "GAME_DATE", "season", "player_id", "player", "team", "pts"])
-        self.df = df
-
-    def ppg(self, player_id: str, name: str) -> float:
-        rows = self.df[self.df["player_id"] == player_id] if player_id else self.df.iloc[0:0]
-        if rows.empty:
-            rows = self.df[self.df["player"] == name]
-        if rows.empty:
-            return 0.0
-        latest = rows["season"].max()
-        this_season = rows[rows["season"] == latest]
-        if len(this_season) >= 3:
-            return float(this_season["pts"].mean())
-        prior = rows[rows["season"] == latest - 1]
-        return float(prior["pts"].mean()) if len(prior) >= 10 else float(rows["pts"].mean())
-
-    def played_recently(self, player_id: str, name: str, team: str) -> bool:
-        """False if the player missed the team's last N games — team form already reflects it."""
-        team_games = self.df[self.df["team"] == team].drop_duplicates("GAME_ID")
-        recent = set(team_games.sort_values("GAME_DATE").tail(RECENT_TEAM_GAMES)["GAME_ID"])
-        mine = self.df[(self.df["player_id"] == player_id) | (self.df["player"] == name)]
-        return bool(recent & set(mine["GAME_ID"])) or not recent
-
-
-def key_injuries(injuries: list[dict], impact: PlayerImpact) -> list[dict]:
-    """
-    Injuries that move the needle, with their score impact attached.
-    Stepped by PPG tier — elite players are harder to replace. Only key players (>15 PPG)
-    who have actually been playing count.
-    """
-    result = []
-    for inj in injuries:
-        ppg = impact.ppg(inj["player_id"], inj["player"])
-        if ppg < KEY_PLAYER_PPG_THRESHOLD or not impact.played_recently(inj["player_id"], inj["player"], inj["team"]):
-            continue
-        lost = _injury_pts_lost(ppg, inj["status"])
-        if lost > 0:
-            result.append({**inj, "ppg": round(ppg, 1), "pts_lost": lost})
-    return result
-
-
 def injuries_by_game(injuries: list[dict], upcoming: pd.DataFrame) -> dict[str, list[dict]]:
     """
     Which upcoming games each injury applies to:
@@ -195,11 +144,36 @@ def injuries_by_game(injuries: list[dict], upcoming: pd.DataFrame) -> dict[str, 
     return by_game
 
 
-def injury_offset(team: str, game_injuries: list[dict]) -> tuple[float, list[dict]]:
-    """Negative pts offset for a team's predicted score, plus the injuries that drove it."""
-    applied = [{"player": i["player"], "status": i["status"], "ppg": i["ppg"], "pts_lost": i["pts_lost"]}
-               for i in game_injuries if i["team"] == team]
-    return -sum(i["pts_lost"] for i in applied), applied
+def injury_notes(team: str, game_injuries: list[dict], team_ratings: ratings.TeamRatings) -> list[dict]:
+    """Injured players who'd normally be in the rotation, for display."""
+    usual = {x["player"]: x["min"] for x in ratings.rotation(team_ratings.rosters.get(team, []), team_ratings.table)}
+    notes = [{"player": i["player"], "status": i["status"], "min": round(usual[i["player"]])}
+             for i in game_injuries
+             if i["team"] == team and usual.get(i["player"], 0) >= INJURY_NOTE_MINUTES]
+    return sorted(notes, key=lambda n: -n["min"])
+
+
+# ---------------------------------------------------------------------------
+# Blend
+# ---------------------------------------------------------------------------
+
+def blend(model_scores: tuple[float, float] | None, games_played: float,
+          rating_home: float, rating_away: float, hca: float, league_pts: float,
+          injury_margin: float = 0.0, h2h_margin: float = 0.0) -> dict:
+    """
+    Combine current form (model_scores = (home, away), None before either team has played)
+    with roster ratings. Returns predicted scores and the form weight used.
+    Injuries and H2H shift the margin regardless of the blend.
+    """
+    w = games_played / (games_played + FORM_GAMES) if model_scores else 0.0
+    rating_margin = rating_home - rating_away + hca
+    if model_scores:
+        model_margin, model_total = model_scores[0] - model_scores[1], model_scores[0] + model_scores[1]
+    else:
+        model_margin = model_total = 0.0
+    margin = w * model_margin + (1 - w) * rating_margin + injury_margin + h2h_margin
+    total = w * model_total + (1 - w) * 2 * league_pts
+    return {"home": round(total / 2 + margin / 2, 1), "away": round(total / 2 - margin / 2, 1), "form_weight": round(w, 3)}
 
 
 # ---------------------------------------------------------------------------
@@ -342,25 +316,30 @@ def main(target: str | None = None):
     upcoming = season_sched[(season_sched["status"] != "final") & (season_sched["date"] >= today)]
     print(f"{season - 1}-{str(season)[2:]}: {len(season_sched)} games scheduled, {len(upcoming)} to predict.")
 
-    states = team_states(games_df[games_df["GAME_DATE"] < today], today, season_id)
-    season_games = games_df[games_df["SEASON_ID"].map(season_of) == season - 1]
+    past = games_df[games_df["GAME_DATE"] < today]
+    states = team_states(past, today, season_id)
+    season_games = past[past["SEASON_ID"].map(season_of) == season - 1]
+    played = season_games.groupby("TEAM_ABBREVIATION").size().to_dict()
+    hca, league_pts = league_context(past)
+    print(f"Home-court advantage {hca:+.1f} pts, league average {league_pts} pts per team.")
 
-    impact = PlayerImpact()
-    injuries = key_injuries(load_injuries(), impact)
+    team_ratings = ratings.build(season, refresh_current=False)   # ratings.py refreshes the BPM cache
+    injuries = load_injuries()
     game_injuries = injuries_by_game(injuries, upcoming)
-    for inj in injuries:
-        print(f"  Key injury: {inj['team']} {inj['player']} ({inj['status']}, {inj['ppg']} PPG) → -{inj['pts_lost']} pts")
 
-    # Batch-predict every upcoming game from current team states
-    pairs = []
+    # Current-form model, only where both teams have played this season
+    form_cols = [c for c in FEATURE_COLS if not c.startswith("opp_")]
+    has_form = {t: not states.loc[t, form_cols].isna().any() for t in states.index}
+    pairs, form_ids = [], []
     for _, g in upcoming.iterrows():
-        feat_away = {**states.loc[g["away"]].to_dict(), "home": 0, "rest_days": rest_days(schedule, g["away"], g["date"])}
-        feat_home = {**states.loc[g["home"]].to_dict(), "home": 1, "rest_days": rest_days(schedule, g["home"], g["date"])}
-        pairs.append((feat_away, feat_home))
-    raw_preds = dict(zip(upcoming["event_id"], predict_games(pairs, model)))
+        if has_form.get(g["home"]) and has_form.get(g["away"]):
+            feat_home = {**states.loc[g["home"]].to_dict(), "home": 1, "rest_days": rest_days(schedule, g["home"], g["date"])}
+            feat_away = {**states.loc[g["away"]].to_dict(), "home": 0, "rest_days": rest_days(schedule, g["away"], g["date"])}
+            pairs.append((feat_home, feat_away))
+            form_ids.append(g["event_id"])
+    form_preds = dict(zip(form_ids, predict_games(pairs, model)))
+    print(f"Form model used for {len(form_preds)} game(s); roster ratings for the rest.")
 
-    frozen = load_frozen()
-    frozen_by_id = {}
     games = []
     for _, g in season_sched.iterrows():
         eid, away, home = g["event_id"], g["away"], g["home"]
@@ -369,32 +348,39 @@ def main(target: str | None = None):
                  "pred": None, "result": None, "frozen": None, "injuries": None}
         if g["status"] == "final":
             entry["result"] = {"home": int(g["home_pts"]), "away": int(g["away_pts"])}
-        elif eid in raw_preds:
-            score_away, score_home = raw_preds[eid]
-            off_away, inj_away = injury_offset(away, game_injuries.get(eid, []))
-            off_home, inj_home = injury_offset(home, game_injuries.get(eid, []))
+        elif eid in upcoming["event_id"].values:
+            inj = game_injuries.get(eid, [])
+            inj_home, inj_away = team_ratings.injury_delta(home, inj), team_ratings.injury_delta(away, inj)
             h2h_away, h2h_home = compute_h2h_offsets(away, home, season_games)
-            sim = simulate_game(score_away, score_home, sigma,
-                                score_a_offset=off_away + h2h_away, score_b_offset=off_home + h2h_home)
-            entry["pred"] = {"home": sim["score_b"], "away": sim["score_a"], "p_home": round(sim["win_prob_b"] * 100, 1)}
-            if inj_away or inj_home:
-                entry["injuries"] = {"home": inj_home, "away": inj_away}
+            pred = blend(form_preds.get(eid), (played.get(home, 0) + played.get(away, 0)) / 2,
+                         team_ratings.prior[home], team_ratings.prior[away], hca, league_pts,
+                         injury_margin=inj_home - inj_away, h2h_margin=h2h_home - h2h_away)
+            p_home = win_probability(pred["home"], pred["away"], sigma)
+            entry["pred"] = {"home": pred["home"], "away": pred["away"], "p_home": round(p_home * 100, 1),
+                             "form_weight": pred["form_weight"]}
+            notes_home = injury_notes(home, inj, team_ratings) if inj_home <= -INJURY_NOTE_MIN_PTS else []
+            notes_away = injury_notes(away, inj, team_ratings) if inj_away <= -INJURY_NOTE_MIN_PTS else []
+            if notes_home or notes_away:
+                entry["injuries"] = {"home": notes_home, "away": notes_away,
+                                     "home_delta": round(inj_home, 1), "away_delta": round(inj_away, 1)}
         games.append(entry)
 
-    frozen = freeze(frozen, games, today, now_utc)
+    frozen = freeze(load_frozen(), games, today, now_utc)
     os.makedirs(os.path.dirname(FROZEN_PATH), exist_ok=True)
     frozen.to_csv(FROZEN_PATH, index=False)
-    for _, f in frozen.iterrows():
-        frozen_by_id[f["event_id"]] = {"home": f["pred_home"], "away": f["pred_away"], "p_home": f["p_home"]}
+    frozen_by_id = {f["event_id"]: {"home": f["pred_home"], "away": f["pred_away"], "p_home": f["p_home"]}
+                    for _, f in frozen.iterrows()}
     for entry in games:
         entry["frozen"] = frozen_by_id.get(entry["id"])
 
-    for entry in (e for e in games if e["date"] == today and e["pred"]):
+    next_day = min((e["date"] for e in games if e["pred"]), default=None)
+    for entry in (e for e in games if e["date"] == next_day and e["pred"]):
         p = entry["pred"]
-        print(f"  {entry['away']} {p['away']} @ {entry['home']} {p['home']}  |  {entry['home']} wins {p['p_home']}%")
+        print(f"  {next_day}  {entry['away']} {p['away']} @ {entry['home']} {p['home']}  |  "
+              f"{entry['home']} wins {p['p_home']}%  (form weight {p['form_weight']})")
 
     injuries_now = {}
-    for inj in sorted(load_injuries(), key=lambda i: (i["team"], i["player"])):
+    for inj in sorted(injuries, key=lambda i: (i["team"], i["player"])):
         injuries_now.setdefault(inj["team"], []).append(
             {k: inj.get(k) for k in ("player", "status", "injury", "return_date", "comment")})
 
@@ -403,7 +389,9 @@ def main(target: str | None = None):
         "today": today,
         "generated": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "model_stats": metrics,
-        "teams": {t: {"name": espn.TEAM_NAMES[t], "logo": espn.logo_url(t), "conf": espn.CONFERENCE[t]}
+        "context": {"hca": hca, "league_pts": league_pts, "form_games": FORM_GAMES},
+        "teams": {t: {"name": espn.TEAM_NAMES[t], "logo": espn.logo_url(t), "conf": espn.CONFERENCE[t],
+                      "played": int(played.get(t, 0)), **team_ratings.summary(t)}
                   for t in espn.TEAM_NAMES},
         "games": games,
         "standings": projected_standings(games),
@@ -415,7 +403,7 @@ def main(target: str | None = None):
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w") as f:
         json.dump(payload, f, separators=(",", ":"))
-    print(f"Saved {len(games)} games ({len(raw_preds)} predicted) -> {OUT_PATH}")
+    print(f"Saved {len(games)} games ({len(upcoming)} predicted) -> {OUT_PATH}")
 
 
 if __name__ == "__main__":

@@ -40,7 +40,8 @@ def test_home_away_win_pct_resets_each_season():
     assert df.loc[("g2", "AAA"), "home_win_pct"] > 0.5
     # g3 is the first game of a new season → back to the .500 prior
     assert df.loc[("g3", "AAA"), "home_win_pct"] == 0.5
-    # momentum carries over seasons
+    # form doesn't carry over: first game of a season has no EWM features
+    assert np.isnan(df.loc[("g3", "AAA"), "pts_roll5"])
     assert df.loc[("g3", "AAA"), "win_pct_last10"] == 0.5
 
 
@@ -53,3 +54,9 @@ def test_team_states_include_latest_game():
     assert states.loc["AAA", "rest_days"] == 3
     expected = [c for c in FEATURE_COLS if not c.startswith("opp_")]
     assert not states[expected].isna().any().any()
+
+
+def test_team_states_new_season_has_no_form():
+    states = team_states(_games(), "2026-10-20", 22026)
+    assert states["pts_roll5"].isna().all()
+    assert (states["rest_days"] == 10).all()

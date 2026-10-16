@@ -104,9 +104,18 @@ function renderCalendar() {
   }));
 }
 
-function injuryNote(list) {
+function injuryNote(abbr, list, delta) {
   if (!list || !list.length) return "";
-  return list.map(i => `${esc(i.player)} (${esc(STATUS_LABEL[i.status] || i.status)}, −${i.pts_lost})`).join(", ");
+  const shown = list.slice(0, 4).map(i => `${esc(i.player)} (${esc(STATUS_LABEL[i.status] || i.status)})`);
+  if (list.length > 4) shown.push(`+${list.length - 4} more`);
+  const names = shown.join(", ");
+  return `<strong>${esc(abbr)}</strong> ${delta < 0 ? `${delta.toFixed(1)}: ` : ""}${names}`;
+}
+
+function basisLabel(pred) {
+  if (!pred || pred.form_weight == null) return "";
+  const form = Math.round(pred.form_weight * 100);
+  return form === 0 ? "roster-based" : `${100 - form}% roster · ${form}% form`;
 }
 
 function renderCard(g) {
@@ -127,7 +136,7 @@ function renderCard(g) {
   card.className = "match-card" + (final ? " final" : "");
   card.innerHTML = `
     <div class="card-meta">
-      <span>${final ? "Final" : esc(formatTip(g.tip))}${g.type === "playoffs" ? " · Playoffs" : ""}</span>
+      <span>${final ? "Final" : esc(formatTip(g.tip))}${g.type === "playoffs" ? " · Playoffs" : ""}${!final && g.pred ? ` · <span title="How much of this prediction comes from the roster rating vs. this season's results">${esc(basisLabel(g.pred))}</span>` : ""}</span>
       ${verdict}
     </div>
     <div class="card-teams">
@@ -162,7 +171,7 @@ function renderCard(g) {
       </div>
     </div>
     <span class="pick-label">pick: <span>${pHome >= 50 ? esc(b.abbr) : esc(a.abbr)}</span></span>` : ""}
-    ${g.injuries ? `<p class="card-injuries">${[injuryNote(g.injuries.away), injuryNote(g.injuries.home)].filter(Boolean).join(" · ")}</p>` : ""}
+    ${g.injuries ? `<p class="card-injuries">${[injuryNote(g.away, g.injuries.away, g.injuries.away_delta), injuryNote(g.home, g.injuries.home, g.injuries.home_delta)].filter(Boolean).join("<br>")}</p>` : ""}
   `;
   return card;
 }
@@ -226,13 +235,15 @@ function setupCalendar() {
 }
 
 // ── Standings ──
+const fmtRating = v => (v >= 0 ? "+" : "") + v.toFixed(1);
+
 function renderStandings(standings) {
   const el = document.getElementById("standings");
   el.innerHTML = ["East", "West"].map(conf => `
     <div class="standings-table">
       <h3>${conf}ern Conference</h3>
       <table>
-        <thead><tr><th>#</th><th>Team</th><th>W-L</th><th>Proj.</th></tr></thead>
+        <thead><tr><th>#</th><th>Team</th><th>W-L</th><th>Proj.</th><th title="Roster rating: points per 100 possessions vs. an average team">Rating</th></tr></thead>
         <tbody>
           ${standings[conf].map((r, i) => `
             <tr class="${i === 5 ? "cut-playoff" : i === 9 ? "cut-playin" : ""}">
@@ -240,6 +251,7 @@ function renderStandings(standings) {
               <td><button class="link-btn" data-team="${esc(r.team)}">${esc(r.name)}</button></td>
               <td>${r.w}-${r.l}</td>
               <td>${Math.round(r.proj_w)}-${Math.round(r.proj_l)}</td>
+              <td class="${state.data.teams[r.team].prior >= 0 ? "pos" : "neg"}">${fmtRating(state.data.teams[r.team].prior)}</td>
             </tr>`).join("")}
         </tbody>
       </table>
