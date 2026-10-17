@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T13:22:56-0400",
+ "generated": "2026-10-16T20:15:12-0400",
  "teams": {
   "ATL": [
    {
@@ -97,6 +97,12 @@
     "player": "CJ McCollum",
     "position": "G",
     "jersey": "3"
+   },
+   {
+    "player_id": "4712845",
+    "player": "Isaac McKneely",
+    "position": "G",
+    "jersey": "15"
    },
    {
     "player_id": "4873201",
@@ -487,6 +493,12 @@
     "player": "Grant Williams",
     "position": "F",
     "jersey": "2"
+   },
+   {
+    "player_id": "4702484",
+    "player": "Latrell Wrightsell Jr.",
+    "position": "G",
+    "jersey": ""
    }
   ],
   "CHI": [
@@ -758,6 +770,12 @@
    }
   ],
   "DAL": [
+   {
+    "player_id": "6576",
+    "player": "Quincy Acy",
+    "position": "F",
+    "jersey": ""
+   },
    {
     "player_id": "4593125",
     "player": "Santi Aldama",
@@ -1283,6 +1301,12 @@
     "jersey": "30"
    },
    {
+    "player_id": "984",
+    "player": "Tyson Chandler",
+    "position": "C",
+    "jersey": "19"
+   },
+   {
     "player_id": "4683860",
     "player": "Quadir Copeland",
     "position": "G",
@@ -1771,6 +1795,12 @@
     "jersey": "4"
    },
    {
+    "player_id": "5107069",
+    "player": "Zach Cleveland",
+    "position": "F",
+    "jersey": ""
+   },
+   {
     "player_id": "5105817",
     "player": "Carson Cooper",
     "position": "C",
@@ -1891,6 +1921,12 @@
     "player": "Giannis Antetokounmpo",
     "position": "F",
     "jersey": "7"
+   },
+   {
+    "player_id": "5106051",
+    "player": "Ezra Ausar",
+    "position": "F",
+    "jersey": ""
    },
    {
     "player_id": "5107157",
@@ -2305,6 +2341,12 @@
     "player": "Malik Dia",
     "position": "F",
     "jersey": "8"
+   },
+   {
+    "player_id": "4432180",
+    "player": "Hunter Dickinson",
+    "position": "C",
+    "jersey": "4"
    },
    {
     "player_id": "5144091",
@@ -2837,6 +2879,12 @@
     "jersey": "1"
    },
    {
+    "player_id": "5241706",
+    "player": "Cris Carroll",
+    "position": "F",
+    "jersey": ""
+   },
+   {
     "player_id": "5124612",
     "player": "VJ Edgecombe",
     "position": "G",
@@ -2859,6 +2907,12 @@
     "player": "Tacko Fall",
     "position": "C",
     "jersey": "99"
+   },
+   {
+    "player_id": "5239799",
+    "player": "Taye Fields",
+    "position": "G",
+    "jersey": ""
    },
    {
     "player_id": "4871141",
@@ -3313,6 +3367,12 @@
     "jersey": "40"
    },
    {
+    "player_id": "4433254",
+    "player": "Kendall Brown",
+    "position": "G",
+    "jersey": ""
+   },
+   {
     "player_id": "5105337",
     "player": "Maliq Brown",
     "position": "F",
@@ -3397,6 +3457,12 @@
     "jersey": "0"
    },
    {
+    "player_id": "4703421",
+    "player": "Taelon Peter",
+    "position": "G",
+    "jersey": "8"
+   },
+   {
     "player_id": "5101845",
     "player": "Jayden Quaintance",
     "position": "F",
@@ -3425,6 +3491,12 @@
     "player": "Victor Wembanyama",
     "position": "F",
     "jersey": "1"
+   },
+   {
+    "player_id": "4277880",
+    "player": "Malik Williams",
+    "position": "C",
+    "jersey": "35"
    }
   ],
   "TOR": [
