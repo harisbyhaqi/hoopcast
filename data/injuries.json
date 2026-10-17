@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T12:44:51-0400",
+ "generated": "2026-10-17T19:54:17-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -22,61 +22,6 @@
    "return_date": "2026-10-21",
    "updated": "2026-07-19T00:14Z",
    "comment": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports."
-  },
-  {
-   "team": "BOS",
-   "player_id": "4065804",
-   "player": "Sam Hauser",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-16T23:12Z",
-   "comment": "Hauser (rest) is not suiting up for Friday's preseason game against the 76ers, Sean Grande of NBC Sports Boston reports."
-  },
-  {
-   "team": "BOS",
-   "player_id": "4351852",
-   "player": "Mitchell Robinson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-16T23:09Z",
-   "comment": "Robinson (rest) won't play in Friday's preseason game against the 76ers, Sean Grande of NBC Sports Boston reports."
-  },
-  {
-   "team": "BOS",
-   "player_id": "4397424",
-   "player": "Neemias Queta",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-16T23:08Z",
-   "comment": "Queta will not participate in Friday's preseason finale against the 76ers, Sean Grande of NBC Sports Boston reports."
-  },
-  {
-   "team": "BOS",
-   "player_id": "4066354",
-   "player": "Payton Pritchard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-16T23:06Z",
-   "comment": "Pritchard (rest) won't play in Friday's preseason finale against the 76ers, Sean Grande of NBC Sports Boston reports."
-  },
-  {
-   "team": "BOS",
-   "player_id": "3078576",
-   "player": "Derrick White",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-16T23:05Z",
-   "comment": "White will not play in Friday's preseason finale against the 76ers, Sean Grande of NBC Sports Boston reports."
   },
   {
    "team": "BKN",
@@ -234,17 +179,6 @@
   },
   {
    "team": "DAL",
-   "player_id": "4432582",
-   "player": "Max Christie",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T22:28Z",
-   "comment": "Christie (rest) will be inactive for Friday's preseason finale against the Hawks."
-  },
-  {
-   "team": "DAL",
    "player_id": "5148538",
    "player": "Tarik Biberovic",
    "status": "day-to-day",
@@ -286,17 +220,6 @@
    "return_date": "2026-10-21",
    "updated": "2026-10-16T22:21Z",
    "comment": "Aldama (knee) won't play in Friday's preseason game against the Hawks."
-  },
-  {
-   "team": "DEN",
-   "player_id": "3064290",
-   "player": "Aaron Gordon",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-22",
-   "updated": "2026-10-17T01:08Z",
-   "comment": "Gordon (rest) won't play in Friday's preseason finale against the Lakers, Jovan Buha of The Athletic reports."
   },
   {
    "team": "DEN",
@@ -354,17 +277,6 @@
    "comment": "Porzingis (undisclosed) returned Thursday to the Warriors' practice facility, per Anthony Slater of ESPN.com."
   },
   {
-   "team": "HOU",
-   "player_id": "2991235",
-   "player": "Steven Adams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T01:44Z",
-   "comment": "Adams (rest) is listed as inactive for Thursday's preseason game against the Thunder."
-  },
-  {
    "team": "IND",
    "player_id": "5106060",
    "player": "Jarace Walker",
@@ -407,28 +319,6 @@
    "return_date": "2027-01-01",
    "updated": "2026-02-09T21:43Z",
    "comment": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today reports."
-  },
-  {
-   "team": "LAC",
-   "player_id": "2991139",
-   "player": "Kris Dunn",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-15T02:00Z",
-   "comment": "Dunn (rest) has been ruled out for Wednesday's preseason game against the Nuggets, independent Clippers reporter Joey Linn reports."
-  },
-  {
-   "team": "LAC",
-   "player_id": "4702352",
-   "player": "Kobe Sanders",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-15T01:08Z",
-   "comment": "Sanders (hip) won't play in Wednesday's preseason game against the Nuggets, NBA writer Justin Russo reports."
   },
   {
    "team": "LAC",
@@ -607,17 +497,6 @@
    "comment": "Adebayo (groin) has been ruled out for Friday's preseason game against the Magic, Jason Beede of the Orlando Sentinel reports."
   },
   {
-   "team": "MIA",
-   "player_id": "3032977",
-   "player": "Giannis Antetokounmpo",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T21:37Z",
-   "comment": "Antetokounmpo (rest) won't play in Friday's preseason game against the Magic, Jason Beede of the Orlando Sentinel reports."
-  },
-  {
    "team": "MIL",
    "player_id": "4277922",
    "player": "Jericho Sims",
@@ -641,17 +520,6 @@
   },
   {
    "team": "MIN",
-   "player_id": "4592699",
-   "player": "Enrique Freeman",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-17T00:03Z",
-   "comment": "Freeman (shoulder) won't play in Friday's preseason game against Chicago."
-  },
-  {
-   "team": "MIN",
    "player_id": "5157587",
    "player": "Rocco Zikarsky",
    "status": "day-to-day",
@@ -663,100 +531,12 @@
   },
   {
    "team": "MIN",
-   "player_id": "3136196",
-   "player": "Trey Lyles",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T23:20Z",
-   "comment": "Lyles (rest) has been ruled out for Friday's preseason game against Chicago, Alan Horton of the Timberwolves Radio Network reports."
-  },
-  {
-   "team": "MIN",
-   "player_id": "4592492",
-   "player": "Bones Hyland",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T23:18Z",
-   "comment": "Hyland (rest) won't play in Friday's preseason game against Chicago, Alan Horton of the Timberwolves Radio Network reports."
-  },
-  {
-   "team": "MIN",
-   "player_id": "4433247",
-   "player": "Jonathan Kuminga",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T23:16Z",
-   "comment": "Kuminga (rest) won't play in Friday's preseason game against the Bulls, Alan Horton of the Timberwolves Radio Network reports."
-  },
-  {
-   "team": "MIN",
-   "player_id": "4431671",
-   "player": "Jaden McDaniels",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T23:09Z",
-   "comment": "McDaniels (rest) won't play in Friday's preseason game against the Bulls, Alan Horton of the Timberwolves Radio Network reports."
-  },
-  {
-   "team": "MIN",
-   "player_id": "4432816",
-   "player": "LaMelo Ball",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T22:48Z",
-   "comment": "Ball (rest) won't play in Friday's preseason finale against the Bulls, Chuck Swirsky of the Bulls Radio Network reports."
-  },
-  {
-   "team": "MIN",
-   "player_id": "3032976",
-   "player": "Rudy Gobert",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T22:43Z",
-   "comment": "Gobert (rest) won't play in Friday's preseason finale against the Bulls, Chuck Swirsky of the Bulls Radio Network reports."
-  },
-  {
-   "team": "MIN",
-   "player_id": "4594268",
-   "player": "Anthony Edwards",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T22:41Z",
-   "comment": "Edwards (rest) won't play in Friday's preseason finale against the Bulls, Chuck Swirsky of the Bulls Radio Network reports."
-  },
-  {
-   "team": "MIN",
-   "player_id": "4397002",
-   "player": "Ayo Dosunmu",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-15T20:11Z",
-   "comment": "Dosunmu isn't dealing with an injury but will sit out Friday's preseason finale against the Bulls for rest purposes, Jon Krawczynski of The Athletic reports."
-  },
-  {
-   "team": "MIN",
    "player_id": "3934673",
    "player": "Donte DiVincenzo",
    "status": "out",
    "status_raw": "Out",
    "injury": "Achilles Surgery",
-   "return_date": "2027-04-01",
+   "return_date": "2027-04-02",
    "updated": "2026-10-05T20:53Z",
    "comment": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports."
   },
@@ -856,8 +636,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Back Soreness",
    "return_date": "2026-10-21",
-   "updated": "2026-10-17T01:57Z",
-   "comment": "Richardson logged seven minutes before exiting Friday's 136-115 preseason win over the Heat due to lower-back soreness. He contributed two rebounds and two assists."
+   "updated": "2026-10-17T23:29Z",
+   "comment": "Richardson (back) is considered day-to-day, Jason Beede of the Orlando Sentinel reports."
+  },
+  {
+   "team": "ORL",
+   "player_id": "5214637",
+   "player": "Noah Penda",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring",
+   "return_date": "2026-11-18",
+   "updated": "2026-10-17T22:19Z",
+   "comment": "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports."
   },
   {
    "team": "ORL",
@@ -869,17 +660,6 @@
    "return_date": "2026-10-21",
    "updated": "2026-10-17T01:55Z",
    "comment": "Wagner exited Friday's 136-115 preseason win over the Heat with right shoulder soreness and did not return, Cody Taylor of USA Today reports."
-  },
-  {
-   "team": "ORL",
-   "player_id": "5214637",
-   "player": "Noah Penda",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T23:54Z",
-   "comment": "Penda won't return to Friday's preseason game against the Heat due to right hamstring tightness, Jason Beede of the Orlando Sentinel reports. He'll finish with one steal in two minutes."
   },
   {
    "team": "ORL",
@@ -949,17 +729,6 @@
   },
   {
    "team": "PHI",
-   "player_id": "5124612",
-   "player": "VJ Edgecombe",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-16T21:28Z",
-   "comment": "Edgecombe (rest) won't play in Friday's preseason game against the Celtics, Chris Hine of The Philly Inquirer reports."
-  },
-  {
-   "team": "PHI",
    "player_id": "4351851",
    "player": "Anfernee Simons",
    "status": "day-to-day",
@@ -999,7 +768,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-17T16:37Z",
+   "updated": "2026-10-17T23:00Z",
    "comment": "Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports."
   },
   {
@@ -1008,7 +777,7 @@
    "player": "Oso Ighodaro",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Rest",
+   "injury": "Hip Soreness",
    "return_date": "2026-10-21",
    "updated": "2026-10-17T00:33Z",
    "comment": "Ighodaro (hip) won't play in Friday's preseason game against Utah, Kellan Olson of ArizonaSports.com reports."
@@ -1034,17 +803,6 @@
    "return_date": "2026-10-21",
    "updated": "2026-10-17T00:42Z",
    "comment": "Youngblood (calf) won't play in Friday's preseason game versus the Warriors."
-  },
-  {
-   "team": "POR",
-   "player_id": "4066211",
-   "player": "Robert Williams III",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-10-17T00:39Z",
-   "comment": "Williams (rest) won't play in Friday's preseason game against the Warriors."
   },
   {
    "team": "POR",
@@ -1144,17 +902,6 @@
    "return_date": "2026-10-21",
    "updated": "2026-10-17T16:31Z",
    "comment": "Bittle (foot) agreed to a two-way contract with Toronto on Saturday, Michael Scotto of HoopsHype.com reports."
-  },
-  {
-   "team": "TOR",
-   "player_id": "4590360",
-   "player": "Chucky Hepburn",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring",
-   "return_date": "2026-11-06",
-   "updated": "2026-10-12T20:12Z",
-   "comment": "The Raptors waived Hepburn (hamstring) on Monday, per Ryan Wolstat of the Toronto Sun."
   },
   {
    "team": "UTA",
