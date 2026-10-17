@@ -1,6 +1,387 @@
 [
  {
   "kind": "signed",
+  "team": "LAL",
+  "player": "Aniwaniwa Tait-Jones",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "signed",
+  "team": "GSW",
+  "player": "Miles Kelly",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "DAL",
+  "player": "Jorge Diaz Graham",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "MIA",
+  "player": "Ezra Ausar",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "MIA",
+  "player": "Kylor Kelley",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "MIA",
+  "player": "Gabe Madsen",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "MIA",
+  "player": "Bez Mbeng",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "NOP",
+  "player": "Hunter Dickinson",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "NOP",
+  "player": "Caleb Houstan",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "CHA",
+  "player": "Pat Connaughton",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "OKC",
+  "player": "Andrew Holifield",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "OKC",
+  "player": "Anthony Pritchard",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "OKC",
+  "player": "Zhaire Smith",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "SAS",
+  "player": "Kendall Brown",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "ORL",
+  "player": "Malaki Branham",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "ORL",
+  "player": "JD Davison",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "released",
+  "team": "ORL",
+  "player": "Kevin Knox II",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DEN",
+  "player": "Aaron Gordon",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DEN",
+  "player": "Julian Strawther",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Sprain",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "LAL",
+  "player": "Jarred Vanderbilt",
+  "to": "day-to-day",
+  "injury": "Undisclosed",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MIL",
+  "player": "Jericho Sims",
+  "to": "day-to-day",
+  "injury": "Undisclosed",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "ORL",
+  "player": "Jase Richardson",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "ORL",
+  "player": "Franz Wagner",
+  "to": "day-to-day",
+  "injury": "Shoulder Soreness",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Dean Wade",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "POR",
+  "player": "Robert Williams III",
+  "to": "day-to-day",
+  "injury": "",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "POR",
+  "player": "Micah Potter",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "POR",
+  "player": "Jrue Holiday",
+  "to": "day-to-day",
+  "injury": "Hand Soreness",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "UTA",
+  "player": "Trey Alexander",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "WAS",
+  "player": "AJ Dybantsa",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "BOS",
+  "player": "Devin Carter",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "BOS",
+  "player": "Paul George",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "BOS",
+  "player": "Mike Conley",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "BOS",
+  "player": "Jayson Tatum",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "DEN",
+  "player": "DeMar DeRozan",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Draymond Green",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Al Horford",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAL",
+  "player": "Ziaire Williams",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAL",
+  "player": "Luka Doncic",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIA",
+  "player": "Ezra Ausar",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIL",
+  "player": "Kevin Porter Jr.",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIL",
+  "player": "AJ Green",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIL",
+  "player": "Gary Trent Jr.",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHX",
+  "player": "Collin Gillespie",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHX",
+  "player": "Miles Bridges",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHX",
+  "player": "Jalen Green",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHX",
+  "player": "Devin Booker",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Ja'Kobe Walter",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Jamal Shead",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Collin Murray-Boyles",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Jakob Poeltl",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "RJ Barrett",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Immanuel Quickley",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Kawhi Leonard",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Scottie Barnes",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "WAS",
+  "player": "Khris Middleton",
+  "from": "day-to-day",
+  "time": "2026-10-17T12:44:51-0400"
+ },
+ {
+  "kind": "signed",
   "team": "MIA",
   "player": "Ezra Ausar",
   "time": "2026-10-16T20:15:12-0400"

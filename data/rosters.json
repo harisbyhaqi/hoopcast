@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T20:15:12-0400",
+ "generated": "2026-10-17T12:44:51-0400",
  "teams": {
   "ATL": [
    {
@@ -391,12 +391,6 @@
     "player": "Kylan Boswell",
     "position": "G",
     "jersey": "18"
-   },
-   {
-    "player_id": "2578239",
-    "player": "Pat Connaughton",
-    "position": "G",
-    "jersey": "21"
    },
    {
     "player_id": "4433249",
@@ -807,12 +801,6 @@
     "jersey": "55"
    },
    {
-    "player_id": "5105411",
-    "player": "Jorge Diaz Graham",
-    "position": "F",
-    "jersey": ""
-   },
-   {
     "player_id": "5041939",
     "player": "Cooper Flagg",
     "position": "F",
@@ -1201,6 +1189,12 @@
     "player": "Graham Ike",
     "position": "F",
     "jersey": ""
+   },
+   {
+    "player_id": "4696317",
+    "player": "Miles Kelly",
+    "position": "G",
+    "jersey": "26"
    },
    {
     "player_id": "5175737",
@@ -1757,6 +1751,12 @@
     "jersey": "10"
    },
    {
+    "player_id": "4711203",
+    "player": "Aniwaniwa Tait-Jones",
+    "position": "G",
+    "jersey": ""
+   },
+   {
     "player_id": "5060631",
     "player": "Adou Thiero",
     "position": "F",
@@ -1923,12 +1923,6 @@
     "jersey": "7"
    },
    {
-    "player_id": "5106051",
-    "player": "Ezra Ausar",
-    "position": "F",
-    "jersey": ""
-   },
-   {
     "player_id": "5107157",
     "player": "Ryan Conwell",
     "position": "G",
@@ -1983,28 +1977,10 @@
     "jersey": "5"
    },
    {
-    "player_id": "3950760",
-    "player": "Kylor Kelley",
-    "position": "C",
-    "jersey": ""
-   },
-   {
     "player_id": "4601025",
     "player": "Pelle Larsson",
     "position": "G",
     "jersey": "9"
-   },
-   {
-    "player_id": "4432753",
-    "player": "Gabe Madsen",
-    "position": "G",
-    "jersey": ""
-   },
-   {
-    "player_id": "4898237",
-    "player": "Bez Mbeng",
-    "position": "G",
-    "jersey": "19"
    },
    {
     "player_id": "4278053",
@@ -2343,22 +2319,10 @@
     "jersey": "8"
    },
    {
-    "player_id": "4432180",
-    "player": "Hunter Dickinson",
-    "position": "C",
-    "jersey": "4"
-   },
-   {
     "player_id": "5144091",
     "player": "Jeremiah Fears",
     "position": "G",
     "jersey": "0"
-   },
-   {
-    "player_id": "4433623",
-    "player": "Caleb Houstan",
-    "position": "F",
-    "jersey": "33"
    },
    {
     "player_id": "5170947",
@@ -2623,12 +2587,6 @@
     "jersey": "55"
    },
    {
-    "player_id": "5116468",
-    "player": "Andrew Holifield",
-    "position": "F",
-    "jersey": "17"
-   },
-   {
     "player_id": "4433255",
     "player": "Chet Holmgren",
     "position": "C",
@@ -2663,18 +2621,6 @@
     "player": "Otega Oweh",
     "position": "G",
     "jersey": "13"
-   },
-   {
-    "player_id": "4897155",
-    "player": "Anthony Pritchard",
-    "position": "G",
-    "jersey": "5"
-   },
-   {
-    "player_id": "4277923",
-    "player": "Zhaire Smith",
-    "position": "G",
-    "jersey": "40"
    },
    {
     "player_id": "5061603",
@@ -2751,12 +2697,6 @@
     "jersey": "0"
    },
    {
-    "player_id": "4565201",
-    "player": "Malaki Branham",
-    "position": "F",
-    "jersey": "12"
-   },
-   {
     "player_id": "4278572",
     "player": "Jamal Cain",
     "position": "F",
@@ -2787,22 +2727,10 @@
     "jersey": "23"
    },
    {
-    "player_id": "4576085",
-    "player": "JD Davison",
-    "position": "G",
-    "jersey": "20"
-   },
-   {
     "player_id": "4065654",
     "player": "Jonathan Isaac",
     "position": "F",
     "jersey": "1"
-   },
-   {
-    "player_id": "4278075",
-    "player": "Kevin Knox II",
-    "position": "F",
-    "jersey": "24"
    },
    {
     "player_id": "4593034",
@@ -3365,12 +3293,6 @@
     "player": "Harrison Barnes",
     "position": "F",
     "jersey": "40"
-   },
-   {
-    "player_id": "4433254",
-    "player": "Kendall Brown",
-    "position": "G",
-    "jersey": ""
    },
    {
     "player_id": "5105337",
