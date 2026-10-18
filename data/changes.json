@@ -1,5 +1,79 @@
 [
  {
+  "kind": "signed",
+  "team": "LAC",
+  "player": "Cam Christie",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "TOR",
+  "player": "Nimari Burnett",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "TOR",
+  "player": "Tyson Degenhart",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "TOR",
+  "player": "Tyreke Key",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "TOR",
+  "player": "Jamarion Sharp",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "WAS",
+  "player": "Trevor Keels",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "WAS",
+  "player": "Chris Livingston",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "WAS",
+  "player": "Alondes Williams",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "PHX",
+  "player": "Phillip Wheeler",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "UTA",
+  "player": "Jonas Aidoo",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "UTA",
+  "player": "Tamar Bates",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "BOS",
+  "player": "Devin Carter",
+  "to": "out",
+  "injury": "Illness",
+  "time": "2026-10-18T13:00:54-0400"
+ },
+ {
   "kind": "traded",
   "team": "UTA",
   "player": "Tony Bradley",

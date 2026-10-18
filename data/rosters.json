@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T19:54:17-0400",
+ "generated": "2026-10-18T13:00:54-0400",
  "teams": {
   "ATL": [
    {
@@ -1309,6 +1309,12 @@
     "player": "Bradley Beal",
     "position": "G",
     "jersey": "3"
+   },
+   {
+    "player_id": "4845363",
+    "player": "Cam Christie",
+    "position": "G",
+    "jersey": "24"
    },
    {
     "player_id": "5106258",
@@ -2629,12 +2635,6 @@
     "jersey": "61"
    },
    {
-    "player_id": "4909710",
-    "player": "Phillip Wheeler",
-    "position": "F",
-    "jersey": ""
-   },
-   {
     "player_id": "4701232",
     "player": "Mark Williams",
     "position": "C",
@@ -2997,18 +2997,6 @@
     "jersey": "8"
    },
    {
-    "player_id": "4433138",
-    "player": "Nimari Burnett",
-    "position": "G",
-    "jersey": "25"
-   },
-   {
-    "player_id": "4898260",
-    "player": "Tyson Degenhart",
-    "position": "F",
-    "jersey": "20"
-   },
-   {
     "player_id": "5149115",
     "player": "Allen Graves",
     "position": "F",
@@ -3019,12 +3007,6 @@
     "player": "Trayce Jackson-Davis",
     "position": "F",
     "jersey": "32"
-   },
-   {
-    "player_id": "4279143",
-    "player": "Tyreke Key",
-    "position": "G",
-    "jersey": "11"
    },
    {
     "player_id": "6450",
@@ -3057,12 +3039,6 @@
     "jersey": "5"
    },
    {
-    "player_id": "4897696",
-    "player": "Jamarion Sharp",
-    "position": "C",
-    "jersey": ""
-   },
-   {
     "player_id": "4432241",
     "player": "Jamal Shead",
     "position": "G",
@@ -3083,12 +3059,6 @@
   ],
   "UTA": [
    {
-    "player_id": "4684682",
-    "player": "Jonas Aidoo",
-    "position": "C",
-    "jersey": "13"
-   },
-   {
     "player_id": "4433268",
     "player": "Trey Alexander",
     "position": "G",
@@ -3105,12 +3075,6 @@
     "player": "Mo Bamba",
     "position": "C",
     "jersey": "44"
-   },
-   {
-    "player_id": "4683933",
-    "player": "Tamar Bates",
-    "position": "G",
-    "jersey": "0"
    },
    {
     "player_id": "4065673",
@@ -3277,18 +3241,6 @@
     "jersey": "12"
    },
    {
-    "player_id": "4432645",
-    "player": "Trevor Keels",
-    "position": "G",
-    "jersey": "13"
-   },
-   {
-    "player_id": "4433622",
-    "player": "Chris Livingston",
-    "position": "F",
-    "jersey": "24"
-   },
-   {
     "player_id": "4432819",
     "player": "Tre Mann",
     "position": "G",
@@ -3335,12 +3287,6 @@
     "player": "Jamir Watkins",
     "position": "G",
     "jersey": "5"
-   },
-   {
-    "player_id": "4592216",
-    "player": "Alondes Williams",
-    "position": "G",
-    "jersey": "31"
    },
    {
     "player_id": "4277905",

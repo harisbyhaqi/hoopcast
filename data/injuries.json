@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T19:54:17-0400",
+ "generated": "2026-10-18T13:00:54-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -22,6 +22,17 @@
    "return_date": "2026-10-21",
    "updated": "2026-07-19T00:14Z",
    "comment": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports."
+  },
+  {
+   "team": "BOS",
+   "player_id": "4433188",
+   "player": "Devin Carter",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Illness",
+   "return_date": "2026-10-27",
+   "updated": "2026-10-18T14:49Z",
+   "comment": "Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports."
   },
   {
    "team": "BKN",
@@ -630,6 +641,17 @@
   },
   {
    "team": "ORL",
+   "player_id": "4566434",
+   "player": "Franz Wagner",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Shoulder Soreness",
+   "return_date": "2026-10-21",
+   "updated": "2026-10-18T15:55Z",
+   "comment": "Head coach Sean Sweeney said the team will continue to evaluate Wagner's right shoulder, and he was limited to \"light work\" in Sunday's practice, Jason Beede of the Orlando Sentinel reports."
+  },
+  {
+   "team": "ORL",
    "player_id": "5239561",
    "player": "Jase Richardson",
    "status": "day-to-day",
@@ -649,17 +671,6 @@
    "return_date": "2026-11-18",
    "updated": "2026-10-17T22:19Z",
    "comment": "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports."
-  },
-  {
-   "team": "ORL",
-   "player_id": "4566434",
-   "player": "Franz Wagner",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder Soreness",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-17T01:55Z",
-   "comment": "Wagner exited Friday's 136-115 preseason win over the Heat with right shoulder soreness and did not return, Cody Taylor of USA Today reports."
   },
   {
    "team": "ORL",
@@ -768,7 +779,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-17T23:00Z",
+   "updated": "2026-10-18T16:00Z",
    "comment": "Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports."
   },
   {
@@ -953,7 +964,7 @@
    "player": "AJ Dybantsa",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Ankle",
+   "injury": "Ankle Sprain",
    "return_date": "2026-10-21",
    "updated": "2026-10-17T01:48Z",
    "comment": "Dybantsa (ankle) won't return to Friday's preseason game against the Pelicans, Josh Robbins of The Athletic reports. He'll finish with 12 points (4-8 FG, 1-3 3Pt, 3-4 FT), two rebounds and one block in 15 minutes."
