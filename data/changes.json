@@ -1,5 +1,99 @@
 [
  {
+  "kind": "released",
+  "team": "OKC",
+  "player": "Robert McCray V",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "MIL",
+  "player": "John Butler Jr.",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "NOP",
+  "player": "Christian Koloko",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "POR",
+  "player": "Jaylen Martin",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "DAL",
+  "player": "Quincy Acy",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "HOU",
+  "player": "Tyson Chandler",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "WAS",
+  "player": "Jazian Gortman",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "WAS",
+  "player": "Steve Settle III",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "UTA",
+  "player": "Terrell Brown Jr.",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "ORL",
+  "player": "Mike Sharavjamts",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "MIA",
+  "player": "J'Vonne Hadley",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "MIA",
+  "player": "Lester Quinones",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "released",
+  "team": "MIA",
+  "player": "Dennis Smith Jr.",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Stephen Curry",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "SAC",
+  "player": "Ben Simmons",
+  "to": "out",
+  "injury": "Achilles Ruptured",
+  "time": "2026-10-18T20:03:39-0400"
+ },
+ {
   "kind": "signed",
   "team": "LAC",
   "player": "Cam Christie",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T13:00:59-04:00",
+ "generated": "2026-10-18T20:03:44-04:00",
  "unmatched": [
   "AJ Dybantsa",
   "AK Okereke",
@@ -34,14 +34,12 @@
   "Henri Veesaar",
   "Isaiah Evans",
   "Izaiyah Nelson",
-  "J'Vonne Hadley",
   "Ja'Kobi Gillespie",
   "Jaden Akins",
   "Jaden Bradley",
   "Jaron Pierre Jr.",
   "Jayden Quaintance",
   "Jaylin Sellers",
-  "John Butler Jr.",
   "Josh Dix",
   "Joshua Jefferson",
   "Karim Lopez",
@@ -55,7 +53,6 @@
   "Maliq Brown",
   "Mario Hezonja",
   "Meleek Thomas",
-  "Mike Sharavjamts",
   "Mikel Brown Jr.",
   "Morez Johnson Jr.",
   "Nate Ament",
@@ -63,22 +60,17 @@
   "Nick Martinelli",
   "Otega Oweh",
   "Quadir Copeland",
-  "Quincy Acy",
-  "Robert McCray V",
   "Ryan Conwell",
   "Sergio de Larrea",
-  "Steve Settle III",
   "Tacko Fall",
   "Tarik Biberovic",
   "Tarris Reed Jr.",
-  "Terrell Brown Jr.",
   "Tobe Awaka",
   "Tobi Lawal",
   "Tre Donaldson",
   "Trevon Brazile",
   "Tyler Bilodeau",
   "Tyler Nickel",
-  "Tyson Chandler",
   "Ugonna Onyenso",
   "Yaxel Lendeborg",
   "Zuby Ejiofor"
@@ -752,7 +744,7 @@
   "DET": {
    "roster": 2.47,
    "market": 2.96,
-   "prior": 2.71,
+   "prior": 2.72,
    "rotation": [
     {
      "player": "Cade Cunningham",
@@ -836,7 +828,7 @@
   "GSW": {
    "roster": 1.34,
    "market": -0.37,
-   "prior": 0.48,
+   "prior": 0.49,
    "rotation": [
     {
      "player": "Jimmy Butler III",
@@ -1235,7 +1227,7 @@
   "MEM": {
    "roster": -3.12,
    "market": -4.63,
-   "prior": -3.88,
+   "prior": -3.87,
    "rotation": [
     {
      "player": "Ty Jerome",
@@ -1324,9 +1316,9 @@
    ]
   },
   "MIA": {
-   "roster": 0.04,
+   "roster": -0.03,
    "market": 2.04,
-   "prior": 1.04,
+   "prior": 1.01,
    "rotation": [
     {
      "player": "Giannis Antetokounmpo",
@@ -1378,32 +1370,32 @@
      "min": 19.5
     },
     {
-     "player": "Dennis Smith Jr.",
-     "rating": -0.6,
-     "o": null,
-     "d": null,
-     "min": 17.5
+     "player": "Tim Hardaway Jr.",
+     "rating": -0.9,
+     "o": 0.6,
+     "d": -1.5,
+     "min": 16.5
     },
     {
      "player": "Bobby Portis",
      "rating": -0.9,
      "o": -0.0,
      "d": -0.9,
-     "min": 15.3
+     "min": 16.3
     },
     {
-     "player": "Tim Hardaway Jr.",
-     "rating": -0.9,
-     "o": 0.6,
-     "d": -1.5,
-     "min": 13.5
+     "player": "Dru Smith",
+     "rating": -0.8,
+     "o": -1.3,
+     "d": 0.6,
+     "min": 14.3
     },
     {
      "player": "Klay Thompson",
      "rating": -1.3,
      "o": -0.7,
      "d": -0.6,
-     "min": 10.1
+     "min": 9.3
     }
    ]
   },
@@ -1485,7 +1477,7 @@
    ]
   },
   "MIN": {
-   "roster": 3.44,
+   "roster": 3.45,
    "market": 2.59,
    "prior": 3.02,
    "rotation": [
@@ -1884,7 +1876,7 @@
    ]
   },
   "PHI": {
-   "roster": 2.39,
+   "roster": 2.4,
    "market": 3.52,
    "prior": 2.96,
    "rotation": [
@@ -2192,7 +2184,7 @@
    ]
   },
   "SAS": {
-   "roster": 6.35,
+   "roster": 6.36,
    "market": 7.04,
    "prior": 6.7,
    "rotation": [
@@ -2430,9 +2422,9 @@
    ]
   },
   "WAS": {
-   "roster": -5.29,
+   "roster": -5.26,
    "market": -2.04,
-   "prior": -3.66,
+   "prior": -3.65,
    "rotation": [
     {
      "player": "Anthony Davis",
@@ -2484,18 +2476,18 @@
      "min": 22.3
     },
     {
+     "player": "Bilal Coulibaly",
+     "rating": -1.8,
+     "o": -1.1,
+     "d": -0.6,
+     "min": 17.4
+    },
+    {
      "player": "AJ Dybantsa",
      "rating": -1.5,
      "o": null,
      "d": null,
      "min": 15.0
-    },
-    {
-     "player": "Bilal Coulibaly",
-     "rating": -1.8,
-     "o": -1.1,
-     "d": -0.6,
-     "min": 14.4
     },
     {
      "player": "Bub Carrington",
@@ -2509,7 +2501,7 @@
      "rating": -2.2,
      "o": -1.0,
      "d": -1.2,
-     "min": 7.1
+     "min": 4.1
     }
    ]
   }

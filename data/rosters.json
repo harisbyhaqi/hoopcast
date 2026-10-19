@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T13:00:54-0400",
+ "generated": "2026-10-18T20:03:39-0400",
  "teams": {
   "ATL": [
    {
@@ -645,12 +645,6 @@
   ],
   "DAL": [
    {
-    "player_id": "6576",
-    "player": "Quincy Acy",
-    "position": "F",
-    "jersey": ""
-   },
-   {
     "player_id": "4593125",
     "player": "Santi Aldama",
     "position": "F",
@@ -1101,12 +1095,6 @@
     "player": "Clint Capela",
     "position": "C",
     "jersey": "30"
-   },
-   {
-    "player_id": "984",
-    "player": "Tyson Chandler",
-    "position": "C",
-    "jersey": "19"
    },
    {
     "player_id": "4683860",
@@ -1695,12 +1683,6 @@
     "jersey": "50"
    },
    {
-    "player_id": "4702784",
-    "player": "J'Vonne Hadley",
-    "position": "F",
-    "jersey": "14"
-   },
-   {
     "player_id": "2528210",
     "player": "Tim Hardaway Jr.",
     "position": "G",
@@ -1737,12 +1719,6 @@
     "jersey": "95"
    },
    {
-    "player_id": "4431720",
-    "player": "Lester Quinones",
-    "position": "G",
-    "jersey": "25"
-   },
-   {
     "player_id": "4278076",
     "player": "Nick Richards",
     "position": "C",
@@ -1753,12 +1729,6 @@
     "player": "Dru Smith",
     "position": "G",
     "jersey": "12"
-   },
-   {
-    "player_id": "4065697",
-    "player": "Dennis Smith Jr.",
-    "position": "G",
-    "jersey": ""
    },
    {
     "player_id": "6475",
@@ -1785,12 +1755,6 @@
     "player": "Brayden Burries",
     "position": "G",
     "jersey": "0"
-   },
-   {
-    "player_id": "4432588",
-    "player": "John Butler Jr.",
-    "position": "F",
-    "jersey": "27"
    },
    {
     "player_id": "4997526",
@@ -2025,12 +1989,6 @@
     "jersey": "6"
    },
    {
-    "player_id": "4431778",
-    "player": "Christian Koloko",
-    "position": "C",
-    "jersey": "35"
-   },
-   {
     "player_id": "4683634",
     "player": "Bennedict Mathurin",
     "position": "G",
@@ -2257,12 +2215,6 @@
     "jersey": "3"
    },
    {
-    "player_id": "4685802",
-    "player": "Robert McCray V",
-    "position": "G",
-    "jersey": "16"
-   },
-   {
     "player_id": "4900671",
     "player": "Ajay Mitchell",
     "position": "G",
@@ -2401,12 +2353,6 @@
     "player": "Jase Richardson",
     "position": "G",
     "jersey": "11"
-   },
-   {
-    "player_id": "5105875",
-    "player": "Mike Sharavjamts",
-    "position": "G",
-    "jersey": ""
    },
    {
     "player_id": "4432165",
@@ -2707,12 +2653,6 @@
     "player": "Damian Lillard",
     "position": "G",
     "jersey": "0"
-   },
-   {
-    "player_id": "4684737",
-    "player": "Jaylen Martin",
-    "position": "G",
-    "jersey": ""
    },
    {
     "player_id": "4279888",
@@ -3080,13 +3020,7 @@
     "player_id": "4065673",
     "player": "Tony Bradley",
     "position": "C",
-    "jersey": ""
-   },
-   {
-    "player_id": "4395997",
-    "player": "Terrell Brown Jr.",
-    "position": "G",
-    "jersey": "16"
+    "jersey": "13"
    },
    {
     "player_id": "4683766",
@@ -3178,7 +3112,7 @@
     "player_id": "4278129",
     "player": "Deandre Ayton",
     "position": "C",
-    "jersey": "6"
+    "jersey": "8"
    },
    {
     "player_id": "4432187",
@@ -3229,12 +3163,6 @@
     "jersey": "16"
    },
    {
-    "player_id": "4708972",
-    "player": "Jazian Gortman",
-    "position": "G",
-    "jersey": ""
-   },
-   {
     "player_id": "5238230",
     "player": "Tre Johnson",
     "position": "G",
@@ -3269,12 +3197,6 @@
     "player": "Alex Sarr",
     "position": "C",
     "jersey": "20"
-   },
-   {
-    "player_id": "4704043",
-    "player": "Steve Settle III",
-    "position": "F",
-    "jersey": "14"
    },
    {
     "player_id": "4997537",
