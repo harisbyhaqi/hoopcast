@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T20:03:39-0400",
+ "generated": "2026-10-19T15:33:40-0400",
  "teams": {
   "ATL": [
    {
@@ -48,7 +48,7 @@
     "player_id": "4585618",
     "player": "Keshon Gilbert",
     "position": "G",
-    "jersey": "51"
+    "jersey": "00"
    },
    {
     "player_id": "4712863",
@@ -727,12 +727,6 @@
     "player": "Caleb Martin",
     "position": "F",
     "jersey": "16"
-   },
-   {
-    "player_id": "2531367",
-    "player": "Dwight Powell",
-    "position": "F",
-    "jersey": "7"
    },
    {
     "player_id": "5211175",
@@ -2721,12 +2715,6 @@
     "player": "Nique Clifford",
     "position": "G",
     "jersey": "10"
-   },
-   {
-    "player_id": "4397654",
-    "player": "Adam Flagler",
-    "position": "G",
-    "jersey": "20"
    },
    {
     "player_id": "4065732",

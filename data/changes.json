@@ -1,6 +1,74 @@
 [
  {
   "kind": "released",
+  "team": "DAL",
+  "player": "Dwight Powell",
+  "time": "2026-10-19T15:33:40-0400"
+ },
+ {
+  "kind": "released",
+  "team": "SAC",
+  "player": "Adam Flagler",
+  "time": "2026-10-19T15:33:40-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "BKN",
+  "player": "Tyler Bilodeau",
+  "to": "out",
+  "injury": "Shoulder",
+  "time": "2026-10-19T15:33:40-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHI",
+  "player": "Nic Claxton",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hamstring",
+  "time": "2026-10-19T15:33:40-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Charles Bassey",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-19T15:33:40-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Brandin Podziemski",
+  "to": "day-to-day",
+  "injury": "Back",
+  "time": "2026-10-19T15:33:40-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAS",
+  "player": "Tobias Harris",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Calf Strain",
+  "time": "2026-10-19T15:33:40-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "BKN",
+  "player": "Joshua Jefferson",
+  "from": "out",
+  "time": "2026-10-19T15:33:40-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "NOP",
+  "player": "Dejounte Murray",
+  "from": "day-to-day",
+  "time": "2026-10-19T15:33:40-0400"
+ },
+ {
+  "kind": "released",
   "team": "OKC",
   "player": "Robert McCray V",
   "time": "2026-10-18T20:03:39-0400"

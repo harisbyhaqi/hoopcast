@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T20:03:39-0400",
+ "generated": "2026-10-19T15:33:40-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -30,20 +30,20 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Illness",
-   "return_date": "2026-10-27",
+   "return_date": "2026-11-08",
    "updated": "2026-10-18T14:49Z",
    "comment": "Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports."
   },
   {
    "team": "BKN",
-   "player_id": "4870564",
-   "player": "Joshua Jefferson",
+   "player_id": "5105626",
+   "player": "Tyler Bilodeau",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Back",
+   "injury": "Shoulder",
    "return_date": "2026-10-24",
-   "updated": "2026-10-16T18:37Z",
-   "comment": "Jefferson (back) has yet to fully participate in team activities and remains without a timetable for his return, Erik Slater of ClutchPoints.com reports."
+   "updated": "2026-10-19T17:33Z",
+   "comment": "Bilodeau will miss the season opener against the Hornets on Wednesday due to a shoulder sprain, Sharif Phillips-Keaton of USA Today reports."
   },
   {
    "team": "CHA",
@@ -113,6 +113,28 @@
   },
   {
    "team": "CHI",
+   "player_id": "4066650",
+   "player": "Zach Collins",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Toe Surgery",
+   "return_date": "2026-10-21",
+   "updated": "2026-10-19T17:58Z",
+   "comment": "Collins (toe) is hopeful to play Wednesday against the Raptors, K.C. Johnson of Chicago Sports Network reports."
+  },
+  {
+   "team": "CHI",
+   "player_id": "4278067",
+   "player": "Nic Claxton",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring",
+   "return_date": "2026-11-04",
+   "updated": "2026-10-19T17:38Z",
+   "comment": "Claxton (hamstring) will be re-evaluated in two weeks, K.C. Johnson of Chicago Sports Network reports."
+  },
+  {
+   "team": "CHI",
    "player_id": "5105555",
    "player": "Tobe Awaka",
    "status": "day-to-day",
@@ -132,28 +154,6 @@
    "return_date": "2026-10-21",
    "updated": "2026-10-16T22:54Z",
    "comment": "Okoro (undisclosed) is out for Friday's preseason finale versus the Timberwolves, K.C. Johnson of Chicago Sports Network reports."
-  },
-  {
-   "team": "CHI",
-   "player_id": "4066650",
-   "player": "Zach Collins",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Toe Surgery",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T22:48Z",
-   "comment": "Collins (toe) won't play in Friday's preseason finale against the Timberwolves, Bulls' reporter Will Gottlieb reports."
-  },
-  {
-   "team": "CHI",
-   "player_id": "4278067",
-   "player": "Nic Claxton",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-05T18:00Z",
-   "comment": "Claxton tweaked his hamstring and will be re-evaluated in two weeks, Chuck Swirsky of the Bulls Radio Network of the Bulls Radio Network reports."
   },
   {
    "team": "CLE",
@@ -262,8 +262,41 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-18T23:45Z",
-   "comment": "Curry sustained a right ankle injury during Sunday's practice but is expected to be fine, Dalton Johnson of NBC Sports Bay Area reports."
+   "updated": "2026-10-19T19:10Z",
+   "comment": "Curry (ankle) is expected to play in Wednesday's season opener against the Lakers, per Kenzo Fukuda of ClutchPoints.com."
+  },
+  {
+   "team": "GSW",
+   "player_id": "3102531",
+   "player": "Kristaps Porzingis",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Undisclosed",
+   "return_date": "2026-12-01",
+   "updated": "2026-10-19T19:09Z",
+   "comment": "Porzingis (undisclosed) won't travel with the Warriors and remains out indefinitely, Luca Evans of the San Francisco Chronicle reports."
+  },
+  {
+   "team": "GSW",
+   "player_id": "4397886",
+   "player": "Charles Bassey",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-10-21",
+   "updated": "2026-10-19T19:08Z",
+   "comment": "Bassey (knee) didn't practice Monday, per Nick Friedell of The Athletic."
+  },
+  {
+   "team": "GSW",
+   "player_id": "4709138",
+   "player": "Brandin Podziemski",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
+   "return_date": "2026-10-21",
+   "updated": "2026-10-19T19:05Z",
+   "comment": "Podziemski (back) is questionable for Wednesday's season opener against the Lakers, per Dalton Johnson of NBC Sports Bay Area."
   },
   {
    "team": "GSW",
@@ -286,17 +319,6 @@
    "return_date": "2027-01-02",
    "updated": "2026-10-16T16:11Z",
    "comment": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports."
-  },
-  {
-   "team": "GSW",
-   "player_id": "3102531",
-   "player": "Kristaps Porzingis",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Undisclosed",
-   "return_date": "2026-11-09",
-   "updated": "2026-10-15T16:17Z",
-   "comment": "Porzingis (undisclosed) returned Thursday to the Warriors' practice facility, per Anthony Slater of ESPN.com."
   },
   {
    "team": "IND",
@@ -338,7 +360,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee Surgery",
-   "return_date": "2027-01-01",
+   "return_date": "2027-01-02",
    "updated": "2026-02-09T21:43Z",
    "comment": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today reports."
   },
@@ -393,7 +415,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Shoulder Surgery",
-   "return_date": "2027-03-01",
+   "return_date": "2027-03-02",
    "updated": "2026-08-26T20:04Z",
    "comment": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic."
   },
@@ -563,17 +585,6 @@
    "comment": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports."
   },
   {
-   "team": "NOP",
-   "player_id": "3907497",
-   "player": "Dejounte Murray",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Toe Bruise",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-16T22:43Z",
-   "comment": "Murray (toe) won't play in Friday's preseason finale against the Wizards, Jim Eichenhofer of the Pelicans' official site reports."
-  },
-  {
    "team": "NYK",
    "player_id": "3062679",
    "player": "Josh Hart",
@@ -583,6 +594,17 @@
    "return_date": "2026-10-20",
    "updated": "2026-10-16T03:42Z",
    "comment": "Coach Mike Brown isn't concerned about Hart missing Tuesday's regular-season opener Tuesday against Philadelphia, Kristian Winfield of the New York Daily News reports."
+  },
+  {
+   "team": "OKC",
+   "player_id": "4683692",
+   "player": "Cason Wallace",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Undisclosed",
+   "return_date": "2026-10-20",
+   "updated": "2026-10-19T02:51Z",
+   "comment": "Wallace (undisclosed) has agreed to a five-year, $139 million contract extension with the Thunder on Sunday, Shams Charania of ESPN reports."
   },
   {
    "team": "OKC",
@@ -605,17 +627,6 @@
    "return_date": "2026-10-20",
    "updated": "2026-10-16T00:21Z",
    "comment": "Williams (heel) won't play in Thursday's preseason game against Houston, Justin Martinez of The Oklahoman reports."
-  },
-  {
-   "team": "OKC",
-   "player_id": "4683692",
-   "player": "Cason Wallace",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Undisclosed",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-16T00:19Z",
-   "comment": "Wallace (undisclosed) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports."
   },
   {
    "team": "OKC",
@@ -712,9 +723,31 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Ankle Surgery",
-   "return_date": "2026-11-01",
+   "return_date": "2026-11-18",
    "updated": "2026-09-28T21:33Z",
    "comment": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com."
+  },
+  {
+   "team": "PHI",
+   "player_id": "4870562",
+   "player": "Dominick Barlow",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
+   "return_date": "2026-10-20",
+   "updated": "2026-10-19T16:52Z",
+   "comment": "Barlow (back) did not participate in Monday's practice, according to 76ers reporter Paul Hudrick."
+  },
+  {
+   "team": "PHI",
+   "player_id": "3912848",
+   "player": "Dean Wade",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-10-20",
+   "updated": "2026-10-19T16:47Z",
+   "comment": "Wade (ankle) did not practice Monday, according to 76ers reporter Paul Hudrick."
   },
   {
    "team": "PHI",
@@ -751,28 +784,6 @@
   },
   {
    "team": "PHI",
-   "player_id": "4870562",
-   "player": "Dominick Barlow",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-18T17:51Z",
-   "comment": "Barlow (back) didn't participate in Sunday's practice, Adam Aaronson of PhillyVoice.com reports."
-  },
-  {
-   "team": "PHI",
-   "player_id": "3912848",
-   "player": "Dean Wade",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-18T17:48Z",
-   "comment": "Wade (ankle) didn't participate in Sunday's practice, Adam Aaronson of PhillyVoice.com reports."
-  },
-  {
-   "team": "PHI",
    "player_id": "4871141",
    "player": "Ariel Hukporti",
    "status": "out",
@@ -790,7 +801,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-18T23:46Z",
+   "updated": "2026-10-19T19:10Z",
    "comment": "Kennard (knee) has been ruled out for the Suns' final game of the preseason Friday against Utah, John Gambadoro of Arizona Sports 98.7 FM reports."
   },
   {
@@ -905,25 +916,25 @@
   },
   {
    "team": "SAS",
+   "player_id": "6440",
+   "player": "Tobias Harris",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Strain",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-19T17:51Z",
+   "comment": "Harris (calf) will not be ready for the season opener Wednesday against the Thunder, Matt Guzman of SI.com reports."
+  },
+  {
+   "team": "SAS",
    "player_id": "5101845",
    "player": "Jayden Quaintance",
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee Surgery",
-   "return_date": "2026-12-01",
+   "return_date": "2026-12-03",
    "updated": "2026-10-05T21:43Z",
    "comment": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports."
-  },
-  {
-   "team": "SAS",
-   "player_id": "6440",
-   "player": "Tobias Harris",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Strain",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-05T01:27Z",
-   "comment": "Spurs head coach Mitch Johnson said they will not rush Tobias Harris (calf) back to the court, Jared Weiss of The Athletic reports."
   },
   {
    "team": "TOR",
@@ -988,8 +999,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-18T16:50Z",
-   "comment": "Head coach Brian Keefe said Sunday that Dybantsa is day-to-day with an ankle sprain, Kyle Williams of the Chicago Sun-Times reports."
+   "updated": "2026-10-19T17:20Z",
+   "comment": "Dybantsa (ankle) participated in shooting drills during Monday's practice but remains day-to-day, Ben Strober of 106-7 The Fan Washington reports."
   },
   {
    "team": "WAS",
