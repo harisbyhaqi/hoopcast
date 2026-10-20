@@ -3,120 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NBA Picks</title>
+  <title>Hoopcast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
     <div class="header-inner">
-      <span class="site-name">NBA Picks</span>
-      <nav>
-        <a href="#calendar" data-tab="calendar">Calendar</a>
-        <a href="#standings" data-tab="standings">Standings</a>
-        <a href="#accuracy" data-tab="accuracy">Accuracy</a>
-        <a href="#updates" data-tab="updates">Updates</a>
-        <a href="https://github.com/harisbyhaqi/nba-predictor" target="_blank" rel="noopener">GitHub</a>
-      </nav>
+      <div class="header-left">
+        <div class="brand">
+          <div class="brand-tile"><div class="brand-ring"></div></div>
+          <div class="brand-name">Hoopcast</div>
+          <div class="season-chip" id="season-chip">NBA</div>
+        </div>
+        <nav>
+          <a href="#games" data-tab="games">Games</a>
+          <a href="#standings" data-tab="standings">Standings</a>
+          <a href="#accuracy" data-tab="accuracy">Accuracy</a>
+          <a href="#updates" data-tab="updates">Updates<span class="tab-badge" id="updates-badge" hidden></span></a>
+        </nav>
+      </div>
+      <div class="run-status"><div class="run-dot"></div><span id="run-label">Loading…</span></div>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-inner">
-      <h1>Who wins tonight?</h1>
-      <p class="hero-sub">
-        Score predictions and win odds for every game of the <span id="season-label">season</span>, re-forecast every morning and evening as results, rosters and injuries change.
-      </p>
-      <div class="hero-stats">
-        <div class="stat-block"><span class="stat-val" id="stat-acc">–</span><span class="stat-label" id="stat-acc-label">win accuracy</span></div>
-        <div class="stat-block"><span class="stat-val" id="stat-mae">–</span><span class="stat-label">avg pts off</span></div>
-        <div class="stat-block"><span class="stat-val" id="stat-left">–</span><span class="stat-label">games left</span></div>
-      </div>
-    </div>
-  </section>
-
   <main>
-    <!-- Calendar -->
-    <section class="tab-panel" id="tab-calendar">
-      <div class="section-inner">
-        <div class="cal-toolbar">
-          <button class="icon-btn" id="cal-prev" aria-label="Previous month">‹</button>
-          <h2 id="cal-month">–</h2>
-          <button class="icon-btn" id="cal-next" aria-label="Next month">›</button>
-          <button class="text-btn" id="cal-today">Today</button>
-          <select id="team-filter" aria-label="Filter by team">
-            <option value="">All teams</option>
-          </select>
+    <!-- Games -->
+    <section class="tab-panel games-layout" id="tab-games">
+      <aside>
+        <div class="card cal-card">
+          <div class="cal-head">
+            <div class="cal-month" id="cal-month">–</div>
+            <div class="cal-btns">
+              <button class="cal-btn" id="cal-prev" aria-label="Previous month">‹</button>
+              <button class="cal-btn cal-today" id="cal-today">Today</button>
+              <button class="cal-btn" id="cal-next" aria-label="Next month">›</button>
+            </div>
+          </div>
+          <div class="cal-dows"><div>S</div><div>M</div><div>T</div><div>W</div><div>T</div><div>F</div><div>S</div></div>
+          <div class="cal-grid" id="cal-grid"></div>
         </div>
-        <div class="cal-grid" id="cal-grid"></div>
+        <div class="card filter-card">
+          <label class="label" for="team-filter">Filter by team</label>
+          <select id="team-filter"><option value="">All teams</option></select>
+        </div>
+        <p class="model-note" id="model-note"></p>
+      </aside>
 
-        <div class="games-header">
-          <h2 id="matchups-date">–</h2>
+      <section class="day-content">
+        <div class="day-head">
+          <div>
+            <div class="eyebrow" id="day-eyebrow">–</div>
+            <div class="day-title">
+              <h1 id="day-label">–</h1>
+              <span class="today-pill" id="today-pill" hidden>Today</span>
+            </div>
+          </div>
+          <div class="day-summary" id="day-summary"></div>
         </div>
-        <div class="cards-grid" id="cards-grid">
-          <div class="skeleton-card"></div>
-          <div class="skeleton-card"></div>
-          <div class="skeleton-card"></div>
-        </div>
-      </div>
+        <div class="cards-grid" id="cards-grid"></div>
+      </section>
     </section>
 
     <!-- Standings -->
     <section class="tab-panel" id="tab-standings" hidden>
-      <div class="section-inner">
-        <h2>Projected standings</h2>
-        <p class="section-sub">Current record plus expected wins from every remaining game's win probability. Rating = roster strength in points per 100 possessions vs. an average team.</p>
-        <div class="standings-grid" id="standings"></div>
+      <div class="page-head">
+        <div class="page-intro">
+          <h1>Projected standings</h1>
+          <p class="sub">Current record plus expected wins from every remaining game's win probability. Rating is roster strength in points per 100 possessions vs. an average team.</p>
+        </div>
+        <div class="legend">
+          <div><i style="background:var(--positive)"></i>Playoff 1–6</div>
+          <div><i style="background:var(--warn)"></i>Play-in 7–10</div>
+          <div><i style="background:var(--track-2)"></i>Lottery</div>
+        </div>
       </div>
+      <div class="standings-grid" id="standings"></div>
     </section>
 
     <!-- Accuracy -->
-    <section class="tab-panel" id="tab-accuracy" hidden>
-      <div class="section-inner">
-        <h2>How we're doing</h2>
-        <p class="section-sub">Each game is scored against the prediction frozen before tip-off.</p>
-        <div class="acc-stats" id="acc-stats"></div>
-        <h3 class="sub-heading">Recent results</h3>
-        <div class="result-list" id="acc-recent"></div>
-      </div>
+    <section class="tab-panel narrow" id="tab-accuracy" hidden>
+      <h1>How we're doing</h1>
+      <p class="sub">Each game is scored against the prediction frozen before tip-off.</p>
+      <div class="day-summary acc-stats" id="acc-stats"></div>
+      <div id="acc-recent"></div>
     </section>
 
     <!-- Updates -->
-    <section class="tab-panel" id="tab-updates" hidden>
-      <div class="section-inner">
-        <h2>Roster &amp; injury updates</h2>
-        <p class="section-sub">Changes detected between daily snapshots of ESPN rosters and injury reports.</p>
-        <div class="change-list" id="changes"></div>
-        <h3 class="sub-heading">Current injury report</h3>
-        <div class="injury-grid" id="injury-report"></div>
-      </div>
+    <section class="tab-panel narrow" id="tab-updates" hidden>
+      <h1>Roster &amp; injury updates</h1>
+      <p class="sub">Changes detected between daily snapshots of league rosters and injury reports.</p>
+      <div class="chips" id="update-chips"></div>
+      <div class="groups" id="changes"></div>
+      <div class="groups injury-report" id="injury-report"></div>
     </section>
   </main>
-
-  <section class="about-section" id="about">
-    <div class="section-inner">
-      <h2>How it's built</h2>
-      <div class="about-grid">
-        <div class="about-block">
-          <h3>Who's on the roster</h3>
-          <p>Every player on today's roster is rated with <a href="https://www.darko.app" target="_blank" rel="noopener">DARKO</a> DPM, which counts offense and defense from box scores, on/off impact and tracking data, updated after every game. The projected rotation's minutes-weighted rating is the team's strength. Before the season it's blended 50/50 with sportsbook win totals.</p>
-        </div>
-        <div class="about-block">
-          <h3>How they're playing</h3>
-          <p>A random forest trained on this season's results only: recent scoring, shooting, defense, rest and home/away record. It counts for nothing on opening night and about half after 20 games, so last year's team doesn't decide this year's games.</p>
-        </div>
-        <div class="about-block">
-          <h3>Injuries &amp; odds</h3>
-          <p>Injured players' minutes go to the rest of the roster and the rating is recomputed, so losing a star costs more than losing a bench player. Win probabilities come from the predicted margin and how far off past predictions have been.</p>
-        </div>
-      </div>
-      <p class="footer-note" id="generated-note"></p>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; Haris Byhaqi · Player ratings: <a href="https://www.darko.app" target="_blank" rel="noopener">DARKO DPM</a> · Data: ESPN, Basketball-Reference</p>
-  </footer>
 
   <script src="app.js"></script>
 </body>

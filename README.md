@@ -18,10 +18,12 @@ Live predictions: [harisbyhaqi.github.io/nba-predictor](https://harisbyhaqi.gith
 6. **Re-forecasts every remaining game** of the season, blending roster strength with current form and adjusting for injuries
 7. **Commits** the results, which redeploys the GitHub Pages site
 
-**Every evening (6 PM ET)** it re-runs steps 2–7, so late injury news is reflected before tip-off.
+**Every evening (6 PM ET)** it re-runs the full pipeline, so late injury news is reflected before tip-off.
+
+**Every hour from 3 PM to 3 AM ET** it checks for games that just went final. When one has, it records the result, retrains, scores the frozen pick (how far off the score was) and updates the standings; otherwise it stops after the check.
 
 The site has four views:
-- **Calendar:** every game of the season, filterable by team
+- **Games:** every game of the season, filterable by team
 - **Standings:** current record plus projected final W-L
 - **Accuracy:** each game is scored against the prediction frozen before tip-off
 - **Updates:** a roster/injury change feed and the current injury report

@@ -65,8 +65,8 @@ _NBA_TO_ESPN_ABBR = {v: k for k, v in _ESPN_ABBR_FIX.items()}
 
 
 def logo_url(abbr: str) -> str:
-    # ESPN's CDN (cdn.nba.com logos are hit-or-miss behind its bot protection)
-    return f"https://a.espncdn.com/i/teamlogos/nba/500/{_NBA_TO_ESPN_ABBR.get(abbr, abbr).lower()}.png"
+    # ESPN's CDN (cdn.nba.com logos are hit-or-miss behind its bot protection); dark-background variant
+    return f"https://a.espncdn.com/i/teamlogos/nba/500-dark/{_NBA_TO_ESPN_ABBR.get(abbr, abbr).lower()}.png"
 
 
 def season_end_year(today) -> int:
