@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T21:00:00-0400",
+ "generated": "2026-10-20T14:11:48-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -113,6 +113,28 @@
   },
   {
    "team": "CHI",
+   "player_id": "4683750",
+   "player": "Jordan Hawkins",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Illness",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-20T16:19Z",
+   "comment": "Hawkins (illness) is out for Wednesday's game against the Raptors, K.C. Johnson of Chicago Sports Network reports."
+  },
+  {
+   "team": "CHI",
+   "player_id": "4848625",
+   "player": "Dailyn Swain",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Illness",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-20T16:17Z",
+   "comment": "Swain (illness) is out for Wednesday's game against the Raptors, K.C. Johnson of Chicago Sports Network reports."
+  },
+  {
+   "team": "CHI",
    "player_id": "4066650",
    "player": "Zach Collins",
    "status": "day-to-day",
@@ -163,19 +185,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Elbow Soreness",
    "return_date": "2026-10-22",
-   "updated": "2026-10-17T15:16Z",
-   "comment": "Merrill (elbow) isn't participating in Saturday's scrimmage, Danny Cunningham of Sports Radio 92.3 The Fan Cleveland reports."
+   "updated": "2026-10-20T17:39Z",
+   "comment": "Head coach Kenny Atkinson said Tuesday that Merrill (elbow) went through a full practice, per Danny Cunningham of Sports Radio 92.3 The Fan Cleveland."
   },
   {
    "team": "CLE",
    "player_id": "5106268",
    "player": "Nae'Qwan Tomlin",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Back",
-   "return_date": "2026-10-22",
-   "updated": "2026-10-13T22:09Z",
-   "comment": "Tomlin (back) won't play in Tuesday's preseason game against the Magic, Serena Winters of FanDuel Sports Network Ohio reports."
+   "return_date": "2026-11-16",
+   "updated": "2026-10-20T15:11Z",
+   "comment": "Tomlin is set to miss several weeks with a lower back stress reaction, Chris Fedor of The Cleveland Plain Dealer reports."
   },
   {
    "team": "CLE",
@@ -196,8 +218,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-10-21",
-   "updated": "2026-10-18T19:19Z",
-   "comment": "Aldama (knee) remains without a timetable to return, and head coach Dusty May said he \"doesn't know yet\" if the forward will play in Wednesday's regular-season opener against Houston, Mike Curtis of The Dallas Morning News reports."
+   "updated": "2026-10-20T17:47Z",
+   "comment": "Aldama (knee) is doubtful for Wednesday's game against Houston, Grant Afseth of DallasHoopsJournal.com reports."
   },
   {
    "team": "DAL",
@@ -258,12 +280,12 @@
    "team": "DET",
    "player_id": "2990962",
    "player": "Taurean Prince",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Personal",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-19T22:13Z",
-   "comment": "Prince is questionable for Tuesday's season opener against the Celtics for personal reasons."
+   "return_date": "2026-10-23",
+   "updated": "2026-10-20T14:17Z",
+   "comment": "Prince (personal) is out for Tuesday's game against the Celtics."
   },
   {
    "team": "GSW",
@@ -520,6 +542,17 @@
   },
   {
    "team": "MIA",
+   "player_id": "4700818",
+   "player": "Vladislav Goldin",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-10-21",
+   "updated": "2026-10-20T16:42Z",
+   "comment": "Goldin (ankle) did not practice Tuesday, Ira reports."
+  },
+  {
+   "team": "MIA",
    "player_id": "4066993",
    "player": "Dru Smith",
    "status": "day-to-day",
@@ -636,8 +669,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-18T17:19Z",
-   "comment": "Black (ankle) participated in Sunday's practice, and head coach Sean Sweeney said he will continue ramping up, Jason Beede of the Orlando Sentinel reports."
+   "updated": "2026-10-20T16:41Z",
+   "comment": "Black (ankle) said Tuesday that he doesn't know if he will play in Wednesday's season opener against the Hawks, Jason Beede of the Orlando Sentinel reports."
   },
   {
    "team": "ORL",
@@ -647,8 +680,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Shoulder Soreness",
    "return_date": "2026-10-21",
-   "updated": "2026-10-18T15:55Z",
-   "comment": "Head coach Sean Sweeney said the team will continue to evaluate Wagner's right shoulder, and he was limited to \"light work\" in Sunday's practice, Jason Beede of the Orlando Sentinel reports."
+   "updated": "2026-10-20T15:47Z",
+   "comment": "Wagner (shoulder) practiced in full Tuesday and is planning to play in Wednesday's game against the Hawks, Jason Beede of the Orlando Sentinel reports."
   },
   {
    "team": "ORL",
@@ -768,7 +801,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-19T22:34Z",
+   "updated": "2026-10-20T17:53Z",
    "comment": "Kennard (knee) increased his activity in practice Monday, Duane Rankin of the Arizona Republic reports."
   },
   {
@@ -910,7 +943,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Foot",
-   "return_date": "2026-10-21",
+   "return_date": "2026-10-23",
    "updated": "2026-10-17T16:31Z",
    "comment": "Bittle (foot) agreed to a two-way contract with Toronto on Saturday, Michael Scotto of HoopsHype.com reports."
   },
@@ -962,12 +995,12 @@
    "team": "WAS",
    "player_id": "5142718",
    "player": "AJ Dybantsa",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle Sprain",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-19T17:20Z",
-   "comment": "Dybantsa (ankle) participated in shooting drills during Monday's practice but remains day-to-day, Ben Strober of 106-7 The Fan Washington reports."
+   "return_date": "2026-10-23",
+   "updated": "2026-10-20T16:21Z",
+   "comment": "Dybantsa (ankle) will not debut Wednesday against the Bucks, Josh Robbins of The Athletic reports."
   },
   {
    "team": "WAS",
