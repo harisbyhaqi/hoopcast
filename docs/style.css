@@ -266,7 +266,12 @@ aside { flex: 0 1 300px; min-width: 272px; display: flex; flex-direction: column
 .st-val { font-family: var(--font-mono); font-size: 12px; width: 40px; text-align: right; }
 
 /* ── Updates / Accuracy ── */
-.chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 22px; }
+.update-filters { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; flex-wrap: wrap; margin-bottom: 22px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+#updates-team {
+  height: 32px; border-radius: 8px; border: 1px solid var(--border-strong);
+  background: var(--bg-inset); color: oklch(0.92 0.004 260); padding: 0 10px; font-size: 13px;
+}
 .chips button {
   display: flex; align-items: center; gap: 7px; height: 32px; padding: 0 12px; border-radius: 8px; cursor: pointer;
   font-size: 13px; font-weight: 500; border: 1px solid oklch(0.27 0.007 260); background: transparent; color: var(--muted-2);

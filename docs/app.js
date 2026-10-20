@@ -1,4 +1,4 @@
-const state = { data: null, month: null, day: null, team: "", updates: "all" };
+const state = { data: null, month: null, day: null, team: "", updates: "all", updatesTeam: "" };
 
 const STATUS_LABEL = { out: "Out", doubtful: "Doubtful", questionable: "Questionable", "day-to-day": "Day-to-day" };
 // Update filter chip → change kinds, pill label, pill class
@@ -337,8 +337,22 @@ function changeDetail(c) {
   return [from && to ? `${from} → ${to}` : to, c.injury].filter(Boolean).join(" · ");
 }
 
+function setupUpdates() {
+  const select = document.getElementById("updates-team");
+  Object.entries(state.data.teams)
+    .sort((x, y) => x[1].name.localeCompare(y[1].name))
+    .forEach(([abbr, t]) => select.insertAdjacentHTML("beforeend", `<option value="${esc(abbr)}">${esc(t.name)}</option>`));
+  select.addEventListener("change", () => {
+    state.updatesTeam = select.value;
+    renderChanges();
+    renderInjuries(state.data.injuries);
+  });
+  renderChanges();
+  renderInjuries(state.data.injuries);
+}
+
 function renderChanges() {
-  const changes = state.data.changes;
+  const changes = state.data.changes.filter(c => !state.updatesTeam || c.team === state.updatesTeam);
   const chips = [["all", "All", changes.length]].concat(Object.entries(CHANGE_TYPES)
     .map(([id, t]) => [id, t.chip, changes.filter(c => t.kinds.includes(c.kind)).length])
     .filter(([id, , n]) => n || id !== "traded"));
@@ -375,12 +389,18 @@ function renderChanges() {
         </div>`;
       }).join("")}
     </div>`;
-  }).join("") : `<p class="empty-note">No changes yet. The first snapshot is the baseline; changes show up from the next update.</p>`;
+  }).join("") : `<p class="empty-note">${state.updatesTeam || state.updates !== "all"
+    ? "No changes match these filters."
+    : "No changes yet. The first snapshot is the baseline; changes show up from the next update."}</p>`;
 }
 
 function renderInjuries(injuries) {
-  const rows = Object.entries(injuries).flatMap(([team, list]) => list.map(i => ({ team, ...i })));
-  document.getElementById("injury-report").innerHTML = rows.length ? `<div>
+  const rows = Object.entries(injuries)
+    .filter(([team]) => !state.updatesTeam || team === state.updatesTeam)
+    .flatMap(([team, list]) => list.map(i => ({ team, ...i })));
+  document.getElementById("injury-report").innerHTML = !rows.length ? (state.updatesTeam
+    ? `<div><div class="group-head"><strong>Current injury report</strong><span>0 players</span></div>
+        <p class="empty-note">No injuries reported for this team.</p></div>` : "") : `<div>
     <div class="group-head"><strong>Current injury report</strong><span>${rows.length} players</span></div>
     ${rows.map(i => `<div class="u-row">
       <span class="u-time">${esc(i.team)}</span>
@@ -390,7 +410,7 @@ function renderInjuries(injuries) {
         <span class="u-detail">${esc(i.injury)}${i.return_date ? " · est. return " + esc(fmtShort(i.return_date)) : ""}</span>
       </div>
     </div>`).join("")}
-  </div>` : "";
+  </div>`;
 }
 
 // ── Tabs ──
@@ -410,8 +430,7 @@ async function init() {
     setupCalendar();
     renderStandings(state.data.standings);
     renderAccuracy(state.data.accuracy, state.data.games);
-    renderChanges();
-    renderInjuries(state.data.injuries);
+    setupUpdates();
   } catch (err) {
     console.error(err);
     document.getElementById("cards-grid").innerHTML =

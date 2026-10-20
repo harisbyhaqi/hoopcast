@@ -97,7 +97,10 @@
     <section class="tab-panel narrow" id="tab-updates" hidden>
       <h1>Roster &amp; injury updates</h1>
       <p class="sub">Changes detected between daily snapshots of league rosters and injury reports.</p>
-      <div class="chips" id="update-chips"></div>
+      <div class="update-filters">
+        <div class="chips" id="update-chips"></div>
+        <select id="updates-team" aria-label="Filter updates by team"><option value="">All teams</option></select>
+      </div>
       <div class="groups" id="changes"></div>
       <div class="groups injury-report" id="injury-report"></div>
     </section>
