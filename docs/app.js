@@ -42,7 +42,8 @@ const signed = (v, digits = 1) => {
 
 function tile(abbr, size = "") {
   const t = state.data.teams[abbr] || {};
-  return `<div class="tile ${size}">${esc(abbr)}<img src="${esc(t.logo)}" alt="${esc(t.name || abbr)}" loading="lazy" onerror="this.remove()"></div>`;
+  // Logo only; the abbreviation replaces it if the image fails to load
+  return `<div class="tile ${size}"><img src="${esc(t.logo)}" alt="${esc(t.name || abbr)}" data-abbr="${esc(abbr)}" loading="lazy" onerror="this.replaceWith(this.dataset.abbr)"></div>`;
 }
 
 function visibleGames() {
@@ -268,7 +269,7 @@ function renderStandings(standings) {
       <div class="st-row st-headrow"><span>#</span><span>Team</span><span>W-L</span><span>Proj</span><span title="Roster rating: points per 100 possessions vs. an average team">Rating</span></div>
       ${standings[conf].map((r, i) => {
         const seed = i + 1, last = i === standings[conf].length - 1;
-        const rating = state.data.teams[r.team].prior;
+        const rating = +state.data.teams[r.team].prior.toFixed(1);
         const w = Math.min(Math.abs(rating) / 11 * 50, 50);
         const color = rating > 0 ? "var(--positive)" : rating < 0 ? "var(--negative)" : "oklch(0.65 0.01 260)";
         const zone = seed <= 6 ? "var(--positive)" : seed <= 10 ? "var(--warn)" : "transparent";

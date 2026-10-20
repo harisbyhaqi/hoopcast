@@ -1,8 +1,8 @@
-# NBA Game Predictor
+# Hoopcast
 
-A machine learning system that forecasts every NBA game of the season (scores and win probabilities) and re-forecasts the whole calendar twice a day via GitHub Actions.
+Hoopcast is a machine learning system that forecasts every NBA game of the season (scores and win probabilities) and re-forecasts the whole calendar via GitHub Actions (twice a day, plus hourly after games go final).
 
-Live predictions: [harisbyhaqi.github.io/nba-predictor](https://harisbyhaqi.github.io/nba-predictor)
+Live predictions: [harisbyhaqi.github.io/hoopcast](https://harisbyhaqi.github.io/hoopcast)
 
 ---
 
@@ -90,8 +90,8 @@ Out/Doubtful players count against every game until ESPN's estimated return date
 ## Setup
 
 ```bash
-git clone https://github.com/harisbyhaqi/nba-predictor.git
-cd nba-predictor
+git clone https://github.com/harisbyhaqi/hoopcast.git
+cd hoopcast
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -113,7 +113,7 @@ pytest tests/
 ## Project Structure
 
 ```
-nba-predictor/
+hoopcast/
 ├── data/
 │   ├── raw/                     # games_raw.csv (team-games), player_games.csv (full player box-score lines)
 │   ├── processed/               # games_preprocessed.csv (with features)

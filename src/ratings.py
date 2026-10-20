@@ -269,7 +269,7 @@ def parse_darko(payload: dict) -> pd.DataFrame:
 def load_darko() -> pd.DataFrame:
     """Today's DARKO ratings; falls back to the last successful pull."""
     try:
-        resp = requests.get(DARKO_URL, headers={"User-Agent": "Mozilla/5.0 (nba-predictor; daily)"}, timeout=30)
+        resp = requests.get(DARKO_URL, headers={"User-Agent": "Mozilla/5.0 (hoopcast; daily)"}, timeout=30)
         resp.raise_for_status()
         df = parse_darko(resp.json())
         if len(df) < 300:
