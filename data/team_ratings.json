@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T15:33:45-04:00",
+ "generated": "2026-10-19T21:00:07-04:00",
  "unmatched": [
   "AJ Dybantsa",
   "AK Okereke",
@@ -77,9 +77,9 @@
  ],
  "teams": {
   "ATL": {
-   "roster": 0.2,
+   "roster": 0.23,
    "market": 0.74,
-   "prior": 0.47,
+   "prior": 0.49,
    "rotation": [
     {
      "player": "CJ McCollum",
@@ -154,9 +154,9 @@
    ]
   },
   "BOS": {
-   "roster": 5.19,
+   "roster": 5.23,
    "market": 3.7,
-   "prior": 4.45,
+   "prior": 4.47,
    "rotation": [
     {
      "player": "Jayson Tatum",
@@ -238,9 +238,9 @@
    ]
   },
   "BKN": {
-   "roster": -4.61,
+   "roster": -4.58,
    "market": -6.3,
-   "prior": -5.45,
+   "prior": -5.44,
    "rotation": [
     {
      "player": "Michael Porter Jr.",
@@ -329,9 +329,9 @@
    ]
   },
   "CHA": {
-   "roster": -1.38,
+   "roster": -1.35,
    "market": -0.74,
-   "prior": -1.06,
+   "prior": -1.04,
    "rotation": [
     {
      "player": "Brandon Miller",
@@ -406,9 +406,9 @@
    ]
   },
   "CHI": {
-   "roster": -6.33,
+   "roster": -6.29,
    "market": -4.63,
-   "prior": -5.48,
+   "prior": -5.46,
    "rotation": [
     {
      "player": "Norman Powell",
@@ -497,9 +497,9 @@
    ]
   },
   "CLE": {
-   "roster": 2.9,
+   "roster": 2.94,
    "market": 2.59,
-   "prior": 2.75,
+   "prior": 2.77,
    "rotation": [
     {
      "player": "Donovan Mitchell",
@@ -581,9 +581,9 @@
    ]
   },
   "DAL": {
-   "roster": -5.55,
+   "roster": -5.51,
    "market": -2.41,
-   "prior": -3.98,
+   "prior": -3.96,
    "rotation": [
     {
      "player": "Kyrie Irving",
@@ -665,9 +665,9 @@
    ]
   },
   "DEN": {
-   "roster": 3.91,
+   "roster": 3.94,
    "market": 2.96,
-   "prior": 3.43,
+   "prior": 3.45,
    "rotation": [
     {
      "player": "Nikola Jokic",
@@ -742,9 +742,9 @@
    ]
   },
   "DET": {
-   "roster": 2.5,
+   "roster": 2.53,
    "market": 2.96,
-   "prior": 2.73,
+   "prior": 2.75,
    "rotation": [
     {
      "player": "Cade Cunningham",
@@ -826,9 +826,9 @@
    ]
   },
   "GSW": {
-   "roster": 1.37,
+   "roster": 1.41,
    "market": -0.37,
-   "prior": 0.5,
+   "prior": 0.52,
    "rotation": [
     {
      "player": "Jimmy Butler III",
@@ -910,9 +910,9 @@
    ]
   },
   "HOU": {
-   "roster": 4.27,
+   "roster": 4.31,
    "market": 2.41,
-   "prior": 3.34,
+   "prior": 3.36,
    "rotation": [
     {
      "player": "Kevin Durant",
@@ -987,9 +987,9 @@
    ]
   },
   "IND": {
-   "roster": -1.13,
+   "roster": -1.09,
    "market": 1.11,
-   "prior": -0.01,
+   "prior": 0.01,
    "rotation": [
     {
      "player": "Tyrese Haliburton",
@@ -1064,9 +1064,9 @@
    ]
   },
   "LAC": {
-   "roster": -3.29,
+   "roster": -3.26,
    "market": -5.37,
-   "prior": -4.33,
+   "prior": -4.31,
    "rotation": [
     {
      "player": "Darius Garland",
@@ -1141,9 +1141,9 @@
    ]
   },
   "LAL": {
-   "roster": 1.77,
+   "roster": 1.81,
    "market": 1.67,
-   "prior": 1.72,
+   "prior": 1.74,
    "rotation": [
     {
      "player": "Luka Doncic",
@@ -1225,9 +1225,9 @@
    ]
   },
   "MEM": {
-   "roster": -3.09,
+   "roster": -3.05,
    "market": -4.63,
-   "prior": -3.86,
+   "prior": -3.84,
    "rotation": [
     {
      "player": "Ty Jerome",
@@ -1316,9 +1316,9 @@
    ]
   },
   "MIA": {
-   "roster": 0.01,
+   "roster": 0.04,
    "market": 2.04,
-   "prior": 1.02,
+   "prior": 1.04,
    "rotation": [
     {
      "player": "Giannis Antetokounmpo",
@@ -1400,9 +1400,9 @@
    ]
   },
   "MIL": {
-   "roster": -4.58,
+   "roster": -5.59,
    "market": -5.74,
-   "prior": -5.16,
+   "prior": -5.66,
    "rotation": [
     {
      "player": "Tyler Herro",
@@ -1419,53 +1419,46 @@
      "min": 29.2
     },
     {
-     "player": "Kevin Porter Jr.",
-     "rating": 0.5,
-     "o": -0.2,
-     "d": 0.7,
-     "min": 28.0
-    },
-    {
      "player": "Cormac Ryan",
      "rating": -0.2,
      "o": 0.0,
      "d": -0.2,
-     "min": 25.8
+     "min": 26.8
     },
     {
      "player": "AJ Green",
      "rating": -0.2,
      "o": 0.3,
      "d": -0.4,
-     "min": 23.7
+     "min": 25.2
     },
     {
      "player": "Kasparas Jakucionis",
      "rating": 0.2,
      "o": -0.2,
      "d": 0.4,
-     "min": 23.4
+     "min": 24.4
     },
     {
      "player": "Myles Turner",
      "rating": -0.5,
      "o": -1.2,
      "d": 0.7,
-     "min": 22.0
+     "min": 24.0
     },
     {
      "player": "Kel'el Ware",
      "rating": -0.5,
      "o": 0.0,
      "d": -0.5,
-     "min": 21.1
+     "min": 23.1
     },
     {
      "player": "Jaime Jaquez Jr.",
      "rating": -0.5,
      "o": 0.2,
      "d": -0.7,
-     "min": 19.0
+     "min": 21.0
     },
     {
      "player": "Kyle Kuzma",
@@ -1473,13 +1466,27 @@
      "o": -1.6,
      "d": -1.7,
      "min": 14.5
+    },
+    {
+     "player": "Nate Ament",
+     "rating": -1.5,
+     "o": null,
+     "d": null,
+     "min": 13.0
+    },
+    {
+     "player": "Gary Trent Jr.",
+     "rating": -2.6,
+     "o": -0.8,
+     "d": -1.9,
+     "min": 5.5
     }
    ]
   },
   "MIN": {
-   "roster": 3.48,
+   "roster": 3.51,
    "market": 2.59,
-   "prior": 3.04,
+   "prior": 3.05,
    "rotation": [
     {
      "player": "Anthony Edwards",
@@ -1561,9 +1568,9 @@
    ]
   },
   "NOP": {
-   "roster": -4.73,
+   "roster": -4.69,
    "market": -5.19,
-   "prior": -4.96,
+   "prior": -4.94,
    "rotation": [
     {
      "player": "Dejounte Murray",
@@ -1638,9 +1645,9 @@
    ]
   },
   "NYK": {
-   "roster": 4.44,
+   "roster": 4.47,
    "market": 4.07,
-   "prior": 4.26,
+   "prior": 4.27,
    "rotation": [
     {
      "player": "OG Anunoby",
@@ -1715,9 +1722,9 @@
    ]
   },
   "OKC": {
-   "roster": 8.27,
+   "roster": 8.31,
    "market": 7.22,
-   "prior": 7.75,
+   "prior": 7.77,
    "rotation": [
     {
      "player": "Shai Gilgeous-Alexander",
@@ -1799,9 +1806,9 @@
    ]
   },
   "ORL": {
-   "roster": -0.17,
+   "roster": -0.13,
    "market": 0.93,
-   "prior": 0.38,
+   "prior": 0.4,
    "rotation": [
     {
      "player": "Franz Wagner",
@@ -1876,9 +1883,9 @@
    ]
   },
   "PHI": {
-   "roster": 2.43,
+   "roster": 2.46,
    "market": 3.52,
-   "prior": 2.97,
+   "prior": 2.99,
    "rotation": [
     {
      "player": "Tyrese Maxey",
@@ -1953,9 +1960,9 @@
    ]
   },
   "PHX": {
-   "roster": -1.22,
+   "roster": -1.18,
    "market": -0.19,
-   "prior": -0.7,
+   "prior": -0.68,
    "rotation": [
     {
      "player": "Devin Booker",
@@ -2030,9 +2037,9 @@
    ]
   },
   "POR": {
-   "roster": 0.49,
+   "roster": 0.52,
    "market": 0.56,
-   "prior": 0.52,
+   "prior": 0.54,
    "rotation": [
     {
      "player": "Deni Avdija",
@@ -2100,9 +2107,9 @@
    ]
   },
   "SAC": {
-   "roster": -8.33,
+   "roster": -8.3,
    "market": -7.59,
-   "prior": -7.96,
+   "prior": -7.94,
    "rotation": [
     {
      "player": "Keegan Murray",
@@ -2184,9 +2191,9 @@
    ]
   },
   "SAS": {
-   "roster": 6.39,
+   "roster": 6.42,
    "market": 7.04,
-   "prior": 6.71,
+   "prior": 6.73,
    "rotation": [
     {
      "player": "De'Aaron Fox",
@@ -2261,9 +2268,9 @@
    ]
   },
   "TOR": {
-   "roster": 5.07,
+   "roster": 5.11,
    "market": 1.67,
-   "prior": 3.37,
+   "prior": 3.39,
    "rotation": [
     {
      "player": "Kawhi Leonard",
@@ -2338,9 +2345,9 @@
    ]
   },
   "UTA": {
-   "roster": -3.08,
+   "roster": -3.04,
    "market": -2.04,
-   "prior": -2.56,
+   "prior": -2.54,
    "rotation": [
     {
      "player": "Lauri Markkanen",
@@ -2422,9 +2429,9 @@
    ]
   },
   "WAS": {
-   "roster": -5.23,
+   "roster": -5.19,
    "market": -2.04,
-   "prior": -3.63,
+   "prior": -3.61,
    "rotation": [
     {
      "player": "Anthony Davis",
