@@ -2,16 +2,12 @@ name: Update Daily Predictions
 
 on:
   schedule:
-    # Morning: 14:00 UTC = 10 AM EDT / 9 AM EST — last night's results are final.
-    # Full pipeline: results → retrain → rosters/injuries → re-forecast the season.
-    - cron: "0 14 * * *"
-    # Evening: 22:00 UTC = 6 PM EDT / 5 PM EST — after official injury reports, before 7 PM tips.
-    # Also picks up weekend afternoon games; refreshes rosters/injuries and re-forecasts.
-    - cron: "0 22 * * *"
-    # Post-game checks, hourly 3 PM–3 AM ET: when a game has gone final, record it, retrain,
-    # rescore the frozen pick and update standings. Runs with no new finals stop after the download.
-    - cron: "20 19-23,0-7 * * *"
-  workflow_dispatch:   # manual trigger from GitHub UI (runs the full pipeline)
+    # Every 5 minutes, 10 AM–4 AM ET (both EDT and EST). src/run_gate.py decides whether a tick
+    # is due, in Eastern time: 10 AM (morning refresh), 11 PM (East games final), 2 AM (West
+    # games final), and ~15 min before each distinct tip time today (game-time decisions).
+    # Ticks with nothing due stop after the gate (~10 s).
+    - cron: "*/5 14-23,0-8 * * *"
+  workflow_dispatch:   # manual trigger from GitHub UI (always runs the full pipeline)
 
 permissions:
   contents: write
@@ -19,9 +15,6 @@ permissions:
 concurrency:
   group: update-predictions
   cancel-in-progress: false
-
-env:
-  POSTGAME: ${{ github.event.schedule == '20 19-23,0-7 * * *' }}
 
 jobs:
   predict:
@@ -31,60 +24,63 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Check whether an update slot is due
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; echo "slots=manual" >> "$GITHUB_OUTPUT"
+          else
+            python3 src/run_gate.py
+          fi
+
       - name: Set up Python
+        if: steps.gate.outputs.run
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
 
       - name: Install dependencies
+        if: steps.gate.outputs.run
         run: pip install -r requirements.txt
 
       - name: Download schedule and latest results
+        if: steps.gate.outputs.run
         run: python src/data_download.py
 
-      - name: Check for newly finished games
-        id: finals
-        run: |
-          if [ "$POSTGAME" != "true" ] || [ -n "$(git status --porcelain data/raw/)" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "No new final scores; skipping the rest of the pipeline."
-          fi
-
       - name: Run tests
-        if: steps.finals.outputs.run
+        if: steps.gate.outputs.run
         run: pytest tests/ -q
 
       - name: Preprocess game data
-        if: steps.finals.outputs.run
+        if: steps.gate.outputs.run
         run: python src/preprocess.py
 
       # The model isn't committed (6 MB/day of repo growth); retraining takes seconds.
       - name: Retrain model on latest data
-        if: steps.finals.outputs.run
+        if: steps.gate.outputs.run
         run: python src/train.py
 
       - name: Snapshot rosters and injury report
-        if: steps.finals.outputs.run
+        if: steps.gate.outputs.run
         run: python src/rosters.py
         continue-on-error: true   # keep yesterday's snapshot rather than skip predictions
 
       - name: Rate rosters (DARKO DPM)
-        if: steps.finals.outputs.run
+        if: steps.gate.outputs.run
         run: python src/ratings.py
         continue-on-error: true   # falls back to the last saved DARKO pull / BPM
 
       - name: Re-forecast the season
-        if: steps.finals.outputs.run
+        if: steps.gate.outputs.run
         run: python src/update_daily.py
 
       - name: Commit updated data and predictions
-        if: steps.finals.outputs.run
+        if: steps.gate.outputs.run
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/ data/ models/
-          git diff --cached --quiet || git commit -m "chore: update predictions for $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "chore: update predictions (${{ steps.gate.outputs.slots }})"
           git pull --rebase
           git push

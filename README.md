@@ -1,6 +1,6 @@
 # Hoopcast
 
-Hoopcast is a machine learning system that forecasts every NBA game of the season (scores and win probabilities) and re-forecasts the whole calendar via GitHub Actions (twice a day, plus hourly after games go final).
+Hoopcast is a machine learning system that forecasts every NBA game of the season (scores and win probabilities) and re-forecasts the whole calendar via GitHub Actions (each morning, before every tip-off and after the night's games).
 
 Live predictions: [harisbyhaqi.github.io/hoopcast](https://harisbyhaqi.github.io/hoopcast)
 
@@ -8,7 +8,7 @@ Live predictions: [harisbyhaqi.github.io/hoopcast](https://harisbyhaqi.github.io
 
 ## How It Works
 
-**Every morning (10 AM ET)** the workflow:
+**Each run** of the workflow:
 
 1. **Refreshes the season schedule** and downloads box scores for newly finished games from ESPN
 2. **Preprocesses** the data: rolling team form, opponent defense, rest days, home/away records
@@ -18,9 +18,13 @@ Live predictions: [harisbyhaqi.github.io/hoopcast](https://harisbyhaqi.github.io
 6. **Re-forecasts every remaining game** of the season, blending roster strength with current form and adjusting for injuries
 7. **Commits** the results, which redeploys the GitHub Pages site
 
-**Every evening (6 PM ET)** it re-runs the full pipeline, so late injury news is reflected before tip-off.
+It runs at these times (Eastern):
+- **10 AM:** overnight results, today's schedule and tip times, roster and injury changes
+- **~15 minutes before each tip-off time:** catches game-time decisions; games starting at the same time share one run, so a night with tips at 7:00, 7:30 and 10:00 gets three runs
+- **11 PM:** East-coast games are final, so results, standings and accuracy update
+- **2 AM:** West-coast games are final
 
-**Every hour from 3 PM to 3 AM ET** it checks for games that just went final. When one has, it records the result, retrains, scores the frozen pick (how far off the score was) and updates the standings; otherwise it stops after the check.
+A 5-minute cron runs `src/run_gate.py`, which decides in Eastern time whether one of these is due (so daylight saving is handled) and runs each slot once.
 
 The site has four views:
 - **Games:** every game of the season, filterable by team
