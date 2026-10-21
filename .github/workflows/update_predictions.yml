@@ -2,27 +2,30 @@ name: Update Daily Predictions
 
 on:
   schedule:
-    # Every 5 minutes, 10 AM–4 AM ET (both EDT and EST). src/run_gate.py decides whether a tick
-    # is due, in Eastern time: 10 AM (morning refresh), 11 PM (East games final), 2 AM (West
-    # games final), and ~15 min before each distinct tip time today (game-time decisions).
-    # Ticks with nothing due stop after the gate (~10 s).
-    - cron: "*/5 14-23,0-8 * * *"
+    # Ticks as often as GitHub allows (in practice it fires hours apart). src/run_gate.py
+    # decides in Eastern time: 10 AM (morning refresh), 11 PM (East games final), 2 AM (West
+    # games final), and ~15 min before each distinct tip time (game-time decisions). Missed
+    # fixed slots run on the next tick; otherwise the tick sleeps until the next slot.
+    - cron: "*/5 * * * *"
   workflow_dispatch:   # manual trigger from GitHub UI (always runs the full pipeline)
 
 permissions:
   contents: write
 
 concurrency:
-  group: update-predictions
+  group: update-predictions-${{ github.event_name }}   # manual runs don't queue behind a sleeping tick
   cancel-in-progress: false
 
 jobs:
   predict:
     runs-on: ubuntu-latest
+    timeout-minutes: 340   # the gate may sleep up to 5 h
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          ref: main   # a queued tick must see slots recorded by the run before it
 
       - name: Check whether an update slot is due
         id: gate

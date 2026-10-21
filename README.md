@@ -24,7 +24,7 @@ It runs at these times (Eastern):
 - **11 PM:** East-coast games are final, so results, standings and accuracy update
 - **2 AM:** West-coast games are final
 
-A 5-minute cron runs `src/run_gate.py`, which decides in Eastern time whether one of these is due (so daylight saving is handled) and runs each slot once.
+A frequent cron runs `src/run_gate.py`, which decides in Eastern time whether one of these is due (so daylight saving is handled) and runs each slot once. GitHub fires scheduled workflows hours apart under load, so a missed 10 AM / 11 PM / 2 AM slot runs on the next tick, and a tick with nothing due sleeps until the next slot (up to 5 hours) and runs it then.
 
 The site has four views:
 - **Games:** every game of the season, filterable by team
