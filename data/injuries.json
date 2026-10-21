@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T19:15:43-0400",
+ "generated": "2026-10-21T19:45:55-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -159,12 +159,12 @@
    "team": "DAL",
    "player_id": "5105806",
    "player": "Jett Howard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Calf",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-21T17:18Z",
-   "comment": "Howard (calf) is now doubtful for Wednesday against the Rockets."
+   "return_date": "2026-10-23",
+   "updated": "2026-10-21T23:12Z",
+   "comment": "Howard (calf) has been ruled out for Wednesday's game against the Rockets."
   },
   {
    "team": "DAL",
@@ -460,8 +460,8 @@
    "status_raw": "Out",
    "injury": "Ankle",
    "return_date": "2026-10-23",
-   "updated": "2026-10-21T23:03Z",
-   "comment": "Stewart (ankle) is doubtful to play Wednesday against the Jazz."
+   "updated": "2026-10-21T23:05Z",
+   "comment": "Stewart (ankle) has been ruled out for Wednesday's game against the Jazz."
   },
   {
    "team": "MIN",
@@ -603,7 +603,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-21T23:03Z",
+   "updated": "2026-10-21T23:11Z",
    "comment": "Kennard (knee) is listed as questionable for Wednesday's game against Portland."
   },
   {

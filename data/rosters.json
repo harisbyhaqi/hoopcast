@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T19:15:43-0400",
+ "generated": "2026-10-21T19:45:55-0400",
  "teams": {
   "ATL": [
    {
@@ -661,6 +661,12 @@
     "player": "Moussa Cisse",
     "position": "C",
     "jersey": "30"
+   },
+   {
+    "player_id": "4896372",
+    "player": "Walter Clayton Jr.",
+    "position": "G",
+    "jersey": "4"
    },
    {
     "player_id": "5279129",
@@ -1478,7 +1484,7 @@
     "player_id": "3907498",
     "player": "Matisse Thybulle",
     "position": "G",
-    "jersey": "26"
+    "jersey": "4"
    },
    {
     "player_id": "4278077",
