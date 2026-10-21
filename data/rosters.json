@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T10:58:06-0400",
+ "generated": "2026-10-21T18:45:58-0400",
  "teams": {
   "ATL": [
    {
@@ -1773,6 +1773,12 @@
     "player": "Bogoljub Markovic",
     "position": "F",
     "jersey": "23"
+   },
+   {
+    "player_id": "4397233",
+    "player": "Pete Nance",
+    "position": "F",
+    "jersey": "35"
    },
    {
     "player_id": "4591725",
