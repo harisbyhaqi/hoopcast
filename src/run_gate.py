@@ -9,8 +9,9 @@ Slots (Eastern time, so daylight saving is handled here rather than in cron):
               games tipping at the same time share one run
 
 GitHub fires scheduled workflows hours apart under load, so ticks can't be relied on to land
-in a slot. Instead a missed fixed slot is made up on the next tick, and a tick with nothing
-due sleeps until the next slot (if it starts within MAX_WAIT) and runs then.
+in a slot. Instead each run sleeps until the next slot (at most MAX_WAIT), runs it, and the
+workflow then dispatches itself to wait for the one after; the cron only restarts the chain
+if it breaks. A missed fixed slot is made up on the next run.
 
 Each slot runs once: slots already run are recorded in data/run_slots.json, which is
 committed with the predictions, so a failed run is retried on the next tick.
@@ -35,7 +36,7 @@ FIXED_SLOTS = {"morning": 10, "post-east": 23, "post-west": 2}   # ET hour
 TIP_LEAD = timedelta(minutes=15)   # earliest run before tip-off
 TIP_CUTOFF = timedelta(minutes=3)  # the pipeline takes ~2 min; later than this misses the freeze
 LOOKBACK = timedelta(hours=24)    # how late a missed fixed slot is still made up
-MAX_WAIT = timedelta(hours=5)     # longest a tick sleeps for the next slot (jobs may run 6 h)
+MAX_WAIT = timedelta(hours=5)     # longest a run sleeps for the next slot (jobs may run 6 h)
 KEEP_DAYS = 3
 
 
@@ -91,12 +92,13 @@ def main():
     done = load_done()
     due = due_slots(now, schedule, done)
     if not due:
+        # Always sleep, even with no slot ahead, so the self-dispatching chain can't spin
         start = next_start(now, schedule, done)
-        if start and start - now <= MAX_WAIT:
-            print(f"{now.astimezone(ET):%Y-%m-%d %H:%M} ET — sleeping until {start.astimezone(ET):%H:%M} ET")
-            time.sleep((start - now).total_seconds())
-            now = datetime.now(timezone.utc)
-            due = due_slots(now, schedule, done)
+        wake = min(start, now + MAX_WAIT) if start else now + MAX_WAIT
+        print(f"{now.astimezone(ET):%Y-%m-%d %H:%M} ET — sleeping until {wake.astimezone(ET):%H:%M} ET")
+        time.sleep((wake - now).total_seconds())
+        now = datetime.now(timezone.utc)
+        due = due_slots(now, schedule, done)
     print(f"{now.astimezone(ET):%Y-%m-%d %H:%M} ET — due: {', '.join(due) or 'nothing'}")
     if not due:
         return

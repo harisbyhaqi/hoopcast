@@ -2,18 +2,26 @@ name: Update Daily Predictions
 
 on:
   schedule:
-    # Ticks as often as GitHub allows (in practice it fires hours apart). src/run_gate.py
-    # decides in Eastern time: 10 AM (morning refresh), 11 PM (East games final), 2 AM (West
-    # games final), and ~15 min before each distinct tip time (game-time decisions). Missed
-    # fixed slots run on the next tick; otherwise the tick sleeps until the next slot.
+    # src/run_gate.py decides in Eastern time: 10 AM (morning refresh), 11 PM (East games
+    # final), 2 AM (West games final), and ~15 min before each distinct tip time (game-time
+    # decisions). Each run sleeps until the next slot, runs it, then dispatches itself
+    # (chain=true) to wait for the one after. GitHub fires this cron hours apart; it only
+    # restarts the chain if a run fails.
     - cron: "*/5 * * * *"
-  workflow_dispatch:   # manual trigger from GitHub UI (always runs the full pipeline)
+  workflow_dispatch:   # manual trigger from GitHub UI (runs the full pipeline now)
+    inputs:
+      chain:
+        description: "Internal: wait for the next slot instead of running now"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  actions: write   # to dispatch the next link of the chain
 
 concurrency:
-  group: update-predictions-${{ github.event_name }}   # manual runs don't queue behind a sleeping tick
+  # One sleeping run plus at most one queued; manual runs don't queue behind a sleeping one
+  group: update-predictions-${{ (github.event_name == 'schedule' || inputs.chain) && 'auto' || 'manual' }}
   cancel-in-progress: false
 
 jobs:
@@ -30,7 +38,7 @@ jobs:
       - name: Check whether an update slot is due
         id: gate
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.chain }}" != "true" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"; echo "slots=manual" >> "$GITHUB_OUTPUT"
           else
             python3 src/run_gate.py
@@ -87,3 +95,11 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update predictions (${{ steps.gate.outputs.slots }})"
           git pull --rebase
           git push
+
+      # Not on failure: a failed slot isn't recorded, so the next link would retry it at
+      # once; the cron restarts the chain later instead.
+      - name: Wait for the next slot in a new run
+        if: success() && (github.event_name == 'schedule' || inputs.chain)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run update_predictions.yml --ref main -f chain=true
