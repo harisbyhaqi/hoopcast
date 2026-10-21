@@ -1,5 +1,152 @@
 [
  {
+  "kind": "injury_new",
+  "team": "DAL",
+  "player": "Jett Howard",
+  "to": "day-to-day",
+  "injury": "Calf",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DET",
+  "player": "Taurean Prince",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Personal",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Brandin Podziemski",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back Soreness",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Cameron Carr",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Oblique Strain",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Adou Thiero",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Thomas Sorber",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Surgery",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Nikola Topic",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Surgery",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Tacko Fall",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hip",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "POR",
+  "player": "Branden Carlson",
+  "to": "out",
+  "injury": "Concussion",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Chris Youngblood",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Soreness",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "POR",
+  "player": "Deni Avdija",
+  "to": "day-to-day",
+  "injury": "Ankle Not Specified",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAS",
+  "player": "Tobias Harris",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Calf Strain",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAL",
+  "player": "Bronny James",
+  "from": "day-to-day",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAL",
+  "player": "Jarred Vanderbilt",
+  "from": "day-to-day",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHI",
+  "player": "Adem Bona",
+  "from": "day-to-day",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHI",
+  "player": "Anfernee Simons",
+  "from": "day-to-day",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHX",
+  "player": "Oso Ighodaro",
+  "from": "day-to-day",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "POR",
+  "player": "Jrue Holiday",
+  "from": "day-to-day",
+  "time": "2026-10-21T10:54:16-0400"
+ },
+ {
   "kind": "status_change",
   "team": "CHA",
   "player": "Kylan Boswell",

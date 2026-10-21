@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T18:28:18-0400",
+ "generated": "2026-10-21T10:54:16-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -201,14 +201,25 @@
   },
   {
    "team": "DAL",
+   "player_id": "5105806",
+   "player": "Jett Howard",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Calf",
+   "return_date": "2026-10-21",
+   "updated": "2026-10-21T00:37Z",
+   "comment": "Howard (calf) is listed as questionable for Wednesday's game against the Rockets."
+  },
+  {
+   "team": "DAL",
    "player_id": "3138160",
    "player": "Caleb Martin",
    "status": "out",
    "status_raw": "Out",
    "injury": "Thumb Sprain",
    "return_date": "2026-10-23",
-   "updated": "2026-10-20T22:14Z",
-   "comment": "Martin (illness) will play in Sunday's preseason game against the Rockets, Grant Afseth of DallasHoopsJournal.com reports."
+   "updated": "2026-10-20T22:15Z",
+   "comment": "Martin is out for Wednesday's season opener against the Rockets with a sprained right thumb."
   },
   {
    "team": "DAL",
@@ -218,8 +229,8 @@
    "status_raw": "Out",
    "injury": "Heel",
    "return_date": "2026-10-23",
-   "updated": "2026-10-20T22:13Z",
-   "comment": "Biberovic (heel) is unlikely to play in Wednesday's season opener against the Rockets, per Grant Afseth of DallasHoopsJournal.com."
+   "updated": "2026-10-20T22:14Z",
+   "comment": "Biberovic (heel) has been ruled out for Wednesday's game against Houston."
   },
   {
    "team": "DAL",
@@ -229,8 +240,8 @@
    "status_raw": "Out",
    "injury": "Foot Surgery",
    "return_date": "2026-10-23",
-   "updated": "2026-10-20T22:10Z",
-   "comment": "Lively (foot) has been ruled out for Friday's exhibition against the Hawks."
+   "updated": "2026-10-20T22:12Z",
+   "comment": "Lively (foot) has been ruled out for Wednesday's game against Houston."
   },
   {
    "team": "DAL",
@@ -269,12 +280,34 @@
    "team": "DET",
    "player_id": "2990962",
    "player": "Taurean Prince",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Personal",
    "return_date": "2026-10-23",
-   "updated": "2026-10-20T14:17Z",
+   "updated": "2026-10-21T14:05Z",
    "comment": "Prince (personal) is out for Tuesday's game against the Celtics."
+  },
+  {
+   "team": "GSW",
+   "player_id": "3975",
+   "player": "Stephen Curry",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-10-21",
+   "updated": "2026-10-20T23:50Z",
+   "comment": "Curry (ankle) is listed as probable for Wednesday's game against the Lakers."
+  },
+  {
+   "team": "GSW",
+   "player_id": "4709138",
+   "player": "Brandin Podziemski",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Soreness",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-20T23:50Z",
+   "comment": "Podziemski (back) has been ruled out for Wednesday's game against the Lakers."
   },
   {
    "team": "GSW",
@@ -286,28 +319,6 @@
    "return_date": "2026-10-21",
    "updated": "2026-10-20T18:58Z",
    "comment": "Bassey (knee) is questionable for Wednesday's season opener versus the Lakers, per Nick Friedell of The Athletic."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4709138",
-   "player": "Brandin Podziemski",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-20T18:51Z",
-   "comment": "Podziemski (back) was unable to practice Tuesday, Nick Friedell of The Athletic reports."
-  },
-  {
-   "team": "GSW",
-   "player_id": "3975",
-   "player": "Stephen Curry",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-19T19:10Z",
-   "comment": "Curry (ankle) is expected to play in Wednesday's season opener against the Lakers, per Kenzo Fukuda of ClutchPoints.com."
   },
   {
    "team": "GSW",
@@ -454,36 +465,14 @@
   },
   {
    "team": "LAL",
-   "player_id": "5060631",
-   "player": "Adou Thiero",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Undisclosed",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-20T19:18Z",
-   "comment": "Thiero (undisclosed) didn't practice Tuesday, Law Murray of The Athletic reports."
-  },
-  {
-   "team": "LAL",
    "player_id": "5113969",
    "player": "Cameron Carr",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Undisclosed Bruise",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-20T19:17Z",
-   "comment": "Carr (undisclosed) didn't practice Tuesday, per Law Murray of The Athletic."
-  },
-  {
-   "team": "LAL",
-   "player_id": "4683774",
-   "player": "Bronny James",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-20T19:15Z",
-   "comment": "James (illness) participated in Tuesday's practice, Dan Woike of The Athletic reports."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Oblique Strain",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-21T00:09Z",
+   "comment": "Carr (oblique) is listed as out for Wednesday's game against the Warriors."
   },
   {
    "team": "LAL",
@@ -491,21 +480,21 @@
    "player": "Collin Sexton",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Lower Leg",
+   "injury": "Calf",
    "return_date": "2026-10-21",
-   "updated": "2026-10-19T19:46Z",
-   "comment": "Sexton (lower leg) fully practiced Monday, per Dan Woike of The Athletic."
+   "updated": "2026-10-21T00:06Z",
+   "comment": "Sexton (calf) is questionable for Wednesday's regular-season opener against the Warriors."
   },
   {
    "team": "LAL",
-   "player_id": "4278077",
-   "player": "Jarred Vanderbilt",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Undisclosed",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-17T02:52Z",
-   "comment": "Vanderbilt (undisclosed) isn't expected to play in Friday's preseason game against the Nuggets, Thuc Nhi Nguyen of the Los Angeles Times reports."
+   "player_id": "5060631",
+   "player": "Adou Thiero",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-21T00:05Z",
+   "comment": "Thiero (knee) has been ruled out for Wednesday's game against Golden State."
   },
   {
    "team": "MEM",
@@ -515,8 +504,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle",
    "return_date": "2026-10-21",
-   "updated": "2026-10-20T22:13Z",
-   "comment": "The Grizzlies announced Friday that Stewart (ankle) will miss at least two weeks."
+   "updated": "2026-10-20T22:12Z",
+   "comment": "Stewart (ankle) is doubtful to play Wednesday against the Jazz."
   },
   {
    "team": "MIA",
@@ -555,22 +544,22 @@
    "team": "OKC",
    "player_id": "5061603",
    "player": "Thomas Sorber",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee Surgery",
    "return_date": "2026-10-22",
-   "updated": "2026-10-19T22:11Z",
+   "updated": "2026-10-21T14:05Z",
    "comment": "Sorber (knee) won't play in Tuesday's season opener against the Spurs, Justin Martinez of The Oklahoman reports."
   },
   {
    "team": "OKC",
    "player_id": "5159925",
    "player": "Nikola Topic",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Back Surgery",
    "return_date": "2026-10-22",
-   "updated": "2026-10-19T22:09Z",
+   "updated": "2026-10-21T14:04Z",
    "comment": "Topic (back) won't play in Tuesday's season opener against the Spurs, Justin Martinez of The Oklahoman reports."
   },
   {
@@ -630,47 +619,25 @@
   },
   {
    "team": "PHI",
+   "player_id": "3904625",
+   "player": "Tacko Fall",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hip",
+   "return_date": "2026-10-22",
+   "updated": "2026-10-21T14:04Z",
+   "comment": "Fall (hip) is out for Tuesday's regular-season opener against the Knicks, Adam Aaronson of PhillyVoice.com reports."
+  },
+  {
+   "team": "PHI",
    "player_id": "3912848",
    "player": "Dean Wade",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-19T21:14Z",
-   "comment": "Wade (ankle) is questionable for Tuesday's season opener versus the Knicks, per Adam Aaronson of PhillyVoice.com."
-  },
-  {
-   "team": "PHI",
-   "player_id": "5105637",
-   "player": "Adem Bona",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Foot Sprain",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-19T21:13Z",
-   "comment": "Bona (foot) is questionable for Tuesday's meeting in New York, Adam Aaronson of PhillyVoice.com reports."
-  },
-  {
-   "team": "PHI",
-   "player_id": "4351851",
-   "player": "Anfernee Simons",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring Not Specified",
-   "return_date": "2026-10-20",
-   "updated": "2026-10-19T21:11Z",
-   "comment": "Simons (hamstring) is questionable for Tuesday's game against the Knicks, Adam Aaronson of PhillyVoice.com reports."
-  },
-  {
-   "team": "PHI",
-   "player_id": "3904625",
-   "player": "Tacko Fall",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hip",
    "return_date": "2026-10-22",
-   "updated": "2026-10-19T21:10Z",
-   "comment": "Fall (hip) is out for Tuesday's regular-season opener against the Knicks, Adam Aaronson of PhillyVoice.com reports."
+   "updated": "2026-10-21T02:29Z",
+   "comment": "Wade (ankle) is out for Tuesday's game against the Knicks."
   },
   {
    "team": "PHI",
@@ -702,19 +669,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-20T22:14Z",
-   "comment": "Kennard (knee) increased his activity in practice Monday, Duane Rankin of the Arizona Republic reports."
-  },
-  {
-   "team": "PHX",
-   "player_id": "4601023",
-   "player": "Oso Ighodaro",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip Soreness",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-18T23:33Z",
-   "comment": "Ighodaro (hip) signed a three-year, $29 million deal with the Suns on Sunday, Shams Charania of ESPN reports."
+   "updated": "2026-10-21T14:05Z",
+   "comment": "Kennard (knee) is listed as questionable for Wednesday's game against Portland."
   },
   {
    "team": "PHX",
@@ -729,14 +685,25 @@
   },
   {
    "team": "POR",
+   "player_id": "4592435",
+   "player": "Branden Carlson",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Concussion",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-20T23:41Z",
+   "comment": "Carlson (concussion) has been ruled out for Wednesday's game against the Suns."
+  },
+  {
+   "team": "POR",
    "player_id": "4706557",
    "player": "Chris Youngblood",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Soreness",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-17T00:42Z",
-   "comment": "Youngblood (calf) won't play in Friday's preseason game versus the Warriors."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Soreness",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-20T23:41Z",
+   "comment": "Youngblood is out for Wednesday's regular-season opener against Phoenix due to left ankle soreness."
   },
   {
    "team": "POR",
@@ -746,19 +713,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Illness",
    "return_date": "2026-10-21",
-   "updated": "2026-10-17T00:35Z",
-   "comment": "Potter has been ruled out for Friday's preseason finale against the Warriors due to an illness."
+   "updated": "2026-10-20T23:37Z",
+   "comment": "Potter (illness) is questionable for Wednesday's regular-season opener against the Suns."
   },
   {
    "team": "POR",
-   "player_id": "3995",
-   "player": "Jrue Holiday",
+   "player_id": "4683021",
+   "player": "Deni Avdija",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Hand Soreness",
+   "injury": "Ankle Not Specified",
    "return_date": "2026-10-21",
-   "updated": "2026-10-17T00:31Z",
-   "comment": "Holiday is out for Friday's preseason finale against the Warriors due to right hand soreness."
+   "updated": "2026-10-20T23:35Z",
+   "comment": "Avdija is questionable for Wednesday's game against the Suns due to right ankle soreness."
   },
   {
    "team": "POR",
@@ -779,8 +746,8 @@
    "status_raw": "Out",
    "injury": "Achilles Ruptured",
    "return_date": "2027-10-01",
-   "updated": "2026-10-18T23:00Z",
-   "comment": "Simmons is believed to have suffered a season-ending Achilles tear during practice Sunday, Shams Charania of ESPN reports."
+   "updated": "2026-10-21T04:22Z",
+   "comment": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports."
   },
   {
    "team": "SAC",
@@ -790,8 +757,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Soreness",
    "return_date": "2026-10-21",
-   "updated": "2026-10-16T23:25Z",
-   "comment": "Monk (ankle) could miss time to begin the 2026-27 campaign, James Ham of ESPN 1320 Sacramento reports."
+   "updated": "2026-10-20T23:35Z",
+   "comment": "Monk (ankle) is listed as questionable for Wednesday's game against the Clippers."
   },
   {
    "team": "SAC",
@@ -819,11 +786,11 @@
    "team": "SAS",
    "player_id": "6440",
    "player": "Tobias Harris",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Calf Strain",
    "return_date": "2026-10-23",
-   "updated": "2026-10-19T17:51Z",
+   "updated": "2026-10-21T14:05Z",
    "comment": "Harris (calf) will not be ready for the season opener Wednesday against the Thunder, Matt Guzman of SI.com reports."
   },
   {
@@ -854,10 +821,10 @@
    "player": "Blake Hinson",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Hamstring",
+   "injury": "Hamstring Strain",
    "return_date": "2026-10-23",
-   "updated": "2026-10-20T22:12Z",
-   "comment": "Hinson (hamstring) is listed as out for Friday's preseason game against Phoenix."
+   "updated": "2026-10-20T22:11Z",
+   "comment": "Hinson (hamstring) is out for Wednesday's game against the Grizzlies."
   },
   {
    "team": "UTA",
