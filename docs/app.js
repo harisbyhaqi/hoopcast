@@ -1,20 +1,15 @@
 const state = { data: null, month: null, day: null, team: "", updates: "all", updatesTeam: "" };
 
 const STATUS_LABEL = { out: "Out", doubtful: "Doubtful", questionable: "Questionable", "day-to-day": "Day-to-day" };
-// Update filter chip → change kinds, pill label, pill class
+// Update filter chip → change kinds shown on the Updates tab (signings and releases aren't)
 const CHANGE_TYPES = {
-  injury: { kinds: ["injury_new"], chip: "Injuries" },
-  status: { kinds: ["status_change"], chip: "Status changes" },
-  signed: { kinds: ["signed"], chip: "Signings" },
-  released: { kinds: ["released"], chip: "Releases" },
-  traded: { kinds: ["traded"], chip: "Trades" },
+  injury: { kinds: ["injury_new", "status_change"], chip: "Injuries" },
   cleared: { kinds: ["cleared"], chip: "Cleared" },
+  traded: { kinds: ["traded"], chip: "Trades" },
 };
-const CHANGE_PILL = {
-  injury_new: ["New injury", "k-injury"], status_change: ["Status change", "k-status"],
-  signed: ["Signed", "k-good"], cleared: ["Cleared", "k-good"],
-  released: ["Released", "k-neutral"], traded: ["Traded", "k-trade"],
-};
+const shownChange = c => Object.values(CHANGE_TYPES).some(t => t.kinds.includes(c.kind));
+// Pill label and class; injuries are labeled with their new status (Out / Day-to-day)
+const CHANGE_PILL = { cleared: ["Cleared", "k-good"], traded: ["Traded", "k-trade"] };
 const STATUS_PILL = { out: "k-injury", doubtful: "k-injury", questionable: "k-status", "day-to-day": "k-neutral" };
 
 async function loadSeason() {
@@ -62,7 +57,7 @@ function renderHeader(d) {
   document.getElementById("season-chip").textContent = "NBA " + d.season.replace("-", "–");
   document.getElementById("run-label").textContent = "Model run · " + new Date(d.generated).toLocaleString("en-US",
     { ...ET, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " ET";
-  const recent = d.changes.filter(c => Date.parse(d.generated) - Date.parse(c.time) < 864e5).length;
+  const recent = d.changes.filter(c => shownChange(c) && Date.parse(d.generated) - Date.parse(c.time) < 864e5).length;
   const badge = document.getElementById("updates-badge");
   badge.textContent = recent;
   badge.hidden = !recent;
@@ -328,13 +323,15 @@ function renderAccuracy(acc, games) {
 }
 
 // ── Updates ──
+function changePill(c) {
+  return CHANGE_PILL[c.kind] || [STATUS_LABEL[c.to] || c.to, STATUS_PILL[c.to] || "k-neutral"];
+}
+
 function changeDetail(c) {
-  const from = STATUS_LABEL[c.from] || c.from, to = STATUS_LABEL[c.to] || c.to;
-  if (c.kind === "signed") return "Signed to roster";
-  if (c.kind === "released") return "Waived";
   if (c.kind === "traded") return `Traded from ${c.from}`;
-  if (c.kind === "cleared") return `Was ${String(from).toLowerCase()} · Available`;
-  return [from && to ? `${from} → ${to}` : to, c.injury].filter(Boolean).join(" · ");
+  if (c.kind === "cleared") return `Was ${String(STATUS_LABEL[c.from] || c.from).toLowerCase()} · Available`;
+  const report = (state.data.injuries[c.team] || []).find(i => i.player === c.player);
+  return [c.injury, report?.return_date && "est. return " + fmtShort(report.return_date)].filter(Boolean).join(" · ");
 }
 
 function setupUpdates() {
@@ -352,7 +349,7 @@ function setupUpdates() {
 }
 
 function renderChanges() {
-  const changes = state.data.changes.filter(c => !state.updatesTeam || c.team === state.updatesTeam);
+  const changes = state.data.changes.filter(c => shownChange(c) && (!state.updatesTeam || c.team === state.updatesTeam));
   const chips = [["all", "All", changes.length]].concat(Object.entries(CHANGE_TYPES)
     .map(([id, t]) => [id, t.chip, changes.filter(c => t.kinds.includes(c.kind)).length])
     .filter(([id, , n]) => n || id !== "traded"));
@@ -378,7 +375,7 @@ function renderChanges() {
       <div class="group-head"><strong>${g.day === state.data.today ? "Today · " : ""}${label}</strong>
         <span>${g.items.length} change${g.items.length === 1 ? "" : "s"}</span></div>
       ${g.items.map(c => {
-        const [pill, cls] = CHANGE_PILL[c.kind] || [c.kind, "k-neutral"];
+        const [pill, cls] = changePill(c);
         return `<div class="u-row">
           <span class="u-time">${esc(fmtClock(c.time))}</span>
           <span class="u-pill ${cls}">${esc(pill)}</span>
