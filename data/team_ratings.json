@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T21:45:56-04:00",
+ "generated": "2026-10-21T22:16:08-04:00",
  "unmatched": [
   "AJ Dybantsa",
   "AK Okereke",
@@ -41,7 +41,6 @@
   "Karim Lopez",
   "Keaton Wagler",
   "Khalifa Diop",
-  "Kingston Flemings",
   "Koa Peat",
   "Kylan Boswell",
   "Labaron Philon Jr.",
@@ -80,7 +79,7 @@
      "rating": 1.4,
      "o": 1.4,
      "d": 0.1,
-     "min": 32.2
+     "min": 32.1
     },
     {
      "player": "Onyeka Okongwu",
@@ -94,14 +93,14 @@
      "rating": 1.0,
      "o": 1.2,
      "d": -0.2,
-     "min": 31.0
+     "min": 30.9
     },
     {
      "player": "Dyson Daniels",
      "rating": 1.2,
      "o": -0.1,
      "d": 1.3,
-     "min": 30.0
+     "min": 30.1
     },
     {
      "player": "Nickeil Alexander-Walker",
@@ -1844,7 +1843,7 @@
      "rating": 1.1,
      "o": -0.7,
      "d": 1.8,
-     "min": 24.1
+     "min": 24.0
     },
     {
      "player": "Anthony Black",
