@@ -1,6 +1,239 @@
 [
  {
   "kind": "status_change",
+  "team": "BKN",
+  "player": "Tyler Bilodeau",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Shoulder",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHA",
+  "player": "Kon Knueppel",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHI",
+  "player": "Dailyn Swain",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHI",
+  "player": "Jordan Hawkins",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Caleb Martin",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Thumb Sprain",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Jett Howard",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Calf",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Tarik Biberovic",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Heel",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Santi Aldama",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Brandin Podziemski",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Charles Bassey",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Steven Adams",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Calf Soreness",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Aaron Nesmith",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring Strain",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "T.J. McConnell",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Adou Thiero",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Collin Sexton",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Calf",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Cameron Carr",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Oblique Strain",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Isaiah Stewart",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "ORL",
+  "player": "Jonathan Isaac",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "ORL",
+  "player": "Anthony Black",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHX",
+  "player": "Luke Kennard",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Strain",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHX",
+  "player": "Oso Ighodaro",
+  "to": "day-to-day",
+  "injury": "Hip",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Chris Youngblood",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Soreness",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAC",
+  "player": "Malik Monk",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Soreness",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Tony Bradley",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Quadriceps",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Trey Alexander",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "WAS",
+  "player": "AJ Dybantsa",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-22T02:00:56-0400"
+ },
+ {
+  "kind": "status_change",
   "team": "PHX",
   "player": "Luke Kennard",
   "from": "day-to-day",
