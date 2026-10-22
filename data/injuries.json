@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T19:45:55-0400",
+ "generated": "2026-10-21T20:15:53-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -311,25 +311,14 @@
   },
   {
    "team": "HOU",
-   "player_id": "5105553",
-   "player": "Julian Phillips",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-20T19:04Z",
-   "comment": "The Rockets converted Phillips' deal to a two-way contract Monday, per Michael Scotto of HoopsHype.com."
-  },
-  {
-   "team": "HOU",
    "player_id": "2991235",
    "player": "Steven Adams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Calf Soreness",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-20T19:04Z",
-   "comment": "Adams (calf) is listed as questionable for Wednesday's game against the Mavericks."
+   "return_date": "2026-10-23",
+   "updated": "2026-10-21T23:50Z",
+   "comment": "Adams (calf) won't play in Wednesday's game versus Dallas."
   },
   {
    "team": "IND",
@@ -603,7 +592,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-21",
-   "updated": "2026-10-21T23:11Z",
+   "updated": "2026-10-22T00:00Z",
    "comment": "Kennard (knee) is listed as questionable for Wednesday's game against Portland."
   },
   {

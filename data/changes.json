@@ -1,5 +1,21 @@
 [
  {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Steven Adams",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Calf Soreness",
+  "time": "2026-10-21T20:15:53-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "HOU",
+  "player": "Julian Phillips",
+  "from": "day-to-day",
+  "time": "2026-10-21T20:15:53-0400"
+ },
+ {
   "kind": "signed",
   "team": "DAL",
   "player": "Walter Clayton Jr.",
