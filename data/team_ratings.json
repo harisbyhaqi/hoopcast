@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T20:15:58-04:00",
+ "generated": "2026-10-21T21:45:56-04:00",
  "unmatched": [
   "AJ Dybantsa",
   "AK Okereke",
@@ -10,7 +10,6 @@
   "Baba Miller",
   "Bogoljub Markovic",
   "Braden Smith",
-  "Brayden Burries",
   "Bruce Thornton",
   "Bryce Hopkins",
   "Caleb Wilson",
@@ -1425,21 +1424,21 @@
      "rating": -0.2,
      "o": 0.3,
      "d": -0.4,
-     "min": 25.2
+     "min": 25.1
     },
     {
      "player": "Kasparas Jakucionis",
      "rating": 0.2,
      "o": -0.2,
      "d": 0.4,
-     "min": 24.4
+     "min": 24.5
     },
     {
      "player": "Kel'el Ware",
      "rating": -0.5,
      "o": 0.0,
      "d": -0.5,
-     "min": 23.1
+     "min": 23.0
     },
     {
      "player": "Myles Turner",
@@ -2447,7 +2446,7 @@
      "rating": 0.2,
      "o": -1.0,
      "d": 1.2,
-     "min": 29.1
+     "min": 29.0
     },
     {
      "player": "Kyshawn George",
@@ -2461,7 +2460,7 @@
      "rating": -0.2,
      "o": 0.1,
      "d": -0.3,
-     "min": 23.6
+     "min": 23.7
     },
     {
      "player": "Tristan Vukcevic",
@@ -2496,7 +2495,7 @@
      "rating": -3.3,
      "o": -1.5,
      "d": -1.8,
-     "min": 14.4
+     "min": 14.3
     },
     {
      "player": "Alex Sarr",

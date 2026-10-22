@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T20:15:53-0400",
+ "generated": "2026-10-21T21:45:49-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -267,17 +267,6 @@
   },
   {
    "team": "GSW",
-   "player_id": "3975",
-   "player": "Stephen Curry",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-20T23:50Z",
-   "comment": "Curry (ankle) is listed as probable for Wednesday's game against the Lakers."
-  },
-  {
-   "team": "GSW",
    "player_id": "4709138",
    "player": "Brandin Podziemski",
    "status": "out",
@@ -410,14 +399,25 @@
   },
   {
    "team": "LAL",
+   "player_id": "5060631",
+   "player": "Adou Thiero",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-22T00:32Z",
+   "comment": "Head coach JJ Redick said Thiero (knee), who is out for Wednesday's game against Golden State, will begin ramping up soon and can be considered day-to-day moving forward, Daniel Starkand of LakersNation.com reports."
+  },
+  {
+   "team": "LAL",
    "player_id": "4277811",
    "player": "Collin Sexton",
    "status": "out",
    "status_raw": "Out",
    "injury": "Calf",
    "return_date": "2026-10-23",
-   "updated": "2026-10-21T19:50Z",
-   "comment": "Sexton (calf) won't play in Wednesday's regular-season opener against the Warriors, per Khobi Price of The California Post."
+   "updated": "2026-10-22T00:29Z",
+   "comment": "Head coach JJ Redick said that Sexton (calf) did not experience a setback, but the Lakers will sit him out of Wednesday's regular-season opener against the Warriors as a precaution, Daniel Starkland of Lakers Nation reports."
   },
   {
    "team": "LAL",
@@ -427,19 +427,8 @@
    "status_raw": "Out",
    "injury": "Oblique Strain",
    "return_date": "2026-10-23",
-   "updated": "2026-10-21T00:09Z",
-   "comment": "Carr (oblique) is listed as out for Wednesday's game against the Warriors."
-  },
-  {
-   "team": "LAL",
-   "player_id": "5060631",
-   "player": "Adou Thiero",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-21T00:05Z",
-   "comment": "Thiero (knee) has been ruled out for Wednesday's game against Golden State."
+   "updated": "2026-10-22T00:27Z",
+   "comment": "Head coach JJ Redick said Carr (oblique), who is out for Wednesday's game against Golden State, is \"ramping up\" and can be considered day-to-day moving forward, Daniel Starkand of LakersNation.com reports."
   },
   {
    "team": "MEM",
@@ -588,12 +577,12 @@
    "team": "PHX",
    "player_id": "3913174",
    "player": "Luke Kennard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Strain",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-22T00:00Z",
-   "comment": "Kennard (knee) is listed as questionable for Wednesday's game against Portland."
+   "return_date": "2026-10-24",
+   "updated": "2026-10-22T01:31Z",
+   "comment": "Kennard (knee) won't play Wednesday versus Portland, Duane Rankin of The Arizona Republic reports."
   },
   {
    "team": "PHX",
@@ -605,17 +594,6 @@
    "return_date": "2027-02-03",
    "updated": "2026-09-11T16:03Z",
    "comment": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports."
-  },
-  {
-   "team": "POR",
-   "player_id": "4066399",
-   "player": "Micah Potter",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-21T20:04Z",
-   "comment": "Potter (illness) has been upgraded to probable for Wednesday's game against the Suns."
   },
   {
    "team": "POR",
@@ -641,17 +619,6 @@
   },
   {
    "team": "POR",
-   "player_id": "4683021",
-   "player": "Deni Avdija",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Not Specified",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-20T23:35Z",
-   "comment": "Avdija is questionable for Wednesday's game against the Suns due to right ankle soreness."
-  },
-  {
-   "team": "POR",
    "player_id": "4914336",
    "player": "Shaedon Sharpe",
    "status": "out",
@@ -663,6 +630,17 @@
   },
   {
    "team": "SAC",
+   "player_id": "4066262",
+   "player": "Malik Monk",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Soreness",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-22T01:31Z",
+   "comment": "Monk (ankle) won't play Wednesday versus the Clippers."
+  },
+  {
+   "team": "SAC",
    "player_id": "3907387",
    "player": "Ben Simmons",
    "status": "out",
@@ -671,17 +649,6 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-21T04:22Z",
    "comment": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports."
-  },
-  {
-   "team": "SAC",
-   "player_id": "4066262",
-   "player": "Malik Monk",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Soreness",
-   "return_date": "2026-10-21",
-   "updated": "2026-10-20T23:35Z",
-   "comment": "Monk (ankle) is listed as questionable for Wednesday's game against the Clippers."
   },
   {
    "team": "SAC",

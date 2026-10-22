@@ -1,6 +1,45 @@
 [
  {
   "kind": "status_change",
+  "team": "PHX",
+  "player": "Luke Kennard",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Strain",
+  "time": "2026-10-21T21:45:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAC",
+  "player": "Malik Monk",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Soreness",
+  "time": "2026-10-21T21:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Stephen Curry",
+  "from": "day-to-day",
+  "time": "2026-10-21T21:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "POR",
+  "player": "Micah Potter",
+  "from": "day-to-day",
+  "time": "2026-10-21T21:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "POR",
+  "player": "Deni Avdija",
+  "from": "day-to-day",
+  "time": "2026-10-21T21:45:49-0400"
+ },
+ {
+  "kind": "status_change",
   "team": "HOU",
   "player": "Steven Adams",
   "from": "day-to-day",
