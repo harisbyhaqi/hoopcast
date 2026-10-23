@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T23:00:56-0400",
+ "generated": "2026-10-23T02:00:55-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -214,12 +214,23 @@
    "team": "DEN",
    "player_id": "4592427",
    "player": "Spencer Jones",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hamstring Not Specified",
    "return_date": "2026-10-24",
-   "updated": "2026-10-23T00:06Z",
+   "updated": "2026-10-23T05:19Z",
    "comment": "Jones (hamstring) has been ruled out for Thursday's game against Oklahoma City, Justin Martinez of The Oklahoman reports."
+  },
+  {
+   "team": "DEN",
+   "player_id": "3138196",
+   "player": "Cameron Johnson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-23T04:24Z",
+   "comment": "Johnson (ankle) didn't return to Thursday's game against Oklahoma City. He ended with five points (2-3 FG, 1-1 3Pt), two rebounds and one assist in 11 minutes."
   },
   {
    "team": "DEN",
@@ -564,25 +575,25 @@
   },
   {
    "team": "PHI",
-   "player_id": "3912848",
-   "player": "Dean Wade",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
+   "player_id": "3904625",
+   "player": "Tacko Fall",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Quadriceps Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-22T22:35Z",
-   "comment": "Wade (ankle) is out for Thursday's game against the Cavaliers."
+   "updated": "2026-10-23T05:21Z",
+   "comment": "Fall (quadriceps) is out for Thursday's game against Cleveland."
   },
   {
    "team": "PHI",
-   "player_id": "3904625",
-   "player": "Tacko Fall",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Quadriceps Strain",
+   "player_id": "3912848",
+   "player": "Dean Wade",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-21T21:07Z",
-   "comment": "Fall (quadriceps) is out for Thursday's game against Cleveland."
+   "updated": "2026-10-23T05:20Z",
+   "comment": "Wade (ankle) is out for Thursday's game against the Cavaliers."
   },
   {
    "team": "PHI",
@@ -614,7 +625,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-23T02:01Z",
+   "updated": "2026-10-23T05:21Z",
    "comment": "Kennard (knee) won't play Wednesday versus Portland, Duane Rankin of The Arizona Republic reports."
   },
   {
