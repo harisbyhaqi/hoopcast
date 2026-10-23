@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T15:45:55-0400",
+ "generated": "2026-10-23T18:45:55-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -38,12 +38,12 @@
    "team": "BKN",
    "player_id": "5105626",
    "player": "Tyler Bilodeau",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Shoulder",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-22T03:39Z",
-   "comment": "Bilodeau will miss the season opener against the Hornets on Wednesday due to a shoulder sprain, Sharif Phillips-Keaton of USA Today reports."
+   "return_date": "2026-10-25",
+   "updated": "2026-10-23T21:08Z",
+   "comment": "Bilodeau (shoulder) has been ruled out for Saturday's game in Cleveland."
   },
   {
    "team": "CHA",
@@ -104,12 +104,12 @@
    "team": "DAL",
    "player_id": "5105806",
    "player": "Jett Howard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Calf Soreness",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-22T20:15Z",
-   "comment": "Howard (calf) is listed as doubtful for Friday's game against the Pacers."
+   "return_date": "2026-10-24",
+   "updated": "2026-10-23T22:02Z",
+   "comment": "Howard (calf) is out for Friday's game in Indiana."
   },
   {
    "team": "DAL",
@@ -192,12 +192,12 @@
    "team": "GSW",
    "player_id": "4397886",
    "player": "Charles Bassey",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-23T00:12Z",
-   "comment": "Bassey (knee) is listed as questionable for Friday's game against Memphis."
+   "return_date": "2026-10-24",
+   "updated": "2026-10-23T20:04Z",
+   "comment": "Bassey (knee) is out for Friday's game versus the Grizzlies."
   },
   {
    "team": "GSW",
@@ -207,8 +207,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Back Soreness",
    "return_date": "2026-10-23",
-   "updated": "2026-10-23T00:04Z",
-   "comment": "Podziemski (back) is questionable for Friday's game against the Grizzlies."
+   "updated": "2026-10-23T19:54Z",
+   "comment": "Podziemski (back) is probable for Friday's game against the Grizzlies."
   },
   {
    "team": "GSW",
@@ -269,23 +269,12 @@
    "team": "IND",
    "player_id": "4433076",
    "player": "Ben Sheppard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Soreness",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-22T20:54Z",
-   "comment": "Sheppard (knee) is listed as questionable for Friday's game against the Mavericks."
-  },
-  {
-   "team": "IND",
-   "player_id": "4396909",
-   "player": "Aaron Nesmith",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring Strain",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-22T20:50Z",
-   "comment": "Nesmith (hamstring) is listed as questionable for Friday's game against the Mavericks."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-23T21:27Z",
+   "comment": "Sheppard (knee) is out for Friday's game against the Mavericks and there's no timetable for his return, according to head coach Rick Carlisle per Alex Golden of SI.com."
   },
   {
    "team": "IND",
@@ -366,6 +355,17 @@
   },
   {
    "team": "LAL",
+   "player_id": "4592691",
+   "player": "Jake LaRavia",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-23T20:05Z",
+   "comment": "LaRavia (ankle) has been ruled out for Friday's game against the Clippers, Mark Medina of TheSportingTribune.com reports."
+  },
+  {
+   "team": "LAL",
    "player_id": "5060631",
    "player": "Adou Thiero",
    "status": "out",
@@ -385,17 +385,6 @@
    "return_date": "2026-10-25",
    "updated": "2026-10-23T00:10Z",
    "comment": "Carr (oblique) is out for Friday's game against the Clippers."
-  },
-  {
-   "team": "LAL",
-   "player_id": "4592691",
-   "player": "Jake LaRavia",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-23T00:10Z",
-   "comment": "LaRavia (ankle) is listed as questionable for Friday's game against the Clippers."
   },
   {
    "team": "MEM",
@@ -509,25 +498,14 @@
   },
   {
    "team": "PHI",
-   "player_id": "3059318",
-   "player": "Joel Embiid",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-23T14:03Z",
-   "comment": "Embiid recorded 24 points (8-16 FG, 1-4 3Pt, 7-9 FT), seven rebounds and one assist in 34 minutes during Thursday's 114-106 win over the Cavaliers."
-  },
-  {
-   "team": "PHI",
    "player_id": "3904625",
    "player": "Tacko Fall",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Quadriceps Strain",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-23T05:21Z",
-   "comment": "Fall (quadriceps) is out for Thursday's game against Cleveland."
+   "return_date": "2026-10-25",
+   "updated": "2026-10-23T21:10Z",
+   "comment": "Fall (quadriceps) is out for Saturday's game against the Bucks."
   },
   {
    "team": "PHI",
@@ -537,8 +515,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-23T05:20Z",
-   "comment": "Wade (ankle) is out for Thursday's game against the Cavaliers."
+   "updated": "2026-10-23T21:07Z",
+   "comment": "Wade is listed as questionable for Saturday's game against the Bucks due to a left ankle sprain."
+  },
+  {
+   "team": "PHI",
+   "player_id": "1966",
+   "player": "LeBron James",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-23T21:03Z",
+   "comment": "James (back) is questionable for Saturday's game against the Bucks."
   },
   {
    "team": "PHI",
@@ -570,19 +559,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-23T19:00Z",
-   "comment": "Kennard (knee) won't play Wednesday versus Portland, Duane Rankin of The Arizona Republic reports."
+   "updated": "2026-10-23T22:02Z",
+   "comment": "Kennard (knee) practiced Friday, Duane Rankin of The Arizona Republic reports."
   },
   {
    "team": "PHX",
    "player_id": "4601023",
    "player": "Oso Ighodaro",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-22T04:52Z",
-   "comment": "Ighodaro (hip) didn't return to Wednesday's 124-83 loss to Portland, Duane Rankin reports. He finished with eight points (4-7 FG, 0-2 FT), three rebounds and three assists over 15 minutes."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Oblique Strain",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-23T20:43Z",
+   "comment": "Ighodaro has been ruled out for Saturday's game against the Warriors due to an oblique strain, Duane Rankin of The Arizona Republic reports."
   },
   {
    "team": "PHX",
@@ -627,17 +616,6 @@
    "return_date": "2027-03-02",
    "updated": "2026-08-24T20:23Z",
    "comment": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN."
-  },
-  {
-   "team": "SAC",
-   "player_id": "4066262",
-   "player": "Malik Monk",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Soreness",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-22T23:49Z",
-   "comment": "Monk (ankle) is probable for Friday's game against Portland."
   },
   {
    "team": "SAC",
@@ -748,17 +726,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-10-07T23:07Z",
    "comment": "Nurkic will miss at least the next four weeks due to a partial plantar plate tear of second toe in right foot, Chris Haynes of NBA TV reports."
-  },
-  {
-   "team": "WAS",
-   "player_id": "5105841",
-   "player": "Felix Okpara",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness Not Specified",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-22T20:48Z",
-   "comment": "Okpara (illness) is questionable for Friday's game against Toronto."
   },
   {
    "team": "WAS",

@@ -1,5 +1,104 @@
 [
  {
+  "kind": "status_change",
+  "team": "BKN",
+  "player": "Tyler Bilodeau",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Shoulder",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Jett Howard",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Calf Soreness",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Charles Bassey",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Ben Sheppard",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Jake LaRavia",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Tacko Fall",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Quadriceps Strain",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "LeBron James",
+  "to": "day-to-day",
+  "injury": "Back",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHX",
+  "player": "Oso Ighodaro",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Oblique Strain",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Aaron Nesmith",
+  "from": "day-to-day",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "from": "day-to-day",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "SAC",
+  "player": "Malik Monk",
+  "from": "day-to-day",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "WAS",
+  "player": "Felix Okpara",
+  "from": "day-to-day",
+  "time": "2026-10-23T18:45:55-0400"
+ },
+ {
   "kind": "signed",
   "team": "NYK",
   "player": "Dalton Knecht",
