@@ -1,5 +1,68 @@
 [
  {
+  "kind": "signed",
+  "team": "NYK",
+  "player": "Dalton Knecht",
+  "time": "2026-10-23T15:45:55-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-10-23T15:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHI",
+  "player": "Dailyn Swain",
+  "from": "day-to-day",
+  "time": "2026-10-23T15:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHI",
+  "player": "Jordan Hawkins",
+  "from": "day-to-day",
+  "time": "2026-10-23T15:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHI",
+  "player": "Zach Collins",
+  "from": "day-to-day",
+  "time": "2026-10-23T15:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHI",
+  "player": "Tobe Awaka",
+  "from": "day-to-day",
+  "time": "2026-10-23T15:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHI",
+  "player": "Josh Giddey",
+  "from": "day-to-day",
+  "time": "2026-10-23T15:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "DET",
+  "player": "Taurean Prince",
+  "from": "day-to-day",
+  "time": "2026-10-23T15:45:55-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "UTA",
+  "player": "Tony Bradley",
+  "from": "day-to-day",
+  "time": "2026-10-23T15:45:55-0400"
+ },
+ {
   "kind": "status_change",
   "team": "DEN",
   "player": "Spencer Jones",
