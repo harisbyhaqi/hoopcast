@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T18:45:55-0400",
+ "generated": "2026-10-23T19:46:06-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -159,23 +159,34 @@
    "team": "DEN",
    "player_id": "4592427",
    "player": "Spencer Jones",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Hamstring Not Specified",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-23T05:19Z",
-   "comment": "Jones (hamstring) has been ruled out for Thursday's game against Oklahoma City, Justin Martinez of The Oklahoman reports."
+   "return_date": "2026-10-26",
+   "updated": "2026-10-23T23:09Z",
+   "comment": "Jones (hamstring) is out for Saturday's game against the Pelicans."
   },
   {
    "team": "DEN",
    "player_id": "3138196",
    "player": "Cameron Johnson",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-23T23:08Z",
+   "comment": "Johnson (ankle) has been ruled out for Saturday's game against New Orleans."
+  },
+  {
+   "team": "DEN",
+   "player_id": "4065813",
+   "player": "Alpha Diallo",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
+   "injury": "Wrist",
    "return_date": "2026-10-24",
-   "updated": "2026-10-23T04:24Z",
-   "comment": "Johnson (ankle) didn't return to Thursday's game against Oklahoma City. He ended with five points (2-3 FG, 1-1 3Pt), two rebounds and one assist in 11 minutes."
+   "updated": "2026-10-23T23:06Z",
+   "comment": "Diallo is questionable for Saturday's game versus the Pelicans due to a right wrist sprain."
   },
   {
    "team": "DEN",
@@ -272,9 +283,9 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-23T21:27Z",
-   "comment": "Sheppard (knee) is out for Friday's game against the Mavericks and there's no timetable for his return, according to head coach Rick Carlisle per Alex Golden of SI.com."
+   "return_date": "2026-12-01",
+   "updated": "2026-10-23T22:53Z",
+   "comment": "Sheppard has been diagnosed with a torn meniscus in his left knee and is without a timetable for a return to game action, Scott Agness of FieldhouseFiles.com reports."
   },
   {
    "team": "IND",
@@ -559,7 +570,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-23T22:02Z",
+   "updated": "2026-10-23T23:09Z",
    "comment": "Kennard (knee) practiced Friday, Duane Rankin of The Arizona Republic reports."
   },
   {
@@ -649,28 +660,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-10-15T14:36Z",
    "comment": "Raynaud (knee) is expected to miss at least the first five or six games of the regular season, and potentially longer, Frankie Cartoscelli of KHTK Sactown Sports 1140 reports."
-  },
-  {
-   "team": "SAS",
-   "player_id": "4395723",
-   "player": "Keldon Johnson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Mouth Laceration",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-23T17:38Z",
-   "comment": "Johnson (mouth) participated in shooting drills after Friday's morning shootaround, per Tom Orsborn of the San Antonio Express-News."
-  },
-  {
-   "team": "SAS",
-   "player_id": "4066259",
-   "player": "De'Aaron Fox",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Wrist Sprain",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-23T17:37Z",
-   "comment": "Fox (wrist) participated in Friday's morning shootaround, Tom Orsborn of the San Antonio Express-News reports."
   },
   {
    "team": "SAS",

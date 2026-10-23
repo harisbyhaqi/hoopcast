@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T18:45:55-0400",
+ "generated": "2026-10-23T19:46:06-0400",
  "teams": {
   "ATL": [
    {
@@ -2709,6 +2709,12 @@
     "player": "Keegan Murray",
     "position": "F",
     "jersey": "13"
+   },
+   {
+    "player_id": "4709131",
+    "player": "Sean Pedulla",
+    "position": "G",
+    "jersey": ""
    },
    {
     "player_id": "4279318",
