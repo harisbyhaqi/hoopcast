@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T18:45:56-0400",
+ "generated": "2026-10-22T21:15:54-0400",
  "teams": {
   "ATL": [
    {
@@ -547,12 +547,6 @@
     "jersey": "3"
    },
    {
-    "player_id": "4997530",
-    "player": "Khalifa Diop",
-    "position": "C",
-    "jersey": "18"
-   },
-   {
     "player_id": "4431734",
     "player": "Tristan Enaruna",
     "position": "F",
@@ -613,22 +607,10 @@
     "jersey": "15"
    },
    {
-    "player_id": "5106268",
-    "player": "Nae'Qwan Tomlin",
-    "position": "F",
-    "jersey": "35"
-   },
-   {
     "player_id": "4683747",
     "player": "Jaylon Tyson",
     "position": "G",
     "jersey": "20"
-   },
-   {
-    "player_id": "5106261",
-    "player": "Ernest Udeh Jr.",
-    "position": "C",
-    "jersey": "39"
    },
    {
     "player_id": "4576087",

@@ -1,11 +1,9 @@
 {
- "generated": "2026-10-22T18:46:02-04:00",
- "unmatched": [
-  "Ernest Udeh Jr."
- ],
+ "generated": "2026-10-22T21:16:01-04:00",
+ "unmatched": [],
  "teams": {
   "ATL": {
-   "roster": -0.57,
+   "roster": -0.56,
    "market": 0.74,
    "prior": 0.09,
    "rotation": [
@@ -257,7 +255,7 @@
    ]
   },
   "CHA": {
-   "roster": -0.49,
+   "roster": -0.48,
    "market": -0.74,
    "prior": -0.61,
    "rotation": [
@@ -334,9 +332,9 @@
    ]
   },
   "CHI": {
-   "roster": -7.39,
+   "roster": -7.38,
    "market": -4.63,
-   "prior": -6.01,
+   "prior": -6.0,
    "rotation": [
     {
      "player": "Norman Powell",
@@ -418,9 +416,9 @@
    ]
   },
   "CLE": {
-   "roster": 3.38,
+   "roster": 3.18,
    "market": 2.59,
-   "prior": 2.99,
+   "prior": 2.89,
    "rotation": [
     {
      "player": "James Harden",
@@ -465,18 +463,25 @@
      "min": 22.3
     },
     {
-     "player": "Nae'Qwan Tomlin",
-     "rating": -0.3,
-     "o": -0.4,
-     "d": 0.0,
-     "min": 17.8
-    },
-    {
      "player": "Thomas Bryant",
      "rating": -0.5,
      "o": -0.5,
      "d": -0.1,
-     "min": 14.5
+     "min": 16.5
+    },
+    {
+     "player": "Tyrese Proctor",
+     "rating": -0.7,
+     "o": -0.3,
+     "d": -0.4,
+     "min": 13.4
+    },
+    {
+     "player": "Craig Porter Jr.",
+     "rating": -0.7,
+     "o": -1.4,
+     "d": 0.7,
+     "min": 13.2
     },
     {
      "player": "Peyton Watson",
@@ -486,18 +491,18 @@
      "min": 12.2
     },
     {
-     "player": "Tyrese Proctor",
-     "rating": -0.7,
-     "o": -0.3,
-     "d": -0.4,
-     "min": 11.4
+     "player": "Tristan Enaruna",
+     "rating": -0.9,
+     "o": -0.7,
+     "d": -0.2,
+     "min": 8.7
     },
     {
-     "player": "Craig Porter Jr.",
-     "rating": -0.7,
-     "o": -1.4,
-     "d": 0.7,
-     "min": 10.0
+     "player": "Mario Hezonja",
+     "rating": -2.1,
+     "o": -1.7,
+     "d": -0.4,
+     "min": 1.9
     }
    ]
   },
@@ -579,7 +584,7 @@
    ]
   },
   "DEN": {
-   "roster": 3.52,
+   "roster": 3.53,
    "market": 2.96,
    "prior": 3.24,
    "rotation": [
@@ -656,7 +661,7 @@
    ]
   },
   "DET": {
-   "roster": 1.75,
+   "roster": 1.76,
    "market": 2.96,
    "prior": 2.36,
    "rotation": [
@@ -740,7 +745,7 @@
    ]
   },
   "GSW": {
-   "roster": 0.81,
+   "roster": 0.82,
    "market": -0.37,
    "prior": 0.22,
    "rotation": [
@@ -824,7 +829,7 @@
    ]
   },
   "HOU": {
-   "roster": 4.39,
+   "roster": 4.4,
    "market": 2.41,
    "prior": 3.4,
    "rotation": [
@@ -978,7 +983,7 @@
    ]
   },
   "LAC": {
-   "roster": -2.36,
+   "roster": -2.35,
    "market": -5.37,
    "prior": -3.86,
    "rotation": [
@@ -1139,7 +1144,7 @@
    ]
   },
   "MEM": {
-   "roster": -3.62,
+   "roster": -3.61,
    "market": -4.63,
    "prior": -4.12,
    "rotation": [
@@ -1230,7 +1235,7 @@
    ]
   },
   "MIA": {
-   "roster": -0.61,
+   "roster": -0.6,
    "market": 2.04,
    "prior": 0.72,
    "rotation": [
@@ -1314,7 +1319,7 @@
    ]
   },
   "MIL": {
-   "roster": -4.97,
+   "roster": -4.96,
    "market": -5.74,
    "prior": -5.35,
    "rotation": [
@@ -1398,7 +1403,7 @@
    ]
   },
   "MIN": {
-   "roster": 3.78,
+   "roster": 3.79,
    "market": 2.59,
    "prior": 3.19,
    "rotation": [
@@ -1559,9 +1564,9 @@
    ]
   },
   "NYK": {
-   "roster": 3.75,
+   "roster": 3.76,
    "market": 4.07,
-   "prior": 3.91,
+   "prior": 3.92,
    "rotation": [
     {
      "player": "OG Anunoby",
@@ -1636,7 +1641,7 @@
    ]
   },
   "OKC": {
-   "roster": 7.75,
+   "roster": 7.76,
    "market": 7.22,
    "prior": 7.49,
    "rotation": [
@@ -1799,7 +1804,7 @@
   "PHI": {
    "roster": 2.39,
    "market": 3.52,
-   "prior": 2.95,
+   "prior": 2.96,
    "rotation": [
     {
      "player": "Tyrese Maxey",
@@ -2098,7 +2103,7 @@
    ]
   },
   "SAS": {
-   "roster": 4.96,
+   "roster": 4.97,
    "market": 7.04,
    "prior": 6.0,
    "rotation": [
@@ -2175,9 +2180,9 @@
    ]
   },
   "TOR": {
-   "roster": 5.06,
+   "roster": 5.07,
    "market": 1.67,
-   "prior": 3.36,
+   "prior": 3.37,
    "rotation": [
     {
      "player": "Kawhi Leonard",
@@ -2252,7 +2257,7 @@
    ]
   },
   "UTA": {
-   "roster": -3.47,
+   "roster": -3.46,
    "market": -2.04,
    "prior": -2.75,
    "rotation": [
@@ -2338,7 +2343,7 @@
   "WAS": {
    "roster": -3.41,
    "market": -2.04,
-   "prior": -2.73,
+   "prior": -2.72,
    "rotation": [
     {
      "player": "Anthony Davis",

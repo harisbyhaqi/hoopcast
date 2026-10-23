@@ -1,5 +1,106 @@
 [
  {
+  "kind": "released",
+  "team": "CLE",
+  "player": "Khalifa Diop",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "CLE",
+  "player": "Nae'Qwan Tomlin",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "released",
+  "team": "CLE",
+  "player": "Ernest Udeh Jr.",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DEN",
+  "player": "Spencer Jones",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hamstring Not Specified",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Adou Thiero",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Inflammation",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Cameron Carr",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Oblique Strain",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MEM",
+  "player": "Cedric Coward",
+  "to": "day-to-day",
+  "injury": "Wrist Sprain",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Branden Carlson",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Concussion",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Chris Youngblood",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Soreness",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Trey Alexander",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CLE",
+  "player": "Khalifa Diop",
+  "from": "out",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CLE",
+  "player": "Nae'Qwan Tomlin",
+  "from": "out",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAL",
+  "player": "Collin Sexton",
+  "from": "day-to-day",
+  "time": "2026-10-22T21:15:54-0400"
+ },
+ {
   "kind": "status_change",
   "team": "CHA",
   "player": "Kon Knueppel",
