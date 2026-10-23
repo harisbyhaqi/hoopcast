@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T21:16:01-04:00",
+ "generated": "2026-10-22T23:01:02-04:00",
  "unmatched": [],
  "teams": {
   "ATL": {
@@ -80,9 +80,9 @@
    ]
   },
   "BOS": {
-   "roster": 4.82,
+   "roster": 4.83,
    "market": 3.7,
-   "prior": 4.26,
+   "prior": 4.27,
    "rotation": [
     {
      "player": "Jayson Tatum",
@@ -164,9 +164,9 @@
    ]
   },
   "BKN": {
-   "roster": -3.7,
+   "roster": -3.69,
    "market": -6.3,
-   "prior": -5.0,
+   "prior": -4.99,
    "rotation": [
     {
      "player": "Michael Porter Jr.",
@@ -255,7 +255,7 @@
    ]
   },
   "CHA": {
-   "roster": -0.48,
+   "roster": -0.47,
    "market": -0.74,
    "prior": -0.61,
    "rotation": [
@@ -332,7 +332,7 @@
    ]
   },
   "CHI": {
-   "roster": -7.38,
+   "roster": -7.37,
    "market": -4.63,
    "prior": -6.0,
    "rotation": [
@@ -416,9 +416,9 @@
    ]
   },
   "CLE": {
-   "roster": 3.18,
+   "roster": 2.99,
    "market": 2.59,
-   "prior": 2.89,
+   "prior": 2.79,
    "rotation": [
     {
      "player": "James Harden",
@@ -491,25 +491,25 @@
      "min": 12.2
     },
     {
-     "player": "Tristan Enaruna",
-     "rating": -0.9,
-     "o": -0.7,
-     "d": -0.2,
-     "min": 8.7
-    },
-    {
      "player": "Mario Hezonja",
      "rating": -2.1,
      "o": -1.7,
      "d": -0.4,
-     "min": 1.9
+     "min": 9.5
+    },
+    {
+     "player": "Tristan Enaruna",
+     "rating": -0.9,
+     "o": -0.7,
+     "d": -0.2,
+     "min": 1.1
     }
    ]
   },
   "DAL": {
-   "roster": -4.55,
+   "roster": -4.54,
    "market": -2.41,
-   "prior": -3.48,
+   "prior": -3.47,
    "rotation": [
     {
      "player": "Kyrie Irving",
@@ -586,7 +586,7 @@
   "DEN": {
    "roster": 3.53,
    "market": 2.96,
-   "prior": 3.24,
+   "prior": 3.25,
    "rotation": [
     {
      "player": "Nikola Jokic",
@@ -745,9 +745,9 @@
    ]
   },
   "GSW": {
-   "roster": 0.82,
+   "roster": 0.83,
    "market": -0.37,
-   "prior": 0.22,
+   "prior": 0.23,
    "rotation": [
     {
      "player": "Stephen Curry",
@@ -829,9 +829,9 @@
    ]
   },
   "HOU": {
-   "roster": 4.4,
+   "roster": 4.41,
    "market": 2.41,
-   "prior": 3.4,
+   "prior": 3.41,
    "rotation": [
     {
      "player": "Kevin Durant",
@@ -906,9 +906,9 @@
    ]
   },
   "IND": {
-   "roster": -0.43,
+   "roster": -0.42,
    "market": 1.11,
-   "prior": 0.34,
+   "prior": 0.35,
    "rotation": [
     {
      "player": "Tyrese Haliburton",
@@ -1060,7 +1060,7 @@
    ]
   },
   "LAL": {
-   "roster": 2.03,
+   "roster": 2.04,
    "market": 1.67,
    "prior": 1.85,
    "rotation": [
@@ -1235,7 +1235,7 @@
    ]
   },
   "MIA": {
-   "roster": -0.6,
+   "roster": -0.59,
    "market": 2.04,
    "prior": 0.72,
    "rotation": [
@@ -1319,7 +1319,7 @@
    ]
   },
   "MIL": {
-   "roster": -4.96,
+   "roster": -4.95,
    "market": -5.74,
    "prior": -5.35,
    "rotation": [
@@ -1403,7 +1403,7 @@
    ]
   },
   "MIN": {
-   "roster": 3.79,
+   "roster": 3.8,
    "market": 2.59,
    "prior": 3.19,
    "rotation": [
@@ -1487,7 +1487,7 @@
    ]
   },
   "NOP": {
-   "roster": -4.82,
+   "roster": -4.81,
    "market": -5.19,
    "prior": -5.0,
    "rotation": [
@@ -1641,7 +1641,7 @@
    ]
   },
   "OKC": {
-   "roster": 7.76,
+   "roster": 7.77,
    "market": 7.22,
    "prior": 7.49,
    "rotation": [
@@ -1725,7 +1725,7 @@
    ]
   },
   "ORL": {
-   "roster": 0.47,
+   "roster": 0.48,
    "market": 0.93,
    "prior": 0.7,
    "rotation": [
@@ -1802,7 +1802,7 @@
    ]
   },
   "PHI": {
-   "roster": 2.39,
+   "roster": 2.4,
    "market": 3.52,
    "prior": 2.96,
    "rotation": [
@@ -1860,21 +1860,21 @@
      "rating": -0.8,
      "o": -0.9,
      "d": 0.1,
-     "min": 19.8
+     "min": 19.7
     },
     {
      "player": "Jabari Walker",
      "rating": -0.5,
      "o": -0.6,
      "d": 0.0,
-     "min": 16.5
+     "min": 16.4
     }
    ]
   },
   "PHX": {
-   "roster": -2.23,
+   "roster": -2.22,
    "market": -0.19,
-   "prior": -1.21,
+   "prior": -1.2,
    "rotation": [
     {
      "player": "Devin Booker",
@@ -1949,7 +1949,7 @@
    ]
   },
   "POR": {
-   "roster": 1.86,
+   "roster": 1.87,
    "market": 0.56,
    "prior": 1.21,
    "rotation": [
@@ -2026,7 +2026,7 @@
    ]
   },
   "SAC": {
-   "roster": -8.09,
+   "roster": -8.08,
    "market": -7.59,
    "prior": -7.84,
    "rotation": [
@@ -2105,7 +2105,7 @@
   "SAS": {
    "roster": 4.97,
    "market": 7.04,
-   "prior": 6.0,
+   "prior": 6.01,
    "rotation": [
     {
      "player": "De'Aaron Fox",
@@ -2180,7 +2180,7 @@
    ]
   },
   "TOR": {
-   "roster": 5.07,
+   "roster": 5.08,
    "market": 1.67,
    "prior": 3.37,
    "rotation": [
@@ -2341,7 +2341,7 @@
    ]
   },
   "WAS": {
-   "roster": -3.41,
+   "roster": -3.4,
    "market": -2.04,
    "prior": -2.72,
    "rotation": [

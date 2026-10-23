@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T21:15:54-0400",
+ "generated": "2026-10-22T23:00:56-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -535,7 +535,7 @@
    "player": "Jonathan Isaac",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Knee",
+   "injury": "Knee Not Specified",
    "return_date": "2026-10-25",
    "updated": "2026-10-22T20:19Z",
    "comment": "Isaac (knee) is out for Friday's game against Minnesota."
@@ -546,7 +546,7 @@
    "player": "Noah Penda",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Hamstring",
+   "injury": "Hamstring Strain",
    "return_date": "2026-11-18",
    "updated": "2026-10-17T22:19Z",
    "comment": "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports."
@@ -579,7 +579,7 @@
    "player": "Tacko Fall",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Quadriceps",
+   "injury": "Quadriceps Strain",
    "return_date": "2026-10-24",
    "updated": "2026-10-21T21:07Z",
    "comment": "Fall (quadriceps) is out for Thursday's game against Cleveland."
@@ -590,7 +590,7 @@
    "player": "Dominick Barlow",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Back",
+   "injury": "Back Fracture",
    "return_date": "2026-11-02",
    "updated": "2026-10-19T21:07Z",
    "comment": "Barlow will miss at least the next two weeks of action due to a lumbar spine bone stress response, Adam Aaronson of PhillyVoice.com reports."
@@ -601,7 +601,7 @@
    "player": "Ariel Hukporti",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Achilles Ruptured",
+   "injury": "Achilles Surgery",
    "return_date": "2027-10-01",
    "updated": "2026-10-06T19:17Z",
    "comment": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN."
@@ -614,7 +614,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-23T01:02Z",
+   "updated": "2026-10-23T02:01Z",
    "comment": "Kennard (knee) won't play Wednesday versus Portland, Duane Rankin of The Arizona Republic reports."
   },
   {
@@ -645,7 +645,7 @@
    "player": "Branden Carlson",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Concussion",
+   "injury": "Concussion Concussion",
    "return_date": "2026-10-27",
    "updated": "2026-10-22T23:48Z",
    "comment": "Carlson (concussion) has been ruled out for Friday's game against Sacramento."
@@ -689,7 +689,7 @@
    "player": "Ben Simmons",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Achilles Ruptured",
+   "injury": "Achilles Surgery",
    "return_date": "2027-10-01",
    "updated": "2026-10-21T04:22Z",
    "comment": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports."
@@ -766,7 +766,7 @@
    "player": "Nate Bittle",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Foot",
+   "injury": "Foot Fracture",
    "return_date": "2026-10-28",
    "updated": "2026-10-20T18:05Z",
    "comment": "Bittle (foot) is out for Wednesday's season opener against the Bulls."
@@ -777,7 +777,7 @@
    "player": "Trey Alexander",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Knee",
+   "injury": "Knee Bruise",
    "return_date": "2026-10-25",
    "updated": "2026-10-22T23:02Z",
    "comment": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise."
@@ -788,7 +788,7 @@
    "player": "Tony Bradley",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Quadriceps",
+   "injury": "Quadriceps Strain",
    "return_date": "2026-10-23",
    "updated": "2026-10-22T23:02Z",
    "comment": "Bradley (quadriceps) is questionable for Friday's game against New Orleans."
@@ -799,7 +799,7 @@
    "player": "Jusuf Nurkic",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Foot",
+   "injury": "Foot Strain",
    "return_date": "2026-11-04",
    "updated": "2026-10-07T23:07Z",
    "comment": "Nurkic will miss at least the next four weeks due to a partial plantar plate tear of second toe in right foot, Chris Haynes of NBA TV reports."
@@ -810,7 +810,7 @@
    "player": "Felix Okpara",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Illness",
+   "injury": "Illness Not Specified",
    "return_date": "2026-10-23",
    "updated": "2026-10-22T20:48Z",
    "comment": "Okpara (illness) is questionable for Friday's game against Toronto."
@@ -832,7 +832,7 @@
    "player": "Tristan Vukcevic",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Hip",
+   "injury": "Hip Pinched Nerve",
    "return_date": "2026-11-02",
    "updated": "2026-10-01T19:11Z",
    "comment": "The Wizards announced Thursday that Vukcevic (hip) will be re-evaluated in four weeks."
@@ -843,7 +843,7 @@
    "player": "Jamir Watkins",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Knee",
+   "injury": "Knee Surgery",
    "return_date": "2027-04-02",
    "updated": "2026-07-30T20:11Z",
    "comment": "The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL."
