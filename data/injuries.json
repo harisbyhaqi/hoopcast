@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T19:46:06-0400",
+ "generated": "2026-10-23T21:15:54-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -102,6 +102,17 @@
   },
   {
    "team": "DAL",
+   "player_id": "5041939",
+   "player": "Cooper Flagg",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Shoulder Soreness",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T01:07Z",
+   "comment": "Flagg won't return to Friday's game against the Pacers due to left shoulder soreness, Brett Siegel of ClutchPoints.com reports."
+  },
+  {
+   "team": "DAL",
    "player_id": "5105806",
    "player": "Jett Howard",
    "status": "out",
@@ -200,6 +211,17 @@
    "comment": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports."
   },
   {
+   "team": "DET",
+   "player_id": "4433621",
+   "player": "Jalen Duren",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-24T01:03Z",
+   "comment": "Duren exited to the locker room in the second quarter of Friday's game against the Heat due to an apparent right knee injury, Omari Sankofa II of the Detroit Free Press reports."
+  },
+  {
    "team": "GSW",
    "player_id": "4397886",
    "player": "Charles Bassey",
@@ -209,17 +231,6 @@
    "return_date": "2026-10-24",
    "updated": "2026-10-23T20:04Z",
    "comment": "Bassey (knee) is out for Friday's game versus the Grizzlies."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4709138",
-   "player": "Brandin Podziemski",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back Soreness",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-23T19:54Z",
-   "comment": "Podziemski (back) is probable for Friday's game against the Grizzlies."
   },
   {
    "team": "GSW",
@@ -256,25 +267,14 @@
   },
   {
    "team": "HOU",
-   "player_id": "2991235",
-   "player": "Steven Adams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Soreness",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-22T21:12Z",
-   "comment": "Adams (calf) is questionable to play in Friday's game against the Spurs."
-  },
-  {
-   "team": "HOU",
    "player_id": "4711272",
    "player": "Reed Sheppard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Bruise",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-22T21:09Z",
-   "comment": "Sheppard (knee) is listed as questionable for Friday's game against the Spurs."
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T00:21Z",
+   "comment": "Sheppard (knee) is out for Friday's game in San Antonio."
   },
   {
    "team": "IND",
@@ -570,19 +570,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-23T23:09Z",
-   "comment": "Kennard (knee) practiced Friday, Duane Rankin of The Arizona Republic reports."
+   "updated": "2026-10-24T01:07Z",
+   "comment": "Kennard (knee) is questionable to play Saturday against the Warriors."
   },
   {
    "team": "PHX",
    "player_id": "4601023",
    "player": "Oso Ighodaro",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Oblique Strain",
-   "return_date": "2026-10-26",
-   "updated": "2026-10-23T20:43Z",
-   "comment": "Ighodaro has been ruled out for Saturday's game against the Warriors due to an oblique strain, Duane Rankin of The Arizona Republic reports."
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T00:24Z",
+   "comment": "Ighodaro (oblique) is listed as doubtful for Saturday's game against Golden State."
   },
   {
    "team": "PHX",
