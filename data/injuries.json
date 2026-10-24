@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T21:15:54-0400",
+ "generated": "2026-10-23T21:45:57-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -216,10 +216,10 @@
    "player": "Jalen Duren",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Knee",
+   "injury": "Thigh",
    "return_date": "2026-10-23",
-   "updated": "2026-10-24T01:03Z",
-   "comment": "Duren exited to the locker room in the second quarter of Friday's game against the Heat due to an apparent right knee injury, Omari Sankofa II of the Detroit Free Press reports."
+   "updated": "2026-10-24T01:16Z",
+   "comment": "Duren is questionable to return to Friday's game in Miami due to a right thigh injury."
   },
   {
    "team": "GSW",
@@ -401,23 +401,12 @@
    "team": "MEM",
    "player_id": "4903027",
    "player": "Cedric Coward",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Wrist Sprain",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-23T00:21Z",
-   "comment": "Coward is doubtful for Friday's game against the Warriors due to a left wrist sprain."
-  },
-  {
-   "team": "MEM",
-   "player_id": "4432810",
-   "player": "Isaiah Stewart",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-23T00:16Z",
-   "comment": "Stewart (ankle) is questionable for Friday's game against the Warriors."
+   "return_date": "2026-10-25",
+   "updated": "2026-10-24T01:36Z",
+   "comment": "Coward (wrist) has been ruled out for Friday's game against the Warriors."
   },
   {
    "team": "MIN",
@@ -462,6 +451,17 @@
    "return_date": "2026-10-26",
    "updated": "2026-10-21T22:08Z",
    "comment": "Sorber (knee) is listed as out for Thursday's game against Denver."
+  },
+  {
+   "team": "ORL",
+   "player_id": "4432573",
+   "player": "Paolo Banchero",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Soreness",
+   "return_date": "2026-10-23",
+   "updated": "2026-10-24T01:22Z",
+   "comment": "Banchero is doubtful to return to Friday's game against the Timberwolves due to a sore right ankle, NBA reporter Marc Stein reports."
   },
   {
    "team": "ORL",
@@ -570,7 +570,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-24T01:07Z",
+   "updated": "2026-10-24T01:37Z",
    "comment": "Kennard (knee) is questionable to play Saturday against the Warriors."
   },
   {
