@@ -1,6 +1,54 @@
 [
  {
   "kind": "status_change",
+  "team": "HOU",
+  "player": "Marcus Smart",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Forearm Strain",
+  "time": "2026-10-24T19:45:57-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Adou Thiero",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Inflammation",
+  "time": "2026-10-24T19:45:57-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Trey Alexander",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Bruise",
+  "time": "2026-10-24T19:45:57-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "DAL",
+  "player": "Jett Howard",
+  "from": "out",
+  "time": "2026-10-24T19:45:57-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "DAL",
+  "player": "Max Christie",
+  "from": "day-to-day",
+  "time": "2026-10-24T19:45:57-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAL",
+  "player": "Jake LaRavia",
+  "from": "day-to-day",
+  "time": "2026-10-24T19:45:57-0400"
+ },
+ {
+  "kind": "status_change",
   "team": "CHI",
   "player": "Patrick Williams",
   "from": "day-to-day",

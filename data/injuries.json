@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T19:16:03-0400",
+ "generated": "2026-10-24T19:45:57-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -124,17 +124,6 @@
   },
   {
    "team": "DAL",
-   "player_id": "5105806",
-   "player": "Jett Howard",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Calf Soreness",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T23:04Z",
-   "comment": "Howard (calf) has been upgraded to probable ahead of Saturday's meeting with the Spurs."
-  },
-  {
-   "team": "DAL",
    "player_id": "6442",
    "player": "Kyrie Irving",
    "status": "out",
@@ -154,17 +143,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-10-24T18:29Z",
    "comment": "Martin (thumb) has been ruled out against San Antonio on Saturday."
-  },
-  {
-   "team": "DAL",
-   "player_id": "4432582",
-   "player": "Max Christie",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Leg",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T18:25Z",
-   "comment": "Christie (shin) is questionable for Saturday's game against the Spurs."
   },
   {
    "team": "DAL",
@@ -368,12 +346,12 @@
    "team": "HOU",
    "player_id": "2990992",
    "player": "Marcus Smart",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Forearm Strain",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T19:34Z",
-   "comment": "Smart (forearm) is listed as questionable for Saturday's game against the Hawks."
+   "return_date": "2026-10-26",
+   "updated": "2026-10-24T23:15Z",
+   "comment": "Smart (forearm) has been ruled out for Saturday's game against the Hawks, Varun Shankar of the Houston Chronicle reports."
   },
   {
    "team": "HOU",
@@ -498,6 +476,17 @@
   },
   {
    "team": "LAL",
+   "player_id": "5060631",
+   "player": "Adou Thiero",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Inflammation",
+   "return_date": "2026-10-27",
+   "updated": "2026-10-24T23:20Z",
+   "comment": "Thiero (knee) has been ruled out for Sunday's game against Utah, Khobi Price of The California Post reports."
+  },
+  {
+   "team": "LAL",
    "player_id": "5113969",
    "player": "Cameron Carr",
    "status": "out",
@@ -505,29 +494,7 @@
    "injury": "Oblique Strain",
    "return_date": "2026-10-27",
    "updated": "2026-10-24T23:07Z",
-   "comment": "Carr (oblique) is out for Friday's game against the Clippers."
-  },
-  {
-   "team": "LAL",
-   "player_id": "5060631",
-   "player": "Adou Thiero",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Inflammation",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-24T13:46Z",
-   "comment": "Thiero (knee) is out for Friday's game against the Clippers."
-  },
-  {
-   "team": "LAL",
-   "player_id": "4592691",
-   "player": "Jake LaRavia",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-24T13:46Z",
-   "comment": "LaRavia (ankle) has been ruled out for Friday's game against the Clippers, Mark Medina of TheSportingTribune.com reports."
+   "comment": "Carr (oblique) is out for Sunday's game in Utah, Khobi Price of The California Post reports."
   },
   {
    "team": "MEM",
@@ -713,7 +680,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-24T23:08Z",
+   "updated": "2026-10-24T23:26Z",
    "comment": "Kennard (knee) is questionable to play Saturday against the Warriors."
   },
   {
@@ -841,11 +808,11 @@
    "team": "UTA",
    "player_id": "4433268",
    "player": "Trey Alexander",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Bruise",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-24T13:45Z",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-24T23:18Z",
    "comment": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise."
   },
   {
