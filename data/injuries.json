@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T02:01:02-0400",
+ "generated": "2026-10-24T10:00:49-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -234,13 +234,35 @@
   },
   {
    "team": "GSW",
-   "player_id": "4397886",
-   "player": "Charles Bassey",
+   "player_id": "4709138",
+   "player": "Brandin Podziemski",
    "status": "out",
    "status_raw": "Out",
+   "injury": "Back",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-24T13:52Z",
+   "comment": "Podziemski (back) is good to go for Friday's game against the Grizzlies, Nick Friedell of The Athletic reports."
+  },
+  {
+   "team": "GSW",
+   "player_id": "3975",
+   "player": "Stephen Curry",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Rest",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T13:52Z",
+   "comment": "Curry tallied 23 points (7-15 FG, 2-7 3Pt, 7-7 FT), two rebounds, an assist and two steals across 21 minutes in Wednesday's 127-105 loss to the Lakers."
+  },
+  {
+   "team": "GSW",
+   "player_id": "4397886",
+   "player": "Charles Bassey",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-10-24",
-   "updated": "2026-10-23T20:04Z",
+   "updated": "2026-10-24T13:46Z",
    "comment": "Bassey (knee) is out for Friday's game versus the Grizzlies."
   },
   {
@@ -280,11 +302,11 @@
    "team": "HOU",
    "player_id": "4711272",
    "player": "Reed Sheppard",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee Bruise",
    "return_date": "2026-10-24",
-   "updated": "2026-10-24T00:21Z",
+   "updated": "2026-10-24T13:45Z",
    "comment": "Sheppard (knee) is out for Friday's game in San Antonio."
   },
   {
@@ -377,46 +399,46 @@
   },
   {
    "team": "LAL",
-   "player_id": "4592691",
-   "player": "Jake LaRavia",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
+   "player_id": "5060631",
+   "player": "Adou Thiero",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Inflammation",
    "return_date": "2026-10-25",
-   "updated": "2026-10-23T20:05Z",
-   "comment": "LaRavia (ankle) has been ruled out for Friday's game against the Clippers, Mark Medina of TheSportingTribune.com reports."
+   "updated": "2026-10-24T13:46Z",
+   "comment": "Thiero (knee) is out for Friday's game against the Clippers."
   },
   {
    "team": "LAL",
-   "player_id": "5060631",
-   "player": "Adou Thiero",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Inflammation",
+   "player_id": "4592691",
+   "player": "Jake LaRavia",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
    "return_date": "2026-10-25",
-   "updated": "2026-10-23T00:10Z",
-   "comment": "Thiero (knee) is out for Friday's game against the Clippers."
+   "updated": "2026-10-24T13:46Z",
+   "comment": "LaRavia (ankle) has been ruled out for Friday's game against the Clippers, Mark Medina of TheSportingTribune.com reports."
   },
   {
    "team": "LAL",
    "player_id": "5113969",
    "player": "Cameron Carr",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Oblique Strain",
    "return_date": "2026-10-25",
-   "updated": "2026-10-23T00:10Z",
+   "updated": "2026-10-24T13:46Z",
    "comment": "Carr (oblique) is out for Friday's game against the Clippers."
   },
   {
    "team": "MEM",
    "player_id": "4903027",
    "player": "Cedric Coward",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Wrist Sprain",
    "return_date": "2026-10-25",
-   "updated": "2026-10-24T01:36Z",
+   "updated": "2026-10-24T13:45Z",
    "comment": "Coward (wrist) has been ruled out for Friday's game against the Warriors."
   },
   {
@@ -592,7 +614,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-24T05:00Z",
+   "updated": "2026-10-24T13:52Z",
    "comment": "Kennard (knee) is questionable to play Saturday against the Warriors."
   },
   {
@@ -619,25 +641,25 @@
   },
   {
    "team": "POR",
-   "player_id": "4592435",
-   "player": "Branden Carlson",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Concussion Concussion",
+   "player_id": "4706557",
+   "player": "Chris Youngblood",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Soreness",
    "return_date": "2026-10-27",
-   "updated": "2026-10-22T23:48Z",
-   "comment": "Carlson (concussion) has been ruled out for Friday's game against Sacramento."
+   "updated": "2026-10-24T13:46Z",
+   "comment": "Youngblood (ankle) is out for Friday's game against the Kings."
   },
   {
    "team": "POR",
-   "player_id": "4706557",
-   "player": "Chris Youngblood",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Soreness",
+   "player_id": "4592435",
+   "player": "Branden Carlson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Concussion Concussion",
    "return_date": "2026-10-27",
-   "updated": "2026-10-22T23:48Z",
-   "comment": "Youngblood (ankle) is out for Friday's game against the Kings."
+   "updated": "2026-10-24T13:46Z",
+   "comment": "Carlson (concussion) has been ruled out for Friday's game against Sacramento."
   },
   {
    "team": "POR",
@@ -687,11 +709,11 @@
    "team": "SAS",
    "player_id": "6440",
    "player": "Tobias Harris",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Calf Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-22T22:03Z",
+   "updated": "2026-10-24T13:45Z",
    "comment": "Harris (calf) is out for Friday's game against the Rockets."
   },
   {
@@ -720,11 +742,11 @@
    "team": "UTA",
    "player_id": "4433268",
    "player": "Trey Alexander",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee Bruise",
    "return_date": "2026-10-25",
-   "updated": "2026-10-22T23:02Z",
+   "updated": "2026-10-24T13:45Z",
    "comment": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise."
   },
   {

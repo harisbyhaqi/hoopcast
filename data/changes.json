@@ -1,5 +1,111 @@
 [
  {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Brandin Podziemski",
+  "to": "out",
+  "injury": "Back",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Stephen Curry",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Charles Bassey",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Reed Sheppard",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Bruise",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Adou Thiero",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Inflammation",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Jake LaRavia",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Cameron Carr",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Oblique Strain",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Cedric Coward",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Wrist Sprain",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Chris Youngblood",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Soreness",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Branden Carlson",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Concussion Concussion",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAS",
+  "player": "Tobias Harris",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Calf Strain",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Trey Alexander",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Bruise",
+  "time": "2026-10-24T10:00:49-0400"
+ },
+ {
   "kind": "released",
   "team": "NYK",
   "player": "Kevin McCullar Jr.",
