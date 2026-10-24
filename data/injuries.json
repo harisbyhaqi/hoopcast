@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T17:45:47-0400",
+ "generated": "2026-10-24T19:16:03-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -91,25 +91,25 @@
   },
   {
    "team": "CHI",
-   "player_id": "5242496",
-   "player": "Noa Essengue",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Head Bruise",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T21:19Z",
-   "comment": "Essengue (head) has been downgraded to questionable for Saturday's game against the Wizards."
+   "player_id": "4431687",
+   "player": "Patrick Williams",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Groin Soreness",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-24T22:22Z",
+   "comment": "Williams (groin) is out for Saturday's game versus the Wizards, Joel Lorenzi of The Athletic reports."
   },
   {
    "team": "CHI",
-   "player_id": "4431687",
-   "player": "Patrick Williams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin Soreness",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T21:17Z",
-   "comment": "Williams (groin) is listed as questionable for Saturday's game against the Wizards."
+   "player_id": "5242496",
+   "player": "Noa Essengue",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Head Bruise",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-24T22:20Z",
+   "comment": "Essengue (head) won't suit up for Saturday's game against the Wizards, Joel Lorenzi of The Athletic reports."
   },
   {
    "team": "CHI",
@@ -124,25 +124,25 @@
   },
   {
    "team": "DAL",
-   "player_id": "5211175",
-   "player": "Zaccharie Risacher",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip Soreness",
+   "player_id": "5105806",
+   "player": "Jett Howard",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Soreness",
    "return_date": "2026-10-24",
-   "updated": "2026-10-24T18:31Z",
-   "comment": "Risacher is questionable for Saturday's game against the Spurs due to right hip soreness."
+   "updated": "2026-10-24T23:04Z",
+   "comment": "Howard (calf) has been upgraded to probable ahead of Saturday's meeting with the Spurs."
   },
   {
    "team": "DAL",
-   "player_id": "4873153",
-   "player": "Morez Johnson Jr.",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Lower Leg",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T18:29Z",
-   "comment": "Johnson (shin) is listed as questionable for Saturday's game against the Spurs."
+   "player_id": "6442",
+   "player": "Kyrie Irving",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-24T22:20Z",
+   "comment": "Irving is out for Saturday's game against the Spurs due to rest, Christian Clark of The Athletic reports."
   },
   {
    "team": "DAL",
@@ -154,28 +154,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-10-24T18:29Z",
    "comment": "Martin (thumb) has been ruled out against San Antonio on Saturday."
-  },
-  {
-   "team": "DAL",
-   "player_id": "5105806",
-   "player": "Jett Howard",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Calf Soreness",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T18:27Z",
-   "comment": "Howard (calf) is listed as doubtful against the Spurs on Saturday."
-  },
-  {
-   "team": "DAL",
-   "player_id": "6442",
-   "player": "Kyrie Irving",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T18:26Z",
-   "comment": "Irving (knee) is listed as questionable for Saturday's game against San Antonio."
   },
   {
    "team": "DAL",
@@ -410,17 +388,6 @@
   },
   {
    "team": "HOU",
-   "player_id": "4711272",
-   "player": "Reed Sheppard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Bruise",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T17:18Z",
-   "comment": "Sheppard (knee) is listed as questionable for Saturday's game against the Hawks."
-  },
-  {
-   "team": "HOU",
    "player_id": "2991230",
    "player": "Fred VanVleet",
    "status": "out",
@@ -531,6 +498,17 @@
   },
   {
    "team": "LAL",
+   "player_id": "5113969",
+   "player": "Cameron Carr",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Oblique Strain",
+   "return_date": "2026-10-27",
+   "updated": "2026-10-24T23:07Z",
+   "comment": "Carr (oblique) is out for Friday's game against the Clippers."
+  },
+  {
+   "team": "LAL",
    "player_id": "5060631",
    "player": "Adou Thiero",
    "status": "day-to-day",
@@ -550,17 +528,6 @@
    "return_date": "2026-10-25",
    "updated": "2026-10-24T13:46Z",
    "comment": "LaRavia (ankle) has been ruled out for Friday's game against the Clippers, Mark Medina of TheSportingTribune.com reports."
-  },
-  {
-   "team": "LAL",
-   "player_id": "5113969",
-   "player": "Cameron Carr",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Oblique Strain",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-24T13:46Z",
-   "comment": "Carr (oblique) is out for Friday's game against the Clippers."
   },
   {
    "team": "MEM",
@@ -590,10 +557,21 @@
    "player": "Yves Missi",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Knee",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-24T19:05Z",
-   "comment": "Missi (knee) has been ruled out for Saturday's game against the Nuggets."
+   "injury": "Knee Bruise",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-24T22:17Z",
+   "comment": "Missi has been diagnosed with a left knee bone bruise and he will miss an extended period of time, Brett Siegel of ClutchPoints.com reports."
+  },
+  {
+   "team": "NYK",
+   "player_id": "4277869",
+   "player": "Jose Alvarado",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-24T21:34Z",
+   "comment": "Alvarado is questionable for Sunday's game against Orlando due to a left ankle sprain."
   },
   {
    "team": "OKC",
@@ -707,17 +685,6 @@
   },
   {
    "team": "PHI",
-   "player_id": "3912848",
-   "player": "Dean Wade",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-23T21:07Z",
-   "comment": "Wade is listed as questionable for Saturday's game against the Bucks due to a left ankle sprain."
-  },
-  {
-   "team": "PHI",
    "player_id": "4870562",
    "player": "Dominick Barlow",
    "status": "out",
@@ -746,7 +713,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-24T21:31Z",
+   "updated": "2026-10-24T23:08Z",
    "comment": "Kennard (knee) is questionable to play Saturday against the Warriors."
   },
   {
