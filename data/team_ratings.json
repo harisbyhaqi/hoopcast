@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T21:46:02-04:00",
+ "generated": "2026-10-23T23:00:57-04:00",
  "unmatched": [],
  "teams": {
   "ATL": {
@@ -82,7 +82,7 @@
   "BOS": {
    "roster": 4.83,
    "market": 3.7,
-   "prior": 4.26,
+   "prior": 4.27,
    "rotation": [
     {
      "player": "Jayson Tatum",
@@ -159,7 +159,7 @@
      "rating": 0.4,
      "o": 0.3,
      "d": 0.2,
-     "min": 7.0
+     "min": 7.1
     }
    ]
   },
@@ -500,16 +500,16 @@
    ]
   },
   "DAL": {
-   "roster": -4.52,
+   "roster": -4.53,
    "market": -2.41,
-   "prior": -3.46,
+   "prior": -3.47,
    "rotation": [
     {
      "player": "Kyrie Irving",
      "rating": 1.8,
      "o": 2.1,
      "d": -0.3,
-     "min": 34.7
+     "min": 34.6
     },
     {
      "player": "Santi Aldama",
@@ -523,7 +523,7 @@
      "rating": -0.4,
      "o": 0.4,
      "d": -0.8,
-     "min": 28.7
+     "min": 28.6
     },
     {
      "player": "Dereck Lively II",
@@ -537,7 +537,7 @@
      "rating": 0.2,
      "o": -0.9,
      "d": 1.0,
-     "min": 25.8
+     "min": 25.7
     },
     {
      "player": "Naji Marshall",
@@ -551,7 +551,7 @@
      "rating": -0.2,
      "o": 0.3,
      "d": -0.5,
-     "min": 21.1
+     "min": 21.2
     },
     {
      "player": "P.J. Washington",
@@ -572,7 +572,7 @@
      "rating": -0.7,
      "o": -1.7,
      "d": 1.1,
-     "min": 13.6
+     "min": 13.8
     }
    ]
   },
@@ -719,7 +719,7 @@
      "rating": 0.1,
      "o": -0.0,
      "d": 0.2,
-     "min": 19.8
+     "min": 19.7
     },
     {
      "player": "Taurean Prince",
@@ -733,7 +733,7 @@
      "rating": 0.0,
      "o": -1.0,
      "d": 1.0,
-     "min": 4.6
+     "min": 4.7
     }
    ]
   },
@@ -899,7 +899,7 @@
    ]
   },
   "IND": {
-   "roster": -0.42,
+   "roster": -0.43,
    "market": 1.11,
    "prior": 0.34,
    "rotation": [
@@ -936,7 +936,7 @@
      "rating": -0.2,
      "o": 0.1,
      "d": -0.3,
-     "min": 24.1
+     "min": 24.0
     },
     {
      "player": "Obi Toppin",
@@ -957,7 +957,7 @@
      "rating": -0.1,
      "o": -0.2,
      "d": 0.1,
-     "min": 18.2
+     "min": 18.3
     },
     {
      "player": "Andrew Nembhard",
@@ -971,12 +971,12 @@
      "rating": -0.2,
      "o": -0.6,
      "d": 0.4,
-     "min": 11.1
+     "min": 11.2
     }
    ]
   },
   "LAC": {
-   "roster": -2.35,
+   "roster": -2.34,
    "market": -5.37,
    "prior": -3.86,
    "rotation": [
@@ -1228,9 +1228,9 @@
    ]
   },
   "MIA": {
-   "roster": -0.58,
+   "roster": -0.59,
    "market": 2.04,
-   "prior": 0.73,
+   "prior": 0.72,
    "rotation": [
     {
      "player": "Giannis Antetokounmpo",
@@ -1251,7 +1251,7 @@
      "rating": 0.3,
      "o": -0.0,
      "d": 0.3,
-     "min": 27.9
+     "min": 28.0
     },
     {
      "player": "Pelle Larsson",
@@ -1293,21 +1293,21 @@
      "rating": -0.2,
      "o": -0.4,
      "d": 0.2,
-     "min": 14.5
+     "min": 14.4
     },
     {
      "player": "Dru Smith",
      "rating": -1.0,
      "o": -1.4,
      "d": 0.4,
-     "min": 14.3
+     "min": 14.2
     },
     {
      "player": "Nikola Jovic",
      "rating": -1.4,
      "o": -1.4,
      "d": -0.0,
-     "min": 12.2
+     "min": 12.4
     }
    ]
   },
@@ -1594,7 +1594,7 @@
      "rating": 0.4,
      "o": 0.4,
      "d": -0.1,
-     "min": 27.4
+     "min": 27.3
     },
     {
      "player": "Miles McBride",

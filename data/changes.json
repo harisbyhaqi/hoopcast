@@ -1,6 +1,31 @@
 [
  {
   "kind": "status_change",
+  "team": "DAL",
+  "player": "Cooper Flagg",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Shoulder Soreness",
+  "time": "2026-10-23T23:00:53-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DET",
+  "player": "Ausar Thompson",
+  "to": "day-to-day",
+  "injury": "Undisclosed",
+  "time": "2026-10-23T23:00:53-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "NOP",
+  "player": "Yves Missi",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-23T23:00:53-0400"
+ },
+ {
+  "kind": "status_change",
   "team": "MEM",
   "player": "Cedric Coward",
   "from": "day-to-day",

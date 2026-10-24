@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T21:45:57-0400",
+ "generated": "2026-10-23T23:00:53-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -104,12 +104,12 @@
    "team": "DAL",
    "player_id": "5041939",
    "player": "Cooper Flagg",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Shoulder Soreness",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T01:07Z",
-   "comment": "Flagg won't return to Friday's game against the Pacers due to left shoulder soreness, Brett Siegel of ClutchPoints.com reports."
+   "return_date": "2026-10-26",
+   "updated": "2026-10-24T02:18Z",
+   "comment": "Head coach Dusty May said Flagg (shoulder) will be evaluated in the next couple of days, Mike Curtis of The Dallas Morning News reports."
   },
   {
    "team": "DAL",
@@ -217,9 +217,20 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Thigh",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-24T02:40Z",
+   "comment": "Duren (thigh) exited Friday's 128-111 win over the Heat in the second quarter and did not return, finishing with four points (2-4 FG), six rebounds, three assists, one steal and one block across 10 minutes."
+  },
+  {
+   "team": "DET",
+   "player_id": "4684742",
+   "player": "Ausar Thompson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Undisclosed",
    "return_date": "2026-10-23",
-   "updated": "2026-10-24T01:16Z",
-   "comment": "Duren is questionable to return to Friday's game in Miami due to a right thigh injury."
+   "updated": "2026-10-24T01:46Z",
+   "comment": "Thompson (undisclosed) exited to the locker room in the third quarter of Friday's game against the Heat, Zachary Weinberger of ClutchPoints.com reports."
   },
   {
    "team": "GSW",
@@ -420,6 +431,17 @@
    "comment": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports."
   },
   {
+   "team": "NOP",
+   "player_id": "5061589",
+   "player": "Yves Missi",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T02:46Z",
+   "comment": "Missi won't return to Friday's game against the Jazz due to a left knee injury."
+  },
+  {
    "team": "OKC",
    "player_id": "5106270",
    "player": "Otega Oweh",
@@ -459,9 +481,9 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Ankle Soreness",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-24T01:22Z",
-   "comment": "Banchero is doubtful to return to Friday's game against the Timberwolves due to a sore right ankle, NBA reporter Marc Stein reports."
+   "return_date": "2026-10-25",
+   "updated": "2026-10-24T01:55Z",
+   "comment": "Banchero didn't check back in during the fourth quarter of Friday's 115-93 loss to the Timberwolves after being deemed doubtful to return. He finished with 14 points (5-11 FG, 0-2 3Pt, 2-4 FT), six rebounds, five assists and one steal across 26 minutes."
   },
   {
    "team": "ORL",
@@ -570,7 +592,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-24T01:37Z",
+   "updated": "2026-10-24T02:46Z",
    "comment": "Kennard (knee) is questionable to play Saturday against the Warriors."
   },
   {
