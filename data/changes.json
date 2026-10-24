@@ -1,5 +1,110 @@
 [
  {
+  "kind": "released",
+  "team": "NYK",
+  "player": "Kevin McCullar Jr.",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHA",
+  "player": "Grant Williams",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHA",
+  "player": "Coby White",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Calf Strain",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHA",
+  "player": "Kon Knueppel",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Caleb Martin",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Thumb Sprain",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Jett Howard",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Calf Soreness",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Tarik Biberovic",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Heel Inflammation",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Santi Aldama",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Surgery",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "T.J. McConnell",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "ORL",
+  "player": "Jonathan Isaac",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Not Specified",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "ORL",
+  "player": "Anthony Black",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "WAS",
+  "player": "AJ Dybantsa",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-24T02:01:02-0400"
+ },
+ {
   "kind": "status_change",
   "team": "DAL",
   "player": "Cooper Flagg",

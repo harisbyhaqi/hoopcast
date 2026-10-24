@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T23:00:53-0400",
+ "generated": "2026-10-24T02:01:02-0400",
  "teams": {
   "ATL": [
    {
@@ -2091,12 +2091,6 @@
     "player": "Miles McBride",
     "position": "G",
     "jersey": "2"
-   },
-   {
-    "player_id": "4411057",
-    "player": "Kevin McCullar Jr.",
-    "position": "G",
-    "jersey": "9"
    },
    {
     "player_id": "4838721",

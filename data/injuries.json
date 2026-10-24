@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T23:00:53-0400",
+ "generated": "2026-10-24T02:01:02-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -49,33 +49,33 @@
    "team": "CHA",
    "player_id": "4066218",
    "player": "Grant Williams",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hamstring",
    "return_date": "2026-10-24",
-   "updated": "2026-10-22T21:10Z",
+   "updated": "2026-10-24T03:10Z",
    "comment": "Williams (hamstring) is out for Friday's game against the Hawks."
   },
   {
    "team": "CHA",
    "player_id": "4395651",
    "player": "Coby White",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Calf Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-22T21:07Z",
+   "updated": "2026-10-24T03:10Z",
    "comment": "White (calf) is out for Friday's game against the Hawks."
   },
   {
    "team": "CHA",
    "player_id": "5061575",
    "player": "Kon Knueppel",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hamstring",
    "return_date": "2026-10-24",
-   "updated": "2026-10-22T21:05Z",
+   "updated": "2026-10-24T03:10Z",
    "comment": "Knueppel (hamstring) is out for Friday's game against the Hawks."
   },
   {
@@ -102,6 +102,50 @@
   },
   {
    "team": "DAL",
+   "player_id": "3138160",
+   "player": "Caleb Martin",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Thumb Sprain",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T03:06Z",
+   "comment": "Martin (thumb) has been ruled out for Fridays' game against the Pacers."
+  },
+  {
+   "team": "DAL",
+   "player_id": "5105806",
+   "player": "Jett Howard",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Calf Soreness",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T03:06Z",
+   "comment": "Howard (calf) is out for Friday's game in Indiana."
+  },
+  {
+   "team": "DAL",
+   "player_id": "5148538",
+   "player": "Tarik Biberovic",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Heel Inflammation",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T03:06Z",
+   "comment": "Biberovic (heel) is out for Friday's game against Indiana."
+  },
+  {
+   "team": "DAL",
+   "player_id": "4593125",
+   "player": "Santi Aldama",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Surgery",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T03:06Z",
+   "comment": "Aldama (knee) has been ruled out for Friday's game against the Pacers."
+  },
+  {
+   "team": "DAL",
    "player_id": "5041939",
    "player": "Cooper Flagg",
    "status": "out",
@@ -110,50 +154,6 @@
    "return_date": "2026-10-26",
    "updated": "2026-10-24T02:18Z",
    "comment": "Head coach Dusty May said Flagg (shoulder) will be evaluated in the next couple of days, Mike Curtis of The Dallas Morning News reports."
-  },
-  {
-   "team": "DAL",
-   "player_id": "5105806",
-   "player": "Jett Howard",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Calf Soreness",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-23T22:02Z",
-   "comment": "Howard (calf) is out for Friday's game in Indiana."
-  },
-  {
-   "team": "DAL",
-   "player_id": "3138160",
-   "player": "Caleb Martin",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Thumb Sprain",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-22T20:15Z",
-   "comment": "Martin (thumb) has been ruled out for Fridays' game against the Pacers."
-  },
-  {
-   "team": "DAL",
-   "player_id": "4593125",
-   "player": "Santi Aldama",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Surgery",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-22T20:13Z",
-   "comment": "Aldama (knee) has been ruled out for Friday's game against the Pacers."
-  },
-  {
-   "team": "DAL",
-   "player_id": "5148538",
-   "player": "Tarik Biberovic",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Heel Inflammation",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-22T20:12Z",
-   "comment": "Biberovic (heel) is out for Friday's game against Indiana."
   },
   {
    "team": "DAL",
@@ -212,6 +212,17 @@
   },
   {
    "team": "DET",
+   "player_id": "4684742",
+   "player": "Ausar Thompson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Undisclosed",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-24T03:06Z",
+   "comment": "Thompson exited Friday's game with an undisclosed injury and did not return, finishing with four points (2-5 FG, 0-1 3Pt), three rebounds, four assists, one steal, one block and three turnovers across 19 minutes in a 128-111 win over the Heat."
+  },
+  {
+   "team": "DET",
    "player_id": "4433621",
    "player": "Jalen Duren",
    "status": "day-to-day",
@@ -220,17 +231,6 @@
    "return_date": "2026-10-25",
    "updated": "2026-10-24T02:40Z",
    "comment": "Duren (thigh) exited Friday's 128-111 win over the Heat in the second quarter and did not return, finishing with four points (2-4 FG), six rebounds, three assists, one steal and one block across 10 minutes."
-  },
-  {
-   "team": "DET",
-   "player_id": "4684742",
-   "player": "Ausar Thompson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Undisclosed",
-   "return_date": "2026-10-23",
-   "updated": "2026-10-24T01:46Z",
-   "comment": "Thompson (undisclosed) exited to the locker room in the third quarter of Friday's game against the Heat, Zachary Weinberger of ClutchPoints.com reports."
   },
   {
    "team": "GSW",
@@ -289,6 +289,17 @@
   },
   {
    "team": "IND",
+   "player_id": "2530530",
+   "player": "T.J. McConnell",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hamstring",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-24T03:07Z",
+   "comment": "McConnell (hamstring) is out for Friday's game against Dallas."
+  },
+  {
+   "team": "IND",
    "player_id": "4433076",
    "player": "Ben Sheppard",
    "status": "out",
@@ -297,17 +308,6 @@
    "return_date": "2026-12-01",
    "updated": "2026-10-23T22:53Z",
    "comment": "Sheppard has been diagnosed with a torn meniscus in his left knee and is without a timetable for a return to game action, Scott Agness of FieldhouseFiles.com reports."
-  },
-  {
-   "team": "IND",
-   "player_id": "2530530",
-   "player": "T.J. McConnell",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-22T20:49Z",
-   "comment": "McConnell (hamstring) is out for Friday's game against Dallas."
   },
   {
    "team": "IND",
@@ -476,6 +476,28 @@
   },
   {
    "team": "ORL",
+   "player_id": "4065654",
+   "player": "Jonathan Isaac",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Not Specified",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-24T03:07Z",
+   "comment": "Isaac (knee) is out for Friday's game against Minnesota."
+  },
+  {
+   "team": "ORL",
+   "player_id": "4712849",
+   "player": "Anthony Black",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-24T03:07Z",
+   "comment": "Black (ankle) has been ruled out for Friday's game against Minnesota but participated in shootaround and has experienced no setbacks in his recovery, Jason Beede of the Orlando Sentinel reports."
+  },
+  {
+   "team": "ORL",
    "player_id": "4432573",
    "player": "Paolo Banchero",
    "status": "day-to-day",
@@ -484,28 +506,6 @@
    "return_date": "2026-10-25",
    "updated": "2026-10-24T01:55Z",
    "comment": "Banchero didn't check back in during the fourth quarter of Friday's 115-93 loss to the Timberwolves after being deemed doubtful to return. He finished with 14 points (5-11 FG, 0-2 3Pt, 2-4 FT), six rebounds, five assists and one steal across 26 minutes."
-  },
-  {
-   "team": "ORL",
-   "player_id": "4712849",
-   "player": "Anthony Black",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-23T16:06Z",
-   "comment": "Black (ankle) has been ruled out for Friday's game against Minnesota but participated in shootaround and has experienced no setbacks in his recovery, Jason Beede of the Orlando Sentinel reports."
-  },
-  {
-   "team": "ORL",
-   "player_id": "4065654",
-   "player": "Jonathan Isaac",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Not Specified",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-22T20:19Z",
-   "comment": "Isaac (knee) is out for Friday's game against Minnesota."
   },
   {
    "team": "ORL",
@@ -592,7 +592,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-24T02:46Z",
+   "updated": "2026-10-24T05:00Z",
    "comment": "Kennard (knee) is questionable to play Saturday against the Warriors."
   },
   {
@@ -742,11 +742,11 @@
    "team": "WAS",
    "player_id": "5142718",
    "player": "AJ Dybantsa",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-22T16:22Z",
+   "updated": "2026-10-24T03:11Z",
    "comment": "Dybantsa (ankle) is out for Friday's game against the Raptors, Josh Robbins of The Athletic reports."
   },
   {
