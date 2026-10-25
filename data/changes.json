@@ -1,6 +1,14 @@
 [
  {
   "kind": "injury_new",
+  "team": "GSW",
+  "player": "Gui Santos",
+  "to": "day-to-day",
+  "injury": "Undisclosed",
+  "time": "2026-10-25T02:00:52-0400"
+ },
+ {
+  "kind": "injury_new",
   "team": "BKN",
   "player": "Mikel Brown Jr.",
   "to": "out",
