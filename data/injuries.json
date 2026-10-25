@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T19:45:57-0400",
+ "generated": "2026-10-24T20:15:57-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -190,14 +190,14 @@
   },
   {
    "team": "DEN",
-   "player_id": "4592427",
-   "player": "Spencer Jones",
+   "player_id": "4065813",
+   "player": "Alpha Diallo",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Hamstring Not Specified",
+   "injury": "Wrist",
    "return_date": "2026-10-26",
-   "updated": "2026-10-23T23:09Z",
-   "comment": "Jones (hamstring) is out for Saturday's game against the Pelicans."
+   "updated": "2026-10-25T00:03Z",
+   "comment": "Diallo (wrist) won't play Saturday against the Pelicans."
   },
   {
    "team": "DEN",
@@ -207,19 +207,19 @@
    "status_raw": "Out",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-26",
-   "updated": "2026-10-23T23:08Z",
-   "comment": "Johnson (ankle) has been ruled out for Saturday's game against New Orleans."
+   "updated": "2026-10-24T23:47Z",
+   "comment": "Head coach David Aldeman said that Johnson is \"day-to-day\" due to his sprained right ankle, Vinny Benedetto of The Denver Gazette reports."
   },
   {
    "team": "DEN",
-   "player_id": "4065813",
-   "player": "Alpha Diallo",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Wrist",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-23T23:06Z",
-   "comment": "Diallo is questionable for Saturday's game versus the Pelicans due to a right wrist sprain."
+   "player_id": "4592427",
+   "player": "Spencer Jones",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring Not Specified",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-23T23:09Z",
+   "comment": "Jones (hamstring) is out for Saturday's game against the Pelicans."
   },
   {
    "team": "DEN",
@@ -630,6 +630,17 @@
   },
   {
    "team": "PHI",
+   "player_id": "5124612",
+   "player": "VJ Edgecombe",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Groin",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-24T23:59Z",
+   "comment": "Edgecombe exited to the locker room in the first quarter of Saturday's game against the Bucks due to an apparent groin injury, Tony Jones of The Athletic reports."
+  },
+  {
+   "team": "PHI",
    "player_id": "1966",
    "player": "LeBron James",
    "status": "out",
@@ -680,7 +691,7 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Strain",
    "return_date": "2026-10-24",
-   "updated": "2026-10-24T23:26Z",
+   "updated": "2026-10-25T00:03Z",
    "comment": "Kennard (knee) is questionable to play Saturday against the Warriors."
   },
   {
