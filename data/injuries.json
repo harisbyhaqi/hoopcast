@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T21:46:08-0400",
+ "generated": "2026-10-24T23:00:58-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -33,6 +33,17 @@
    "return_date": "2026-11-08",
    "updated": "2026-10-18T14:49Z",
    "comment": "Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports."
+  },
+  {
+   "team": "BKN",
+   "player_id": "5101761",
+   "player": "Mikel Brown Jr.",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Rest",
+   "return_date": "2026-10-27",
+   "updated": "2026-10-25T02:32Z",
+   "comment": "Head coach Jordi Fernandez said Brown (rest) will be held out of Sunday's game against the Pacers, Brian Lewis of the New York Post reports."
   },
   {
    "team": "BKN",
@@ -630,14 +641,25 @@
   },
   {
    "team": "PHI",
+   "player_id": "3059318",
+   "player": "Joel Embiid",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Rest",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-25T02:15Z",
+   "comment": "Embiid produced 28 points (8-20 FG, 0-3 3Pt, 12-14 FT), 11 rebounds, 10 assists, one steal and four turnovers across 36 minutes in Saturday's 127-116 win over the Bucks."
+  },
+  {
+   "team": "PHI",
    "player_id": "4432446",
    "player": "Jabari Walker",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-25T01:25Z",
-   "comment": "Walker exited to the locker room in the third quarter of Saturday's game against the Bucks due to an apparent ankle injury, Tony Jones of The Athletic reports."
+   "injury": "Knee",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-25T02:11Z",
+   "comment": "Walker (ankle) exited Saturday's 127-116 win over the Bucks in the third quarter and did not return, finishing with six points (2-3 FG, 2-3 FT), three rebounds, one assist and one steal across 12 minutes."
   },
   {
    "team": "PHI",

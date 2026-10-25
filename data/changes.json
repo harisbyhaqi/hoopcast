@@ -1,6 +1,22 @@
 [
  {
   "kind": "injury_new",
+  "team": "BKN",
+  "player": "Mikel Brown Jr.",
+  "to": "out",
+  "injury": "Rest",
+  "time": "2026-10-24T23:00:58-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-10-24T23:00:58-0400"
+ },
+ {
+  "kind": "injury_new",
   "team": "PHI",
   "player": "Jabari Walker",
   "to": "day-to-day",
