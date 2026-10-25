@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T20:15:57-0400",
+ "generated": "2026-10-24T20:45:54-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -256,6 +256,17 @@
   },
   {
    "team": "GSW",
+   "player_id": "6589",
+   "player": "Draymond Green",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-25T00:33Z",
+   "comment": "Green (back) won't play Saturday in Phoenix."
+  },
+  {
+   "team": "GSW",
    "player_id": "4397886",
    "player": "Charles Bassey",
    "status": "day-to-day",
@@ -275,17 +286,6 @@
    "return_date": "2026-10-26",
    "updated": "2026-10-24T20:20Z",
    "comment": "Horford (back) has been ruled out for Saturday's game against the Suns."
-  },
-  {
-   "team": "GSW",
-   "player_id": "6589",
-   "player": "Draymond Green",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T20:17Z",
-   "comment": "Green is doubtful to play Saturday against the Suns due to bilateral low back soreness."
   },
   {
    "team": "GSW",
@@ -504,8 +504,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Wrist Sprain",
    "return_date": "2026-10-25",
-   "updated": "2026-10-24T13:45Z",
-   "comment": "Coward (wrist) has been ruled out for Friday's game against the Warriors."
+   "updated": "2026-10-25T00:12Z",
+   "comment": "Coward (wrist) is questionable for Sunday's game in Sacramento."
+  },
+  {
+   "team": "MEM",
+   "player_id": "4600663",
+   "player": "Zach Edey",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-25T00:12Z",
+   "comment": "Edey has been ruled out for Sunday's game against Sacramento due to left ankle injury management."
   },
   {
    "team": "MIN",
@@ -630,17 +641,6 @@
   },
   {
    "team": "PHI",
-   "player_id": "5124612",
-   "player": "VJ Edgecombe",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T23:59Z",
-   "comment": "Edgecombe exited to the locker room in the first quarter of Saturday's game against the Bucks due to an apparent groin injury, Tony Jones of The Athletic reports."
-  },
-  {
-   "team": "PHI",
    "player_id": "1966",
    "player": "LeBron James",
    "status": "out",
@@ -682,17 +682,6 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-06T19:17Z",
    "comment": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN."
-  },
-  {
-   "team": "PHX",
-   "player_id": "3913174",
-   "player": "Luke Kennard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Strain",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-25T00:03Z",
-   "comment": "Kennard (knee) is questionable to play Saturday against the Warriors."
   },
   {
    "team": "PHX",
@@ -748,6 +737,17 @@
    "return_date": "2027-03-02",
    "updated": "2026-08-24T20:23Z",
    "comment": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN."
+  },
+  {
+   "team": "SAC",
+   "player_id": "4594327",
+   "player": "Keegan Murray",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-25T00:18Z",
+   "comment": "Murray is questionable to play Sunday against the Grizzlies due to left ankle capsulitis."
   },
   {
    "team": "SAC",

@@ -1,6 +1,45 @@
 [
  {
   "kind": "status_change",
+  "team": "GSW",
+  "player": "Draymond Green",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back",
+  "time": "2026-10-24T20:45:54-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MEM",
+  "player": "Zach Edey",
+  "to": "out",
+  "injury": "Ankle",
+  "time": "2026-10-24T20:45:54-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "SAC",
+  "player": "Keegan Murray",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-24T20:45:54-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHI",
+  "player": "VJ Edgecombe",
+  "from": "day-to-day",
+  "time": "2026-10-24T20:45:54-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHX",
+  "player": "Luke Kennard",
+  "from": "day-to-day",
+  "time": "2026-10-24T20:45:54-0400"
+ },
+ {
+  "kind": "status_change",
   "team": "DEN",
   "player": "Alpha Diallo",
   "from": "day-to-day",
