@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T20:45:54-0400",
+ "generated": "2026-10-24T21:46:08-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -264,17 +264,6 @@
    "return_date": "2026-10-26",
    "updated": "2026-10-25T00:33Z",
    "comment": "Green (back) won't play Saturday in Phoenix."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4397886",
-   "player": "Charles Bassey",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-10-24",
-   "updated": "2026-10-24T20:22Z",
-   "comment": "Bassey (knee) is listed as questionable for Saturday's game against the Suns."
   },
   {
    "team": "GSW",
@@ -638,6 +627,17 @@
    "return_date": "2026-11-18",
    "updated": "2026-09-28T21:33Z",
    "comment": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com."
+  },
+  {
+   "team": "PHI",
+   "player_id": "4432446",
+   "player": "Jabari Walker",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-10-24",
+   "updated": "2026-10-25T01:25Z",
+   "comment": "Walker exited to the locker room in the third quarter of Saturday's game against the Bucks due to an apparent ankle injury, Tony Jones of The Athletic reports."
   },
   {
    "team": "PHI",

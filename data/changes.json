@@ -1,5 +1,20 @@
 [
  {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Jabari Walker",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-24T21:46:08-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Charles Bassey",
+  "from": "day-to-day",
+  "time": "2026-10-24T21:46:08-0400"
+ },
+ {
   "kind": "status_change",
   "team": "GSW",
   "player": "Draymond Green",
