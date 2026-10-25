@@ -1,5 +1,96 @@
 [
  {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Brandon Williams",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Charles Bassey",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Steven Adams",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Calf Strain",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "NYK",
+  "player": "Jose Alvarado",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "VJ Edgecombe",
+  "to": "day-to-day",
+  "injury": "Abdomen Bruise",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Brandin Podziemski",
+  "from": "day-to-day",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Al Horford",
+  "from": "day-to-day",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Draymond Green",
+  "from": "day-to-day",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Stephen Curry",
+  "from": "day-to-day",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "HOU",
+  "player": "Fred VanVleet",
+  "from": "day-to-day",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Aaron Nesmith",
+  "from": "day-to-day",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "ORL",
+  "player": "Anthony Black",
+  "from": "day-to-day",
+  "time": "2026-10-25T17:45:56-0400"
+ },
+ {
   "kind": "status_change",
   "team": "BKN",
   "player": "Tyler Bilodeau",
