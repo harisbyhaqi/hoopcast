@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T18:45:45-0400",
+ "generated": "2026-10-25T19:15:51-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -201,14 +201,14 @@
   },
   {
    "team": "DEN",
-   "player_id": "4592427",
-   "player": "Spencer Jones",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring Not Specified",
+   "player_id": "4065813",
+   "player": "Alpha Diallo",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Wrist",
    "return_date": "2026-10-26",
-   "updated": "2026-10-25T22:36Z",
-   "comment": "Jones (hamstring) is out for Saturday's game against the Pelicans."
+   "updated": "2026-10-25T22:43Z",
+   "comment": "Diallo (wrist) is doubtful for Monday's game against the Warriors."
   },
   {
    "team": "DEN",
@@ -218,19 +218,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-26",
-   "updated": "2026-10-25T13:38Z",
-   "comment": "Head coach David Aldeman said that Johnson is \"day-to-day\" due to his sprained right ankle, Vinny Benedetto of The Denver Gazette reports."
+   "updated": "2026-10-25T22:41Z",
+   "comment": "Johnson (ankle) is doubtful to play Monday against the Warriors."
   },
   {
    "team": "DEN",
-   "player_id": "4065813",
-   "player": "Alpha Diallo",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Wrist",
-   "return_date": "2026-10-26",
-   "updated": "2026-10-25T13:38Z",
-   "comment": "Diallo (wrist) won't play Saturday against the Pelicans."
+   "player_id": "4592427",
+   "player": "Spencer Jones",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring Not Specified",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-25T22:37Z",
+   "comment": "Jones (hamstring) is out for Monday's matchup with the Warriors."
   },
   {
    "team": "DEN",
@@ -352,6 +352,17 @@
    "return_date": "2026-10-28",
    "updated": "2026-10-25T21:24Z",
    "comment": "Adams has been ruled out for Monday's game against the Hawks due to a right soleus strain."
+  },
+  {
+   "team": "IND",
+   "player_id": "4017837",
+   "player": "Ivica Zubac",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-10-25",
+   "updated": "2026-10-25T22:33Z",
+   "comment": "Zubac is questionable to return to Sunday's game in Brooklyn due to a left ankle sprain, Pat Boylan of FanDuel Sports Network Indiana reports."
   },
   {
    "team": "IND",
@@ -610,12 +621,12 @@
    "team": "PHI",
    "player_id": "5124612",
    "player": "VJ Edgecombe",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Abdomen Bruise",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-25T21:08Z",
-   "comment": "Edgecombe has been downgraded to questionable ahead of Sunday's game against the Pistons due to an abdominal contusion."
+   "return_date": "2026-10-28",
+   "updated": "2026-10-25T22:50Z",
+   "comment": "Edgecombe (abdomen) is out for Sunday's game against the Pistons, Adam Aaronson of PhillyVoice.com reports."
   },
   {
    "team": "PHI",
@@ -731,12 +742,12 @@
    "team": "SAC",
    "player_id": "4594327",
    "player": "Keegan Murray",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-25T18:37Z",
-   "comment": "Murray (ankle) has been downgraded to doubtful for Sunday's game against Memphis."
+   "return_date": "2026-10-27",
+   "updated": "2026-10-25T23:05Z",
+   "comment": "Murray (ankle) has been ruled out for Sunday's game against the Grizzlies."
   },
   {
    "team": "SAC",
