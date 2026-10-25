@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T17:45:56-0400",
+ "generated": "2026-10-25T18:45:45-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -203,11 +203,11 @@
    "team": "DEN",
    "player_id": "4592427",
    "player": "Spencer Jones",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Hamstring Not Specified",
    "return_date": "2026-10-26",
-   "updated": "2026-10-25T13:38Z",
+   "updated": "2026-10-25T22:36Z",
    "comment": "Jones (hamstring) is out for Saturday's game against the Pelicans."
   },
   {
@@ -247,12 +247,12 @@
    "team": "DET",
    "player_id": "4684742",
    "player": "Ausar Thompson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle Sprain",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-25T15:48Z",
-   "comment": "Thompson (ankle) did not participate in Sunday morning's shootaround, Coty M. Davis of The Detroit News reports."
+   "return_date": "2026-10-27",
+   "updated": "2026-10-25T22:07Z",
+   "comment": "Thompson (ankle) is out for Sunday's game against the 76ers, Hunter Patterson of The Athletic reports."
   },
   {
    "team": "DET",
@@ -680,8 +680,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Oblique Strain",
    "return_date": "2026-10-26",
-   "updated": "2026-10-25T13:39Z",
-   "comment": "Ighodaro (oblique) has been ruled out for Saturday's game against the Warriors, Duane Rankin of The Arizona Republic reports."
+   "updated": "2026-10-25T22:25Z",
+   "comment": "Ighodaro (oblique) is doubtful for Monday's matchup with the Thunder, Duane Rankin of The Arizona Republic reports."
   },
   {
    "team": "PHX",
@@ -792,6 +792,17 @@
    "return_date": "2026-12-03",
    "updated": "2026-10-05T21:43Z",
    "comment": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports."
+  },
+  {
+   "team": "TOR",
+   "player_id": "6450",
+   "player": "Kawhi Leonard",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Inflammation",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-25T22:03Z",
+   "comment": "Leonard is out for Sunday's game against the Timberwolves due to left knee swelling, Blake Murphy of Sportsnet.ca reports."
   },
   {
    "team": "TOR",

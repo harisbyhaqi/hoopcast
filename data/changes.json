@@ -1,5 +1,31 @@
 [
  {
+  "kind": "status_change",
+  "team": "DEN",
+  "player": "Spencer Jones",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hamstring Not Specified",
+  "time": "2026-10-25T18:45:45-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DET",
+  "player": "Ausar Thompson",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-25T18:45:45-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "TOR",
+  "player": "Kawhi Leonard",
+  "to": "out",
+  "injury": "Knee Inflammation",
+  "time": "2026-10-25T18:45:45-0400"
+ },
+ {
   "kind": "injury_new",
   "team": "GSW",
   "player": "Brandon Williams",
