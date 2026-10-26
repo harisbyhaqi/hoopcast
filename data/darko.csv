@@ -1,520 +1,522 @@
 player,team,dpm,o_dpm,d_dpm,mpg,games,season
 Nikola Jokic,Denver Nuggets,7.08039,5.08745,1.99294,34.1499,2,2027
-Victor Wembanyama,San Antonio Spurs,6.23523,3.79382,2.44141,33.6421,3,2027
-Shai Gilgeous-Alexander,Oklahoma City Thunder,6.1824,5.59396,0.588442,34.1511,2,2027
-Kawhi Leonard,Toronto Raptors,5.70922,4.77689,0.932337,28.4481,2,2027
-Luka Doncic,Los Angeles Lakers,5.27916,5.18405,0.095109,35.2268,2,2027
-Anthony Edwards,Minnesota Timberwolves,4.79,5.05377,-0.263765,34.0227,2,2027
+Victor Wembanyama,San Antonio Spurs,6.23523,3.79382,2.44141,33.8592,3,2027
+Shai Gilgeous-Alexander,Oklahoma City Thunder,6.09374,5.60463,0.489104,34.1545,3,2027
+Kawhi Leonard,Toronto Raptors,5.61387,4.78801,0.825865,31.4405,2,2027
+Luka Doncic,Los Angeles Lakers,5.32561,5.20104,0.124572,36.5514,3,2027
+Anthony Edwards,Minnesota Timberwolves,4.93246,5.22287,-0.290409,33.8754,3,2027
 Jayson Tatum,Boston Celtics,4.48266,4.24715,0.23551,34.6438,2,2027
-Donovan Mitchell,Cleveland Cavaliers,4.33378,4.87929,-0.54551,33.8986,2,2027
-Joel Embiid,Philadelphia 76ers,3.95558,2.64932,1.30625,33.7151,3,2027
+Donovan Mitchell,Cleveland Cavaliers,4.33378,4.87929,-0.54551,33.9037,2,2027
+Cade Cunningham,Detroit Pistons,3.96983,3.62069,0.349135,35.4306,3,2027
+Joel Embiid,Philadelphia 76ers,3.96692,2.66193,1.30498,29.7392,3,2027
 Giannis Antetokounmpo,Miami Heat,3.89409,3.17337,0.720722,30.1749,3,2027
-Chet Holmgren,Oklahoma City Thunder,3.87257,1.55135,2.32122,28.8651,2,2027
-Cade Cunningham,Detroit Pistons,3.76843,3.41896,0.349472,34.9706,2,2027
-Kevin Durant,Houston Rockets,3.62702,3.56835,0.0586705,35.1472,3,2027
-Jamal Murray,Denver Nuggets,3.45029,4.00273,-0.552436,35.0339,2,2027
-OG Anunoby,New York Knicks,3.41465,1.85512,1.55952,32.4765,2,2027
-Karl-Anthony Towns,New York Knicks,3.36904,1.96457,1.40447,30.1906,2,2027
-Ty Jerome,Memphis Grizzlies,3.196,3.61787,-0.421876,30.4521,2,2027
-Scottie Barnes,Toronto Raptors,3.08318,1.36533,1.71785,32.8547,2,2027
-Jalen Brunson,New York Knicks,3.07275,4.05423,-0.981489,34.8415,2,2027
+Kevin Durant,Houston Rockets,3.62702,3.56835,0.0586705,35.1488,3,2027
+Jamal Murray,Denver Nuggets,3.45029,4.00273,-0.552436,35.0317,2,2027
+Chet Holmgren,Oklahoma City Thunder,3.41786,1.0955,2.32236,29.0249,3,2027
+Karl-Anthony Towns,New York Knicks,3.41515,2.06926,1.34589,30.3051,3,2027
+OG Anunoby,New York Knicks,3.36038,1.85884,1.50154,32.3443,3,2027
+Ty Jerome,Memphis Grizzlies,3.24964,3.61823,-0.368591,30.4173,3,2027
+Jalen Brunson,New York Knicks,3.10968,4.11887,-1.00919,34.4489,3,2027
+LaMelo Ball,Minnesota Timberwolves,3.06991,3.39187,-0.321963,28.2778,3,2027
 Bam Adebayo,Miami Heat,3.00934,1.76075,1.2486,31.2159,3,2027
-Aaron Gordon,Denver Nuggets,2.94113,2.43694,0.50419,28.0219,2,2027
-LaMelo Ball,Minnesota Timberwolves,2.8878,3.50221,-0.614412,27.8388,2,2027
-Jarrett Allen,Cleveland Cavaliers,2.85217,0.820681,2.03149,28.1915,2,2027
-Tyrese Maxey,Philadelphia 76ers,2.84051,3.03023,-0.189717,36.9766,3,2027
-Isaiah Hartenstein,Oklahoma City Thunder,2.74265,-0.498819,3.24147,20.2142,2,2027
-Tyrese Haliburton,Indiana Pacers,2.71284,2.60725,0.105587,28.4632,2,2027
-Rudy Gobert,Minnesota Timberwolves,2.59855,-1.17162,3.77017,29.2357,2,2027
-Stephen Curry,Golden State Warriors,2.54787,4.04037,-1.49249,26.7001,2,2027
-James Harden,Cleveland Cavaliers,2.54503,3.11742,-0.572392,32.7475,2,2027
-Jaylen Brown,Philadelphia 76ers,2.54015,3.28068,-0.740535,35.2502,3,2027
-Evan Mobley,Cleveland Cavaliers,2.41974,1.33868,1.08106,33.2646,2,2027
-Neemias Queta,Boston Celtics,2.36066,0.00902727,2.35163,20.7799,2,2027
-Alex Caruso,Oklahoma City Thunder,2.29944,-0.0161771,2.31561,19.5749,2,2027
-Jakob Poeltl,Toronto Raptors,2.28089,-0.145823,2.42671,22.4901,2,2027
+Aaron Gordon,Denver Nuggets,2.94113,2.43694,0.50419,28.0218,2,2027
+Tyrese Haliburton,Indiana Pacers,2.85716,2.76916,0.0880022,28.883,3,2027
+Jarrett Allen,Cleveland Cavaliers,2.85217,0.820681,2.03149,28.1913,2,2027
+Rudy Gobert,Minnesota Timberwolves,2.72201,-1.12125,3.84326,29.2288,3,2027
+Isaiah Hartenstein,Oklahoma City Thunder,2.70591,-0.518162,3.22407,22.8173,3,2027
+Scottie Barnes,Toronto Raptors,2.68344,1.00965,1.67378,31.6637,3,2027
+Tyrese Maxey,Philadelphia 76ers,2.55949,2.66928,-0.109794,36.5694,4,2027
+Stephen Curry,Golden State Warriors,2.54787,4.04037,-1.49249,26.6925,2,2027
+James Harden,Cleveland Cavaliers,2.54503,3.11742,-0.572392,32.7472,2,2027
+Alex Caruso,Oklahoma City Thunder,2.42908,0.0664987,2.36258,21.1829,3,2027
+Evan Mobley,Cleveland Cavaliers,2.41974,1.33868,1.08106,33.2643,2,2027
+Neemias Queta,Boston Celtics,2.36066,0.00902727,2.35163,20.7798,2,2027
 Derrick White,Boston Celtics,2.27132,1.38027,0.891046,32.3842,2,2027
-De'Aaron Fox,San Antonio Spurs,2.25093,2.02205,0.228872,31.6049,3,2027
-Alperen Sengun,Houston Rockets,2.2093,1.18939,1.01991,33.2454,3,2027
-Robert Williams III,Portland Trail Blazers,2.17106,0.173429,1.99764,14.5958,2,2027
+De'Aaron Fox,San Antonio Spurs,2.25093,2.02205,0.228872,31.5953,3,2027
+Alperen Sengun,Houston Rockets,2.2093,1.18939,1.01991,33.2432,3,2027
+Jaylen Brown,Philadelphia 76ers,2.19069,2.90534,-0.714649,35.8816,4,2027
+Jakob Poeltl,Toronto Raptors,2.17391,-0.324183,2.49809,20.9077,3,2027
+Robert Williams III,Portland Trail Blazers,2.17106,0.173429,1.99764,14.5922,2,2027
 Mitchell Robinson,Boston Celtics,2.16604,0.0911343,2.07491,16.2854,2,2027
-Ja Morant,Portland Trail Blazers,2.14746,2.54487,-0.397409,25.3095,2,2027
-Darius Garland,Los Angeles Clippers,2.13903,3.16738,-1.02835,32.0106,2,2027
-Cason Wallace,Oklahoma City Thunder,2.12425,0.439579,1.68467,22.1149,2,2027
-Michael Porter Jr.,Brooklyn Nets,2.12175,2.73406,-0.61231,32.1167,2,2027
-LeBron James,Philadelphia 76ers,2.08607,1.89073,0.195343,32.1686,2,2027
+Ja Morant,Portland Trail Blazers,2.14746,2.54487,-0.397409,25.3059,2,2027
+Lauri Markkanen,Utah Jazz,2.09641,2.22682,-0.130402,32.842,3,2027
 Kyrie Irving,Dallas Mavericks,2.08213,2.39048,-0.308346,20.4274,2,2027
-Steven Adams,Houston Rockets,2.07768,-1.23127,3.30895,5.33147,1,2027
-Deni Avdija,Portland Trail Blazers,1.99459,2.53726,-0.542675,33.8042,2,2027
-Devin Booker,Phoenix Suns,1.99333,3.30364,-1.31031,34.2592,2,2027
-Josh Minott,Brooklyn Nets,1.93657,0.69607,1.2405,6.84783,1,2027
-Jimmy Butler,Golden State Warriors,1.93239,1.32605,0.606339,21.8173,0,2027
-Jalen Williams,Oklahoma City Thunder,1.89505,1.68259,0.212461,29.0906,2,2027
-Lauri Markkanen,Utah Jazz,1.85921,1.99176,-0.132551,31.7755,2,2027
-Austin Reaves,Los Angeles Lakers,1.85265,2.76739,-0.914739,33.2689,2,2027
-Franz Wagner,Orlando Magic,1.75644,1.90189,-0.145449,28.6535,2,2027
-Jalen Duren,Detroit Pistons,1.75544,1.19527,0.560169,22.82,2,2027
+Steven Adams,Houston Rockets,2.07768,-1.23127,3.30895,5.31809,1,2027
+Cason Wallace,Oklahoma City Thunder,2.07727,0.448878,1.6284,17.2481,3,2027
+Josh Minott,Brooklyn Nets,2.07695,1.06691,1.01005,10.8964,2,2027
+Darius Garland,Los Angeles Clippers,2.02518,3.11188,-1.0867,31.6859,3,2027
+Deni Avdija,Portland Trail Blazers,1.99459,2.53726,-0.542675,33.8006,2,2027
+Devin Booker,Phoenix Suns,1.99333,3.30364,-1.31031,34.2609,2,2027
+Michael Porter Jr.,Brooklyn Nets,1.98058,2.68029,-0.699701,30.0089,3,2027
+Jimmy Butler,Golden State Warriors,1.93239,1.32605,0.606339,21.8213,0,2027
+Austin Reaves,Los Angeles Lakers,1.87026,2.87056,-1.0003,34.0882,3,2027
+LeBron James,Philadelphia 76ers,1.81731,1.73251,0.0847933,33.4184,3,2027
+Jalen Williams,Oklahoma City Thunder,1.75208,1.47853,0.273543,31.195,3,2027
+Jalen Duren,Detroit Pistons,1.7511,1.19535,0.555745,24.5802,2,2027
 Nickeil Alexander-Walker,Atlanta Hawks,1.74407,1.6679,0.0761682,31.6618,3,2027
+Franz Wagner,Orlando Magic,1.67392,1.86225,-0.188332,31.4239,3,2027
+Day'Ron Sharpe,Brooklyn Nets,1.6663,-0.110779,1.77708,21.1891,3,2027
 Anthony Davis,Washington Wizards,1.66004,0.163871,1.49617,29.8,3,2027
 Fred VanVleet,Houston Rockets,1.64919,0.451652,1.19754,22.5926,2,2027
-Paul George,Boston Celtics,1.64121,0.617003,1.02421,29.9643,2,2027
-Pascal Siakam,Indiana Pacers,1.63191,1.93335,-0.301442,30.6856,2,2027
-Day'Ron Sharpe,Brooklyn Nets,1.61195,-0.0546601,1.66661,23.4645,2,2027
-Walker Kessler,Los Angeles Lakers,1.5722,0.493729,1.07847,26.3793,2,2027
-Onyeka Okongwu,Atlanta Hawks,1.57202,0.427154,1.14487,27.5047,3,2027
-Derrick Jones Jr.,Los Angeles Clippers,1.56784,0.322418,1.24543,26.0753,2,2027
-Julian Champagnie,San Antonio Spurs,1.52731,0.83184,0.695465,24.0571,3,2027
-Kristaps Porzingis,Golden State Warriors,1.491,0.561377,0.929622,21.9733,0,2027
-Donovan Clingan,Portland Trail Blazers,1.48721,0.0516318,1.43558,23.6284,2,2027
-Donte DiVincenzo,Minnesota Timberwolves,1.48291,0.18378,1.29913,22.0279,0,2027
-Jaren Jackson Jr.,Utah Jazz,1.48007,0.0848062,1.39527,30.2624,2,2027
-Amen Thompson,Houston Rockets,1.45367,1.05283,0.400845,36.5129,3,2027
+Paul George,Boston Celtics,1.64121,0.617003,1.02421,29.9642,2,2027
+Pascal Siakam,Indiana Pacers,1.62538,2.09611,-0.47073,30.3036,3,2027
+Walker Kessler,Los Angeles Lakers,1.61907,0.349793,1.26928,27.0787,3,2027
+Onyeka Okongwu,Atlanta Hawks,1.57202,0.427154,1.14487,27.5048,3,2027
+Sandro Mamukelashvili,Los Angeles Lakers,1.55169,0.962063,0.589625,19.2427,3,2027
+Derrick Jones Jr.,Los Angeles Clippers,1.54808,0.196764,1.35131,26.7277,3,2027
+Julian Champagnie,San Antonio Spurs,1.52731,0.83184,0.695465,24.0381,3,2027
+Kristaps Porzingis,Golden State Warriors,1.491,0.561377,0.929622,21.9773,0,2027
+Donovan Clingan,Portland Trail Blazers,1.48721,0.0516318,1.43558,23.6247,2,2027
+Donte DiVincenzo,Minnesota Timberwolves,1.48291,0.18378,1.29913,22.0528,0,2027
+Jalen Suggs,Orlando Magic,1.46457,-0.108529,1.5731,30.3683,3,2027
+Amen Thompson,Houston Rockets,1.45367,1.05283,0.400845,36.5128,3,2027
 Payton Pritchard,Boston Celtics,1.43561,2.63126,-1.19565,26.7241,2,2027
-Jalen Suggs,Orlando Magic,1.4206,-0.0524756,1.47308,30.3766,2,2027
-Luka Garza,Boston Celtics,1.40755,1.50064,-0.0930908,5.55295,2,2027
-Sandro Mamukelashvili,Los Angeles Lakers,1.40639,0.741321,0.665072,18.7852,2,2027
-Paul Reed,Detroit Pistons,1.38611,0.128164,1.25795,17.0979,2,2027
-Grant Williams,Charlotte Hornets,1.35347,0.39928,0.954191,14.8884,0,2027
-Zion Williamson,New Orleans Pelicans,1.35102,1.73421,-0.38319,23.499,3,2027
-Wendell Carter Jr.,Orlando Magic,1.34857,-0.422019,1.77058,30.0297,2,2027
-Collin Gillespie,Phoenix Suns,1.3434,0.659469,0.683932,21.7032,2,2027
-Ajay Mitchell,Oklahoma City Thunder,1.32801,0.990019,0.337991,21.0033,2,2027
-Kon Knueppel,Charlotte Hornets,1.31753,2.31526,-0.997726,32.3331,0,2027
-Miles McBride,New York Knicks,1.30959,0.759257,0.550335,20.6762,2,2027
-Trae Young,Washington Wizards,1.3004,3.18385,-1.88345,32.7237,3,2027
-Jrue Holiday,Portland Trail Blazers,1.29154,1.28999,0.00155531,24.2486,2,2027
-Stephon Castle,San Antonio Spurs,1.28748,1.55193,-0.264449,31.643,3,2027
-RJ Barrett,Toronto Raptors,1.26467,1.83358,-0.568909,32.9644,2,2027
-Ivica Zubac,Indiana Pacers,1.25798,0.174595,1.08338,23.9487,2,2027
+Wendell Carter Jr.,Orlando Magic,1.42399,-0.48134,1.90532,30.1224,3,2027
+Luka Garza,Boston Celtics,1.40755,1.50064,-0.0930908,5.55294,2,2027
+Miles McBride,New York Knicks,1.39678,0.780881,0.615901,14.948,3,2027
+Grant Williams,Charlotte Hornets,1.35347,0.39928,0.954191,14.8975,0,2027
+Zion Williamson,New Orleans Pelicans,1.35102,1.73421,-0.38319,23.4965,3,2027
+Collin Gillespie,Phoenix Suns,1.3434,0.659469,0.683932,21.7049,2,2027
+Kon Knueppel,Charlotte Hornets,1.31753,2.31526,-0.997726,32.3528,0,2027
+Trae Young,Washington Wizards,1.3004,3.18385,-1.88345,32.7217,3,2027
+Paul Reed,Detroit Pistons,1.29663,0.13326,1.16337,18.8898,3,2027
+Jrue Holiday,Portland Trail Blazers,1.29154,1.28999,0.00155531,24.2534,2,2027
+Stephon Castle,San Antonio Spurs,1.28748,1.55193,-0.264449,31.6335,3,2027
+Ajay Mitchell,Oklahoma City Thunder,1.28457,0.829578,0.454992,23.6774,3,2027
+Matisse Thybulle,Los Angeles Lakers,1.27039,-0.846869,2.11726,20.6297,3,2027
+RJ Barrett,Toronto Raptors,1.27005,1.77206,-0.502008,32.689,3,2027
 Moussa Diabate,Charlotte Hornets,1.24445,0.0182034,1.22624,24.2439,3,2027
+Ivica Zubac,Indiana Pacers,1.21868,0.186091,1.03259,19.9008,3,2027
 CJ McCollum,Atlanta Hawks,1.20163,1.32919,-0.127566,28.2604,3,2027
-Oscar Tshiebwe,Houston Rockets,1.19485,0.959529,0.235325,4.21424,0,2027
-Tari Eason,Houston Rockets,1.18492,-0.331285,1.51621,21.0273,3,2027
-Javonte Green,Detroit Pistons,1.18221,-0.498309,1.68051,11.288,2,2027
-Paolo Banchero,Orlando Magic,1.174,1.47575,-0.30175,35.0596,2,2027
-Toumani Camara,Portland Trail Blazers,1.16721,0.212435,0.954778,28.5376,2,2027
+Oscar Tshiebwe,Houston Rockets,1.19485,0.959529,0.235325,4.21649,0,2027
+Tari Eason,Houston Rockets,1.18492,-0.331285,1.51621,21.0027,3,2027
+Isaiah Joe,Detroit Pistons,1.17205,1.34485,-0.172805,8.38053,3,2027
+Toumani Camara,Portland Trail Blazers,1.16721,0.212435,0.954778,28.5339,2,2027
+Paolo Banchero,Orlando Magic,1.1641,1.46468,-0.300577,30.4702,2,2027
 Marcus Smart,Houston Rockets,1.16147,-0.086622,1.24809,19.8796,2,2027
-Devin Vassell,San Antonio Spurs,1.15831,0.618022,0.54029,31.5559,3,2027
-Jalen Johnson,Atlanta Hawks,1.14702,1.44764,-0.300619,33.5722,3,2027
-Mouhamed Gueye,Atlanta Hawks,1.14151,-0.936517,2.07802,9.22618,0,2027
-Isaiah Joe,Detroit Pistons,1.1009,1.29844,-0.19755,16.0968,2,2027
-Gui Santos,Golden State Warriors,1.08599,0.579466,0.506524,22.5423,3,2027
-Ausar Thompson,Detroit Pistons,1.06804,-1.00011,2.06815,26.1585,2,2027
-Jonathan Isaac,Orlando Magic,1.0541,-1.7935,2.84761,6.94696,0,2027
+Devin Vassell,San Antonio Spurs,1.15831,0.618022,0.54029,31.5464,3,2027
+Jalen Johnson,Atlanta Hawks,1.14702,1.44764,-0.300619,33.5695,3,2027
+Mouhamed Gueye,Atlanta Hawks,1.14151,-0.936517,2.07802,9.22201,0,2027
+Goga Bitadze,Orlando Magic,1.08796,-0.496183,1.58415,7.54213,2,2027
+Gui Santos,Golden State Warriors,1.08599,0.579466,0.506524,22.5424,3,2027
+Ausar Thompson,Detroit Pistons,1.08281,-0.992554,2.07536,25.9585,2,2027
+Jaren Jackson Jr.,Utah Jazz,1.08258,0.0581116,1.02447,29.4303,3,2027
+Jonathan Isaac,Orlando Magic,1.05115,-1.79469,2.84584,7.38305,0,2027
 Brandon Miller,Charlotte Hornets,1.03276,1.63744,-0.604679,31.829,3,2027
-Coby White,Charlotte Hornets,1.03158,2.22186,-1.19029,23.1446,0,2027
-Collin Murray-Boyles,Toronto Raptors,1.02994,0.0403825,0.989562,17.9425,2,2027
-Goga Bitadze,Orlando Magic,1.02585,-0.498289,1.52414,9.6241,2,2027
-Moses Moody,Golden State Warriors,1.02417,0.688354,0.335812,25.5008,0,2027
-Aaron Wiggins,Atlanta Hawks,1.01993,0.591394,0.428533,19.3311,3,2027
-Jalen Smith,Chicago Bulls,1.01131,0.376585,0.634725,22.6992,3,2027
-Dereck Lively II,Dallas Mavericks,0.992222,-0.325644,1.31787,10.2241,0,2027
-Matisse Thybulle,Los Angeles Lakers,0.962652,-1.26337,2.22602,20.128,2,2027
-Reed Sheppard,Houston Rockets,0.958947,0.51392,0.445026,24.8418,2,2027
-Clint Capela,Houston Rockets,0.958894,-1.98794,2.94683,5.43769,2,2027
+Coby White,Charlotte Hornets,1.03158,2.22186,-1.19029,23.1587,0,2027
+Moses Moody,Golden State Warriors,1.02417,0.688354,0.335812,25.5055,0,2027
+Aaron Wiggins,Atlanta Hawks,1.01993,0.591394,0.428533,19.3405,3,2027
+Jalen Smith,Chicago Bulls,1.01131,0.376585,0.634725,22.694,3,2027
+Dereck Lively II,Dallas Mavericks,0.992222,-0.325644,1.31787,10.0249,0,2027
+Desmond Bane,Orlando Magic,0.963199,1.02708,-0.0638769,32.344,3,2027
+Reed Sheppard,Houston Rockets,0.958947,0.51392,0.445026,24.7899,2,2027
+Clint Capela,Houston Rockets,0.958894,-1.98794,2.94683,5.504,2,2027
+Javonte Green,Detroit Pistons,0.951854,-0.625773,1.57763,13.6509,3,2027
 Dyson Daniels,Atlanta Hawks,0.951175,-0.0219202,0.973095,28.9451,3,2027
-Justin Champagnie,Washington Wizards,0.924612,0.718494,0.206118,18.0337,3,2027
-Tobias Harris,San Antonio Spurs,0.923767,0.151554,0.772212,24.5473,0,2027
-Oso Ighodaro,Phoenix Suns,0.91349,-1.07012,1.98361,14.6732,1,2027
-Ryan Rollins,Milwaukee Bucks,0.874709,0.897851,-0.0231418,27.5588,3,2027
-Immanuel Quickley,Toronto Raptors,0.872115,1.20445,-0.332338,27.4664,2,2027
-Jaylin Williams,Oklahoma City Thunder,0.811887,-0.147568,0.959455,14.0376,2,2027
-Josh Hart,New York Knicks,0.809265,-0.00132061,0.810586,30.362,2,2027
-De'Anthony Melton,Golden State Warriors,0.77294,-0.129339,0.902278,20.6084,3,2027
-Grayson Allen,Charlotte Hornets,0.764132,1.35471,-0.590582,22.7633,3,2027
-Brandin Podziemski,Golden State Warriors,0.747958,0.491323,0.256635,29.2591,1,2027
-Desmond Bane,Orlando Magic,0.747116,0.905654,-0.158538,30.9147,2,2027
-Tyler Herro,Milwaukee Bucks,0.738453,2.20364,-1.46519,30.9588,3,2027
+Justin Champagnie,Washington Wizards,0.924612,0.718494,0.206118,18.019,3,2027
+Tobias Harris,San Antonio Spurs,0.923767,0.151554,0.772212,24.5422,0,2027
+Oso Ighodaro,Phoenix Suns,0.91349,-1.07012,1.98361,14.6749,1,2027
+Ryan Rollins,Milwaukee Bucks,0.874709,0.897851,-0.0231418,27.5512,3,2027
+Immanuel Quickley,Toronto Raptors,0.866851,1.09585,-0.229003,28.3492,3,2027
+Collin Murray-Boyles,Toronto Raptors,0.784089,-0.157476,0.941565,18.1601,3,2027
+De'Anthony Melton,Golden State Warriors,0.77294,-0.129339,0.902278,20.6139,3,2027
+Jaden McDaniels,Minnesota Timberwolves,0.765123,-0.24384,1.00896,30.2785,3,2027
+Grayson Allen,Charlotte Hornets,0.764132,1.35471,-0.590582,22.7603,3,2027
+Brandin Podziemski,Golden State Warriors,0.74803,0.491303,0.256726,29.2591,1,2027
+Tyler Herro,Milwaukee Bucks,0.738453,2.20364,-1.46519,30.9629,3,2027
+Josh Hart,New York Knicks,0.699189,-0.050469,0.749658,30.3619,3,2027
+Jaylin Williams,Oklahoma City Thunder,0.684728,-0.278353,0.963081,10.5426,3,2027
 Jabari Smith Jr.,Houston Rockets,0.683867,0.482778,0.201088,34.803,3,2027
-Deandre Ayton,Washington Wizards,0.670473,-0.517932,1.18841,14.8084,3,2027
-Isaiah Jackson,Los Angeles Clippers,0.655082,0.0576735,0.597409,16.9453,2,2027
-Dylan Harper,San Antonio Spurs,0.639912,1.28363,-0.643721,29.3575,3,2027
+Deandre Ayton,Washington Wizards,0.670473,-0.517932,1.18841,14.8085,3,2027
+Dean Wade,Philadelphia 76ers,0.646171,-0.510414,1.15659,22.1106,2,2027
+John Collins,Detroit Pistons,0.645412,0.101705,0.543707,27.531,3,2027
+Jake LaRavia,Los Angeles Lakers,0.643958,-0.851057,1.49502,13.4778,2,2027
+Dylan Harper,San Antonio Spurs,0.639912,1.28363,-0.643721,29.3536,3,2027
 Sam Hauser,Boston Celtics,0.631676,0.928999,-0.297323,17.4055,2,2027
-Jaden McDaniels,Minnesota Timberwolves,0.625865,-0.282062,0.907928,29.4336,2,2027
-Duncan Robinson,Detroit Pistons,0.617431,0.522926,0.0945053,26.5195,2,2027
-Luke Kornet,San Antonio Spurs,0.61318,-1.08863,1.70181,11.8945,3,2027
+Scotty Pippen Jr.,Memphis Grizzlies,0.624563,-0.0627715,0.687335,14.2007,3,2027
+Kris Dunn,Los Angeles Clippers,0.616535,-0.736075,1.35261,27.5848,3,2027
+Luke Kornet,San Antonio Spurs,0.61318,-1.08863,1.70181,11.8849,3,2027
+Jarred Vanderbilt,Los Angeles Lakers,0.602672,-1.22684,1.82951,1.98437,0,2027
 Cameron Johnson,Denver Nuggets,0.590119,0.67875,-0.0886315,21.0528,1,2027
-Zach Edey,Memphis Grizzlies,0.576371,-1.00579,1.58217,18.1602,2,2027
-Jarred Vanderbilt,Los Angeles Lakers,0.570811,-1.26259,1.8334,3.38795,0,2027
-Scotty Pippen Jr.,Memphis Grizzlies,0.562944,0.0203823,0.542562,14.9589,2,2027
-Christian Braun,Denver Nuggets,0.553009,0.598951,-0.0459418,30.9549,2,2027
-DaRon Holmes II,Denver Nuggets,0.544472,0.325846,0.218625,3.98156,1,2027
-Kris Dunn,Los Angeles Clippers,0.537019,-0.858116,1.39514,26.6212,2,2027
-Josh Okogie,Utah Jazz,0.522882,-1.04773,1.57061,7.04621,1,2027
-Damian Lillard,Portland Trail Blazers,0.517497,1.61571,-1.09821,23.7779,2,2027
-Dean Wade,Philadelphia 76ers,0.496972,-0.467793,0.964765,19.3781,1,2027
+Josh Okogie,Utah Jazz,0.584647,-1.00512,1.58977,5.83833,2,2027
+Anthony Black,Orlando Magic,0.58449,-0.634586,1.21908,22.1097,1,2027
+Duncan Robinson,Detroit Pistons,0.557634,0.547705,0.00992864,28.3397,3,2027
+Christian Braun,Denver Nuggets,0.553009,0.598951,-0.0459418,30.9554,2,2027
+DaRon Holmes II,Denver Nuggets,0.544472,0.325846,0.218625,3.98154,1,2027
+Zach Edey,Memphis Grizzlies,0.541183,-1.04619,1.58738,18.2137,2,2027
+Damian Lillard,Portland Trail Blazers,0.517497,1.61571,-1.09821,23.7674,2,2027
+Isaiah Jackson,Los Angeles Clippers,0.492736,0.0100756,0.48266,16.9995,3,2027
 Herbert Jones,New Orleans Pelicans,0.488464,-0.512439,1.0009,15.2306,3,2027
 Ryan Kalkbrenner,Charlotte Hornets,0.476551,-0.372635,0.849186,15.4725,3,2027
-Harrison Barnes,San Antonio Spurs,0.468809,0.443449,0.0253595,4.46977,3,2027
-Jose Alvarado,New York Knicks,0.46781,-0.227041,0.69485,11.7195,2,2027
-Ron Harper Jr.,Boston Celtics,0.452772,0.258627,0.194145,2.34427,0,2027
-Mikal Bridges,New York Knicks,0.429168,0.543999,-0.11483,28.057,2,2027
-Olivier-Maxence Prosper,Memphis Grizzlies,0.424334,0.561354,-0.13702,5.37902,0,2027
-Tristan Vukcevic,Washington Wizards,0.409555,0.25288,0.156676,13.1555,0,2027
-Brandon Ingram,Los Angeles Clippers,0.399711,0.788506,-0.388795,29.26,0,2027
+Harrison Barnes,San Antonio Spurs,0.468809,0.443449,0.0253595,4.46022,3,2027
+Jose Alvarado,New York Knicks,0.461576,-0.212301,0.673877,11.7215,2,2027
+Obi Toppin,Indiana Pacers,0.457276,1.39762,-0.940341,17.9127,3,2027
+Ron Harper Jr.,Boston Celtics,0.452772,0.258627,0.194145,2.34443,0,2027
+Olivier-Maxence Prosper,Memphis Grizzlies,0.422111,0.545349,-0.123238,3.74856,0,2027
+Tristan Vukcevic,Washington Wizards,0.409555,0.25288,0.156676,13.1517,0,2027
+Brandon Ingram,Los Angeles Clippers,0.407176,0.793654,-0.386478,27.4472,0,2027
 Naz Reid,Charlotte Hornets,0.398581,-0.0265258,0.425107,27.4851,3,2027
-Jordan Goodwin,Phoenix Suns,0.392245,-0.340848,0.733093,17.2511,2,2027
-John Collins,Detroit Pistons,0.388841,0.0100058,0.378835,26.1806,2,2027
-Jake LaRavia,Los Angeles Lakers,0.369586,-1.0036,1.37319,14.389,1,2027
+Jordan Goodwin,Phoenix Suns,0.392245,-0.340848,0.733093,17.2528,2,2027
 Brandon Williams,Golden State Warriors,0.357415,0.870575,-0.51316,17.8878,3,2027
-Jamal Shead,Toronto Raptors,0.357257,-0.398543,0.755799,20.0171,2,2027
-Jordan Miller,Los Angeles Clippers,0.357051,0.65253,-0.295479,16.3997,0,2027
-Karlo Matkovic,New Orleans Pelicans,0.351008,-0.615305,0.966314,5.21203,2,2027
-Quenton Jackson,Indiana Pacers,0.319712,0.230601,0.0891104,13.8438,2,2027
-Jordan Walsh,Boston Celtics,0.313336,-0.483729,0.797065,13.382,2,2027
-Cormac Ryan,Milwaukee Bucks,0.297534,0.621745,-0.324211,10.1793,0,2027
+Karlo Matkovic,New Orleans Pelicans,0.356734,-0.615299,0.972034,5.21202,2,2027
+Ja'Kobe Walter,Toronto Raptors,0.353549,0.0077103,0.345839,25.5616,3,2027
+Jordan Miller,Los Angeles Clippers,0.349511,0.654286,-0.304775,15.8217,0,2027
+Jordan Walsh,Boston Celtics,0.312993,-0.483695,0.796687,13.3665,2,2027
+Kenrich Williams,Oklahoma City Thunder,0.300984,-0.454474,0.755457,6.92109,3,2027
+Cormac Ryan,Milwaukee Bucks,0.297534,0.621745,-0.324211,10.1761,0,2027
 Trey Murphy III,New Orleans Pelicans,0.28489,1.21405,-0.929157,32.9693,3,2027
-Anthony Black,Orlando Magic,0.266995,-0.811843,1.07884,23.8108,0,2027
-Kenrich Williams,Oklahoma City Thunder,0.243484,-0.486422,0.729906,5.20919,2,2027
-Julius Randle,Brooklyn Nets,0.238447,0.783906,-0.545459,32.8213,2,2027
-Keon Ellis,Brooklyn Nets,0.22034,-0.797348,1.01769,23.0165,2,2027
-Norman Powell,Chicago Bulls,0.210403,1.25988,-1.04948,28.1674,3,2027
-Jaxson Hayes,Utah Jazz,0.200644,-0.574542,0.775186,20.514,2,2027
-Landry Shamet,New York Knicks,0.196149,-0.140407,0.336555,20.0197,2,2027
-Daniel Gafford,Dallas Mavericks,0.189405,-0.751651,0.941056,20.7088,3,2027
-Kris Murray,Memphis Grizzlies,0.184231,-1.29197,1.47621,6.60385,1,2027
-Keshad Johnson,Miami Heat,0.175048,-0.143416,0.318463,4.99345,0,2027
-Kevin Huerter,Detroit Pistons,0.157918,-0.0479449,0.205863,13.9786,2,2027
-Dejounte Murray,New Orleans Pelicans,0.145484,0.795718,-0.650234,29.6191,3,2027
-Nah'Shon Hyland,Minnesota Timberwolves,0.145274,0.560492,-0.415218,6.07318,2,2027
-Kyle Filipowski,Utah Jazz,0.144739,0.245502,-0.100763,9.86573,2,2027
-Davion Mitchell,Miami Heat,0.129326,0.0407733,0.088553,31.694,3,2027
-Santi Aldama,Dallas Mavericks,0.116366,0.44606,-0.329694,15.3548,0,2027
-Javon Small,Memphis Grizzlies,0.113908,0.625875,-0.511967,16.1801,0,2027
-Josh Green,Utah Jazz,0.109928,-0.532482,0.64241,3.71082,0,2027
-Jalen Green,Phoenix Suns,0.0979606,1.21108,-1.11312,28.5372,2,2027
-Shaedon Sharpe,Portland Trail Blazers,0.0956286,1.16275,-1.06712,18.7789,0,2027
-Jalen Slawson,Indiana Pacers,0.0747676,-1.72421,1.79897,8.90156,1,2027
-Obi Toppin,Indiana Pacers,0.0634402,1.14511,-1.08167,18.2521,2,2027
-Ja'Kobe Walter,Toronto Raptors,0.0218385,-0.317996,0.339835,21.0711,2,2027
-Malevy Leons,Golden State Warriors,0.0215147,-1.187,1.20852,2.7922,2,2027
-A.J. Green,Milwaukee Bucks,0.00698668,0.584792,-0.577805,16.0479,3,2027
-Keegan Murray,Sacramento Kings,-0.0163885,-0.200402,0.184014,24.8603,2,2027
-Domantas Sabonis,Sacramento Kings,-0.0185009,0.321637,-0.340138,30.7466,2,2027
-Sam Merrill,Cleveland Cavaliers,-0.0277787,0.61225,-0.640029,19.8992,2,2027
-Myles Turner,Milwaukee Bucks,-0.0536228,-1.12322,1.06959,25.0353,3,2027
+Mikal Bridges,New York Knicks,0.247073,0.323451,-0.0763782,28.717,3,2027
+Nah'Shon Hyland,Minnesota Timberwolves,0.24608,0.184367,0.0617131,9.39988,3,2027
+Keon Ellis,Brooklyn Nets,0.242678,-0.678223,0.920901,21.4826,3,2027
+Norman Powell,Chicago Bulls,0.210403,1.25988,-1.04948,28.1505,3,2027
+Jamal Shead,Toronto Raptors,0.206301,-0.614611,0.820912,19.0904,3,2027
+Kevin Huerter,Detroit Pistons,0.202968,-0.116113,0.31908,16.8247,3,2027
+Josh Green,Utah Jazz,0.201769,-0.540452,0.742221,1.76838,1,2027
+Jalen Slawson,Indiana Pacers,0.189584,-1.64609,1.83568,6.35112,2,2027
+Daniel Gafford,Dallas Mavericks,0.189405,-0.751651,0.941056,20.7261,3,2027
+Keshad Johnson,Miami Heat,0.175048,-0.143416,0.318463,4.98915,0,2027
+Landry Shamet,New York Knicks,0.168542,-0.184394,0.352936,19.4235,3,2027
+Julius Randle,Brooklyn Nets,0.168303,0.703384,-0.535081,31.9895,3,2027
+Kris Murray,Memphis Grizzlies,0.145892,-1.2922,1.43809,8.03933,1,2027
+Dejounte Murray,New Orleans Pelicans,0.145484,0.795718,-0.650234,29.6206,3,2027
+Jaxson Hayes,Utah Jazz,0.133311,-0.547056,0.680367,18.2515,3,2027
+Davion Mitchell,Miami Heat,0.129326,0.0407733,0.088553,31.6546,3,2027
+Javon Small,Memphis Grizzlies,0.125647,0.639038,-0.51339,15.7378,0,2027
+Kyle Filipowski,Utah Jazz,0.122855,0.243998,-0.121143,8.93434,2,2027
+Santi Aldama,Dallas Mavericks,0.116366,0.44606,-0.329694,15.3489,0,2027
+Jalen Green,Phoenix Suns,0.0979606,1.21108,-1.11312,28.5388,2,2027
+Shaedon Sharpe,Portland Trail Blazers,0.0956286,1.16275,-1.06712,18.7764,0,2027
+Jonathan Kuminga,Minnesota Timberwolves,0.0488376,0.153866,-0.105028,26.8526,3,2027
+Aaron Nesmith,Indiana Pacers,0.0259327,0.433333,-0.407401,21.3481,2,2027
+Malevy Leons,Golden State Warriors,0.0215147,-1.187,1.20852,2.79221,2,2027
+A.J. Green,Milwaukee Bucks,0.00698668,0.584792,-0.577805,16.0392,3,2027
+Domantas Sabonis,Sacramento Kings,0.00399745,0.318067,-0.31407,30.4661,3,2027
+Keegan Murray,Sacramento Kings,-0.0113935,-0.210541,0.199147,24.3771,2,2027
+Sam Merrill,Cleveland Cavaliers,-0.0277787,0.61225,-0.640029,19.8989,2,2027
+Myles Turner,Milwaukee Bucks,-0.0536228,-1.12322,1.06959,25.0255,3,2027
 Tre Jones,Chicago Bulls,-0.0567626,0.775631,-0.832394,18.9269,3,2027
-Marcus Sasser,Dallas Mavericks,-0.0601527,0.137911,-0.198064,18.3577,3,2027
-Aaron Nesmith,Indiana Pacers,-0.077553,0.367111,-0.444664,19.6079,1,2027
-Sidy Cissoko,Portland Trail Blazers,-0.0835679,-1.18739,1.10382,15.751,2,2027
-Jaime Jaquez Jr.,Milwaukee Bucks,-0.119418,0.482203,-0.60162,27.9381,3,2027
-Micah Potter,Portland Trail Blazers,-0.129769,0.0668119,-0.196581,9.54206,1,2027
-Simone Fontecchio,Miami Heat,-0.137283,0.0774325,-0.214715,6.04326,2,2027
-Jamir Watkins,Washington Wizards,-0.138873,-0.656504,0.517631,8.08118,0,2027
-Miles Bridges,Phoenix Suns,-0.1488,0.820889,-0.969689,29.3718,2,2027
+Marcus Sasser,Dallas Mavericks,-0.0601527,0.137911,-0.198064,18.3528,3,2027
+Sidy Cissoko,Portland Trail Blazers,-0.0835679,-1.18739,1.10382,15.7473,2,2027
+Jay Huff,Indiana Pacers,-0.0909609,-0.542763,0.451802,12.8709,2,2027
+Jaime Jaquez Jr.,Milwaukee Bucks,-0.119418,0.482203,-0.60162,27.9305,3,2027
+Collin Sexton,Los Angeles Lakers,-0.12695,0.592902,-0.719852,18.9586,2,2027
+Micah Potter,Portland Trail Blazers,-0.129769,0.0668119,-0.196581,9.53844,1,2027
+Simone Fontecchio,Miami Heat,-0.137283,0.0774325,-0.214715,6.04325,2,2027
+Jamir Watkins,Washington Wizards,-0.138873,-0.656504,0.517631,8.08119,0,2027
+Miles Bridges,Phoenix Suns,-0.1488,0.820889,-0.969689,29.3735,2,2027
 Gary Payton II,Golden State Warriors,-0.153668,-0.315127,0.161459,12.5849,3,2027
-Jonathan Kuminga,Minnesota Timberwolves,-0.156191,0.0245995,-0.18079,24.8835,2,2027
-Ronald Holland II,Detroit Pistons,-0.160345,-1.26156,1.10122,10.022,2,2027
-Keldon Johnson,San Antonio Spurs,-0.162788,0.202424,-0.365212,17.919,3,2027
-Collin Sexton,Los Angeles Lakers,-0.167436,0.480841,-0.648278,16.5067,1,2027
+Keldon Johnson,San Antonio Spurs,-0.162788,0.202424,-0.365212,17.9094,3,2027
+Trey Lyles,Minnesota Timberwolves,-0.166539,-0.716423,0.549884,13.6686,3,2027
+Ronald Holland II,Detroit Pistons,-0.169989,-1.69254,1.52255,12.3296,3,2027
 Draymond Green,Golden State Warriors,-0.17086,-2.31738,2.14652,25.6942,2,2027
-Charles Bassey,Golden State Warriors,-0.18375,-0.658125,0.474375,7.31813,1,2027
-Dylan Cardwell,Sacramento Kings,-0.184191,-1.46645,1.28225,11.9047,0,2027
-Noa Essengue,Chicago Bulls,-0.193078,-1.01441,0.821332,10.253,2,2027
-Saddiq Bey,New Orleans Pelicans,-0.198787,1.00008,-1.19886,23.0724,3,2027
-Luke Kennard,Phoenix Suns,-0.201662,0.527324,-0.728987,17.449,1,2027
-Jaylen Clark,Minnesota Timberwolves,-0.216611,-0.742993,0.526383,2.25882,2,2027
-Baylor Scheierman,Boston Celtics,-0.220308,-0.389818,0.16951,9.77734,2,2027
-Joan Beringer,Minnesota Timberwolves,-0.229195,0.210308,-0.439503,10.6609,2,2027
-Cam Spencer,Memphis Grizzlies,-0.248911,0.775488,-1.0244,15.3796,2,2027
-Devin Carter,Boston Celtics,-0.273508,-0.131944,-0.141564,14.5916,0,2027
-Dominick Barlow,Philadelphia 76ers,-0.281089,-0.941753,0.660665,14.4292,0,2027
-Trey Lyles,Minnesota Timberwolves,-0.283105,-0.608873,0.325768,14.0161,2,2027
+Dylan Cardwell,Sacramento Kings,-0.18287,-1.46944,1.28657,12.821,0,2027
+Charles Bassey,Golden State Warriors,-0.18375,-0.658125,0.474375,7.31815,1,2027
+Noa Essengue,Chicago Bulls,-0.193078,-1.01441,0.821332,10.4978,2,2027
+Saddiq Bey,New Orleans Pelicans,-0.198787,1.00008,-1.19886,23.0723,3,2027
+Luke Kennard,Phoenix Suns,-0.201662,0.527324,-0.728987,17.4456,1,2027
+Baylor Scheierman,Boston Celtics,-0.220308,-0.389818,0.16951,9.77733,2,2027
+Quenton Jackson,Indiana Pacers,-0.228842,-0.126527,-0.102315,14.3259,3,2027
+Precious Achiuwa,Sacramento Kings,-0.236232,0.0328427,-0.269075,26.5014,3,2027
+Cam Spencer,Memphis Grizzlies,-0.248058,0.839485,-1.08754,15.0136,3,2027
+Devin Carter,Boston Celtics,-0.273508,-0.131944,-0.141564,14.5925,0,2027
+Dominick Barlow,Philadelphia 76ers,-0.281089,-0.941753,0.660665,14.5176,0,2027
 Pelle Larsson,Miami Heat,-0.288698,-0.00171266,-0.286985,26.5937,3,2027
-Kasparas Jakučionis,Milwaukee Bucks,-0.298685,-0.307202,0.0085171,17.3533,3,2027
-Ayo Dosunmu,Minnesota Timberwolves,-0.300734,0.154152,-0.454886,24.3623,2,2027
-Mark Williams,Phoenix Suns,-0.307694,0.0511999,-0.358894,21.0708,0,2027
-Luguentz Dort,Atlanta Hawks,-0.314455,-0.915893,0.601438,18.3676,3,2027
-Julian Phillips,Houston Rockets,-0.316447,-0.407793,0.0913457,2.7952,0,2027
-Precious Achiuwa,Sacramento Kings,-0.338576,-0.181295,-0.157281,23.6682,2,2027
-Jay Huff,Indiana Pacers,-0.340512,-0.738547,0.398035,4.80346,1,2027
-Max Strus,Los Angeles Clippers,-0.346991,0.053643,-0.400634,15.0696,0,2027
-Josh Giddey,Chicago Bulls,-0.34974,0.330545,-0.680285,27.6024,3,2027
+Kasparas Jakučionis,Milwaukee Bucks,-0.298685,-0.307202,0.0085171,17.3628,3,2027
+Jaylen Clark,Minnesota Timberwolves,-0.300331,-0.860201,0.55987,4.26539,3,2027
+Mark Williams,Phoenix Suns,-0.307694,0.0511999,-0.358894,21.0676,0,2027
+Luguentz Dort,Atlanta Hawks,-0.314455,-0.915893,0.601438,18.3742,3,2027
+Kelly Oubre Jr.,Indiana Pacers,-0.316264,0.110401,-0.426665,19.6182,3,2027
+Julian Phillips,Houston Rockets,-0.316447,-0.407793,0.0913457,2.7967,0,2027
+Daniss Jenkins,Detroit Pistons,-0.347446,-0.498599,0.151153,25.0123,3,2027
+Josh Giddey,Chicago Bulls,-0.34974,0.330545,-0.680285,27.6087,3,2027
 Cooper Flagg,Dallas Mavericks,-0.359769,0.436287,-0.796057,29.4925,2,2027
-Kentavious Caldwell-Pope,Philadelphia 76ers,-0.37256,-0.699658,0.327098,21.4047,3,2027
-Nae'Qwan Tomlin,Cleveland Cavaliers,-0.381424,-0.387083,0.00565958,7.00539,0,2027
-Moussa Cisse,Dallas Mavericks,-0.386457,-1.34549,0.959036,5.16822,3,2027
-Dillon Brooks,Phoenix Suns,-0.389449,0.57496,-0.964409,28.734,2,2027
-Brook Lopez,Los Angeles Clippers,-0.405421,-1.86089,1.45547,20.7381,2,2027
+Max Strus,Los Angeles Clippers,-0.370543,0.0430227,-0.413566,14.9385,0,2027
+Cedric Coward,Memphis Grizzlies,-0.381161,0.316688,-0.697849,26.5848,2,2027
+Nae'Qwan Tomlin,Cleveland Cavaliers,-0.381424,-0.387083,0.00565958,7.0022,0,2027
+Moussa Cisse,Dallas Mavericks,-0.386533,-1.34553,0.958998,5.16823,3,2027
+Dillon Brooks,Phoenix Suns,-0.389449,0.57496,-0.964409,28.7357,2,2027
 Will Richard,Golden State Warriors,-0.407804,-0.820521,0.412717,15.5191,3,2027
-Hugo González,Boston Celtics,-0.411914,-1.37294,0.961029,3.34108,2,2027
+Hugo González,Boston Celtics,-0.411914,-1.37294,0.961029,3.34791,2,2027
 Yves Missi,New Orleans Pelicans,-0.421418,-0.720191,0.298772,17.2348,2,2027
-VJ Edgecombe,Philadelphia 76ers,-0.441731,-0.317,-0.124731,33.2147,3,2027
-Bogdan Bogdanovic,Houston Rockets,-0.447035,-0.460283,0.0132477,9.5565,3,2027
-Vit Krejci,Portland Trail Blazers,-0.448558,-0.712465,0.263907,3.63188,2,2027
-Svi Mykhailiuk,Utah Jazz,-0.45573,0.539205,-0.994935,15.1336,2,2027
-Dru Smith,Miami Heat,-0.455922,-1.0268,0.570879,5.64211,1,2027
-Kelly Oubre Jr.,Indiana Pacers,-0.463026,-0.0620957,-0.40093,18.6746,2,2027
-Ryan Dunn,Phoenix Suns,-0.46503,-1.5284,1.06337,9.76119,2,2027
-Thomas Bryant,Cleveland Cavaliers,-0.49537,-0.446388,-0.0489819,2.77186,0,2027
-Jusuf Nurkic,Utah Jazz,-0.496492,-2.05558,1.55909,10.8752,0,2027
-Myron Gardner,Miami Heat,-0.515809,-0.838287,0.322478,4.08199,2,2027
-Cedric Coward,Memphis Grizzlies,-0.522697,0.21532,-0.738017,24.3337,1,2027
-Tacko Fall,Philadelphia 76ers,-0.524029,-2.25383,1.7298,3.13899,0,2027
-Andrew Nembhard,Indiana Pacers,-0.570845,0.470034,-1.04088,29.7669,2,2027
-Isaiah Crawford,Houston Rockets,-0.575197,-0.478988,-0.0962098,0.593535,2,2027
-Yaxel Lendeborg,Golden State Warriors,-0.587877,-0.0120678,-0.575809,27.2472,3,2027
-Ben Simmons,Sacramento Kings,-0.600402,-2.38884,1.78844,7.48938,0,2027
-Tristan da Silva,Orlando Magic,-0.604345,-0.520536,-0.0838091,19.8508,2,2027
+VJ Edgecombe,Philadelphia 76ers,-0.440813,-0.333259,-0.107554,29.67,3,2027
+Joan Beringer,Minnesota Timberwolves,-0.4446,-0.00535263,-0.439247,11.7003,3,2027
+Bogdan Bogdanovic,Houston Rockets,-0.447035,-0.460283,0.0132477,9.53746,3,2027
+Vit Krejci,Portland Trail Blazers,-0.448558,-0.712465,0.263907,3.62826,2,2027
+Dru Smith,Miami Heat,-0.455922,-1.0268,0.570879,5.64422,1,2027
+Ryan Dunn,Phoenix Suns,-0.46503,-1.5284,1.06337,9.76287,2,2027
+Thomas Bryant,Cleveland Cavaliers,-0.49537,-0.446388,-0.0489819,2.7706,0,2027
+Ayo Dosunmu,Minnesota Timberwolves,-0.503528,0.041594,-0.545122,23.6955,3,2027
+Brook Lopez,Los Angeles Clippers,-0.51423,-1.91307,1.39884,20.4656,3,2027
+Myron Gardner,Miami Heat,-0.515809,-0.838287,0.322478,4.08198,2,2027
+Ziaire Williams,Los Angeles Lakers,-0.517343,-1.10745,0.590105,26.4433,3,2027
+Tacko Fall,Philadelphia 76ers,-0.523171,-2.25027,1.7271,4.10843,0,2027
+Jusuf Nurkic,Utah Jazz,-0.53979,-2.08736,1.54757,10.767,0,2027
+Svi Mykhailiuk,Utah Jazz,-0.549486,0.390114,-0.939601,12.6605,3,2027
+Kentavious Caldwell-Pope,Philadelphia 76ers,-0.568442,-0.853233,0.284791,20.8776,4,2027
+Andrew Nembhard,Indiana Pacers,-0.571176,0.529131,-1.10031,29.3181,3,2027
+Isaiah Crawford,Houston Rockets,-0.575197,-0.478988,-0.0962098,0.596947,2,2027
+Ben Simmons,Sacramento Kings,-0.580321,-2.36758,1.78726,8.34911,0,2027
+Yaxel Lendeborg,Golden State Warriors,-0.587877,-0.0120678,-0.575809,27.2485,3,2027
+Tristan da Silva,Orlando Magic,-0.604662,-0.474097,-0.130565,20.8809,3,2027
+Jaylen Wells,Memphis Grizzlies,-0.625383,0.296372,-0.921756,26.463,3,2027
 Jock Landale,Atlanta Hawks,-0.628132,-0.740276,0.112144,15.6906,3,2027
-Jaylon Tyson,Cleveland Cavaliers,-0.649174,-0.155387,-0.493788,18.2765,2,2027
-Scoot Henderson,Portland Trail Blazers,-0.654002,-0.0156936,-0.638308,20.3086,2,2027
-Taylor Hendricks,Memphis Grizzlies,-0.659055,-0.42514,-0.233915,5.12904,0,2027
-Rocco Zikarsky,Minnesota Timberwolves,-0.674083,-1.85027,1.17619,3.69566,0,2027
-David Jones,San Antonio Spurs,-0.682965,-0.508323,-0.174642,3.06499,1,2027
-Daniss Jenkins,Detroit Pistons,-0.692383,-0.650262,-0.0421212,18.3228,2,2027
-Quinten Post,Memphis Grizzlies,-0.696893,-0.891267,0.194375,14.9794,2,2027
-Asa Newell,Atlanta Hawks,-0.699817,-0.55153,-0.148288,4.33654,1,2027
-Kel'el Ware,Milwaukee Bucks,-0.700691,-0.156277,-0.544414,17.7292,3,2027
-Johnny Furphy,Indiana Pacers,-0.712354,-1.48903,0.776676,9.13387,0,2027
-Buddy Hield,Chicago Bulls,-0.718234,-0.431348,-0.286886,11.4713,3,2027
-Jamaree Bouyea,Phoenix Suns,-0.719017,-1.09268,0.373663,4.32387,1,2027
-Jared McCain,Oklahoma City Thunder,-0.720831,0.576223,-1.29705,17.2437,2,2027
-T.J. McConnell,Indiana Pacers,-0.727701,-0.122539,-0.605161,13.8293,0,2027
-Pacôme Dadiet,New York Knicks,-0.735858,-0.134514,-0.601343,3.08061,0,2027
-Noah Penda,Orlando Magic,-0.744915,-1.18108,0.436169,7.35687,0,2027
-Jonathan Mogbo,Sacramento Kings,-0.750666,-2.28469,1.53402,4.04035,1,2027
-Malachi Smith,Toronto Raptors,-0.759262,-0.410268,-0.348994,6.17449,0,2027
-Brice Sensabaugh,Utah Jazz,-0.759761,1.14982,-1.90958,14.8978,2,2027
-Branden Carlson,Portland Trail Blazers,-0.762047,-0.518286,-0.243761,7.89748,0,2027
-Adem Bona,Philadelphia 76ers,-0.763752,-1.59657,0.832823,8.69444,3,2027
-Kevon Looney,Los Angeles Lakers,-0.788952,-1.86812,1.07917,4.20717,2,2027
-Jaylen Wells,Memphis Grizzlies,-0.794587,0.236634,-1.03122,24.7046,2,2027
+Jaylon Tyson,Cleveland Cavaliers,-0.649174,-0.155387,-0.493788,18.2762,2,2027
+Scoot Henderson,Portland Trail Blazers,-0.654002,-0.0156936,-0.638308,20.2747,2,2027
+David Jones,San Antonio Spurs,-0.682965,-0.508323,-0.174642,3.05544,1,2027
+Asa Newell,Atlanta Hawks,-0.699817,-0.55153,-0.148288,4.33655,1,2027
+Kel'el Ware,Milwaukee Bucks,-0.700691,-0.156277,-0.544414,17.7252,3,2027
+Trayce Jackson-Davis,Toronto Raptors,-0.71402,-0.735945,0.0219245,4.17424,3,2027
+Buddy Hield,Chicago Bulls,-0.718234,-0.431348,-0.286886,11.4699,3,2027
+Jamaree Bouyea,Phoenix Suns,-0.719017,-1.09268,0.373663,4.30556,1,2027
+Johnny Furphy,Indiana Pacers,-0.721747,-1.48904,0.767292,8.33172,0,2027
+Taylor Hendricks,Memphis Grizzlies,-0.721808,-0.422676,-0.299132,3.80518,1,2027
+T.J. McConnell,Indiana Pacers,-0.725797,-0.122537,-0.60326,12.5253,0,2027
+Pacôme Dadiet,New York Knicks,-0.737356,-0.136539,-0.600818,2.98786,0,2027
+Malachi Smith,Toronto Raptors,-0.75773,-0.410266,-0.347463,7.11162,0,2027
+Brice Sensabaugh,Utah Jazz,-0.758421,1.14637,-1.90479,16.0588,3,2027
+Branden Carlson,Portland Trail Blazers,-0.762047,-0.518286,-0.243761,7.89641,0,2027
+Noah Penda,Orlando Magic,-0.795804,-1.18249,0.386689,7.18973,0,2027
 Leonard Miller,Chicago Bulls,-0.799058,0.0129635,-0.812021,18.6444,3,2027
-Zach Collins,Chicago Bulls,-0.804135,-1.82955,1.02542,5.67329,2,2027
-Craig Porter,Cleveland Cavaliers,-0.808932,-1.50452,0.695587,4.86884,2,2027
-Jabari Walker,Philadelphia 76ers,-0.819292,-0.801184,-0.018108,6.03302,3,2027
-Quentin Grimes,Los Angeles Lakers,-0.855332,-0.281165,-0.574168,23.8112,2,2027
-Elijah Harkless,Detroit Pistons,-0.877793,-1.63602,0.758225,8.91701,0,2027
-Keaton Wagler,Los Angeles Clippers,-0.88499,-0.613646,-0.271344,18.6408,2,2027
-Tristan Enaruna,Cleveland Cavaliers,-0.891223,-0.665976,-0.225248,2.69885,0,2027
-Al Horford,Golden State Warriors,-0.9158,-1.40639,0.490593,15.4984,2,2027
+Zach Collins,Chicago Bulls,-0.804135,-1.82955,1.02542,5.6733,2,2027
+Craig Porter,Cleveland Cavaliers,-0.808932,-1.50452,0.695587,4.86857,2,2027
+Kevon Looney,Los Angeles Lakers,-0.814052,-1.83052,1.01646,4.80126,3,2027
+Jabari Walker,Philadelphia 76ers,-0.814195,-0.796466,-0.0177293,6.05347,3,2027
+Keaton Wagler,Los Angeles Clippers,-0.81577,-0.334718,-0.481052,17.9947,3,2027
+Quentin Grimes,Los Angeles Lakers,-0.826943,-0.317808,-0.509135,21.3248,3,2027
+Rocco Zikarsky,Minnesota Timberwolves,-0.827365,-1.85419,1.02682,3.31549,0,2027
+Quinten Post,Memphis Grizzlies,-0.827893,-0.818843,-0.00904918,13.9971,3,2027
+Jonathan Mogbo,Sacramento Kings,-0.841231,-2.29832,1.45709,6.01861,2,2027
+Dalton Knecht,New York Knicks,-0.857789,-0.00718292,-0.850606,6.15806,0,2027
+Elijah Harkless,Detroit Pistons,-0.879592,-1.63585,0.756262,4.75058,0,2027
+Tristan Enaruna,Cleveland Cavaliers,-0.891223,-0.665976,-0.225248,2.69762,0,2027
+Al Horford,Golden State Warriors,-0.9158,-1.40639,0.490593,15.4985,2,2027
 Andrew Wiggins,Miami Heat,-0.932878,-0.67645,-0.256428,24.6607,3,2027
-Pete Nance,Milwaukee Bucks,-0.939404,-1.21846,0.279056,10.9165,0,2027
-Rui Hachimura,Los Angeles Clippers,-0.943079,-0.444612,-0.498467,29.7303,2,2027
-AJ Dybantsa,Washington Wizards,-0.957998,-0.404082,-0.553916,20.904,0,2027
-Malik Monk,Sacramento Kings,-0.968434,0.433787,-1.40222,10.7563,1,2027
-Colin Castleton,Orlando Magic,-0.96963,-1.5558,0.58617,2.10858,1,2027
-Jevon Carter,Orlando Magic,-0.985679,-0.873205,-0.112474,6.37283,1,2027
-Ziaire Williams,Los Angeles Lakers,-0.994148,-1.40864,0.414492,25.6402,2,2027
-Danny Wolf,Brooklyn Nets,-1.00014,-1.31172,0.311581,3.82809,0,2027
-Justin Edwards,Philadelphia 76ers,-1.00252,-0.436459,-0.566065,2.59801,1,2027
-Yanic Konan Niederhäuser,Los Angeles Clippers,-1.03274,-1.57473,0.541997,7.5539,0,2027
-Thomas Sorber,Oklahoma City Thunder,-1.05729,-0.745876,-0.311417,4.67538,0,2027
-Chaney Johnson,Brooklyn Nets,-1.06194,-1.28022,0.218272,14.8221,2,2027
-Nikola Topić,Oklahoma City Thunder,-1.06923,-0.566371,-0.502857,4.32581,0,2027
-Brayden Burries,Milwaukee Bucks,-1.08638,-0.536341,-0.550035,9.0917,3,2027
-Jordan McLaughlin,San Antonio Spurs,-1.09491,-1.22902,0.134103,0.444823,1,2027
-Tony Bradley,Utah Jazz,-1.10728,-1.91298,0.8057,3.67599,0,2027
-Tim Hardaway Jr.,Miami Heat,-1.10842,0.127476,-1.23589,18.6118,3,2027
-Harrison Ingram,Utah Jazz,-1.11985,-1.1213,0.00144925,1.93298,0,2027
-Tyler Kolek,New York Knicks,-1.14932,-0.574835,-0.574486,4.30675,0,2027
-Riley Minix,Cleveland Cavaliers,-1.15135,-0.502377,-0.648973,2.45712,0,2027
+Pete Nance,Milwaukee Bucks,-0.939404,-1.21846,0.279056,10.9131,0,2027
+Jared McCain,Oklahoma City Thunder,-0.94607,0.457364,-1.40343,19.1028,3,2027
+AJ Dybantsa,Washington Wizards,-0.957998,-0.404082,-0.553916,20.898,0,2027
+Allen Graves,Toronto Raptors,-0.963355,-1.44946,0.486108,10.0596,3,2027
+Rui Hachimura,Los Angeles Clippers,-0.978509,-0.498066,-0.480443,27.6765,3,2027
+Jevon Carter,Orlando Magic,-0.980679,-0.873321,-0.107359,6.32241,1,2027
+Justin Edwards,Philadelphia 76ers,-0.981059,-0.411896,-0.569163,4.645,1,2027
+Colin Castleton,Orlando Magic,-0.983244,-1.56583,0.582585,5.64281,1,2027
+Malik Monk,Sacramento Kings,-1.03971,0.356839,-1.39655,11.2299,2,2027
+Yanic Konan Niederhäuser,Los Angeles Clippers,-1.04449,-1.57396,0.529471,6.89411,0,2027
+Jamison Battle,Toronto Raptors,-1.05328,-0.299331,-0.753948,8.02416,3,2027
+Thomas Sorber,Oklahoma City Thunder,-1.05729,-0.745876,-0.311415,4.15122,0,2027
+Nikola Topić,Oklahoma City Thunder,-1.06854,-0.56634,-0.502203,4.20688,0,2027
+Brayden Burries,Milwaukee Bucks,-1.08638,-0.536341,-0.550035,9.08411,3,2027
+Jordan McLaughlin,San Antonio Spurs,-1.09491,-1.22902,0.134103,0.439643,1,2027
+Harrison Ingram,Utah Jazz,-1.09851,-1.10044,0.00193079,1.96932,0,2027
+Adem Bona,Philadelphia 76ers,-1.10146,-1.80753,0.706064,11.6883,4,2027
+Tim Hardaway Jr.,Miami Heat,-1.10842,0.127476,-1.23589,18.6057,3,2027
+Tony Bradley,Utah Jazz,-1.11198,-1.91298,0.801002,2.70234,0,2027
+Kobe Sanders,Los Angeles Clippers,-1.12703,-0.995785,-0.13124,12.3369,3,2027
+Micah Peavy,Oklahoma City Thunder,-1.1337,-1.52802,0.394321,7.53882,0,2027
+Riley Minix,Cleveland Cavaliers,-1.15135,-0.502377,-0.648973,2.456,0,2027
+Andre Drummond,New York Knicks,-1.17462,-2.48828,1.31366,9.71219,3,2027
 Matas Buzelis,Chicago Bulls,-1.18412,0.0965605,-1.28068,28.3065,3,2027
-Trayce Jackson-Davis,Toronto Raptors,-1.20442,-0.905171,-0.299253,3.1775,2,2027
-Cameron Boozer,Memphis Grizzlies,-1.20663,-0.902368,-0.304261,30.1096,2,2027
-Liam McNeeley,Charlotte Hornets,-1.22127,-0.950387,-0.270879,4.73461,2,2027
-Andre Drummond,New York Knicks,-1.22664,-2.51402,1.28738,10.8729,2,2027
-Jerami Grant,Memphis Grizzlies,-1.26209,-0.835148,-0.426943,21.0671,2,2027
-Rasheer Fleming,Phoenix Suns,-1.26599,-1.66912,0.403124,5.52225,1,2027
+Liam McNeeley,Charlotte Hornets,-1.22127,-0.950387,-0.270879,4.7346,2,2027
+Nikola Vucevic,Orlando Magic,-1.23456,-1.68144,0.446888,7.96352,3,2027
+Chris Mañon,Los Angeles Lakers,-1.2413,-1.59962,0.358317,4.54366,1,2027
+Jerami Grant,Memphis Grizzlies,-1.24241,-0.955581,-0.286828,20.7564,3,2027
+Tolu Smith,Detroit Pistons,-1.25555,-1.6345,0.378952,2.21327,2,2027
+Rasheer Fleming,Phoenix Suns,-1.26599,-1.66912,0.403124,5.52394,1,2027
 Bobby Portis,Miami Heat,-1.26704,-0.345641,-0.9214,21.407,3,2027
-Georges Niang,Golden State Warriors,-1.27973,-0.755857,-0.523873,11.6529,3,2027
-Dorian Finney-Smith,Atlanta Hawks,-1.28411,-2.29285,1.00873,5.88808,1,2027
-Zeke Nnaji,Denver Nuggets,-1.28852,-2.36215,1.07363,2.42325,0,2027
-Peyton Watson,Cleveland Cavaliers,-1.2893,-0.80565,-0.483649,27.9576,2,2027
-Spencer Jones,Denver Nuggets,-1.28959,-1.63227,0.342679,15.6083,0,2027
-Kobe Sanders,Los Angeles Clippers,-1.29357,-1.01631,-0.277253,12.3847,2,2027
-Jamison Battle,Toronto Raptors,-1.29812,-0.570391,-0.727731,7.87911,2,2027
-Egor Dëmin,Brooklyn Nets,-1.29963,-0.758402,-0.541226,27.7793,2,2027
-Isaiah Evans,Minnesota Timberwolves,-1.3052,-1.33912,0.0339268,1.74486,2,2027
+Chaney Johnson,Brooklyn Nets,-1.27735,-1.32664,0.0492895,14.6474,3,2027
+Danny Wolf,Brooklyn Nets,-1.27801,-1.35238,0.0743655,8.32219,1,2027
+Georges Niang,Golden State Warriors,-1.27973,-0.755857,-0.523873,11.653,3,2027
+Dorian Finney-Smith,Atlanta Hawks,-1.28411,-2.29285,1.00873,5.88809,1,2027
+Zeke Nnaji,Denver Nuggets,-1.28852,-2.36215,1.07363,2.4259,0,2027
+Peyton Watson,Cleveland Cavaliers,-1.2893,-0.80565,-0.483649,27.9573,2,2027
+Spencer Jones,Denver Nuggets,-1.28959,-1.63227,0.342679,15.6254,0,2027
 Naji Marshall,Dallas Mavericks,-1.31517,-0.504589,-0.810576,24.9188,3,2027
-Trey Alexander,Utah Jazz,-1.32101,-1.12322,-0.197797,4.12752,0,2027
-Keyonte George,Utah Jazz,-1.32751,0.887564,-2.21507,28.7644,2,2027
-Ariel Hukporti,Philadelphia 76ers,-1.33169,-2.67813,1.34644,6.47059,0,2027
+Trey Alexander,Utah Jazz,-1.32152,-1.12391,-0.197609,3.88657,0,2027
+Ariel Hukporti,Philadelphia 76ers,-1.32644,-2.67788,1.35144,8.81785,0,2027
 Jeremiah Fears,New Orleans Pelicans,-1.33544,-0.151619,-1.18382,24.6613,3,2027
-Chris Mañon,Los Angeles Lakers,-1.34437,-1.66231,0.317944,4.71562,1,2027
-Tolu Smith,Detroit Pistons,-1.35605,-1.43095,0.0748987,1.60547,1,2027
-Nikola Jovic,Miami Heat,-1.36163,-1.43754,0.0759147,8.28243,3,2027
-Marvin Bagley III,Denver Nuggets,-1.36213,-1.03887,-0.323256,9.39861,2,2027
-Tyrese Proctor,Cleveland Cavaliers,-1.3624,-0.68115,-0.681247,6.62886,2,2027
-Nikola Vucevic,Orlando Magic,-1.38823,-1.77648,0.388249,3.94482,2,2027
-PJ Hall,Charlotte Hornets,-1.39048,-2.10767,0.717189,5.87363,1,2027
-De'Andre Hunter,Sacramento Kings,-1.39397,-0.581186,-0.812781,20.7942,2,2027
-Bronny James,Los Angeles Lakers,-1.42211,-1.3708,-0.0513094,3.5088,1,2027
-Julian Strawther,Denver Nuggets,-1.42655,-0.176019,-1.25053,11.1311,0,2027
-Noah Clowney,Brooklyn Nets,-1.43488,-0.893844,-0.541032,18.1165,2,2027
-Taurean Prince,Detroit Pistons,-1.45651,-0.974125,-0.482389,7.00933,0,2027
-Walter Clayton Jr.,Dallas Mavericks,-1.46009,-0.8501,-0.609995,5.68643,2,2027
-GG Jackson,Memphis Grizzlies,-1.48403,-0.0558145,-1.42822,18.6651,2,2027
-Kobe Brown,Indiana Pacers,-1.48468,-0.538244,-0.946435,2.51024,1,2027
-Kyle Anderson,Toronto Raptors,-1.49817,-2.87997,1.3818,5.95396,1,2027
+Nikola Jovic,Miami Heat,-1.36163,-1.43754,0.0759147,8.28242,3,2027
+Marvin Bagley III,Denver Nuggets,-1.36213,-1.03887,-0.323256,9.3986,2,2027
+Tyrese Proctor,Cleveland Cavaliers,-1.3624,-0.68115,-0.681247,6.59429,2,2027
+Taurean Prince,Detroit Pistons,-1.37057,-0.912028,-0.45854,7.44885,0,2027
+PJ Hall,Charlotte Hornets,-1.39066,-2.10765,0.716992,5.87361,1,2027
+Bronny James,Los Angeles Lakers,-1.41043,-1.37176,-0.0386699,3.7693,1,2027
+De'Andre Hunter,Sacramento Kings,-1.4246,-0.550737,-0.873865,22.4026,3,2027
+Julian Strawther,Denver Nuggets,-1.42655,-0.176019,-1.25053,11.1433,0,2027
+Keyonte George,Utah Jazz,-1.44536,0.842525,-2.28788,29.902,3,2027
+Walter Clayton Jr.,Dallas Mavericks,-1.46009,-0.8501,-0.609995,5.68585,2,2027
+Tyler Kolek,New York Knicks,-1.46232,-0.914133,-0.548186,6.13647,1,2027
+Isaiah Stewart,Memphis Grizzlies,-1.46756,-2.13848,0.670913,17.6225,2,2027
+Terrence Shannon Jr.,Minnesota Timberwolves,-1.47669,-0.0555633,-1.42113,18.7226,3,2027
+Kobe Brown,Indiana Pacers,-1.48924,-0.557027,-0.932217,4.71184,1,2027
 Zaccharie Risacher,Dallas Mavericks,-1.50262,-1.0457,-0.456922,23.1164,3,2027
-Corey Kispert,Atlanta Hawks,-1.50391,-0.0419307,-1.46198,6.96199,1,2027
-Jalen Pickett,Los Angeles Clippers,-1.50859,-0.857633,-0.650959,4.1438,1,2027
-Isaiah Stewart,Memphis Grizzlies,-1.51779,-2.23707,0.719288,13.0681,1,2027
+Corey Kispert,Atlanta Hawks,-1.50391,-0.0419307,-1.46198,6.962,1,2027
+Jalen Pickett,Los Angeles Clippers,-1.50757,-0.857734,-0.649832,3.0548,1,2027
 Max Christie,Dallas Mavericks,-1.51934,-0.568428,-0.950912,27.1255,3,2027
-Moritz Wagner,Brooklyn Nets,-1.52065,-1.003,-0.517648,12.077,2,2027
-Duop Reath,Phoenix Suns,-1.5245,-1.45891,-0.0655863,3.11472,2,2027
-Chris Youngblood,Portland Trail Blazers,-1.53986,-1.19738,-0.342473,2.79325,0,2027
+Egor Dëmin,Brooklyn Nets,-1.5227,-1.11082,-0.411874,22.8954,3,2027
+Duop Reath,Phoenix Suns,-1.5245,-1.45891,-0.0655863,3.1164,2,2027
+Chris Youngblood,Portland Trail Blazers,-1.53986,-1.19738,-0.342473,2.79287,0,2027
 Kyshawn George,Washington Wizards,-1.55667,-1.1871,-0.369571,27.6457,3,2027
+Kyle Anderson,Toronto Raptors,-1.56619,-3.03699,1.4708,4.20568,2,2027
+Daeqwon Plowden,Sacramento Kings,-1.57143,-0.494757,-1.07667,13.6112,3,2027
 P.J. Washington,Dallas Mavericks,-1.57526,-1.39573,-0.179533,30.1546,3,2027
-Terrence Shannon Jr.,Minnesota Timberwolves,-1.57554,0.0125629,-1.5881,16.2963,2,2027
-Kam Jones,Milwaukee Bucks,-1.60406,-0.929222,-0.674837,6.0166,0,2027
-Pat Spencer,Phoenix Suns,-1.60461,-1.26508,-0.339536,5.64112,1,2027
+Noah Clowney,Brooklyn Nets,-1.60324,-0.969879,-0.633362,18.219,3,2027
+Kam Jones,Milwaukee Bucks,-1.60406,-0.929222,-0.674837,6.0147,0,2027
+Pat Spencer,Phoenix Suns,-1.60461,-1.26508,-0.339536,5.64281,1,2027
 Bilal Coulibaly,Washington Wizards,-1.60723,-1.04203,-0.565198,25.7616,3,2027
-Caleb Wilson,Chicago Bulls,-1.60869,-0.373187,-1.2355,30.8712,3,2027
-Daeqwon Plowden,Sacramento Kings,-1.61069,-0.473277,-1.13741,14.2467,2,2027
-Ben Sheppard,Indiana Pacers,-1.61133,-1.06476,-0.546573,9.84096,1,2027
-Jase Richardson,Orlando Magic,-1.61634,-0.868219,-0.748118,8.50898,2,2027
-Jordan Clarkson,New York Knicks,-1.62007,-0.806671,-0.813398,5.70343,2,2027
-Bryce McGowens,New Orleans Pelicans,-1.62698,-1.15623,-0.470751,2.90541,0,2027
-Cam Whitmore,Denver Nuggets,-1.62892,-0.368698,-1.26022,7.81249,1,2027
+Caleb Wilson,Chicago Bulls,-1.60869,-0.373187,-1.2355,30.8341,3,2027
+Gradey Dick,Los Angeles Clippers,-1.61089,-1.26262,-0.348269,8.70929,3,2027
+Ben Sheppard,Indiana Pacers,-1.61206,-1.06468,-0.547382,10.2868,1,2027
+Moritz Wagner,Brooklyn Nets,-1.61318,-0.9865,-0.626678,12.6602,3,2027
+GG Jackson,Memphis Grizzlies,-1.62331,-0.181731,-1.44158,12.2156,3,2027
+Bryce McGowens,New Orleans Pelicans,-1.62698,-1.15623,-0.470751,2.90422,0,2027
+Cam Whitmore,Denver Nuggets,-1.62892,-0.368698,-1.26022,7.81248,1,2027
 Sion James,Charlotte Hornets,-1.63582,-1.7289,0.093082,19.7942,3,2027
-Bradley Beal,Los Angeles Clippers,-1.65987,-0.598208,-1.06166,11.3863,0,2027
-RayJ Dennis,Atlanta Hawks,-1.67271,-1.29249,-0.380223,5.79254,0,2027
-Derik Queen,New Orleans Pelicans,-1.67292,-1.2481,-0.424819,22.5675,3,2027
-Jamal Cain,Orlando Magic,-1.71633,-0.917,-0.799334,8.58417,2,2027
-Anthony Gill,Washington Wizards,-1.72909,-1.54792,-0.181164,7.23445,1,2027
-Royce O'Neale,Charlotte Hornets,-1.73122,-1.82891,0.0976918,10.435,3,2027
-Mike Conley,Boston Celtics,-1.73213,-2.2413,0.509171,3.12236,0,2027
-Tidjane Salaün,Charlotte Hornets,-1.7718,-1.02896,-0.742847,7.14337,2,2027
-Alpha Diallo,Denver Nuggets,-1.77311,-1.62567,-0.14744,8.16826,1,2027
-Allen Graves,Toronto Raptors,-1.77568,-2.53841,0.762739,6.1211,2,2027
-Khaman Maluach,Phoenix Suns,-1.77597,-2.57784,0.801873,15.7695,2,2027
-Mario Hezonja,Cleveland Cavaliers,-1.77722,-1.53712,-0.240095,15.3681,2,2027
-Jae'Sean Tate,Houston Rockets,-1.78964,-2.0945,0.304856,1.2359,2,2027
-DeAndre Jordan,New Orleans Pelicans,-1.78965,-3.28754,1.49789,6.37803,1,2027
-Nique Clifford,Sacramento Kings,-1.80808,-1.58519,-0.222894,8.41757,2,2027
-Jett Howard,Dallas Mavericks,-1.81099,-0.685198,-1.12579,2.68963,1,2027
-Yang Hansen,Portland Trail Blazers,-1.82173,-2.03753,0.215801,4.1943,1,2027
-Nicolas Claxton,Chicago Bulls,-1.82181,-1.44084,-0.380966,17.7983,0,2027
-Trevon Brazile,Denver Nuggets,-1.84091,-1.57101,-0.269901,13.8087,2,2027
+Jamal Cain,Orlando Magic,-1.66012,-0.972056,-0.688061,9.89932,3,2027
+Jordan Clarkson,New York Knicks,-1.66277,-0.883182,-0.779588,6.11737,3,2027
+RayJ Dennis,Atlanta Hawks,-1.67271,-1.29249,-0.380223,5.78992,0,2027
+Derik Queen,New Orleans Pelicans,-1.67292,-1.2481,-0.424819,22.5568,3,2027
+Bradley Beal,Los Angeles Clippers,-1.69743,-0.598476,-1.09895,11.4608,0,2027
+Isaiah Evans,Minnesota Timberwolves,-1.70612,-1.75368,0.0475586,2.81629,3,2027
+Cameron Boozer,Memphis Grizzlies,-1.71237,-1.20447,-0.507896,30.0831,3,2027
+Anthony Gill,Washington Wizards,-1.72909,-1.54792,-0.181164,7.23446,1,2027
+Royce O'Neale,Charlotte Hornets,-1.73122,-1.82891,0.0976918,10.43,3,2027
+Mike Conley,Boston Celtics,-1.73213,-2.2413,0.509171,3.12257,0,2027
+Tidjane Salaün,Charlotte Hornets,-1.7718,-1.02896,-0.742847,7.14336,2,2027
+Alpha Diallo,Denver Nuggets,-1.77311,-1.62567,-0.14744,8.16825,1,2027
+Khaman Maluach,Phoenix Suns,-1.77597,-2.57784,0.801873,15.7712,2,2027
+Mario Hezonja,Cleveland Cavaliers,-1.77722,-1.53712,-0.240095,15.3652,2,2027
+Jae'Sean Tate,Houston Rockets,-1.78964,-2.0945,0.304856,1.23589,2,2027
+DeAndre Jordan,New Orleans Pelicans,-1.78965,-3.28754,1.49789,6.37802,1,2027
+Mo Bamba,Utah Jazz,-1.79946,-3.0191,1.21964,1.32819,0,2027
+Jett Howard,Dallas Mavericks,-1.81099,-0.685198,-1.12579,2.68964,1,2027
+Nique Clifford,Sacramento Kings,-1.81353,-1.59127,-0.22226,7.40847,2,2027
+Yang Hansen,Portland Trail Blazers,-1.82173,-2.03753,0.215801,4.19068,1,2027
+Nicolas Claxton,Chicago Bulls,-1.82181,-1.44084,-0.380966,17.7962,0,2027
+Trevon Brazile,Denver Nuggets,-1.84091,-1.57101,-0.269901,13.8315,2,2027
 Klay Thompson,Miami Heat,-1.84168,-0.925043,-0.916634,21.0991,3,2027
-Tyus Jones,Denver Nuggets,-1.87236,-1.29903,-0.573329,5.77732,2,2027
-Trendon Watford,New Orleans Pelicans,-1.87357,-1.98417,0.110607,1.90617,0,2027
+Tyus Jones,Denver Nuggets,-1.87236,-1.29903,-0.573329,5.77731,2,2027
+Trendon Watford,New Orleans Pelicans,-1.87357,-1.98417,0.110607,1.90539,0,2027
 Khris Middleton,Washington Wizards,-1.87401,-1.3283,-0.545709,10.0878,2,2027
-Mo Bamba,Utah Jazz,-1.88615,-3.05075,1.1646,1.93802,0,2027
-Jericho Sims,Milwaukee Bucks,-1.88882,-1.77773,-0.111091,3.99383,1,2027
-Gradey Dick,Los Angeles Clippers,-1.89386,-1.54141,-0.352454,8.83844,2,2027
-Karim Lopez,Memphis Grizzlies,-1.92365,-2.02318,0.0995306,2.00404,0,2027
-Ace Bailey,Utah Jazz,-1.92839,-0.756776,-1.17161,24.5199,2,2027
-Grant Nelson,Brooklyn Nets,-1.94259,-2.22362,0.281029,2.25812,0,2027
-Jalen Wilson,Atlanta Hawks,-1.94293,-1.5194,-0.42353,6.53122,0,2027
-Jaden Hardy,Los Angeles Lakers,-1.94789,-0.332667,-1.61523,6.56962,1,2027
-LJ Cryer,Golden State Warriors,-1.97339,-0.517123,-1.45626,6.43668,2,2027
-Adou Thiero,Los Angeles Lakers,-1.97777,-2.22026,0.242487,4.23624,0,2027
-Chaz Lanier,Detroit Pistons,-1.98643,-1.36087,-0.625565,1.31113,0,2027
-Maxime Raynaud,Sacramento Kings,-1.99199,-0.985595,-1.00639,22.3199,0,2027
-Zyon Pullin,Minnesota Timberwolves,-1.99279,-1.28807,-0.704712,4.05521,0,2027
-Bennedict Mathurin,New Orleans Pelicans,-1.99284,-0.478493,-1.51435,17.7455,3,2027
-Ryan Nembhard,Denver Nuggets,-1.99581,-0.93805,-1.05776,4.11296,1,2027
+Jericho Sims,Milwaukee Bucks,-1.88882,-1.77773,-0.111091,3.98623,1,2027
+Grant Nelson,Brooklyn Nets,-1.94243,-2.22362,0.28119,2.71184,0,2027
+Jalen Wilson,Atlanta Hawks,-1.94293,-1.5194,-0.42353,6.52826,0,2027
+Jaden Hardy,Los Angeles Lakers,-1.9487,-0.332578,-1.61612,5.81291,1,2027
+Zyon Pullin,Minnesota Timberwolves,-1.95681,-1.33543,-0.621383,3.62382,1,2027
+LJ Cryer,Golden State Warriors,-1.97339,-0.517123,-1.45626,6.43669,2,2027
+Maxime Raynaud,Sacramento Kings,-1.97592,-0.97064,-1.00528,21.8378,0,2027
+Adou Thiero,Los Angeles Lakers,-1.97768,-2.22027,0.242583,3.30591,0,2027
+Chaz Lanier,Detroit Pistons,-1.98319,-1.36086,-0.622333,2.331,0,2027
+Karim Lopez,Memphis Grizzlies,-1.98917,-2.08337,0.0942044,1.52846,0,2027
+Bennedict Mathurin,New Orleans Pelicans,-1.99284,-0.478493,-1.51435,17.7482,3,2027
+Ryan Nembhard,Denver Nuggets,-1.99581,-0.93805,-1.05776,4.08082,1,2027
 Alexandre Sarr,Washington Wizards,-2.00173,-1.40069,-0.601041,24.1004,3,2027
-Labaron Philon,Philadelphia 76ers,-2.0045,-1.44401,-0.560494,1.96272,1,2027
 Isaac Okoro,Chicago Bulls,-2.0069,-0.920999,-1.0859,16.5871,3,2027
-Alijah Martin,Toronto Raptors,-2.03879,-2.03151,-0.00727658,1.80676,2,2027
+Jase Richardson,Orlando Magic,-2.03755,-1.19321,-0.844345,8.70902,3,2027
 DeMar DeRozan,Denver Nuggets,-2.03972,-0.180265,-1.85946,21.6978,2,2027
-Meleek Thomas,Cleveland Cavaliers,-2.04736,-1.85147,-0.195893,2.02181,0,2027
-Keshon Gilbert,Atlanta Hawks,-2.07984,-1.87932,-0.200518,6.46026,0,2027
-Maliq Brown,San Antonio Spurs,-2.09578,-1.93455,-0.161229,2.32152,1,2027
-Zach LaVine,Sacramento Kings,-2.10984,0.153026,-2.26287,30.3971,2,2027
-Amari Williams,Boston Celtics,-2.1272,-2.78279,0.655593,1.79218,0,2027
-Drew Timme,Phoenix Suns,-2.12991,-2.21359,0.0836868,3.79158,0,2027
-Bruce Thornton,Houston Rockets,-2.14909,-1.50205,-0.647035,1.21784,2,2027
-Nick Richards,Miami Heat,-2.15063,-2.31875,0.168121,5.14184,2,2027
-Carter Bryant,San Antonio Spurs,-2.1604,-2.00889,-0.151509,5.42502,3,2027
-Mikel Brown Jr.,Brooklyn Nets,-2.17237,-1.35493,-0.817437,16.2182,2,2027
-Dillon Mitchell,Boston Celtics,-2.1886,-1.7479,-0.440696,2.02802,0,2027
+Meleek Thomas,Cleveland Cavaliers,-2.04736,-1.85147,-0.195893,2.02089,0,2027
+Keshon Gilbert,Atlanta Hawks,-2.07984,-1.87932,-0.200518,6.45734,0,2027
+Maliq Brown,San Antonio Spurs,-2.09578,-1.93455,-0.161229,2.31197,1,2027
+Ace Bailey,Utah Jazz,-2.1188,-0.727227,-1.39157,26.4588,3,2027
+Labaron Philon,Philadelphia 76ers,-2.11936,-1.49574,-0.623627,4.88874,2,2027
+Amari Williams,Boston Celtics,-2.1272,-2.78279,0.655593,1.79231,0,2027
+Drew Timme,Phoenix Suns,-2.12991,-2.21359,0.0836868,3.79101,0,2027
+Anfernee Simons,Philadelphia 76ers,-2.13245,-0.151995,-1.98046,17.1375,4,2027
+Alijah Martin,Toronto Raptors,-2.14703,-2.11854,-0.0284858,2.06308,3,2027
+Bruce Thornton,Houston Rockets,-2.14909,-1.50205,-0.647035,1.21783,2,2027
+Nick Richards,Miami Heat,-2.15063,-2.31875,0.168121,5.14183,2,2027
+Carter Bryant,San Antonio Spurs,-2.1604,-2.00889,-0.151509,5.41547,3,2027
+Mikel Brown Jr.,Brooklyn Nets,-2.1722,-1.35464,-0.817562,15.9476,2,2027
+Zach LaVine,Sacramento Kings,-2.17775,0.234377,-2.41212,33.4015,3,2027
+Dillon Mitchell,Boston Celtics,-2.1886,-1.7479,-0.440696,2.02815,0,2027
 Jordan Poole,New Orleans Pelicans,-2.19046,-0.926893,-1.26357,14.8634,3,2027
-Bennett Stirtz,Oklahoma City Thunder,-2.20175,-1.28746,-0.914282,1.81032,2,2027
-Quadir Copeland,Houston Rockets,-2.20454,-1.76442,-0.440116,2.08536,0,2027
-Mohamed Diawara,New York Knicks,-2.20988,-1.56478,-0.645099,3.60484,0,2027
-Dailyn Swain,Chicago Bulls,-2.21114,-1.70891,-0.502232,2.8198,0,2027
-Patrick Williams,Chicago Bulls,-2.23294,-2.03283,-0.200108,7.08245,0,2027
-Anfernee Simons,Philadelphia 76ers,-2.23355,-0.054971,-2.17858,18.4804,3,2027
-Josh Dix,Oklahoma City Thunder,-2.2349,-1.96797,-0.266932,1.4833,0,2027
-Christian Anderson,Charlotte Hornets,-2.23883,-1.57862,-0.660203,3.5629,3,2027
-Tre Donaldson,Miami Heat,-2.25963,-1.79192,-0.467705,1.91973,0,2027
-John Tonje,Portland Trail Blazers,-2.26001,-1.4782,-0.781812,1.76029,0,2027
-Arthur Kaluma,Los Angeles Lakers,-2.27638,-1.71322,-0.56316,2.51722,0,2027
-Reece Beekman,Washington Wizards,-2.28948,-2.32313,0.0336495,4.0575,1,2027
-Caris LeVert,Milwaukee Bucks,-2.29285,-2.76769,0.474837,1.9902,0,2027
-Cameron Carr,Los Angeles Lakers,-2.29779,-1.63791,-0.659876,3.14035,0,2027
-Braden Smith,Indiana Pacers,-2.30278,-1.11948,-1.1833,3.35196,0,2027
-Cam Christie,Los Angeles Clippers,-2.30932,-2.33389,0.0245646,4.00517,1,2027
-Tarik Biberovic,Dallas Mavericks,-2.32785,-1.69296,-0.634892,3.31534,0,2027
-Tyler Nickel,New York Knicks,-2.35393,-1.78994,-0.563989,2.25124,0,2027
-Will Riley,Washington Wizards,-2.35586,-0.891702,-1.46416,3.40462,2,2027
-Gary Trent Jr.,Milwaukee Bucks,-2.39488,-0.385143,-2.00974,2.79843,0,2027
-Tobe Awaka,Chicago Bulls,-2.40022,-2.56047,0.160253,2.92955,1,2027
-Joshua Jefferson,Brooklyn Nets,-2.4173,-2.03131,-0.385984,3.00908,0,2027
-Tobi Lawal,Dallas Mavericks,-2.42684,-1.94015,-0.486689,0.938612,2,2027
-Ryan Conwell,Miami Heat,-2.42928,-1.72204,-0.707242,2.05526,3,2027
-Isaac Jones,Detroit Pistons,-2.43902,-2.3643,-0.0747217,2.82598,0,2027
-Larry Nance Jr.,Indiana Pacers,-2.47324,-3.50043,1.02719,0.662162,2,2027
-Michael Ajayi,Charlotte Hornets,-2.47762,-1.85332,-0.624305,1.56703,0,2027
-Caleb Martin,Dallas Mavericks,-2.48062,-3.04828,0.567665,8.91209,0,2027
-Malik Dia,New Orleans Pelicans,-2.48193,-2.3986,-0.083331,1.40749,0,2027
-Jaylin Sellers,Chicago Bulls,-2.48339,-1.77245,-0.710944,2.52141,1,2027
-Nick Martinelli,Los Angeles Clippers,-2.48604,-2.04712,-0.438914,3.93228,1,2027
-Brooks Barnhizer,Oklahoma City Thunder,-2.51088,-2.32274,-0.18814,2.64217,2,2027
-Otega Oweh,Oklahoma City Thunder,-2.54691,-1.89699,-0.649922,9.51941,0,2027
-Bryce Hopkins,Denver Nuggets,-2.55413,-2.01742,-0.53671,5.89119,2,2027
-Jaden Akins,New York Knicks,-2.56009,-1.88883,-0.671264,2.17962,0,2027
-Tre Mann,Washington Wizards,-2.56639,-1.89091,-0.675483,4.86884,1,2027
-Jaron Pierre Jr.,New Orleans Pelicans,-2.56703,-1.97059,-0.596445,2.03529,0,2027
-Darryn Peterson,Utah Jazz,-2.58527,-1.47021,-1.11506,26.9242,2,2027
-Tyler Bilodeau,Brooklyn Nets,-2.59644,-2.19129,-0.405153,2.20904,0,2027
-Julian Reese,New Orleans Pelicans,-2.59714,-2.31666,-0.280485,4.11125,0,2027
-Alex Karaban,Sacramento Kings,-2.61588,-1.97756,-0.638321,3.60842,1,2027
-AK Okereke,Los Angeles Lakers,-2.61887,-1.94906,-0.669813,2.13397,0,2027
-Sergio de Larrea,Dallas Mavericks,-2.62435,-1.78342,-0.840928,10.0397,3,2027
-Ja'Kobi Gillespie,San Antonio Spurs,-2.62947,-1.43863,-1.19084,0.838527,2,2027
-Rayan Rupert,Philadelphia 76ers,-2.63596,-2.14103,-0.494929,3.6859,0,2027
-Emanuel Sharp,Sacramento Kings,-2.63678,-1.65527,-0.98151,7.95115,2,2027
-James Wiseman,New York Knicks,-2.64219,-2.69701,0.0548171,1.92573,1,2027
-Aday Mara,Oklahoma City Thunder,-2.65187,-2.3037,-0.348168,9.40255,2,2027
-Tre Johnson,Washington Wizards,-2.6528,-0.785946,-1.86685,19.5663,3,2027
-Jahmai Mashack,Memphis Grizzlies,-2.65414,-2.69751,0.043372,4.39953,0,2027
-Jayson Kent,Portland Trail Blazers,-2.66059,-2.1939,-0.46669,1.76176,1,2027
-Dennis Schroder,Charlotte Hornets,-2.6682,-1.19997,-1.46823,24.8647,3,2027
-Terance Mann,Brooklyn Nets,-2.68093,-1.79433,-0.886602,2.40116,0,2027
-Cody Williams,Minnesota Timberwolves,-2.68417,-1.86352,-0.820654,4.18241,2,2027
-Isaiah Collier,Utah Jazz,-2.69245,-1.00434,-1.6881,15.9017,2,2027
-Drake Powell,Brooklyn Nets,-2.6952,-1.68638,-1.00882,3.0699,0,2027
-Jarace Walker,Indiana Pacers,-2.74742,-1.52192,-1.2255,18.1033,2,2027
-Leaky Black,Sacramento Kings,-2.74842,-2.35613,-0.392287,2.48479,0,2027
-Graham Ike,Golden State Warriors,-2.76575,-2.32359,-0.442163,11.1654,3,2027
-Nolan Traore,Brooklyn Nets,-2.79932,-2.00739,-0.791925,7.57682,2,2027
-Nate Ament,Milwaukee Bucks,-2.82153,-2.72856,-0.0929736,3.11379,1,2027
-Kylan Boswell,Charlotte Hornets,-2.82518,-2.08509,-0.740088,1.60834,0,2027
-Bogoljub Marković,Milwaukee Bucks,-2.86429,-2.8143,-0.0499944,1.48606,0,2027
-Sean Pedulla,Sacramento Kings,-2.87709,-1.71001,-1.16708,1.72069,0,2027
-Zuby Ejiofor,Atlanta Hawks,-2.87806,-2.38636,-0.491693,4.69749,1,2027
-Ben Saraf,Brooklyn Nets,-2.8835,-2.45168,-0.431818,4.14092,0,2027
-Ebuka Okorie,Detroit Pistons,-2.8967,-1.93097,-0.965739,2.48706,0,2027
-Jaden Bradley,Toronto Raptors,-2.91355,-1.8965,-1.01705,1.4551,2,2027
-Hannes Steinbach,Charlotte Hornets,-2.94344,-2.61941,-0.324029,5.98333,1,2027
+Emanuel Sharp,Sacramento Kings,-2.20378,-1.54385,-0.659932,8.1897,3,2027
+Quadir Copeland,Houston Rockets,-2.20454,-1.76442,-0.440116,2.08648,0,2027
+Mohamed Diawara,New York Knicks,-2.20988,-1.56478,-0.645099,3.34663,0,2027
+Dailyn Swain,Chicago Bulls,-2.21114,-1.70891,-0.502232,2.62662,0,2027
+Josh Dix,Oklahoma City Thunder,-2.21253,-1.96756,-0.244968,1.73275,0,2027
+Patrick Williams,Chicago Bulls,-2.23294,-2.03283,-0.200108,7.08161,0,2027
+Christian Anderson,Charlotte Hornets,-2.23883,-1.57862,-0.660203,3.56289,3,2027
+Jaden Bradley,Toronto Raptors,-2.24452,-1.69901,-0.545514,1.69916,3,2027
+Tre Donaldson,Miami Heat,-2.25963,-1.79192,-0.467705,1.91807,0,2027
+John Tonje,Portland Trail Blazers,-2.26001,-1.4782,-0.781812,1.76005,0,2027
+Arthur Kaluma,Los Angeles Lakers,-2.27591,-1.7132,-0.562713,1.67877,0,2027
+Reece Beekman,Washington Wizards,-2.28948,-2.32313,0.0336495,4.05752,1,2027
+Caris LeVert,Milwaukee Bucks,-2.29285,-2.76769,0.474837,1.98958,0,2027
+Cameron Carr,Los Angeles Lakers,-2.29779,-1.63791,-0.659876,2.67293,0,2027
+Tarik Biberovic,Dallas Mavericks,-2.32785,-1.69296,-0.634892,3.31406,0,2027
+Tyler Nickel,New York Knicks,-2.32902,-1.76899,-0.56003,2.0638,0,2027
+Braden Smith,Indiana Pacers,-2.32987,-1.14437,-1.1855,4.13854,0,2027
+Ebuka Okorie,Detroit Pistons,-2.33622,-1.45116,-0.885055,1.89346,1,2027
+Cam Christie,Los Angeles Clippers,-2.3381,-2.33484,-0.00326198,2.82005,1,2027
+Will Riley,Washington Wizards,-2.35586,-0.891702,-1.46416,3.40463,2,2027
+Bennett Stirtz,Oklahoma City Thunder,-2.38866,-1.61839,-0.770269,6.03648,3,2027
+Gary Trent Jr.,Milwaukee Bucks,-2.39488,-0.385143,-2.00974,2.79755,0,2027
+Tobe Awaka,Chicago Bulls,-2.40022,-2.56047,0.160253,2.92956,1,2027
+Tobi Lawal,Dallas Mavericks,-2.42684,-1.94015,-0.486689,0.938623,2,2027
+Ryan Conwell,Miami Heat,-2.42928,-1.72204,-0.707242,2.02343,3,2027
+Isaac Jones,Detroit Pistons,-2.44075,-2.36632,-0.0744231,2.08848,0,2027
+Michael Ajayi,Charlotte Hornets,-2.47762,-1.85332,-0.624305,1.56798,0,2027
+Caleb Martin,Dallas Mavericks,-2.48062,-3.04828,0.567665,8.90866,0,2027
+Aday Mara,Oklahoma City Thunder,-2.48103,-2.75196,0.270935,12.0318,3,2027
+Malik Dia,New Orleans Pelicans,-2.48193,-2.3986,-0.083331,1.40692,0,2027
+Jaylin Sellers,Chicago Bulls,-2.48339,-1.77245,-0.710944,2.52143,1,2027
+Nick Martinelli,Los Angeles Clippers,-2.49347,-2.04604,-0.447423,2.33662,1,2027
+Brooks Barnhizer,Oklahoma City Thunder,-2.51569,-2.32276,-0.192927,5.41907,2,2027
+Drake Powell,Brooklyn Nets,-2.54591,-1.6966,-0.849315,5.83663,1,2027
+Bryce Hopkins,Denver Nuggets,-2.55413,-2.01742,-0.53671,5.89118,2,2027
+Jarace Walker,Indiana Pacers,-2.56236,-1.49205,-1.07031,16.3745,3,2027
+Tre Mann,Washington Wizards,-2.56639,-1.89091,-0.675483,4.86885,1,2027
+Jaron Pierre Jr.,New Orleans Pelicans,-2.56703,-1.97059,-0.596445,2.03446,0,2027
+Larry Nance Jr.,Indiana Pacers,-2.56909,-3.61207,1.04299,4.93482,3,2027
+Jaden Akins,New York Knicks,-2.57419,-1.88914,-0.685056,1.10035,1,2027
+Tyler Bilodeau,Brooklyn Nets,-2.59644,-2.19129,-0.405152,1.77381,0,2027
+Julian Reese,New Orleans Pelicans,-2.59714,-2.31666,-0.280485,4.10958,0,2027
+Rayan Rupert,Philadelphia 76ers,-2.60237,-2.12614,-0.476233,3.40005,0,2027
+Alex Karaban,Sacramento Kings,-2.61351,-1.97746,-0.636055,3.49965,1,2027
+AK Okereke,Los Angeles Lakers,-2.61887,-1.94906,-0.669813,1.22232,0,2027
+Kobe Bufkin,Utah Jazz,-2.62282,-1.86643,-0.756387,4.73719,0,2027
+Sergio de Larrea,Dallas Mavericks,-2.62435,-1.78342,-0.840928,10.0408,3,2027
+Ja'Kobi Gillespie,San Antonio Spurs,-2.62947,-1.43863,-1.19084,0.828976,2,2027
+Tre Johnson,Washington Wizards,-2.6528,-0.785946,-1.86685,19.568,3,2027
+Jahmai Mashack,Memphis Grizzlies,-2.65873,-2.70323,0.0445076,2.96819,0,2027
+Jayson Kent,Portland Trail Blazers,-2.66059,-2.1939,-0.46669,1.75813,1,2027
+Terance Mann,Brooklyn Nets,-2.66732,-1.77658,-0.890739,2.14787,0,2027
+Dennis Schroder,Charlotte Hornets,-2.6682,-1.19997,-1.46823,24.8662,3,2027
+Nolan Traore,Brooklyn Nets,-2.69047,-1.86938,-0.821091,15.5581,3,2027
+Cody Williams,Minnesota Timberwolves,-2.69365,-1.81902,-0.874632,4.64281,3,2027
+Leaky Black,Sacramento Kings,-2.70404,-2.36579,-0.338245,0.364937,1,2027
+Graham Ike,Golden State Warriors,-2.76575,-2.32359,-0.442163,11.1655,3,2027
+Joshua Jefferson,Brooklyn Nets,-2.78791,-2.26516,-0.522751,2.51875,1,2027
+Darryn Peterson,Utah Jazz,-2.81698,-1.90353,-0.913445,25.8726,3,2027
+Sean Pedulla,Sacramento Kings,-2.8196,-1.65692,-1.16267,1.95834,0,2027
+Nate Ament,Milwaukee Bucks,-2.82153,-2.72856,-0.0929736,3.1062,1,2027
+Kylan Boswell,Charlotte Hornets,-2.82518,-2.08509,-0.740088,1.60932,0,2027
+Isaiah Collier,Utah Jazz,-2.83637,-1.17383,-1.66255,13.7001,3,2027
+Bogoljub Marković,Milwaukee Bucks,-2.86429,-2.8143,-0.0499944,1.48559,0,2027
+Zuby Ejiofor,Atlanta Hawks,-2.87806,-2.38636,-0.491693,4.69711,1,2027
+Hannes Steinbach,Charlotte Hornets,-2.94344,-2.61941,-0.324029,5.98332,1,2027
 Kingston Flemings,Atlanta Hawks,-2.98495,-2.23332,-0.751622,12.0052,3,2027
-Nate Bittle,Toronto Raptors,-3.06686,-2.89754,-0.169319,1.98458,0,2027
-Khalifa Diop,Cleveland Cavaliers,-3.07572,-2.50559,-0.570134,2.50204,0,2027
-Chris Cenac Jr.,Boston Celtics,-3.07866,-2.97092,-0.107741,1.8235,0,2027
-Izaiyah Nelson,Orlando Magic,-3.11067,-2.66692,-0.443753,1.86232,0,2027
-Caleb Love,Philadelphia 76ers,-3.12747,-1.35483,-1.77263,2.21759,1,2027
-Darius Acuff Jr.,Sacramento Kings,-3.14341,-1.39441,-1.749,28.7672,2,2027
-Vladislav Goldin,Miami Heat,-3.18042,-2.92984,-0.250578,1.93334,0,2027
-AJ Johnson,New Orleans Pelicans,-3.19259,-1.91783,-1.27475,1.76262,0,2027
-Jayden Quaintance,San Antonio Spurs,-3.19826,-2.88223,-0.316034,2.38338,0,2027
-Koa Peat,Phoenix Suns,-3.21722,-2.80988,-0.407338,4.27084,1,2027
-Baba Miller,Los Angeles Clippers,-3.24557,-2.45575,-0.789824,4.48185,1,2027
-Morez Johnson Jr.,Dallas Mavericks,-3.26209,-2.54218,-0.719914,9.64697,3,2027
-Tarris Reed Jr.,San Antonio Spurs,-3.29853,-2.77533,-0.523199,2.00495,2,2027
-Alex Morales,Orlando Magic,-3.33148,-2.62955,-0.701934,1.47314,1,2027
-Henri Veesaar,Atlanta Hawks,-3.34823,-2.97211,-0.376117,6.88803,0,2027
-Ugonna Onyenso,Detroit Pistons,-3.37681,-3.2479,-0.128916,1.40102,0,2027
-Kyle Kuzma,Milwaukee Bucks,-3.40839,-1.85231,-1.55608,25.606,3,2027
-Ousmane Dieng,Milwaukee Bucks,-3.4255,-2.01816,-1.40735,11.2215,2,2027
-Felix Okpara,Washington Wizards,-3.449,-3.07546,-0.373542,4.13907,1,2027
-Jordan Hawkins,Chicago Bulls,-3.46258,-1.67303,-1.78956,3.20557,0,2027
+Darius Acuff Jr.,Sacramento Kings,-3.0183,-0.970167,-2.04813,27.6159,3,2027
+Nate Bittle,Toronto Raptors,-3.06686,-2.89754,-0.169319,1.82795,0,2027
+Khalifa Diop,Cleveland Cavaliers,-3.07572,-2.50559,-0.570134,2.5009,0,2027
+Chris Cenac Jr.,Boston Celtics,-3.07866,-2.97092,-0.107741,1.82363,0,2027
+Izaiyah Nelson,Orlando Magic,-3.09111,-2.66649,-0.424628,1.95771,0,2027
+Caleb Love,Philadelphia 76ers,-3.12747,-1.35483,-1.77263,4.81628,1,2027
+Ben Saraf,Brooklyn Nets,-3.14462,-2.58313,-0.561489,2.20811,1,2027
+Vladislav Goldin,Miami Heat,-3.18042,-2.92984,-0.250578,1.93167,0,2027
+AJ Johnson,New Orleans Pelicans,-3.19259,-1.91783,-1.27475,1.76191,0,2027
+Jayden Quaintance,San Antonio Spurs,-3.19826,-2.88223,-0.316034,2.38288,0,2027
+Koa Peat,Phoenix Suns,-3.21722,-2.80988,-0.407338,4.27253,1,2027
+Morez Johnson Jr.,Dallas Mavericks,-3.26209,-2.54218,-0.719914,9.64698,3,2027
+Tarris Reed Jr.,San Antonio Spurs,-3.29853,-2.77533,-0.523199,1.9954,2,2027
+James Wiseman,New York Knicks,-3.31348,-3.06779,-0.245691,3.81867,2,2027
+Alex Morales,Orlando Magic,-3.33142,-2.62955,-0.701876,5.13754,1,2027
+Henri Veesaar,Atlanta Hawks,-3.34823,-2.97211,-0.376117,6.88804,0,2027
+Ugonna Onyenso,Detroit Pistons,-3.36737,-3.24748,-0.119895,1.85705,0,2027
+Kyle Kuzma,Milwaukee Bucks,-3.40839,-1.85231,-1.55608,25.5984,3,2027
+Ousmane Dieng,Milwaukee Bucks,-3.4255,-2.01816,-1.40735,11.2139,2,2027
+Baba Miller,Los Angeles Clippers,-3.44098,-2.64809,-0.792892,0.59884,2,2027
+Felix Okpara,Washington Wizards,-3.449,-3.07546,-0.373542,4.13908,1,2027
+Jordan Hawkins,Chicago Bulls,-3.46258,-1.67303,-1.78956,3.20518,0,2027
 Carlton Carrington,Washington Wizards,-3.55178,-1.53344,-2.01833,16.0775,3,2027
-Carson Cooper,Memphis Grizzlies,-3.57346,-3.3135,-0.259952,1.55499,0,2027
-"Ernest Udeh, Jr.",Cleveland Cavaliers,-3.60089,-3.12615,-0.474736,1.8151,0,2027
+Carson Cooper,Memphis Grizzlies,-3.57346,-3.3135,-0.259952,1.38893,0,2027
+"Ernest Udeh, Jr.",Cleveland Cavaliers,-3.60089,-3.12615,-0.474736,1.81428,0,2027
