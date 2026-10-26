@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T20:45:56-0400",
+ "generated": "2026-10-25T23:01:09-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -249,10 +249,10 @@
    "player": "Isaiah Joe",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Lower Body",
-   "return_date": "2026-10-25",
-   "updated": "2026-10-26T00:08Z",
-   "comment": "Joe went back to the locker room due to an apparent tailbone injury, Hunter Patterson of The Athletic reports."
+   "injury": "Hip Bruise",
+   "return_date": "2026-10-27",
+   "updated": "2026-10-26T00:58Z",
+   "comment": "Joe (hip) will not return to Sunday's game against the 76ers, Hunter Patterson of The Athletic reports."
   },
   {
    "team": "DET",
@@ -372,8 +372,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-26",
-   "updated": "2026-10-25T23:35Z",
-   "comment": "Zubac (ankle) will not return to Sunday's game against the Nets."
+   "updated": "2026-10-26T01:03Z",
+   "comment": "Head coach Rick Carlisle said that X-rays on Zubac's sprained left ankle came back negative, but he's got some swelling and is unlikely to play Monday in Milwaukee, Scott Agness of FieldhouseFiles.com reports."
   },
   {
    "team": "IND",
@@ -542,13 +542,24 @@
   },
   {
    "team": "OKC",
+   "player_id": "4593803",
+   "player": "Jalen Williams",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-26T01:28Z",
+   "comment": "Williams was stretchered off the floor during Sunday's game against the Clippers due to an apparent left ankle injury, NBA writer Justin Russo reports."
+  },
+  {
+   "team": "OKC",
    "player_id": "4432823",
    "player": "Jaylin Williams",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Wrist Soreness",
    "return_date": "2026-10-26",
-   "updated": "2026-10-26T00:23Z",
+   "updated": "2026-10-26T01:06Z",
    "comment": "Williams won't return to Sunday's game against the Clippers due to right wrist soreness, Nick Crain of SLAM reports."
   },
   {
@@ -594,6 +605,17 @@
    "return_date": "2026-10-26",
    "updated": "2026-10-21T22:08Z",
    "comment": "Sorber (knee) is listed as out for Thursday's game against Denver."
+  },
+  {
+   "team": "ORL",
+   "player_id": "4432165",
+   "player": "Jalen Suggs",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-26T02:24Z",
+   "comment": "Suggs (knee) did not return to Sunday's game against the Knicks."
   },
   {
    "team": "ORL",

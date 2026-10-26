@@ -1,6 +1,31 @@
 [
  {
   "kind": "injury_new",
+  "team": "OKC",
+  "player": "Jalen Williams",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-25T23:01:09-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Jaylin Williams",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Wrist Soreness",
+  "time": "2026-10-25T23:01:09-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "ORL",
+  "player": "Jalen Suggs",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-25T23:01:09-0400"
+ },
+ {
+  "kind": "injury_new",
   "team": "DET",
   "player": "Isaiah Joe",
   "to": "day-to-day",
