@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-25T23:01:15-04:00",
+ "generated": "2026-10-26T02:01:06-04:00",
  "unmatched": [],
  "teams": {
   "ATL": {
    "roster": 0.03,
    "market": 0.74,
-   "prior": 0.38,
+   "prior": 0.39,
    "rotation": [
     {
      "player": "Jalen Johnson",
@@ -80,7 +80,7 @@
    ]
   },
   "BOS": {
-   "roster": 4.83,
+   "roster": 4.84,
    "market": 3.7,
    "prior": 4.27,
    "rotation": [
@@ -334,7 +334,7 @@
   "CHI": {
    "roster": -6.72,
    "market": -4.63,
-   "prior": -5.68,
+   "prior": -5.67,
    "rotation": [
     {
      "player": "Norman Powell",
@@ -500,7 +500,7 @@
    ]
   },
   "DAL": {
-   "roster": -4.28,
+   "roster": -4.27,
    "market": -2.41,
    "prior": -3.34,
    "rotation": [
@@ -668,9 +668,9 @@
    ]
   },
   "DET": {
-   "roster": 1.76,
+   "roster": 1.77,
    "market": 2.96,
-   "prior": 2.36,
+   "prior": 2.37,
    "rotation": [
     {
      "player": "Cade Cunningham",
@@ -1144,9 +1144,9 @@
    ]
   },
   "MEM": {
-   "roster": -2.96,
+   "roster": -2.95,
    "market": -4.63,
-   "prior": -3.8,
+   "prior": -3.79,
    "rotation": [
     {
      "player": "Zach Edey",
@@ -1160,14 +1160,14 @@
      "rating": 3.2,
      "o": 3.6,
      "d": -0.4,
-     "min": 27.3
+     "min": 27.4
     },
     {
      "player": "Scotty Pippen Jr.",
      "rating": 0.6,
      "o": 0.0,
      "d": 0.5,
-     "min": 26.4
+     "min": 26.3
     },
     {
      "player": "Kris Murray",
@@ -1195,21 +1195,21 @@
      "rating": -0.5,
      "o": 0.2,
      "d": -0.7,
-     "min": 20.9
+     "min": 21.0
     },
     {
      "player": "Cam Spencer",
      "rating": -0.2,
      "o": 0.8,
      "d": -1.0,
-     "min": 20.4
+     "min": 20.3
     },
     {
      "player": "Cameron Boozer",
      "rating": -1.2,
      "o": -0.9,
      "d": -0.3,
-     "min": 17.5
+     "min": 16.8
     },
     {
      "player": "Jaylen Wells",
@@ -1223,19 +1223,19 @@
      "rating": -0.7,
      "o": -0.4,
      "d": -0.2,
-     "min": 15.9
+     "min": 15.8
     },
     {
      "player": "Jerami Grant",
      "rating": -1.3,
      "o": -0.8,
      "d": -0.4,
-     "min": 1.0
+     "min": 1.6
     }
    ]
   },
   "MIA": {
-   "roster": -1.48,
+   "roster": -1.47,
    "market": 2.04,
    "prior": 0.28,
    "rotation": [
@@ -1319,7 +1319,7 @@
    ]
   },
   "MIL": {
-   "roster": -5.29,
+   "roster": -5.28,
    "market": -5.74,
    "prior": -5.51,
    "rotation": [
@@ -1403,9 +1403,9 @@
    ]
   },
   "MIN": {
-   "roster": 3.69,
+   "roster": 3.7,
    "market": 2.59,
-   "prior": 3.14,
+   "prior": 3.15,
    "rotation": [
     {
      "player": "Anthony Edwards",
@@ -1718,9 +1718,9 @@
    ]
   },
   "ORL": {
-   "roster": 0.14,
+   "roster": 0.15,
    "market": 0.93,
-   "prior": 0.53,
+   "prior": 0.54,
    "rotation": [
     {
      "player": "Franz Wagner",
@@ -1865,7 +1865,7 @@
    ]
   },
   "PHX": {
-   "roster": -2.04,
+   "roster": -2.03,
    "market": -0.19,
    "prior": -1.11,
    "rotation": [
@@ -1942,9 +1942,9 @@
    ]
   },
   "POR": {
-   "roster": 1.95,
+   "roster": 1.96,
    "market": 0.56,
-   "prior": 1.25,
+   "prior": 1.26,
    "rotation": [
     {
      "player": "Ja Morant",
@@ -2019,9 +2019,9 @@
    ]
   },
   "SAC": {
-   "roster": -8.02,
+   "roster": -8.13,
    "market": -7.59,
-   "prior": -7.81,
+   "prior": -7.86,
    "rotation": [
     {
      "player": "Keegan Murray",
@@ -2038,18 +2038,18 @@
      "min": 33.7
     },
     {
+     "player": "Precious Achiuwa",
+     "rating": -0.3,
+     "o": -0.2,
+     "d": -0.2,
+     "min": 25.8
+    },
+    {
      "player": "Dylan Cardwell",
      "rating": -0.2,
      "o": -1.5,
      "d": 1.3,
      "min": 25.8
-    },
-    {
-     "player": "Precious Achiuwa",
-     "rating": -0.3,
-     "o": -0.2,
-     "d": -0.2,
-     "min": 25.7
     },
     {
      "player": "Ben Simmons",
@@ -2063,7 +2063,7 @@
      "rating": -1.0,
      "o": 0.4,
      "d": -1.4,
-     "min": 23.1
+     "min": 23.0
     },
     {
      "player": "De'Andre Hunter",
@@ -2077,20 +2077,20 @@
      "rating": -0.8,
      "o": -2.3,
      "d": 1.5,
-     "min": 19.0
-    },
-    {
-     "player": "Daeqwon Plowden",
-     "rating": -1.6,
-     "o": -0.5,
-     "d": -1.1,
-     "min": 18.0
+     "min": 19.1
     },
     {
      "player": "Darius Acuff Jr.",
      "rating": -3.1,
      "o": -1.4,
      "d": -1.7,
+     "min": 18.0
+    },
+    {
+     "player": "Daeqwon Plowden",
+     "rating": -1.6,
+     "o": -0.5,
+     "d": -1.1,
      "min": 14.3
     }
    ]
@@ -2173,7 +2173,7 @@
    ]
   },
   "TOR": {
-   "roster": 4.54,
+   "roster": 4.55,
    "market": 1.67,
    "prior": 3.11,
    "rotation": [
@@ -2250,7 +2250,7 @@
    ]
   },
   "UTA": {
-   "roster": -3.18,
+   "roster": -3.17,
    "market": -2.04,
    "prior": -2.61,
    "rotation": [
