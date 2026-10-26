@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T18:45:53-0400",
+ "generated": "2026-10-26T19:15:48-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -58,6 +58,17 @@
   },
   {
    "team": "CHA",
+   "player_id": "4395651",
+   "player": "Coby White",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Strain",
+   "return_date": "2026-10-31",
+   "updated": "2026-10-26T22:41Z",
+   "comment": "Head coach Charles Lee said Monday that White (calf) remains without a timeline for a return, though Lee added that he'll have a better idea of where things stand following the Hornets' two-game road trip, Rod Boone of The Charlotte Observer reports."
+  },
+  {
+   "team": "CHA",
    "player_id": "5061575",
    "player": "Kon Knueppel",
    "status": "out",
@@ -77,17 +88,6 @@
    "return_date": "2026-10-31",
    "updated": "2026-10-26T22:34Z",
    "comment": "Williams (hamstring) will be re-evaluated following Charlotte's upcoming two-game road trip, Rod Boone reports."
-  },
-  {
-   "team": "CHA",
-   "player_id": "4395651",
-   "player": "Coby White",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Calf Strain",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-25T20:59Z",
-   "comment": "White (calf) is out for Monday's game against the Wizards."
   },
   {
    "team": "CHA",
@@ -322,6 +322,17 @@
   },
   {
    "team": "HOU",
+   "player_id": "2991235",
+   "player": "Steven Adams",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Strain",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-26T22:52Z",
+   "comment": "Head coach Ime Udoka said Monday that Adams could be out \"a week or two\" due to his right soleus strain, Lachard Binkley of SI.com reports."
+  },
+  {
+   "team": "HOU",
    "player_id": "2990992",
    "player": "Marcus Smart",
    "status": "out",
@@ -332,26 +343,26 @@
    "comment": "Smart (arm) is out for Monday's game against the Hawks."
   },
   {
-   "team": "HOU",
-   "player_id": "2991235",
-   "player": "Steven Adams",
+   "team": "IND",
+   "player_id": "4433076",
+   "player": "Ben Sheppard",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Calf Strain",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-25T21:24Z",
-   "comment": "Adams has been ruled out for Monday's game against the Hawks due to a right soleus strain."
+   "injury": "Knee",
+   "return_date": "2026-12-01",
+   "updated": "2026-10-26T23:09Z",
+   "comment": "Sheppard is scheduled for surgery to repair a torn meniscus in his left knee Wednesday, Dustin Dopirak of The Indianapolis Star reports."
   },
   {
    "team": "IND",
    "player_id": "4395712",
    "player": "Andrew Nembhard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Neck Soreness",
-   "return_date": "2026-10-26",
-   "updated": "2026-10-26T18:34Z",
-   "comment": "Nembhard (neck) is questionable for Monday's game against the Bucks."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Soreness",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-26T22:42Z",
+   "comment": "Nembhard (neck/back) has been ruled out for Monday's game against Milwaukee, Dustin Dopirak of The Indianapolis Star reports."
   },
   {
    "team": "IND",
@@ -366,17 +377,6 @@
   },
   {
    "team": "IND",
-   "player_id": "4396909",
-   "player": "Aaron Nesmith",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring",
-   "return_date": "2026-10-26",
-   "updated": "2026-10-26T18:22Z",
-   "comment": "Nesmith (hamstring) is probable for Monday's game against the Bucks."
-  },
-  {
-   "team": "IND",
    "player_id": "4017837",
    "player": "Ivica Zubac",
    "status": "out",
@@ -385,17 +385,6 @@
    "return_date": "2026-10-28",
    "updated": "2026-10-26T18:20Z",
    "comment": "Zubac (ankle) is out for Monday's game against the Bucks."
-  },
-  {
-   "team": "IND",
-   "player_id": "4433076",
-   "player": "Ben Sheppard",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee",
-   "return_date": "2026-12-01",
-   "updated": "2026-10-23T22:53Z",
-   "comment": "Sheppard has been diagnosed with a torn meniscus in his left knee and is without a timetable for a return to game action, Scott Agness of FieldhouseFiles.com reports."
   },
   {
    "team": "IND",
