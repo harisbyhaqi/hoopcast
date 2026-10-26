@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-25T19:15:56-04:00",
+ "generated": "2026-10-25T20:46:02-04:00",
  "unmatched": [],
  "teams": {
   "ATL": {
-   "roster": 0.02,
+   "roster": 0.03,
    "market": 0.74,
    "prior": 0.38,
    "rotation": [
@@ -173,7 +173,7 @@
      "rating": 2.1,
      "o": 2.7,
      "d": -0.6,
-     "min": 33.4
+     "min": 33.3
     },
     {
      "player": "Julius Randle",
@@ -215,7 +215,7 @@
      "rating": -1.3,
      "o": -0.8,
      "d": -0.5,
-     "min": 20.7
+     "min": 20.6
     },
     {
      "player": "Chaney Johnson",
@@ -250,7 +250,7 @@
      "rating": -2.8,
      "o": -2.0,
      "d": -0.8,
-     "min": 0.3
+     "min": 0.5
     }
    ]
   },
@@ -908,7 +908,7 @@
   "IND": {
    "roster": -1.0,
    "market": 1.11,
-   "prior": 0.06,
+   "prior": 0.05,
    "rotation": [
     {
      "player": "Tyrese Haliburton",
@@ -929,14 +929,14 @@
      "rating": 1.3,
      "o": 0.2,
      "d": 1.1,
-     "min": 30.6
+     "min": 30.5
     },
     {
      "player": "Aaron Nesmith",
      "rating": -0.1,
      "o": 0.4,
      "d": -0.4,
-     "min": 23.8
+     "min": 23.7
     },
     {
      "player": "Quenton Jackson",
@@ -964,7 +964,7 @@
      "rating": 0.1,
      "o": -1.7,
      "d": 1.8,
-     "min": 21.7
+     "min": 21.5
     },
     {
      "player": "Andrew Nembhard",
@@ -978,7 +978,7 @@
      "rating": -0.3,
      "o": -0.7,
      "d": 0.4,
-     "min": 12.2
+     "min": 12.7
     }
    ]
   },
@@ -2287,7 +2287,7 @@
      "rating": 0.1,
      "o": -0.5,
      "d": 0.6,
-     "min": 23.3
+     "min": 23.2
     },
     {
      "player": "Jaxson Hayes",
