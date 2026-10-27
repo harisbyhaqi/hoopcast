@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T20:16:03-0400",
+ "generated": "2026-10-26T20:45:52-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -121,6 +121,17 @@
    "return_date": "2026-10-28",
    "updated": "2026-10-26T21:33Z",
    "comment": "Williams (groin) has been ruled out for Monday's game against the Celtics."
+  },
+  {
+   "team": "DAL",
+   "player_id": "5279129",
+   "player": "Sergio de Larrea",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Not Specified",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-27T00:22Z",
+   "comment": "De Larrea went to the locker room during the second quarter of Monday's game against the Heat with an apparent right injury, Grant Afseth of DallasHoopsJournal.com reports."
   },
   {
    "team": "DAL",
@@ -260,8 +271,8 @@
    "player": "Gui Santos",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Knee Tendinitis",
-   "return_date": "2026-10-26",
+   "injury": "",
+   "return_date": null,
    "updated": "2026-10-25T21:22Z",
    "comment": "Santos is questionable for Monday's game against the Nuggets due to left knee tendinitis."
   },
@@ -271,8 +282,8 @@
    "player": "Brandon Williams",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Back Soreness",
-   "return_date": "2026-10-26",
+   "injury": "",
+   "return_date": null,
    "updated": "2026-10-25T21:20Z",
    "comment": "Williams is probable for Monday's game against the Nuggets due to left lower back soreness."
   },
@@ -282,8 +293,8 @@
    "player": "Charles Bassey",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-10-26",
+   "injury": "",
+   "return_date": null,
    "updated": "2026-10-25T21:13Z",
    "comment": "Bassey is probable for Monday's game against the Nuggets due to right patellar tendinopathy."
   },
@@ -460,8 +471,8 @@
    "status_raw": "Out",
    "injury": "Knee Inflammation",
    "return_date": "2026-10-28",
-   "updated": "2026-10-24T23:20Z",
-   "comment": "Thiero (knee) has been ruled out for Sunday's game against Utah, Khobi Price of The California Post reports."
+   "updated": "2026-10-27T00:08Z",
+   "comment": "Thiero (knee) is out for Tuesday's game against Portland."
   },
   {
    "team": "LAL",
@@ -471,30 +482,8 @@
    "status_raw": "Out",
    "injury": "Oblique Strain",
    "return_date": "2026-10-27",
-   "updated": "2026-10-24T23:07Z",
-   "comment": "Carr (oblique) is out for Sunday's game in Utah, Khobi Price of The California Post reports."
-  },
-  {
-   "team": "MEM",
-   "player_id": "4432810",
-   "player": "Isaiah Stewart",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-10-26",
-   "updated": "2026-10-26T19:17Z",
-   "comment": "Stewart is listed as questionable for Monday's game against the Jazz due to left ankle injury management."
-  },
-  {
-   "team": "MEM",
-   "player_id": "5231919",
-   "player": "Karim Lopez",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Bruise",
-   "return_date": "2026-10-26",
-   "updated": "2026-10-26T19:16Z",
-   "comment": "Lopez (knee) is questionable for Monday's game in Utah."
+   "updated": "2026-10-27T00:06Z",
+   "comment": "Carr (oblique) has been ruled out for Tuesday's game against the Trail Blazers."
   },
   {
    "team": "MIN",
@@ -874,12 +863,12 @@
    "team": "UTA",
    "player_id": "4397077",
    "player": "Jaxson Hayes",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Shoulder Soreness",
    "return_date": "2026-10-28",
-   "updated": "2026-10-26T19:05Z",
-   "comment": "Hayes is listed as questionable for Monday's game against the Grizzlies due to right shoulder soreness, Shreyas Laddha of The Salt Lake Tribune reports."
+   "updated": "2026-10-27T00:11Z",
+   "comment": "Hayes (shoulder) is out for Monday's game against the Grizzlies."
   },
   {
    "team": "UTA",

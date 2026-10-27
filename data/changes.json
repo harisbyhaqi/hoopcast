@@ -1,6 +1,37 @@
 [
  {
   "kind": "injury_new",
+  "team": "DAL",
+  "player": "Sergio de Larrea",
+  "to": "day-to-day",
+  "injury": "Ankle Not Specified",
+  "time": "2026-10-26T20:45:52-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Jaxson Hayes",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Shoulder Soreness",
+  "time": "2026-10-26T20:45:52-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "MEM",
+  "player": "Isaiah Stewart",
+  "from": "day-to-day",
+  "time": "2026-10-26T20:45:52-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "MEM",
+  "player": "Karim Lopez",
+  "from": "day-to-day",
+  "time": "2026-10-26T20:45:52-0400"
+ },
+ {
+  "kind": "injury_new",
   "team": "POR",
   "player": "Scoot Henderson",
   "to": "day-to-day",
