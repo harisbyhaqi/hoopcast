@@ -1,5 +1,30 @@
 [
  {
+  "kind": "injury_new",
+  "team": "POR",
+  "player": "Scoot Henderson",
+  "to": "day-to-day",
+  "injury": "Ankle Soreness",
+  "time": "2026-10-26T20:16:03-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Chris Youngblood",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Soreness",
+  "time": "2026-10-26T20:16:03-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "WAS",
+  "player": "Justin Champagnie",
+  "to": "day-to-day",
+  "injury": "Foot Not Specified",
+  "time": "2026-10-26T20:16:03-0400"
+ },
+ {
   "kind": "status_change",
   "team": "IND",
   "player": "Andrew Nembhard",

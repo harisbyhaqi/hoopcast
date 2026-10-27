@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T19:45:55-0400",
+ "generated": "2026-10-26T20:16:03-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -459,7 +459,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee Inflammation",
-   "return_date": "2026-10-27",
+   "return_date": "2026-10-28",
    "updated": "2026-10-24T23:20Z",
    "comment": "Thiero (knee) has been ruled out for Sunday's game against Utah, Khobi Price of The California Post reports."
   },
@@ -740,25 +740,36 @@
   },
   {
    "team": "POR",
-   "player_id": "4706557",
-   "player": "Chris Youngblood",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Soreness",
-   "return_date": "2026-10-27",
-   "updated": "2026-10-24T13:46Z",
-   "comment": "Youngblood (ankle) is out for Friday's game against the Kings."
-  },
-  {
-   "team": "POR",
    "player_id": "4592435",
    "player": "Branden Carlson",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Concussion Concussion",
    "return_date": "2026-10-27",
-   "updated": "2026-10-24T13:46Z",
-   "comment": "Carlson (concussion) has been ruled out for Friday's game against Sacramento."
+   "updated": "2026-10-27T00:04Z",
+   "comment": "Carlson (concussion) is listed as questionable for Tuesday's game against the Lakers."
+  },
+  {
+   "team": "POR",
+   "player_id": "4683678",
+   "player": "Scoot Henderson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Soreness",
+   "return_date": "2026-10-27",
+   "updated": "2026-10-27T00:04Z",
+   "comment": "Henderson is questionable for Tuesday's game against the Lakers due to left ankle soreness."
+  },
+  {
+   "team": "POR",
+   "player_id": "4706557",
+   "player": "Chris Youngblood",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Soreness",
+   "return_date": "2026-10-29",
+   "updated": "2026-10-27T00:01Z",
+   "comment": "Youngblood (ankle) is out for Friday's game against the Kings."
   },
   {
    "team": "POR",
@@ -866,7 +877,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Shoulder Soreness",
-   "return_date": "2026-10-26",
+   "return_date": "2026-10-28",
    "updated": "2026-10-26T19:05Z",
    "comment": "Hayes is listed as questionable for Monday's game against the Grizzlies due to right shoulder soreness, Shreyas Laddha of The Salt Lake Tribune reports."
   },
@@ -891,6 +902,17 @@
    "return_date": "2026-11-04",
    "updated": "2026-10-07T23:07Z",
    "comment": "Nurkic will miss at least the next four weeks due to a partial plantar plate tear of second toe in right foot, Chris Haynes of NBA TV reports."
+  },
+  {
+   "team": "WAS",
+   "player_id": "4432907",
+   "player": "Justin Champagnie",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Foot Not Specified",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-27T00:01Z",
+   "comment": "Champagnie has been ruled out for the remainder of Monday's game against Charlotte due to a right foot injury, Josh Robbins of The Athletic reports. He'll finish with two points (1-1 FG) and two rebounds in four minutes."
   },
   {
    "team": "WAS",
