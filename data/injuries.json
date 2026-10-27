@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T20:45:52-0400",
+ "generated": "2026-10-26T21:45:57-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -128,10 +128,10 @@
    "player": "Sergio de Larrea",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Ankle Not Specified",
-   "return_date": "2026-10-26",
-   "updated": "2026-10-27T00:22Z",
-   "comment": "De Larrea went to the locker room during the second quarter of Monday's game against the Heat with an apparent right injury, Grant Afseth of DallasHoopsJournal.com reports."
+   "injury": "Knee Strain",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-27T01:25Z",
+   "comment": "De Larrea (knee) won't return to Monday's game against the Heat. He'll finish with zero points (0-1 FG) and one rebound across six minutes."
   },
   {
    "team": "DAL",
@@ -190,6 +190,17 @@
   },
   {
    "team": "DEN",
+   "player_id": "3138196",
+   "player": "Cameron Johnson",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-27T01:13Z",
+   "comment": "Johnson (ankle) has been ruled out for Monday's game against Golden State."
+  },
+  {
+   "team": "DEN",
    "player_id": "4065813",
    "player": "Alpha Diallo",
    "status": "out",
@@ -198,17 +209,6 @@
    "return_date": "2026-10-28",
    "updated": "2026-10-26T19:03Z",
    "comment": "Diallo (wrist) is out for Monday's game against the Warriors."
-  },
-  {
-   "team": "DEN",
-   "player_id": "3138196",
-   "player": "Cameron Johnson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-26",
-   "updated": "2026-10-25T22:41Z",
-   "comment": "Johnson (ankle) is doubtful to play Monday against the Warriors."
   },
   {
    "team": "DEN",
@@ -264,39 +264,6 @@
    "return_date": "2026-11-09",
    "updated": "2026-10-25T14:56Z",
    "comment": "Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com reports."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4997536",
-   "player": "Gui Santos",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-10-25T21:22Z",
-   "comment": "Santos is questionable for Monday's game against the Nuggets due to left knee tendinitis."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4397040",
-   "player": "Brandon Williams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-10-25T21:20Z",
-   "comment": "Williams is probable for Monday's game against the Nuggets due to left lower back soreness."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4397886",
-   "player": "Charles Bassey",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-10-25T21:13Z",
-   "comment": "Bassey is probable for Monday's game against the Nuggets due to right patellar tendinopathy."
   },
   {
    "team": "GSW",
@@ -517,6 +484,17 @@
    "return_date": "2026-10-28",
    "updated": "2026-10-26T20:50Z",
    "comment": "Alvarado (ankle) is out for Tuesday's game against the Pistons."
+  },
+  {
+   "team": "OKC",
+   "player_id": "2991350",
+   "player": "Alex Caruso",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-27T01:36Z",
+   "comment": "Caruso won't return to Monday's game against the Suns due to a right ankle sprain, Marc J. Spears of ESPN.com reports. He'll finish with nine points (3-5 FG, 3-5 3Pt), three assists and two rebounds in nine minutes."
   },
   {
    "team": "OKC",
@@ -858,6 +836,17 @@
    "return_date": "2026-10-28",
    "updated": "2026-10-20T18:05Z",
    "comment": "Bittle (foot) is out for Wednesday's season opener against the Bulls."
+  },
+  {
+   "team": "UTA",
+   "player_id": "4066336",
+   "player": "Lauri Markkanen",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hand Not Specified",
+   "return_date": "2026-10-26",
+   "updated": "2026-10-27T01:31Z",
+   "comment": "Markkanen went to the locker room during the first quarter of Monday's game against the Grizzlies due to an apparent hand injury, Shreyas Laddha of The Salt Lake Tribune reports."
   },
   {
    "team": "UTA",
