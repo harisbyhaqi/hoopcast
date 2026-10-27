@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T21:45:57-0400",
+ "generated": "2026-10-26T23:00:57-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -442,17 +442,6 @@
    "comment": "Thiero (knee) is out for Tuesday's game against Portland."
   },
   {
-   "team": "LAL",
-   "player_id": "5113969",
-   "player": "Cameron Carr",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Oblique Strain",
-   "return_date": "2026-10-27",
-   "updated": "2026-10-27T00:06Z",
-   "comment": "Carr (oblique) has been ruled out for Tuesday's game against the Trail Blazers."
-  },
-  {
    "team": "MIN",
    "player_id": "3934673",
    "player": "Donte DiVincenzo",
@@ -843,10 +832,21 @@
    "player": "Lauri Markkanen",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Hand Not Specified",
-   "return_date": "2026-10-26",
-   "updated": "2026-10-27T01:31Z",
-   "comment": "Markkanen went to the locker room during the first quarter of Monday's game against the Grizzlies due to an apparent hand injury, Shreyas Laddha of The Salt Lake Tribune reports."
+   "injury": "Wrist Not Specified",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-27T02:13Z",
+   "comment": "Markkanen (wrist) won't return to Monday's game against Memphis."
+  },
+  {
+   "team": "UTA",
+   "player_id": "4277961",
+   "player": "Jaren Jackson Jr.",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Not Specified",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-27T02:06Z",
+   "comment": "Jackson has been ruled out for the rest of Monday's game against the Grizzlies due to a right knee injury."
   },
   {
    "team": "UTA",

@@ -1,5 +1,20 @@
 [
  {
+  "kind": "injury_new",
+  "team": "UTA",
+  "player": "Jaren Jackson Jr.",
+  "to": "day-to-day",
+  "injury": "Knee Not Specified",
+  "time": "2026-10-26T23:00:57-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAL",
+  "player": "Cameron Carr",
+  "from": "out",
+  "time": "2026-10-26T23:00:57-0400"
+ },
+ {
   "kind": "status_change",
   "team": "DEN",
   "player": "Cameron Johnson",
