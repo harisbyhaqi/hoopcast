@@ -1,5 +1,29 @@
 [
  {
+  "kind": "status_change",
+  "team": "DET",
+  "player": "Isaiah Joe",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hip Bruise",
+  "time": "2026-10-27T19:45:48-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "LAL",
+  "player": "Cameron Carr",
+  "to": "out",
+  "injury": "Oblique Strain",
+  "time": "2026-10-27T19:45:48-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "DET",
+  "player": "Ausar Thompson",
+  "from": "day-to-day",
+  "time": "2026-10-27T19:45:48-0400"
+ },
+ {
   "kind": "injury_new",
   "team": "ATL",
   "player": "Aaron Wiggins",
