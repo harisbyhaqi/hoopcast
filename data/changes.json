@@ -1,5 +1,20 @@
 [
  {
+  "kind": "injury_new",
+  "team": "BKN",
+  "player": "Egor Demin",
+  "to": "day-to-day",
+  "injury": "Leg Bruise",
+  "time": "2026-10-27T22:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "POR",
+  "player": "Scoot Henderson",
+  "from": "day-to-day",
+  "time": "2026-10-27T22:45:56-0400"
+ },
+ {
   "kind": "status_change",
   "team": "DET",
   "player": "Isaiah Joe",
