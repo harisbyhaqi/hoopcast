@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T23:01:04-04:00",
+ "generated": "2026-10-28T02:00:54-04:00",
  "unmatched": [
   "Otega Oweh"
  ],
@@ -1113,7 +1113,7 @@
      "rating": -0.1,
      "o": 0.6,
      "d": -0.7,
-     "min": 20.9
+     "min": 20.8
     },
     {
      "player": "Jarred Vanderbilt",
@@ -1967,28 +1967,28 @@
      "rating": 0.5,
      "o": 1.6,
      "d": -1.1,
-     "min": 27.8
+     "min": 27.7
     },
     {
      "player": "Toumani Camara",
      "rating": 1.2,
      "o": 0.2,
      "d": 1.0,
-     "min": 27.6
+     "min": 27.5
     },
     {
      "player": "Donovan Clingan",
      "rating": 1.5,
      "o": 0.1,
      "d": 1.4,
-     "min": 26.5
+     "min": 26.6
     },
     {
      "player": "Robert Williams III",
      "rating": 2.2,
      "o": 0.2,
      "d": 2.0,
-     "min": 25.6
+     "min": 25.7
     },
     {
      "player": "Shaedon Sharpe",

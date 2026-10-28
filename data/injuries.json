@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T23:00:58-0400",
+ "generated": "2026-10-28T02:00:50-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -53,8 +53,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Leg Bruise",
    "return_date": "2026-10-30",
-   "updated": "2026-10-28T01:00Z",
-   "comment": "Demin (leg) won't return to Tuesday's game against Boston, C.J. Holmes of the New York Daily News reports. He finished with two points (1-3 FG, 0-2 3Pt), one rebound, two assists and one steal over 10 minutes."
+   "updated": "2026-10-28T03:46Z",
+   "comment": "Demin (leg) stated he isn't sure if he will be able to play in Friday's game against Detroit, Erik Slater of ClutchPoints.com reports."
   },
   {
    "team": "BKN",
@@ -269,11 +269,11 @@
    "team": "DET",
    "player_id": "4395702",
    "player": "Isaiah Joe",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hip Bruise",
    "return_date": "2026-10-28",
-   "updated": "2026-10-27T23:21Z",
+   "updated": "2026-10-28T05:11Z",
    "comment": "Joe (hip) has been ruled out for Tuesday's game against the Knicks."
   },
   {
@@ -610,11 +610,11 @@
    "team": "NYK",
    "player_id": "4277869",
    "player": "Jose Alvarado",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-28",
-   "updated": "2026-10-26T20:50Z",
+   "updated": "2026-10-28T05:12Z",
    "comment": "Alvarado (ankle) is out for Tuesday's game against the Pistons."
   },
   {

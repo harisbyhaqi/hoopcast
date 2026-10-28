@@ -1,5 +1,29 @@
 [
  {
+  "kind": "signed",
+  "team": "MIN",
+  "player": "Enrique Freeman",
+  "time": "2026-10-28T02:00:50-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DET",
+  "player": "Isaiah Joe",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hip Bruise",
+  "time": "2026-10-28T02:00:50-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "NYK",
+  "player": "Jose Alvarado",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-28T02:00:50-0400"
+ },
+ {
   "kind": "injury_new",
   "team": "BKN",
   "player": "Egor Demin",
