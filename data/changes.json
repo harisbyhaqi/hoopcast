@@ -1,5 +1,149 @@
 [
  {
+  "kind": "status_change",
+  "team": "CHI",
+  "player": "Tobe Awaka",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHI",
+  "player": "Patrick Williams",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Groin Soreness",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DET",
+  "player": "Isaiah Joe",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hip Bruise",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DET",
+  "player": "Ausar Thompson",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Marcus Smart",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Forearm Strain",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Tyrese Haliburton",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hamstring Strain",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "LAL",
+  "player": "Ziaire Williams",
+  "to": "out",
+  "injury": "Foot",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "LAL",
+  "player": "Luka Doncic",
+  "to": "out",
+  "injury": "Back",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "MIA",
+  "player": "Simone Fontecchio",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Illness",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "NYK",
+  "player": "Jose Alvarado",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "WAS",
+  "player": "Tre Johnson",
+  "to": "out",
+  "injury": "Achilles Soreness",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "ATL",
+  "player": "Aaron Wiggins",
+  "from": "day-to-day",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Yaxel Lendeborg",
+  "from": "day-to-day",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Andrew Nembhard",
+  "from": "day-to-day",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Aaron Nesmith",
+  "from": "day-to-day",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIA",
+  "player": "Pelle Larsson",
+  "from": "day-to-day",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "NOP",
+  "player": "Jordan Poole",
+  "from": "day-to-day",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "WAS",
+  "player": "AJ Dybantsa",
+  "from": "out",
+  "time": "2026-10-28T18:45:49-0400"
+ },
+ {
   "kind": "signed",
   "team": "MIN",
   "player": "Enrique Freeman",
