@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T22:46:00-04:00",
+ "generated": "2026-10-27T23:01:04-04:00",
  "unmatched": [
   "Otega Oweh"
  ],
@@ -714,7 +714,7 @@
      "rating": 1.3,
      "o": 0.1,
      "d": 1.2,
-     "min": 22.9
+     "min": 23.0
     },
     {
      "player": "Duncan Robinson",
@@ -735,14 +735,14 @@
      "rating": 0.2,
      "o": -0.1,
      "d": 0.3,
-     "min": 17.8
+     "min": 17.7
     },
     {
      "player": "Taurean Prince",
      "rating": -1.4,
      "o": -0.9,
      "d": -0.5,
-     "min": 13.2
+     "min": 13.1
     },
     {
      "player": "Ronald Holland II",
@@ -1552,7 +1552,7 @@
    ]
   },
   "NYK": {
-   "roster": 3.67,
+   "roster": 3.66,
    "market": 4.07,
    "prior": 3.87,
    "rotation": [
