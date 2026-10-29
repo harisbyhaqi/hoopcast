@@ -1,5 +1,128 @@
 [
  {
+  "kind": "signed",
+  "team": "CLE",
+  "player": "Ernest Udeh Jr.",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "BKN",
+  "player": "Egor Demin",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Leg Bruise",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CHA",
+  "player": "Dennis Schroder",
+  "to": "day-to-day",
+  "injury": "Foot",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CHI",
+  "player": "Jalen Smith",
+  "to": "day-to-day",
+  "injury": "Finger",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CLE",
+  "player": "Meleek Thomas",
+  "to": "out",
+  "injury": "Foot",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Sergio de Larrea",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Strain",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "HOU",
+  "player": "Reed Sheppard",
+  "to": "out",
+  "injury": "Back",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "IND",
+  "player": "Andrew Nembhard",
+  "to": "day-to-day",
+  "injury": "Neck Soreness",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "IND",
+  "player": "Aaron Nesmith",
+  "to": "day-to-day",
+  "injury": "Hamstring",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Ivica Zubac",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "NOP",
+  "player": "Dejounte Murray",
+  "to": "out",
+  "injury": "Personal",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Jordan Poole",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Jabari Walker",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Soreness",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Jaylen Brown",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "POR",
+  "player": "Robert Williams III",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-29T19:45:47-0400"
+ },
+ {
   "kind": "released",
   "team": "OKC",
   "player": "Otega Oweh",

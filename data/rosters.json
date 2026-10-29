@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T10:00:50-0400",
+ "generated": "2026-10-29T19:45:47-0400",
  "teams": {
   "ATL": [
    {
@@ -611,6 +611,12 @@
     "player": "Jaylon Tyson",
     "position": "G",
     "jersey": "20"
+   },
+   {
+    "player_id": "5106261",
+    "player": "Ernest Udeh Jr.",
+    "position": "C",
+    "jersey": "88"
    },
    {
     "player_id": "4576087",
