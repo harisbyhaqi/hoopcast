@@ -1,5 +1,153 @@
 [
  {
+  "kind": "released",
+  "team": "OKC",
+  "player": "Otega Oweh",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHI",
+  "player": "Tobe Awaka",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Sergio de Larrea",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Strain",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Naji Marshall",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DET",
+  "player": "Isaiah Joe",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hip Bruise",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Gui Santos",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Tendinitis",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Alperen Sengun",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Ivica Zubac",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAC",
+  "player": "Rui Hachimura",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Quadriceps Soreness",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Ziaire Williams",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Foot",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Luka Doncic",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "MIA",
+  "player": "Simone Fontecchio",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Chet Holmgren",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Jabari Walker",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Soreness",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Lauri Markkanen",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Wrist Not Specified",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "WAS",
+  "player": "Tre Johnson",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Achilles Soreness",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "OKC",
+  "player": "Otega Oweh",
+  "from": "out",
+  "time": "2026-10-29T02:00:46-0400"
+ },
+ {
   "kind": "signed",
   "team": "LAL",
   "player": "Lawson Lovering",

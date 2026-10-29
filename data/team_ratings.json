@@ -1,11 +1,9 @@
 {
- "generated": "2026-10-28T23:01:09-04:00",
- "unmatched": [
-  "Otega Oweh"
- ],
+ "generated": "2026-10-29T02:00:51-04:00",
+ "unmatched": [],
  "teams": {
   "ATL": {
-   "roster": 0.0,
+   "roster": 0.01,
    "market": 0.74,
    "prior": 0.37,
    "rotation": [
@@ -511,7 +509,7 @@
      "rating": 2.3,
      "o": 2.6,
      "d": -0.3,
-     "min": 34.6
+     "min": 34.5
     },
     {
      "player": "Cooper Flagg",
@@ -539,7 +537,7 @@
      "rating": 0.2,
      "o": -0.7,
      "d": 0.9,
-     "min": 26.7
+     "min": 26.8
     },
     {
      "player": "Marcus Sasser",
@@ -560,14 +558,14 @@
      "rating": -1.4,
      "o": -1.3,
      "d": -0.1,
-     "min": 18.7
+     "min": 18.6
     },
     {
      "player": "Walter Clayton Jr.",
      "rating": -1.1,
      "o": -0.4,
      "d": -0.7,
-     "min": 18.0
+     "min": 17.9
     },
     {
      "player": "Max Christie",
@@ -1029,7 +1027,7 @@
      "rating": 0.5,
      "o": 0.0,
      "d": 0.5,
-     "min": 22.2
+     "min": 22.3
     },
     {
      "player": "Brook Lopez",
@@ -1050,19 +1048,19 @@
      "rating": -0.8,
      "o": -0.3,
      "d": -0.5,
-     "min": 19.2
+     "min": 19.4
     },
     {
      "player": "Rui Hachimura",
      "rating": -1.0,
      "o": -0.5,
      "d": -0.5,
-     "min": 12.3
+     "min": 12.1
     }
    ]
   },
   "LAL": {
-   "roster": 2.49,
+   "roster": 2.5,
    "market": 1.67,
    "prior": 2.08,
    "rotation": [
@@ -1099,7 +1097,7 @@
      "rating": 1.0,
      "o": -0.8,
      "d": 1.9,
-     "min": 23.6
+     "min": 23.7
     },
     {
      "player": "Jake LaRavia",
@@ -1134,12 +1132,12 @@
      "rating": -0.9,
      "o": -0.4,
      "d": -0.5,
-     "min": 15.2
+     "min": 15.0
     }
    ]
   },
   "MEM": {
-   "roster": -2.96,
+   "roster": -2.95,
    "market": -4.63,
    "prior": -3.79,
    "rotation": [
@@ -1446,7 +1444,7 @@
     },
     {
      "player": "Bones Hyland",
-     "rating": 0.3,
+     "rating": 0.4,
      "o": null,
      "d": null,
      "min": 19.4
@@ -1629,9 +1627,9 @@
    ]
   },
   "OKC": {
-   "roster": 7.99,
+   "roster": 7.94,
    "market": 7.22,
-   "prior": 7.61,
+   "prior": 7.58,
    "rotation": [
     {
      "player": "Shai Gilgeous-Alexander",
@@ -1680,7 +1678,7 @@
      "rating": 1.2,
      "o": 1.0,
      "d": 0.2,
-     "min": 21.4
+     "min": 21.5
     },
     {
      "player": "Jaylin Williams",
@@ -1704,11 +1702,11 @@
      "min": 13.7
     },
     {
-     "player": "Nikola Topic",
-     "rating": -1.0,
-     "o": -0.5,
-     "d": -0.5,
-     "min": 2.7
+     "player": "Josh Dix",
+     "rating": -2.0,
+     "o": -1.9,
+     "d": -0.1,
+     "min": 2.6
     }
    ]
   },
@@ -2016,7 +2014,7 @@
   "SAC": {
    "roster": -8.62,
    "market": -7.59,
-   "prior": -8.11,
+   "prior": -8.1,
    "rotation": [
     {
      "player": "Domantas Sabonis",
@@ -2091,9 +2089,9 @@
    ]
   },
   "SAS": {
-   "roster": 5.42,
+   "roster": 5.43,
    "market": 7.04,
-   "prior": 6.23,
+   "prior": 6.24,
    "rotation": [
     {
      "player": "De'Aaron Fox",
@@ -2114,7 +2112,7 @@
      "rating": 1.2,
      "o": 0.6,
      "d": 0.6,
-     "min": 29.1
+     "min": 29.2
     },
     {
      "player": "Stephon Castle",
@@ -2142,7 +2140,7 @@
      "rating": 0.6,
      "o": 1.1,
      "d": -0.4,
-     "min": 21.6
+     "min": 21.7
     },
     {
      "player": "Harrison Barnes",
@@ -2163,7 +2161,7 @@
      "rating": -0.3,
      "o": 0.1,
      "d": -0.4,
-     "min": 3.2
+     "min": 3.0
     }
    ]
   },
@@ -2296,7 +2294,7 @@
      "rating": 0.1,
      "o": -0.6,
      "d": 0.7,
-     "min": 22.1
+     "min": 22.2
     },
     {
      "player": "Blake Hinson",
@@ -2324,7 +2322,7 @@
      "rating": -0.9,
      "o": 1.1,
      "d": -2.0,
-     "min": 8.6
+     "min": 8.5
     }
    ]
   },
