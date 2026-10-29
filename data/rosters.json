@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T21:15:54-0400",
+ "generated": "2026-10-28T22:15:52-0400",
  "teams": {
   "ATL": [
    {
@@ -1425,6 +1425,12 @@
     "player": "Kevon Looney",
     "position": "F",
     "jersey": "55"
+   },
+   {
+    "player_id": "4596528",
+    "player": "Lawson Lovering",
+    "position": "C",
+    "jersey": ""
    },
    {
     "player_id": "4278580",

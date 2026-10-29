@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T21:15:54-0400",
+ "generated": "2026-10-28T22:15:52-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -388,6 +388,17 @@
   },
   {
    "team": "LAC",
+   "player_id": "5108024",
+   "player": "Yanic Konan Niederhauser",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot Surgery",
+   "return_date": "2026-11-08",
+   "updated": "2026-10-29T01:15Z",
+   "comment": "Niederhauser (foot) remains out for Wednesday's game against the Lakers. He also won't travel with the team for the upcoming two-game road trip in Minnesota and Golden State, Ohm Youngmisuk of ESPN.com reports."
+  },
+  {
+   "team": "LAC",
    "player_id": "4065778",
    "player": "Max Strus",
    "status": "out",
@@ -429,17 +440,6 @@
    "return_date": "2026-11-08",
    "updated": "2026-10-15T01:03Z",
    "comment": "Beal (knee) will not be ready for the start of the regular season, NBA writer Justin Russo reports."
-  },
-  {
-   "team": "LAC",
-   "player_id": "5108024",
-   "player": "Yanic Konan Niederhauser",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Foot Surgery",
-   "return_date": "2026-11-08",
-   "updated": "2026-09-28T18:07Z",
-   "comment": "Niederhauser (foot) won't be ready for the start of the season, Law Murray of The Athletic reports."
   },
   {
    "team": "LAC",
@@ -531,6 +531,17 @@
   },
   {
    "team": "NOP",
+   "player_id": "4277956",
+   "player": "Jordan Poole",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-10-29",
+   "updated": "2026-10-29T01:33Z",
+   "comment": "Poole (ankle) won't return to Wednesday's game against the Nuggets. He finished with two points (1-3 FG, 0-1 3Pt), one rebound and one steal over seven minutes."
+  },
+  {
+   "team": "NOP",
    "player_id": "5061589",
    "player": "Yves Missi",
    "status": "out",
@@ -539,17 +550,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-10-24T22:17Z",
    "comment": "Missi has been diagnosed with a left knee bone bruise and he will miss an extended period of time, Brett Siegel of ClutchPoints.com reports."
-  },
-  {
-   "team": "NYK",
-   "player_id": "3914044",
-   "player": "Landry Shamet",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-29T00:55Z",
-   "comment": "Shamet (ankle) exited Wednesday's game against the Bulls, Brett Siegel of ClutchPoints.com reports."
   },
   {
    "team": "NYK",

@@ -1,5 +1,26 @@
 [
  {
+  "kind": "signed",
+  "team": "LAL",
+  "player": "Lawson Lovering",
+  "time": "2026-10-28T22:15:52-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "NOP",
+  "player": "Jordan Poole",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-28T22:15:52-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "NYK",
+  "player": "Landry Shamet",
+  "from": "day-to-day",
+  "time": "2026-10-28T22:15:52-0400"
+ },
+ {
   "kind": "injury_new",
   "team": "NYK",
   "player": "Landry Shamet",
