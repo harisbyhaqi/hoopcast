@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T20:45:51-0400",
+ "generated": "2026-10-28T21:15:54-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -388,6 +388,28 @@
   },
   {
    "team": "LAC",
+   "player_id": "4065778",
+   "player": "Max Strus",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot Plantar Fasciitis",
+   "return_date": "2026-11-08",
+   "updated": "2026-10-29T01:03Z",
+   "comment": "Strus (foot) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports."
+  },
+  {
+   "team": "LAC",
+   "player_id": "3913176",
+   "player": "Brandon Ingram",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Achilles Surgery",
+   "return_date": "2026-11-08",
+   "updated": "2026-10-29T01:00Z",
+   "comment": "Ingram (Achilles) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports."
+  },
+  {
+   "team": "LAC",
    "player_id": "4066648",
    "player": "Rui Hachimura",
    "status": "out",
@@ -410,17 +432,6 @@
   },
   {
    "team": "LAC",
-   "player_id": "4065778",
-   "player": "Max Strus",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Foot Plantar Fasciitis",
-   "return_date": "2026-11-08",
-   "updated": "2026-10-05T22:21Z",
-   "comment": "Strus has been diagnosed with a partially torn plantar fascia in his right foot and he will be re-evaluated in four weeks, Ohm Youngmisuk of ESPN.com reports."
-  },
-  {
-   "team": "LAC",
    "player_id": "5108024",
    "player": "Yanic Konan Niederhauser",
    "status": "out",
@@ -429,17 +440,6 @@
    "return_date": "2026-11-08",
    "updated": "2026-09-28T18:07Z",
    "comment": "Niederhauser (foot) won't be ready for the start of the season, Law Murray of The Athletic reports."
-  },
-  {
-   "team": "LAC",
-   "player_id": "3913176",
-   "player": "Brandon Ingram",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Achilles Surgery",
-   "return_date": "2026-11-08",
-   "updated": "2026-09-28T18:01Z",
-   "comment": "Ingram won't be ready for the start of the season due to a partially torn Achilles, per Joey Linn of SI.com."
   },
   {
    "team": "LAC",
@@ -542,14 +542,14 @@
   },
   {
    "team": "NYK",
-   "player_id": "3136195",
-   "player": "Karl-Anthony Towns",
+   "player_id": "3914044",
+   "player": "Landry Shamet",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Wrist",
+   "injury": "Ankle",
    "return_date": "2026-10-28",
-   "updated": "2026-10-29T00:29Z",
-   "comment": "Towns finished with 27 points (12-21 FG, 1-5 3Pt, 2-2 FT), 20 rebounds and three assists across 33 minutes in Tuesday's 111-97 victory over the Pistons."
+   "updated": "2026-10-29T00:55Z",
+   "comment": "Shamet (ankle) exited Wednesday's game against the Bulls, Brett Siegel of ClutchPoints.com reports."
   },
   {
    "team": "NYK",

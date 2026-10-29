@@ -1,5 +1,20 @@
 [
  {
+  "kind": "injury_new",
+  "team": "NYK",
+  "player": "Landry Shamet",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-28T21:15:54-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "NYK",
+  "player": "Karl-Anthony Towns",
+  "from": "day-to-day",
+  "time": "2026-10-28T21:15:54-0400"
+ },
+ {
   "kind": "status_change",
   "team": "DAL",
   "player": "Naji Marshall",
