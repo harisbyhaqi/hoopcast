@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T19:45:56-0400",
+ "generated": "2026-10-28T20:45:51-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -137,12 +137,12 @@
    "team": "DAL",
    "player_id": "4278594",
    "player": "Naji Marshall",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Illness",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-28T18:22Z",
-   "comment": "Marshall (illness) is now doubtful for Wednesday against the Thunder."
+   "return_date": "2026-10-30",
+   "updated": "2026-10-28T23:52Z",
+   "comment": "Marshall (illness) won't play in Wednesday's game against Oklahoma City."
   },
   {
    "team": "DAL",
@@ -176,28 +176,6 @@
    "return_date": "2026-10-30",
    "updated": "2026-10-27T22:09Z",
    "comment": "De Larrea (knee) has been ruled out for Wednesday's game against the Thunder."
-  },
-  {
-   "team": "DAL",
-   "player_id": "3138160",
-   "player": "Caleb Martin",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Thumb Sprain",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-27T22:07Z",
-   "comment": "Martin (thumb) is questionable for Wednesday's game against the Thunder."
-  },
-  {
-   "team": "DAL",
-   "player_id": "6442",
-   "player": "Kyrie Irving",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-27T22:04Z",
-   "comment": "Irving (knee) is questionable for Wednesday's game against the Thunder."
   },
   {
    "team": "DAL",
@@ -564,6 +542,17 @@
   },
   {
    "team": "NYK",
+   "player_id": "3136195",
+   "player": "Karl-Anthony Towns",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Wrist",
+   "return_date": "2026-10-28",
+   "updated": "2026-10-29T00:29Z",
+   "comment": "Towns finished with 27 points (12-21 FG, 1-5 3Pt, 2-2 FT), 20 rebounds and three assists across 33 minutes in Tuesday's 111-97 victory over the Pistons."
+  },
+  {
+   "team": "NYK",
    "player_id": "4277869",
    "player": "Jose Alvarado",
    "status": "out",
@@ -572,6 +561,17 @@
    "return_date": "2026-10-30",
    "updated": "2026-10-28T18:19Z",
    "comment": "Alvarado (ankle) is out for Wednesday's game against the Bulls."
+  },
+  {
+   "team": "OKC",
+   "player_id": "4593803",
+   "player": "Jalen Williams",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Leg Fracture",
+   "return_date": "2027-03-02",
+   "updated": "2026-10-28T23:41Z",
+   "comment": "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibula and reconstruction of ankle ligaments following a fracture and dislocation.\" He will be re-evaluated before the end of the regular season, Tim MacMahon of ESPN.com reports."
   },
   {
    "team": "OKC",
@@ -616,28 +616,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-10-27T21:38Z",
    "comment": "Topic (back) will remain on the inactive list for Wednesday's game in Dallas."
-  },
-  {
-   "team": "OKC",
-   "player_id": "4900671",
-   "player": "Ajay Mitchell",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-27T21:35Z",
-   "comment": "Mitchell (ankle) is questionable for Wednesday's game against Dallas."
-  },
-  {
-   "team": "OKC",
-   "player_id": "4593803",
-   "player": "Jalen Williams",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Leg Fracture",
-   "return_date": "2027-03-02",
-   "updated": "2026-10-26T22:07Z",
-   "comment": "Williams has been diagnosed with a dislocated left ankle and fractured fibula, which will require surgery, Shams Charania of ESPN reports."
   },
   {
    "team": "OKC",
@@ -894,25 +872,14 @@
   },
   {
    "team": "UTA",
-   "player_id": "4397077",
-   "player": "Jaxson Hayes",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder Soreness",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-27T23:10Z",
-   "comment": "Hayes (shoulder) is listed as questionable for Wednesday's game against the Spurs."
-  },
-  {
-   "team": "UTA",
    "player_id": "4066336",
    "player": "Lauri Markkanen",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Wrist Not Specified",
-   "return_date": "2026-10-28",
-   "updated": "2026-10-27T23:05Z",
-   "comment": "Markkanen (wrist) is questionable for Wednesday's game against the Spurs."
+   "return_date": "2026-10-31",
+   "updated": "2026-10-29T00:14Z",
+   "comment": "Markkanen (wrist) is out for Wednesday's tilt against the Spurs."
   },
   {
    "team": "UTA",
