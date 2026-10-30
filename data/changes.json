@@ -1,6 +1,33 @@
 [
  {
   "kind": "status_change",
+  "team": "CLE",
+  "player": "Meleek Thomas",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Foot",
+  "time": "2026-10-29T23:00:57-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Jordan Poole",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-29T23:00:57-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Dejounte Murray",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Personal",
+  "time": "2026-10-29T23:00:57-0400"
+ },
+ {
+  "kind": "status_change",
   "team": "POR",
   "player": "Robert Williams III",
   "from": "day-to-day",

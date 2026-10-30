@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T21:45:50-0400",
+ "generated": "2026-10-29T23:00:57-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -159,11 +159,11 @@
    "team": "CLE",
    "player_id": "5041951",
    "player": "Meleek Thomas",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Foot",
    "return_date": "2026-10-31",
-   "updated": "2026-10-29T23:21Z",
+   "updated": "2026-10-30T02:39Z",
    "comment": "Thomas (foot) has been ruled out for Thursday's game against the Hawks, Serena Winters of FanDuel Sports Network Ohio reports."
   },
   {
@@ -586,25 +586,25 @@
   },
   {
    "team": "NOP",
-   "player_id": "3907497",
-   "player": "Dejounte Murray",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Personal",
+   "player_id": "4277956",
+   "player": "Jordan Poole",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
    "return_date": "2026-10-31",
-   "updated": "2026-10-29T22:22Z",
-   "comment": "Murray (personal) is out for Thursday's game against the Kings, Jim Eichenhofer of the Pelicans' official site reports."
+   "updated": "2026-10-30T02:40Z",
+   "comment": "Poole (ankle) has been ruled out for Thursday's game against the Kings."
   },
   {
    "team": "NOP",
-   "player_id": "4277956",
-   "player": "Jordan Poole",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle",
+   "player_id": "3907497",
+   "player": "Dejounte Murray",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Personal",
    "return_date": "2026-10-31",
-   "updated": "2026-10-29T22:19Z",
-   "comment": "Poole (ankle) has been ruled out for Thursday's game against the Kings."
+   "updated": "2026-10-30T02:39Z",
+   "comment": "Murray (personal) is out for Thursday's game against the Kings, Jim Eichenhofer of the Pelicans' official site reports."
   },
   {
    "team": "NOP",
