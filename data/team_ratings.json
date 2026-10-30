@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T23:01:34-04:00",
+ "generated": "2026-10-30T02:00:49-04:00",
  "unmatched": [
   "Ernest Udeh Jr."
  ],
@@ -1162,7 +1162,7 @@
      "rating": 0.3,
      "o": -0.2,
      "d": 0.5,
-     "min": 25.3
+     "min": 25.2
     },
     {
      "player": "Kris Murray",
@@ -1176,7 +1176,7 @@
      "rating": 0.4,
      "o": 0.5,
      "d": -0.1,
-     "min": 22.5
+     "min": 22.4
     },
     {
      "player": "Javon Small",
@@ -1200,13 +1200,6 @@
      "min": 20.3
     },
     {
-     "player": "Cameron Boozer",
-     "rating": -1.5,
-     "o": -1.4,
-     "d": -0.1,
-     "min": 16.5
-    },
-    {
      "player": "Jaylen Wells",
      "rating": -0.7,
      "o": 0.3,
@@ -1214,18 +1207,25 @@
      "min": 16.1
     },
     {
+     "player": "Cameron Boozer",
+     "rating": -1.5,
+     "o": -1.4,
+     "d": -0.1,
+     "min": 16.0
+    },
+    {
      "player": "Jerami Grant",
      "rating": -1.0,
      "o": -1.0,
      "d": -0.0,
-     "min": 15.7
+     "min": 15.6
     },
     {
      "player": "Quinten Post",
      "rating": -0.6,
      "o": -0.7,
      "d": 0.1,
-     "min": 2.0
+     "min": 2.7
     }
    ]
   },
@@ -1446,7 +1446,7 @@
     },
     {
      "player": "Bones Hyland",
-     "rating": 0.4,
+     "rating": 0.3,
      "o": null,
      "d": null,
      "min": 19.4
@@ -2002,14 +2002,14 @@
      "rating": -0.2,
      "o": 0.0,
      "d": -0.2,
-     "min": 15.1
+     "min": 15.0
     },
     {
      "player": "Vit Krejci",
      "rating": -0.7,
      "o": -0.9,
      "d": 0.2,
-     "min": 2.5
+     "min": 2.7
     }
    ]
   },

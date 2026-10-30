@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T23:00:57-0400",
+ "generated": "2026-10-30T02:00:46-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -552,6 +552,17 @@
    "comment": "Williams (foot) is questionable for Friday's game against Golden State."
   },
   {
+   "team": "MEM",
+   "player_id": "4593016",
+   "player": "Quinten Post",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Not Specified",
+   "return_date": "2026-10-31",
+   "updated": "2026-10-30T04:28Z",
+   "comment": "Post (ankle) didn't return to Thursday's game against Portland. He recorded 10 points (3-5 FG, 2-3 3Pt, 2-2 FT) and four rebounds in seven minutes before exiting."
+  },
+  {
    "team": "MIA",
    "player_id": "3899664",
    "player": "Simone Fontecchio",
@@ -830,12 +841,23 @@
    "team": "POR",
    "player_id": "4066211",
    "player": "Robert Williams III",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-10-31",
-   "updated": "2026-10-30T00:32Z",
+   "updated": "2026-10-30T04:23Z",
    "comment": "Williams (knee) has been ruled out for Thursday's game against Memphis, Casey Holdahl of the Trail Blazers' official site reports."
+  },
+  {
+   "team": "POR",
+   "player_id": "4279888",
+   "player": "Ja Morant",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hamstring Not Specified",
+   "return_date": "2026-10-31",
+   "updated": "2026-10-30T04:17Z",
+   "comment": "Morant won't return to Thursday's game against the Grizzlies due to a left hamstring injury. He'll end with 14 points (6-14 FG, 2-5 3Pt), two rebounds and three assists in 23 minutes."
   },
   {
    "team": "POR",
