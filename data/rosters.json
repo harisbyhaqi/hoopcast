@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T10:00:52-0400",
+ "generated": "2026-10-30T18:45:51-0400",
  "teams": {
   "ATL": [
    {
@@ -2142,6 +2142,12 @@
    }
   ],
   "OKC": [
+   {
+    "player_id": "4397018",
+    "player": "Ochai Agbaji",
+    "position": "G",
+    "jersey": "30"
+   },
    {
     "player_id": "4684208",
     "player": "Brooks Barnhizer",

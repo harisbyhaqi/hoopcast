@@ -1,6 +1,185 @@
 [
  {
   "kind": "signed",
+  "team": "OKC",
+  "player": "Ochai Agbaji",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CHI",
+  "player": "Dailyn Swain",
+  "to": "out",
+  "injury": "Back Soreness",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CLE",
+  "player": "Jaylon Tyson",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "DET",
+  "player": "Isaiah Joe",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hip Bruise",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Alperen Sengun",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back Soreness",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "IND",
+  "player": "Obi Toppin",
+  "to": "day-to-day",
+  "injury": "Back",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Ziaire Williams",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Foot",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MEM",
+  "player": "Scotty Pippen Jr.",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MEM",
+  "player": "Ty Jerome",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Jordan Poole",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Chet Holmgren",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Jaylen Brown",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Ja Morant",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hamstring Not Specified",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHA",
+  "player": "Dennis Schroder",
+  "from": "day-to-day",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHI",
+  "player": "Patrick Williams",
+  "from": "out",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHI",
+  "player": "Jalen Smith",
+  "from": "day-to-day",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHI",
+  "player": "Tobe Awaka",
+  "from": "day-to-day",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "DAL",
+  "player": "Naji Marshall",
+  "from": "day-to-day",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAC",
+  "player": "Rui Hachimura",
+  "from": "day-to-day",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAL",
+  "player": "Cameron Carr",
+  "from": "out",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIA",
+  "player": "Simone Fontecchio",
+  "from": "day-to-day",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "NOP",
+  "player": "Dejounte Murray",
+  "from": "day-to-day",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "WAS",
+  "player": "Tre Johnson",
+  "from": "day-to-day",
+  "time": "2026-10-30T18:45:51-0400"
+ },
+ {
+  "kind": "signed",
   "team": "LAC",
   "player": "Blake Wesley",
   "time": "2026-10-30T02:00:46-0400"
