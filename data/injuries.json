@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T18:45:51-0400",
+ "generated": "2026-10-30T19:15:52-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -300,6 +300,17 @@
   },
   {
    "team": "HOU",
+   "player_id": "4871144",
+   "player": "Alperen Sengun",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Soreness",
+   "return_date": "2026-10-31",
+   "updated": "2026-10-30T22:39Z",
+   "comment": "Sengun (back) has been ruled out for Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports."
+  },
+  {
+   "team": "HOU",
    "player_id": "2990992",
    "player": "Marcus Smart",
    "status": "out",
@@ -308,17 +319,6 @@
    "return_date": "2026-10-30",
    "updated": "2026-10-30T22:38Z",
    "comment": "Smart (forearm) is expected to play in Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports."
-  },
-  {
-   "team": "HOU",
-   "player_id": "4871144",
-   "player": "Alperen Sengun",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back Soreness",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-30T22:36Z",
-   "comment": "Sengun (back) is questionable for Friday's game against the Mavericks."
   },
   {
    "team": "HOU",
@@ -346,12 +346,12 @@
    "team": "IND",
    "player_id": "4278355",
    "player": "Obi Toppin",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-30T20:27Z",
-   "comment": "Toppin (back) is questionable for Friday's game against the Heat."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Soreness",
+   "return_date": "2026-11-01",
+   "updated": "2026-10-30T22:51Z",
+   "comment": "Toppin (back) has been ruled out for Friday's game against Miami."
   },
   {
    "team": "IND",
@@ -374,28 +374,6 @@
    "return_date": "2027-01-02",
    "updated": "2026-10-30T19:06Z",
    "comment": "Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com."
-  },
-  {
-   "team": "IND",
-   "player_id": "4395712",
-   "player": "Andrew Nembhard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Neck Soreness",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-29T21:08Z",
-   "comment": "Nembhard (neck) is listed as probable for Friday's game against Miami."
-  },
-  {
-   "team": "IND",
-   "player_id": "4396909",
-   "player": "Aaron Nesmith",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-29T21:07Z",
-   "comment": "Nesmith (hamstring) is probable for Friday's game against the Heat."
   },
   {
    "team": "IND",
