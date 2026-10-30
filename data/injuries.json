@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T19:45:47-0400",
+ "generated": "2026-10-29T21:45:50-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -223,14 +223,25 @@
   },
   {
    "team": "DEN",
+   "player_id": "4065813",
+   "player": "Alpha Diallo",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Personal",
+   "return_date": "2026-10-30",
+   "updated": "2026-10-29T23:50Z",
+   "comment": "Diallo (personal) is listed as questionable for Friday's game against the Suns."
+  },
+  {
+   "team": "DEN",
    "player_id": "3138196",
    "player": "Cameron Johnson",
    "status": "out",
    "status_raw": "Out",
    "injury": "Ankle Sprain",
    "return_date": "2026-10-30",
-   "updated": "2026-10-28T23:08Z",
-   "comment": "Johnson (ankle) is listed as out for Wednesday's game against the Pelicans."
+   "updated": "2026-10-29T23:49Z",
+   "comment": "Johnson (ankle) is questionable for Friday's game against Phoenix."
   },
   {
    "team": "DEN",
@@ -242,17 +253,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-10-27T22:35Z",
    "comment": "Jones (hamstring) has been ruled out for Wednesday's game against New Orleans."
-  },
-  {
-   "team": "DEN",
-   "player_id": "4065813",
-   "player": "Alpha Diallo",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Personal",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-27T22:34Z",
-   "comment": "Diallo is out for Wednesday's game against the Pelicans due to personal reasons."
   },
   {
    "team": "DEN",
@@ -295,8 +295,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Tendinitis",
    "return_date": "2026-10-30",
-   "updated": "2026-10-29T04:38Z",
-   "comment": "Santos has been ruled out for Wednesday's game against the Timberwolves due to left knee tendinitis."
+   "updated": "2026-10-30T00:06Z",
+   "comment": "Santos (knee) is listed as doubtful for Friday's game against the Warriors."
   },
   {
    "team": "GSW",
@@ -520,36 +520,14 @@
   },
   {
    "team": "LAL",
-   "player_id": "4433137",
-   "player": "Ziaire Williams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Foot",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-29T05:05Z",
-   "comment": "Williams (foot) is out for Wednesday's game against the Clippers."
-  },
-  {
-   "team": "LAL",
-   "player_id": "3945274",
-   "player": "Luka Doncic",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-29T05:05Z",
-   "comment": "Doncic (back) is out for Wednesday's game against the Clippers."
-  },
-  {
-   "team": "LAL",
    "player_id": "5113969",
    "player": "Cameron Carr",
    "status": "out",
    "status_raw": "Out",
    "injury": "Oblique Strain",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-28T20:12Z",
-   "comment": "Carr (oblique) is out for Wednesday's game against the Clippers."
+   "return_date": "2026-11-01",
+   "updated": "2026-10-30T00:07Z",
+   "comment": "Carr (oblique) has been ruled out for Friday's game against Golden State."
   },
   {
    "team": "LAL",
@@ -558,9 +536,20 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee Inflammation",
+   "return_date": "2026-11-01",
+   "updated": "2026-10-30T00:05Z",
+   "comment": "Thiero (knee) has been ruled out for Friday's game against the Warriors."
+  },
+  {
+   "team": "LAL",
+   "player_id": "4433137",
+   "player": "Ziaire Williams",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Foot",
    "return_date": "2026-10-30",
-   "updated": "2026-10-28T20:10Z",
-   "comment": "Thiero (knee) is out for Wednesday's game against the Clippers."
+   "updated": "2026-10-30T00:02Z",
+   "comment": "Williams (foot) is questionable for Friday's game against Golden State."
   },
   {
    "team": "MIA",
@@ -823,8 +812,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Oblique Strain",
    "return_date": "2026-10-30",
-   "updated": "2026-10-28T00:23Z",
-   "comment": "Ighodaro (oblique) is feeling better and considered day-to-day ahead of Friday's game against the Nuggets, John Gambadoro of Arizona Sports 98.7 FM reports."
+   "updated": "2026-10-30T00:20Z",
+   "comment": "Ighodaro (oblique) is listed as questionable for Friday's game against Denver."
   },
   {
    "team": "PHX",
@@ -841,12 +830,12 @@
    "team": "POR",
    "player_id": "4066211",
    "player": "Robert Williams III",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee",
-   "return_date": "2026-10-29",
-   "updated": "2026-10-29T18:57Z",
-   "comment": "Williams (knee) is doubtful for Thursday's game against Memphis due to left knee injury management, according to the Trail Blazers."
+   "return_date": "2026-10-31",
+   "updated": "2026-10-30T00:32Z",
+   "comment": "Williams (knee) has been ruled out for Thursday's game against Memphis, Casey Holdahl of the Trail Blazers' official site reports."
   },
   {
    "team": "POR",
@@ -855,7 +844,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Ankle Soreness",
-   "return_date": "2026-10-29",
+   "return_date": "2026-10-31",
    "updated": "2026-10-27T04:58Z",
    "comment": "Youngblood (ankle/two-way player) is out for Tuesday's game against the Lakers."
   },
