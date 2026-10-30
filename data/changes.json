@@ -1,5 +1,12 @@
 [
  {
+  "kind": "cleared",
+  "team": "HOU",
+  "player": "Marcus Smart",
+  "from": "out",
+  "time": "2026-10-30T19:45:51-0400"
+ },
+ {
   "kind": "status_change",
   "team": "IND",
   "player": "Obi Toppin",

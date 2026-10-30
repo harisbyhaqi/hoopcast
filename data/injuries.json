@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T19:15:52-0400",
+ "generated": "2026-10-30T19:45:51-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -308,17 +308,6 @@
    "return_date": "2026-10-31",
    "updated": "2026-10-30T22:39Z",
    "comment": "Sengun (back) has been ruled out for Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports."
-  },
-  {
-   "team": "HOU",
-   "player_id": "2990992",
-   "player": "Marcus Smart",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Forearm Strain",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-30T22:38Z",
-   "comment": "Smart (forearm) is expected to play in Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports."
   },
   {
    "team": "HOU",
@@ -773,25 +762,14 @@
   },
   {
    "team": "POR",
-   "player_id": "4279888",
-   "player": "Ja Morant",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring Not Specified",
-   "return_date": "2026-12-01",
-   "updated": "2026-10-30T18:45Z",
-   "comment": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday."
-  },
-  {
-   "team": "POR",
    "player_id": "4066211",
    "player": "Robert Williams III",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-10-31",
-   "updated": "2026-10-30T04:23Z",
-   "comment": "Williams (knee) has been ruled out for Thursday's game against Memphis, Casey Holdahl of the Trail Blazers' official site reports."
+   "updated": "2026-10-30T23:11Z",
+   "comment": "Williams (knee) is questionable for Saturday's game against the Jazz."
   },
   {
    "team": "POR",
@@ -801,8 +779,19 @@
    "status_raw": "Out",
    "injury": "Ankle Soreness",
    "return_date": "2026-10-31",
-   "updated": "2026-10-27T04:58Z",
-   "comment": "Youngblood (ankle/two-way player) is out for Tuesday's game against the Lakers."
+   "updated": "2026-10-30T23:09Z",
+   "comment": "Youngblood (ankle) is questionable for Saturday's game against Utah."
+  },
+  {
+   "team": "POR",
+   "player_id": "4279888",
+   "player": "Ja Morant",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring Not Specified",
+   "return_date": "2026-12-01",
+   "updated": "2026-10-30T18:45Z",
+   "comment": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday."
   },
   {
    "team": "POR",
@@ -911,8 +900,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Wrist Not Specified",
    "return_date": "2026-10-31",
-   "updated": "2026-10-29T04:39Z",
-   "comment": "Markkanen (wrist) is out for Wednesday's tilt against the Spurs."
+   "updated": "2026-10-30T23:13Z",
+   "comment": "Markkanen (wrist) is listed as questionable for Saturday's game against Portland."
   },
   {
    "team": "UTA",
