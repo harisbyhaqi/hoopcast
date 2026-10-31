@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T14:45:47-0400",
+ "generated": "2026-10-31T17:45:56-0400",
  "teams": {
   "ATL": [
    {
@@ -2993,6 +2993,12 @@
     "jersey": "13"
    },
    {
+    "player_id": "4683736",
+    "player": "Kobe Bufkin",
+    "position": "G",
+    "jersey": "4"
+   },
+   {
     "player_id": "4683766",
     "player": "Isaiah Collier",
     "position": "G",
@@ -3021,12 +3027,6 @@
     "player": "Jaxson Hayes",
     "position": "C",
     "jersey": "11"
-   },
-   {
-    "player_id": "4396963",
-    "player": "Blake Hinson",
-    "position": "F",
-    "jersey": "25"
    },
    {
     "player_id": "4433618",

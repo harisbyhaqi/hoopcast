@@ -1,5 +1,102 @@
 [
  {
+  "kind": "signed",
+  "team": "UTA",
+  "player": "Kobe Bufkin",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "released",
+  "team": "UTA",
+  "player": "Blake Hinson",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "BOS",
+  "player": "Mitchell Robinson",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "BKN",
+  "player": "Mikel Brown Jr.",
+  "to": "out",
+  "injury": "Rest",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Gui Santos",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Draymond Green",
+  "to": "out",
+  "injury": "Rest",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Stephen Curry",
+  "to": "out",
+  "injury": "Rest",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "IND",
+  "player": "Aaron Nesmith",
+  "to": "day-to-day",
+  "injury": "Hamstring Strain",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "NOP",
+  "player": "Dejounte Murray",
+  "to": "out",
+  "injury": "Personal",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "SAS",
+  "player": "Stephon Castle",
+  "to": "day-to-day",
+  "injury": "Head Mild",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHI",
+  "player": "Jabari Walker",
+  "from": "out",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHI",
+  "player": "Tacko Fall",
+  "from": "out",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHI",
+  "player": "Jaylen Brown",
+  "from": "day-to-day",
+  "time": "2026-10-31T17:45:56-0400"
+ },
+ {
   "kind": "released",
   "team": "OKC",
   "player": "Ochai Agbaji",

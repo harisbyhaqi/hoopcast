@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T14:45:47-0400",
+ "generated": "2026-10-31T17:45:56-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -25,6 +25,17 @@
   },
   {
    "team": "BOS",
+   "player_id": "4351852",
+   "player": "Mitchell Robinson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Rest",
+   "return_date": "2026-11-01",
+   "updated": "2026-10-31T20:32Z",
+   "comment": "Robinson (rest) is questionable for Sunday's game in Orlando, Jay King of The Athletic reports."
+  },
+  {
+   "team": "BOS",
    "player_id": "4433188",
    "player": "Devin Carter",
    "status": "out",
@@ -33,6 +44,17 @@
    "return_date": "2026-11-08",
    "updated": "2026-10-18T14:49Z",
    "comment": "Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports."
+  },
+  {
+   "team": "BKN",
+   "player_id": "5101761",
+   "player": "Mikel Brown Jr.",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Rest",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T20:58Z",
+   "comment": "Brown (rest) is out for Sunday's game in Indiana."
   },
   {
    "team": "BKN",
@@ -245,6 +267,39 @@
   },
   {
    "team": "GSW",
+   "player_id": "4997536",
+   "player": "Gui Santos",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-11-01",
+   "updated": "2026-10-31T19:54Z",
+   "comment": "Santos (knee) is probable for Sunday's game against the Clippers."
+  },
+  {
+   "team": "GSW",
+   "player_id": "6589",
+   "player": "Draymond Green",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Rest",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T19:51Z",
+   "comment": "Green (back) is out for Sunday's game against the Clippers."
+  },
+  {
+   "team": "GSW",
+   "player_id": "3975",
+   "player": "Stephen Curry",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Rest",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T19:48Z",
+   "comment": "Curry (rest) won't play Sunday against the Clippers, Brett Siegel of ClutchPoints.com reports."
+  },
+  {
+   "team": "GSW",
    "player_id": "3102531",
    "player": "Kristaps Porzingis",
    "status": "out",
@@ -311,14 +366,36 @@
   },
   {
    "team": "IND",
+   "player_id": "4017837",
+   "player": "Ivica Zubac",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T21:14Z",
+   "comment": "Zubac (ankle) will remain on the inactive list for Sunday's game against the Nets."
+  },
+  {
+   "team": "IND",
+   "player_id": "4396909",
+   "player": "Aaron Nesmith",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hamstring Strain",
+   "return_date": "2026-11-01",
+   "updated": "2026-10-31T21:13Z",
+   "comment": "Nesmith (hamstring) is listed as probable for Sunday's game against Brooklyn."
+  },
+  {
+   "team": "IND",
    "player_id": "4278355",
    "player": "Obi Toppin",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Back Soreness",
    "return_date": "2026-11-01",
-   "updated": "2026-10-31T05:01Z",
-   "comment": "Toppin (back) has been ruled out for Friday's game against Miami."
+   "updated": "2026-10-31T21:10Z",
+   "comment": "Toppin (back) is questionable for Sunday's game against the Nets."
   },
   {
    "team": "IND",
@@ -341,17 +418,6 @@
    "return_date": "2027-01-02",
    "updated": "2026-10-30T19:06Z",
    "comment": "Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com."
-  },
-  {
-   "team": "IND",
-   "player_id": "4017837",
-   "player": "Ivica Zubac",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-01",
-   "updated": "2026-10-29T21:04Z",
-   "comment": "Zubac (ankle) is out for Friday's game against the Heat."
   },
   {
    "team": "IND",
@@ -520,6 +586,17 @@
   },
   {
    "team": "NOP",
+   "player_id": "3907497",
+   "player": "Dejounte Murray",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Personal",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T21:24Z",
+   "comment": "Murray (personal) won't play in Saturday's game against the Hawks, Jim Eichenhofer of the Pelicans' official site reports."
+  },
+  {
+   "team": "NOP",
    "player_id": "5061589",
    "player": "Yves Missi",
    "status": "out",
@@ -674,17 +751,6 @@
   },
   {
    "team": "PHI",
-   "player_id": "4432446",
-   "player": "Jabari Walker",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Soreness",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-31T17:25Z",
-   "comment": "Walker (knee) is questionable for Saturday's game in Charlotte."
-  },
-  {
-   "team": "PHI",
    "player_id": "1966",
    "player": "LeBron James",
    "status": "out",
@@ -696,17 +762,6 @@
   },
   {
    "team": "PHI",
-   "player_id": "3904625",
-   "player": "Tacko Fall",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Quadriceps Strain",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-31T17:14Z",
-   "comment": "Fall (quad) is questionable to face the Hornets on Saturday."
-  },
-  {
-   "team": "PHI",
    "player_id": "3059318",
    "player": "Joel Embiid",
    "status": "out",
@@ -715,17 +770,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-10-31T17:12Z",
    "comment": "Embiid (foot) is out for Saturday's game in Charlotte."
-  },
-  {
-   "team": "PHI",
-   "player_id": "3917376",
-   "player": "Jaylen Brown",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-31T17:08Z",
-   "comment": "Brown (knee) is questionable for Saturday's game in Charlotte."
   },
   {
    "team": "PHI",
@@ -825,6 +869,17 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-21T04:22Z",
    "comment": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports."
+  },
+  {
+   "team": "SAS",
+   "player_id": "4845367",
+   "player": "Stephon Castle",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Head Mild",
+   "return_date": "2026-10-31",
+   "updated": "2026-10-31T19:06Z",
+   "comment": "Castle (migraine) is questionable for Saturday's game against the Timberwolves, Paul Garcia of ProjectSpurs.com reports."
   },
   {
    "team": "SAS",
