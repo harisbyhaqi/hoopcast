@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T18:45:49-0400",
+ "generated": "2026-10-31T19:45:49-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -143,17 +143,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-10-26T22:20Z",
    "comment": "Claxton (hamstring) participated in individual drills Monday morning and hopes to join the team for practice next week, Joe Cowley of the Chicago Sun-Times reports."
-  },
-  {
-   "team": "CLE",
-   "player_id": "5041951",
-   "player": "Meleek Thomas",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Foot",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-31T18:22Z",
-   "comment": "Thomas (foot) has been upgraded to probable ahead of Saturday's meeting in Milwaukee."
   },
   {
    "team": "CLE",
@@ -520,36 +509,36 @@
   },
   {
    "team": "MEM",
-   "player_id": "4431785",
-   "player": "Scotty Pippen Jr.",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "player_id": "4065733",
+   "player": "Ty Jerome",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Back Soreness",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-30T22:35Z",
-   "comment": "Pippen (back) is listed as questionable for Saturday's game against the Kings."
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T23:23Z",
+   "comment": "Jerome (back) won't play in Saturday's game versus Sacramento, Chris Herrington of The Daily Memphian."
   },
   {
    "team": "MEM",
-   "player_id": "4065733",
-   "player": "Ty Jerome",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "player_id": "4431785",
+   "player": "Scotty Pippen Jr.",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Back Soreness",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-30T22:29Z",
-   "comment": "Jerome (back) is listed as questionable for Saturday's game against the Kings."
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T23:22Z",
+   "comment": "Pippen (back) has been ruled out for Saturday's game against the Kings, Chris Herrington of The Daily Memphian reports."
   },
   {
    "team": "MEM",
    "player_id": "4593016",
    "player": "Quinten Post",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle Not Specified",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-30T22:23Z",
-   "comment": "Post (ankle) is doubtful for Friday's game against the Kings."
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T23:21Z",
+   "comment": "Post (ankle) has been ruled out for Saturday's game versus Sacramento, Chris Herrington of The Daily Memphian reports."
   },
   {
    "team": "MIN",
@@ -869,17 +858,6 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-21T04:22Z",
    "comment": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports."
-  },
-  {
-   "team": "SAS",
-   "player_id": "4845367",
-   "player": "Stephon Castle",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Head Mild",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-31T19:06Z",
-   "comment": "Castle (migraine) is questionable for Saturday's game against the Timberwolves, Paul Garcia of ProjectSpurs.com reports."
   },
   {
    "team": "SAS",

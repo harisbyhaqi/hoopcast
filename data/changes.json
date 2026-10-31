@@ -1,6 +1,47 @@
 [
  {
   "kind": "status_change",
+  "team": "MEM",
+  "player": "Ty Jerome",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back Soreness",
+  "time": "2026-10-31T19:45:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Scotty Pippen Jr.",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back Soreness",
+  "time": "2026-10-31T19:45:49-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Quinten Post",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Not Specified",
+  "time": "2026-10-31T19:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "CLE",
+  "player": "Meleek Thomas",
+  "from": "day-to-day",
+  "time": "2026-10-31T19:45:49-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "SAS",
+  "player": "Stephon Castle",
+  "from": "day-to-day",
+  "time": "2026-10-31T19:45:49-0400"
+ },
+ {
+  "kind": "status_change",
   "team": "MIN",
   "player": "Rudy Gobert",
   "from": "day-to-day",
