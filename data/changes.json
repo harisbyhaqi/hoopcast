@@ -1,5 +1,13 @@
 [
  {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-10-31T10:00:51-0400"
+ },
+ {
   "kind": "status_change",
   "team": "CHI",
   "player": "Dailyn Swain",
