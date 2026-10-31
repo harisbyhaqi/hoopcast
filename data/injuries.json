@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T23:01:00-0400",
+ "generated": "2026-10-31T02:00:49-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -104,11 +104,11 @@
    "team": "CHI",
    "player_id": "4848625",
    "player": "Dailyn Swain",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Back Soreness",
    "return_date": "2026-11-02",
-   "updated": "2026-10-30T21:50Z",
+   "updated": "2026-10-31T04:59Z",
    "comment": "Swain (back) has been ruled out for Friday's game against Boston."
   },
   {
@@ -278,25 +278,25 @@
   },
   {
    "team": "HOU",
-   "player_id": "4871144",
-   "player": "Alperen Sengun",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back Soreness",
+   "player_id": "4711272",
+   "player": "Reed Sheppard",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
    "return_date": "2026-10-31",
-   "updated": "2026-10-30T22:39Z",
-   "comment": "Sengun (back) has been ruled out for Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports."
+   "updated": "2026-10-31T05:00Z",
+   "comment": "Houston picked up Sheppard's (back) fourth-year team option Friday, per Lachard Binkley of SI.com."
   },
   {
    "team": "HOU",
-   "player_id": "4711272",
-   "player": "Reed Sheppard",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back",
+   "player_id": "4871144",
+   "player": "Alperen Sengun",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back Soreness",
    "return_date": "2026-10-31",
-   "updated": "2026-10-30T19:19Z",
-   "comment": "Houston picked up Sheppard's (back) fourth-year team option Friday, per Lachard Binkley of SI.com."
+   "updated": "2026-10-31T05:00Z",
+   "comment": "Sengun (back) has been ruled out for Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports."
   },
   {
    "team": "HOU",
@@ -313,11 +313,11 @@
    "team": "IND",
    "player_id": "4278355",
    "player": "Obi Toppin",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Back Soreness",
    "return_date": "2026-11-01",
-   "updated": "2026-10-30T22:51Z",
+   "updated": "2026-10-31T05:01Z",
    "comment": "Toppin (back) has been ruled out for Friday's game against Miami."
   },
   {
@@ -434,11 +434,11 @@
    "team": "LAL",
    "player_id": "4433137",
    "player": "Ziaire Williams",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Foot",
    "return_date": "2026-11-01",
-   "updated": "2026-10-30T20:05Z",
+   "updated": "2026-10-31T04:52Z",
    "comment": "Williams has been ruled out for Friday's game against the Warriors due to left foot injury management, Mark Medina of TheSportingTribune.com reports."
   },
   {
@@ -665,11 +665,11 @@
    "team": "PHI",
    "player_id": "3917376",
    "player": "Jaylen Brown",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-10-31",
-   "updated": "2026-10-30T21:50Z",
+   "updated": "2026-10-31T04:58Z",
    "comment": "Brown (knee) is out for Friday's game against the Knicks."
   },
   {
