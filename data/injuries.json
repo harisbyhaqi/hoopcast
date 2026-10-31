@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T19:45:51-0400",
+ "generated": "2026-10-30T21:45:53-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -195,20 +195,9 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Personal",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-30T20:30Z",
-   "comment": "Diallo (personal) is doubtful for Friday's game against the Suns."
-  },
-  {
-   "team": "DEN",
-   "player_id": "3138196",
-   "player": "Cameron Johnson",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-30T18:41Z",
-   "comment": "Johnson (ankle) is expected to play in Friday's game against the Suns, per John Gambadoro of Arizona Sports 98.7 FM."
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T00:42Z",
+   "comment": "Diallo (personal/wrist) has been ruled out for Friday's game against Phoenix, Vic Lombardi of Altitude Sports reports."
   },
   {
    "team": "DEN",
@@ -253,17 +242,6 @@
    "return_date": "2026-11-09",
    "updated": "2026-10-25T14:56Z",
    "comment": "Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com reports."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4997536",
-   "player": "Gui Santos",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Tendinitis",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-30T20:37Z",
-   "comment": "Santos (knee) is questionable for Friday's game against the Lakers."
   },
   {
    "team": "GSW",
@@ -564,14 +542,25 @@
   },
   {
    "team": "OKC",
+   "player_id": "4683692",
+   "player": "Cason Wallace",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Shoulder Surgery",
+   "return_date": "2027-03-02",
+   "updated": "2026-10-31T01:16Z",
+   "comment": "Wallace underwent surgery Friday to repair a torn labrum in his left shoulder and will be re-evaluated before the end of the regular season, Clemente Almanza of USA Today reports."
+  },
+  {
+   "team": "OKC",
    "player_id": "4433255",
    "player": "Chet Holmgren",
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee",
-   "return_date": "2026-11-02",
-   "updated": "2026-10-30T22:25Z",
-   "comment": "Holmgren (knee) remains out for Saturday's road game against Houston, Justin Martinez of The Oklahoman reports."
+   "return_date": "2027-01-02",
+   "updated": "2026-10-31T01:02Z",
+   "comment": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports."
   },
   {
    "team": "OKC",
@@ -616,17 +605,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-10-27T21:38Z",
    "comment": "Topic (back) will remain on the inactive list for Wednesday's game in Dallas."
-  },
-  {
-   "team": "OKC",
-   "player_id": "4683692",
-   "player": "Cason Wallace",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Shoulder",
-   "return_date": "2027-03-02",
-   "updated": "2026-10-26T22:05Z",
-   "comment": "Wallace has been diagnosed with a torn labrum in his left shoulder and will require surgery, Shams Charania of ESPN reports."
   },
   {
    "team": "ORL",
@@ -737,17 +715,6 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-06T19:17Z",
    "comment": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN."
-  },
-  {
-   "team": "PHX",
-   "player_id": "4601023",
-   "player": "Oso Ighodaro",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Oblique Strain",
-   "return_date": "2026-10-30",
-   "updated": "2026-10-30T00:20Z",
-   "comment": "Ighodaro (oblique) is listed as questionable for Friday's game against Denver."
   },
   {
    "team": "PHX",

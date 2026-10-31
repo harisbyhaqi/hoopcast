@@ -1,6 +1,27 @@
 [
  {
   "kind": "cleared",
+  "team": "DEN",
+  "player": "Cameron Johnson",
+  "from": "out",
+  "time": "2026-10-30T21:45:53-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Gui Santos",
+  "from": "day-to-day",
+  "time": "2026-10-30T21:45:53-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHX",
+  "player": "Oso Ighodaro",
+  "from": "day-to-day",
+  "time": "2026-10-30T21:45:53-0400"
+ },
+ {
+  "kind": "cleared",
   "team": "HOU",
   "player": "Marcus Smart",
   "from": "out",
