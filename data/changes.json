@@ -1,5 +1,81 @@
 [
  {
+  "kind": "released",
+  "team": "OKC",
+  "player": "Ochai Agbaji",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Reed Sheppard",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "HOU",
+  "player": "Fred VanVleet",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MIN",
+  "player": "Rudy Gobert",
+  "to": "day-to-day",
+  "injury": "Back Spasms",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "LeBron James",
+  "to": "out",
+  "injury": "Back",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Foot",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "HOU",
+  "player": "Alperen Sengun",
+  "from": "day-to-day",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "POR",
+  "player": "Robert Williams III",
+  "from": "day-to-day",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "POR",
+  "player": "Chris Youngblood",
+  "from": "out",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
+  "kind": "cleared",
+  "team": "UTA",
+  "player": "Lauri Markkanen",
+  "from": "day-to-day",
+  "time": "2026-10-31T14:45:47-0400"
+ },
+ {
   "kind": "injury_new",
   "team": "PHI",
   "player": "Joel Embiid",

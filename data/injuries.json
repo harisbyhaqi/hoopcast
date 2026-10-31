@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T10:00:51-0400",
+ "generated": "2026-10-31T14:45:47-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -52,7 +52,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Shoulder Sprain",
-   "return_date": "2026-11-01",
+   "return_date": "2026-11-06",
    "updated": "2026-10-25T17:19Z",
    "comment": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana."
   },
@@ -124,6 +124,17 @@
   },
   {
    "team": "CLE",
+   "player_id": "5041951",
+   "player": "Meleek Thomas",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Foot",
+   "return_date": "2026-10-31",
+   "updated": "2026-10-31T18:22Z",
+   "comment": "Thomas (foot) has been upgraded to probable ahead of Saturday's meeting in Milwaukee."
+  },
+  {
+   "team": "CLE",
    "player_id": "4683747",
    "player": "Jaylon Tyson",
    "status": "out",
@@ -132,17 +143,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-10-30T20:52Z",
    "comment": "Tyson (ankle) has been ruled out for Saturday's game against the Bucks."
-  },
-  {
-   "team": "CLE",
-   "player_id": "5041951",
-   "player": "Meleek Thomas",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Foot",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-30T20:51Z",
-   "comment": "Thomas (foot) is questionable for Saturday's game against the Bucks."
   },
   {
    "team": "DAL",
@@ -280,23 +280,23 @@
    "team": "HOU",
    "player_id": "4711272",
    "player": "Reed Sheppard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Back",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-31T05:00Z",
-   "comment": "Houston picked up Sheppard's (back) fourth-year team option Friday, per Lachard Binkley of SI.com."
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T17:33Z",
+   "comment": "Sheppard (back) is out for Saturday's game against the Thunder."
   },
   {
    "team": "HOU",
-   "player_id": "4871144",
-   "player": "Alperen Sengun",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back Soreness",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-31T05:00Z",
-   "comment": "Sengun (back) has been ruled out for Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports."
+   "player_id": "2991230",
+   "player": "Fred VanVleet",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T17:31Z",
+   "comment": "VanVleet (knee) won't play Saturday against the Thunder."
   },
   {
    "team": "HOU",
@@ -487,6 +487,17 @@
   },
   {
    "team": "MIN",
+   "player_id": "3032976",
+   "player": "Rudy Gobert",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back Spasms",
+   "return_date": "2026-10-31",
+   "updated": "2026-10-31T18:03Z",
+   "comment": "Gobert (back) is listed as questionable for Saturday's game at San Antonio."
+  },
+  {
+   "team": "MIN",
    "player_id": "4594268",
    "player": "Anthony Edwards",
    "status": "out",
@@ -663,14 +674,47 @@
   },
   {
    "team": "PHI",
+   "player_id": "4432446",
+   "player": "Jabari Walker",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Soreness",
+   "return_date": "2026-10-31",
+   "updated": "2026-10-31T17:25Z",
+   "comment": "Walker (knee) is questionable for Saturday's game in Charlotte."
+  },
+  {
+   "team": "PHI",
+   "player_id": "1966",
+   "player": "LeBron James",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T17:16Z",
+   "comment": "James (back) has been ruled out for Saturday's meeting in Charlotte."
+  },
+  {
+   "team": "PHI",
+   "player_id": "3904625",
+   "player": "Tacko Fall",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Quadriceps Strain",
+   "return_date": "2026-10-31",
+   "updated": "2026-10-31T17:14Z",
+   "comment": "Fall (quad) is questionable to face the Hornets on Saturday."
+  },
+  {
+   "team": "PHI",
    "player_id": "3059318",
    "player": "Joel Embiid",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-31T13:42Z",
-   "comment": "Embiid closed Wednesday's 114-109 win over the Pacers with 21 points (9-17 FG, 0-3 3Pt, 3-3 FT), 11 rebounds, two assists and one block across 39 minutes."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot",
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T17:12Z",
+   "comment": "Embiid (foot) is out for Saturday's game in Charlotte."
   },
   {
    "team": "PHI",
@@ -680,30 +724,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-10-31",
-   "updated": "2026-10-31T04:58Z",
-   "comment": "Brown (knee) is out for Friday's game against the Knicks."
-  },
-  {
-   "team": "PHI",
-   "player_id": "4432446",
-   "player": "Jabari Walker",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Soreness",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-29T21:34Z",
-   "comment": "Walker (knee) has been ruled out for Friday's game versus New York."
-  },
-  {
-   "team": "PHI",
-   "player_id": "3904625",
-   "player": "Tacko Fall",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Quadriceps Strain",
-   "return_date": "2026-11-04",
-   "updated": "2026-10-27T21:10Z",
-   "comment": "Fall (quadriceps) is out for Wednesday's game in Indiana."
+   "updated": "2026-10-31T17:08Z",
+   "comment": "Brown (knee) is questionable for Saturday's game in Charlotte."
   },
   {
    "team": "PHI",
@@ -737,28 +759,6 @@
    "return_date": "2027-02-03",
    "updated": "2026-09-11T16:03Z",
    "comment": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports."
-  },
-  {
-   "team": "POR",
-   "player_id": "4066211",
-   "player": "Robert Williams III",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-30T23:11Z",
-   "comment": "Williams (knee) is questionable for Saturday's game against the Jazz."
-  },
-  {
-   "team": "POR",
-   "player_id": "4706557",
-   "player": "Chris Youngblood",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Soreness",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-30T23:09Z",
-   "comment": "Youngblood (ankle) is questionable for Saturday's game against Utah."
   },
   {
    "team": "POR",
@@ -869,17 +869,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-10-27T19:31Z",
    "comment": "Bittle (foot) has been ruled out for Wednesday's game against the Magic, Cody Taylor of USA Today reports."
-  },
-  {
-   "team": "UTA",
-   "player_id": "4066336",
-   "player": "Lauri Markkanen",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Wrist Not Specified",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-30T23:13Z",
-   "comment": "Markkanen (wrist) is listed as questionable for Saturday's game against Portland."
   },
   {
    "team": "UTA",
