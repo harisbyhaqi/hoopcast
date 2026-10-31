@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T17:45:56-0400",
+ "generated": "2026-10-31T18:45:49-0400",
  "injuries": [
   {
    "team": "ATL",
@@ -555,12 +555,12 @@
    "team": "MIN",
    "player_id": "3032976",
    "player": "Rudy Gobert",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Back Spasms",
-   "return_date": "2026-10-31",
-   "updated": "2026-10-31T18:03Z",
-   "comment": "Gobert (back) is listed as questionable for Saturday's game at San Antonio."
+   "return_date": "2026-11-02",
+   "updated": "2026-10-31T22:18Z",
+   "comment": "Gobert (back) is out for Saturday's game against the Spurs, Dane Moore of 'The Dane Moore NBA Podcast' reports."
   },
   {
    "team": "MIN",
