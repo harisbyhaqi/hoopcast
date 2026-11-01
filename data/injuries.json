@@ -1,6 +1,17 @@
 {
- "generated": "2026-10-31T23:00:53-0400",
+ "generated": "2026-11-01T02:01:04-0500",
  "injuries": [
+  {
+   "team": "ATL",
+   "player_id": "3146557",
+   "player": "Jock Landale",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hip",
+   "return_date": "2026-11-02",
+   "updated": "2026-11-01T04:52Z",
+   "comment": "Landale (hip) won't return to Saturday's game against the Pelicans."
+  },
   {
    "team": "ATL",
    "player_id": "4701230",
@@ -11,17 +22,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-11-01T01:43Z",
    "comment": "Johnson (ankle) did not return to Saturday's 121-99 loss to the Pelicans. He finished with 13 points (5-11 FG, 1-3 3Pt, 2-2 FT), seven rebounds, four assists and one block over 28 minutes."
-  },
-  {
-   "team": "ATL",
-   "player_id": "3146557",
-   "player": "Jock Landale",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hip",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-01T00:05Z",
-   "comment": "Landale (hip) won't return to Saturday's game against the Pelicans."
   },
   {
    "team": "ATL",
@@ -170,11 +170,11 @@
    "team": "CLE",
    "player_id": "4683747",
    "player": "Jaylon Tyson",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-11-02",
-   "updated": "2026-10-30T20:52Z",
+   "updated": "2026-11-01T04:53Z",
    "comment": "Tyson (ankle) has been ruled out for Saturday's game against the Bucks."
   },
   {
@@ -344,25 +344,25 @@
   },
   {
    "team": "HOU",
-   "player_id": "4711272",
-   "player": "Reed Sheppard",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back",
+   "player_id": "2991230",
+   "player": "Fred VanVleet",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T17:33Z",
-   "comment": "Sheppard (back) is out for Saturday's game against the Thunder."
+   "updated": "2026-11-01T04:56Z",
+   "comment": "VanVleet (knee) won't play Saturday against the Thunder."
   },
   {
    "team": "HOU",
-   "player_id": "2991230",
-   "player": "Fred VanVleet",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee",
+   "player_id": "4711272",
+   "player": "Reed Sheppard",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T17:31Z",
-   "comment": "VanVleet (knee) won't play Saturday against the Thunder."
+   "updated": "2026-11-01T04:56Z",
+   "comment": "Sheppard (back) is out for Saturday's game against the Thunder."
   },
   {
    "team": "HOU",
@@ -531,46 +531,46 @@
   },
   {
    "team": "MEM",
-   "player_id": "4065733",
-   "player": "Ty Jerome",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back Soreness",
+   "player_id": "4593016",
+   "player": "Quinten Post",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Not Specified",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T23:23Z",
-   "comment": "Jerome (back) won't play in Saturday's game versus Sacramento, Chris Herrington of The Daily Memphian."
+   "updated": "2026-11-01T04:54Z",
+   "comment": "Post (ankle) has been ruled out for Saturday's game versus Sacramento, Chris Herrington of The Daily Memphian reports."
   },
   {
    "team": "MEM",
    "player_id": "4431785",
    "player": "Scotty Pippen Jr.",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Back Soreness",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T23:22Z",
+   "updated": "2026-11-01T04:54Z",
    "comment": "Pippen (back) has been ruled out for Saturday's game against the Kings, Chris Herrington of The Daily Memphian reports."
   },
   {
    "team": "MEM",
-   "player_id": "4593016",
-   "player": "Quinten Post",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Not Specified",
+   "player_id": "4065733",
+   "player": "Ty Jerome",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back Soreness",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T23:21Z",
-   "comment": "Post (ankle) has been ruled out for Saturday's game versus Sacramento, Chris Herrington of The Daily Memphian reports."
+   "updated": "2026-11-01T04:54Z",
+   "comment": "Jerome (back) won't play in Saturday's game versus Sacramento, Chris Herrington of The Daily Memphian."
   },
   {
    "team": "MIN",
    "player_id": "3032976",
    "player": "Rudy Gobert",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Back Spasms",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T22:18Z",
+   "updated": "2026-11-01T04:53Z",
    "comment": "Gobert (back) is out for Saturday's game against the Spurs, Dane Moore of 'The Dane Moore NBA Podcast' reports."
   },
   {
@@ -597,13 +597,24 @@
   },
   {
    "team": "NOP",
+   "player_id": "4277956",
+   "player": "Jordan Poole",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-02",
+   "updated": "2026-11-01T04:53Z",
+   "comment": "Poole (ankle) has been ruled out for Saturday's game against the Hawks."
+  },
+  {
+   "team": "NOP",
    "player_id": "3907497",
    "player": "Dejounte Murray",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Personal",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T21:24Z",
+   "updated": "2026-11-01T04:52Z",
    "comment": "Murray (personal) won't play in Saturday's game against the Hawks, Jim Eichenhofer of the Pelicans' official site reports."
   },
   {
@@ -616,17 +627,6 @@
    "return_date": "2026-11-08",
    "updated": "2026-10-30T21:32Z",
    "comment": "Missi (knee) won't play in Saturday's game against Atlanta."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4277956",
-   "player": "Jordan Poole",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-02",
-   "updated": "2026-10-30T21:25Z",
-   "comment": "Poole (ankle) has been ruled out for Saturday's game against the Hawks."
   },
   {
    "team": "NYK",
@@ -762,25 +762,25 @@
   },
   {
    "team": "PHI",
-   "player_id": "1966",
-   "player": "LeBron James",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back",
+   "player_id": "3059318",
+   "player": "Joel Embiid",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Foot",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T17:16Z",
-   "comment": "James (back) has been ruled out for Saturday's meeting in Charlotte."
+   "updated": "2026-11-01T04:52Z",
+   "comment": "Embiid (foot) is out for Saturday's game in Charlotte."
   },
   {
    "team": "PHI",
-   "player_id": "3059318",
-   "player": "Joel Embiid",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Foot",
+   "player_id": "1966",
+   "player": "LeBron James",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T17:12Z",
-   "comment": "Embiid (foot) is out for Saturday's game in Charlotte."
+   "updated": "2026-11-01T04:51Z",
+   "comment": "James (back) has been ruled out for Saturday's meeting in Charlotte."
   },
   {
    "team": "PHI",

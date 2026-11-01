@@ -1,5 +1,113 @@
 [
  {
+  "kind": "status_change",
+  "team": "ATL",
+  "player": "Jock Landale",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hip",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "CLE",
+  "player": "Jaylon Tyson",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Fred VanVleet",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Reed Sheppard",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Quinten Post",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Not Specified",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Scotty Pippen Jr.",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Ty Jerome",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MIN",
+  "player": "Rudy Gobert",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Spasms",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Jordan Poole",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Dejounte Murray",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Personal",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Foot",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "LeBron James",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back",
+  "time": "2026-11-01T02:01:04-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "ATL",
   "player": "Jalen Johnson",
