@@ -2,6 +2,23 @@
  {
   "kind": "injury_new",
   "team": "ATL",
+  "player": "Jalen Johnson",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-10-31T23:00:53-0400"
+ },
+ {
+  "kind": "status_change",
+  "team": "ATL",
+  "player": "Jock Landale",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hip",
+  "time": "2026-10-31T23:00:53-0400"
+ },
+ {
+  "kind": "injury_new",
+  "team": "ATL",
   "player": "Jock Landale",
   "to": "day-to-day",
   "injury": "Hip",
