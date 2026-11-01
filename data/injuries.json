@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T10:00:50-0500",
+ "generated": "2026-11-01T15:15:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -49,12 +49,12 @@
    "team": "BOS",
    "player_id": "4351852",
    "player": "Mitchell Robinson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-11-01",
-   "updated": "2026-10-31T20:32Z",
-   "comment": "Robinson (rest) is questionable for Sunday's game in Orlando, Jay King of The Athletic reports."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Rest Not Specified",
+   "return_date": "2026-11-02",
+   "updated": "2026-11-01T15:05Z",
+   "comment": "Robinson (rest) has been ruled out for Sunday's game against the Magic."
   },
   {
    "team": "BOS",
@@ -146,6 +146,17 @@
   },
   {
    "team": "CHI",
+   "player_id": "4278067",
+   "player": "Nic Claxton",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-01T17:15Z",
+   "comment": "Claxton (hamstring) was a full participant in Sunday's practice, K.C. Johnson of Chicago Sports Network."
+  },
+  {
+   "team": "CHI",
    "player_id": "4848625",
    "player": "Dailyn Swain",
    "status": "day-to-day",
@@ -154,17 +165,6 @@
    "return_date": "2026-11-02",
    "updated": "2026-10-31T04:59Z",
    "comment": "Swain (back) has been ruled out for Friday's game against Boston."
-  },
-  {
-   "team": "CHI",
-   "player_id": "4278067",
-   "player": "Nic Claxton",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring",
-   "return_date": "2026-11-04",
-   "updated": "2026-10-26T22:20Z",
-   "comment": "Claxton (hamstring) participated in individual drills Monday morning and hopes to join the team for practice next week, Joe Cowley of the Chicago Sun-Times reports."
   },
   {
    "team": "CLE",
@@ -371,9 +371,20 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Calf Strain",
-   "return_date": "2026-11-02",
+   "return_date": "2026-11-09",
    "updated": "2026-10-26T22:52Z",
    "comment": "Head coach Ime Udoka said Monday that Adams could be out \"a week or two\" due to his right soleus strain, Lachard Binkley of SI.com reports."
+  },
+  {
+   "team": "IND",
+   "player_id": "2530530",
+   "player": "T.J. McConnell",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring Strain",
+   "return_date": "2026-11-02",
+   "updated": "2026-11-01T16:26Z",
+   "comment": "Indiana recalled McConnell (hamstring) from the G League's Noblesville Boom on Saturday."
   },
   {
    "team": "IND",
@@ -410,17 +421,6 @@
   },
   {
    "team": "IND",
-   "player_id": "2530530",
-   "player": "T.J. McConnell",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring Strain",
-   "return_date": "2026-11-02",
-   "updated": "2026-10-30T19:09Z",
-   "comment": "McConnell (hamstring) is practicing in the G League at Noblesville Boom training camp, per Alex Golden of SI.com."
-  },
-  {
-   "team": "IND",
    "player_id": "5157066",
    "player": "Johnny Furphy",
    "status": "out",
@@ -454,17 +454,6 @@
   },
   {
    "team": "LAC",
-   "player_id": "5108024",
-   "player": "Yanic Konan Niederhauser",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Foot Surgery",
-   "return_date": "2026-11-08",
-   "updated": "2026-10-29T18:44Z",
-   "comment": "Niederhauser (foot) had his third-year team option picked up Thursday by the Clippers, Ohm Youngmisuk of ESPN.com reports."
-  },
-  {
-   "team": "LAC",
    "player_id": "4065778",
    "player": "Max Strus",
    "status": "out",
@@ -473,17 +462,6 @@
    "return_date": "2026-11-08",
    "updated": "2026-10-29T01:03Z",
    "comment": "Strus (foot) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports."
-  },
-  {
-   "team": "LAC",
-   "player_id": "3913176",
-   "player": "Brandon Ingram",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Achilles Surgery",
-   "return_date": "2026-11-08",
-   "updated": "2026-10-29T01:00Z",
-   "comment": "Ingram (Achilles) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports."
   },
   {
    "team": "LAC",
@@ -509,6 +487,17 @@
   },
   {
    "team": "LAL",
+   "player_id": "5060631",
+   "player": "Adou Thiero",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Inflammation",
+   "return_date": "2026-11-09",
+   "updated": "2026-11-01T15:04Z",
+   "comment": "Thiero (knee) has been ruled out for Sunday's game against the Raptors."
+  },
+  {
+   "team": "LAL",
    "player_id": "4433137",
    "player": "Ziaire Williams",
    "status": "day-to-day",
@@ -517,17 +506,6 @@
    "return_date": "2026-11-01",
    "updated": "2026-11-01T00:04Z",
    "comment": "Williams (foot) is questionable for Sunday's game against the Raptors, Law Murray of The Athletic reports."
-  },
-  {
-   "team": "LAL",
-   "player_id": "5060631",
-   "player": "Adou Thiero",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Inflammation",
-   "return_date": "2026-11-01",
-   "updated": "2026-10-30T00:05Z",
-   "comment": "Thiero (knee) has been ruled out for Friday's game against the Warriors."
   },
   {
    "team": "MEM",
@@ -599,11 +577,11 @@
    "team": "NOP",
    "player_id": "4277956",
    "player": "Jordan Poole",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle Sprain",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-01T04:53Z",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-01T20:08Z",
    "comment": "Poole (ankle) has been ruled out for Saturday's game against the Hawks."
   },
   {

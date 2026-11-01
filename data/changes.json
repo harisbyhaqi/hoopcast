@@ -1,6 +1,38 @@
 [
  {
   "kind": "status_change",
+  "team": "BOS",
+  "player": "Mitchell Robinson",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Rest Not Specified",
+  "time": "2026-11-01T15:15:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Jordan Poole",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-01T15:15:51-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAC",
+  "player": "Yanic Konan Niederhauser",
+  "from": "out",
+  "time": "2026-11-01T15:15:51-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAC",
+  "player": "Brandon Ingram",
+  "from": "out",
+  "time": "2026-11-01T15:15:51-0500"
+ },
+ {
+  "kind": "status_change",
   "team": "ATL",
   "player": "Jock Landale",
   "from": "out",
