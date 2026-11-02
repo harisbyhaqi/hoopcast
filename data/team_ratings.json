@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T16:45:56-05:00",
+ "generated": "2026-11-01T20:16:06-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -162,12 +162,12 @@
      "rating": -1.6,
      "o": -2.1,
      "d": 0.5,
-     "min": 5.1
+     "min": 5.0
     }
    ]
   },
   "BKN": {
-   "roster": -4.49,
+   "roster": -4.48,
    "market": -6.3,
    "prior": -5.39,
    "rotation": [
@@ -214,18 +214,18 @@
      "min": 22.3
     },
     {
+     "player": "Chaney Johnson",
+     "rating": -1.0,
+     "o": -1.0,
+     "d": -0.0,
+     "min": 20.5
+    },
+    {
      "player": "Egor Demin",
      "rating": -1.4,
      "o": -1.0,
      "d": -0.4,
      "min": 20.4
-    },
-    {
-     "player": "Chaney Johnson",
-     "rating": -1.0,
-     "o": -1.0,
-     "d": -0.0,
-     "min": 20.2
     },
     {
      "player": "Noah Clowney",
@@ -239,21 +239,21 @@
      "rating": -1.8,
      "o": -1.1,
      "d": -0.7,
-     "min": 12.0
+     "min": 12.1
     },
     {
      "player": "Terance Mann",
      "rating": -2.5,
      "o": -1.7,
      "d": -0.8,
-     "min": 11.7
+     "min": 11.6
     },
     {
      "player": "Mikel Brown Jr.",
      "rating": -2.2,
      "o": -1.0,
      "d": -1.2,
-     "min": 0.5
+     "min": 0.2
     }
    ]
   },
@@ -664,7 +664,7 @@
    ]
   },
   "DET": {
-   "roster": 2.55,
+   "roster": 2.54,
    "market": 2.96,
    "prior": 2.75,
    "rotation": [
@@ -748,7 +748,7 @@
    ]
   },
   "GSW": {
-   "roster": 1.41,
+   "roster": 1.4,
    "market": -0.37,
    "prior": 0.52,
    "rotation": [
@@ -832,7 +832,7 @@
    ]
   },
   "HOU": {
-   "roster": 5.02,
+   "roster": 5.01,
    "market": 2.41,
    "prior": 3.71,
    "rotation": [
@@ -960,7 +960,7 @@
      "rating": -0.7,
      "o": -0.1,
      "d": -0.6,
-     "min": 19.9
+     "min": 19.8
     },
     {
      "player": "Jay Huff",
@@ -981,14 +981,14 @@
      "rating": -0.9,
      "o": 0.5,
      "d": -1.3,
-     "min": 14.4
+     "min": 14.5
     },
     {
      "player": "Johnny Furphy",
      "rating": -0.7,
      "o": -1.5,
      "d": 0.8,
-     "min": 2.9
+     "min": 2.8
     }
    ]
   },
@@ -1322,7 +1322,7 @@
    ]
   },
   "MIL": {
-   "roster": -5.81,
+   "roster": -5.82,
    "market": -5.74,
    "prior": -5.78,
    "rotation": [
@@ -1721,7 +1721,7 @@
    ]
   },
   "ORL": {
-   "roster": 0.59,
+   "roster": 0.6,
    "market": 0.93,
    "prior": 0.76,
    "rotation": [
@@ -1779,21 +1779,21 @@
      "rating": 1.0,
      "o": -0.4,
      "d": 1.4,
-     "min": 18.5
+     "min": 18.4
     },
     {
      "player": "Tristan da Silva",
      "rating": -0.1,
      "o": -0.1,
      "d": 0.0,
-     "min": 17.8
+     "min": 17.9
     },
     {
      "player": "Nikola Vucevic",
      "rating": -1.5,
      "o": -1.6,
      "d": 0.2,
-     "min": 9.8
+     "min": 9.7
     }
    ]
   },
