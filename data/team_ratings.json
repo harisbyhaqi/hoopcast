@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T20:46:02-05:00",
+ "generated": "2026-11-01T23:01:00-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -505,7 +505,7 @@
   "DAL": {
    "roster": -3.32,
    "market": -2.41,
-   "prior": -2.86,
+   "prior": -2.87,
    "rotation": [
     {
      "player": "Kyrie Irving",
@@ -792,7 +792,7 @@
      "rating": 0.7,
      "o": 0.5,
      "d": 0.2,
-     "min": 23.8
+     "min": 23.9
     },
     {
      "player": "Gui Santos",
@@ -813,7 +813,7 @@
      "rating": -0.6,
      "o": 0.0,
      "d": -0.6,
-     "min": 16.0
+     "min": 16.1
     },
     {
      "player": "Brandon Williams",
@@ -827,7 +827,7 @@
      "rating": 0.1,
      "o": -0.2,
      "d": 0.3,
-     "min": 0.5
+     "min": 0.3
     }
    ]
   },
@@ -995,7 +995,7 @@
   "LAC": {
    "roster": -2.38,
    "market": -5.37,
-   "prior": -3.88,
+   "prior": -3.87,
    "rotation": [
     {
      "player": "Darius Garland",
@@ -1037,7 +1037,7 @@
      "rating": -0.6,
      "o": -2.0,
      "d": 1.4,
-     "min": 21.7
+     "min": 21.6
     },
     {
      "player": "Isaiah Jackson",
@@ -1058,14 +1058,14 @@
      "rating": -1.0,
      "o": -0.8,
      "d": -0.2,
-     "min": 17.2
+     "min": 16.6
     },
     {
      "player": "Kobe Sanders",
      "rating": -0.8,
      "o": -0.8,
      "d": -0.0,
-     "min": 14.3
+     "min": 14.8
     }
    ]
   },
@@ -1406,7 +1406,7 @@
    ]
   },
   "MIN": {
-   "roster": 4.54,
+   "roster": 4.53,
    "market": 2.59,
    "prior": 3.56,
    "rotation": [
@@ -1952,7 +1952,7 @@
    ]
   },
   "POR": {
-   "roster": 1.5,
+   "roster": 1.49,
    "market": 0.56,
    "prior": 1.03,
    "rotation": [

@@ -1,5 +1,47 @@
 [
  {
+  "kind": "injury_new",
+  "team": "ATL",
+  "player": "Kingston Flemings",
+  "to": "out",
+  "injury": "Suspension",
+  "time": "2026-11-01T23:00:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "BKN",
+  "player": "Mikel Brown Jr.",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-01T23:00:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Obi Toppin",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-11-01T23:00:53-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "LAC",
+  "player": "Derrick Jones Jr.",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-11-01T23:00:53-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "TOR",
+  "player": "Jakob Poeltl",
+  "to": "out",
+  "injury": "Shoulder Inflammation",
+  "time": "2026-11-01T23:00:53-0500"
+ },
+ {
   "kind": "status_change",
   "team": "ATL",
   "player": "Jock Landale",

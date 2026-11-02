@@ -1,6 +1,17 @@
 {
- "generated": "2026-11-01T20:45:54-0500",
+ "generated": "2026-11-01T23:00:53-0500",
  "injuries": [
+  {
+   "team": "ATL",
+   "player_id": "5149077",
+   "player": "Kingston Flemings",
+   "status": "out",
+   "status_raw": "Suspension",
+   "injury": "Suspension",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-02T02:02Z",
+   "comment": "Flemings (suspension) won't play in Monday's game against Indiana, Andrew Schlecht of The Athletic reports."
+  },
   {
    "team": "ATL",
    "player_id": "4701230",
@@ -71,11 +82,11 @@
    "team": "BKN",
    "player_id": "5101761",
    "player": "Mikel Brown Jr.",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Rest",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T20:58Z",
+   "updated": "2026-11-02T01:51Z",
    "comment": "Brown (rest) is out for Sunday's game in Indiana."
   },
   {
@@ -390,11 +401,11 @@
    "team": "IND",
    "player_id": "4278355",
    "player": "Obi Toppin",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Back Soreness",
    "return_date": "2026-11-02",
-   "updated": "2026-11-01T20:29Z",
+   "updated": "2026-11-02T01:51Z",
    "comment": "Toppin (back) is out for Sunday's game against the Nets, Alex Golden of SI.com reports."
   },
   {
@@ -451,6 +462,17 @@
    "return_date": "2026-11-13",
    "updated": "2026-10-28T21:30Z",
    "comment": "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania of ESPN reports."
+  },
+  {
+   "team": "LAC",
+   "player_id": "3936099",
+   "player": "Derrick Jones Jr.",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-11-02",
+   "updated": "2026-11-02T03:47Z",
+   "comment": "Jones (right knee) has been ruled out for the rest of Sunday's game against the Clippers, Ohm Youngmisuk of ESPN.com reports."
   },
   {
    "team": "LAC",
@@ -891,6 +913,17 @@
    "return_date": "2026-12-03",
    "updated": "2026-10-05T21:43Z",
    "comment": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports."
+  },
+  {
+   "team": "TOR",
+   "player_id": "3134908",
+   "player": "Jakob Poeltl",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Shoulder Inflammation",
+   "return_date": "2026-11-02",
+   "updated": "2026-11-02T01:44Z",
+   "comment": "Poeltl (shoulder) won't play in Sunday's game against the Lakers, Vivek Jacob of the Raptors' official site reports."
   },
   {
    "team": "TOR",
