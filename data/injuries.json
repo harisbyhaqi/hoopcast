@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T02:00:50-0500",
+ "generated": "2026-11-02T10:00:49-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -60,11 +60,11 @@
    "team": "BOS",
    "player_id": "4351852",
    "player": "Mitchell Robinson",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Rest Not Specified",
    "return_date": "2026-11-02",
-   "updated": "2026-11-01T15:05Z",
+   "updated": "2026-11-02T14:19Z",
    "comment": "Robinson (rest) has been ruled out for Sunday's game against the Magic."
   },
   {
@@ -162,20 +162,9 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Hamstring",
-   "return_date": "2026-11-04",
+   "return_date": "2026-11-02",
    "updated": "2026-11-01T21:08Z",
    "comment": "Claxton (hamstring) is listed as doubtful for Monday's game against Philadelphia."
-  },
-  {
-   "team": "CHI",
-   "player_id": "4848625",
-   "player": "Dailyn Swain",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back Soreness",
-   "return_date": "2026-11-02",
-   "updated": "2026-10-31T04:59Z",
-   "comment": "Swain (back) has been ruled out for Friday's game against Boston."
   },
   {
    "team": "CLE",
@@ -239,7 +228,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee Surgery",
-   "return_date": "2026-11-04",
+   "return_date": "2026-11-02",
    "updated": "2026-11-01T22:51Z",
    "comment": "Aldama (knee) is listed as doubtful for Monday's game against the Kings."
   },
@@ -313,33 +302,33 @@
    "team": "GSW",
    "player_id": "4997536",
    "player": "Gui Santos",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee",
    "return_date": "2026-11-05",
-   "updated": "2026-11-02T04:49Z",
+   "updated": "2026-11-02T14:20Z",
    "comment": "Santos did not play in the second half of Sunday's 124-112 win over the Clippers due to a knee injury and will not play against the Suns on Monday, Danny Emerman of SFStandard.com reports."
   },
   {
    "team": "GSW",
    "player_id": "6589",
    "player": "Draymond Green",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Rest",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T19:51Z",
+   "updated": "2026-11-02T14:20Z",
    "comment": "Green (back) is out for Sunday's game against the Clippers."
   },
   {
    "team": "GSW",
    "player_id": "3975",
    "player": "Stephen Curry",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Rest",
    "return_date": "2026-11-02",
-   "updated": "2026-10-31T19:48Z",
+   "updated": "2026-11-02T14:20Z",
    "comment": "Curry (rest) won't play Sunday against the Clippers, Brett Siegel of ClutchPoints.com reports."
   },
   {
