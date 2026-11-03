@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T19:15:51-0500",
+ "generated": "2026-11-02T19:45:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -355,6 +355,17 @@
   },
   {
    "team": "IND",
+   "player_id": "3133603",
+   "player": "Kelly Oubre Jr.",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Bruise",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T00:33Z",
+   "comment": "Oubre (knee) has been ruled out for Monday's game against the Hawks."
+  },
+  {
+   "team": "IND",
    "player_id": "2580365",
    "player": "Larry Nance Jr.",
    "status": "out",
@@ -544,23 +555,23 @@
    "team": "MEM",
    "player_id": "4431785",
    "player": "Scotty Pippen Jr.",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Back Soreness",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-01T23:15Z",
-   "comment": "Pippen (back) is listed as doubtful for Monday's game against the Pelicans."
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T00:14Z",
+   "comment": "Pippen (back) has been ruled out for Monday's game against the Pelicans."
   },
   {
    "team": "MEM",
    "player_id": "4593016",
    "player": "Quinten Post",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle Not Specified",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-01T23:13Z",
-   "comment": "Post (ankle) is questionable to suit up for Monday's game against New Orleans."
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T00:12Z",
+   "comment": "Post (ankle) has been downgraded to out for Monday's game against the Pelicans."
   },
   {
    "team": "MIN",
@@ -572,17 +583,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-11-02T23:22Z",
    "comment": "Shannon (hip) has been ruled out for Monday's game against the Bucks, Jon Krawczynski of The Athletic reports."
-  },
-  {
-   "team": "MIN",
-   "player_id": "4432816",
-   "player": "LaMelo Ball",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Wrist",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-02T19:10Z",
-   "comment": "Ball is questionable for Monday's game against Milwaukee due to a right wrist contusion."
   },
   {
    "team": "MIN",
