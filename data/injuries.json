@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T02:00:55-0500",
+ "generated": "2026-11-03T10:00:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -690,7 +690,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Back",
-   "return_date": "2026-11-06",
+   "return_date": "2026-11-04",
    "updated": "2026-10-27T21:38Z",
    "comment": "Topic (back) will remain on the inactive list for Wednesday's game in Dallas."
   },
