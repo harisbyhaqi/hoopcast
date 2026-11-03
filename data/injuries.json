@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T20:45:49-0500",
+ "generated": "2026-11-02T21:45:53-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -157,6 +157,17 @@
   },
   {
    "team": "DAL",
+   "player_id": "4432582",
+   "player": "Max Christie",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hip Not Specified",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T02:28Z",
+   "comment": "Christie (shin) is available for Saturday's game against the Spurs."
+  },
+  {
+   "team": "DAL",
    "player_id": "6442",
    "player": "Kyrie Irving",
    "status": "out",
@@ -262,8 +273,8 @@
    "status_raw": "Out",
    "injury": "Quadriceps Bruise",
    "return_date": "2026-11-05",
-   "updated": "2026-11-03T01:32Z",
-   "comment": "Williams (quadriceps) is listed as questionable for Monday's game against the Suns."
+   "updated": "2026-11-03T01:33Z",
+   "comment": "Williams (quadriceps) has been ruled out for Monday's game against the Suns."
   },
   {
    "team": "GSW",
@@ -537,8 +548,8 @@
    "status_raw": "Out",
    "injury": "Knee Inflammation",
    "return_date": "2026-11-06",
-   "updated": "2026-11-01T15:04Z",
-   "comment": "Thiero (knee) has been ruled out for Sunday's game against the Raptors."
+   "updated": "2026-11-03T01:30Z",
+   "comment": "Head coach JJ Redick said Monday that Thiero (knee) has participated in live action, and the hope is that he'll be available by the end of the week, Khobi Price of The California Post reports."
   },
   {
    "team": "MEM",
@@ -883,25 +894,14 @@
   },
   {
    "team": "TOR",
-   "player_id": "4433134",
-   "player": "Scottie Barnes",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip Soreness",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-02T21:23Z",
-   "comment": "Barnes (hip) is listed as questionable for Monday's game against the Clippers."
-  },
-  {
-   "team": "TOR",
    "player_id": "3134908",
    "player": "Jakob Poeltl",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Shoulder Inflammation",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-02T20:21Z",
-   "comment": "Poeltl (shoulder) is listed as questionable for Monday's game against the Clippers."
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T02:27Z",
+   "comment": "Poeltl (shoulder) has been ruled out for Monday's game against the Clippers, Zulfi Sheikh reports."
   },
   {
    "team": "TOR",

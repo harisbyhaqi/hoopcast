@@ -1,5 +1,29 @@
 [
  {
+  "kind": "injury_new",
+  "team": "DAL",
+  "player": "Max Christie",
+  "to": "day-to-day",
+  "injury": "Hip Not Specified",
+  "time": "2026-11-02T21:45:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "TOR",
+  "player": "Jakob Poeltl",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Shoulder Inflammation",
+  "time": "2026-11-02T21:45:53-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Scottie Barnes",
+  "from": "day-to-day",
+  "time": "2026-11-02T21:45:53-0500"
+ },
+ {
   "kind": "status_change",
   "team": "GSW",
   "player": "Brandon Williams",
