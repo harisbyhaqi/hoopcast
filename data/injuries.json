@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T20:15:51-0500",
+ "generated": "2026-11-02T20:45:49-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -258,11 +258,11 @@
    "team": "GSW",
    "player_id": "4397040",
    "player": "Brandon Williams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Quadriceps Bruise",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-02T21:09Z",
+   "return_date": "2026-11-05",
+   "updated": "2026-11-03T01:32Z",
    "comment": "Williams (quadriceps) is listed as questionable for Monday's game against the Suns."
   },
   {
@@ -536,7 +536,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee Inflammation",
-   "return_date": "2026-11-09",
+   "return_date": "2026-11-06",
    "updated": "2026-11-01T15:04Z",
    "comment": "Thiero (knee) has been ruled out for Sunday's game against the Raptors."
   },
