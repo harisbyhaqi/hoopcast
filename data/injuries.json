@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T18:45:55-0500",
+ "generated": "2026-11-02T19:15:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -341,17 +341,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-11-02T19:13Z",
    "comment": "Capela (ankle) has been ruled out for Monday's game against the Celtics."
-  },
-  {
-   "team": "HOU",
-   "player_id": "4711272",
-   "player": "Reed Sheppard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-01T20:41Z",
-   "comment": "Sheppard (back) is questionable for Monday's game against the Celtics."
   },
   {
    "team": "HOU",
@@ -795,17 +784,6 @@
   },
   {
    "team": "PHI",
-   "player_id": "3059318",
-   "player": "Joel Embiid",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Foot",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-01T22:12Z",
-   "comment": "Embiid (foot) is questionable to suit up for Monday's game against the Bulls."
-  },
-  {
-   "team": "PHI",
    "player_id": "4871141",
    "player": "Ariel Hukporti",
    "status": "out",
@@ -856,19 +834,8 @@
    "status_raw": "Out",
    "injury": "Calf Strain",
    "return_date": "2026-11-04",
-   "updated": "2026-11-02T22:53Z",
-   "comment": "Cardwell (calf) has been downgraded to doubtful for Monday's game against Dallas."
-  },
-  {
-   "team": "SAC",
-   "player_id": "3064440",
-   "player": "Zach LaVine",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Elbow Soreness",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-01T23:20Z",
-   "comment": "LaVine (elbow) is questionable to play in Monday's game against Dallas."
+   "updated": "2026-11-02T23:34Z",
+   "comment": "Cardwell (calf) has been ruled out for Monday's game against the Mavericks."
   },
   {
    "team": "SAC",
