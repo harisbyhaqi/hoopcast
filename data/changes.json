@@ -1,5 +1,12 @@
 [
  {
+  "kind": "cleared",
+  "team": "DEN",
+  "player": "Alpha Diallo",
+  "from": "out",
+  "time": "2026-11-02T20:15:51-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "IND",
   "player": "Kelly Oubre Jr.",

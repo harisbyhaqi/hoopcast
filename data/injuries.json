@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T19:45:55-0500",
+ "generated": "2026-11-02T20:15:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -220,17 +220,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-11-01T23:56Z",
    "comment": "Jones (hamstring) is listed as out for Monday's game against the Trail Blazers."
-  },
-  {
-   "team": "DEN",
-   "player_id": "4065813",
-   "player": "Alpha Diallo",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Wrist Sprain",
-   "return_date": "2026-11-02",
-   "updated": "2026-11-01T23:52Z",
-   "comment": "Diallo (wrist) is listed as questionable for Monday's game versus Portland."
   },
   {
    "team": "DEN",
