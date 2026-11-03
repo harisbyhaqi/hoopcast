@@ -1,38 +1,27 @@
 {
- "generated": "2026-11-02T23:00:49-0500",
+ "generated": "2026-11-03T02:00:55-0500",
  "injuries": [
-  {
-   "team": "ATL",
-   "player_id": "4701230",
-   "player": "Jalen Johnson",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-02T22:58Z",
-   "comment": "Johnson (ankle) has been ruled out for Monday's game versus Indiana."
-  },
-  {
-   "team": "ATL",
-   "player_id": "5149077",
-   "player": "Kingston Flemings",
-   "status": "out",
-   "status_raw": "Suspension",
-   "injury": "Suspension",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-02T02:02Z",
-   "comment": "Flemings (suspension) won't play in Monday's game against Indiana, Andrew Schlecht of The Athletic reports."
-  },
   {
    "team": "ATL",
    "player_id": "3146557",
    "player": "Jock Landale",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hip",
    "return_date": "2026-11-04",
-   "updated": "2026-11-01T22:22Z",
+   "updated": "2026-11-03T05:48Z",
    "comment": "Landale (hip) has been ruled out for Monday's game against Indiana."
+  },
+  {
+   "team": "ATL",
+   "player_id": "4701230",
+   "player": "Jalen Johnson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T05:48Z",
+   "comment": "Johnson (ankle) has been ruled out for Monday's game versus Indiana."
   },
   {
    "team": "ATL",
@@ -60,11 +49,11 @@
    "team": "BOS",
    "player_id": "4251",
    "player": "Paul George",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Rest",
    "return_date": "2026-11-04",
-   "updated": "2026-11-02T19:06Z",
+   "updated": "2026-11-03T06:08Z",
    "comment": "George will be rested Monday against Houston."
   },
   {
@@ -137,23 +126,34 @@
    "team": "CLE",
    "player_id": "4576087",
    "player": "Peyton Watson",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hamstring Soreness",
    "return_date": "2026-11-04",
-   "updated": "2026-11-02T23:17Z",
+   "updated": "2026-11-03T05:29Z",
    "comment": "Watson (hamstring) is out for Monday's game against the Thunder, Chris Fedor of The Cleveland Plain Dealer reports."
   },
   {
    "team": "CLE",
    "player_id": "4683747",
    "player": "Jaylon Tyson",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-11-04",
-   "updated": "2026-11-01T21:50Z",
+   "updated": "2026-11-03T05:29Z",
    "comment": "Tyson (ankle) has been ruled out for Monday's game against Oklahoma City."
+  },
+  {
+   "team": "DAL",
+   "player_id": "6442",
+   "player": "Kyrie Irving",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T06:03Z",
+   "comment": "Irving (knee) has been ruled out for Monday's game against the Kings."
   },
   {
    "team": "DAL",
@@ -165,17 +165,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-11-03T02:30Z",
    "comment": "Christie has been ruled out for the rest of Monday's game against the Kings due to a right hip injury, Mike Curtis of The Dallas Morning News reports. He'll end the night with no points (0-5 FG, 0-5 3Pt), two rebounds and one steal in eight minutes."
-  },
-  {
-   "team": "DAL",
-   "player_id": "6442",
-   "player": "Kyrie Irving",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-02T23:13Z",
-   "comment": "Irving (knee) has been ruled out for Monday's game against the Kings."
   },
   {
    "team": "DAL",
@@ -269,34 +258,34 @@
    "team": "GSW",
    "player_id": "4397040",
    "player": "Brandon Williams",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Quadriceps Bruise",
    "return_date": "2026-11-05",
-   "updated": "2026-11-03T01:33Z",
+   "updated": "2026-11-03T06:12Z",
    "comment": "Williams (quadriceps) has been ruled out for Monday's game against the Suns."
-  },
-  {
-   "team": "GSW",
-   "player_id": "3213",
-   "player": "Al Horford",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Rest",
-   "return_date": "2026-11-05",
-   "updated": "2026-11-02T21:07Z",
-   "comment": "Horford will be rested Monday against the Suns."
   },
   {
    "team": "GSW",
    "player_id": "4997536",
    "player": "Gui Santos",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-11-05",
-   "updated": "2026-11-02T14:20Z",
+   "updated": "2026-11-03T06:12Z",
    "comment": "Santos did not play in the second half of Sunday's 124-112 win over the Clippers due to a knee injury and will not play against the Suns on Monday, Danny Emerman of SFStandard.com reports."
+  },
+  {
+   "team": "GSW",
+   "player_id": "3213",
+   "player": "Al Horford",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Rest",
+   "return_date": "2026-11-05",
+   "updated": "2026-11-03T06:11Z",
+   "comment": "Horford will be rested Monday against the Suns."
   },
   {
    "team": "GSW",
@@ -355,24 +344,57 @@
   },
   {
    "team": "IND",
+   "player_id": "3149673",
+   "player": "Pascal Siakam",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Rest",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T05:50Z",
+   "comment": "Siakam will be rested against the Hawks on Monday."
+  },
+  {
+   "team": "IND",
+   "player_id": "4396909",
+   "player": "Aaron Nesmith",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Rest",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T05:50Z",
+   "comment": "Nesmith (rest) is sitting out Monday against Atlanta."
+  },
+  {
+   "team": "IND",
+   "player_id": "4395712",
+   "player": "Andrew Nembhard",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Neck",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T05:50Z",
+   "comment": "Nembhard (cervical strain) is out for Monday's game against Atlanta."
+  },
+  {
+   "team": "IND",
    "player_id": "3133603",
    "player": "Kelly Oubre Jr.",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee Bruise",
    "return_date": "2026-11-04",
-   "updated": "2026-11-03T00:33Z",
+   "updated": "2026-11-03T05:49Z",
    "comment": "Oubre (knee) has been ruled out for Monday's game against the Hawks."
   },
   {
    "team": "IND",
    "player_id": "2580365",
    "player": "Larry Nance Jr.",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Illness",
    "return_date": "2026-11-04",
-   "updated": "2026-11-02T23:10Z",
+   "updated": "2026-11-03T05:49Z",
    "comment": "Nance (illness) has been ruled out for Monday's game against the Hawks."
   },
   {
@@ -410,39 +432,6 @@
   },
   {
    "team": "IND",
-   "player_id": "4396909",
-   "player": "Aaron Nesmith",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Rest",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-02T18:13Z",
-   "comment": "Nesmith (rest) is sitting out Monday against Atlanta."
-  },
-  {
-   "team": "IND",
-   "player_id": "4395712",
-   "player": "Andrew Nembhard",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Neck",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-02T18:09Z",
-   "comment": "Nembhard (cervical strain) is out for Monday's game against Atlanta."
-  },
-  {
-   "team": "IND",
-   "player_id": "3149673",
-   "player": "Pascal Siakam",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Rest",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-02T18:06Z",
-   "comment": "Siakam will be rested against the Hawks on Monday."
-  },
-  {
-   "team": "IND",
    "player_id": "5157066",
    "player": "Johnny Furphy",
    "status": "out",
@@ -476,25 +465,25 @@
   },
   {
    "team": "LAC",
-   "player_id": "4066648",
-   "player": "Rui Hachimura",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Quadriceps Bruise",
+   "player_id": "3936099",
+   "player": "Derrick Jones Jr.",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Soreness",
    "return_date": "2026-11-04",
-   "updated": "2026-11-02T21:19Z",
-   "comment": "Hachimura (quadriceps) has been ruled out for Monday's game against the Raptors."
+   "updated": "2026-11-03T06:11Z",
+   "comment": "Jones (knee) has been ruled out for Monday's game against the Raptors."
   },
   {
    "team": "LAC",
-   "player_id": "3936099",
-   "player": "Derrick Jones Jr.",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Soreness",
+   "player_id": "4066648",
+   "player": "Rui Hachimura",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Quadriceps Bruise",
    "return_date": "2026-11-04",
-   "updated": "2026-11-02T21:12Z",
-   "comment": "Jones (knee) has been ruled out for Monday's game against the Raptors."
+   "updated": "2026-11-03T06:11Z",
+   "comment": "Hachimura (quadriceps) has been ruled out for Monday's game against the Raptors."
   },
   {
    "team": "LAC",
@@ -553,35 +542,35 @@
   },
   {
    "team": "MEM",
-   "player_id": "4431785",
-   "player": "Scotty Pippen Jr.",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back Soreness",
+   "player_id": "4593016",
+   "player": "Quinten Post",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Not Specified",
    "return_date": "2026-11-04",
-   "updated": "2026-11-03T00:14Z",
-   "comment": "Pippen (back) has been ruled out for Monday's game against the Pelicans."
+   "updated": "2026-11-03T06:02Z",
+   "comment": "Post (ankle) has been downgraded to out for Monday's game against the Pelicans."
   },
   {
    "team": "MEM",
-   "player_id": "4593016",
-   "player": "Quinten Post",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Not Specified",
+   "player_id": "4431785",
+   "player": "Scotty Pippen Jr.",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back Soreness",
    "return_date": "2026-11-04",
-   "updated": "2026-11-03T00:12Z",
-   "comment": "Post (ankle) has been downgraded to out for Monday's game against the Pelicans."
+   "updated": "2026-11-03T06:02Z",
+   "comment": "Pippen (back) has been ruled out for Monday's game against the Pelicans."
   },
   {
    "team": "MIN",
    "player_id": "4432847",
    "player": "Terrence Shannon Jr.",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hip Bruise",
    "return_date": "2026-11-04",
-   "updated": "2026-11-02T23:22Z",
+   "updated": "2026-11-03T05:52Z",
    "comment": "Shannon (hip) has been ruled out for Monday's game against the Bucks, Jon Krawczynski of The Athletic reports."
   },
   {
@@ -701,7 +690,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Back",
-   "return_date": "2026-11-04",
+   "return_date": "2026-11-06",
    "updated": "2026-10-27T21:38Z",
    "comment": "Topic (back) will remain on the inactive list for Wednesday's game in Dallas."
   },
@@ -709,11 +698,11 @@
    "team": "ORL",
    "player_id": "4712849",
    "player": "Anthony Black",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Rest",
    "return_date": "2026-11-05",
-   "updated": "2026-11-02T17:05Z",
+   "updated": "2026-11-03T05:35Z",
    "comment": "Black will be rested Monday against the Wizards."
   },
   {
@@ -792,6 +781,17 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-06T19:17Z",
    "comment": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN."
+  },
+  {
+   "team": "PHX",
+   "player_id": "4278402",
+   "player": "Jordan Goodwin",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Calf Not Specified",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T04:33Z",
+   "comment": "Goodwin won't return to Monday's game against the Warriors due to a left calf injury, Duane Rankin of The Arizona Republic reports. He recorded four points (2-3 FG, 0-1 3Pt), two rebounds, two assists and one steal in 10 minutes before exiting."
   },
   {
    "team": "PHX",
@@ -896,11 +896,11 @@
    "team": "TOR",
    "player_id": "3134908",
    "player": "Jakob Poeltl",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Shoulder Inflammation",
    "return_date": "2026-11-04",
-   "updated": "2026-11-03T02:27Z",
+   "updated": "2026-11-03T06:10Z",
    "comment": "Poeltl (shoulder) has been ruled out for Monday's game against the Clippers, Zulfi Sheikh reports."
   },
   {
@@ -960,6 +960,28 @@
   },
   {
    "team": "WAS",
+   "player_id": "5160992",
+   "player": "Alex Sarr",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Soreness",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T05:34Z",
+   "comment": "Sarr (knee) is out for Monday's game against Orlando."
+  },
+  {
+   "team": "WAS",
+   "player_id": "2581184",
+   "player": "Anthony Gill",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back Spasms",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-03T05:34Z",
+   "comment": "Gill (back) is out for Monday's game against the Magic."
+  },
+  {
+   "team": "WAS",
    "player_id": "4432187",
    "player": "Reece Beekman",
    "status": "out",
@@ -968,28 +990,6 @@
    "return_date": "2026-12-03",
    "updated": "2026-11-02T18:22Z",
    "comment": "The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-evaluated in approximately three weeks."
-  },
-  {
-   "team": "WAS",
-   "player_id": "2581184",
-   "player": "Anthony Gill",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back Spasms",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-02T18:18Z",
-   "comment": "Gill (back) is out for Monday's game against the Magic."
-  },
-  {
-   "team": "WAS",
-   "player_id": "5160992",
-   "player": "Alex Sarr",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Soreness",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-02T18:03Z",
-   "comment": "Sarr (knee) is out for Monday's game against Orlando."
   },
   {
    "team": "WAS",

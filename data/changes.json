@@ -1,5 +1,227 @@
 [
  {
+  "kind": "status_change",
+  "team": "ATL",
+  "player": "Jock Landale",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hip",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "ATL",
+  "player": "Jalen Johnson",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "BOS",
+  "player": "Paul George",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "CLE",
+  "player": "Peyton Watson",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring Soreness",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "CLE",
+  "player": "Jaylon Tyson",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Kyrie Irving",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Brandon Williams",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Quadriceps Bruise",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Gui Santos",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Al Horford",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Pascal Siakam",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Aaron Nesmith",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Andrew Nembhard",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Neck",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Kelly Oubre Jr.",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Bruise",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Larry Nance Jr.",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAC",
+  "player": "Derrick Jones Jr.",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Soreness",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "LAC",
+  "player": "Rui Hachimura",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Quadriceps Bruise",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Quinten Post",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Not Specified",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Scotty Pippen Jr.",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Soreness",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MIN",
+  "player": "Terrence Shannon Jr.",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hip Bruise",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "ORL",
+  "player": "Anthony Black",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHX",
+  "player": "Jordan Goodwin",
+  "to": "day-to-day",
+  "injury": "Calf Not Specified",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "TOR",
+  "player": "Jakob Poeltl",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Shoulder Inflammation",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "WAS",
+  "player": "Alex Sarr",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Soreness",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "WAS",
+  "player": "Anthony Gill",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Spasms",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "ATL",
+  "player": "Kingston Flemings",
+  "from": "out",
+  "time": "2026-11-03T02:00:55-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "DAL",
   "player": "Max Christie",
