@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T10:00:54-0500",
+ "generated": "2026-11-04T18:45:54-0500",
  "teams": {
   "ATL": [
    {
@@ -2207,6 +2207,12 @@
     "player": "Bennett Stirtz",
     "position": "G",
     "jersey": "14"
+   },
+   {
+    "player_id": "4433159",
+    "player": "Dalen Terry",
+    "position": "G",
+    "jersey": ""
    },
    {
     "player_id": "5159925",

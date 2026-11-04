@@ -1,6 +1,17 @@
 {
- "generated": "2026-11-04T10:00:54-0500",
+ "generated": "2026-11-04T18:45:54-0500",
  "injuries": [
+  {
+   "team": "ATL",
+   "player_id": "4701230",
+   "player": "Jalen Johnson",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle",
+   "return_date": "2026-11-06",
+   "updated": "2026-11-04T23:05Z",
+   "comment": "Johnson (ankle) is listed as out for Wednesday's game in Washington."
+  },
   {
    "team": "ATL",
    "player_id": "3146557",
@@ -11,17 +22,6 @@
    "return_date": "2026-11-06",
    "updated": "2026-11-03T22:08Z",
    "comment": "Landale is out for Wednesday's game against the Wizards with a left hip strain, Kevin Chouinard of the Hawks' official site reports."
-  },
-  {
-   "team": "ATL",
-   "player_id": "4701230",
-   "player": "Jalen Johnson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T22:06Z",
-   "comment": "Johnson (ankle) is listed as questionable for Wednesday's game in Washington, Kevin Chouinard of the Hawks' official site reports."
   },
   {
    "team": "ATL",
@@ -47,25 +47,14 @@
   },
   {
    "team": "BOS",
-   "player_id": "4066354",
-   "player": "Payton Pritchard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T21:12Z",
-   "comment": "Pritchard is listed as questionable for Wednesday's game against Milwaukee due to a right shoulder contusion, Taylor Snow of the Celtics' official site reports."
-  },
-  {
-   "team": "BOS",
    "player_id": "4065648",
    "player": "Jayson Tatum",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Rest",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T21:10Z",
-   "comment": "Tatum (rest) is questionable for Wednesday against the Bucks, Taylor Snow of the Celtics' official site reports."
+   "return_date": "2026-11-06",
+   "updated": "2026-11-04T17:48Z",
+   "comment": "Tatum will be rested Wednesday against the Bucks, Jack Simone of BostonSportsJournal.com reports."
   },
   {
    "team": "BOS",
@@ -102,36 +91,14 @@
   },
   {
    "team": "CHA",
-   "player_id": "5061575",
-   "player": "Kon Knueppel",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T22:13Z",
-   "comment": "Knueppel (hamstring) is listed as probable for Wednesday's game against the Nets."
-  },
-  {
-   "team": "CHA",
-   "player_id": "4395651",
-   "player": "Coby White",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T22:06Z",
-   "comment": "White (calf) is probable for Wednesday's game in Brooklyn."
-  },
-  {
-   "team": "CHA",
    "player_id": "4066218",
    "player": "Grant Williams",
    "status": "out",
    "status_raw": "Out",
    "injury": "Hamstring",
    "return_date": "2026-11-09",
-   "updated": "2026-11-01T22:17Z",
-   "comment": "Williams (hamstring) is listed as out for Monday's game against the Pistons."
+   "updated": "2026-11-04T17:59Z",
+   "comment": "Charlotte assigned Williams (hamstring) to the G League's Greensboro Swarm on Wednesday."
   },
   {
    "team": "CHI",
@@ -139,21 +106,10 @@
    "player": "Nic Claxton",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Hamstring",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T21:04Z",
-   "comment": "Claxton (hamstring) is questionable for Wednesday against the Knicks."
-  },
-  {
-   "team": "CHI",
-   "player_id": "4397189",
-   "player": "Jalen Smith",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Finger",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T21:03Z",
-   "comment": "Smith is probable for Wednesday's game against the Knicks with a left finger sprain."
+   "injury": "Hamstring Strain",
+   "return_date": "2026-11-08",
+   "updated": "2026-11-04T22:34Z",
+   "comment": "Claxton (hamstring) is listed as out for Wednesday's game against New York."
   },
   {
    "team": "CLE",
@@ -179,6 +135,17 @@
   },
   {
    "team": "DAL",
+   "player_id": "4593125",
+   "player": "Santi Aldama",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Surgery",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-04T18:56Z",
+   "comment": "Aldama (knee) is doubtful for Wednesday's game against the Spurs, per NBA reporter Marc Stein."
+  },
+  {
+   "team": "DAL",
    "player_id": "4432582",
    "player": "Max Christie",
    "status": "out",
@@ -187,17 +154,6 @@
    "return_date": "2026-11-06",
    "updated": "2026-11-03T22:25Z",
    "comment": "Christie (hip) is out for Wednesday's game against the Spurs."
-  },
-  {
-   "team": "DAL",
-   "player_id": "4593125",
-   "player": "Santi Aldama",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Surgery",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T22:20Z",
-   "comment": "Aldama (knee) is questionable for Wednesday's game against the Spurs."
   },
   {
    "team": "DAL",
@@ -238,7 +194,7 @@
    "player": "Cameron Johnson",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Ankle",
+   "injury": "Lower Body",
    "return_date": "2026-11-04",
    "updated": "2026-11-03T23:57Z",
    "comment": "Johnson (lower body injury management) is listed as probable for Wednesday's game against Toronto."
@@ -300,6 +256,17 @@
   },
   {
    "team": "GSW",
+   "player_id": "3102531",
+   "player": "Kristaps Porzingis",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Illness",
+   "return_date": "2026-12-01",
+   "updated": "2026-11-04T17:00Z",
+   "comment": "The Warriors have stopped issuing salary payments to Porzingis, who remains away from the team and is considering retirement, Anthony Slater and Shams Charania of ESPN reported Wednesday."
+  },
+  {
+   "team": "GSW",
    "player_id": "4397040",
    "player": "Brandon Williams",
    "status": "day-to-day",
@@ -333,17 +300,6 @@
   },
   {
    "team": "GSW",
-   "player_id": "3102531",
-   "player": "Kristaps Porzingis",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Illness",
-   "return_date": "2026-12-01",
-   "updated": "2026-10-28T14:25Z",
-   "comment": "The Warriors are exploring potential trades involving Porzingis (personal), who remains away from the team indefinitely while dealing with ongoing health concerns, Anthony Slater of ESPN.com reports."
-  },
-  {
-   "team": "GSW",
    "player_id": "4432171",
    "player": "Moses Moody",
    "status": "out",
@@ -368,12 +324,12 @@
    "team": "HOU",
    "player_id": "3102529",
    "player": "Clint Capela",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle Sprain",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T22:19Z",
-   "comment": "Capela (ankle) is listed as questionable for Wednesday's game against the Timberwolves."
+   "return_date": "2026-11-07",
+   "updated": "2026-11-04T18:36Z",
+   "comment": "Capela (ankle) is out for Wednesday's game against the Timberwolves."
   },
   {
    "team": "HOU",
@@ -465,6 +421,17 @@
   },
   {
    "team": "LAC",
+   "player_id": "4432170",
+   "player": "Isaiah Jackson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Groin",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-04T20:11Z",
+   "comment": "Jackson is questionable for Wednesday's game against the Heat with left groin soreness, per Law Murray of The Athletic."
+  },
+  {
+   "team": "LAC",
    "player_id": "5108024",
    "player": "Yanic Konan Niederhauser",
    "status": "out",
@@ -515,8 +482,8 @@
    "status_raw": "Out",
    "injury": "Knee Inflammation",
    "return_date": "2026-11-06",
-   "updated": "2026-11-03T01:30Z",
-   "comment": "Head coach JJ Redick said Monday that Thiero (knee) has participated in live action, and the hope is that he'll be available by the end of the week, Khobi Price of The California Post reports."
+   "updated": "2026-11-04T18:48Z",
+   "comment": "The Lakers assigned Thiero (knee) to the G League's Coachella Valley Lakers on Wednesday, per Khobi Price of The California Post."
   },
   {
    "team": "MEM",
@@ -542,17 +509,6 @@
   },
   {
    "team": "MIA",
-   "player_id": "4431772",
-   "player": "Myron Gardner",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Quadriceps Bruise",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-04T01:08Z",
-   "comment": "Gardner (quadriceps) is listed as questionable for Wednesday's game against the Clippers."
-  },
-  {
-   "team": "MIA",
    "player_id": "3032977",
    "player": "Giannis Antetokounmpo",
    "status": "day-to-day",
@@ -563,15 +519,26 @@
    "comment": "Antetokounmpo is probable to play Wednesday against the Clippers due to a sprained right wrist."
   },
   {
+   "team": "MIL",
+   "player_id": "4697268",
+   "player": "Kam Jones",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-04T17:43Z",
+   "comment": "Jones (ankle) is questionable for Wednesday against the Celtics."
+  },
+  {
    "team": "MIN",
    "player_id": "4432847",
    "player": "Terrence Shannon Jr.",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Hip Bruise",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T23:11Z",
-   "comment": "Shannon (hip) is listed as questionable for Wednesday's game in Houston."
+   "return_date": "2026-11-06",
+   "updated": "2026-11-04T18:16Z",
+   "comment": "Shannon (hip) is out for Wednesday against the Rockets."
   },
   {
    "team": "MIN",
@@ -597,6 +564,17 @@
   },
   {
    "team": "NOP",
+   "player_id": "4397688",
+   "player": "Trey Murphy III",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-11-06",
+   "updated": "2026-11-04T23:10Z",
+   "comment": "Murphy (knees) is listed as out for Wednesday's game against Utah."
+  },
+  {
+   "team": "NOP",
    "player_id": "4277956",
    "player": "Jordan Poole",
    "status": "out",
@@ -605,17 +583,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-11-03T22:56Z",
    "comment": "Poole (ankle) is listed as probable for Wednesday's game against Utah."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4397688",
-   "player": "Trey Murphy III",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T22:52Z",
-   "comment": "Murphy (knee) is probable for Wednesday's game versus the Jazz."
   },
   {
    "team": "NOP",
@@ -632,12 +599,23 @@
    "team": "NYK",
    "player_id": "3062679",
    "player": "Josh Hart",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T21:49Z",
-   "comment": "Hart is questionable for Wednesday's game against the Bulls due to right ankle soreness."
+   "return_date": "2026-11-07",
+   "updated": "2026-11-04T18:08Z",
+   "comment": "Hart is out for Wednesday's game against the Bulls due to right ankle soreness."
+  },
+  {
+   "team": "OKC",
+   "player_id": "4432823",
+   "player": "Jaylin Williams",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Spasms",
+   "return_date": "2026-11-06",
+   "updated": "2026-11-04T23:18Z",
+   "comment": "Williams (back) is listed as out for Wednesday's game versus Cleveland, Clemente Almanza of USA Today reports."
   },
   {
    "team": "OKC",
@@ -660,17 +638,6 @@
    "return_date": "2026-11-13",
    "updated": "2026-11-03T22:45Z",
    "comment": "Sorber (knee) is out for Wednesday's game against the Cavaliers."
-  },
-  {
-   "team": "OKC",
-   "player_id": "4432823",
-   "player": "Jaylin Williams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back Spasms",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T22:41Z",
-   "comment": "Williams (back) is listed as questionable for Wednesday's game against the Cavaliers."
   },
   {
    "team": "OKC",
@@ -704,17 +671,6 @@
    "return_date": "2027-03-02",
    "updated": "2026-10-28T23:41Z",
    "comment": "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibula and reconstruction of ankle ligaments following a fracture and dislocation.\" He will be re-evaluated before the end of the regular season, Tim MacMahon of ESPN.com reports."
-  },
-  {
-   "team": "ORL",
-   "player_id": "4712849",
-   "player": "Anthony Black",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-11-05",
-   "updated": "2026-11-03T05:35Z",
-   "comment": "Black will be rested Monday against the Wizards."
   },
   {
    "team": "ORL",
@@ -778,9 +734,9 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Back Fracture",
-   "return_date": "2026-11-12",
-   "updated": "2026-11-03T22:04Z",
-   "comment": "Barlow (back) won't play in Wednesday's game against the Pistons, Austin Krell of OnPattison.com reports."
+   "return_date": "2026-11-18",
+   "updated": "2026-11-04T22:41Z",
+   "comment": "Head coach Nick Nurse said Wednesday that Barlow (back) likely needs another 10-12 days before he's cleared to return to the court, Derek Bodner of AllPHLY.com reports."
   },
   {
    "team": "PHI",
@@ -795,6 +751,17 @@
   },
   {
    "team": "PHX",
+   "player_id": "5105977",
+   "player": "Rasheer Fleming",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-05",
+   "updated": "2026-11-04T20:17Z",
+   "comment": "Fleming is out for Wednesday's game against the Trail Blazers due to a sprained left ankle."
+  },
+  {
+   "team": "PHX",
    "player_id": "4278402",
    "player": "Jordan Goodwin",
    "status": "day-to-day",
@@ -803,17 +770,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-11-04T00:26Z",
    "comment": "Goodwin (calf) is questionable for Wednesday's game against Portland, Duane Rankin of The Arizona Republic reports."
-  },
-  {
-   "team": "PHX",
-   "player_id": "5105977",
-   "player": "Rasheer Fleming",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-04T00:19Z",
-   "comment": "Fleming is questionable for Wednesday's game against the Trail Blazers due to a sprained left ankle, Duane Rankin of The Arizona Republic reports."
   },
   {
    "team": "PHX",
@@ -850,14 +806,14 @@
   },
   {
    "team": "SAC",
-   "player_id": "4431679",
-   "player": "Precious Achiuwa",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Soreness",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-04T00:36Z",
-   "comment": "Achiuwa (ankle) is listed as probable for Wednesday's game against the Lakers."
+   "player_id": "4279318",
+   "player": "Daeqwon Plowden",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Illness",
+   "return_date": "2026-11-06",
+   "updated": "2026-11-04T21:04Z",
+   "comment": "Plowden (illness) is out for Wednesday's game against the Lakers."
   },
   {
    "team": "SAC",
@@ -949,6 +905,17 @@
   },
   {
    "team": "UTA",
+   "player_id": "4277919",
+   "player": "Mo Bamba",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-04T18:41Z",
+   "comment": "Bamba (ankle) participated in Wednesday's morning shootaround, per Shreyas Laddha of The Salt Lake Tribune."
+  },
+  {
+   "team": "UTA",
    "player_id": "3102530",
    "player": "Jusuf Nurkic",
    "status": "out",
@@ -957,17 +924,6 @@
    "return_date": "2026-11-13",
    "updated": "2026-11-03T23:07Z",
    "comment": "Nurkic (foot) is out for Wednesday's game against the Pelicans."
-  },
-  {
-   "team": "UTA",
-   "player_id": "4277919",
-   "player": "Mo Bamba",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T23:04Z",
-   "comment": "Bamba is questionable for Wednesday's game in New Orleans due to a sprained right ankle."
   },
   {
    "team": "UTA",
@@ -990,28 +946,6 @@
    "return_date": "2026-11-06",
    "updated": "2026-10-24T23:18Z",
    "comment": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise."
-  },
-  {
-   "team": "WAS",
-   "player_id": "2581184",
-   "player": "Anthony Gill",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back Spasms",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T21:49Z",
-   "comment": "Gill (back) is questionable for Wednesday against the Hawks."
-  },
-  {
-   "team": "WAS",
-   "player_id": "5160992",
-   "player": "Alex Sarr",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Soreness",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T21:47Z",
-   "comment": "Sarr (knee) is listed as questionable for Wednesday's game against Atlanta."
   },
   {
    "team": "WAS",

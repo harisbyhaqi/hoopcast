@@ -1,5 +1,170 @@
 [
  {
+  "kind": "signed",
+  "team": "OKC",
+  "player": "Dalen Terry",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "ATL",
+  "player": "Jalen Johnson",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "BOS",
+  "player": "Jayson Tatum",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Rest",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Clint Capela",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "LAC",
+  "player": "Isaiah Jackson",
+  "to": "day-to-day",
+  "injury": "Groin",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MIL",
+  "player": "Kam Jones",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MIN",
+  "player": "Terrence Shannon Jr.",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hip Bruise",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Trey Murphy III",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "NYK",
+  "player": "Josh Hart",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Jaylin Williams",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back Spasms",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHX",
+  "player": "Rasheer Fleming",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "SAC",
+  "player": "Daeqwon Plowden",
+  "to": "out",
+  "injury": "Illness",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "BOS",
+  "player": "Payton Pritchard",
+  "from": "day-to-day",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHA",
+  "player": "Kon Knueppel",
+  "from": "out",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHA",
+  "player": "Coby White",
+  "from": "day-to-day",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHI",
+  "player": "Jalen Smith",
+  "from": "day-to-day",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIA",
+  "player": "Myron Gardner",
+  "from": "day-to-day",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "ORL",
+  "player": "Anthony Black",
+  "from": "day-to-day",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "SAC",
+  "player": "Precious Achiuwa",
+  "from": "day-to-day",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "WAS",
+  "player": "Anthony Gill",
+  "from": "day-to-day",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "WAS",
+  "player": "Alex Sarr",
+  "from": "day-to-day",
+  "time": "2026-11-04T18:45:54-0500"
+ },
+ {
   "kind": "released",
   "team": "MIN",
   "player": "Enrique Freeman",
@@ -7605,153 +7770,6 @@
   "kind": "cleared",
   "team": "DAL",
   "player": "Cooper Flagg",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "DAL",
-  "player": "Kyrie Irving",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "IND",
-  "player": "Andrew Nembhard",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIA",
-  "player": "Kylor Kelley",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIL",
-  "player": "Myles Turner",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIL",
-  "player": "Ryan Rollins",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIL",
-  "player": "Tyler Herro",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIL",
-  "player": "Kyle Kuzma",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIL",
-  "player": "Jaime Jaquez Jr.",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "ORL",
-  "player": "Nikola Vucevic",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "LeBron James",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "Kentavious Caldwell-Pope",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "Jaylen Brown",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "Joel Embiid",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHX",
-  "player": "Dillon Brooks",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAC",
-  "player": "Precious Achiuwa",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAC",
-  "player": "Ben Simmons",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAC",
-  "player": "De'Andre Hunter",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAC",
-  "player": "Darius Acuff Jr.",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAC",
-  "player": "Domantas Sabonis",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAC",
-  "player": "Zach LaVine",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAS",
-  "player": "Luke Kornet",
   "from": "day-to-day",
   "time": "2026-10-16T20:15:12-0400"
  }
