@@ -1,5 +1,254 @@
 [
  {
+  "kind": "released",
+  "team": "MIN",
+  "player": "Enrique Freeman",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "ATL",
+  "player": "Jock Landale",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hip",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "BOS",
+  "player": "Payton Pritchard",
+  "to": "day-to-day",
+  "injury": "Shoulder",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "BOS",
+  "player": "Jayson Tatum",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CHA",
+  "player": "Coby White",
+  "to": "day-to-day",
+  "injury": "Calf",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CHI",
+  "player": "Jalen Smith",
+  "to": "day-to-day",
+  "injury": "Finger",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "CLE",
+  "player": "Jaylon Tyson",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "CLE",
+  "player": "Peyton Watson",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hamstring Soreness",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Max Christie",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hip Not Specified",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DEN",
+  "player": "Cameron Johnson",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DEN",
+  "player": "Alpha Diallo",
+  "to": "day-to-day",
+  "injury": "Wrist",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Clint Capela",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Scotty Pippen Jr.",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back Soreness",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MIA",
+  "player": "Myron Gardner",
+  "to": "day-to-day",
+  "injury": "Quadriceps Bruise",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MIA",
+  "player": "Giannis Antetokounmpo",
+  "to": "day-to-day",
+  "injury": "Wrist Sprain",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "NOP",
+  "player": "Trey Murphy III",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "NYK",
+  "player": "Josh Hart",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "OKC",
+  "player": "Jaylin Williams",
+  "to": "day-to-day",
+  "injury": "Back Spasms",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHX",
+  "player": "Rasheer Fleming",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "SAC",
+  "player": "Precious Achiuwa",
+  "to": "day-to-day",
+  "injury": "Ankle Soreness",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "UTA",
+  "player": "Mo Bamba",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "BOS",
+  "player": "Paul George",
+  "from": "day-to-day",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "DAL",
+  "player": "Kyrie Irving",
+  "from": "day-to-day",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Pascal Siakam",
+  "from": "day-to-day",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Aaron Nesmith",
+  "from": "day-to-day",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Andrew Nembhard",
+  "from": "day-to-day",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Larry Nance Jr.",
+  "from": "day-to-day",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAC",
+  "player": "Derrick Jones Jr.",
+  "from": "day-to-day",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAC",
+  "player": "Rui Hachimura",
+  "from": "day-to-day",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "NOP",
+  "player": "Dejounte Murray",
+  "from": "out",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "OKC",
+  "player": "Alex Caruso",
+  "from": "out",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "SAC",
+  "player": "Dylan Cardwell",
+  "from": "out",
+  "time": "2026-11-03T23:00:48-0500"
+ },
+ {
   "kind": "status_change",
   "team": "ATL",
   "player": "Jock Landale",
@@ -7503,27 +7752,6 @@
   "kind": "cleared",
   "team": "SAS",
   "player": "Luke Kornet",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAS",
-  "player": "Keldon Johnson",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAS",
-  "player": "Julian Champagnie",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "WAS",
-  "player": "Anthony Davis",
   "from": "day-to-day",
   "time": "2026-10-16T20:15:12-0400"
  }
