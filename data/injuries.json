@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T02:00:52-0500",
+ "generated": "2026-11-05T10:00:54-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -91,6 +91,17 @@
   },
   {
    "team": "BKN",
+   "player_id": "4712896",
+   "player": "Noah Clowney",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Soreness",
+   "return_date": "2026-11-07",
+   "updated": "2026-11-05T07:12Z",
+   "comment": "Clowney (knee) supplied seven points (3-6 FG, 1-4 3Pt), one rebound and one assist over 17 minutes during Wednesday's 114-104 victory over the Hornets."
+  },
+  {
+   "team": "BKN",
    "player_id": "4432194",
    "player": "Day'Ron Sharpe",
    "status": "day-to-day",
@@ -99,17 +110,6 @@
    "return_date": "2026-11-04",
    "updated": "2026-11-05T02:29Z",
    "comment": "Sharpe registered 15 points (5-7 FG, 1-1 3Pt, 4-5 FT), 13 rebounds and four assists across 26 minutes in Sunday's 98-90 win over the Pacers."
-  },
-  {
-   "team": "BKN",
-   "player_id": "4712896",
-   "player": "Noah Clowney",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Soreness",
-   "return_date": "2026-11-07",
-   "updated": "2026-11-05T02:13Z",
-   "comment": "Clowney won't return to Wednesday's game against the Hornets due to right knee soreness. He'll finish with seven points (3-6 FG, 1-4 3Pt), one rebound and one assist across 17 minutes."
   },
   {
    "team": "BKN",
