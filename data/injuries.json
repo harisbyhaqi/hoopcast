@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:15:51-0500",
+ "generated": "2026-11-04T21:45:54-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -58,6 +58,17 @@
   },
   {
    "team": "BOS",
+   "player_id": "4066354",
+   "player": "Payton Pritchard",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Eye Abrasion",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-05T02:25Z",
+   "comment": "Pritchard is questionable to return to Wednesday's game against the Bucks due to a right eye abrasion."
+  },
+  {
+   "team": "BOS",
    "player_id": "4433188",
    "player": "Devin Carter",
    "status": "out",
@@ -77,6 +88,28 @@
    "return_date": "2026-11-06",
    "updated": "2026-11-04T17:48Z",
    "comment": "Tatum will be rested Wednesday against the Bucks, Jack Simone of BostonSportsJournal.com reports."
+  },
+  {
+   "team": "BKN",
+   "player_id": "4432194",
+   "player": "Day'Ron Sharpe",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Undisclosed",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-05T02:29Z",
+   "comment": "Sharpe registered 15 points (5-7 FG, 1-1 3Pt, 4-5 FT), 13 rebounds and four assists across 26 minutes in Sunday's 98-90 win over the Pacers."
+  },
+  {
+   "team": "BKN",
+   "player_id": "4712896",
+   "player": "Noah Clowney",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Soreness",
+   "return_date": "2026-11-07",
+   "updated": "2026-11-05T02:13Z",
+   "comment": "Clowney won't return to Wednesday's game against the Hornets due to right knee soreness. He'll finish with seven points (3-6 FG, 1-4 3Pt), one rebound and one assist across 17 minutes."
   },
   {
    "team": "BKN",
@@ -240,8 +273,8 @@
    "status_raw": "Out",
    "injury": "Back Spasms",
    "return_date": "2026-11-07",
-   "updated": "2026-11-05T02:03Z",
-   "comment": "DeRozan posted nine points (3-7 FG, 3-3 FT) and a rebound across 20 minutes in Monday's 118-110 loss to the Trail Blazers."
+   "updated": "2026-11-05T02:05Z",
+   "comment": "DeRozan has been ruled out for Wednesday's game against the Raptors due to lower-back spasms."
   },
   {
    "team": "DEN",
@@ -465,6 +498,17 @@
   },
   {
    "team": "MEM",
+   "player_id": "4432810",
+   "player": "Isaiah Stewart",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-05T02:30Z",
+   "comment": "Stewart is doubtful to return to Wednesday's game against the Pacers due to a right knee injury."
+  },
+  {
+   "team": "MEM",
    "player_id": "4431785",
    "player": "Scotty Pippen Jr.",
    "status": "out",
@@ -671,6 +715,17 @@
    "return_date": "2026-11-18",
    "updated": "2026-09-28T21:33Z",
    "comment": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com."
+  },
+  {
+   "team": "PHI",
+   "player_id": "5105637",
+   "player": "Adem Bona",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Head",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-05T02:23Z",
+   "comment": "Bona exited to the locker room in the fourth quarter of Wednesday's game against Detroit due to an apparent head injury, Kris Rhim of ESPN reports."
   },
   {
    "team": "PHI",

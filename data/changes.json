@@ -1,6 +1,46 @@
 [
  {
   "kind": "injury_new",
+  "team": "BOS",
+  "player": "Payton Pritchard",
+  "to": "day-to-day",
+  "injury": "Eye Abrasion",
+  "time": "2026-11-04T21:45:54-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "BKN",
+  "player": "Day'Ron Sharpe",
+  "to": "day-to-day",
+  "injury": "Undisclosed",
+  "time": "2026-11-04T21:45:54-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "BKN",
+  "player": "Noah Clowney",
+  "to": "day-to-day",
+  "injury": "Knee Soreness",
+  "time": "2026-11-04T21:45:54-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MEM",
+  "player": "Isaiah Stewart",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-11-04T21:45:54-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Adem Bona",
+  "to": "day-to-day",
+  "injury": "Head",
+  "time": "2026-11-04T21:45:54-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "CLE",
   "player": "Jarrett Allen",
   "to": "day-to-day",
@@ -7735,46 +7775,6 @@
   "player": "Jonathan Kuminga",
   "to": "day-to-day",
   "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "MIN",
-  "player": "Jaden McDaniels",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "MIN",
-  "player": "LaMelo Ball",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "MIN",
-  "player": "Rudy Gobert",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "MIN",
-  "player": "Anthony Edwards",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "ORL",
-  "player": "Noah Penda",
-  "to": "day-to-day",
-  "injury": "Hamstring",
   "time": "2026-10-16T20:15:12-0400"
  }
 ]

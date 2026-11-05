@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:15:56-05:00",
+ "generated": "2026-11-04T21:45:59-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -78,7 +78,7 @@
      "rating": -1.2,
      "o": -2.3,
      "d": 1.1,
-     "min": 9.4
+     "min": 9.3
     }
    ]
   },
@@ -2337,7 +2337,7 @@
    ]
   },
   "WAS": {
-   "roster": -2.98,
+   "roster": -2.97,
    "market": -2.04,
    "prior": -2.51,
    "rotation": [
@@ -2346,7 +2346,7 @@
      "rating": 1.8,
      "o": 0.4,
      "d": 1.4,
-     "min": 34.0
+     "min": 33.9
     },
     {
      "player": "Trae Young",
@@ -2360,7 +2360,7 @@
      "rating": 0.7,
      "o": -0.5,
      "d": 1.2,
-     "min": 28.7
+     "min": 28.6
     },
     {
      "player": "Justin Champagnie",
@@ -2374,7 +2374,7 @@
      "rating": -0.4,
      "o": 0.8,
      "d": -1.2,
-     "min": 25.0
+     "min": 25.2
     },
     {
      "player": "Jamir Watkins",
@@ -2409,7 +2409,7 @@
      "rating": -1.7,
      "o": -1.3,
      "d": -0.4,
-     "min": 8.5
+     "min": 8.3
     }
    ]
   }
