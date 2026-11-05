@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T19:45:53-0500",
+ "generated": "2026-11-04T20:15:53-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -88,6 +88,17 @@
    "return_date": "2026-11-06",
    "updated": "2026-10-25T17:19Z",
    "comment": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana."
+  },
+  {
+   "team": "CHA",
+   "player_id": "5061575",
+   "player": "Kon Knueppel",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-05T01:00Z",
+   "comment": "Knueppel (hamstring) exited to the locker room in the first quarter of Wednesday's game against the Nets, Brian Lewis of the New York Post reports."
   },
   {
    "team": "CHA",
@@ -194,8 +205,8 @@
    "player": "Cameron Johnson",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Lower Body",
-   "return_date": "2026-11-04",
+   "injury": "",
+   "return_date": null,
    "updated": "2026-11-03T23:57Z",
    "comment": "Johnson (lower body injury management) is listed as probable for Wednesday's game against Toronto."
   },
@@ -205,8 +216,8 @@
    "player": "Alpha Diallo",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Wrist",
-   "return_date": "2026-11-04",
+   "injury": "",
+   "return_date": null,
    "updated": "2026-11-03T23:51Z",
    "comment": "Diallo (wrist) is probable for Wednesday's game against the Raptors."
   },
@@ -256,6 +267,17 @@
   },
   {
    "team": "GSW",
+   "player_id": "4997536",
+   "player": "Gui Santos",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-11-07",
+   "updated": "2026-11-05T00:52Z",
+   "comment": "Santos (knee) has been ruled out for Thursday's game against the Heat."
+  },
+  {
+   "team": "GSW",
    "player_id": "3102531",
    "player": "Kristaps Porzingis",
    "status": "out",
@@ -264,39 +286,6 @@
    "return_date": "2026-12-01",
    "updated": "2026-11-04T17:00Z",
    "comment": "The Warriors have stopped issuing salary payments to Porzingis, who remains away from the team and is considering retirement, Anthony Slater and Shams Charania of ESPN reported Wednesday."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4397040",
-   "player": "Brandon Williams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Quadriceps Bruise",
-   "return_date": "2026-11-05",
-   "updated": "2026-11-03T06:12Z",
-   "comment": "Williams (quadriceps) has been ruled out for Monday's game against the Suns."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4997536",
-   "player": "Gui Santos",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-11-05",
-   "updated": "2026-11-03T06:12Z",
-   "comment": "Santos did not play in the second half of Sunday's 124-112 win over the Clippers due to a knee injury and will not play against the Suns on Monday, Danny Emerman of SFStandard.com reports."
-  },
-  {
-   "team": "GSW",
-   "player_id": "3213",
-   "player": "Al Horford",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Rest",
-   "return_date": "2026-11-05",
-   "updated": "2026-11-03T06:11Z",
-   "comment": "Horford will be rested Monday against the Suns."
   },
   {
    "team": "GSW",
@@ -542,17 +531,6 @@
   },
   {
    "team": "NOP",
-   "player_id": "4277956",
-   "player": "Jordan Poole",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-11-03T22:56Z",
-   "comment": "Poole (ankle) is listed as probable for Wednesday's game against Utah."
-  },
-  {
-   "team": "NOP",
    "player_id": "5061589",
    "player": "Yves Missi",
    "status": "out",
@@ -718,6 +696,17 @@
   },
   {
    "team": "PHX",
+   "player_id": "4278402",
+   "player": "Jordan Goodwin",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Not Specified",
+   "return_date": "2026-11-05",
+   "updated": "2026-11-05T01:04Z",
+   "comment": "Goodwin (calf) won't play in Wednesday's game against Portland."
+  },
+  {
+   "team": "PHX",
    "player_id": "5105977",
    "player": "Rasheer Fleming",
    "status": "out",
@@ -726,17 +715,6 @@
    "return_date": "2026-11-05",
    "updated": "2026-11-04T20:17Z",
    "comment": "Fleming is out for Wednesday's game against the Trail Blazers due to a sprained left ankle."
-  },
-  {
-   "team": "PHX",
-   "player_id": "4278402",
-   "player": "Jordan Goodwin",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Not Specified",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-04T00:26Z",
-   "comment": "Goodwin (calf) is questionable for Wednesday's game against Portland, Duane Rankin of The Arizona Republic reports."
   },
   {
    "team": "PHX",

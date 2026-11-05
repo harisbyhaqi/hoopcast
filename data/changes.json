@@ -1,5 +1,52 @@
 [
  {
+  "kind": "injury_new",
+  "team": "CHA",
+  "player": "Kon Knueppel",
+  "to": "out",
+  "injury": "Hamstring",
+  "time": "2026-11-04T20:15:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Gui Santos",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-11-04T20:15:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHX",
+  "player": "Jordan Goodwin",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Calf Not Specified",
+  "time": "2026-11-04T20:15:53-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Brandon Williams",
+  "from": "day-to-day",
+  "time": "2026-11-04T20:15:53-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Al Horford",
+  "from": "day-to-day",
+  "time": "2026-11-04T20:15:53-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "NOP",
+  "player": "Jordan Poole",
+  "from": "out",
+  "time": "2026-11-04T20:15:53-0500"
+ },
+ {
   "kind": "status_change",
   "team": "IND",
   "player": "Kelly Oubre Jr.",
@@ -7733,48 +7780,6 @@
   "player": "Scottie Barnes",
   "to": "day-to-day",
   "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "ATL",
-  "player": "Keshon Gilbert",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "ATL",
-  "player": "Aaron Wiggins",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "ATL",
-  "player": "Onyeka Okongwu",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "ATL",
-  "player": "CJ McCollum",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "ATL",
-  "player": "Luguentz Dort",
-  "from": "day-to-day",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "cleared",
-  "team": "ATL",
-  "player": "Jalen Johnson",
-  "from": "day-to-day",
   "time": "2026-10-16T20:15:12-0400"
  }
 ]
