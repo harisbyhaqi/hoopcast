@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T23:01:00-0500",
+ "generated": "2026-11-05T02:00:52-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -803,6 +803,17 @@
    "return_date": "2027-02-03",
    "updated": "2026-09-11T16:03Z",
    "comment": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports."
+  },
+  {
+   "team": "POR",
+   "player_id": "4578893",
+   "player": "Vit Krejci",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle",
+   "return_date": "2027-01-02",
+   "updated": "2026-11-05T05:17Z",
+   "comment": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports."
   },
   {
    "team": "POR",
