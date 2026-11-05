@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T18:45:54-0500",
+ "generated": "2026-11-04T19:15:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -47,6 +47,17 @@
   },
   {
    "team": "BOS",
+   "player_id": "4433188",
+   "player": "Devin Carter",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Illness",
+   "return_date": "2026-11-08",
+   "updated": "2026-11-04T23:58Z",
+   "comment": "Carter (illness) practiced with the G League's Maine Celtics on Wednesday."
+  },
+  {
+   "team": "BOS",
    "player_id": "4065648",
    "player": "Jayson Tatum",
    "status": "out",
@@ -55,17 +66,6 @@
    "return_date": "2026-11-06",
    "updated": "2026-11-04T17:48Z",
    "comment": "Tatum will be rested Wednesday against the Bucks, Jack Simone of BostonSportsJournal.com reports."
-  },
-  {
-   "team": "BOS",
-   "player_id": "4433188",
-   "player": "Devin Carter",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Illness",
-   "return_date": "2026-11-08",
-   "updated": "2026-10-18T14:49Z",
-   "comment": "Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports."
   },
   {
    "team": "BKN",
@@ -97,8 +97,8 @@
    "status_raw": "Out",
    "injury": "Hamstring",
    "return_date": "2026-11-09",
-   "updated": "2026-11-04T17:59Z",
-   "comment": "Charlotte assigned Williams (hamstring) to the G League's Greensboro Swarm on Wednesday."
+   "updated": "2026-11-04T23:50Z",
+   "comment": "The Hornets recalled Williams (hamstring) from the G League's Greensboro Swarm on Wednesday."
   },
   {
    "team": "CHI",
@@ -140,9 +140,9 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee Surgery",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-04T18:56Z",
-   "comment": "Aldama (knee) is doubtful for Wednesday's game against the Spurs, per NBA reporter Marc Stein."
+   "return_date": "2026-11-06",
+   "updated": "2026-11-04T23:38Z",
+   "comment": "Aldama (knee) is out for Wednesday's game against the Spurs, Grant Afseth of DallasHoopsJournal.com reports."
   },
   {
    "team": "DAL",
