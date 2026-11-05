@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T19:15:51-0500",
+ "generated": "2026-11-04T19:45:53-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -119,8 +119,8 @@
    "status_raw": "Out",
    "injury": "Ankle Sprain",
    "return_date": "2026-11-06",
-   "updated": "2026-11-03T22:11Z",
-   "comment": "Tyson is out for Wednesday's game against the Thunder due to a right ankle sprain."
+   "updated": "2026-11-05T00:33Z",
+   "comment": "According to Cavaliers head coach Kenny Atkinson, Tyson (ankle) has been \"on the court lately progressing well,\" Chris Fedor of The Cleveland Plain Dealer reports."
   },
   {
    "team": "CLE",
@@ -322,6 +322,17 @@
   },
   {
    "team": "HOU",
+   "player_id": "2991235",
+   "player": "Steven Adams",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Strain",
+   "return_date": "2026-11-09",
+   "updated": "2026-11-05T00:21Z",
+   "comment": "Head coach Ime Udoka said Wednesday that Adams (calf) is still without a timetable to return and will be evaluated on a \"weekly basis,\" Varun Shankar of the Houston Chronicle reports."
+  },
+  {
+   "team": "HOU",
    "player_id": "3102529",
    "player": "Clint Capela",
    "status": "out",
@@ -332,48 +343,15 @@
    "comment": "Capela (ankle) is out for Wednesday's game against the Timberwolves."
   },
   {
-   "team": "HOU",
-   "player_id": "2991235",
-   "player": "Steven Adams",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Calf Strain",
-   "return_date": "2026-11-09",
-   "updated": "2026-10-26T22:52Z",
-   "comment": "Head coach Ime Udoka said Monday that Adams could be out \"a week or two\" due to his right soleus strain, Lachard Binkley of SI.com reports."
-  },
-  {
-   "team": "IND",
-   "player_id": "4017837",
-   "player": "Ivica Zubac",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T23:43Z",
-   "comment": "Zubac (ankle) is listed as questionable for Wednesday's game against the Grizzlies."
-  },
-  {
    "team": "IND",
    "player_id": "3133603",
    "player": "Kelly Oubre Jr.",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Bruise",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T23:40Z",
-   "comment": "Oubre (knee) is questionable for Wednesday's game against the Grizzlies."
-  },
-  {
-   "team": "IND",
-   "player_id": "4278355",
-   "player": "Obi Toppin",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Back Soreness",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T23:35Z",
-   "comment": "Toppin (back) is questionable for Wednesday's game against the Grizzlies."
+   "injury": "Calf Bruise",
+   "return_date": "2026-11-07",
+   "updated": "2026-11-05T00:37Z",
+   "comment": "Oubre (calf) has been ruled out for Wednesday's game against the Grizzlies."
   },
   {
    "team": "IND",
@@ -487,17 +465,6 @@
   },
   {
    "team": "MEM",
-   "player_id": "4593016",
-   "player": "Quinten Post",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Not Specified",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T23:20Z",
-   "comment": "Post (ankle) is listed as questionable for Wednesday's game against Indiana."
-  },
-  {
-   "team": "MEM",
    "player_id": "4431785",
    "player": "Scotty Pippen Jr.",
    "status": "out",
@@ -522,12 +489,12 @@
    "team": "MIL",
    "player_id": "4697268",
    "player": "Kam Jones",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-04T17:43Z",
-   "comment": "Jones (ankle) is questionable for Wednesday against the Celtics."
+   "return_date": "2026-11-06",
+   "updated": "2026-11-05T00:21Z",
+   "comment": "Jones (ankle) won't play Wednesday in Boston."
   },
   {
    "team": "MIN",
@@ -579,8 +546,8 @@
    "player": "Jordan Poole",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-04",
+   "injury": "",
+   "return_date": null,
    "updated": "2026-11-03T22:56Z",
    "comment": "Poole (ankle) is listed as probable for Wednesday's game against Utah."
   },
@@ -902,17 +869,6 @@
    "return_date": "2026-11-09",
    "updated": "2026-11-02T20:20Z",
    "comment": "Bittle (foot) is out for Monday's game against the Clippers and remains without a timetable to return."
-  },
-  {
-   "team": "UTA",
-   "player_id": "4277919",
-   "player": "Mo Bamba",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-04T18:41Z",
-   "comment": "Bamba (ankle) participated in Wednesday's morning shootaround, per Shreyas Laddha of The Salt Lake Tribune."
   },
   {
    "team": "UTA",
