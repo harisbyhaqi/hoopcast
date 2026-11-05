@@ -1,6 +1,17 @@
 {
- "generated": "2026-11-04T20:15:53-0500",
+ "generated": "2026-11-04T20:45:52-0500",
  "injuries": [
+  {
+   "team": "ATL",
+   "player_id": "4873201",
+   "player": "Asa Newell",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Toe",
+   "return_date": "2026-11-06",
+   "updated": "2026-11-05T01:19Z",
+   "comment": "Newell won't return to Wednesday's game against the Wizards due to a left great toe hyperextension, Brad Rowland of the Locked On Podcast Network reports. He'll finish with two points (1-1 FG), three rebounds and three assists across 10 minutes."
+  },
   {
    "team": "ATL",
    "player_id": "4701230",
@@ -113,6 +124,17 @@
   },
   {
    "team": "CHI",
+   "player_id": "4397189",
+   "player": "Jalen Smith",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hand",
+   "return_date": "2026-11-08",
+   "updated": "2026-11-05T01:35Z",
+   "comment": "Smith (hand) won't return to Wednesday's game against the Knicks."
+  },
+  {
+   "team": "CHI",
    "player_id": "4278067",
    "player": "Nic Claxton",
    "status": "out",
@@ -198,28 +220,6 @@
    "return_date": "2026-11-06",
    "updated": "2026-10-30T22:34Z",
    "comment": "Head coach Dusty May said Friday that de Larrea (knee) will be re-evaluated next week, Noah Weber of TheSmokingCuban.com reports."
-  },
-  {
-   "team": "DEN",
-   "player_id": "3138196",
-   "player": "Cameron Johnson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-11-03T23:57Z",
-   "comment": "Johnson (lower body injury management) is listed as probable for Wednesday's game against Toronto."
-  },
-  {
-   "team": "DEN",
-   "player_id": "4065813",
-   "player": "Alpha Diallo",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-11-03T23:51Z",
-   "comment": "Diallo (wrist) is probable for Wednesday's game against the Raptors."
   },
   {
    "team": "DEN",
@@ -825,17 +825,6 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-04T00:14Z",
    "comment": "Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, Brett Siegel of ClutchPoints.com reports."
-  },
-  {
-   "team": "TOR",
-   "player_id": "3134908",
-   "player": "Jakob Poeltl",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder Inflammation",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-03T23:28Z",
-   "comment": "Poeltl is questionable for Wednesday's game against the Nuggets due to left shoulder bursitis, Blake Murphy of Sportsnet.ca reports."
   },
   {
    "team": "TOR",

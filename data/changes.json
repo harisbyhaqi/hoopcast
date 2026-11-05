@@ -1,6 +1,43 @@
 [
  {
   "kind": "injury_new",
+  "team": "ATL",
+  "player": "Asa Newell",
+  "to": "day-to-day",
+  "injury": "Toe",
+  "time": "2026-11-04T20:45:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CHI",
+  "player": "Jalen Smith",
+  "to": "day-to-day",
+  "injury": "Hand",
+  "time": "2026-11-04T20:45:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "DEN",
+  "player": "Cameron Johnson",
+  "from": "day-to-day",
+  "time": "2026-11-04T20:45:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "DEN",
+  "player": "Alpha Diallo",
+  "from": "day-to-day",
+  "time": "2026-11-04T20:45:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Jakob Poeltl",
+  "from": "day-to-day",
+  "time": "2026-11-04T20:45:52-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "CHA",
   "player": "Kon Knueppel",
   "to": "out",
@@ -7738,46 +7775,6 @@
   "kind": "injury_new",
   "team": "TOR",
   "player": "Collin Murray-Boyles",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "Jakob Poeltl",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "RJ Barrett",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "Immanuel Quickley",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "Kawhi Leonard",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "Scottie Barnes",
   "to": "day-to-day",
   "injury": "Rest",
   "time": "2026-10-16T20:15:12-0400"
