@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T21:45:54-0500",
+ "generated": "2026-11-04T22:15:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -63,9 +63,9 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Eye Abrasion",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-05T02:25Z",
-   "comment": "Pritchard is questionable to return to Wednesday's game against the Bucks due to a right eye abrasion."
+   "return_date": "2026-11-06",
+   "updated": "2026-11-05T02:56Z",
+   "comment": "Pritchard exited Wednesday's 109-102 win over the Bucks and did not return due to a right eye abrasion, finishing with 10 points (4-7 FG, 2-2 FT), five assists and one rebound across 18 minutes."
   },
   {
    "team": "BOS",
@@ -154,6 +154,17 @@
    "return_date": "2026-11-09",
    "updated": "2026-11-04T23:50Z",
    "comment": "The Hornets recalled Williams (hamstring) from the G League's Greensboro Swarm on Wednesday."
+  },
+  {
+   "team": "CHI",
+   "player_id": "4066650",
+   "player": "Zach Collins",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Undisclosed",
+   "return_date": "2026-11-08",
+   "updated": "2026-11-05T03:04Z",
+   "comment": "Collins (undisclosed) exited to the locker room in the fourth quarter of Wednesday's 135-105 loss to the Knicks, finishing with three points (1-4 FG, 0-2 3Pt, 1-1 FT), three assists, one rebound and one steal across 14 minutes."
   },
   {
    "team": "CHI",
@@ -723,7 +734,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Head",
-   "return_date": "2026-11-04",
+   "return_date": "2026-11-06",
    "updated": "2026-11-05T02:23Z",
    "comment": "Bona exited to the locker room in the fourth quarter of Wednesday's game against Detroit due to an apparent head injury, Kris Rhim of ESPN reports."
   },
