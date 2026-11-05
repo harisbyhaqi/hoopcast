@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T20:45:52-0500",
+ "generated": "2026-11-04T21:15:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -106,10 +106,10 @@
    "player": "Kon Knueppel",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Hamstring",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-05T01:00Z",
-   "comment": "Knueppel (hamstring) exited to the locker room in the first quarter of Wednesday's game against the Nets, Brian Lewis of the New York Post reports."
+   "injury": "Leg Soreness",
+   "return_date": "2026-11-06",
+   "updated": "2026-11-05T01:54Z",
+   "comment": "Knueppel exited Wednesday's game against the Nets after experiencing soreness in his left leg and he will not return, Brett Siegel of ClutchPoints.com reports."
   },
   {
    "team": "CHA",
@@ -143,6 +143,17 @@
    "return_date": "2026-11-08",
    "updated": "2026-11-04T22:34Z",
    "comment": "Claxton (hamstring) is listed as out for Wednesday's game against New York."
+  },
+  {
+   "team": "CLE",
+   "player_id": "4066328",
+   "player": "Jarrett Allen",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-11-04",
+   "updated": "2026-11-05T01:54Z",
+   "comment": "Allen (knee) is doubtful to return to Wednesday's game against the Thunder, Brett Siegel of ClutchPoints.com reports."
   },
   {
    "team": "CLE",
@@ -220,6 +231,17 @@
    "return_date": "2026-11-06",
    "updated": "2026-10-30T22:34Z",
    "comment": "Head coach Dusty May said Friday that de Larrea (knee) will be re-evaluated next week, Noah Weber of TheSmokingCuban.com reports."
+  },
+  {
+   "team": "DEN",
+   "player_id": "3978",
+   "player": "DeMar DeRozan",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Spasms",
+   "return_date": "2026-11-07",
+   "updated": "2026-11-05T02:03Z",
+   "comment": "DeRozan posted nine points (3-7 FG, 3-3 FT) and a rebound across 20 minutes in Monday's 118-110 loss to the Trail Blazers."
   },
   {
    "team": "DEN",
@@ -388,17 +410,6 @@
   },
   {
    "team": "LAC",
-   "player_id": "4432170",
-   "player": "Isaiah Jackson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-04T20:11Z",
-   "comment": "Jackson is questionable for Wednesday's game against the Heat with left groin soreness, per Law Murray of The Athletic."
-  },
-  {
-   "team": "LAC",
    "player_id": "5108024",
    "player": "Yanic Konan Niederhauser",
    "status": "out",
@@ -462,17 +473,6 @@
    "return_date": "2026-11-06",
    "updated": "2026-11-03T23:19Z",
    "comment": "Pippen (back) won't play Wednesday against the Pacers."
-  },
-  {
-   "team": "MIA",
-   "player_id": "3032977",
-   "player": "Giannis Antetokounmpo",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Wrist Sprain",
-   "return_date": "2026-11-04",
-   "updated": "2026-11-04T01:05Z",
-   "comment": "Antetokounmpo is probable to play Wednesday against the Clippers due to a sprained right wrist."
   },
   {
    "team": "MIL",

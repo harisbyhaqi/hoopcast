@@ -1,6 +1,36 @@
 [
  {
   "kind": "injury_new",
+  "team": "CLE",
+  "player": "Jarrett Allen",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-11-04T21:15:51-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DEN",
+  "player": "DeMar DeRozan",
+  "to": "out",
+  "injury": "Back Spasms",
+  "time": "2026-11-04T21:15:51-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAC",
+  "player": "Isaiah Jackson",
+  "from": "day-to-day",
+  "time": "2026-11-04T21:15:51-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIA",
+  "player": "Giannis Antetokounmpo",
+  "from": "day-to-day",
+  "time": "2026-11-04T21:15:51-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "ATL",
   "player": "Asa Newell",
   "to": "day-to-day",
@@ -7745,38 +7775,6 @@
   "player": "Noah Penda",
   "to": "day-to-day",
   "injury": "Hamstring",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "PHI",
-  "player": "VJ Edgecombe",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "Ja'Kobe Walter",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "Jamal Shead",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "Collin Murray-Boyles",
-  "to": "day-to-day",
-  "injury": "Rest",
   "time": "2026-10-16T20:15:12-0400"
  }
 ]
