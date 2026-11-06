@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T10:00:54-0500",
+ "generated": "2026-11-05T20:46:03-0500",
  "teams": {
   "ATL": [
    {
@@ -326,6 +326,12 @@
    }
   ],
   "CHA": [
+   {
+    "player_id": "5176517",
+    "player": "Michael Ajayi",
+    "position": "F",
+    "jersey": "10"
+   },
    {
     "player_id": "3135045",
     "player": "Grayson Allen",
@@ -2929,6 +2935,12 @@
     "player": "Alijah Martin",
     "position": "G",
     "jersey": "55"
+   },
+   {
+    "player_id": "4411057",
+    "player": "Kevin McCullar Jr.",
+    "position": "G",
+    "jersey": ""
    },
    {
     "player_id": "5093267",
