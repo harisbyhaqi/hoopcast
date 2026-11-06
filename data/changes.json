@@ -1,6 +1,24 @@
 [
  {
   "kind": "signed",
+  "team": "CLE",
+  "player": "Norchad Omier",
+  "time": "2026-11-05T23:00:54-0500"
+ },
+ {
+  "kind": "released",
+  "team": "CLE",
+  "player": "Riley Minix",
+  "time": "2026-11-05T23:00:54-0500"
+ },
+ {
+  "kind": "released",
+  "team": "BOS",
+  "player": "Chris Cenac Jr.",
+  "time": "2026-11-05T23:00:54-0500"
+ },
+ {
+  "kind": "signed",
   "team": "TOR",
   "player": "Kevin McCullar Jr.",
   "time": "2026-11-05T20:46:03-0500"
@@ -7772,24 +7790,6 @@
   "kind": "signed",
   "team": "NOP",
   "player": "Hunter Dickinson",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "signed",
-  "team": "MEM",
-  "player": "Zach Cleveland",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "signed",
-  "team": "PHI",
-  "player": "Cris Carroll",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "signed",
-  "team": "PHI",
-  "player": "Taye Fields",
   "time": "2026-10-16T20:15:12-0400"
  }
 ]

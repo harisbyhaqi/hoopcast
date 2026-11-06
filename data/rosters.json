@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T21:45:49-0500",
+ "generated": "2026-11-05T23:00:54-0500",
  "teams": {
   "ATL": [
    {
@@ -117,12 +117,6 @@
     "player": "Devin Carter",
     "position": "G",
     "jersey": "99"
-   },
-   {
-    "player_id": "5142621",
-    "player": "Chris Cenac Jr.",
-    "position": "F",
-    "jersey": "12"
    },
    {
     "player_id": "3195",
@@ -577,12 +571,6 @@
     "jersey": "5"
    },
    {
-    "player_id": "5177362",
-    "player": "Riley Minix",
-    "position": "F",
-    "jersey": "12"
-   },
-   {
     "player_id": "3908809",
     "player": "Donovan Mitchell",
     "position": "G",
@@ -593,6 +581,12 @@
     "player": "Evan Mobley",
     "position": "C",
     "jersey": "4"
+   },
+   {
+    "player_id": "4702134",
+    "player": "Norchad Omier",
+    "position": "C",
+    "jersey": "15"
    },
    {
     "player_id": "4701233",
