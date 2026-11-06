@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T23:00:54-0500",
+ "generated": "2026-11-06T02:00:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -368,11 +368,11 @@
    "team": "GSW",
    "player_id": "4997536",
    "player": "Gui Santos",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-11-07",
-   "updated": "2026-11-05T00:52Z",
+   "updated": "2026-11-06T05:46Z",
    "comment": "Santos (knee) has been ruled out for Thursday's game against the Heat."
   },
   {
@@ -795,25 +795,25 @@
   },
   {
    "team": "PHX",
-   "player_id": "5105977",
-   "player": "Rasheer Fleming",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
+   "player_id": "4278402",
+   "player": "Jordan Goodwin",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Calf Not Specified",
    "return_date": "2026-11-07",
-   "updated": "2026-11-05T20:22Z",
-   "comment": "Fleming is out for Thursday's game against the Magic due to a sprained left ankle."
+   "updated": "2026-11-06T04:56Z",
+   "comment": "Goodwin (calf) is out for Thursday's game against Orlando."
   },
   {
    "team": "PHX",
-   "player_id": "4278402",
-   "player": "Jordan Goodwin",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Calf Not Specified",
+   "player_id": "5105977",
+   "player": "Rasheer Fleming",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
    "return_date": "2026-11-07",
-   "updated": "2026-11-05T20:18Z",
-   "comment": "Goodwin (calf) is out for Thursday's game against Orlando."
+   "updated": "2026-11-06T04:56Z",
+   "comment": "Fleming is out for Thursday's game against the Magic due to a sprained left ankle."
   },
   {
    "team": "PHX",

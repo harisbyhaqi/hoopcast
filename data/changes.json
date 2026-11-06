@@ -1,5 +1,38 @@
 [
  {
+  "kind": "released",
+  "team": "HOU",
+  "player": "Bruce Thornton",
+  "time": "2026-11-06T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Gui Santos",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee",
+  "time": "2026-11-06T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHX",
+  "player": "Jordan Goodwin",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Calf Not Specified",
+  "time": "2026-11-06T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHX",
+  "player": "Rasheer Fleming",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-06T02:00:51-0500"
+ },
+ {
   "kind": "signed",
   "team": "CLE",
   "player": "Norchad Omier",
@@ -7766,30 +7799,5 @@
   "player": "Scottie Barnes",
   "from": "day-to-day",
   "time": "2026-10-17T12:44:51-0400"
- },
- {
-  "kind": "cleared",
-  "team": "WAS",
-  "player": "Khris Middleton",
-  "from": "day-to-day",
-  "time": "2026-10-17T12:44:51-0400"
- },
- {
-  "kind": "signed",
-  "team": "MIA",
-  "player": "Ezra Ausar",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "signed",
-  "team": "CHA",
-  "player": "Latrell Wrightsell Jr.",
-  "time": "2026-10-16T20:15:12-0400"
- },
- {
-  "kind": "signed",
-  "team": "NOP",
-  "player": "Hunter Dickinson",
-  "time": "2026-10-16T20:15:12-0400"
  }
 ]

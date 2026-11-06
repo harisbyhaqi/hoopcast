@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T23:00:54-0500",
+ "generated": "2026-11-06T02:00:51-0500",
  "teams": {
   "ATL": [
    {
@@ -990,7 +990,7 @@
     "player_id": "4703396",
     "player": "Graham Ike",
     "position": "F",
-    "jersey": ""
+    "jersey": "45"
    },
    {
     "player_id": "5175737",
@@ -1143,12 +1143,6 @@
     "player": "Amen Thompson",
     "position": "G",
     "jersey": "1"
-   },
-   {
-    "player_id": "5105837",
-    "player": "Bruce Thornton",
-    "position": "G",
-    "jersey": "2"
    },
    {
     "player_id": "4432827",
@@ -2548,7 +2542,7 @@
     "player_id": "4431695",
     "player": "Drew Timme",
     "position": "F",
-    "jersey": ""
+    "jersey": "2"
    },
    {
     "player_id": "4701232",
@@ -2898,7 +2892,7 @@
     "player_id": "4432586",
     "player": "Nate Bittle",
     "position": "C",
-    "jersey": ""
+    "jersey": "12"
    },
    {
     "player_id": "4432737",
@@ -2934,7 +2928,7 @@
     "player_id": "4411057",
     "player": "Kevin McCullar Jr.",
     "position": "G",
-    "jersey": ""
+    "jersey": "9"
    },
    {
     "player_id": "5093267",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T23:00:58-05:00",
+ "generated": "2026-11-06T02:00:55-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -258,7 +258,7 @@
    ]
   },
   "CHA": {
-   "roster": -1.83,
+   "roster": -1.82,
    "market": -0.74,
    "prior": -1.28,
    "rotation": [
@@ -809,18 +809,18 @@
      "min": 22.0
     },
     {
-     "player": "Yaxel Lendeborg",
-     "rating": 0.6,
-     "o": 1.4,
-     "d": -0.8,
-     "min": 21.9
-    },
-    {
      "player": "Brandin Podziemski",
      "rating": 0.8,
      "o": 0.5,
      "d": 0.2,
      "min": 21.9
+    },
+    {
+     "player": "Yaxel Lendeborg",
+     "rating": 0.6,
+     "o": 1.4,
+     "d": -0.8,
+     "min": 21.8
     },
     {
      "player": "Charles Bassey",
@@ -841,7 +841,7 @@
      "rating": 0.2,
      "o": 0.8,
      "d": -0.6,
-     "min": 0.4
+     "min": 0.5
     }
    ]
   },
@@ -1296,14 +1296,14 @@
      "rating": -0.4,
      "o": -0.9,
      "d": 0.5,
-     "min": 18.1
+     "min": 18.0
     },
     {
      "player": "Tim Hardaway Jr.",
      "rating": -1.1,
      "o": 0.2,
      "d": -1.3,
-     "min": 16.3
+     "min": 16.2
     },
     {
      "player": "Nikola Jovic",
@@ -1317,7 +1317,7 @@
      "rating": -1.9,
      "o": -0.8,
      "d": -1.2,
-     "min": 11.8
+     "min": 12.0
     }
    ]
   },
@@ -1730,7 +1730,7 @@
      "rating": 1.8,
      "o": 1.9,
      "d": -0.1,
-     "min": 33.2
+     "min": 33.3
     },
     {
      "player": "Paolo Banchero",
@@ -1758,7 +1758,7 @@
      "rating": 1.0,
      "o": -0.6,
      "d": 1.6,
-     "min": 23.8
+     "min": 23.9
     },
     {
      "player": "Jonathan Isaac",
@@ -2346,7 +2346,7 @@
   "WAS": {
    "roster": -2.93,
    "market": -2.04,
-   "prior": -2.49,
+   "prior": -2.48,
    "rotation": [
     {
      "player": "Anthony Davis",
