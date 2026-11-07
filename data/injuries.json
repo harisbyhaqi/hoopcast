@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T19:15:48-0500",
+ "generated": "2026-11-06T19:45:49-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -718,25 +718,25 @@
   },
   {
    "team": "PHX",
-   "player_id": "4278402",
-   "player": "Jordan Goodwin",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Not Specified",
-   "return_date": "2026-11-07",
-   "updated": "2026-11-06T04:56Z",
-   "comment": "Goodwin (calf) is out for Thursday's game against Orlando."
-  },
-  {
-   "team": "PHX",
    "player_id": "5105977",
    "player": "Rasheer Fleming",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-11-07",
-   "updated": "2026-11-06T04:56Z",
-   "comment": "Fleming is out for Thursday's game against the Magic due to a sprained left ankle."
+   "updated": "2026-11-07T00:20Z",
+   "comment": "Fleming (ankle) is questionable for Saturday's game against the Rockets."
+  },
+  {
+   "team": "PHX",
+   "player_id": "4278402",
+   "player": "Jordan Goodwin",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Calf Not Specified",
+   "return_date": "2026-11-07",
+   "updated": "2026-11-07T00:20Z",
+   "comment": "Goodwin (calf) is doubtful for Saturday's game against the Rockets."
   },
   {
    "team": "PHX",
@@ -789,7 +789,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Illness",
-   "return_date": "2026-11-06",
+   "return_date": "2026-11-08",
    "updated": "2026-11-06T21:07Z",
    "comment": "Hunter is questionable for Friday against the Spurs due to an illness."
   },
