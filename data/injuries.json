@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T18:45:55-0500",
+ "generated": "2026-11-06T19:15:48-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -190,6 +190,17 @@
   },
   {
    "team": "CLE",
+   "player_id": "4066328",
+   "player": "Jarrett Allen",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-11-07",
+   "updated": "2026-11-06T23:55Z",
+   "comment": "Allen (knee) is out for Friday's game against the 76ers."
+  },
+  {
+   "team": "CLE",
    "player_id": "4683747",
    "player": "Jaylon Tyson",
    "status": "out",
@@ -198,28 +209,6 @@
    "return_date": "2026-11-07",
    "updated": "2026-11-05T22:23Z",
    "comment": "Tyson (ankle) is out for Friday's game against the 76ers."
-  },
-  {
-   "team": "CLE",
-   "player_id": "4576087",
-   "player": "Peyton Watson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring Soreness",
-   "return_date": "2026-11-06",
-   "updated": "2026-11-05T22:15Z",
-   "comment": "Watson (hamstring) is questionable for Friday's game against the 76ers."
-  },
-  {
-   "team": "CLE",
-   "player_id": "4066328",
-   "player": "Jarrett Allen",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-11-06",
-   "updated": "2026-11-05T22:13Z",
-   "comment": "Allen (knee) is questionable for Friday's game against Philadelphia."
   },
   {
    "team": "DAL",
@@ -264,17 +253,6 @@
    "return_date": "2026-11-07",
    "updated": "2026-11-06T22:48Z",
    "comment": "DeRozan (back) is probable for Saturday's game against the Pacers."
-  },
-  {
-   "team": "DEN",
-   "player_id": "4592427",
-   "player": "Spencer Jones",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring Not Specified",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-03T23:51Z",
-   "comment": "Jones (hamstring) is out for Wednesday's game against the Raptors."
   },
   {
    "team": "DEN",
@@ -872,47 +850,25 @@
   },
   {
    "team": "TOR",
-   "player_id": "3134908",
-   "player": "Jakob Poeltl",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder",
-   "return_date": "2026-11-06",
-   "updated": "2026-11-06T18:03Z",
-   "comment": "Poeltl (shoulder) is listed as probable for Friday's game against Milwaukee."
+   "player_id": "4433134",
+   "player": "Scottie Barnes",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Groin Soreness",
+   "return_date": "2026-11-09",
+   "updated": "2026-11-06T23:44Z",
+   "comment": "Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports."
   },
   {
    "team": "TOR",
    "player_id": "4395724",
    "player": "Immanuel Quickley",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Hamstring",
-   "return_date": "2026-11-06",
-   "updated": "2026-11-06T17:59Z",
-   "comment": "Quickley (hamstring) is questionable for Friday against the Bucks."
-  },
-  {
-   "team": "TOR",
-   "player_id": "4433134",
-   "player": "Scottie Barnes",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin Soreness",
-   "return_date": "2026-11-06",
-   "updated": "2026-11-06T17:47Z",
-   "comment": "Barnes (adductor) was not present at the morning shootaround, Michael Grange of Sportsnet.careports."
-  },
-  {
-   "team": "TOR",
-   "player_id": "2993874",
-   "player": "Kyle Anderson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-06",
-   "updated": "2026-11-06T16:06Z",
-   "comment": "Anderson is questionable for Friday against the Bucks due to illness."
+   "return_date": "2026-11-09",
+   "updated": "2026-11-06T23:41Z",
+   "comment": "Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports."
   },
   {
    "team": "TOR",
