@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T19:15:52-0500",
+ "generated": "2026-11-07T19:45:53-0500",
  "teams": {
   "ATL": [
    {
@@ -1143,6 +1143,12 @@
     "player": "Amen Thompson",
     "position": "G",
     "jersey": "1"
+   },
+   {
+    "player_id": "5105837",
+    "player": "Bruce Thornton",
+    "position": "G",
+    "jersey": "2"
    },
    {
     "player_id": "4432827",

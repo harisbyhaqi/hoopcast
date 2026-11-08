@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T19:15:57-05:00",
+ "generated": "2026-11-07T19:45:57-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr.",
@@ -632,7 +632,7 @@
      "rating": -2.3,
      "o": -0.6,
      "d": -1.8,
-     "min": 17.1
+     "min": 17.0
     },
     {
      "player": "DaRon Holmes II",
@@ -660,7 +660,7 @@
      "rating": -1.5,
      "o": -1.5,
      "d": -0.1,
-     "min": 2.9
+     "min": 3.0
     }
    ]
   },
@@ -933,7 +933,7 @@
      "rating": 1.1,
      "o": 0.1,
      "d": 1.0,
-     "min": 30.5
+     "min": 30.4
     },
     {
      "player": "Aaron Nesmith",
@@ -982,7 +982,7 @@
      "rating": -0.3,
      "o": -0.8,
      "d": 0.5,
-     "min": 13.4
+     "min": 13.6
     }
    ]
   },
@@ -1064,7 +1064,7 @@
    ]
   },
   "LAL": {
-   "roster": 2.9,
+   "roster": 2.91,
    "market": 1.67,
    "prior": 2.29,
    "rotation": [
@@ -1395,7 +1395,7 @@
   "MIN": {
    "roster": 4.92,
    "market": 2.59,
-   "prior": 3.75,
+   "prior": 3.76,
    "rotation": [
     {
      "player": "Anthony Edwards",

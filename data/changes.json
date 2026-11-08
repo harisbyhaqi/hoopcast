@@ -1,6 +1,12 @@
 [
  {
   "kind": "signed",
+  "team": "HOU",
+  "player": "Bruce Thornton",
+  "time": "2026-11-07T19:45:53-0500"
+ },
+ {
+  "kind": "signed",
   "team": "CLE",
   "player": "Riley Minix",
   "time": "2026-11-07T19:15:52-0500"
@@ -7856,13 +7862,6 @@
   "kind": "cleared",
   "team": "DAL",
   "player": "Max Christie",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "DEN",
-  "player": "Aaron Gordon",
   "from": "day-to-day",
   "time": "2026-10-17T19:54:17-0400"
  }
