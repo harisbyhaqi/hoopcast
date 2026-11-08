@@ -1,6 +1,14 @@
 [
  {
   "kind": "injury_new",
+  "team": "WAS",
+  "player": "Deandre Ayton",
+  "to": "out",
+  "injury": "Leg",
+  "time": "2026-11-07T23:01:18-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "LAC",
   "player": "Isaiah Jackson",
   "to": "out",
@@ -7858,13 +7866,6 @@
   "kind": "cleared",
   "team": "BOS",
   "player": "Sam Hauser",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "BOS",
-  "player": "Mitchell Robinson",
   "from": "day-to-day",
   "time": "2026-10-17T19:54:17-0400"
  }

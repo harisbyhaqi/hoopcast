@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T21:45:53-05:00",
+ "generated": "2026-11-07T23:01:23-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr.",
@@ -168,9 +168,9 @@
    ]
   },
   "BKN": {
-   "roster": -4.77,
+   "roster": -4.85,
    "market": -6.3,
-   "prior": -5.53,
+   "prior": -5.57,
    "rotation": [
     {
      "player": "Michael Porter Jr.",
@@ -212,7 +212,7 @@
      "rating": -0.5,
      "o": -0.9,
      "d": 0.4,
-     "min": 22.2
+     "min": 22.4
     },
     {
      "player": "Josh Minott",
@@ -226,7 +226,7 @@
      "rating": -1.6,
      "o": -1.6,
      "d": 0.1,
-     "min": 18.4
+     "min": 18.1
     },
     {
      "player": "Noah Clowney",
@@ -243,18 +243,18 @@
      "min": 14.1
     },
     {
-     "player": "Terance Mann",
-     "rating": -2.4,
-     "o": -1.8,
-     "d": -0.6,
-     "min": 11.6
-    },
-    {
      "player": "Mikel Brown Jr.",
      "rating": -2.7,
      "o": -1.1,
      "d": -1.6,
-     "min": 0.3
+     "min": 11.6
+    },
+    {
+     "player": "Terance Mann",
+     "rating": -2.4,
+     "o": -1.8,
+     "d": -0.6,
+     "min": 0.4
     }
    ]
   },
@@ -420,9 +420,9 @@
    ]
   },
   "CLE": {
-   "roster": 1.86,
+   "roster": 1.93,
    "market": 2.59,
-   "prior": 2.23,
+   "prior": 2.26,
    "rotation": [
     {
      "player": "Donovan Mitchell",
@@ -485,21 +485,21 @@
      "rating": -1.0,
      "o": -0.7,
      "d": -0.2,
-     "min": 16.3
+     "min": 16.2
     },
     {
      "player": "Riley Minix",
-     "rating": -0.8,
+     "rating": -0.5,
      "o": null,
      "d": null,
-     "min": 11.2
+     "min": 11.4
     },
     {
      "player": "Meleek Thomas",
      "rating": -1.7,
      "o": -1.2,
      "d": -0.5,
-     "min": 5.7
+     "min": 5.6
     }
    ]
   },
@@ -751,7 +751,7 @@
   "GSW": {
    "roster": 2.06,
    "market": -0.37,
-   "prior": 0.84,
+   "prior": 0.85,
    "rotation": [
     {
      "player": "Stephen Curry",
@@ -1624,7 +1624,7 @@
    ]
   },
   "OKC": {
-   "roster": 7.95,
+   "roster": 7.94,
    "market": 7.22,
    "prior": 7.58,
    "rotation": [
@@ -1647,7 +1647,7 @@
      "rating": 2.5,
      "o": -0.6,
      "d": 3.1,
-     "min": 28.4
+     "min": 28.3
     },
     {
      "player": "Jalen Williams",
@@ -1696,14 +1696,14 @@
      "rating": -0.8,
      "o": 0.1,
      "d": -0.9,
-     "min": 12.4
+     "min": 13.0
     },
     {
      "player": "Nikola Topic",
      "rating": -0.9,
      "o": -0.4,
      "d": -0.6,
-     "min": 3.6
+     "min": 3.0
     }
    ]
   },
@@ -1941,7 +1941,7 @@
   "POR": {
    "roster": 1.73,
    "market": 0.56,
-   "prior": 1.14,
+   "prior": 1.15,
    "rotation": [
     {
      "player": "Deni Avdija",
@@ -2354,7 +2354,7 @@
      "rating": 0.6,
      "o": -0.3,
      "d": 0.9,
-     "min": 28.6
+     "min": 28.5
     },
     {
      "player": "Justin Champagnie",
@@ -2403,7 +2403,7 @@
      "rating": -1.8,
      "o": -1.1,
      "d": -0.7,
-     "min": 9.2
+     "min": 9.3
     }
    ]
   }
