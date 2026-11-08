@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T20:15:50-0500",
+ "generated": "2026-11-07T20:46:04-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -394,8 +394,19 @@
    "status_raw": "Out",
    "injury": "Achilles Surgery",
    "return_date": "2026-11-10",
-   "updated": "2026-11-06T20:20Z",
-   "comment": "Ingram (Achilles) has progressed to full contact basketball activities, per NBA writer Justin Russo."
+   "updated": "2026-11-08T01:11Z",
+   "comment": "Ingram (Achilles) won't play in Sunday's game against New Orleans, Law Murray of The Athletic reports."
+  },
+  {
+   "team": "LAC",
+   "player_id": "4432170",
+   "player": "Isaiah Jackson",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Groin Soreness",
+   "return_date": "2026-11-10",
+   "updated": "2026-11-08T01:03Z",
+   "comment": "Jackson (groin) won't suit up for Sunday's game against the Pelicans, Law Murray of The Athletic reports."
   },
   {
    "team": "LAC",
@@ -696,25 +707,14 @@
   },
   {
    "team": "PHX",
-   "player_id": "5105977",
-   "player": "Rasheer Fleming",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-11-07T00:20Z",
-   "comment": "Fleming (ankle) is questionable for Saturday's game against the Rockets."
-  },
-  {
-   "team": "PHX",
    "player_id": "4278402",
    "player": "Jordan Goodwin",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Calf Not Specified",
    "return_date": "2026-11-09",
-   "updated": "2026-11-07T00:20Z",
-   "comment": "Goodwin (calf) is doubtful for Saturday's game against the Rockets."
+   "updated": "2026-11-08T01:08Z",
+   "comment": "Goodwin (calf) is out for Saturday's game against the Rockets."
   },
   {
    "team": "PHX",
@@ -773,14 +773,14 @@
   },
   {
    "team": "SAC",
-   "player_id": "4065732",
-   "player": "De'Andre Hunter",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
+   "player_id": "4594327",
+   "player": "Keegan Murray",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle",
    "return_date": "2026-11-08",
-   "updated": "2026-11-07T15:05Z",
-   "comment": "Hunter (illness) is listed as out for Friday's game against San Antonio."
+   "updated": "2026-11-08T01:30Z",
+   "comment": "Murray (ankle) is questionable for Sunday's game against the Heat."
   },
   {
    "team": "SAC",
@@ -792,17 +792,6 @@
    "return_date": "2026-11-10",
    "updated": "2026-10-26T22:07Z",
    "comment": "Raynaud (knee) is progressing in his rehabilitation and will be re-evaluated in approximately two weeks, Brenden Nunes of KHTK Sactown Sports 1140 reports."
-  },
-  {
-   "team": "SAC",
-   "player_id": "4594327",
-   "player": "Keegan Murray",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle",
-   "return_date": "2026-11-10",
-   "updated": "2026-10-26T22:01Z",
-   "comment": "Murray (ankle) will be re-evaluated in 10-to-14 days, NBA reporter Marc Stein reports."
   },
   {
    "team": "SAC",
