@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T17:46:04-05:00",
+ "generated": "2026-11-08T18:45:59-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -344,7 +344,7 @@
      "rating": 0.2,
      "o": 0.1,
      "d": 0.2,
-     "min": 32.8
+     "min": 32.7
     },
     {
      "player": "Norman Powell",
@@ -372,7 +372,7 @@
      "rating": -0.3,
      "o": 0.6,
      "d": -0.9,
-     "min": 26.0
+     "min": 25.9
     },
     {
      "player": "Matas Buzelis",
@@ -1800,7 +1800,7 @@
      "rating": 3.0,
      "o": 3.0,
      "d": -0.0,
-     "min": 35.4
+     "min": 35.3
     },
     {
      "player": "Joel Embiid",
@@ -1849,21 +1849,21 @@
      "rating": -0.5,
      "o": -1.1,
      "d": 0.6,
-     "min": 19.6
+     "min": 19.5
     },
     {
      "player": "Anfernee Simons",
      "rating": -1.9,
      "o": -0.0,
      "d": -1.8,
-     "min": 14.7
+     "min": 14.6
     },
     {
      "player": "Justin Edwards",
      "rating": -0.9,
      "o": -0.4,
      "d": -0.5,
-     "min": 1.9
+     "min": 2.1
     }
    ]
   },

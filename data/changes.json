@@ -1,5 +1,84 @@
 [
  {
+  "kind": "status_change",
+  "team": "CLE",
+  "player": "Sam Merrill",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Elbow",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DEN",
+  "player": "Cameron Johnson",
+  "to": "day-to-day",
+  "injury": "Lower Body",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DEN",
+  "player": "DeMar DeRozan",
+  "to": "day-to-day",
+  "injury": "Back Spasms",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DEN",
+  "player": "Christian Braun",
+  "to": "day-to-day",
+  "injury": "Calf Bruise",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DEN",
+  "player": "Jamal Murray",
+  "to": "day-to-day",
+  "injury": "Lower Leg Bruise",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DEN",
+  "player": "Aaron Gordon",
+  "to": "day-to-day",
+  "injury": "Lower Body",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "IND",
+  "player": "T.J. McConnell",
+  "to": "day-to-day",
+  "injury": "Hamstring Strain",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "SAC",
+  "player": "Domantas Sabonis",
+  "to": "day-to-day",
+  "injury": "Knee Soreness",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "UTA",
+  "player": "Keyonte George",
+  "from": "day-to-day",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "UTA",
+  "player": "Lauri Markkanen",
+  "from": "day-to-day",
+  "time": "2026-11-08T18:45:52-0500"
+ },
+ {
   "kind": "traded",
   "team": "OKC",
   "player": "Nique Clifford",
@@ -7868,66 +7947,6 @@
   "kind": "released",
   "team": "POR",
   "player": "Jeremy Sochan",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "MIN",
-  "player": "Enrique Freeman",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "MIN",
-  "player": "KJ Martin",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "MIN",
-  "player": "Norchad Omier",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "MIN",
-  "player": "Antonio Reeves",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "MIN",
-  "player": "Drew Timme",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "IND",
-  "player": "James Johnson",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "ATL",
-  "player": "Giorgi Bezhanishvili",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "ATL",
-  "player": "Cameron Corhen",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "ATL",
-  "player": "Kobe Johnson",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "ATL",
-  "player": "Isaac McKneely",
   "time": "2026-10-17T19:54:17-0400"
  }
 ]
