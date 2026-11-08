@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T15:16:04-05:00",
+ "generated": "2026-11-08T17:46:04-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -748,7 +748,7 @@
    ]
   },
   "GSW": {
-   "roster": 1.8,
+   "roster": 1.81,
    "market": -0.37,
    "prior": 0.72,
    "rotation": [
@@ -1070,7 +1070,7 @@
    ]
   },
   "LAL": {
-   "roster": 2.94,
+   "roster": 2.95,
    "market": 1.67,
    "prior": 2.31,
    "rotation": [
@@ -1401,7 +1401,7 @@
   "MIN": {
    "roster": 4.96,
    "market": 2.59,
-   "prior": 3.77,
+   "prior": 3.78,
    "rotation": [
     {
      "player": "Anthony Edwards",
@@ -1553,7 +1553,7 @@
    ]
   },
   "NYK": {
-   "roster": 3.48,
+   "roster": 3.49,
    "market": 4.07,
    "prior": 3.78,
    "rotation": [
@@ -1630,9 +1630,9 @@
    ]
   },
   "OKC": {
-   "roster": 7.9,
+   "roster": 7.86,
    "market": 7.22,
-   "prior": 7.56,
+   "prior": 7.54,
    "rotation": [
     {
      "player": "Shai Gilgeous-Alexander",
@@ -1705,10 +1705,10 @@
      "min": 13.0
     },
     {
-     "player": "Nikola Topic",
-     "rating": -1.0,
-     "o": -0.4,
-     "d": -0.6,
+     "player": "Nique Clifford",
+     "rating": -1.8,
+     "o": -1.6,
+     "d": -0.2,
      "min": 3.0
     }
    ]

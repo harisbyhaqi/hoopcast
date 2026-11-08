@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T15:15:58-0500",
+ "generated": "2026-11-08T17:45:56-0500",
  "teams": {
   "ATL": [
    {
@@ -2155,6 +2155,12 @@
     "jersey": "9"
    },
    {
+    "player_id": "4702384",
+    "player": "Nique Clifford",
+    "position": "G",
+    "jersey": ""
+   },
+   {
     "player_id": "5105800",
     "player": "Josh Dix",
     "position": "G",
@@ -2691,12 +2697,6 @@
     "player": "Dylan Cardwell",
     "position": "C",
     "jersey": "32"
-   },
-   {
-    "player_id": "4702384",
-    "player": "Nique Clifford",
-    "position": "G",
-    "jersey": "10"
    },
    {
     "player_id": "4065732",

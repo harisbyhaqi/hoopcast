@@ -1,27 +1,27 @@
 {
- "generated": "2026-11-08T15:15:58-0500",
+ "generated": "2026-11-08T17:45:56-0500",
  "injuries": [
   {
    "team": "ATL",
    "player_id": "4873201",
    "player": "Asa Newell",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Toe",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-08T15:59Z",
-   "comment": "Newell (toe)  is out for Saturday's game against the Nets."
+   "return_date": "2026-11-13",
+   "updated": "2026-11-08T22:15Z",
+   "comment": "Newell (toe) has been ruled out for Monday's game against the Lakers."
   },
   {
    "team": "ATL",
    "player_id": "4585618",
    "player": "Keshon Gilbert",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Inflammation",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-08T15:59Z",
-   "comment": "Gilbert (knee) is out for Saturday's game against Brooklyn."
+   "return_date": "2026-11-13",
+   "updated": "2026-11-08T22:13Z",
+   "comment": "Gilbert (knee) has been ruled out for Monday's game against the Lakers."
   },
   {
    "team": "ATL",
@@ -31,8 +31,8 @@
    "status_raw": "Out",
    "injury": "Hip",
    "return_date": "2026-11-09",
-   "updated": "2026-11-07T18:14Z",
-   "comment": "Landale (hip) has been ruled out for Saturday's game against the Nets."
+   "updated": "2026-11-08T22:11Z",
+   "comment": "Landale (hip) is listed as questionable for Monday's game against the Lakers."
   },
   {
    "team": "ATL",
@@ -102,25 +102,25 @@
   },
   {
    "team": "CHA",
+   "player_id": "5061575",
+   "player": "Kon Knueppel",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring Strain",
+   "return_date": "2026-12-12",
+   "updated": "2026-11-08T22:31Z",
+   "comment": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks."
+  },
+  {
+   "team": "CHA",
    "player_id": "4433249",
    "player": "Moussa Diabate",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Quadriceps",
    "return_date": "2026-11-09",
-   "updated": "2026-11-07T17:39Z",
-   "comment": "Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report."
-  },
-  {
-   "team": "CHA",
-   "player_id": "4433287",
-   "player": "Brandon Miller",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin Soreness",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-07T04:27Z",
-   "comment": "Head coach Charles Lee said Miller (groin) will be re-evaluated over the weekend, and they expect to have more information by Monday, Steve Reed of The Associated Press reports."
+   "updated": "2026-11-08T22:31Z",
+   "comment": "Diabate (quadriceps) is questionable for Monday's game against the Cavaliers."
   },
   {
    "team": "CHA",
@@ -129,20 +129,20 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Thigh",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-06T18:09Z",
-   "comment": "Schroder (thigh) is out for Friday's game versus Boston."
+   "return_date": "2026-11-23",
+   "updated": "2026-11-08T22:26Z",
+   "comment": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports."
   },
   {
    "team": "CHA",
-   "player_id": "5061575",
-   "player": "Kon Knueppel",
+   "player_id": "4433287",
+   "player": "Brandon Miller",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Hamstring Strain",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-05T22:05Z",
-   "comment": "Knueppel (hamstring) is out for Friday's game against the Celtics."
+   "injury": "Groin Soreness",
+   "return_date": "2026-11-12",
+   "updated": "2026-11-08T22:25Z",
+   "comment": "Miller (groin) is listed as out for Monday's game against Cleveland."
   },
   {
    "team": "CHA",
@@ -151,7 +151,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Hamstring",
-   "return_date": "2026-11-09",
+   "return_date": "2026-11-12",
    "updated": "2026-11-04T23:50Z",
    "comment": "The Hornets recalled Williams (hamstring) from the G League's Greensboro Swarm on Wednesday."
   },
@@ -179,25 +179,14 @@
   },
   {
    "team": "CLE",
-   "player_id": "4066757",
-   "player": "Sam Merrill",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Elbow",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-08T16:01Z",
-   "comment": "Merrill (elbow) is out for Saturday's game against the Knicks."
-  },
-  {
-   "team": "CLE",
    "player_id": "4066328",
    "player": "Jarrett Allen",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-11-09",
-   "updated": "2026-11-08T16:01Z",
-   "comment": "Allen (knee) is out for Saturday's game against the Knicks"
+   "updated": "2026-11-08T22:15Z",
+   "comment": "Allen (knee) is questionable for Monday's game against Charlotte."
   },
   {
    "team": "CLE",
@@ -206,9 +195,20 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Ankle Sprain",
+   "return_date": "2026-11-11",
+   "updated": "2026-11-08T22:04Z",
+   "comment": "Tyson (ankle) is out for Monday's game against the Hornets."
+  },
+  {
+   "team": "CLE",
+   "player_id": "4066757",
+   "player": "Sam Merrill",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Elbow",
    "return_date": "2026-11-09",
-   "updated": "2026-11-07T18:14Z",
-   "comment": "Tyson (ankle) is out for Saturday's game against the Knicks."
+   "updated": "2026-11-08T16:01Z",
+   "comment": "Merrill (elbow) is out for Saturday's game against the Knicks."
   },
   {
    "team": "DAL",
@@ -242,6 +242,17 @@
    "return_date": "2026-11-12",
    "updated": "2026-11-01T22:57Z",
    "comment": "Lively (foot) is listed as out for Monday's game against the Kings."
+  },
+  {
+   "team": "DEN",
+   "player_id": "3112335",
+   "player": "Nikola Jokic",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Elbow Sprain",
+   "return_date": "2026-11-09",
+   "updated": "2026-11-08T22:34Z",
+   "comment": "Jokic finished with 19 points (7-20 FG, 1-3 3Pt, 4-4 FT), 13 rebounds, eight assists, one steal and one block across 36 minutes in Saturday's 114-102 win over the Pacers in Mexico City."
   },
   {
    "team": "DEN",
@@ -740,17 +751,6 @@
   },
   {
    "team": "SAC",
-   "player_id": "4594327",
-   "player": "Keegan Murray",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle",
-   "return_date": "2026-11-08",
-   "updated": "2026-11-08T01:30Z",
-   "comment": "Murray (ankle) is questionable for Sunday's game against the Heat."
-  },
-  {
-   "team": "SAC",
    "player_id": "4898371",
    "player": "Maxime Raynaud",
    "status": "out",
@@ -795,6 +795,17 @@
   },
   {
    "team": "TOR",
+   "player_id": "4432586",
+   "player": "Nate Bittle",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot Fracture",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-08T21:20Z",
+   "comment": "Bittle (foot) is listed as out for Monday's game against Memphis."
+  },
+  {
+   "team": "TOR",
    "player_id": "4395724",
    "player": "Immanuel Quickley",
    "status": "day-to-day",
@@ -825,17 +836,6 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-04T00:14Z",
    "comment": "Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, Brett Siegel of ClutchPoints.com reports."
-  },
-  {
-   "team": "TOR",
-   "player_id": "4432586",
-   "player": "Nate Bittle",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Foot Fracture",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-02T20:20Z",
-   "comment": "Bittle (foot) is out for Monday's game against the Clippers and remains without a timetable to return."
   },
   {
    "team": "UTA",
@@ -883,25 +883,25 @@
   },
   {
    "team": "WAS",
+   "player_id": "4997537",
+   "player": "Tristan Vukcevic",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hip Pinched Nerve",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-08T22:17Z",
+   "comment": "Vukcevic (hip) has been ruled out for Monday's game against Detroit."
+  },
+  {
+   "team": "WAS",
    "player_id": "6583",
    "player": "Anthony Davis",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-11-09",
-   "updated": "2026-11-08T16:00Z",
-   "comment": "Davis (ankle) won't play Saturday against the Thunder."
-  },
-  {
-   "team": "WAS",
-   "player_id": "4278129",
-   "player": "Deandre Ayton",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Leg",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-08T14:55Z",
-   "comment": "Ayton won't return to Saturday's game against the Thunder due to a lower leg injury."
+   "updated": "2026-11-08T22:08Z",
+   "comment": "Davis (ankle) is listed as questionable for Monday's game in Detroit."
   },
   {
    "team": "WAS",
@@ -913,17 +913,6 @@
    "return_date": "2026-12-03",
    "updated": "2026-11-02T18:22Z",
    "comment": "The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-evaluated in approximately three weeks."
-  },
-  {
-   "team": "WAS",
-   "player_id": "4997537",
-   "player": "Tristan Vukcevic",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hip Pinched Nerve",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-01T21:51Z",
-   "comment": "Vukcevic (hip) is listed as out for Monday's game against Orlando."
   },
   {
    "team": "WAS",
