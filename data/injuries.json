@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T16:45:50-0500",
+ "generated": "2026-11-07T19:15:52-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -36,17 +36,6 @@
   },
   {
    "team": "ATL",
-   "player_id": "4701230",
-   "player": "Jalen Johnson",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle",
-   "return_date": "2026-11-07",
-   "updated": "2026-11-07T18:10Z",
-   "comment": "Johnson (ankle) is probable for Saturday's game against Brooklyn."
-  },
-  {
-   "team": "ATL",
    "player_id": "4712863",
    "player": "Mouhamed Gueye",
    "status": "out",
@@ -66,17 +55,6 @@
    "return_date": "2027-07-01",
    "updated": "2026-09-21T19:50Z",
    "comment": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday."
-  },
-  {
-   "team": "BKN",
-   "player_id": "4712896",
-   "player": "Noah Clowney",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-07",
-   "updated": "2026-11-07T15:19Z",
-   "comment": "Clowney is listed as questionable for Saturday's game against the Hawks due to an illness."
   },
   {
    "team": "BKN",
@@ -163,8 +141,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Knee Sprain",
    "return_date": "2026-11-08",
-   "updated": "2026-11-07T21:33Z",
-   "comment": "Awaka (ankle) is active for Monday's game against the 76ers."
+   "updated": "2026-11-07T21:36Z",
+   "comment": "Awaka (knee) is questionable for Sundays' game against the 76ers."
+  },
+  {
+   "team": "CHI",
+   "player_id": "4397189",
+   "player": "Jalen Smith",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Finger Sprain",
+   "return_date": "2026-11-08",
+   "updated": "2026-11-07T21:31Z",
+   "comment": "Smith (finger) is probable for Sunday's game against Philadelphia."
   },
   {
    "team": "CHI",
@@ -187,17 +176,6 @@
    "return_date": "2026-11-11",
    "updated": "2026-11-07T21:24Z",
    "comment": "Collins (illness) is out for Sunday's game against Philadelphia."
-  },
-  {
-   "team": "CHI",
-   "player_id": "4397189",
-   "player": "Jalen Smith",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Finger Sprain",
-   "return_date": "2026-11-08",
-   "updated": "2026-11-05T01:35Z",
-   "comment": "Smith (hand) won't return to Wednesday's game against the Knicks."
   },
   {
    "team": "CLE",
@@ -283,9 +261,31 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Hip Bruise",
+   "return_date": "2026-11-09",
+   "updated": "2026-11-07T21:59Z",
+   "comment": "Joe (hip) has been ruled out for Sunday's game against the Lakers."
+  },
+  {
+   "team": "DET",
+   "player_id": "5107818",
+   "player": "Isaac Jones",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Not Injury Related",
    "return_date": "2026-11-08",
-   "updated": "2026-11-03T21:18Z",
-   "comment": "Joe (hip) has been ruled out for Wednesday's game against Philadelphia."
+   "updated": "2026-11-07T21:57Z",
+   "comment": "Jones posted 18 points (6-14 FG, 0-3 3Pt, 3-3 FT), 10 rebounds, an assist, two steals and two blocks in Wednesday's 100-88 Summer League loss to the Suns."
+  },
+  {
+   "team": "DET",
+   "player_id": "4397449",
+   "player": "Elijah Harkless",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Not Injury Related",
+   "return_date": "2026-11-08",
+   "updated": "2026-11-07T21:57Z",
+   "comment": "Harkless signed a two-way contract with the Pistons, Keith Smith of Spotrac.com reports."
   },
   {
    "team": "DET",
@@ -300,28 +300,6 @@
   },
   {
    "team": "GSW",
-   "player_id": "6589",
-   "player": "Draymond Green",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Elbow Inflammation",
-   "return_date": "2026-11-07",
-   "updated": "2026-11-06T22:21Z",
-   "comment": "Green (elbow) is listed as questionable ahead of Saturday's game against Orlando."
-  },
-  {
-   "team": "GSW",
-   "player_id": "3134903",
-   "player": "Gary Payton II",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf",
-   "return_date": "2026-11-07",
-   "updated": "2026-11-06T22:21Z",
-   "comment": "Payton is questionable to play Saturday against the Magic due to right calf tightness."
-  },
-  {
-   "team": "GSW",
    "player_id": "3102531",
    "player": "Kristaps Porzingis",
    "status": "out",
@@ -330,17 +308,6 @@
    "return_date": "2027-01-02",
    "updated": "2026-11-06T21:26Z",
    "comment": "Porzingis announced on his social media that he's stepping away from basketball."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4997536",
-   "player": "Gui Santos",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-11-07",
-   "updated": "2026-11-06T20:49Z",
-   "comment": "Santos (knee) is questionable for Saturday's game versus Orlando, per Nick Friedell of The Athletic."
   },
   {
    "team": "GSW",
@@ -464,6 +431,17 @@
    "comment": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic."
   },
   {
+   "team": "LAL",
+   "player_id": "3945274",
+   "player": "Luka Doncic",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
+   "return_date": "2026-11-08",
+   "updated": "2026-11-07T22:11Z",
+   "comment": "Doncic (back) is questionable for Sunday's game against the Pistons."
+  },
+  {
    "team": "MEM",
    "player_id": "5105462",
    "player": "Richie Saunders",
@@ -504,19 +482,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Fracture",
    "return_date": "2026-11-08",
-   "updated": "2026-11-07T15:05Z",
-   "comment": "Beringer was ruled out for the second half of Friday's game against the Pelicans due to a nasal fracture, Dane Moore of 'The Dane Moore NBA Podcast' reports."
-  },
-  {
-   "team": "MIN",
-   "player_id": "4432847",
-   "player": "Terrence Shannon Jr.",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hip Bruise",
-   "return_date": "2026-11-08",
-   "updated": "2026-11-06T18:06Z",
-   "comment": "Shannon (hip) has been ruled out for Friday's game against New Orleans."
+   "updated": "2026-11-07T23:10Z",
+   "comment": "Beringer (nose) is questionable for Sunday's game against the Jazz."
   },
   {
    "team": "MIN",
@@ -685,14 +652,25 @@
   },
   {
    "team": "PHI",
-   "player_id": "5105637",
-   "player": "Adem Bona",
+   "player_id": "3059318",
+   "player": "Joel Embiid",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Back Sprain",
+   "injury": "Foot Plantar Fasciitis",
    "return_date": "2026-11-08",
-   "updated": "2026-11-07T17:38Z",
-   "comment": "Bona (neck) is listed as out for Friday's game versus the Cavaliers."
+   "updated": "2026-11-07T23:12Z",
+   "comment": "Embiid (foot) is probable for Sunday's game against the Bulls."
+  },
+  {
+   "team": "PHI",
+   "player_id": "5105637",
+   "player": "Adem Bona",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Sprain",
+   "return_date": "2026-11-10",
+   "updated": "2026-11-07T23:07Z",
+   "comment": "Bona (back) is out for Sunday's game in Chicago."
   },
   {
    "team": "PHI",
@@ -905,6 +883,17 @@
   },
   {
    "team": "UTA",
+   "player_id": "4066336",
+   "player": "Lauri Markkanen",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Wrist Sprain",
+   "return_date": "2026-11-08",
+   "updated": "2026-11-07T23:14Z",
+   "comment": "Markkanen is questionable for Sunday's game against the Timberwolves due to a right wrist sprain."
+  },
+  {
+   "team": "UTA",
    "player_id": "3102530",
    "player": "Jusuf Nurkic",
    "status": "out",
@@ -929,12 +918,12 @@
    "team": "WAS",
    "player_id": "6583",
    "player": "Anthony Davis",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle Sprain",
-   "return_date": "2026-11-07",
-   "updated": "2026-11-07T19:13Z",
-   "comment": "Davis (ankle) is questionable for Saturday's game against the Thunder."
+   "return_date": "2026-11-09",
+   "updated": "2026-11-07T23:33Z",
+   "comment": "Davis (ankle) won't play Saturday against the Thunder."
   },
   {
    "team": "WAS",

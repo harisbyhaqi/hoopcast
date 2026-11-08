@@ -1,6 +1,118 @@
 [
  {
   "kind": "signed",
+  "team": "CLE",
+  "player": "Riley Minix",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "released",
+  "team": "CLE",
+  "player": "Tristan Enaruna",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DET",
+  "player": "Isaac Jones",
+  "to": "day-to-day",
+  "injury": "Not Injury Related",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DET",
+  "player": "Elijah Harkless",
+  "to": "day-to-day",
+  "injury": "Not Injury Related",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "LAL",
+  "player": "Luka Doncic",
+  "to": "day-to-day",
+  "injury": "Back",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "to": "day-to-day",
+  "injury": "Foot Plantar Fasciitis",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Adem Bona",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back Sprain",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "UTA",
+  "player": "Lauri Markkanen",
+  "to": "day-to-day",
+  "injury": "Wrist Sprain",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "WAS",
+  "player": "Anthony Davis",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "ATL",
+  "player": "Jalen Johnson",
+  "from": "out",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "BKN",
+  "player": "Noah Clowney",
+  "from": "day-to-day",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Draymond Green",
+  "from": "day-to-day",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Gary Payton II",
+  "from": "day-to-day",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Gui Santos",
+  "from": "day-to-day",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIN",
+  "player": "Terrence Shannon Jr.",
+  "from": "out",
+  "time": "2026-11-07T19:15:52-0500"
+ },
+ {
+  "kind": "signed",
   "team": "MEM",
   "player": "Richie Saunders",
   "time": "2026-11-07T16:45:50-0500"
@@ -7751,111 +7863,6 @@
   "kind": "cleared",
   "team": "DEN",
   "player": "Aaron Gordon",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "HOU",
-  "player": "Steven Adams",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "LAC",
-  "player": "Kris Dunn",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "LAC",
-  "player": "Kobe Sanders",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIA",
-  "player": "Giannis Antetokounmpo",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "Enrique Freeman",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "Trey Lyles",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "Bones Hyland",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "Jonathan Kuminga",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "Jaden McDaniels",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "LaMelo Ball",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "Rudy Gobert",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "Anthony Edwards",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "Ayo Dosunmu",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "VJ Edgecombe",
-  "from": "day-to-day",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "POR",
-  "player": "Robert Williams III",
   "from": "day-to-day",
   "time": "2026-10-17T19:54:17-0400"
  }

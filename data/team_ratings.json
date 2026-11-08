@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T16:45:54-05:00",
+ "generated": "2026-11-07T19:15:57-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr.",
@@ -9,7 +9,7 @@
   "ATL": {
    "roster": -0.63,
    "market": 0.74,
-   "prior": 0.05,
+   "prior": 0.06,
    "rotation": [
     {
      "player": "Jalen Johnson",
@@ -338,7 +338,7 @@
   "CHI": {
    "roster": -6.58,
    "market": -4.63,
-   "prior": -5.61,
+   "prior": -5.6,
    "rotation": [
     {
      "player": "Caleb Wilson",
@@ -420,9 +420,9 @@
    ]
   },
   "CLE": {
-   "roster": 1.98,
+   "roster": 1.86,
    "market": 2.59,
-   "prior": 2.29,
+   "prior": 2.23,
    "rotation": [
     {
      "player": "Donovan Mitchell",
@@ -460,18 +460,18 @@
      "min": 24.3
     },
     {
+     "player": "Jaylon Tyson",
+     "rating": -0.5,
+     "o": -0.1,
+     "d": -0.4,
+     "min": 20.3
+    },
+    {
      "player": "Thomas Bryant",
      "rating": -0.3,
      "o": -0.3,
      "d": -0.0,
      "min": 18.5
-    },
-    {
-     "player": "Jaylon Tyson",
-     "rating": -0.5,
-     "o": -0.1,
-     "d": -0.4,
-     "min": 18.3
     },
     {
      "player": "Peyton Watson",
@@ -488,18 +488,18 @@
      "min": 16.3
     },
     {
-     "player": "Tristan Enaruna",
-     "rating": -0.5,
-     "o": -0.6,
-     "d": 0.1,
-     "min": 14.8
+     "player": "Riley Minix",
+     "rating": -0.8,
+     "o": null,
+     "d": null,
+     "min": 11.2
     },
     {
      "player": "Meleek Thomas",
      "rating": -1.7,
      "o": -1.2,
      "d": -0.5,
-     "min": 4.1
+     "min": 5.7
     }
    ]
   },
@@ -835,7 +835,7 @@
   "HOU": {
    "roster": 5.18,
    "market": 2.41,
-   "prior": 3.79,
+   "prior": 3.8,
    "rotation": [
     {
      "player": "Kevin Durant",
@@ -987,7 +987,7 @@
    ]
   },
   "LAC": {
-   "roster": -3.29,
+   "roster": -3.28,
    "market": -5.37,
    "prior": -4.33,
    "rotation": [
@@ -1066,7 +1066,7 @@
   "LAL": {
    "roster": 2.9,
    "market": 1.67,
-   "prior": 2.28,
+   "prior": 2.29,
    "rotation": [
     {
      "player": "Luka Doncic",
@@ -1141,7 +1141,7 @@
    ]
   },
   "MEM": {
-   "roster": -3.76,
+   "roster": -3.75,
    "market": -4.63,
    "prior": -4.19,
    "rotation": [
@@ -1393,7 +1393,7 @@
    ]
   },
   "MIN": {
-   "roster": 4.91,
+   "roster": 4.92,
    "market": 2.59,
    "prior": 3.75,
    "rotation": [
@@ -1624,7 +1624,7 @@
    ]
   },
   "OKC": {
-   "roster": 7.94,
+   "roster": 7.95,
    "market": 7.22,
    "prior": 7.58,
    "rotation": [
@@ -1708,7 +1708,7 @@
    ]
   },
   "ORL": {
-   "roster": 0.47,
+   "roster": 0.48,
    "market": 0.93,
    "prior": 0.7,
    "rotation": [
@@ -1785,7 +1785,7 @@
    ]
   },
   "PHI": {
-   "roster": 2.04,
+   "roster": 2.05,
    "market": 3.52,
    "prior": 2.78,
    "rotation": [
@@ -2247,9 +2247,9 @@
    ]
   },
   "UTA": {
-   "roster": -4.44,
+   "roster": -4.43,
    "market": -2.04,
-   "prior": -3.24,
+   "prior": -3.23,
    "rotation": [
     {
      "player": "Lauri Markkanen",

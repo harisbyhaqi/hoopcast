@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T16:45:50-0500",
+ "generated": "2026-11-07T19:15:52-0500",
  "teams": {
   "ATL": [
    {
@@ -547,12 +547,6 @@
     "jersey": "3"
    },
    {
-    "player_id": "4431734",
-    "player": "Tristan Enaruna",
-    "position": "F",
-    "jersey": "21"
-   },
-   {
     "player_id": "3992",
     "player": "James Harden",
     "position": "G",
@@ -569,6 +563,12 @@
     "player": "Sam Merrill",
     "position": "G",
     "jersey": "5"
+   },
+   {
+    "player_id": "5177362",
+    "player": "Riley Minix",
+    "position": "F",
+    "jersey": "12"
    },
    {
     "player_id": "3908809",
