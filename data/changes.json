@@ -1,6 +1,21 @@
 [
  {
   "kind": "injury_new",
+  "team": "BKN",
+  "player": "Mikel Brown Jr.",
+  "to": "out",
+  "injury": "Rest",
+  "time": "2026-11-08T02:00:51-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "BKN",
+  "player": "Day'Ron Sharpe",
+  "from": "day-to-day",
+  "time": "2026-11-08T02:00:51-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "WAS",
   "player": "Deandre Ayton",
   "to": "out",
@@ -7851,22 +7866,6 @@
   "kind": "released",
   "team": "DET",
   "player": "Brice Williams",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "status_change",
-  "team": "ORL",
-  "player": "Noah Penda",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Hamstring",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "cleared",
-  "team": "BOS",
-  "player": "Sam Hauser",
-  "from": "day-to-day",
   "time": "2026-10-17T19:54:17-0400"
  }
 ]
