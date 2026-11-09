@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T20:45:52-0500",
+ "generated": "2026-11-08T23:00:53-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -333,6 +333,17 @@
   },
   {
    "team": "GSW",
+   "player_id": "4897262",
+   "player": "Will Richard",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Thumb",
+   "return_date": "2026-11-11",
+   "updated": "2026-11-09T01:52Z",
+   "comment": "Richard is out for Monday's game against the Pelicans due to a left thumb UCL tear."
+  },
+  {
+   "team": "GSW",
    "player_id": "4997536",
    "player": "Gui Santos",
    "status": "day-to-day",
@@ -502,10 +513,10 @@
    "player": "Quentin Grimes",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Undisclosed",
-   "return_date": "2026-11-08",
-   "updated": "2026-11-09T01:07Z",
-   "comment": "Grimes went back to the locker room during Sunday's game against the Pistons, Dave McMenamin of ESPN.com reports."
+   "injury": "Finger",
+   "return_date": "2026-11-09",
+   "updated": "2026-11-09T02:01Z",
+   "comment": "Grimes (finger) did not return to Sunday's game against the Pistons."
   },
   {
    "team": "LAL",
@@ -536,7 +547,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Knee Bruise",
-   "return_date": "2026-11-09",
+   "return_date": "2026-11-11",
    "updated": "2026-11-08T23:01Z",
    "comment": "Stewart (knee) has been ruled out for Monday's game against Toronto."
   },
@@ -935,6 +946,17 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-04T00:14Z",
    "comment": "Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, Brett Siegel of ClutchPoints.com reports."
+  },
+  {
+   "team": "UTA",
+   "player_id": "4433627",
+   "player": "Keyonte George",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-11-10",
+   "updated": "2026-11-09T02:24Z",
+   "comment": "George will not return to Sunday's game against the Timberwolves due to a right ankle injury."
   },
   {
    "team": "UTA",

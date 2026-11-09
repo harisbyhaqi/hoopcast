@@ -2,6 +2,22 @@
  {
   "kind": "injury_new",
   "team": "GSW",
+  "player": "Will Richard",
+  "to": "out",
+  "injury": "Thumb",
+  "time": "2026-11-08T23:00:53-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "UTA",
+  "player": "Keyonte George",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-08T23:00:53-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
   "player": "Gui Santos",
   "to": "day-to-day",
   "injury": "Knee Tendinitis",
@@ -7950,18 +7966,6 @@
   "kind": "released",
   "team": "DEN",
   "player": "Lonnie Walker IV",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "NYK",
-  "player": "Ochai Agbaji",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "NYK",
-  "player": "Bruce Brown",
   "time": "2026-10-17T19:54:17-0400"
  }
 ]
