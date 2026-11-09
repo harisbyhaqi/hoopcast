@@ -1,6 +1,23 @@
 [
  {
   "kind": "status_change",
+  "team": "MIL",
+  "player": "Gary Trent Jr.",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Illness",
+  "time": "2026-11-08T19:15:59-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "UTA",
+  "player": "Lauri Markkanen",
+  "to": "out",
+  "injury": "Wrist Sprain",
+  "time": "2026-11-08T19:15:59-0500"
+ },
+ {
+  "kind": "status_change",
   "team": "CLE",
   "player": "Sam Merrill",
   "from": "day-to-day",
@@ -7935,18 +7952,6 @@
   "kind": "released",
   "team": "SAC",
   "player": "Tristen Newton",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "SAC",
-  "player": "Elfrid Payton",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "POR",
-  "player": "Jeremy Sochan",
   "time": "2026-10-17T19:54:17-0400"
  }
 ]

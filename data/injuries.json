@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T18:45:52-0500",
+ "generated": "2026-11-08T19:15:59-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -544,12 +544,12 @@
    "team": "MIL",
    "player_id": "4277843",
    "player": "Gary Trent Jr.",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Illness",
-   "return_date": "2026-11-08",
-   "updated": "2026-11-08T18:23Z",
-   "comment": "Trent (illness) has been downgraded to questionable for Sunday's game against Boston."
+   "return_date": "2026-11-10",
+   "updated": "2026-11-08T23:58Z",
+   "comment": "Trent (illness) won't play in Sunday's game versus the Celtics."
   },
   {
    "team": "MIN",
@@ -913,6 +913,17 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-04T00:14Z",
    "comment": "Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, Brett Siegel of ClutchPoints.com reports."
+  },
+  {
+   "team": "UTA",
+   "player_id": "4066336",
+   "player": "Lauri Markkanen",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Wrist Sprain",
+   "return_date": "2026-11-10",
+   "updated": "2026-11-08T23:44Z",
+   "comment": "Markkanen (wrist) is out for Sunday's game against the Timberwolves, Shreyas Laddha of The Salt Lake Tribune reports."
   },
   {
    "team": "UTA",
