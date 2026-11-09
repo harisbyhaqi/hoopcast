@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T19:15:59-0500",
+ "generated": "2026-11-08T19:45:52-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -55,17 +55,6 @@
    "return_date": "2027-07-01",
    "updated": "2026-09-21T19:50Z",
    "comment": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday."
-  },
-  {
-   "team": "BOS",
-   "player_id": "4351852",
-   "player": "Mitchell Robinson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-08",
-   "updated": "2026-11-08T18:21Z",
-   "comment": "Robinson (illness) is questionable for Sunday's game versus Milwaukee, Bobby Krivitsky of Forbes.com reports."
   },
   {
    "team": "BKN",
@@ -757,8 +746,8 @@
    "status_raw": "Out",
    "injury": "Calf Not Specified",
    "return_date": "2026-11-09",
-   "updated": "2026-11-08T01:08Z",
-   "comment": "Goodwin (calf) is out for Saturday's game against the Rockets."
+   "updated": "2026-11-09T00:23Z",
+   "comment": "Goodwin (calf) is questionable for Monday's game against the Spurs."
   },
   {
    "team": "PHX",
@@ -855,9 +844,20 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Calf Strain",
+   "return_date": "2026-11-11",
+   "updated": "2026-11-09T00:27Z",
+   "comment": "Harris (calf) is listed as out for Monday's game against Phoenix."
+  },
+  {
+   "team": "SAS",
+   "player_id": "4395630",
+   "player": "Devin Vassell",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Groin",
    "return_date": "2026-11-09",
-   "updated": "2026-10-30T21:44Z",
-   "comment": "Harris (calf) is listed as out for Saturday's game against Minnesota."
+   "updated": "2026-11-09T00:20Z",
+   "comment": "Vassell is questionable for Monday's game against the Suns due to left adductor tightness."
   },
   {
    "team": "SAS",

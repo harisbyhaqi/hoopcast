@@ -1,5 +1,20 @@
 [
  {
+  "kind": "injury_new",
+  "team": "SAS",
+  "player": "Devin Vassell",
+  "to": "day-to-day",
+  "injury": "Groin",
+  "time": "2026-11-08T19:45:52-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "BOS",
+  "player": "Mitchell Robinson",
+  "from": "day-to-day",
+  "time": "2026-11-08T19:45:52-0500"
+ },
+ {
   "kind": "status_change",
   "team": "MIL",
   "player": "Gary Trent Jr.",
@@ -7940,18 +7955,6 @@
   "kind": "released",
   "team": "MEM",
   "player": "Zach Cleveland",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "SAC",
-  "player": "Viktor Lakhin",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "SAC",
-  "player": "Tristen Newton",
   "time": "2026-10-17T19:54:17-0400"
  }
 ]
