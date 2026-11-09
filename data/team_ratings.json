@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T23:00:57-05:00",
+ "generated": "2026-11-09T02:01:02-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
  ],
  "teams": {
   "ATL": {
-   "roster": -0.63,
+   "roster": -0.64,
    "market": 0.74,
    "prior": 0.05,
    "rotation": [
@@ -419,7 +419,7 @@
    ]
   },
   "CLE": {
-   "roster": 1.74,
+   "roster": 1.73,
    "market": 2.59,
    "prior": 2.16,
    "rotation": [
@@ -505,7 +505,7 @@
   "DAL": {
    "roster": -3.66,
    "market": -2.41,
-   "prior": -3.03,
+   "prior": -3.04,
    "rotation": [
     {
      "player": "Kyrie Irving",
@@ -1254,7 +1254,7 @@
      "rating": 0.4,
      "o": 0.4,
      "d": 0.0,
-     "min": 28.2
+     "min": 28.3
     },
     {
      "player": "Pelle Larsson",
@@ -1401,7 +1401,7 @@
   "MIN": {
    "roster": 5.28,
    "market": 2.59,
-   "prior": 3.94,
+   "prior": 3.93,
    "rotation": [
     {
      "player": "Anthony Edwards",
@@ -1476,9 +1476,9 @@
    ]
   },
   "NOP": {
-   "roster": -4.03,
+   "roster": -3.99,
    "market": -5.19,
-   "prior": -4.61,
+   "prior": -4.59,
    "rotation": [
     {
      "player": "Trey Murphy III",
@@ -1499,7 +1499,7 @@
      "rating": 0.9,
      "o": -0.5,
      "d": 1.3,
-     "min": 31.1
+     "min": 31.0
     },
     {
      "player": "Dejounte Murray",
@@ -1513,7 +1513,7 @@
      "rating": -0.4,
      "o": 0.7,
      "d": -1.2,
-     "min": 25.7
+     "min": 25.6
     },
     {
      "player": "Yves Missi",
@@ -1544,11 +1544,11 @@
      "min": 16.3
     },
     {
-     "player": "Julian Reese",
-     "rating": -2.5,
-     "o": -2.1,
-     "d": -0.4,
-     "min": 4.8
+     "player": "Bennedict Mathurin",
+     "rating": -2.1,
+     "o": -1.0,
+     "d": -1.1,
+     "min": 4.9
     }
    ]
   },
@@ -1630,7 +1630,7 @@
    ]
   },
   "OKC": {
-   "roster": 7.85,
+   "roster": 7.84,
    "market": 7.22,
    "prior": 7.53,
    "rotation": [
@@ -1714,7 +1714,7 @@
    ]
   },
   "ORL": {
-   "roster": 0.38,
+   "roster": 0.37,
    "market": 0.93,
    "prior": 0.65,
    "rotation": [
@@ -1791,7 +1791,7 @@
    ]
   },
   "PHI": {
-   "roster": 2.08,
+   "roster": 2.07,
    "market": 3.52,
    "prior": 2.8,
    "rotation": [
@@ -2031,7 +2031,7 @@
      "rating": -0.0,
      "o": -0.2,
      "d": 0.2,
-     "min": 34.0
+     "min": 33.9
     },
     {
      "player": "Domantas Sabonis",
@@ -2045,14 +2045,14 @@
      "rating": -0.9,
      "o": 0.7,
      "d": -1.6,
-     "min": 28.4
+     "min": 28.5
     },
     {
      "player": "Precious Achiuwa",
      "rating": -0.3,
      "o": -0.1,
      "d": -0.2,
-     "min": 26.8
+     "min": 26.9
     },
     {
      "player": "Ben Simmons",
@@ -2080,7 +2080,7 @@
      "rating": -1.2,
      "o": 0.2,
      "d": -1.4,
-     "min": 18.9
+     "min": 18.8
     },
     {
      "player": "Leaky Black",
@@ -2094,7 +2094,7 @@
      "rating": -1.6,
      "o": -0.8,
      "d": -0.8,
-     "min": 11.6
+     "min": 11.7
     }
    ]
   },
@@ -2337,7 +2337,7 @@
    ]
   },
   "WAS": {
-   "roster": -3.43,
+   "roster": -3.44,
    "market": -2.04,
    "prior": -2.74,
    "rotation": [
