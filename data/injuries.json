@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T19:45:52-0500",
+ "generated": "2026-11-08T20:45:52-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -333,6 +333,17 @@
   },
   {
    "team": "GSW",
+   "player_id": "4997536",
+   "player": "Gui Santos",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Tendinitis",
+   "return_date": "2026-11-09",
+   "updated": "2026-11-09T01:13Z",
+   "comment": "Santos (knee) is listed as probable for Monday's game against New Orleans."
+  },
+  {
+   "team": "GSW",
    "player_id": "3102531",
    "player": "Kristaps Porzingis",
    "status": "out",
@@ -484,6 +495,17 @@
    "return_date": "2027-03-02",
    "updated": "2026-08-26T20:04Z",
    "comment": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic."
+  },
+  {
+   "team": "LAL",
+   "player_id": "4397014",
+   "player": "Quentin Grimes",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Undisclosed",
+   "return_date": "2026-11-08",
+   "updated": "2026-11-09T01:07Z",
+   "comment": "Grimes went back to the locker room during Sunday's game against the Pistons, Dave McMenamin of ESPN.com reports."
   },
   {
    "team": "LAL",
@@ -808,12 +830,12 @@
    "team": "SAC",
    "player_id": "3155942",
    "player": "Domantas Sabonis",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Soreness",
-   "return_date": "2026-11-08",
-   "updated": "2026-11-08T22:53Z",
-   "comment": "Sabonis has been downgraded to questionable for Sunday's game against Miami due to left knee soreness."
+   "return_date": "2026-11-10",
+   "updated": "2026-11-09T01:03Z",
+   "comment": "Sabonis (knee) is out for Sunday's game against the Heat."
   },
   {
    "team": "SAC",

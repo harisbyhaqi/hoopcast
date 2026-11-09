@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T19:45:56-05:00",
+ "generated": "2026-11-08T20:45:56-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -664,7 +664,7 @@
    ]
   },
   "DET": {
-   "roster": 2.59,
+   "roster": 2.6,
    "market": 2.96,
    "prior": 2.78,
    "rotation": [
@@ -743,12 +743,12 @@
      "rating": -1.2,
      "o": -0.8,
      "d": -0.4,
-     "min": 4.7
+     "min": 4.6
     }
    ]
   },
   "GSW": {
-   "roster": 1.81,
+   "roster": 1.8,
    "market": -0.37,
    "prior": 0.72,
    "rotation": [
@@ -1107,14 +1107,14 @@
      "rating": 1.1,
      "o": 0.8,
      "d": 0.3,
-     "min": 21.9
+     "min": 22.0
     },
     {
      "player": "Jake LaRavia",
      "rating": 0.1,
      "o": -1.3,
      "d": 1.4,
-     "min": 21.6
+     "min": 21.7
     },
     {
      "player": "Jarred Vanderbilt",
@@ -1135,14 +1135,14 @@
      "rating": -0.5,
      "o": -0.2,
      "d": -0.4,
-     "min": 19.3
+     "min": 19.4
     },
     {
      "player": "Collin Sexton",
      "rating": -0.7,
      "o": 0.3,
      "d": -0.9,
-     "min": 14.3
+     "min": 14.2
     }
    ]
   },
@@ -1401,7 +1401,7 @@
   "MIN": {
    "roster": 4.96,
    "market": 2.59,
-   "prior": 3.78,
+   "prior": 3.77,
    "rotation": [
     {
      "player": "Anthony Edwards",
