@@ -1,6 +1,75 @@
 [
  {
   "kind": "status_change",
+  "team": "GSW",
+  "player": "Gary Payton II",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Inflammation",
+  "time": "2026-11-10T02:00:53-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Brandon Williams",
+  "to": "day-to-day",
+  "injury": "Hamstring Not Specified",
+  "time": "2026-11-10T02:00:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Oscar Tshiebwe",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-11-10T02:00:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Trendon Watford",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-10T02:00:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Trey Murphy III",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Tendinitis",
+  "time": "2026-11-10T02:00:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "NOP",
+  "player": "Zion Williamson",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-10T02:00:53-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAS",
+  "player": "Devin Vassell",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Groin",
+  "time": "2026-11-10T02:00:53-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIL",
+  "player": "Gary Trent Jr.",
+  "from": "day-to-day",
+  "time": "2026-11-10T02:00:53-0500"
+ },
+ {
+  "kind": "status_change",
   "team": "CHA",
   "player": "Brandon Miller",
   "from": "out",
@@ -8027,55 +8096,5 @@
   "to": "out",
   "injury": "Calf Strain",
   "time": "2026-10-19T15:33:40-0400"
- },
- {
-  "kind": "cleared",
-  "team": "BKN",
-  "player": "Joshua Jefferson",
-  "from": "out",
-  "time": "2026-10-19T15:33:40-0400"
- },
- {
-  "kind": "cleared",
-  "team": "NOP",
-  "player": "Dejounte Murray",
-  "from": "day-to-day",
-  "time": "2026-10-19T15:33:40-0400"
- },
- {
-  "kind": "released",
-  "team": "OKC",
-  "player": "Robert McCray V",
-  "time": "2026-10-18T20:03:39-0400"
- },
- {
-  "kind": "released",
-  "team": "MIL",
-  "player": "John Butler Jr.",
-  "time": "2026-10-18T20:03:39-0400"
- },
- {
-  "kind": "released",
-  "team": "NOP",
-  "player": "Christian Koloko",
-  "time": "2026-10-18T20:03:39-0400"
- },
- {
-  "kind": "released",
-  "team": "POR",
-  "player": "Jaylen Martin",
-  "time": "2026-10-18T20:03:39-0400"
- },
- {
-  "kind": "released",
-  "team": "DAL",
-  "player": "Quincy Acy",
-  "time": "2026-10-18T20:03:39-0400"
- },
- {
-  "kind": "released",
-  "team": "HOU",
-  "player": "Tyson Chandler",
-  "time": "2026-10-18T20:03:39-0400"
  }
 ]

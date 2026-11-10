@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T23:00:53-05:00",
+ "generated": "2026-11-10T02:00:57-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -167,7 +167,7 @@
    ]
   },
   "BKN": {
-   "roster": -5.18,
+   "roster": -5.17,
    "market": -6.3,
    "prior": -5.74,
    "rotation": [
@@ -785,7 +785,7 @@
      "rating": 1.0,
      "o": 0.1,
      "d": 0.9,
-     "min": 25.3
+     "min": 25.4
     },
     {
      "player": "Moses Moody",
@@ -795,13 +795,6 @@
      "min": 23.2
     },
     {
-     "player": "Yaxel Lendeborg",
-     "rating": 0.4,
-     "o": 0.6,
-     "d": -0.2,
-     "min": 22.1
-    },
-    {
      "player": "Brandin Podziemski",
      "rating": 0.6,
      "o": 0.5,
@@ -809,18 +802,25 @@
      "min": 21.9
     },
     {
+     "player": "Yaxel Lendeborg",
+     "rating": 0.4,
+     "o": 0.6,
+     "d": -0.2,
+     "min": 21.9
+    },
+    {
      "player": "Charles Bassey",
      "rating": 1.1,
      "o": 0.0,
      "d": 1.0,
-     "min": 20.0
+     "min": 20.1
     },
     {
      "player": "Gui Santos",
      "rating": 1.0,
      "o": 0.5,
      "d": 0.5,
-     "min": 18.4
+     "min": 18.5
     },
     {
      "player": "Draymond Green",
@@ -834,7 +834,7 @@
      "rating": 0.3,
      "o": 1.0,
      "d": -0.7,
-     "min": 0.2
+     "min": 0.4
     }
    ]
   },
@@ -1483,7 +1483,7 @@
    ]
   },
   "NOP": {
-   "roster": -4.27,
+   "roster": -4.28,
    "market": -5.19,
    "prior": -4.73,
    "rotation": [
@@ -1513,7 +1513,7 @@
      "rating": 0.1,
      "o": 0.4,
      "d": -0.3,
-     "min": 30.3
+     "min": 30.2
     },
     {
      "player": "Saddiq Bey",
@@ -1555,7 +1555,7 @@
      "rating": -1.2,
      "o": -0.9,
      "d": -0.3,
-     "min": 6.9
+     "min": 7.0
     }
    ]
   },
@@ -1868,9 +1868,9 @@
    ]
   },
   "PHX": {
-   "roster": -2.26,
+   "roster": -2.27,
    "market": -0.19,
-   "prior": -1.22,
+   "prior": -1.23,
    "rotation": [
     {
      "player": "Devin Booker",
@@ -1940,7 +1940,7 @@
      "rating": -0.5,
      "o": -1.4,
      "d": 0.9,
-     "min": 8.3
+     "min": 8.4
     }
    ]
   },
@@ -2099,7 +2099,7 @@
    ]
   },
   "SAS": {
-   "roster": 5.49,
+   "roster": 5.48,
    "market": 7.04,
    "prior": 6.26,
    "rotation": [
@@ -2115,7 +2115,7 @@
      "rating": 6.8,
      "o": 4.4,
      "d": 2.4,
-     "min": 32.2
+     "min": 32.1
     },
     {
      "player": "Devin Vassell",
@@ -2337,7 +2337,7 @@
    ]
   },
   "WAS": {
-   "roster": -3.41,
+   "roster": -3.4,
    "market": -2.04,
    "prior": -2.72,
    "rotation": [
