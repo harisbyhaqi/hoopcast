@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T18:45:57-0500",
+ "generated": "2026-11-09T19:15:56-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -388,25 +388,14 @@
   },
   {
    "team": "HOU",
-   "player_id": "4432827",
-   "player": "Oscar Tshiebwe",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Illness",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-09T17:36Z",
-   "comment": "Tshiebwe has been ruled out for Monday's game against the Nuggets due to an illness."
-  },
-  {
-   "team": "HOU",
    "player_id": "3102529",
    "player": "Clint Capela",
    "status": "out",
    "status_raw": "Out",
    "injury": "Ankle Sprain",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-08T22:56Z",
-   "comment": "Capela (ankle) is listed as out for Monday's game against Denver."
+   "return_date": "2026-11-15",
+   "updated": "2026-11-09T23:56Z",
+   "comment": "Head coach Ime Udoka stated Monday that Capela (ankle) could be cleared to return either Nov. 15 in Washington or Nov. 16 in Miami, Lachard Binkley of SI.com reports."
   },
   {
    "team": "HOU",
@@ -415,20 +404,20 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Calf Strain",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-05T00:21Z",
-   "comment": "Head coach Ime Udoka said Wednesday that Adams (calf) is still without a timetable to return and will be evaluated on a \"weekly basis,\" Varun Shankar of the Houston Chronicle reports."
+   "return_date": "2026-11-15",
+   "updated": "2026-11-09T23:55Z",
+   "comment": "Head coach Ime Udoka said Monday that Adams could return as soon as Sunday's game at Washington, Lachard Binkley of SI.com reports."
   },
   {
-   "team": "IND",
-   "player_id": "2530530",
-   "player": "T.J. McConnell",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring Strain",
-   "return_date": "2026-11-09",
-   "updated": "2026-11-08T23:24Z",
-   "comment": "McConnell is questionable for Monday's game against the Mavericks due to a right hamstring strain."
+   "team": "HOU",
+   "player_id": "4432827",
+   "player": "Oscar Tshiebwe",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Illness",
+   "return_date": "2026-11-11",
+   "updated": "2026-11-09T17:36Z",
+   "comment": "Tshiebwe has been ruled out for Monday's game against the Nuggets due to an illness."
   },
   {
    "team": "IND",
@@ -465,25 +454,25 @@
   },
   {
    "team": "LAC",
-   "player_id": "4432170",
-   "player": "Isaiah Jackson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin Soreness",
-   "return_date": "2026-11-10",
-   "updated": "2026-11-09T15:58Z",
-   "comment": "Jackson (groin) won't suit up for Sunday's game against the Pelicans, Law Murray of The Athletic reports."
-  },
-  {
-   "team": "LAC",
    "player_id": "3913176",
    "player": "Brandon Ingram",
    "status": "out",
    "status_raw": "Out",
    "injury": "Achilles Surgery",
+   "return_date": "2026-11-13",
+   "updated": "2026-11-10T00:00Z",
+   "comment": "Ingram (Achilles) has been ruled out for Tuesday's game at Phoenix, Ohm Youngmisuk of ESPN.com reports."
+  },
+  {
+   "team": "LAC",
+   "player_id": "4845363",
+   "player": "Cam Christie",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
    "return_date": "2026-11-10",
-   "updated": "2026-11-08T01:11Z",
-   "comment": "Ingram (Achilles) won't play in Sunday's game against New Orleans, Law Murray of The Athletic reports."
+   "updated": "2026-11-09T23:59Z",
+   "comment": "Christie is questionable for Tuesday's game against the Suns due to a right ankle sprain, Ohm Youngmisuk of ESPN.com reports."
   },
   {
    "team": "LAC",
@@ -492,7 +481,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Foot Surgery",
-   "return_date": "2026-11-10",
+   "return_date": "2026-11-17",
    "updated": "2026-11-02T16:12Z",
    "comment": "The Clippers recalled Niederhauser (foot) from the G League's San Diego Clippers on Sunday."
   },
@@ -1015,6 +1004,17 @@
   },
   {
    "team": "UTA",
+   "player_id": "4433627",
+   "player": "Keyonte George",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-11",
+   "updated": "2026-11-10T00:07Z",
+   "comment": "George will not return to Sunday's game against the Timberwolves due to a right ankle injury."
+  },
+  {
+   "team": "UTA",
    "player_id": "4066336",
    "player": "Lauri Markkanen",
    "status": "day-to-day",
@@ -1023,17 +1023,6 @@
    "return_date": "2026-11-10",
    "updated": "2026-11-09T15:46Z",
    "comment": "Markkanen (wrist) is out for Sunday's game against the Timberwolves, Shreyas Laddha of The Salt Lake Tribune reports."
-  },
-  {
-   "team": "UTA",
-   "player_id": "4433627",
-   "player": "Keyonte George",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-11-10",
-   "updated": "2026-11-09T02:24Z",
-   "comment": "George will not return to Sunday's game against the Timberwolves due to a right ankle injury."
   },
   {
    "team": "UTA",

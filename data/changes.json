@@ -1,5 +1,36 @@
 [
  {
+  "kind": "injury_new",
+  "team": "LAC",
+  "player": "Cam Christie",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-09T19:15:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Keyonte George",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-09T19:15:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "T.J. McConnell",
+  "from": "day-to-day",
+  "time": "2026-11-09T19:15:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAC",
+  "player": "Isaiah Jackson",
+  "from": "day-to-day",
+  "time": "2026-11-09T19:15:56-0500"
+ },
+ {
   "kind": "status_change",
   "team": "BKN",
   "player": "Mikel Brown Jr.",
@@ -8005,30 +8036,6 @@
   "player": "Tony Bradley",
   "from": "NYK",
   "to": "UTA",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "MIL",
-  "player": "Johni Broome",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "MIL",
-  "player": "Pete Nance",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "MIL",
-  "player": "Jake Stephens",
-  "time": "2026-10-17T19:54:17-0400"
- },
- {
-  "kind": "released",
-  "team": "PHX",
-  "player": "Kennedy Chandler",
   "time": "2026-10-17T19:54:17-0400"
  }
 ]
