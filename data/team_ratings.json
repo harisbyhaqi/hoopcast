@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T19:16:01-05:00",
+ "generated": "2026-11-09T21:45:58-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -43,7 +43,7 @@
      "rating": 0.6,
      "o": 0.9,
      "d": -0.3,
-     "min": 25.5
+     "min": 25.4
     },
     {
      "player": "Aaron Wiggins",
@@ -309,14 +309,14 @@
      "rating": 0.5,
      "o": -0.4,
      "d": 0.9,
-     "min": 23.9
+     "min": 24.0
     },
     {
      "player": "Naz Reid",
      "rating": -0.8,
      "o": -0.8,
      "d": -0.1,
-     "min": 19.1
+     "min": 19.2
     },
     {
      "player": "Royce O'Neale",
@@ -330,7 +330,7 @@
      "rating": -2.9,
      "o": -1.6,
      "d": -1.3,
-     "min": 9.9
+     "min": 9.8
     }
    ]
   },
@@ -419,16 +419,16 @@
    ]
   },
   "CLE": {
-   "roster": 1.77,
+   "roster": 1.75,
    "market": 2.59,
-   "prior": 2.18,
+   "prior": 2.17,
    "rotation": [
     {
      "player": "Donovan Mitchell",
      "rating": 3.9,
      "o": 4.5,
      "d": -0.6,
-     "min": 33.6
+     "min": 33.5
     },
     {
      "player": "James Harden",
@@ -449,7 +449,7 @@
      "rating": 2.9,
      "o": 1.0,
      "d": 1.9,
-     "min": 30.8
+     "min": 30.7
     },
     {
      "player": "Sam Merrill",
@@ -484,21 +484,21 @@
      "rating": -0.8,
      "o": -0.6,
      "d": -0.2,
-     "min": 13.9
+     "min": 14.0
     },
     {
      "player": "Mario Hezonja",
      "rating": -1.0,
      "o": -1.0,
      "d": -0.1,
-     "min": 13.2
+     "min": 13.0
     },
     {
      "player": "Meleek Thomas",
      "rating": -1.8,
      "o": -1.2,
      "d": -0.5,
-     "min": 4.1
+     "min": 4.2
     }
    ]
   },
@@ -708,7 +708,7 @@
      "rating": 1.7,
      "o": -0.1,
      "d": 1.8,
-     "min": 23.2
+     "min": 23.3
     },
     {
      "player": "Javonte Green",
@@ -736,7 +736,7 @@
      "rating": 0.2,
      "o": -0.3,
      "d": 0.5,
-     "min": 17.7
+     "min": 17.8
     },
     {
      "player": "Ronald Holland II",
@@ -1077,7 +1077,7 @@
    ]
   },
   "LAL": {
-   "roster": 3.19,
+   "roster": 3.2,
    "market": 1.67,
    "prior": 2.43,
    "rotation": [
@@ -1100,7 +1100,7 @@
      "rating": 1.8,
      "o": 0.6,
      "d": 1.2,
-     "min": 29.3
+     "min": 29.4
     },
     {
      "player": "Matisse Thybulle",
@@ -1128,7 +1128,7 @@
      "rating": 0.7,
      "o": -1.2,
      "d": 1.9,
-     "min": 20.6
+     "min": 20.5
     },
     {
      "player": "Ziaire Williams",
@@ -1149,7 +1149,7 @@
      "rating": -0.7,
      "o": -0.2,
      "d": -0.5,
-     "min": 14.9
+     "min": 14.8
     }
    ]
   },
@@ -2337,7 +2337,7 @@
    ]
   },
   "WAS": {
-   "roster": -3.41,
+   "roster": -3.4,
    "market": -2.04,
    "prior": -2.72,
    "rotation": [
@@ -2360,7 +2360,7 @@
      "rating": 0.6,
      "o": -0.4,
      "d": 1.0,
-     "min": 28.5
+     "min": 28.4
     },
     {
      "player": "Justin Champagnie",
@@ -2374,7 +2374,7 @@
      "rating": -0.8,
      "o": -0.5,
      "d": -0.3,
-     "min": 24.1
+     "min": 24.2
     },
     {
      "player": "Jamir Watkins",
@@ -2388,7 +2388,7 @@
      "rating": -1.7,
      "o": -1.1,
      "d": -0.7,
-     "min": 21.8
+     "min": 22.1
     },
     {
      "player": "Alex Sarr",
@@ -2409,7 +2409,7 @@
      "rating": -1.9,
      "o": -1.5,
      "d": -0.5,
-     "min": 7.9
+     "min": 7.5
     }
    ]
   }
