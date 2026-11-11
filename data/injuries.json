@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T19:45:49-0500",
+ "generated": "2026-11-10T20:45:46-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -399,6 +399,17 @@
   },
   {
    "team": "LAC",
+   "player_id": "4845363",
+   "player": "Cam Christie",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle",
+   "return_date": "2026-11-13",
+   "updated": "2026-11-11T01:37Z",
+   "comment": "Christie is questionable for Tuesday's game against the Suns due to a right ankle sprain, Ohm Youngmisuk of ESPN.com reports."
+  },
+  {
+   "team": "LAC",
    "player_id": "5108024",
    "player": "Yanic Konan Niederhauser",
    "status": "out",
@@ -418,17 +429,6 @@
    "return_date": "2026-11-13",
    "updated": "2026-11-10T00:00Z",
    "comment": "Ingram (Achilles) has been ruled out for Tuesday's game at Phoenix, Ohm Youngmisuk of ESPN.com reports."
-  },
-  {
-   "team": "LAC",
-   "player_id": "4845363",
-   "player": "Cam Christie",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-11-10",
-   "updated": "2026-11-09T23:59Z",
-   "comment": "Christie is questionable for Tuesday's game against the Suns due to a right ankle sprain, Ohm Youngmisuk of ESPN.com reports."
   },
   {
    "team": "LAC",
@@ -506,17 +506,6 @@
    "return_date": "2026-12-01",
    "updated": "2026-11-07T17:24Z",
    "comment": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports."
-  },
-  {
-   "team": "MIA",
-   "player_id": "3032977",
-   "player": "Giannis Antetokounmpo",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Wrist Sprain",
-   "return_date": "2026-11-10",
-   "updated": "2026-11-11T00:24Z",
-   "comment": "Antetokounmpo (wrist) is questionable for Tuesday's game against the Jazz."
   },
   {
    "team": "MIL",
@@ -654,11 +643,11 @@
    "team": "ORL",
    "player_id": "4702382",
    "player": "Tristan da Silva",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Calf Strain",
-   "return_date": "2026-11-10",
-   "updated": "2026-11-10T16:50Z",
+   "return_date": "2026-11-11",
+   "updated": "2026-11-11T01:31Z",
    "comment": "Da Silva is questionable for Tuesday's game against the Kings due to a left calf strain."
   },
   {

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T19:45:49-0500",
+ "generated": "2026-11-10T20:45:46-0500",
  "teams": {
   "ATL": [
    {
@@ -1391,6 +1391,12 @@
     "jersey": "43"
    },
    {
+    "player_id": "5105817",
+    "player": "Carson Cooper",
+    "position": "C",
+    "jersey": ""
+   },
+   {
     "player_id": "3945274",
     "player": "Luka Doncic",
     "position": "G",
@@ -1437,12 +1443,6 @@
     "player": "Kevon Looney",
     "position": "F",
     "jersey": "55"
-   },
-   {
-    "player_id": "4596528",
-    "player": "Lawson Lovering",
-    "position": "C",
-    "jersey": ""
    },
    {
     "player_id": "4278580",
@@ -1505,12 +1505,6 @@
     "player": "Cameron Boozer",
     "position": "F",
     "jersey": "27"
-   },
-   {
-    "player_id": "5105817",
-    "player": "Carson Cooper",
-    "position": "C",
-    "jersey": "20"
    },
    {
     "player_id": "4903027",
