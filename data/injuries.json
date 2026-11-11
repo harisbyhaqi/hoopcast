@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T20:45:46-0500",
+ "generated": "2026-11-10T21:45:56-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -405,8 +405,8 @@
    "status_raw": "Out",
    "injury": "Ankle",
    "return_date": "2026-11-13",
-   "updated": "2026-11-11T01:37Z",
-   "comment": "Christie is questionable for Tuesday's game against the Suns due to a right ankle sprain, Ohm Youngmisuk of ESPN.com reports."
+   "updated": "2026-11-11T01:39Z",
+   "comment": "Christie (ankle) is listed as out for Tuesday's game against Phoenix."
   },
   {
    "team": "LAC",
@@ -647,8 +647,8 @@
    "status_raw": "Out",
    "injury": "Calf Strain",
    "return_date": "2026-11-11",
-   "updated": "2026-11-11T01:31Z",
-   "comment": "Da Silva is questionable for Tuesday's game against the Kings due to a left calf strain."
+   "updated": "2026-11-11T01:34Z",
+   "comment": "Da Silva (calf) has been ruled out for Tuesday's game against the Kings, Jason Beede of the Orlando Sentinel reports."
   },
   {
    "team": "ORL",
