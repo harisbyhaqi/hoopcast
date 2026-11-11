@@ -1,5 +1,41 @@
 [
  {
+  "kind": "status_change",
+  "team": "LAC",
+  "player": "Cam Christie",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-11T10:01:00-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAC",
+  "player": "Precious Achiuwa",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Lower Leg Bruise",
+  "time": "2026-11-11T10:01:00-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Keyonte George",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-11T10:01:00-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Lauri Markkanen",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Wrist Sprain",
+  "time": "2026-11-11T10:01:00-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "SAC",
   "player": "Precious Achiuwa",
@@ -8076,37 +8112,5 @@
   "player": "Jase Richardson",
   "from": "day-to-day",
   "time": "2026-10-20T18:28:18-0400"
- },
- {
-  "kind": "cleared",
-  "team": "UTA",
-  "player": "Kyle Filipowski",
-  "from": "day-to-day",
-  "time": "2026-10-20T18:28:18-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "CHI",
-  "player": "Jordan Hawkins",
-  "to": "out",
-  "injury": "Illness",
-  "time": "2026-10-20T14:11:48-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "CHI",
-  "player": "Dailyn Swain",
-  "to": "out",
-  "injury": "Illness",
-  "time": "2026-10-20T14:11:48-0400"
- },
- {
-  "kind": "status_change",
-  "team": "CLE",
-  "player": "Nae'Qwan Tomlin",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Back",
-  "time": "2026-10-20T14:11:48-0400"
  }
 ]
