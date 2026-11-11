@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T21:46:00-05:00",
+ "generated": "2026-11-10T22:45:59-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -99,7 +99,7 @@
      "rating": 4.9,
      "o": 4.9,
      "d": 0.0,
-     "min": 34.8
+     "min": 34.7
     },
     {
      "player": "Paul George",
@@ -174,7 +174,7 @@
    ]
   },
   "BKN": {
-   "roster": -5.19,
+   "roster": -5.18,
    "market": -6.3,
    "prior": -5.74,
    "rotation": [
@@ -1322,7 +1322,7 @@
    ]
   },
   "MIL": {
-   "roster": -5.7,
+   "roster": -5.69,
    "market": -5.74,
    "prior": -5.72,
    "rotation": [
@@ -1359,7 +1359,7 @@
      "rating": -0.1,
      "o": 0.2,
      "d": -0.4,
-     "min": 25.1
+     "min": 25.0
     },
     {
      "player": "Jaime Jaquez Jr.",
@@ -1373,7 +1373,7 @@
      "rating": -0.2,
      "o": 0.3,
      "d": -0.5,
-     "min": 22.5
+     "min": 22.7
     },
     {
      "player": "Kel'el Ware",
@@ -1401,12 +1401,12 @@
      "rating": -1.6,
      "o": -1.3,
      "d": -0.3,
-     "min": 4.5
+     "min": 4.3
     }
    ]
   },
   "MIN": {
-   "roster": 5.15,
+   "roster": 5.16,
    "market": 2.59,
    "prior": 3.87,
    "rotation": [
@@ -1569,7 +1569,7 @@
      "rating": 3.1,
      "o": 1.6,
      "d": 1.4,
-     "min": 33.8
+     "min": 33.7
     },
     {
      "player": "Karl-Anthony Towns",
@@ -1611,28 +1611,28 @@
      "rating": 0.2,
      "o": 0.0,
      "d": 0.2,
-     "min": 19.6
+     "min": 19.7
     },
     {
      "player": "Jose Alvarado",
      "rating": 0.1,
      "o": -0.5,
      "d": 0.6,
-     "min": 18.3
+     "min": 18.2
     },
     {
      "player": "Dalton Knecht",
      "rating": -0.7,
      "o": 0.1,
      "d": -0.8,
-     "min": 13.5
+     "min": 13.4
     },
     {
      "player": "Andre Drummond",
      "rating": -1.1,
      "o": -2.5,
      "d": 1.4,
-     "min": 2.9
+     "min": 3.1
     }
    ]
   },
@@ -1800,7 +1800,7 @@
   "PHI": {
    "roster": 2.11,
    "market": 3.52,
-   "prior": 2.82,
+   "prior": 2.81,
    "rotation": [
     {
      "player": "Tyrese Maxey",
@@ -1863,12 +1863,12 @@
      "rating": -1.8,
      "o": 0.0,
      "d": -1.8,
-     "min": 12.7
+     "min": 12.8
     }
    ]
   },
   "PHX": {
-   "roster": -2.65,
+   "roster": -2.64,
    "market": -0.19,
    "prior": -1.42,
    "rotation": [
@@ -2339,7 +2339,7 @@
   "WAS": {
    "roster": -3.61,
    "market": -2.04,
-   "prior": -2.83,
+   "prior": -2.82,
    "rotation": [
     {
      "player": "Anthony Davis",
