@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T10:00:54-0500",
+ "generated": "2026-11-10T19:15:51-0500",
  "teams": {
   "ATL": [
    {
@@ -899,12 +899,6 @@
     "player": "Isaac Jones",
     "position": "C",
     "jersey": "13"
-   },
-   {
-    "player_id": "4700852",
-    "player": "Chaz Lanier",
-    "position": "G",
-    "jersey": "8"
    },
    {
     "player_id": "5258459",
@@ -1865,12 +1859,6 @@
     "player": "Anthony Edwards",
     "position": "G",
     "jersey": "5"
-   },
-   {
-    "player_id": "5061585",
-    "player": "Isaiah Evans",
-    "position": "F",
-    "jersey": "33"
    },
    {
     "player_id": "3032976",
