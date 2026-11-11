@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T19:15:51-0500",
+ "generated": "2026-11-10T19:45:49-0500",
  "teams": {
   "ATL": [
    {
@@ -117,6 +117,12 @@
     "player": "Devin Carter",
     "position": "G",
     "jersey": "99"
+   },
+   {
+    "player_id": "5142621",
+    "player": "Chris Cenac Jr.",
+    "position": "F",
+    "jersey": "12"
    },
    {
     "player_id": "3195",

@@ -1,5 +1,11 @@
 [
  {
+  "kind": "signed",
+  "team": "BOS",
+  "player": "Chris Cenac Jr.",
+  "time": "2026-11-10T19:45:49-0500"
+ },
+ {
   "kind": "released",
   "team": "DET",
   "player": "Chaz Lanier",
@@ -8098,12 +8104,6 @@
   "kind": "released",
   "team": "LAL",
   "player": "Dalton Knecht",
-  "time": "2026-10-19T21:00:00-0400"
- },
- {
-  "kind": "released",
-  "team": "PHX",
-  "player": "Koby Brea",
   "time": "2026-10-19T21:00:00-0400"
  }
 ]
