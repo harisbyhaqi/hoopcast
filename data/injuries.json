@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T20:45:49-0500",
+ "generated": "2026-11-11T21:15:50-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -344,6 +344,17 @@
   },
   {
    "team": "IND",
+   "player_id": "4396909",
+   "player": "Aaron Nesmith",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Soreness",
+   "return_date": "2026-11-13",
+   "updated": "2026-11-12T01:59Z",
+   "comment": "Nesmith will not return to Wednesday's game against the Wizards due to right knee soreness. He'll finish with two points (1-6 FG, 0-4 3Pt), one rebound and one assist across 22 minutes."
+  },
+  {
+   "team": "IND",
    "player_id": "4396993",
    "player": "Tyrese Haliburton",
    "status": "out",
@@ -619,6 +630,17 @@
   },
   {
    "team": "ORL",
+   "player_id": "4702382",
+   "player": "Tristan da Silva",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Strain",
+   "return_date": "2026-11-13",
+   "updated": "2026-11-12T01:33Z",
+   "comment": "Da Silva (calf) is listed as out for Wednesday's game versus the Jazz."
+  },
+  {
+   "team": "ORL",
    "player_id": "4278572",
    "player": "Jamal Cain",
    "status": "out",
@@ -627,17 +649,6 @@
    "return_date": "2026-11-13",
    "updated": "2026-11-12T01:28Z",
    "comment": "Cain (shoulder) is out for Wednesday's game in Utah."
-  },
-  {
-   "team": "ORL",
-   "player_id": "4702382",
-   "player": "Tristan da Silva",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Calf Strain",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T01:28Z",
-   "comment": "Da Silva (calf) is listed as questionable for Wednesday's game at Utah."
   },
   {
    "team": "ORL",
