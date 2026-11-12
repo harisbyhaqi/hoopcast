@@ -1,6 +1,14 @@
 [
  {
   "kind": "injury_new",
+  "team": "LAL",
+  "player": "Austin Reaves",
+  "to": "day-to-day",
+  "injury": "Undisclosed",
+  "time": "2026-11-11T21:46:00-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "IND",
   "player": "Aaron Nesmith",
   "to": "day-to-day",
@@ -8106,15 +8114,6 @@
   "player": "Deni Avdija",
   "to": "day-to-day",
   "injury": "Ankle Not Specified",
-  "time": "2026-10-21T10:54:16-0400"
- },
- {
-  "kind": "status_change",
-  "team": "SAS",
-  "player": "Tobias Harris",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Calf Strain",
   "time": "2026-10-21T10:54:16-0400"
  }
 ]

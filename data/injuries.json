@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T21:15:50-0500",
+ "generated": "2026-11-11T21:46:00-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -440,6 +440,17 @@
    "return_date": "2027-03-02",
    "updated": "2026-08-26T20:04Z",
    "comment": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic."
+  },
+  {
+   "team": "LAL",
+   "player_id": "4066457",
+   "player": "Austin Reaves",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Undisclosed",
+   "return_date": "2026-11-11",
+   "updated": "2026-11-12T02:41Z",
+   "comment": "Reaves exited Wednesday's game against the Bucks with an undisclosed injury, Khobi Price of The California Post reports."
   },
   {
    "team": "LAL",

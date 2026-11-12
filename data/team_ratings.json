@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T21:15:55-05:00",
+ "generated": "2026-11-11T21:46:07-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -426,7 +426,7 @@
    ]
   },
   "CLE": {
-   "roster": 1.77,
+   "roster": 1.78,
    "market": 2.59,
    "prior": 2.18,
    "rotation": [
@@ -442,7 +442,7 @@
      "rating": 2.2,
      "o": 2.7,
      "d": -0.5,
-     "min": 31.9
+     "min": 31.8
     },
     {
      "player": "Evan Mobley",
@@ -491,21 +491,21 @@
      "rating": -1.3,
      "o": -0.8,
      "d": -0.5,
-     "min": 14.5
+     "min": 14.4
     },
     {
      "player": "Tyrese Proctor",
      "rating": -0.9,
      "o": -0.6,
      "d": -0.3,
-     "min": 14.0
+     "min": 14.1
     },
     {
      "player": "Craig Porter Jr.",
      "rating": -1.1,
      "o": -1.6,
      "d": 0.6,
-     "min": 2.8
+     "min": 2.7
     }
    ]
   },
@@ -946,7 +946,7 @@
      "rating": 0.5,
      "o": 1.5,
      "d": -1.0,
-     "min": 24.5
+     "min": 24.4
     },
     {
      "player": "Aaron Nesmith",
@@ -960,7 +960,7 @@
      "rating": 0.4,
      "o": -1.3,
      "d": 1.7,
-     "min": 21.5
+     "min": 21.4
     },
     {
      "player": "Quenton Jackson",
@@ -974,21 +974,21 @@
      "rating": -1.0,
      "o": -0.3,
      "d": -0.7,
-     "min": 18.7
+     "min": 18.8
     },
     {
      "player": "Andrew Nembhard",
      "rating": -0.9,
      "o": 0.5,
      "d": -1.4,
-     "min": 18.5
+     "min": 18.6
     },
     {
      "player": "Jay Huff",
      "rating": -0.5,
      "o": -0.9,
      "d": 0.4,
-     "min": 15.5
+     "min": 15.6
     }
    ]
   },
@@ -1597,7 +1597,7 @@
      "rating": 0.3,
      "o": 0.3,
      "d": -0.0,
-     "min": 29.1
+     "min": 29.0
     },
     {
      "player": "Miles McBride",
@@ -2220,7 +2220,7 @@
      "rating": 0.9,
      "o": -0.1,
      "d": 1.0,
-     "min": 23.0
+     "min": 22.9
     },
     {
      "player": "Jamal Shead",
@@ -2234,7 +2234,7 @@
      "rating": -0.1,
      "o": -0.6,
      "d": 0.5,
-     "min": 18.8
+     "min": 18.9
     },
     {
      "player": "Malachi Smith",
@@ -2248,7 +2248,7 @@
      "rating": -1.0,
      "o": -1.0,
      "d": 0.0,
-     "min": 6.0
+     "min": 5.9
     }
    ]
   },
@@ -2339,7 +2339,7 @@
   "WAS": {
    "roster": -3.61,
    "market": -2.04,
-   "prior": -2.82,
+   "prior": -2.83,
    "rotation": [
     {
      "player": "Anthony Davis",
@@ -2370,18 +2370,18 @@
      "min": 26.6
     },
     {
+     "player": "AJ Dybantsa",
+     "rating": -1.7,
+     "o": -0.6,
+     "d": -1.1,
+     "min": 24.2
+    },
+    {
      "player": "Kyshawn George",
      "rating": -1.0,
      "o": -0.6,
      "d": -0.4,
      "min": 24.2
-    },
-    {
-     "player": "AJ Dybantsa",
-     "rating": -1.7,
-     "o": -0.6,
-     "d": -1.1,
-     "min": 24.1
     },
     {
      "player": "Jamir Watkins",
@@ -2409,7 +2409,7 @@
      "rating": -1.9,
      "o": -1.5,
      "d": -0.5,
-     "min": 7.5
+     "min": 7.4
     }
    ]
   }
