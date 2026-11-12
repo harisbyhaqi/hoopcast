@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T19:45:51-0500",
+ "generated": "2026-11-11T20:45:49-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -264,17 +264,6 @@
    "return_date": "2026-11-24",
    "updated": "2026-11-08T16:05Z",
    "comment": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4897262",
-   "player": "Will Richard",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Thumb",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-11T19:09Z",
-   "comment": "Richard (thumb) has been upgraded to probable for Wednesday's game at Houston."
   },
   {
    "team": "GSW",
@@ -632,22 +621,22 @@
    "team": "ORL",
    "player_id": "4278572",
    "player": "Jamal Cain",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Shoulder Bruise",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-11T19:50Z",
-   "comment": "Cain is questionable for Wednesday's game against the Jazz due to a left shoulder contusion."
+   "return_date": "2026-11-13",
+   "updated": "2026-11-12T01:28Z",
+   "comment": "Cain (shoulder) is out for Wednesday's game in Utah."
   },
   {
    "team": "ORL",
    "player_id": "4702382",
    "player": "Tristan da Silva",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Calf Strain",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-11T19:50Z",
+   "return_date": "2026-11-13",
+   "updated": "2026-11-12T01:28Z",
    "comment": "Da Silva (calf) is listed as questionable for Wednesday's game at Utah."
   },
   {
@@ -924,17 +913,6 @@
    "return_date": "2026-11-15",
    "updated": "2026-11-08T21:20Z",
    "comment": "Bittle (foot) is listed as out for Monday's game against Memphis."
-  },
-  {
-   "team": "UTA",
-   "player_id": "4433627",
-   "player": "Keyonte George",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-11T20:04Z",
-   "comment": "George (ankle) is questionable for Wednesday's game against Orlando."
   },
   {
    "team": "UTA",

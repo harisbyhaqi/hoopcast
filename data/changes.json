@@ -1,6 +1,38 @@
 [
  {
   "kind": "status_change",
+  "team": "ORL",
+  "player": "Jamal Cain",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Shoulder Bruise",
+  "time": "2026-11-11T20:45:49-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "ORL",
+  "player": "Tristan da Silva",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Calf Strain",
+  "time": "2026-11-11T20:45:49-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Will Richard",
+  "from": "day-to-day",
+  "time": "2026-11-11T20:45:49-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "UTA",
+  "player": "Keyonte George",
+  "from": "day-to-day",
+  "time": "2026-11-11T20:45:49-0500"
+ },
+ {
+  "kind": "status_change",
   "team": "CHA",
   "player": "Brandon Miller",
   "from": "day-to-day",
@@ -8081,34 +8113,6 @@
   "kind": "cleared",
   "team": "LAL",
   "player": "Bronny James",
-  "from": "day-to-day",
-  "time": "2026-10-21T10:54:16-0400"
- },
- {
-  "kind": "cleared",
-  "team": "LAL",
-  "player": "Jarred Vanderbilt",
-  "from": "day-to-day",
-  "time": "2026-10-21T10:54:16-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "Adem Bona",
-  "from": "day-to-day",
-  "time": "2026-10-21T10:54:16-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "Anfernee Simons",
-  "from": "day-to-day",
-  "time": "2026-10-21T10:54:16-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHX",
-  "player": "Oso Ighodaro",
   "from": "day-to-day",
   "time": "2026-10-21T10:54:16-0400"
  }
