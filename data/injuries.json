@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T18:45:56-0500",
+ "generated": "2026-11-11T19:45:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -80,14 +80,14 @@
   },
   {
    "team": "CHA",
-   "player_id": "4433287",
-   "player": "Brandon Miller",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin Soreness",
+   "player_id": "4066218",
+   "player": "Grant Williams",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring",
    "return_date": "2026-11-12",
-   "updated": "2026-11-10T02:51Z",
-   "comment": "Miller (groin) is listed as out for Monday's game against Cleveland."
+   "updated": "2026-11-12T00:12Z",
+   "comment": "Williams (hamstring) is listed as probable for Thursday's game against the Suns."
   },
   {
    "team": "CHA",
@@ -97,19 +97,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Quadriceps",
    "return_date": "2026-11-12",
-   "updated": "2026-11-10T02:51Z",
-   "comment": "Diabate (quadriceps) has been downgraded to out for Monday's game against Cleveland."
+   "updated": "2026-11-12T00:10Z",
+   "comment": "Diabate (quadriceps) is listed as probable for Thursday's game against the Suns."
   },
   {
    "team": "CHA",
-   "player_id": "4066218",
-   "player": "Grant Williams",
+   "player_id": "4433287",
+   "player": "Brandon Miller",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Hamstring",
-   "return_date": "2026-11-12",
-   "updated": "2026-11-08T22:35Z",
-   "comment": "Williams (hamstring) is out for Monday's game against the Cavaliers."
+   "injury": "Groin Soreness",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-12T00:06Z",
+   "comment": "Miller (groin) is listed as out for Thursday's game against Phoenix."
   },
   {
    "team": "CHA",
@@ -137,12 +137,12 @@
    "team": "CHI",
    "player_id": "4848625",
    "player": "Dailyn Swain",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Back",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-11T23:28Z",
-   "comment": "Swain (back) has been downgraded to questionable for Wednesday's game against the Spurs."
+   "return_date": "2026-11-13",
+   "updated": "2026-11-12T00:21Z",
+   "comment": "Swain (back) is out for Wednesday's game against the Spurs."
   },
   {
    "team": "CHI",
@@ -165,28 +165,6 @@
    "return_date": "2026-11-13",
    "updated": "2026-11-11T19:18Z",
    "comment": "Awaka (back) has been ruled out for Wednesday's game against the Spurs."
-  },
-  {
-   "team": "CHI",
-   "player_id": "5095151",
-   "player": "Caleb Wilson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip Soreness",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-11T18:21Z",
-   "comment": "Wilson has been downgraded to questionable for Wednesday's game against the Spurs due to right hip soreness."
-  },
-  {
-   "team": "CHI",
-   "player_id": "4066650",
-   "player": "Zach Collins",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-10T22:19Z",
-   "comment": "Collins (illness) is questionable for Wednesday's game against the Spurs."
   },
   {
    "team": "CLE",
@@ -476,17 +454,6 @@
   },
   {
    "team": "MEM",
-   "player_id": "4432810",
-   "player": "Isaiah Stewart",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Bruise",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-10T23:13Z",
-   "comment": "Stewart (knee) is listed as questionable for Wednesday's game versus the Nuggets."
-  },
-  {
-   "team": "MEM",
    "player_id": "4431785",
    "player": "Scotty Pippen Jr.",
    "status": "out",
@@ -517,17 +484,6 @@
    "return_date": "2026-12-01",
    "updated": "2026-11-07T17:24Z",
    "comment": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports."
-  },
-  {
-   "team": "MIL",
-   "player_id": "4395725",
-   "player": "Tyler Herro",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Bruise",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-11T19:05Z",
-   "comment": "Herro (knee) is listed as questionable for Wednesday's game against the Lakers."
   },
   {
    "team": "MIL",
@@ -564,6 +520,17 @@
   },
   {
    "team": "NOP",
+   "player_id": "4397688",
+   "player": "Trey Murphy III",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Tendinitis",
+   "return_date": "2026-11-13",
+   "updated": "2026-11-11T23:50Z",
+   "comment": "Murphy (knee) is listed as out for Wednesday's game against the Nets."
+  },
+  {
+   "team": "NOP",
    "player_id": "4683634",
    "player": "Bennedict Mathurin",
    "status": "out",
@@ -572,17 +539,6 @@
    "return_date": "2026-11-13",
    "updated": "2026-11-11T16:55Z",
    "comment": "Mathurin has been ruled out for Wednesday's game against the Nets due to a right thumb sprain."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4397688",
-   "player": "Trey Murphy III",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Tendinitis",
-   "return_date": "2026-11-11",
-   "updated": "2026-11-11T16:53Z",
-   "comment": "Murphy (knee) is doubtful for Wednesday's game against the Nets."
   },
   {
    "team": "NOP",
