@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T23:01:00-05:00",
+ "generated": "2026-11-12T02:00:55-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -265,7 +265,7 @@
    ]
   },
   "CHA": {
-   "roster": -2.15,
+   "roster": -2.16,
    "market": -0.74,
    "prior": -1.45,
    "rotation": [
@@ -342,7 +342,7 @@
    ]
   },
   "CHI": {
-   "roster": -6.89,
+   "roster": -6.9,
    "market": -4.63,
    "prior": -5.76,
    "rotation": [
@@ -762,7 +762,7 @@
    ]
   },
   "GSW": {
-   "roster": 2.52,
+   "roster": 2.51,
    "market": -0.37,
    "prior": 1.07,
    "rotation": [
@@ -771,7 +771,7 @@
      "rating": 3.0,
      "o": 4.2,
      "d": -1.2,
-     "min": 32.9
+     "min": 32.8
     },
     {
      "player": "Jimmy Butler III",
@@ -802,17 +802,17 @@
      "min": 23.2
     },
     {
-     "player": "Brandin Podziemski",
-     "rating": 0.9,
-     "o": 0.7,
-     "d": 0.2,
-     "min": 21.9
-    },
-    {
      "player": "Yaxel Lendeborg",
      "rating": 0.7,
      "o": 1.2,
      "d": -0.5,
+     "min": 22.0
+    },
+    {
+     "player": "Brandin Podziemski",
+     "rating": 0.9,
+     "o": 0.7,
+     "d": 0.2,
      "min": 21.9
     },
     {
@@ -827,19 +827,19 @@
      "rating": 0.9,
      "o": 0.4,
      "d": 0.5,
-     "min": 18.5
+     "min": 18.4
     },
     {
      "player": "Draymond Green",
      "rating": -0.1,
      "o": -2.3,
      "d": 2.2,
-     "min": 14.4
+     "min": 14.3
     }
    ]
   },
   "HOU": {
-   "roster": 4.78,
+   "roster": 4.77,
    "market": 2.41,
    "prior": 3.59,
    "rotation": [
@@ -862,7 +862,7 @@
      "rating": 1.4,
      "o": 0.4,
      "d": 1.0,
-     "min": 31.2
+     "min": 31.1
     },
     {
      "player": "Amen Thompson",
@@ -876,7 +876,7 @@
      "rating": 1.4,
      "o": -0.4,
      "d": 1.7,
-     "min": 24.5
+     "min": 24.4
     },
     {
      "player": "Steven Adams",
@@ -890,7 +890,7 @@
      "rating": 1.9,
      "o": 1.3,
      "d": 0.6,
-     "min": 22.7
+     "min": 22.6
     },
     {
      "player": "Jabari Smith Jr.",
@@ -911,7 +911,7 @@
      "rating": 0.9,
      "o": 0.6,
      "d": 0.3,
-     "min": 0.6
+     "min": 0.9
     }
    ]
   },
@@ -1238,7 +1238,7 @@
    ]
   },
   "MIA": {
-   "roster": -0.78,
+   "roster": -0.79,
    "market": 2.04,
    "prior": 0.63,
    "rotation": [
@@ -1637,7 +1637,7 @@
    ]
   },
   "OKC": {
-   "roster": 7.87,
+   "roster": 7.88,
    "market": 7.22,
    "prior": 7.55,
    "rotation": [
@@ -1660,14 +1660,14 @@
      "rating": 2.4,
      "o": -0.6,
      "d": 3.1,
-     "min": 27.3
+     "min": 27.4
     },
     {
      "player": "Alex Caruso",
      "rating": 2.5,
      "o": 0.1,
      "d": 2.4,
-     "min": 26.2
+     "min": 26.3
     },
     {
      "player": "Jalen Williams",
@@ -1709,19 +1709,19 @@
      "rating": -0.7,
      "o": 0.1,
      "d": -0.8,
-     "min": 13.0
+     "min": 13.3
     },
     {
      "player": "Nique Clifford",
      "rating": -1.8,
      "o": -1.6,
      "d": -0.2,
-     "min": 3.0
+     "min": 2.6
     }
    ]
   },
   "ORL": {
-   "roster": 0.4,
+   "roster": 0.41,
    "market": 0.93,
    "prior": 0.67,
    "rotation": [
@@ -1772,7 +1772,7 @@
      "rating": 0.4,
      "o": -0.6,
      "d": 1.0,
-     "min": 20.4
+     "min": 20.5
     },
     {
      "player": "Jonathan Isaac",
@@ -1793,7 +1793,7 @@
      "rating": -1.8,
      "o": -2.0,
      "d": 0.2,
-     "min": 9.4
+     "min": 9.3
     }
    ]
   },
@@ -1982,7 +1982,7 @@
      "rating": 0.6,
      "o": 2.0,
      "d": -1.4,
-     "min": 27.5
+     "min": 27.4
     },
     {
      "player": "Donovan Clingan",
@@ -2307,6 +2307,13 @@
      "min": 22.3
     },
     {
+     "player": "Darryn Peterson",
+     "rating": -1.5,
+     "o": -0.9,
+     "d": -0.5,
+     "min": 15.5
+    },
+    {
      "player": "Keyonte George",
      "rating": -1.6,
      "o": 0.7,
@@ -2321,18 +2328,11 @@
      "min": 15.4
     },
     {
-     "player": "Darryn Peterson",
-     "rating": -1.5,
-     "o": -0.9,
-     "d": -0.5,
-     "min": 15.4
-    },
-    {
      "player": "Ace Bailey",
      "rating": -1.8,
      "o": -0.5,
      "d": -1.2,
-     "min": 11.5
+     "min": 11.4
     }
    ]
   },
