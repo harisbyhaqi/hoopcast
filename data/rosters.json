@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T21:46:00-0500",
+ "generated": "2026-11-11T23:00:54-0500",
  "teams": {
   "ATL": [
    {
@@ -2727,6 +2727,12 @@
     "player": "Daeqwon Plowden",
     "position": "G",
     "jersey": "29"
+   },
+   {
+    "player_id": "2488653",
+    "player": "Mason Plumlee",
+    "position": "C",
+    "jersey": ""
    },
    {
     "player_id": "4898371",
