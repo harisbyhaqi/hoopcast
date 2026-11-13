@@ -1,5 +1,21 @@
 [
  {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Chris Youngblood",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Foot Bruise",
+  "time": "2026-11-12T20:45:55-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "LAC",
+  "player": "Cam Christie",
+  "from": "day-to-day",
+  "time": "2026-11-12T20:45:55-0500"
+ },
+ {
   "kind": "signed",
   "team": "MIN",
   "player": "Isaiah Evans",
@@ -8094,23 +8110,6 @@
   "from": "out",
   "to": "day-to-day",
   "injury": "Ankle Sprain",
-  "time": "2026-10-22T02:00:56-0400"
- },
- {
-  "kind": "status_change",
-  "team": "PHX",
-  "player": "Luke Kennard",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Knee Strain",
-  "time": "2026-10-22T02:00:56-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "PHX",
-  "player": "Oso Ighodaro",
-  "to": "day-to-day",
-  "injury": "Hip",
   "time": "2026-10-22T02:00:56-0400"
  }
 ]

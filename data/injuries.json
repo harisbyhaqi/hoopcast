@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T19:45:56-0500",
+ "generated": "2026-11-12T20:45:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -432,17 +432,6 @@
   },
   {
    "team": "LAC",
-   "player_id": "4845363",
-   "player": "Cam Christie",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-11T14:59Z",
-   "comment": "Christie (ankle) is listed as out for Tuesday's game against Phoenix."
-  },
-  {
-   "team": "LAC",
    "player_id": "5108024",
    "player": "Yanic Konan Niederhauser",
    "status": "out",
@@ -674,14 +663,25 @@
   },
   {
    "team": "OKC",
+   "player_id": "5061603",
+   "player": "Thomas Sorber",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-13T01:07Z",
+   "comment": "Sorber (knee) has been ruled out for Friday's game against the Clippers."
+  },
+  {
+   "team": "OKC",
    "player_id": "4900671",
    "player": "Ajay Mitchell",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Ankle",
+   "injury": "Ankle Sprain",
    "return_date": "2026-11-13",
-   "updated": "2026-11-12T15:04Z",
-   "comment": "Mitchell has been ruled out for Wednesday's game against the Trail Blazers due to a left ankle sprain."
+   "updated": "2026-11-13T01:03Z",
+   "comment": "Mitchell (ankle) is questionable for Friday's game against the Clippers."
   },
   {
    "team": "OKC",
@@ -693,17 +693,6 @@
    "return_date": "2026-11-15",
    "updated": "2026-11-11T21:19Z",
    "comment": "Williams (back) has been ruled out for Wednesday's game against Portland and remains out indefinitely."
-  },
-  {
-   "team": "OKC",
-   "player_id": "5061603",
-   "player": "Thomas Sorber",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-03T22:45Z",
-   "comment": "Sorber (knee) is out for Wednesday's game against the Cavaliers."
   },
   {
    "team": "OKC",
@@ -874,12 +863,12 @@
    "team": "POR",
    "player_id": "4706557",
    "player": "Chris Youngblood",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Foot Bruise",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T15:04Z",
-   "comment": "Youngblood has been ruled out for Wednesday's game against the Thunder."
+   "return_date": "2026-11-16",
+   "updated": "2026-11-13T01:06Z",
+   "comment": "Youngblood (foot) is out for Friday's game against Sacramento."
   },
   {
    "team": "POR",
