@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T10:00:58-05:00",
+ "generated": "2026-11-13T18:45:58-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -267,7 +267,7 @@
   "CHA": {
    "roster": -1.87,
    "market": -0.74,
-   "prior": -1.3,
+   "prior": -1.31,
    "rotation": [
     {
      "player": "Kon Knueppel",
@@ -342,7 +342,7 @@
    ]
   },
   "CHI": {
-   "roster": -6.33,
+   "roster": -6.34,
    "market": -4.63,
    "prior": -5.48,
    "rotation": [
@@ -426,9 +426,9 @@
    ]
   },
   "CLE": {
-   "roster": 1.72,
+   "roster": 1.83,
    "market": 2.59,
-   "prior": 2.15,
+   "prior": 2.21,
    "rotation": [
     {
      "player": "Donovan Mitchell",
@@ -473,39 +473,39 @@
      "min": 18.5
     },
     {
+     "player": "Nae'Qwan Tomlin",
+     "rating": -0.5,
+     "o": -0.5,
+     "d": 0.0,
+     "min": 17.8
+    },
+    {
      "player": "Jaylon Tyson",
      "rating": -0.7,
      "o": -0.3,
      "d": -0.4,
-     "min": 18.3
+     "min": 16.3
     },
     {
      "player": "Peyton Watson",
      "rating": -1.0,
      "o": -0.6,
      "d": -0.4,
-     "min": 16.3
+     "min": 15.3
     },
     {
      "player": "Tyrese Proctor",
      "rating": -0.7,
      "o": -0.3,
      "d": -0.4,
-     "min": 16.1
+     "min": 14.1
     },
     {
-     "player": "Craig Porter Jr.",
-     "rating": -0.9,
-     "o": -1.6,
-     "d": 0.7,
-     "min": 13.0
-    },
-    {
-     "player": "Mario Hezonja",
-     "rating": -1.5,
-     "o": -1.1,
-     "d": -0.4,
-     "min": 6.1
+     "player": "Meleek Thomas",
+     "rating": -1.7,
+     "o": -0.9,
+     "d": -0.9,
+     "min": 6.4
     }
    ]
   },
@@ -587,7 +587,7 @@
    ]
   },
   "DEN": {
-   "roster": 4.01,
+   "roster": 4.0,
    "market": 2.96,
    "prior": 3.48,
    "rotation": [
@@ -671,7 +671,7 @@
    ]
   },
   "DET": {
-   "roster": 2.74,
+   "roster": 2.73,
    "market": 2.96,
    "prior": 2.85,
    "rotation": [
@@ -757,7 +757,7 @@
   "GSW": {
    "roster": 1.92,
    "market": -0.37,
-   "prior": 0.78,
+   "prior": 0.77,
    "rotation": [
     {
      "player": "Stephen Curry",
@@ -839,7 +839,7 @@
    ]
   },
   "HOU": {
-   "roster": 4.91,
+   "roster": 4.9,
    "market": 2.41,
    "prior": 3.66,
    "rotation": [
@@ -1329,7 +1329,7 @@
    ]
   },
   "MIL": {
-   "roster": -6.34,
+   "roster": -6.35,
    "market": -5.74,
    "prior": -6.04,
    "rotation": [
@@ -1644,7 +1644,7 @@
    ]
   },
   "OKC": {
-   "roster": 8.54,
+   "roster": 8.53,
    "market": 7.22,
    "prior": 7.88,
    "rotation": [
@@ -1807,7 +1807,7 @@
   "PHI": {
    "roster": 1.27,
    "market": 3.52,
-   "prior": 2.4,
+   "prior": 2.39,
    "rotation": [
     {
      "player": "Tyrese Maxey",
@@ -1882,9 +1882,9 @@
    ]
   },
   "PHX": {
-   "roster": -2.62,
+   "roster": -2.63,
    "market": -0.19,
-   "prior": -1.4,
+   "prior": -1.41,
    "rotation": [
     {
      "player": "Devin Booker",
@@ -1959,7 +1959,7 @@
    ]
   },
   "POR": {
-   "roster": 1.35,
+   "roster": 1.34,
    "market": 0.56,
    "prior": 0.95,
    "rotation": [
@@ -2036,7 +2036,7 @@
    ]
   },
   "SAC": {
-   "roster": -6.79,
+   "roster": -6.8,
    "market": -7.59,
    "prior": -7.19,
    "rotation": [
@@ -2113,9 +2113,9 @@
    ]
   },
   "SAS": {
-   "roster": 5.88,
+   "roster": 5.87,
    "market": 7.04,
-   "prior": 6.46,
+   "prior": 6.45,
    "rotation": [
     {
      "player": "De'Aaron Fox",
@@ -2183,9 +2183,9 @@
    ]
   },
   "TOR": {
-   "roster": 3.93,
+   "roster": 3.92,
    "market": 1.67,
-   "prior": 2.8,
+   "prior": 2.79,
    "rotation": [
     {
      "player": "Scottie Barnes",
@@ -2262,7 +2262,7 @@
   "UTA": {
    "roster": -4.89,
    "market": -2.04,
-   "prior": -3.46,
+   "prior": -3.47,
    "rotation": [
     {
      "player": "Lauri Markkanen",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T10:00:54-0500",
+ "generated": "2026-11-13T18:45:53-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -36,17 +36,6 @@
   },
   {
    "team": "ATL",
-   "player_id": "5149077",
-   "player": "Kingston Flemings",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T23:04Z",
-   "comment": "Flemings (back) is questionable for Friday's game against the Bulls."
-  },
-  {
-   "team": "ATL",
    "player_id": "5105571",
    "player": "Henri Veesaar",
    "status": "out",
@@ -69,25 +58,25 @@
   },
   {
    "team": "BKN",
-   "player_id": "5279130",
-   "player": "Nolan Traore",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Soreness",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-12T15:02Z",
-   "comment": "Traore (calf) has been ruled out for Wednesday's game against the Pelicans, Ian Begley of SportsNet New York reports."
-  },
-  {
-   "team": "BKN",
    "player_id": "5101761",
    "player": "Mikel Brown Jr.",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Illness Not Specified",
    "return_date": "2026-11-14",
-   "updated": "2026-11-12T15:02Z",
-   "comment": "Brown has been ruled out for Wednesday's game against the Pelicans due to an illness, Sharif Phillips-Keaton of USA Today reports."
+   "updated": "2026-11-13T22:08Z",
+   "comment": "Brown (illness) is listed as questionable for Saturday's game against Memphis."
+  },
+  {
+   "team": "BKN",
+   "player_id": "5279130",
+   "player": "Nolan Traore",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Calf Soreness",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-13T22:07Z",
+   "comment": "Traore (calf) is listed as probable for Saturday's game against Memphis."
   },
   {
    "team": "CHA",
@@ -146,17 +135,6 @@
   },
   {
    "team": "CHI",
-   "player_id": "2595516",
-   "player": "Norman Powell",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder Inflammation",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T21:38Z",
-   "comment": "Powell (shoulder) is questionable for Friday's game against the Hawks."
-  },
-  {
-   "team": "CHI",
    "player_id": "5095151",
    "player": "Caleb Wilson",
    "status": "out",
@@ -187,6 +165,39 @@
    "return_date": "2026-11-16",
    "updated": "2026-11-10T22:12Z",
    "comment": "Merrill (elbow) is listed as out for Wednesday's game against the Knicks."
+  },
+  {
+   "team": "CLE",
+   "player_id": "5106268",
+   "player": "Nae'Qwan Tomlin",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back",
+   "return_date": "2026-11-16",
+   "updated": "2026-10-20T15:11Z",
+   "comment": "Tomlin is set to miss several weeks with a lower back stress reaction, Chris Fedor of The Cleveland Plain Dealer reports."
+  },
+  {
+   "team": "DAL",
+   "player_id": "4432582",
+   "player": "Max Christie",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-13T22:06Z",
+   "comment": "Christie is questionable for Saturday's game against the Cavaliers due to a sprained left ankle."
+  },
+  {
+   "team": "DAL",
+   "player_id": "4873153",
+   "player": "Morez Johnson Jr.",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Lower Leg",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-13T22:05Z",
+   "comment": "Johnson (left shin contusion) is listed as probable for Saturday against Cleveland."
   },
   {
    "team": "DAL",
@@ -239,7 +250,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Foot",
-   "return_date": "2026-11-13",
+   "return_date": "2026-11-14",
    "updated": "2026-11-11T15:16Z",
    "comment": "Onyenso agreed to a two-way contract with the Pistons on Thursday."
   },
@@ -366,28 +377,6 @@
   },
   {
    "team": "IND",
-   "player_id": "2530530",
-   "player": "T.J. McConnell",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring Strain",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T23:08Z",
-   "comment": "McConnell is probable for Friday's game against the Knicks due to a right hamstring strain."
-  },
-  {
-   "team": "IND",
-   "player_id": "4396909",
-   "player": "Aaron Nesmith",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Soreness",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T23:02Z",
-   "comment": "Nesmith (knee) is questionable for Friday's game against the Knicks."
-  },
-  {
-   "team": "IND",
    "player_id": "4396993",
    "player": "Tyrese Haliburton",
    "status": "out",
@@ -471,8 +460,30 @@
    "status_raw": "Day-To-Day",
    "injury": "Finger",
    "return_date": "2026-11-15",
-   "updated": "2026-11-12T15:01Z",
-   "comment": "Grimes (finger) has been ruled out for Wednesday's game against the Bucks."
+   "updated": "2026-11-13T21:26Z",
+   "comment": "Grimes (finger) said he expects to return to action Sunday against the Suns, according to Ricardo Sandoval of Lakers on SI."
+  },
+  {
+   "team": "LAL",
+   "player_id": "4066457",
+   "player": "Austin Reaves",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Heel",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-13T20:40Z",
+   "comment": "Reaves (heel) won't undergo imaging and is considered day-to-day ahead of Sunday's game against the Suns, Jovan Buha of The Athletic reports."
+  },
+  {
+   "team": "LAL",
+   "player_id": "3945274",
+   "player": "Luka Doncic",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-13T20:40Z",
+   "comment": "Head coach JJ Redick said Friday that Doncic (ankle) is \"fine,\" per Law Murray of The Athletic."
   },
   {
    "team": "LAL",
@@ -484,28 +495,6 @@
    "return_date": "2026-11-15",
    "updated": "2026-11-12T04:40Z",
    "comment": "Sexton did not return to Wednesday's 123-112 win over the Bucks and required stitches to close a cut on his forehead, Thuc Nhi Nguyen of the Los Angeles Times reports."
-  },
-  {
-   "team": "LAL",
-   "player_id": "4066457",
-   "player": "Austin Reaves",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Heel",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-12T04:11Z",
-   "comment": "Head coach JJ Redick said that X-rays on Reaves' left heel came back negative, but they won't have another update until he undergoes further imaging back in Los Angeles on Thursday, Dave McMenamin of ESPN.com reports."
-  },
-  {
-   "team": "LAL",
-   "player_id": "3945274",
-   "player": "Luka Doncic",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-12T03:34Z",
-   "comment": "Doncic finished Wednesday's 123-112 win over the Bucks with 32 points (10-25 FG, 5-12 3Pt, 7-10 FT), five rebounds, five assists and three steals across 32 minutes. He exited to the locker room late in the fourth quarter due to an apparent right ankle injury and did not return, Thuc Nhi Nguyen of the Los Angeles Times reports."
   },
   {
    "team": "MEM",
@@ -555,34 +544,23 @@
    "team": "MIA",
    "player_id": "6475",
    "player": "Klay Thompson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle Soreness",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T21:23Z",
-   "comment": "Thompson (ankle) is listed as questionable for Friday's game against the Cavaliers."
-  },
-  {
-   "team": "MIA",
-   "player_id": "3032977",
-   "player": "Giannis Antetokounmpo",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Wrist",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T21:22Z",
-   "comment": "Antetokounmpo (wrist) is probable for Friday's game against Cleveland."
+   "return_date": "2026-11-14",
+   "updated": "2026-11-13T23:21Z",
+   "comment": "Thompson (ankle) is out for Friday's game against the Cavaliers."
   },
   {
    "team": "MIA",
    "player_id": "4601025",
    "player": "Pelle Larsson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Illness",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T21:20Z",
-   "comment": "Larsson (illness) is listed as questionable for Friday's game against Cleveland."
+   "return_date": "2026-11-14",
+   "updated": "2026-11-13T23:04Z",
+   "comment": "Larsson (illness) is out for Friday's game against Cleveland."
   },
   {
    "team": "MIN",
@@ -608,14 +586,58 @@
   },
   {
    "team": "NOP",
+   "player_id": "3907497",
+   "player": "Dejounte Murray",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-13T20:19Z",
+   "comment": "Murray (ankle) is out for Friday's game against Memphis."
+  },
+  {
+   "team": "NOP",
    "player_id": "4576086",
    "player": "Bryce McGowens",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Elbow Infection",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-13T18:12Z",
+   "comment": "McGowens (elbow) is listed as out for Friday's game against the Grizzlies."
+  },
+  {
+   "team": "NOP",
+   "player_id": "5061589",
+   "player": "Yves Missi",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Bruise",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-13T18:11Z",
+   "comment": "Missi (knee) is out for Friday's game against the Grizzlies."
+  },
+  {
+   "team": "NOP",
+   "player_id": "4683634",
+   "player": "Bennedict Mathurin",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Elbow Infection",
+   "injury": "Thumb Sprain",
    "return_date": "2026-11-13",
-   "updated": "2026-11-12T20:56Z",
-   "comment": "McGowens (elbow) is listed as doubtful for Friday's game against the Grizzlies."
+   "updated": "2026-11-13T18:10Z",
+   "comment": "Mathurin (thumb) is listed as questionable for Friday's game against Memphis."
+  },
+  {
+   "team": "NOP",
+   "player_id": "4397688",
+   "player": "Trey Murphy III",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Tendinitis",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-13T18:07Z",
+   "comment": "Murphy (knee) is out for Friday's game against Memphis."
   },
   {
    "team": "NOP",
@@ -627,39 +649,6 @@
    "return_date": "2026-11-14",
    "updated": "2026-11-12T20:53Z",
    "comment": "Watford (ankle) is listed as out for Friday's game against the Grizzlies."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4683634",
-   "player": "Bennedict Mathurin",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Thumb Sprain",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T20:53Z",
-   "comment": "Mathurin (thumb) is listed as doubtful for Friday's game against Memphis."
-  },
-  {
-   "team": "NOP",
-   "player_id": "5061589",
-   "player": "Yves Missi",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Bruise",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T20:50Z",
-   "comment": "Missi (knee) is listed as doubtful for Friday's game against the Grizzlies."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4397688",
-   "player": "Trey Murphy III",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Tendinitis",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T20:48Z",
-   "comment": "Murphy (knee) is listed as doubtful for Friday's game against the Grizzlies."
   },
   {
    "team": "OKC",
@@ -726,39 +715,6 @@
    "return_date": "2027-03-02",
    "updated": "2026-10-28T23:41Z",
    "comment": "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibula and reconstruction of ankle ligaments following a fracture and dislocation.\" He will be re-evaluated before the end of the regular season, Tim MacMahon of ESPN.com reports."
-  },
-  {
-   "team": "ORL",
-   "player_id": "4702382",
-   "player": "Tristan da Silva",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Strain",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T22:07Z",
-   "comment": "Da Silva (calf) is questionable for Friday's game against Milwaukee."
-  },
-  {
-   "team": "ORL",
-   "player_id": "4278572",
-   "player": "Jamal Cain",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder Bruise",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T22:04Z",
-   "comment": "Cain (shoulder) is questionable for Friday's game against the Bucks."
-  },
-  {
-   "team": "ORL",
-   "player_id": "4432165",
-   "player": "Jalen Suggs",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T22:03Z",
-   "comment": "Suggs (knee) is questionable for Friday's game against Milwaukee."
   },
   {
    "team": "ORL",
@@ -850,6 +806,17 @@
   },
   {
    "team": "PHX",
+   "player_id": "4431695",
+   "player": "Drew Timme",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hand",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-13T16:22Z",
+   "comment": "The Suns claimed Timme off waivers Monday, per Michael Scotto of HoopsHype.com."
+  },
+  {
+   "team": "PHX",
    "player_id": "4701232",
    "player": "Mark Williams",
    "status": "out",
@@ -907,12 +874,12 @@
    "team": "SAC",
    "player_id": "4431679",
    "player": "Precious Achiuwa",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Ankle Soreness",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-13T00:22Z",
-   "comment": "Achiuwa (ankle) is questionable to play Friday's game against the Trail Blazers."
+   "return_date": "2026-11-15",
+   "updated": "2026-11-13T21:20Z",
+   "comment": "Achiuwa (ankle) is out for Friday's game against the Trail Blazers."
   },
   {
    "team": "SAC",
@@ -979,6 +946,17 @@
    "return_date": "2026-12-03",
    "updated": "2026-10-05T21:43Z",
    "comment": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports."
+  },
+  {
+   "team": "TOR",
+   "player_id": "4411057",
+   "player": "Kevin McCullar Jr.",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Illness",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-13T15:37Z",
+   "comment": "McCullar signed a two-way contract with the Raptors on Thursday, Michael Scotto of HoopsHype.com reports."
   },
   {
    "team": "TOR",

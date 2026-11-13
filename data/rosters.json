@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T10:00:54-0500",
+ "generated": "2026-11-13T18:45:53-0500",
  "teams": {
   "ATL": [
    {
@@ -553,6 +553,12 @@
     "jersey": "3"
    },
    {
+    "player_id": "4997530",
+    "player": "Khalifa Diop",
+    "position": "C",
+    "jersey": "18"
+   },
+   {
     "player_id": "3992",
     "player": "James Harden",
     "position": "G",
@@ -592,7 +598,7 @@
     "player_id": "4702134",
     "player": "Norchad Omier",
     "position": "C",
-    "jersey": "15"
+    "jersey": "77"
    },
    {
     "player_id": "4701233",
@@ -611,6 +617,12 @@
     "player": "Meleek Thomas",
     "position": "G",
     "jersey": "15"
+   },
+   {
+    "player_id": "5106268",
+    "player": "Nae'Qwan Tomlin",
+    "position": "F",
+    "jersey": "35"
    },
    {
     "player_id": "4683747",
@@ -1837,6 +1849,12 @@
     "jersey": "19"
    },
    {
+    "player_id": "4433569",
+    "player": "Johni Broome",
+    "position": "F",
+    "jersey": "22"
+   },
+   {
     "player_id": "4432247",
     "player": "Jaylen Clark",
     "position": "G",
@@ -2096,7 +2114,7 @@
     "player_id": "4897943",
     "player": "Dalton Knecht",
     "position": "F",
-    "jersey": "99"
+    "jersey": "1"
    },
    {
     "player_id": "4433225",
