@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T18:45:52-0500",
+ "generated": "2026-11-12T19:45:56-0500",
  "teams": {
   "ATL": [
    {
@@ -1859,6 +1859,12 @@
     "player": "Anthony Edwards",
     "position": "G",
     "jersey": "5"
+   },
+   {
+    "player_id": "5061585",
+    "player": "Isaiah Evans",
+    "position": "F",
+    "jersey": "33"
    },
    {
     "player_id": "3032976",

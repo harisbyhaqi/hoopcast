@@ -1,5 +1,11 @@
 [
  {
+  "kind": "signed",
+  "team": "MIN",
+  "player": "Isaiah Evans",
+  "time": "2026-11-12T19:45:56-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "ATL",
   "player": "Kingston Flemings",
@@ -8105,15 +8111,6 @@
   "player": "Oso Ighodaro",
   "to": "day-to-day",
   "injury": "Hip",
-  "time": "2026-10-22T02:00:56-0400"
- },
- {
-  "kind": "status_change",
-  "team": "POR",
-  "player": "Chris Youngblood",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Ankle Soreness",
   "time": "2026-10-22T02:00:56-0400"
  }
 ]

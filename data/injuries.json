@@ -1,6 +1,17 @@
 {
- "generated": "2026-11-12T18:45:52-0500",
+ "generated": "2026-11-12T19:45:56-0500",
  "injuries": [
+  {
+   "team": "ATL",
+   "player_id": "4712863",
+   "player": "Mouhamed Gueye",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot Fracture",
+   "return_date": "2026-12-12",
+   "updated": "2026-11-13T00:06Z",
+   "comment": "Gueye (foot) is ready to begin on-court activities and will be re-evaluated in four weeks, Brad Rowland of the Locked On Podcast Network reports."
+  },
   {
    "team": "ATL",
    "player_id": "4585618",
@@ -33,17 +44,6 @@
    "return_date": "2026-11-13",
    "updated": "2026-11-12T23:04Z",
    "comment": "Flemings (back) is questionable for Friday's game against the Bulls."
-  },
-  {
-   "team": "ATL",
-   "player_id": "4712863",
-   "player": "Mouhamed Gueye",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Foot Fracture",
-   "return_date": "2026-11-20",
-   "updated": "2026-10-19T19:38Z",
-   "comment": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports."
   },
   {
    "team": "ATL",
@@ -920,10 +920,10 @@
    "player": "Precious Achiuwa",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Lower Leg Bruise",
+   "injury": "Ankle Soreness",
    "return_date": "2026-11-13",
-   "updated": "2026-11-11T14:44Z",
-   "comment": "Achiuwa left Tuesday's 107-100 loss to the Magic with a left lower leg contusion and did not return, Matt George of ABC 10 Sacramento reports."
+   "updated": "2026-11-13T00:22Z",
+   "comment": "Achiuwa (ankle) is questionable to play Friday's game against the Trail Blazers."
   },
   {
    "team": "SAC",
