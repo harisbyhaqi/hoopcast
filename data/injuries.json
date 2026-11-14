@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T18:45:53-0500",
+ "generated": "2026-11-13T19:45:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -113,6 +113,17 @@
   },
   {
    "team": "CHI",
+   "player_id": "4848625",
+   "player": "Dailyn Swain",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-14T00:17Z",
+   "comment": "Swain (back) is out for Friday's game against the Hawks."
+  },
+  {
+   "team": "CHI",
    "player_id": "5105555",
    "player": "Tobe Awaka",
    "status": "out",
@@ -121,17 +132,6 @@
    "return_date": "2026-11-14",
    "updated": "2026-11-12T21:40Z",
    "comment": "Awaka (back) has been ruled out for Friday's game against the Hawks."
-  },
-  {
-   "team": "CHI",
-   "player_id": "4848625",
-   "player": "Dailyn Swain",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T21:38Z",
-   "comment": "Swain (back) is listed as questionable for Friday's game against Atlanta."
   },
   {
    "team": "CHI",
@@ -616,17 +616,6 @@
    "return_date": "2026-11-14",
    "updated": "2026-11-13T18:11Z",
    "comment": "Missi (knee) is out for Friday's game against the Grizzlies."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4683634",
-   "player": "Bennedict Mathurin",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Thumb Sprain",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-13T18:10Z",
-   "comment": "Mathurin (thumb) is listed as questionable for Friday's game against Memphis."
   },
   {
    "team": "NOP",

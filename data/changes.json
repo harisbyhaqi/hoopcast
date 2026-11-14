@@ -1,6 +1,28 @@
 [
  {
   "kind": "signed",
+  "team": "CHI",
+  "player": "Orlando Robinson",
+  "time": "2026-11-13T19:45:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHI",
+  "player": "Dailyn Swain",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Back",
+  "time": "2026-11-13T19:45:55-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "NOP",
+  "player": "Bennedict Mathurin",
+  "from": "day-to-day",
+  "time": "2026-11-13T19:45:55-0500"
+ },
+ {
+  "kind": "signed",
   "team": "CLE",
   "player": "Khalifa Diop",
   "time": "2026-11-13T18:45:53-0500"
@@ -8056,33 +8078,6 @@
   "player": "Jake LaRavia",
   "to": "day-to-day",
   "injury": "Ankle",
-  "time": "2026-10-22T18:45:56-0400"
- },
- {
-  "kind": "status_change",
-  "team": "ORL",
-  "player": "Anthony Black",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Ankle Sprain",
-  "time": "2026-10-22T18:45:56-0400"
- },
- {
-  "kind": "status_change",
-  "team": "ORL",
-  "player": "Jonathan Isaac",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Knee",
-  "time": "2026-10-22T18:45:56-0400"
- },
- {
-  "kind": "status_change",
-  "team": "PHI",
-  "player": "Dean Wade",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Ankle Sprain",
   "time": "2026-10-22T18:45:56-0400"
  }
 ]
