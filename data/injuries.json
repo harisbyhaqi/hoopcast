@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T21:45:47-0500",
+ "generated": "2026-11-13T22:15:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -363,6 +363,17 @@
    "return_date": "2026-11-15",
    "updated": "2026-11-09T23:55Z",
    "comment": "Head coach Ime Udoka said Monday that Adams could return as soon as Sunday's game at Washington, Lachard Binkley of SI.com reports."
+  },
+  {
+   "team": "IND",
+   "player_id": "4396909",
+   "player": "Aaron Nesmith",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hand",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T03:02Z",
+   "comment": "Nesmith exited to the locker room in the final seconds of Friday's 106-104 win over the Knicks due to an apparent hand/wrist injury, Tony East of Forbes.com reports. He posted 18 points (7-10 FG, 2-3 3Pt, 2-2 FT), seven rebounds and one assist in 33 minutes."
   },
   {
    "team": "IND",
@@ -957,6 +968,17 @@
    "return_date": "2026-11-15",
    "updated": "2026-11-08T21:20Z",
    "comment": "Bittle (foot) is listed as out for Monday's game against Memphis."
+  },
+  {
+   "team": "UTA",
+   "player_id": "4397077",
+   "player": "Jaxson Hayes",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T02:58Z",
+   "comment": "Hayes won't return to Friday's game against the Rockets due to a left knee issue."
   },
   {
    "team": "UTA",
