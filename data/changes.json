@@ -1,5 +1,26 @@
 [
  {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Charles Bassey",
+  "from": "day-to-day",
+  "time": "2026-11-13T21:15:46-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "SAS",
+  "player": "Devin Vassell",
+  "from": "day-to-day",
+  "time": "2026-11-13T21:15:46-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "SAS",
+  "player": "De'Aaron Fox",
+  "from": "day-to-day",
+  "time": "2026-11-13T21:15:46-0500"
+ },
+ {
   "kind": "signed",
   "team": "CHI",
   "player": "Orlando Robinson",
@@ -8053,31 +8074,6 @@
   "player": "Reed Sheppard",
   "to": "day-to-day",
   "injury": "Knee Bruise",
-  "time": "2026-10-22T18:45:56-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "IND",
-  "player": "Ben Sheppard",
-  "to": "day-to-day",
-  "injury": "Knee Soreness",
-  "time": "2026-10-22T18:45:56-0400"
- },
- {
-  "kind": "status_change",
-  "team": "IND",
-  "player": "T.J. McConnell",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Hamstring",
-  "time": "2026-10-22T18:45:56-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "LAL",
-  "player": "Jake LaRavia",
-  "to": "day-to-day",
-  "injury": "Ankle",
   "time": "2026-10-22T18:45:56-0400"
  }
 ]

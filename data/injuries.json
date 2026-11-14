@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T20:15:54-0500",
+ "generated": "2026-11-13T21:15:46-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -275,17 +275,6 @@
    "return_date": "2026-11-24",
    "updated": "2026-11-08T16:05Z",
    "comment": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4397886",
-   "player": "Charles Bassey",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Toe Soreness",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T22:18Z",
-   "comment": "Bassey is probable for Friday's game against the Spurs due to left toe soreness."
   },
   {
    "team": "GSW",
@@ -891,28 +880,6 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-21T04:22Z",
    "comment": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports."
-  },
-  {
-   "team": "SAS",
-   "player_id": "4395630",
-   "player": "Devin Vassell",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T23:07Z",
-   "comment": "Vassell is questionable for Friday's game against the Warriors due to left adductor tightness."
-  },
-  {
-   "team": "SAS",
-   "player_id": "4066259",
-   "player": "De'Aaron Fox",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip Soreness",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-12T23:05Z",
-   "comment": "Fox is questionable for Friday's game against the Warriors due to left hip soreness."
   },
   {
    "team": "SAS",
