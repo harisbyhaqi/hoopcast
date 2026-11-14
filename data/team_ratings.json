@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T21:15:49-05:00",
+ "generated": "2026-11-13T21:45:52-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -953,7 +953,7 @@
      "rating": 0.7,
      "o": -1.1,
      "d": 1.8,
-     "min": 22.4
+     "min": 22.3
     },
     {
      "player": "Kelly Oubre Jr.",
@@ -988,7 +988,7 @@
      "rating": -0.9,
      "o": 0.5,
      "d": -1.4,
-     "min": 15.0
+     "min": 15.1
     }
    ]
   },
@@ -1331,7 +1331,7 @@
   "MIL": {
    "roster": -6.35,
    "market": -5.74,
-   "prior": -6.04,
+   "prior": -6.05,
    "rotation": [
     {
      "player": "Tyler Herro",
@@ -1373,27 +1373,27 @@
      "rating": -0.1,
      "o": 0.2,
      "d": -0.4,
-     "min": 25.0
+     "min": 24.9
     },
     {
      "player": "Brayden Burries",
      "rating": -0.8,
      "o": -0.5,
      "d": -0.4,
-     "min": 18.8
-    },
-    {
-     "player": "Kel'el Ware",
-     "rating": -1.4,
-     "o": -0.7,
-     "d": -0.7,
-     "min": 16.9
+     "min": 18.7
     },
     {
      "player": "Pete Nance",
      "rating": -0.6,
      "o": -1.2,
      "d": 0.6,
+     "min": 16.8
+    },
+    {
+     "player": "Kel'el Ware",
+     "rating": -1.4,
+     "o": -0.7,
+     "d": -0.7,
      "min": 16.8
     },
     {
@@ -1408,7 +1408,7 @@
      "rating": -1.6,
      "o": -0.7,
      "d": -0.9,
-     "min": 4.4
+     "min": 4.5
     }
    ]
   },
@@ -1567,7 +1567,7 @@
    ]
   },
   "NYK": {
-   "roster": 3.77,
+   "roster": 3.76,
    "market": 4.07,
    "prior": 3.92,
    "rotation": [
@@ -1597,7 +1597,7 @@
      "rating": 0.9,
      "o": -0.0,
      "d": 0.9,
-     "min": 30.3
+     "min": 30.2
     },
     {
      "player": "Mikal Bridges",
@@ -1639,7 +1639,7 @@
      "rating": -0.8,
      "o": 0.1,
      "d": -0.9,
-     "min": 5.6
+     "min": 5.7
     }
    ]
   },
@@ -1737,7 +1737,7 @@
      "rating": 2.0,
      "o": 2.1,
      "d": -0.2,
-     "min": 33.3
+     "min": 33.4
     },
     {
      "player": "Paolo Banchero",
@@ -1772,7 +1772,7 @@
      "rating": 1.6,
      "o": -0.4,
      "d": 2.0,
-     "min": 24.8
+     "min": 24.9
     },
     {
      "player": "Anthony Black",
@@ -1800,7 +1800,7 @@
      "rating": -1.7,
      "o": -1.8,
      "d": 0.1,
-     "min": 9.3
+     "min": 9.2
     }
    ]
   },
@@ -2115,7 +2115,7 @@
   "SAS": {
    "roster": 5.87,
    "market": 7.04,
-   "prior": 6.45,
+   "prior": 6.46,
    "rotation": [
     {
      "player": "De'Aaron Fox",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T21:15:46-0500",
+ "generated": "2026-11-13T21:45:47-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -630,6 +630,17 @@
   },
   {
    "team": "OKC",
+   "player_id": "4900671",
+   "player": "Ajay Mitchell",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T02:34Z",
+   "comment": "Mitchell (ankle) has been ruled out for Friday's game against the Clippers."
+  },
+  {
+   "team": "OKC",
    "player_id": "5061603",
    "player": "Thomas Sorber",
    "status": "out",
@@ -638,17 +649,6 @@
    "return_date": "2026-11-20",
    "updated": "2026-11-13T01:07Z",
    "comment": "Sorber (knee) has been ruled out for Friday's game against the Clippers."
-  },
-  {
-   "team": "OKC",
-   "player_id": "4900671",
-   "player": "Ajay Mitchell",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-13",
-   "updated": "2026-11-13T01:03Z",
-   "comment": "Mitchell (ankle) is questionable for Friday's game against the Clippers."
   },
   {
    "team": "OKC",

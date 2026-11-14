@@ -1,5 +1,14 @@
 [
  {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Ajay Mitchell",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-13T21:45:47-0500"
+ },
+ {
   "kind": "cleared",
   "team": "GSW",
   "player": "Charles Bassey",
@@ -8066,14 +8075,6 @@
   "from": "day-to-day",
   "to": "out",
   "injury": "Heel",
-  "time": "2026-10-22T18:45:56-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "HOU",
-  "player": "Reed Sheppard",
-  "to": "day-to-day",
-  "injury": "Knee Bruise",
   "time": "2026-10-22T18:45:56-0400"
  }
 ]
