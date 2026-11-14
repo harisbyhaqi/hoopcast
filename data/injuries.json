@@ -1,6 +1,17 @@
 {
- "generated": "2026-11-13T22:15:51-0500",
+ "generated": "2026-11-13T23:00:52-0500",
  "injuries": [
+  {
+   "team": "ATL",
+   "player_id": "5149077",
+   "player": "Kingston Flemings",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T03:20Z",
+   "comment": "Flemings (back tightness) will not return to Friday's game against the Bulls."
+  },
   {
    "team": "ATL",
    "player_id": "4712863",
@@ -110,6 +121,17 @@
    "return_date": "2026-11-25",
    "updated": "2026-11-08T22:26Z",
    "comment": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports."
+  },
+  {
+   "team": "CHI",
+   "player_id": "4397189",
+   "player": "Jalen Smith",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hand",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-14T03:35Z",
+   "comment": "Smith exited to the locker room in overtime of Friday's game against the Hawks due to an apparent left hand injury, Joel Lorenzi of The Athletic reports."
   },
   {
    "team": "CHI",
