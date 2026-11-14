@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-14T10:00:50-0500",
+ "generated": "2026-11-14T18:45:50-0500",
  "injuries": [
   {
    "team": "ATL",
    "player_id": "5149077",
    "player": "Kingston Flemings",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-14T03:20Z",
-   "comment": "Flemings (back tightness) will not return to Friday's game against the Bulls."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Strain",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-14T23:08Z",
+   "comment": "Flemings (back) has been ruled out for Sunday's game against the Bucks."
   },
   {
    "team": "ATL",
@@ -57,37 +57,15 @@
    "comment": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday."
   },
   {
-   "team": "BOS",
-   "player_id": "4251",
-   "player": "Paul George",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-12T03:01Z",
-   "comment": "George (illness) has been ruled out for Wednesday's game against Toronto, Taylor Snow of the Celtics' official site reports."
-  },
-  {
    "team": "BKN",
-   "player_id": "5101761",
-   "player": "Mikel Brown Jr.",
+   "player_id": "4278104",
+   "player": "Michael Porter Jr.",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Illness Not Specified",
+   "injury": "Personal",
    "return_date": "2026-11-14",
-   "updated": "2026-11-13T22:08Z",
-   "comment": "Brown (illness) is listed as questionable for Saturday's game against Memphis."
-  },
-  {
-   "team": "BKN",
-   "player_id": "5279130",
-   "player": "Nolan Traore",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Soreness",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-13T22:07Z",
-   "comment": "Traore (calf) is listed as probable for Saturday's game against Memphis."
+   "updated": "2026-11-14T23:19Z",
+   "comment": "Porter (personal) is listed as questionable for Saturday's game against Memphis, Erik Slater of ClutchPoints.com reports."
   },
   {
    "team": "CHA",
@@ -126,23 +104,23 @@
    "team": "CHI",
    "player_id": "4397189",
    "player": "Jalen Smith",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hand",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-14T03:50Z",
-   "comment": "Smith (hand) exited Friday's 125-117 win over the Hawks in overtime and did not return, finishing with 15 points (6-15 FG, 1-6 3Pt, 2-2 FT), 12 rebounds, three assists and three steals across 32 minutes."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Finger Sprain",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T23:40Z",
+   "comment": "Smith (finger) has been ruled out for Saturday's game against Minnesota, K.C. Johnson of Chicago Sports Network reports."
   },
   {
    "team": "CHI",
-   "player_id": "4848625",
-   "player": "Dailyn Swain",
+   "player_id": "4278067",
+   "player": "Nic Claxton",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Back",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-14T00:17Z",
-   "comment": "Swain (back) is out for Friday's game against the Hawks."
+   "injury": "Hamstring",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T23:39Z",
+   "comment": "Claxton (hamstring) is out for Saturday's game against the Timberwolves, K.C. Johnson of Chicago Sports Network reports."
   },
   {
    "team": "CHI",
@@ -151,9 +129,9 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Back",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-12T21:40Z",
-   "comment": "Awaka (back) has been ruled out for Friday's game against the Hawks."
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T18:10Z",
+   "comment": "Awaka has been ruled out for Saturday's game against the Timberwolves."
   },
   {
    "team": "CHI",
@@ -168,14 +146,58 @@
   },
   {
    "team": "CLE",
+   "player_id": "4576087",
+   "player": "Peyton Watson",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T22:59Z",
+   "comment": "Watson (hamstring) has been ruled out for Saturday's game against the Mavericks."
+  },
+  {
+   "team": "CLE",
+   "player_id": "3992",
+   "player": "James Harden",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T22:57Z",
+   "comment": "Harden (calf) has been ruled out for Saturday's game against Dallas."
+  },
+  {
+   "team": "CLE",
+   "player_id": "3908809",
+   "player": "Donovan Mitchell",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Bruise",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T22:56Z",
+   "comment": "Mitchell (knee) has been ruled out for Saturday's game against the Mavericks."
+  },
+  {
+   "team": "CLE",
+   "player_id": "4066328",
+   "player": "Jarrett Allen",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T22:52Z",
+   "comment": "Allen (knee) has been ruled out for Saturday's game against the Mavericks."
+  },
+  {
+   "team": "CLE",
    "player_id": "4432158",
    "player": "Evan Mobley",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Toe",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-12T22:08Z",
-   "comment": "Mobley (toe) is out for Friday's game against the Heat."
+   "injury": "Toe Sprain",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T18:33Z",
+   "comment": "Mobley (toe) has been ruled out for Saturday's meeting with Dallas."
   },
   {
    "team": "CLE",
@@ -203,23 +225,12 @@
    "team": "DAL",
    "player_id": "4432582",
    "player": "Max Christie",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-13T22:06Z",
-   "comment": "Christie is questionable for Saturday's game against the Cavaliers due to a sprained left ankle."
-  },
-  {
-   "team": "DAL",
-   "player_id": "4873153",
-   "player": "Morez Johnson Jr.",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Lower Leg",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-13T22:05Z",
-   "comment": "Johnson (left shin contusion) is listed as probable for Saturday against Cleveland."
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T23:02Z",
+   "comment": "Christie (ankle) has been ruled out for Saturday's game against Cleveland."
   },
   {
    "team": "DAL",
@@ -355,6 +366,39 @@
   },
   {
    "team": "HOU",
+   "player_id": "3102529",
+   "player": "Clint Capela",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T21:54Z",
+   "comment": "Capela (ankle) has been ruled out for Sunday's game at Washington."
+  },
+  {
+   "team": "HOU",
+   "player_id": "2991235",
+   "player": "Steven Adams",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Strain",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T21:52Z",
+   "comment": "Adams (calf) has been upgraded to probable for Sunday's game against the Wizards."
+  },
+  {
+   "team": "HOU",
+   "player_id": "2991230",
+   "player": "Fred VanVleet",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T21:52Z",
+   "comment": "VanVleet (right knee injury management) has been ruled out for Sunday's game against the Wizards."
+  },
+  {
+   "team": "HOU",
    "player_id": "2990992",
    "player": "Marcus Smart",
    "status": "out",
@@ -365,26 +409,15 @@
    "comment": "Smart has been suspended three games for throwing a punch during Wednesday's matchup against Golden State, Shams Charania of ESPN reports."
   },
   {
-   "team": "HOU",
-   "player_id": "3102529",
-   "player": "Clint Capela",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
+   "team": "IND",
+   "player_id": "2530530",
+   "player": "T.J. McConnell",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hamstring",
    "return_date": "2026-11-15",
-   "updated": "2026-11-09T23:56Z",
-   "comment": "Head coach Ime Udoka stated Monday that Capela (ankle) could be cleared to return either Nov. 15 in Washington or Nov. 16 in Miami, Lachard Binkley of SI.com reports."
-  },
-  {
-   "team": "HOU",
-   "player_id": "2991235",
-   "player": "Steven Adams",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Calf Strain",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-09T23:55Z",
-   "comment": "Head coach Ime Udoka said Monday that Adams could return as soon as Sunday's game at Washington, Lachard Binkley of SI.com reports."
+   "updated": "2026-11-14T21:23Z",
+   "comment": "McConnell (hamstring) is listed as probable for Sunday's game against the 76ers."
   },
   {
    "team": "IND",
@@ -392,10 +425,10 @@
    "player": "Aaron Nesmith",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Hand",
+   "injury": "Hand Sprain",
    "return_date": "2026-11-15",
-   "updated": "2026-11-14T03:02Z",
-   "comment": "Nesmith exited to the locker room in the final seconds of Friday's 106-104 win over the Knicks due to an apparent hand/wrist injury, Tony East of Forbes.com reports. He posted 18 points (7-10 FG, 2-3 3Pt, 2-2 FT), seven rebounds and one assist in 33 minutes."
+   "updated": "2026-11-14T21:21Z",
+   "comment": "Nesmith (hand) is listed as questionable for Sunday's game against Philadelphia."
   },
   {
    "team": "IND",
@@ -476,6 +509,28 @@
   },
   {
    "team": "LAL",
+   "player_id": "4277811",
+   "player": "Collin Sexton",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Head",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T20:25Z",
+   "comment": "Sexton (head) was a full participant in Saturday's practice, Dave McMenamin of ESPN.com reports."
+  },
+  {
+   "team": "LAL",
+   "player_id": "4066457",
+   "player": "Austin Reaves",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Heel",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T20:15Z",
+   "comment": "Reaves (heel) didn't participate in Saturday's practice, Dave McMenamin of ESPN.com reports."
+  },
+  {
+   "team": "LAL",
    "player_id": "4397014",
    "player": "Quentin Grimes",
    "status": "day-to-day",
@@ -486,59 +541,48 @@
    "comment": "Grimes (finger) said he expects to return to action Sunday against the Suns, according to Ricardo Sandoval of Lakers on SI."
   },
   {
-   "team": "LAL",
-   "player_id": "4066457",
-   "player": "Austin Reaves",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Heel",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-13T20:40Z",
-   "comment": "Reaves (heel) won't undergo imaging and is considered day-to-day ahead of Sunday's game against the Suns, Jovan Buha of The Athletic reports."
-  },
-  {
-   "team": "LAL",
-   "player_id": "3945274",
-   "player": "Luka Doncic",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-13T20:40Z",
-   "comment": "Head coach JJ Redick said Friday that Doncic (ankle) is \"fine,\" per Law Murray of The Athletic."
-  },
-  {
-   "team": "LAL",
-   "player_id": "4277811",
-   "player": "Collin Sexton",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Head",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-12T04:40Z",
-   "comment": "Sexton did not return to Wednesday's 123-112 win over the Bucks and required stitches to close a cut on his forehead, Thuc Nhi Nguyen of the Los Angeles Times reports."
-  },
-  {
    "team": "MEM",
    "player_id": "4593016",
    "player": "Quinten Post",
    "status": "out",
    "status_raw": "Out",
    "injury": "Concussion",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T19:47Z",
+   "comment": "Post (concussion) has been ruled out for Saturday's game against the Nets."
+  },
+  {
+   "team": "MEM",
+   "player_id": "2991070",
+   "player": "Jerami Grant",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Head",
    "return_date": "2026-11-14",
-   "updated": "2026-11-12T23:17Z",
-   "comment": "Post (concussion) has been ruled out for Friday's game against New Orleans."
+   "updated": "2026-11-14T19:46Z",
+   "comment": "Grant (head) is questionable for Saturday's game against the Nets."
   },
   {
    "team": "MEM",
    "player_id": "4600663",
    "player": "Zach Edey",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Ankle",
    "return_date": "2026-11-14",
-   "updated": "2026-11-12T23:16Z",
-   "comment": "Edey won't play in Friday's game against the Pelicans due to left ankle injury management."
+   "updated": "2026-11-14T19:45Z",
+   "comment": "Edey (ankle) is listed as questionable for Saturday's game against Brooklyn."
+  },
+  {
+   "team": "MEM",
+   "player_id": "4065733",
+   "player": "Ty Jerome",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hip Soreness",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T19:44Z",
+   "comment": "Jerome (hip) has been ruled out for Saturday's game against the Nets."
   },
   {
    "team": "MEM",
@@ -564,25 +608,25 @@
   },
   {
    "team": "MIA",
-   "player_id": "6475",
-   "player": "Klay Thompson",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Soreness",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-13T23:21Z",
-   "comment": "Thompson (ankle) is out for Friday's game against the Cavaliers."
-  },
-  {
-   "team": "MIA",
    "player_id": "4601025",
    "player": "Pelle Larsson",
    "status": "out",
    "status_raw": "Out",
    "injury": "Illness",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-13T23:04Z",
-   "comment": "Larsson (illness) is out for Friday's game against Cleveland."
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T23:26Z",
+   "comment": "Larsson (illness) has been ruled out for Saturday's game against the Pistons."
+  },
+  {
+   "team": "MIL",
+   "player_id": "4997526",
+   "player": "Ousmane Dieng",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Finger Sprain",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-14T22:40Z",
+   "comment": "Dieng (finger) has been ruled out for Sunday's game against the Hawks."
   },
   {
    "team": "MIN",
@@ -608,6 +652,50 @@
   },
   {
    "team": "NOP",
+   "player_id": "4683634",
+   "player": "Bennedict Mathurin",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot Plantar Fasciitis",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T23:06Z",
+   "comment": "Mathurin is out for Saturday's game against the Nuggets due to left plantar fasciitis."
+  },
+  {
+   "team": "NOP",
+   "player_id": "4431675",
+   "player": "Trendon Watford",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T17:58Z",
+   "comment": "Watford (ankle) has been ruled out for Saturday's game against Denver."
+  },
+  {
+   "team": "NOP",
+   "player_id": "4576086",
+   "player": "Bryce McGowens",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Elbow Infection",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T17:55Z",
+   "comment": "McGowens (elbow) has been ruled out for Saturday's game against the Nuggets."
+  },
+  {
+   "team": "NOP",
+   "player_id": "4397688",
+   "player": "Trey Murphy III",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Tendinitis",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T17:53Z",
+   "comment": "Murphy (knees) has been ruled out for Saturday's game against the Nuggets."
+  },
+  {
+   "team": "NOP",
    "player_id": "3907497",
    "player": "Dejounte Murray",
    "status": "out",
@@ -618,58 +706,14 @@
    "comment": "Murray (ankle) is out for Friday's game against Memphis."
   },
   {
-   "team": "NOP",
-   "player_id": "4576086",
-   "player": "Bryce McGowens",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Elbow Infection",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-13T18:12Z",
-   "comment": "McGowens (elbow) is listed as out for Friday's game against the Grizzlies."
-  },
-  {
-   "team": "NOP",
-   "player_id": "5061589",
-   "player": "Yves Missi",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Bruise",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-13T18:11Z",
-   "comment": "Missi (knee) is out for Friday's game against the Grizzlies."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4397688",
-   "player": "Trey Murphy III",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Tendinitis",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-13T18:07Z",
-   "comment": "Murphy (knee) is out for Friday's game against Memphis."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4431675",
-   "player": "Trendon Watford",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-14",
-   "updated": "2026-11-12T20:53Z",
-   "comment": "Watford (ankle) is listed as out for Friday's game against the Grizzlies."
-  },
-  {
    "team": "OKC",
    "player_id": "4900671",
    "player": "Ajay Mitchell",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-11-15",
-   "updated": "2026-11-14T02:34Z",
+   "updated": "2026-11-14T15:07Z",
    "comment": "Mitchell (ankle) has been ruled out for Friday's game against the Clippers."
   },
   {
@@ -729,6 +773,17 @@
   },
   {
    "team": "ORL",
+   "player_id": "5214637",
+   "player": "Noah Penda",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring Strain",
+   "return_date": "2026-11-22",
+   "updated": "2026-11-14T17:33Z",
+   "comment": "Penda (hamstring) is making progress but remains without a timetable to return to game action, Jason Beede of the Orlando Sentinel reports."
+  },
+  {
+   "team": "ORL",
    "player_id": "4065654",
    "player": "Jonathan Isaac",
    "status": "out",
@@ -751,17 +806,6 @@
   },
   {
    "team": "ORL",
-   "player_id": "5214637",
-   "player": "Noah Penda",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring Strain",
-   "return_date": "2026-11-18",
-   "updated": "2026-10-17T22:19Z",
-   "comment": "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports."
-  },
-  {
-   "team": "ORL",
    "player_id": "5107251",
    "player": "Izaiyah Nelson",
    "status": "out",
@@ -773,14 +817,14 @@
   },
   {
    "team": "PHI",
-   "player_id": "1966",
-   "player": "LeBron James",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-13T03:28Z",
-   "comment": "James (back) is out for Thursday's game against Toronto."
+   "player_id": "3059318",
+   "player": "Joel Embiid",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-14T22:05Z",
+   "comment": "Embiid (right foot injury management) has been ruled out for Sunday's game against the Pacers."
   },
   {
    "team": "PHI",
@@ -841,11 +885,11 @@
    "team": "POR",
    "player_id": "4706557",
    "player": "Chris Youngblood",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Foot Bruise",
    "return_date": "2026-11-16",
-   "updated": "2026-11-13T01:06Z",
+   "updated": "2026-11-14T15:05Z",
    "comment": "Youngblood (foot) is out for Friday's game against Sacramento."
   },
   {
@@ -883,13 +927,24 @@
   },
   {
    "team": "SAC",
+   "player_id": "4594327",
+   "player": "Keegan Murray",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Illness",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T21:36Z",
+   "comment": "Murray (illness) didn't participate in Saturday's practice, Brenden Nunes of KHTK Sactown Sports 1140 reports."
+  },
+  {
+   "team": "SAC",
    "player_id": "4431679",
    "player": "Precious Achiuwa",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Ankle Soreness",
    "return_date": "2026-11-15",
-   "updated": "2026-11-13T21:20Z",
+   "updated": "2026-11-14T15:05Z",
    "comment": "Achiuwa (ankle) is out for Friday's game against the Trail Blazers."
   },
   {
@@ -938,6 +993,28 @@
   },
   {
    "team": "TOR",
+   "player_id": "4432586",
+   "player": "Nate Bittle",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot Fracture",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-14T21:59Z",
+   "comment": "Bittle (foot) has been ruled out for Sunday's game against the Knicks, Zulfi Sheikh of Sportsnet.ca reports."
+  },
+  {
+   "team": "TOR",
+   "player_id": "4433134",
+   "player": "Scottie Barnes",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Groin Strain",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T17:33Z",
+   "comment": "Barnes (groin) is listed as questionable for Sunday's game against the Knicks, Michael Grange of Sportsnet.ca reports."
+  },
+  {
+   "team": "TOR",
    "player_id": "4411057",
    "player": "Kevin McCullar Jr.",
    "status": "day-to-day",
@@ -949,28 +1026,6 @@
   },
   {
    "team": "TOR",
-   "player_id": "4431684",
-   "player": "Trayce Jackson-Davis",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-13T03:27Z",
-   "comment": "Jackson-Davis is out for Thursday's game against the 76ers due to an illness."
-  },
-  {
-   "team": "TOR",
-   "player_id": "4433134",
-   "player": "Scottie Barnes",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Groin Soreness",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-12T18:05Z",
-   "comment": "Barnes (groin) is out for Thursday's game against Philadelphia."
-  },
-  {
-   "team": "TOR",
    "player_id": "6450",
    "player": "Kawhi Leonard",
    "status": "out",
@@ -979,17 +1034,6 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-11T22:33Z",
    "comment": "Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports."
-  },
-  {
-   "team": "TOR",
-   "player_id": "4432586",
-   "player": "Nate Bittle",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Foot Fracture",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-08T21:20Z",
-   "comment": "Bittle (foot) is listed as out for Monday's game against Memphis."
   },
   {
    "team": "UTA",
@@ -1048,14 +1092,36 @@
   },
   {
    "team": "WAS",
+   "player_id": "5160992",
+   "player": "Alex Sarr",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Illness",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T21:24Z",
+   "comment": "Sarr (illness) is listed as questionable for Sunday's game against Houston."
+  },
+  {
+   "team": "WAS",
+   "player_id": "5238230",
+   "player": "Tre Johnson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-14T21:09Z",
+   "comment": "Johnson is listed as questionable for Sunday's game against the Rockets due to lower-back soreness."
+  },
+  {
+   "team": "WAS",
    "player_id": "4845374",
    "player": "Bub Carrington",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Chest",
    "return_date": "2026-11-15",
-   "updated": "2026-11-13T03:26Z",
-   "comment": "Carrington (chest) has been ruled out for the remainder of Thursday's game against the Pistons."
+   "updated": "2026-11-14T21:05Z",
+   "comment": "Carrington (chest) is listed as questionable for Sunday's game against Houston."
   },
   {
    "team": "WAS",
