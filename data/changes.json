@@ -1,5 +1,23 @@
 [
  {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Andrew Nembhard",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hip Soreness",
+  "time": "2026-11-15T16:15:55-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Foot",
+  "time": "2026-11-15T16:15:55-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "ATL",
   "player": "Jock Landale",
@@ -8053,23 +8071,6 @@
   "player": "Brandin Podziemski",
   "to": "out",
   "injury": "Back",
-  "time": "2026-10-24T10:00:49-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "GSW",
-  "player": "Stephen Curry",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-24T10:00:49-0400"
- },
- {
-  "kind": "status_change",
-  "team": "GSW",
-  "player": "Charles Bassey",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Knee",
   "time": "2026-10-24T10:00:49-0400"
  }
 ]

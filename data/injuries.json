@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T15:45:47-0500",
+ "generated": "2026-11-15T16:15:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -445,11 +445,11 @@
    "team": "IND",
    "player_id": "4395712",
    "player": "Andrew Nembhard",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hip Soreness",
    "return_date": "2026-11-18",
-   "updated": "2026-11-15T16:44Z",
+   "updated": "2026-11-15T20:57Z",
    "comment": "Nembhard (hip) has been ruled out for Sunday's game against the 76ers, Tony East of Forbes.com reports."
   },
   {
@@ -852,11 +852,11 @@
    "team": "PHI",
    "player_id": "3059318",
    "player": "Joel Embiid",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Foot",
    "return_date": "2026-11-16",
-   "updated": "2026-11-14T22:05Z",
+   "updated": "2026-11-15T20:58Z",
    "comment": "Embiid (right foot injury management) has been ruled out for Sunday's game against the Pacers."
   },
   {
@@ -999,8 +999,8 @@
    "status_raw": "Out",
    "injury": "Hip",
    "return_date": "2026-11-17",
-   "updated": "2026-11-15T20:32Z",
-   "comment": "Fox (hip) is listed as questionable for Sunday's game against Utah."
+   "updated": "2026-11-15T20:33Z",
+   "comment": "Fox (hip) has been ruled out for Sunday's game against the Jazz."
   },
   {
    "team": "SAS",
