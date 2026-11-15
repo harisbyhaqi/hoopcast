@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T12:45:58-05:00",
+ "generated": "2026-11-15T15:45:52-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -956,16 +956,16 @@
      "min": 21.9
     },
     {
-     "player": "Kelly Oubre Jr.",
-     "rating": -0.9,
-     "o": -0.2,
+     "player": "Aaron Nesmith",
+     "rating": -0.5,
+     "o": 0.2,
      "d": -0.7,
      "min": 21.8
     },
     {
-     "player": "Aaron Nesmith",
-     "rating": -0.5,
-     "o": 0.2,
+     "player": "Kelly Oubre Jr.",
+     "rating": -0.9,
+     "o": -0.2,
      "d": -0.7,
      "min": 21.7
     },
@@ -981,7 +981,7 @@
      "rating": -0.2,
      "o": -0.4,
      "d": 0.2,
-     "min": 18.7
+     "min": 18.8
     },
     {
      "player": "Andrew Nembhard",
@@ -1805,7 +1805,7 @@
    ]
   },
   "PHI": {
-   "roster": 1.24,
+   "roster": 1.25,
    "market": 3.52,
    "prior": 2.38,
    "rotation": [
@@ -1842,14 +1842,14 @@
      "rating": 0.6,
      "o": -0.5,
      "d": 1.1,
-     "min": 24.4
+     "min": 24.5
     },
     {
      "player": "VJ Edgecombe",
      "rating": -0.5,
      "o": -0.4,
      "d": -0.1,
-     "min": 23.4
+     "min": 23.3
     },
     {
      "player": "Kentavious Caldwell-Pope",
@@ -1870,14 +1870,14 @@
      "rating": -1.8,
      "o": 0.0,
      "d": -1.8,
-     "min": 14.6
+     "min": 14.5
     },
     {
      "player": "Tacko Fall",
      "rating": -0.1,
      "o": -2.1,
      "d": 2.0,
-     "min": 4.2
+     "min": 4.3
     }
    ]
   },
