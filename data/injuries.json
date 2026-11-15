@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-15T17:46:59-0500",
+ "generated": "2026-11-15T18:45:51-0500",
  "injuries": [
   {
    "team": "ATL",
    "player_id": "3146557",
    "player": "Jock Landale",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Hip Inflammation",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-15T17:55Z",
-   "comment": "Landale (hip) is listed as questionable for Sunday's game against Milwakee."
+   "return_date": "2026-11-18",
+   "updated": "2026-11-15T23:22Z",
+   "comment": "Landale (hip) is out for Sunday's game against Bucks, Brad Rowland of the Locked On Podcast Network reports."
   },
   {
    "team": "ATL",
@@ -300,6 +300,17 @@
   },
   {
    "team": "GSW",
+   "player_id": "4997536",
+   "player": "Gui Santos",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Inflammation",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-15T23:03Z",
+   "comment": "Santos is questionable for Monday's game against New Orleans due to right ankle inflammation."
+  },
+  {
+   "team": "GSW",
    "player_id": "3975",
    "player": "Stephen Curry",
    "status": "out",
@@ -570,8 +581,19 @@
    "status_raw": "Day-To-Day",
    "injury": "Illness",
    "return_date": "2026-11-16",
-   "updated": "2026-11-15T15:26Z",
-   "comment": "Larsson (illness) has been ruled out for Saturday's game against the Pistons."
+   "updated": "2026-11-15T22:47Z",
+   "comment": "Larsson (illness) is questionable to play in Monday's game against the Rockets."
+  },
+  {
+   "team": "MIL",
+   "player_id": "4591725",
+   "player": "Ryan Rollins",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Illness",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-15T23:19Z",
+   "comment": "Rollins (illness) is out for Sunday's game against the Hawks."
   },
   {
    "team": "MIL",
@@ -583,17 +605,6 @@
    "return_date": "2026-11-18",
    "updated": "2026-11-15T20:13Z",
    "comment": "Dieng (finger) is listed as out for Sunday's game versus the Hawks."
-  },
-  {
-   "team": "MIL",
-   "player_id": "4591725",
-   "player": "Ryan Rollins",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-15T17:23Z",
-   "comment": "Rollins (illness) is questionable to play in Sunday's game against the Hawks."
   },
   {
    "team": "MIN",
@@ -636,8 +647,8 @@
    "status_raw": "Out",
    "injury": "Elbow Infection",
    "return_date": "2026-11-18",
-   "updated": "2026-11-15T22:07Z",
-   "comment": "McGowens (elbow) has been ruled out for Saturday's game against the Nuggets."
+   "updated": "2026-11-15T23:10Z",
+   "comment": "McGowens (elbow) has been ruled out for Monday's game against the Warriors."
   },
   {
    "team": "NOP",
@@ -647,19 +658,8 @@
    "status_raw": "Out",
    "injury": "Foot Plantar Fasciitis",
    "return_date": "2026-11-18",
-   "updated": "2026-11-15T22:06Z",
-   "comment": "Mathurin is out for Saturday's game against the Nuggets due to left plantar fasciitis."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4431675",
-   "player": "Trendon Watford",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-18",
-   "updated": "2026-11-14T17:58Z",
-   "comment": "Watford (ankle) has been ruled out for Saturday's game against Denver."
+   "updated": "2026-11-15T23:06Z",
+   "comment": "Mathurin (foot) has been ruled out for Monday's game against the Warriors."
   },
   {
    "team": "NOP",
@@ -669,8 +669,19 @@
    "status_raw": "Out",
    "injury": "Knee Tendinitis",
    "return_date": "2026-11-18",
-   "updated": "2026-11-14T17:53Z",
-   "comment": "Murphy (knees) has been ruled out for Saturday's game against the Nuggets."
+   "updated": "2026-11-15T22:57Z",
+   "comment": "Murphy (knees) has been ruled out for Monday's game against Golden State."
+  },
+  {
+   "team": "NOP",
+   "player_id": "4431675",
+   "player": "Trendon Watford",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-15T22:52Z",
+   "comment": "Watford (ankle) has been ruled out for Monday's game against Golden State."
   },
   {
    "team": "NOP",
@@ -863,12 +874,12 @@
    "team": "POR",
    "player_id": "4706557",
    "player": "Chris Youngblood",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Foot Bruise",
-   "return_date": "2026-11-16",
-   "updated": "2026-11-14T15:05Z",
-   "comment": "Youngblood (foot) is out for Friday's game against Sacramento."
+   "return_date": "2026-11-17",
+   "updated": "2026-11-15T23:02Z",
+   "comment": "Youngblood (foot) is out for Monday's game against the Timberwolves."
   },
   {
    "team": "POR",
