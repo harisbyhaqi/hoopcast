@@ -1,5 +1,58 @@
 [
  {
+  "kind": "released",
+  "team": "MIA",
+  "player": "Bobby Portis Jr.",
+  "time": "2026-11-14T23:00:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DAL",
+  "player": "Daniel Gafford",
+  "to": "out",
+  "injury": "Face",
+  "time": "2026-11-14T23:00:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DET",
+  "player": "Duncan Robinson",
+  "to": "day-to-day",
+  "injury": "Thigh Soreness",
+  "time": "2026-11-14T23:00:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "IND",
+  "player": "Andrew Nembhard",
+  "to": "day-to-day",
+  "injury": "Hip Soreness",
+  "time": "2026-11-14T23:00:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MEM",
+  "player": "GG Jackson",
+  "to": "out",
+  "injury": "Foot",
+  "time": "2026-11-14T23:00:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MIN",
+  "player": "Jaylen Clark",
+  "to": "out",
+  "injury": "Hamstring Not Specified",
+  "time": "2026-11-14T23:00:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "CHA",
+  "player": "Brandon Miller",
+  "from": "day-to-day",
+  "time": "2026-11-14T23:00:56-0500"
+ },
+ {
   "kind": "signed",
   "team": "MIA",
   "player": "Bobby Portis Jr.",
@@ -8024,58 +8077,5 @@
   "player": "Brandin Podziemski",
   "from": "day-to-day",
   "time": "2026-10-23T21:15:54-0400"
- },
- {
-  "kind": "cleared",
-  "team": "HOU",
-  "player": "Steven Adams",
-  "from": "day-to-day",
-  "time": "2026-10-23T21:15:54-0400"
- },
- {
-  "kind": "signed",
-  "team": "SAC",
-  "player": "Sean Pedulla",
-  "time": "2026-10-23T19:46:06-0400"
- },
- {
-  "kind": "status_change",
-  "team": "DEN",
-  "player": "Spencer Jones",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Hamstring Not Specified",
-  "time": "2026-10-23T19:46:06-0400"
- },
- {
-  "kind": "status_change",
-  "team": "DEN",
-  "player": "Cameron Johnson",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Ankle Sprain",
-  "time": "2026-10-23T19:46:06-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "DEN",
-  "player": "Alpha Diallo",
-  "to": "day-to-day",
-  "injury": "Wrist",
-  "time": "2026-10-23T19:46:06-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAS",
-  "player": "Keldon Johnson",
-  "from": "day-to-day",
-  "time": "2026-10-23T19:46:06-0400"
- },
- {
-  "kind": "cleared",
-  "team": "SAS",
-  "player": "De'Aaron Fox",
-  "from": "day-to-day",
-  "time": "2026-10-23T19:46:06-0400"
  }
 ]

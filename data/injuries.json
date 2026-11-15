@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T19:45:53-0500",
+ "generated": "2026-11-14T23:00:56-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -66,17 +66,6 @@
    "return_date": "2026-11-16",
    "updated": "2026-11-15T00:15Z",
    "comment": "Porter (personal) is out for Saturday's game against the Grizzlies, Brian Lewis of the New York Post reports."
-  },
-  {
-   "team": "CHA",
-   "player_id": "4433287",
-   "player": "Brandon Miller",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin Soreness",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-13T04:46Z",
-   "comment": "Miller (groin) is listed as out for Thursday's game against Phoenix."
   },
   {
    "team": "CHA",
@@ -223,6 +212,17 @@
   },
   {
    "team": "DAL",
+   "player_id": "4278049",
+   "player": "Daniel Gafford",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Face",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-15T02:31Z",
+   "comment": "Gafford (face) won't return to Saturday's game against the Cavaliers, Grant Afseth of DallasHoopsJournal.com reports."
+  },
+  {
+   "team": "DAL",
    "player_id": "4432582",
    "player": "Max Christie",
    "status": "out",
@@ -275,6 +275,17 @@
    "return_date": "2026-11-29",
    "updated": "2026-10-17T00:52Z",
    "comment": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports."
+  },
+  {
+   "team": "DET",
+   "player_id": "3157465",
+   "player": "Duncan Robinson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Thigh Soreness",
+   "return_date": "2026-11-14",
+   "updated": "2026-11-15T02:40Z",
+   "comment": "Robinson (thigh) is questionable to return to Saturday's game against Miami."
   },
   {
    "team": "DET",
@@ -410,6 +421,17 @@
   },
   {
    "team": "IND",
+   "player_id": "4395712",
+   "player": "Andrew Nembhard",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hip Soreness",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-15T01:14Z",
+   "comment": "Nembhard is questionable for Sunday's game against the 76ers due to left hip soreness."
+  },
+  {
+   "team": "IND",
    "player_id": "2530530",
    "player": "T.J. McConnell",
    "status": "day-to-day",
@@ -542,14 +564,25 @@
   },
   {
    "team": "MEM",
+   "player_id": "5105550",
+   "player": "GG Jackson",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-15T01:56Z",
+   "comment": "Jackson (foot) has been ruled out for the remainder of Saturday's game against the Nets."
+  },
+  {
+   "team": "MEM",
    "player_id": "4600663",
    "player": "Zach Edey",
    "status": "out",
    "status_raw": "Out",
    "injury": "Ankle",
    "return_date": "2026-11-16",
-   "updated": "2026-11-15T00:41Z",
-   "comment": "Edey (ankle) is listed as questionable for Saturday's game against Brooklyn."
+   "updated": "2026-11-15T00:43Z",
+   "comment": "Edey (ankle) is listed as out for Saturday's game against the Nets."
   },
   {
    "team": "MEM",
@@ -630,6 +663,17 @@
   },
   {
    "team": "MIN",
+   "player_id": "4432247",
+   "player": "Jaylen Clark",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring Not Specified",
+   "return_date": "2026-11-16",
+   "updated": "2026-11-15T02:08Z",
+   "comment": "Clark (hamstring) has been ruled out for the remainder of Saturday's game against the Bulls, Sarah Todd of The Deseret News reports."
+  },
+  {
+   "team": "MIN",
    "player_id": "4594268",
    "player": "Anthony Edwards",
    "status": "out",
@@ -707,14 +751,25 @@
   },
   {
    "team": "OKC",
+   "player_id": "4432823",
+   "player": "Jaylin Williams",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Spasms",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-15T01:14Z",
+   "comment": "Williams (back) has been ruled out for Sunday's game against the Kings."
+  },
+  {
+   "team": "OKC",
    "player_id": "4900671",
    "player": "Ajay Mitchell",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-11-15",
-   "updated": "2026-11-14T15:07Z",
-   "comment": "Mitchell (ankle) has been ruled out for Friday's game against the Clippers."
+   "updated": "2026-11-15T01:10Z",
+   "comment": "Mitchell (ankle) is questionable to suit up for Sunday's game against the Kings."
   },
   {
    "team": "OKC",
@@ -726,17 +781,6 @@
    "return_date": "2026-11-20",
    "updated": "2026-11-13T01:07Z",
    "comment": "Sorber (knee) has been ruled out for Friday's game against the Clippers."
-  },
-  {
-   "team": "OKC",
-   "player_id": "4432823",
-   "player": "Jaylin Williams",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back Spasms",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-11T21:19Z",
-   "comment": "Williams (back) has been ruled out for Wednesday's game against Portland and remains out indefinitely."
   },
   {
    "team": "OKC",
@@ -927,14 +971,25 @@
   },
   {
    "team": "SAC",
+   "player_id": "4898371",
+   "player": "Maxime Raynaud",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Dislocated",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-15T01:00Z",
+   "comment": "Raynaud (knee) has been ruled out for Sunday's game against the Thunder."
+  },
+  {
+   "team": "SAC",
    "player_id": "4594327",
    "player": "Keegan Murray",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Illness",
    "return_date": "2026-11-15",
-   "updated": "2026-11-14T21:36Z",
-   "comment": "Murray (illness) didn't participate in Saturday's practice, Brenden Nunes of KHTK Sactown Sports 1140 reports."
+   "updated": "2026-11-15T01:00Z",
+   "comment": "Murray (illness) is questionable for Sunday's game against the Thunder."
   },
   {
    "team": "SAC",
@@ -944,19 +999,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Soreness",
    "return_date": "2026-11-15",
-   "updated": "2026-11-14T15:05Z",
-   "comment": "Achiuwa (ankle) is out for Friday's game against the Trail Blazers."
-  },
-  {
-   "team": "SAC",
-   "player_id": "4898371",
-   "player": "Maxime Raynaud",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Dislocated",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-10T00:37Z",
-   "comment": "Raynaud (knee) has been ruled out for Tuesday's game against Orlando."
+   "updated": "2026-11-15T00:57Z",
+   "comment": "Achiuwa (ankle) is questionable for Sunday's game against the Thunder."
   },
   {
    "team": "SAC",
