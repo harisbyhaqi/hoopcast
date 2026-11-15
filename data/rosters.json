@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T19:15:51-0500",
+ "generated": "2026-11-14T19:45:53-0500",
  "teams": {
   "ATL": [
    {
@@ -1703,6 +1703,12 @@
    {
     "player_id": "3064482",
     "player": "Bobby Portis",
+    "position": "F",
+    "jersey": "95"
+   },
+   {
+    "player_id": "5478870",
+    "player": "Bobby Portis Jr.",
     "position": "F",
     "jersey": "95"
    },
