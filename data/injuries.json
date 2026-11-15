@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T16:15:55-0500",
+ "generated": "2026-11-15T16:45:50-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -102,6 +102,17 @@
   },
   {
    "team": "CHI",
+   "player_id": "5105555",
+   "player": "Tobe Awaka",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-15T21:27Z",
+   "comment": "Awaka has been ruled out for Saturday's game against the Timberwolves."
+  },
+  {
+   "team": "CHI",
    "player_id": "4397189",
    "player": "Jalen Smith",
    "status": "day-to-day",
@@ -110,28 +121,6 @@
    "return_date": "2026-11-16",
    "updated": "2026-11-15T15:30Z",
    "comment": "Smith (finger) has been ruled out for Saturday's game against Minnesota, K.C. Johnson of Chicago Sports Network reports."
-  },
-  {
-   "team": "CHI",
-   "player_id": "4278067",
-   "player": "Nic Claxton",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring",
-   "return_date": "2026-11-16",
-   "updated": "2026-11-15T15:30Z",
-   "comment": "Claxton (hamstring) is out for Saturday's game against the Timberwolves, K.C. Johnson of Chicago Sports Network reports."
-  },
-  {
-   "team": "CHI",
-   "player_id": "5105555",
-   "player": "Tobe Awaka",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-11-16",
-   "updated": "2026-11-15T15:30Z",
-   "comment": "Awaka has been ruled out for Saturday's game against the Timberwolves."
   },
   {
    "team": "CHI",
@@ -223,6 +212,28 @@
   },
   {
    "team": "DAL",
+   "player_id": "4432582",
+   "player": "Max Christie",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-15T21:24Z",
+   "comment": "Christie (ankle) has been ruled out for Sunday's game against the Celtics."
+  },
+  {
+   "team": "DAL",
+   "player_id": "6442",
+   "player": "Kyrie Irving",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-15T21:20Z",
+   "comment": "Irving (knee) has been ruled out for Sunday's game against the Celtics."
+  },
+  {
+   "team": "DAL",
    "player_id": "4593125",
    "player": "Santi Aldama",
    "status": "day-to-day",
@@ -231,28 +242,6 @@
    "return_date": "2026-11-15",
    "updated": "2026-11-15T18:19Z",
    "comment": "Aldama (ankle) is listed as questionable for Sunday's game in Boston."
-  },
-  {
-   "team": "DAL",
-   "player_id": "4432582",
-   "player": "Max Christie",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-15T18:18Z",
-   "comment": "Christie (ankle) is doubtful to play Sunday's game against the Celtics."
-  },
-  {
-   "team": "DAL",
-   "player_id": "6442",
-   "player": "Kyrie Irving",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-15T18:14Z",
-   "comment": "Irving (knee) is questionable to play in Sunday's game against the Celtics."
   },
   {
    "team": "DAL",
