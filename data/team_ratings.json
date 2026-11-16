@@ -1,8 +1,9 @@
 {
- "generated": "2026-11-15T20:46:06-05:00",
+ "generated": "2026-11-15T23:00:58-05:00",
  "unmatched": [
   "AK Okereke",
-  "Ernest Udeh Jr."
+  "Ernest Udeh Jr.",
+  "Rafael Castro"
  ],
  "teams": {
   "ATL": {
@@ -64,7 +65,7 @@
      "rating": -1.0,
      "o": -1.0,
      "d": 0.0,
-     "min": 16.9
+     "min": 16.8
     },
     {
      "player": "Jock Landale",
@@ -841,7 +842,7 @@
   "HOU": {
    "roster": 4.64,
    "market": 2.41,
-   "prior": 3.53,
+   "prior": 3.52,
    "rotation": [
     {
      "player": "Kevin Durant",
@@ -911,7 +912,7 @@
      "rating": 1.0,
      "o": 0.6,
      "d": 0.4,
-     "min": 0.9
+     "min": 1.0
     }
    ]
   },
@@ -1338,7 +1339,7 @@
      "rating": 0.6,
      "o": 2.2,
      "d": -1.6,
-     "min": 33.8
+     "min": 33.7
     },
     {
      "player": "Ryan Rollins",
@@ -1373,7 +1374,14 @@
      "rating": -0.6,
      "o": 0.3,
      "d": -0.9,
-     "min": 23.0
+     "min": 23.1
+    },
+    {
+     "player": "Brayden Burries",
+     "rating": -1.0,
+     "o": -0.6,
+     "d": -0.4,
+     "min": 19.0
     },
     {
      "player": "Pete Nance",
@@ -1383,18 +1391,11 @@
      "min": 18.8
     },
     {
-     "player": "Brayden Burries",
-     "rating": -1.0,
-     "o": -0.6,
-     "d": -0.4,
-     "min": 18.7
-    },
-    {
      "player": "Kel'el Ware",
      "rating": -1.4,
      "o": -0.8,
      "d": -0.7,
-     "min": 16.8
+     "min": 16.9
     },
     {
      "player": "Kyle Kuzma",
@@ -1408,7 +1409,7 @@
      "rating": -1.6,
      "o": -0.7,
      "d": -0.9,
-     "min": 4.5
+     "min": 4.4
     }
    ]
   },
@@ -1576,7 +1577,7 @@
      "rating": 3.1,
      "o": 1.6,
      "d": 1.5,
-     "min": 33.7
+     "min": 33.8
     },
     {
      "player": "Karl-Anthony Towns",
@@ -1618,7 +1619,7 @@
      "rating": 0.4,
      "o": 0.1,
      "d": 0.3,
-     "min": 21.7
+     "min": 21.8
     },
     {
      "player": "Jose Alvarado",
@@ -1632,14 +1633,14 @@
      "rating": -1.2,
      "o": -0.4,
      "d": -0.8,
-     "min": 10.9
+     "min": 10.8
     },
     {
      "player": "Dalton Knecht",
      "rating": -0.8,
      "o": 0.1,
      "d": -0.8,
-     "min": 5.7
+     "min": 5.8
     }
    ]
   },
@@ -2220,21 +2221,21 @@
      "rating": 1.0,
      "o": 1.7,
      "d": -0.7,
-     "min": 29.2
+     "min": 29.3
     },
     {
      "player": "Jakob Poeltl",
      "rating": 2.0,
      "o": -0.3,
      "d": 2.3,
-     "min": 28.9
+     "min": 28.8
     },
     {
      "player": "Collin Murray-Boyles",
      "rating": 0.5,
      "o": -0.3,
      "d": 0.8,
-     "min": 23.0
+     "min": 23.2
     },
     {
      "player": "Jamal Shead",
@@ -2248,7 +2249,7 @@
      "rating": -0.2,
      "o": -0.6,
      "d": 0.4,
-     "min": 18.9
+     "min": 19.0
     },
     {
      "player": "Malachi Smith",
@@ -2262,7 +2263,7 @@
      "rating": -0.5,
      "o": -0.8,
      "d": 0.3,
-     "min": 9.5
+     "min": 9.2
     }
    ]
   },
@@ -2351,7 +2352,7 @@
    ]
   },
   "WAS": {
-   "roster": -3.55,
+   "roster": -3.56,
    "market": -2.04,
    "prior": -2.8,
    "rotation": [
@@ -2367,14 +2368,14 @@
      "rating": 0.8,
      "o": 2.8,
      "d": -2.0,
-     "min": 32.9
+     "min": 32.8
     },
     {
      "player": "Deandre Ayton",
      "rating": 0.7,
      "o": -0.5,
      "d": 1.2,
-     "min": 28.3
+     "min": 28.2
     },
     {
      "player": "Justin Champagnie",
@@ -2416,14 +2417,14 @@
      "rating": -1.6,
      "o": -1.3,
      "d": -0.3,
-     "min": 20.3
+     "min": 20.2
     },
     {
      "player": "AJ Dybantsa",
      "rating": -2.8,
      "o": -1.7,
      "d": -1.1,
-     "min": 9.3
+     "min": 9.5
     }
    ]
   }

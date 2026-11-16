@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T20:45:59-0500",
+ "generated": "2026-11-15T23:00:52-0500",
  "teams": {
   "ATL": [
    {
@@ -7,6 +7,12 @@
     "player": "Nickeil Alexander-Walker",
     "position": "G",
     "jersey": "7"
+   },
+   {
+    "player_id": "4684443",
+    "player": "Rafael Castro",
+    "position": "F",
+    "jersey": ""
    },
    {
     "player_id": "4869342",
@@ -43,12 +49,6 @@
     "player": "Kingston Flemings",
     "position": "G",
     "jersey": "4"
-   },
-   {
-    "player_id": "4585618",
-    "player": "Keshon Gilbert",
-    "position": "G",
-    "jersey": "00"
    },
    {
     "player_id": "4712863",
@@ -2762,7 +2762,7 @@
     "player_id": "2488653",
     "player": "Mason Plumlee",
     "position": "C",
-    "jersey": ""
+    "jersey": "24"
    },
    {
     "player_id": "4898371",

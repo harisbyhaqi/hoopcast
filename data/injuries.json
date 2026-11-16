@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T20:45:59-0500",
+ "generated": "2026-11-15T23:00:52-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -33,17 +33,6 @@
    "return_date": "2026-12-12",
    "updated": "2026-11-13T00:06Z",
    "comment": "Gueye (foot) is ready to begin on-court activities and will be re-evaluated in four weeks, Brad Rowland of the Locked On Podcast Network reports."
-  },
-  {
-   "team": "ATL",
-   "player_id": "4585618",
-   "player": "Keshon Gilbert",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Inflammation",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-12T23:10Z",
-   "comment": "Gilbert (knee) has been ruled out for Friday's game against the Bulls."
   },
   {
    "team": "ATL",
