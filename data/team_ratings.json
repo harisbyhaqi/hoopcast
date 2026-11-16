@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T19:45:59-05:00",
+ "generated": "2026-11-15T20:46:06-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -83,7 +83,7 @@
    ]
   },
   "BOS": {
-   "roster": 6.12,
+   "roster": 6.11,
    "market": 3.7,
    "prior": 4.91,
    "rotation": [
@@ -134,14 +134,14 @@
      "rating": 1.6,
      "o": -0.2,
      "d": 1.7,
-     "min": 20.0
+     "min": 19.9
     },
     {
      "player": "Sam Hauser",
      "rating": 0.7,
      "o": 0.9,
      "d": -0.1,
-     "min": 17.5
+     "min": 17.4
     },
     {
      "player": "Hugo Gonzalez",
@@ -162,7 +162,7 @@
      "rating": -0.1,
      "o": -0.4,
      "d": 0.3,
-     "min": 6.0
+     "min": 6.2
     }
    ]
   },
@@ -421,7 +421,7 @@
   "CLE": {
    "roster": 2.14,
    "market": 2.59,
-   "prior": 2.36,
+   "prior": 2.37,
    "rotation": [
     {
      "player": "Donovan Mitchell",
@@ -519,7 +519,7 @@
      "rating": 0.6,
      "o": 1.2,
      "d": -0.6,
-     "min": 32.3
+     "min": 32.2
     },
     {
      "player": "Dereck Lively II",
@@ -568,7 +568,7 @@
      "rating": -0.3,
      "o": -1.5,
      "d": 1.2,
-     "min": 17.9
+     "min": 17.8
     },
     {
      "player": "Marcus Sasser",
@@ -582,7 +582,7 @@
      "rating": -1.4,
      "o": -0.6,
      "d": -0.8,
-     "min": 0.1
+     "min": 0.3
     }
    ]
   },
@@ -755,7 +755,7 @@
    ]
   },
   "GSW": {
-   "roster": 1.25,
+   "roster": 1.26,
    "market": -0.37,
    "prior": 0.44,
    "rotation": [

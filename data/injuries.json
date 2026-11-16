@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T19:45:54-0500",
+ "generated": "2026-11-15T20:45:59-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -707,17 +707,6 @@
   },
   {
    "team": "OKC",
-   "player_id": "4900671",
-   "player": "Ajay Mitchell",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-15T01:10Z",
-   "comment": "Mitchell (ankle) is questionable to suit up for Sunday's game against the Kings."
-  },
-  {
-   "team": "OKC",
    "player_id": "5061603",
    "player": "Thomas Sorber",
    "status": "out",
@@ -916,6 +905,28 @@
   },
   {
    "team": "SAC",
+   "player_id": "4065732",
+   "player": "De'Andre Hunter",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hip Soreness",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-16T01:18Z",
+   "comment": "Hunter (hip) is out for Sunday's game against the Thunder."
+  },
+  {
+   "team": "SAC",
+   "player_id": "3064440",
+   "player": "Zach LaVine",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Illness",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-16T01:06Z",
+   "comment": "LaVine is out for Sunday's game against Oklahoma City due to illness, Brandon Rahbar of DailyThunder.com reports."
+  },
+  {
+   "team": "SAC",
    "player_id": "4431679",
    "player": "Precious Achiuwa",
    "status": "out",
@@ -924,17 +935,6 @@
    "return_date": "2026-11-18",
    "updated": "2026-11-16T00:24Z",
    "comment": "Achiuwa (ankle) has been ruled out for Sunday's game against the Thunder, Brenden Nunes of KHTK Sactown Sports 1140 reports."
-  },
-  {
-   "team": "SAC",
-   "player_id": "4065732",
-   "player": "De'Andre Hunter",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip Soreness",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-16T00:18Z",
-   "comment": "Hunter is questionable for Sunday's game against the Thunder due to left hip soreness."
   },
   {
    "team": "SAC",
