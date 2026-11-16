@@ -1,6 +1,23 @@
 [
  {
   "kind": "status_change",
+  "team": "SAC",
+  "player": "Precious Achiuwa",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle Soreness",
+  "time": "2026-11-15T19:45:54-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "SAC",
+  "player": "De'Andre Hunter",
+  "to": "day-to-day",
+  "injury": "Hip Soreness",
+  "time": "2026-11-15T19:45:54-0500"
+ },
+ {
+  "kind": "status_change",
   "team": "ATL",
   "player": "Jock Landale",
   "from": "day-to-day",
@@ -8047,22 +8064,6 @@
   "from": "day-to-day",
   "to": "out",
   "injury": "Hamstring",
-  "time": "2026-10-24T17:45:47-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "CHI",
-  "player": "Noa Essengue",
-  "to": "day-to-day",
-  "injury": "Head Bruise",
-  "time": "2026-10-24T17:45:47-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "CHI",
-  "player": "Patrick Williams",
-  "to": "day-to-day",
-  "injury": "Groin Soreness",
   "time": "2026-10-24T17:45:47-0400"
  }
 ]

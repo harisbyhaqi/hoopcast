@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T18:45:51-0500",
+ "generated": "2026-11-15T19:45:54-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -586,6 +586,17 @@
   },
   {
    "team": "MIL",
+   "player_id": "4997526",
+   "player": "Ousmane Dieng",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Finger Surgery",
+   "return_date": "2026-12-14",
+   "updated": "2026-11-15T23:46Z",
+   "comment": "Dieng will undergo a procedure to repair a fractured left finger Monday, Justin Garcia of the Milwaukee Bucks Radio Network reports."
+  },
+  {
+   "team": "MIL",
    "player_id": "4591725",
    "player": "Ryan Rollins",
    "status": "out",
@@ -594,17 +605,6 @@
    "return_date": "2026-11-18",
    "updated": "2026-11-15T23:19Z",
    "comment": "Rollins (illness) is out for Sunday's game against the Hawks."
-  },
-  {
-   "team": "MIL",
-   "player_id": "4997526",
-   "player": "Ousmane Dieng",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Finger Fracture",
-   "return_date": "2026-11-18",
-   "updated": "2026-11-15T20:13Z",
-   "comment": "Dieng (finger) is listed as out for Sunday's game versus the Hawks."
   },
   {
    "team": "MIN",
@@ -916,6 +916,28 @@
   },
   {
    "team": "SAC",
+   "player_id": "4431679",
+   "player": "Precious Achiuwa",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Ankle Soreness",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-16T00:24Z",
+   "comment": "Achiuwa (ankle) has been ruled out for Sunday's game against the Thunder, Brenden Nunes of KHTK Sactown Sports 1140 reports."
+  },
+  {
+   "team": "SAC",
+   "player_id": "4065732",
+   "player": "De'Andre Hunter",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hip Soreness",
+   "return_date": "2026-11-15",
+   "updated": "2026-11-16T00:18Z",
+   "comment": "Hunter is questionable for Sunday's game against the Thunder due to left hip soreness."
+  },
+  {
+   "team": "SAC",
    "player_id": "4898371",
    "player": "Maxime Raynaud",
    "status": "out",
@@ -924,17 +946,6 @@
    "return_date": "2026-11-18",
    "updated": "2026-11-15T01:00Z",
    "comment": "Raynaud (knee) has been ruled out for Sunday's game against the Thunder."
-  },
-  {
-   "team": "SAC",
-   "player_id": "4431679",
-   "player": "Precious Achiuwa",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Soreness",
-   "return_date": "2026-11-15",
-   "updated": "2026-11-15T00:57Z",
-   "comment": "Achiuwa (ankle) is questionable for Sunday's game against the Thunder."
   },
   {
    "team": "SAC",
