@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T19:45:48-0500",
+ "generated": "2026-11-16T20:45:49-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -443,6 +443,17 @@
   },
   {
    "team": "LAC",
+   "player_id": "5108024",
+   "player": "Yanic Konan Niederhauser",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot Surgery",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-17T01:07Z",
+   "comment": "Niederhauser (foot) has been ruled out for Tuesday's game against the Jazz."
+  },
+  {
+   "team": "LAC",
    "player_id": "3913176",
    "player": "Brandon Ingram",
    "status": "out",
@@ -451,17 +462,6 @@
    "return_date": "2026-11-19",
    "updated": "2026-11-12T21:05Z",
    "comment": "Ingram (Achilles) won't play in Friday's game against the Thunder, per Law Murray of The Athletic."
-  },
-  {
-   "team": "LAC",
-   "player_id": "5108024",
-   "player": "Yanic Konan Niederhauser",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Foot Surgery",
-   "return_date": "2026-11-17",
-   "updated": "2026-11-10T00:05Z",
-   "comment": "Niederhauser (foot) is out for Tuesday's game against Phoenix, Ohm Youngmisuk of ESPN.com reports."
   },
   {
    "team": "LAC",
@@ -489,12 +489,23 @@
    "team": "LAL",
    "player_id": "4066457",
    "player": "Austin Reaves",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Heel Bruise",
-   "return_date": "2026-11-17",
-   "updated": "2026-11-16T14:42Z",
-   "comment": "Reaves (heel) has been ruled out for Sunday's game against the Suns, Daniel Starkand of LakersNation.com reports."
+   "return_date": "2026-11-18",
+   "updated": "2026-11-17T01:11Z",
+   "comment": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports."
+  },
+  {
+   "team": "LAL",
+   "player_id": "4433136",
+   "player": "Walker Kessler",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Lower Leg Soreness",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-17T01:10Z",
+   "comment": "Walker (leg) has been ruled out for Tuesday's game against the Hornets."
   },
   {
    "team": "MEM",
@@ -828,17 +839,6 @@
   },
   {
    "team": "PHX",
-   "player_id": "4888725",
-   "player": "Ryan Dunn",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Thumb Soreness",
-   "return_date": "2026-11-16",
-   "updated": "2026-11-16T20:18Z",
-   "comment": "Dunn (thumb) is listed as questionable for Monday's game against Denver."
-  },
-  {
-   "team": "PHX",
    "player_id": "4701232",
    "player": "Mark Williams",
    "status": "out",
@@ -1006,12 +1006,12 @@
    "team": "UTA",
    "player_id": "4397077",
    "player": "Jaxson Hayes",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Strain",
-   "return_date": "2026-11-17",
-   "updated": "2026-11-16T14:44Z",
-   "comment": "Hayes (knee) has been ruled out for Sunday's game against the Spurs."
+   "return_date": "2026-11-18",
+   "updated": "2026-11-17T01:08Z",
+   "comment": "Hayes (knee) has been ruled out for Tuesday's game against the Clippers."
   },
   {
    "team": "UTA",

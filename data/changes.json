@@ -1,5 +1,38 @@
 [
  {
+  "kind": "status_change",
+  "team": "LAL",
+  "player": "Austin Reaves",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Heel Bruise",
+  "time": "2026-11-16T20:45:49-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "LAL",
+  "player": "Walker Kessler",
+  "to": "out",
+  "injury": "Lower Leg Soreness",
+  "time": "2026-11-16T20:45:49-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Jaxson Hayes",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Strain",
+  "time": "2026-11-16T20:45:49-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHX",
+  "player": "Ryan Dunn",
+  "from": "day-to-day",
+  "time": "2026-11-16T20:45:49-0500"
+ },
+ {
   "kind": "cleared",
   "team": "GSW",
   "player": "Gui Santos",
@@ -8016,38 +8049,6 @@
   "player": "Karim Lopez",
   "to": "day-to-day",
   "injury": "Knee Bruise",
-  "time": "2026-10-25T16:45:48-0400"
- },
- {
-  "kind": "status_change",
-  "team": "PHI",
-  "player": "Jabari Walker",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Knee Soreness",
-  "time": "2026-10-25T16:45:48-0400"
- },
- {
-  "kind": "status_change",
-  "team": "PHI",
-  "player": "Joel Embiid",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Heel",
-  "time": "2026-10-25T16:45:48-0400"
- },
- {
-  "kind": "cleared",
-  "team": "DAL",
-  "player": "Kyrie Irving",
-  "from": "day-to-day",
-  "time": "2026-10-25T16:45:48-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "LeBron James",
-  "from": "day-to-day",
   "time": "2026-10-25T16:45:48-0400"
  }
 ]
