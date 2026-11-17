@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T23:01:40-0500",
+ "generated": "2026-11-17T02:00:52-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -95,7 +95,7 @@
    "player": "Jalen Smith",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Undisclosed",
+   "injury": "Head",
    "return_date": "2026-11-18",
    "updated": "2026-11-17T02:58Z",
    "comment": "Smith (undisclosed) exited in the fourth quarter of Monday's 126-115 loss to the Cavaliers and did not return."
@@ -426,7 +426,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Wrist",
-   "return_date": "2026-11-16",
+   "return_date": "2026-11-17",
    "updated": "2026-11-16T15:28Z",
    "comment": "Phillips (illness) is available for Wednesday's game against Dallas."
   },
@@ -850,6 +850,17 @@
   },
   {
    "team": "PHI",
+   "player_id": "3917376",
+   "player": "Jaylen Brown",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hamstring Not Specified",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-17T04:56Z",
+   "comment": "Brown (hamstring/head) will undergo further evaluation Tuesday and could receive an MRI, Kris Rhim of ESPN reports."
+  },
+  {
+   "team": "PHI",
    "player_id": "1966",
    "player": "LeBron James",
    "status": "day-to-day",
@@ -1042,7 +1053,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Illness",
-   "return_date": "2026-11-16",
+   "return_date": "2026-11-20",
    "updated": "2026-11-13T15:37Z",
    "comment": "McCullar signed a two-way contract with the Raptors on Thursday, Michael Scotto of HoopsHype.com reports."
   },

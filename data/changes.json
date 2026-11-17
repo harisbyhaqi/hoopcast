@@ -1,5 +1,19 @@
 [
  {
+  "kind": "released",
+  "team": "UTA",
+  "player": "Trey Alexander",
+  "time": "2026-11-17T02:00:52-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Jaylen Brown",
+  "to": "day-to-day",
+  "injury": "Hamstring Not Specified",
+  "time": "2026-11-17T02:00:52-0500"
+ },
+ {
   "kind": "status_change",
   "team": "BOS",
   "player": "Neemias Queta",
@@ -8046,23 +8060,6 @@
   "from": "day-to-day",
   "to": "out",
   "injury": "Hamstring Not Specified",
-  "time": "2026-10-25T18:45:45-0400"
- },
- {
-  "kind": "status_change",
-  "team": "DET",
-  "player": "Ausar Thompson",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Ankle Sprain",
-  "time": "2026-10-25T18:45:45-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "Kawhi Leonard",
-  "to": "out",
-  "injury": "Knee Inflammation",
   "time": "2026-10-25T18:45:45-0400"
  }
 ]

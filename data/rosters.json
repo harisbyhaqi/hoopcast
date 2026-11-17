@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T23:01:40-0500",
+ "generated": "2026-11-17T02:00:52-0500",
  "teams": {
   "ATL": [
    {
@@ -2998,12 +2998,6 @@
    }
   ],
   "UTA": [
-   {
-    "player_id": "4433268",
-    "player": "Trey Alexander",
-    "position": "G",
-    "jersey": "15"
-   },
    {
     "player_id": "4873138",
     "player": "Ace Bailey",
