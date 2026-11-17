@@ -1,5 +1,14 @@
 [
  {
+  "kind": "status_change",
+  "team": "HOU",
+  "player": "Amen Thompson",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Soreness",
+  "time": "2026-11-16T19:15:48-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "BOS",
   "player": "Neemias Queta",
@@ -8043,15 +8052,6 @@
   "from": "out",
   "to": "day-to-day",
   "injury": "Groin Soreness",
-  "time": "2026-10-25T10:00:54-0400"
- },
- {
-  "kind": "status_change",
-  "team": "CHI",
-  "player": "Noa Essengue",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Head Bruise",
   "time": "2026-10-25T10:00:54-0400"
  }
 ]

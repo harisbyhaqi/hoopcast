@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T18:45:46-0500",
+ "generated": "2026-11-16T19:15:48-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -357,12 +357,12 @@
    "team": "HOU",
    "player_id": "4684740",
    "player": "Amen Thompson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Soreness",
-   "return_date": "2026-11-16",
-   "updated": "2026-11-16T18:13Z",
-   "comment": "Thompson (knee) is listed as questionable for Monday's game against the Heat."
+   "return_date": "2026-11-18",
+   "updated": "2026-11-16T23:48Z",
+   "comment": "Thompson (knee) is out for Monday's game against the Heat."
   },
   {
    "team": "HOU",
@@ -795,12 +795,23 @@
   },
   {
    "team": "PHI",
+   "player_id": "4870562",
+   "player": "Dominick Barlow",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back Fracture",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-16T23:45Z",
+   "comment": "Barlow (back) will be re-evaluated later in the week and is thought to be nearing his 2026-27 season debut, Tony Jones of The Athletic reports."
+  },
+  {
+   "team": "PHI",
    "player_id": "3059318",
    "player": "Joel Embiid",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Foot",
-   "return_date": "2026-11-16",
+   "injury": "",
+   "return_date": null,
    "updated": "2026-11-16T18:09Z",
    "comment": "Embiid (foot) is questionable for Monday's game against the Nets."
   },
@@ -814,17 +825,6 @@
    "return_date": "2026-11-18",
    "updated": "2026-11-16T18:07Z",
    "comment": "James (back) has been ruled out for Monday's game against the Nets."
-  },
-  {
-   "team": "PHI",
-   "player_id": "4870562",
-   "player": "Dominick Barlow",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back Fracture",
-   "return_date": "2026-11-18",
-   "updated": "2026-11-12T16:37Z",
-   "comment": "Barlow (back) participated in Thursday's shootaround but doesn't have a timeline to return to game action, Ky Carlin of USA Today reports."
   },
   {
    "team": "PHI",
