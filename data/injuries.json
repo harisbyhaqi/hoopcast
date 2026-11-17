@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T19:15:48-0500",
+ "generated": "2026-11-16T19:45:48-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -286,17 +286,6 @@
    "return_date": "2026-11-24",
    "updated": "2026-11-08T16:05Z",
    "comment": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4997536",
-   "player": "Gui Santos",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Inflammation",
-   "return_date": "2026-11-16",
-   "updated": "2026-11-15T23:03Z",
-   "comment": "Santos is questionable for Monday's game against New Orleans due to right ankle inflammation."
   },
   {
    "team": "GSW",
@@ -803,17 +792,6 @@
    "return_date": "2026-11-18",
    "updated": "2026-11-16T23:45Z",
    "comment": "Barlow (back) will be re-evaluated later in the week and is thought to be nearing his 2026-27 season debut, Tony Jones of The Athletic reports."
-  },
-  {
-   "team": "PHI",
-   "player_id": "3059318",
-   "player": "Joel Embiid",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-11-16T18:09Z",
-   "comment": "Embiid (foot) is questionable for Monday's game against the Nets."
   },
   {
    "team": "PHI",
