@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T19:16:00-0500",
+ "generated": "2026-11-17T19:45:42-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -907,11 +907,11 @@
    "team": "POR",
    "player_id": "4683021",
    "player": "Deni Avdija",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Foot",
-   "return_date": "2026-11-17",
-   "updated": "2026-11-17T19:20Z",
+   "return_date": "2026-11-19",
+   "updated": "2026-11-18T00:24Z",
    "comment": "Avdija (foot) is questionable for Tuesday's game against the Timberwolves."
   },
   {
@@ -957,17 +957,6 @@
    "return_date": "2027-03-02",
    "updated": "2026-08-24T20:23Z",
    "comment": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN."
-  },
-  {
-   "team": "SAC",
-   "player_id": "3064440",
-   "player": "Zach LaVine",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-18",
-   "updated": "2026-11-16T14:48Z",
-   "comment": "LaVine is out for Sunday's game against Oklahoma City due to illness, Brandon Rahbar of DailyThunder.com reports."
   },
   {
    "team": "SAC",
