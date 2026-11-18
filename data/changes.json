@@ -1,6 +1,23 @@
 [
  {
   "kind": "injury_new",
+  "team": "GSW",
+  "player": "Draymond Green",
+  "to": "day-to-day",
+  "injury": "Elbow Inflammation",
+  "time": "2026-11-18T02:00:52-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAS",
+  "player": "Dylan Harper",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Undisclosed",
+  "time": "2026-11-18T02:00:52-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "SAS",
   "player": "Dylan Harper",
   "to": "out",
@@ -8028,23 +8045,6 @@
   "from": "out",
   "to": "day-to-day",
   "injury": "Ankle Sprain",
-  "time": "2026-10-26T18:45:53-0400"
- },
- {
-  "kind": "status_change",
-  "team": "HOU",
-  "player": "Marcus Smart",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Forearm Strain",
-  "time": "2026-10-26T18:45:53-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "IND",
-  "player": "Andrew Nembhard",
-  "to": "day-to-day",
-  "injury": "Neck Soreness",
   "time": "2026-10-26T18:45:53-0400"
  }
 ]

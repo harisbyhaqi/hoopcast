@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T23:01:00-0500",
+ "generated": "2026-11-18T02:00:52-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -330,6 +330,17 @@
    "return_date": "2026-11-24",
    "updated": "2026-11-08T16:05Z",
    "comment": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports."
+  },
+  {
+   "team": "GSW",
+   "player_id": "6589",
+   "player": "Draymond Green",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Elbow Inflammation",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-18T05:49Z",
+   "comment": "Green is questionable for Wednesday's game in Dallas due to inflammation in his right elbow."
   },
   {
    "team": "GSW",
@@ -971,6 +982,17 @@
   },
   {
    "team": "SAC",
+   "player_id": "4898371",
+   "player": "Maxime Raynaud",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Dislocated",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-18T05:54Z",
+   "comment": "Raynaud (knee) will remain on the inactive list for Wednesday's game against the Suns."
+  },
+  {
+   "team": "SAC",
    "player_id": "4065732",
    "player": "De'Andre Hunter",
    "status": "day-to-day",
@@ -993,17 +1015,6 @@
   },
   {
    "team": "SAC",
-   "player_id": "4898371",
-   "player": "Maxime Raynaud",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Dislocated",
-   "return_date": "2026-11-18",
-   "updated": "2026-11-15T01:00Z",
-   "comment": "Raynaud (knee) has been ruled out for Sunday's game against the Thunder."
-  },
-  {
-   "team": "SAC",
    "player_id": "3907387",
    "player": "Ben Simmons",
    "status": "out",
@@ -1017,12 +1028,12 @@
    "team": "SAS",
    "player_id": "5037871",
    "player": "Dylan Harper",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Undisclosed",
    "return_date": "2026-11-19",
-   "updated": "2026-11-18T03:45Z",
-   "comment": "Harper recorded 31 points (12-23 FG, 2-7 3Pt, 5-5 FT), nine rebounds, four assists and one steal across 34 minutes during Sunday's 110-102 win over the Jazz."
+   "updated": "2026-11-18T05:07Z",
+   "comment": "Harper left Tuesday's game against the Spurs due to an undisclosed injury after an awkward fall, Chris Mannix reports."
   },
   {
    "team": "SAS",
