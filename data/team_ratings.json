@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T22:16:03-05:00",
+ "generated": "2026-11-17T22:45:57-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr.",
@@ -414,7 +414,7 @@
    ]
   },
   "CLE": {
-   "roster": 1.98,
+   "roster": 1.97,
    "market": 2.59,
    "prior": 2.28,
    "rotation": [
@@ -666,7 +666,7 @@
    ]
   },
   "DET": {
-   "roster": 2.37,
+   "roster": 2.38,
    "market": 2.96,
    "prior": 2.67,
    "rotation": [
@@ -717,7 +717,7 @@
      "rating": 0.1,
      "o": -0.2,
      "d": 0.3,
-     "min": 19.8
+     "min": 19.9
     },
     {
      "player": "Javonte Green",
@@ -745,7 +745,7 @@
      "rating": -1.4,
      "o": -0.9,
      "d": -0.5,
-     "min": 5.4
+     "min": 5.3
     }
    ]
   },
@@ -1408,9 +1408,9 @@
    ]
   },
   "MIN": {
-   "roster": 4.7,
+   "roster": 4.72,
    "market": 2.59,
-   "prior": 3.64,
+   "prior": 3.66,
    "rotation": [
     {
      "player": "Anthony Edwards",
@@ -1459,14 +1459,14 @@
      "rating": 0.4,
      "o": -0.2,
      "d": 0.7,
-     "min": 19.7
+     "min": 19.8
     },
     {
      "player": "Bones Hyland",
-     "rating": 0.7,
+     "rating": 0.8,
      "o": null,
      "d": null,
-     "min": 19.4
+     "min": 19.5
     },
     {
      "player": "Ayo Dosunmu",
@@ -1480,7 +1480,7 @@
      "rating": -2.6,
      "o": -1.8,
      "d": -0.8,
-     "min": 10.0
+     "min": 9.9
     }
    ]
   },
@@ -1723,9 +1723,9 @@
    ]
   },
   "ORL": {
-   "roster": 1.25,
+   "roster": 1.24,
    "market": 0.93,
-   "prior": 1.09,
+   "prior": 1.08,
    "rotation": [
     {
      "player": "Franz Wagner",
@@ -1802,7 +1802,7 @@
   "PHI": {
    "roster": 1.21,
    "market": 3.52,
-   "prior": 2.37,
+   "prior": 2.36,
    "rotation": [
     {
      "player": "Tyrese Maxey",
@@ -1991,7 +1991,7 @@
      "rating": 1.8,
      "o": -0.2,
      "d": 2.0,
-     "min": 27.6
+     "min": 27.7
     },
     {
      "player": "Toumani Camara",
@@ -2012,7 +2012,7 @@
      "rating": 0.5,
      "o": 2.1,
      "d": -1.6,
-     "min": 25.4
+     "min": 25.3
     },
     {
      "player": "Shaedon Sharpe",
@@ -2033,7 +2033,7 @@
      "rating": -0.6,
      "o": -0.6,
      "d": 0.0,
-     "min": 7.2
+     "min": 7.1
     }
    ]
   },
@@ -2131,7 +2131,7 @@
      "rating": 7.0,
      "o": 4.6,
      "d": 2.4,
-     "min": 32.1
+     "min": 32.2
     },
     {
      "player": "Stephon Castle",
@@ -2181,13 +2181,6 @@
      "o": 0.1,
      "d": -0.1,
      "min": 18.4
-    },
-    {
-     "player": "Luke Kornet",
-     "rating": -0.1,
-     "o": -1.4,
-     "d": 1.4,
-     "min": 0.0
     }
    ]
   },
@@ -2353,7 +2346,7 @@
    ]
   },
   "WAS": {
-   "roster": -3.81,
+   "roster": -3.82,
    "market": -2.04,
    "prior": -2.93,
    "rotation": [
