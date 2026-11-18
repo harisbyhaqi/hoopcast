@@ -1,5 +1,13 @@
 [
  {
+  "kind": "injury_new",
+  "team": "SAS",
+  "player": "Dylan Harper",
+  "to": "out",
+  "injury": "Undisclosed",
+  "time": "2026-11-17T23:01:00-0500"
+ },
+ {
   "kind": "signed",
   "team": "DET",
   "player": "Chaz Lanier",
@@ -8037,14 +8045,6 @@
   "player": "Andrew Nembhard",
   "to": "day-to-day",
   "injury": "Neck Soreness",
-  "time": "2026-10-26T18:45:53-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "IND",
-  "player": "Aaron Nesmith",
-  "to": "day-to-day",
-  "injury": "Hamstring",
   "time": "2026-10-26T18:45:53-0400"
  }
 ]
