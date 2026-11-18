@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T19:45:42-0500",
+ "generated": "2026-11-17T22:15:57-0500",
  "teams": {
   "ATL": [
    {
@@ -923,6 +923,12 @@
     "player": "Isaac Jones",
     "position": "C",
     "jersey": "13"
+   },
+   {
+    "player_id": "4700852",
+    "player": "Chaz Lanier",
+    "position": "G",
+    "jersey": "8"
    },
    {
     "player_id": "5258459",
@@ -2998,6 +3004,12 @@
    }
   ],
   "UTA": [
+   {
+    "player_id": "4684682",
+    "player": "Jonas Aidoo",
+    "position": "C",
+    "jersey": "13"
+   },
    {
     "player_id": "4873138",
     "player": "Ace Bailey",

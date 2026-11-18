@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T19:45:42-0500",
+ "generated": "2026-11-17T22:15:57-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -66,6 +66,17 @@
    "return_date": "2027-07-01",
    "updated": "2026-09-21T19:50Z",
    "comment": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday."
+  },
+  {
+   "team": "CHA",
+   "player_id": "3135045",
+   "player": "Grayson Allen",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Concussion",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-18T02:19Z",
+   "comment": "Allen (concussion-like symptoms) has been ruled out for Tuesday's game against the Lakers."
   },
   {
    "team": "CHA",
@@ -520,6 +531,17 @@
   },
   {
    "team": "LAL",
+   "player_id": "4433136",
+   "player": "Walker Kessler",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Lower Leg Soreness",
+   "return_date": "2026-11-18",
+   "updated": "2026-11-18T02:57Z",
+   "comment": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports."
+  },
+  {
+   "team": "LAL",
    "player_id": "4066457",
    "player": "Austin Reaves",
    "status": "out",
@@ -528,17 +550,6 @@
    "return_date": "2026-11-18",
    "updated": "2026-11-17T01:11Z",
    "comment": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports."
-  },
-  {
-   "team": "LAL",
-   "player_id": "4433136",
-   "player": "Walker Kessler",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Lower Leg Soreness",
-   "return_date": "2026-11-18",
-   "updated": "2026-11-17T01:10Z",
-   "comment": "Walker (leg) has been ruled out for Tuesday's game against the Hornets."
   },
   {
    "team": "MEM",
@@ -911,8 +922,8 @@
    "status_raw": "Out",
    "injury": "Foot",
    "return_date": "2026-11-19",
-   "updated": "2026-11-18T00:24Z",
-   "comment": "Avdija (foot) is questionable for Tuesday's game against the Timberwolves."
+   "updated": "2026-11-18T00:28Z",
+   "comment": "Avdija (foot) won't play Tuesday versus Minnesota."
   },
   {
    "team": "POR",
@@ -966,8 +977,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Hip Soreness",
    "return_date": "2026-11-18",
-   "updated": "2026-11-16T14:48Z",
-   "comment": "Hunter (hip) is out for Sunday's game against the Thunder."
+   "updated": "2026-11-18T00:33Z",
+   "comment": "Hunter (hip) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports."
   },
   {
    "team": "SAC",
@@ -977,8 +988,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Soreness",
    "return_date": "2026-11-18",
-   "updated": "2026-11-16T14:48Z",
-   "comment": "Achiuwa (ankle) has been ruled out for Sunday's game against the Thunder, Brenden Nunes of KHTK Sactown Sports 1140 reports."
+   "updated": "2026-11-18T00:29Z",
+   "comment": "Achiuwa (ankle) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports."
   },
   {
    "team": "SAC",

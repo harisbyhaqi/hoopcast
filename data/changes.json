@@ -1,5 +1,25 @@
 [
  {
+  "kind": "signed",
+  "team": "DET",
+  "player": "Chaz Lanier",
+  "time": "2026-11-17T22:15:57-0500"
+ },
+ {
+  "kind": "signed",
+  "team": "UTA",
+  "player": "Jonas Aidoo",
+  "time": "2026-11-17T22:15:57-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CHA",
+  "player": "Grayson Allen",
+  "to": "out",
+  "injury": "Concussion",
+  "time": "2026-11-17T22:15:57-0500"
+ },
+ {
   "kind": "status_change",
   "team": "POR",
   "player": "Deni Avdija",
@@ -8025,32 +8045,6 @@
   "player": "Aaron Nesmith",
   "to": "day-to-day",
   "injury": "Hamstring",
-  "time": "2026-10-26T18:45:53-0400"
- },
- {
-  "kind": "status_change",
-  "team": "IND",
-  "player": "Ivica Zubac",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Ankle Sprain",
-  "time": "2026-10-26T18:45:53-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "MEM",
-  "player": "Isaiah Stewart",
-  "to": "day-to-day",
-  "injury": "Ankle",
-  "time": "2026-10-26T18:45:53-0400"
- },
- {
-  "kind": "status_change",
-  "team": "MEM",
-  "player": "Karim Lopez",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Knee Bruise",
   "time": "2026-10-26T18:45:53-0400"
  }
 ]
