@@ -1,26 +1,26 @@
 {
- "generated": "2026-11-19T02:00:55-0500",
+ "generated": "2026-11-19T10:01:01-0500",
  "injuries": [
   {
    "team": "ATL",
    "player_id": "3146557",
    "player": "Jock Landale",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hip Inflammation",
    "return_date": "2026-11-20",
-   "updated": "2026-11-17T23:07Z",
+   "updated": "2026-11-19T14:50Z",
    "comment": "Landale (hip) won't play Wednesday in Oklahoma City."
   },
   {
    "team": "ATL",
    "player_id": "5149077",
    "player": "Kingston Flemings",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Back Strain",
    "return_date": "2026-11-20",
-   "updated": "2026-11-17T23:06Z",
+   "updated": "2026-11-19T14:50Z",
    "comment": "Flemings (back) is out for Wednesday's game against the Thunder."
   },
   {
@@ -124,25 +124,25 @@
   },
   {
    "team": "CLE",
-   "player_id": "4576087",
-   "player": "Peyton Watson",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back Bruise",
+   "player_id": "4683747",
+   "player": "Jaylon Tyson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
    "return_date": "2026-11-20",
-   "updated": "2026-11-18T23:17Z",
-   "comment": "Watson (back) is out for Wednesday's game versus Memphis."
+   "updated": "2026-11-19T14:45Z",
+   "comment": "Tyson (ankle) has been ruled out for Wednesday's game against Memphis."
   },
   {
    "team": "CLE",
-   "player_id": "4683747",
-   "player": "Jaylon Tyson",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle",
+   "player_id": "4576087",
+   "player": "Peyton Watson",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back Bruise",
    "return_date": "2026-11-20",
-   "updated": "2026-11-18T18:21Z",
-   "comment": "Tyson (ankle) has been ruled out for Wednesday's game against Memphis."
+   "updated": "2026-11-19T14:44Z",
+   "comment": "Watson (back) is out for Wednesday's game versus Memphis."
   },
   {
    "team": "CLE",
@@ -170,11 +170,11 @@
    "team": "DAL",
    "player_id": "5106040",
    "player": "Tobi Lawal",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Groin",
    "return_date": "2026-11-21",
-   "updated": "2026-11-18T23:59Z",
+   "updated": "2026-11-19T14:51Z",
    "comment": "Lawal is out for Wednesday's game against the Warriors due to tightness in his right groin."
   },
   {
@@ -223,36 +223,36 @@
   },
   {
    "team": "DET",
-   "player_id": "4432166",
-   "player": "Cade Cunningham",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Soreness",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-19T00:37Z",
-   "comment": "Cunningham (knee) won't play in Wednesday's game against New Orleans."
-  },
-  {
-   "team": "DET",
    "player_id": "2990962",
    "player": "Taurean Prince",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee Soreness",
    "return_date": "2026-11-20",
-   "updated": "2026-11-18T19:05Z",
+   "updated": "2026-11-19T14:49Z",
    "comment": "Prince (knee) is out for Wednesday's game against the Pelicans."
   },
   {
    "team": "DET",
    "player_id": "4683771",
    "player": "Ronald Holland II",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee Bruise",
    "return_date": "2026-11-20",
-   "updated": "2026-11-18T19:04Z",
+   "updated": "2026-11-19T14:49Z",
    "comment": "Holland (knee) is out for Wednesday's game against the Pelicans."
+  },
+  {
+   "team": "DET",
+   "player_id": "4432166",
+   "player": "Cade Cunningham",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Soreness",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-19T14:49Z",
+   "comment": "Cunningham (knee) won't play in Wednesday's game against New Orleans."
   },
   {
    "team": "DET",
@@ -278,13 +278,24 @@
   },
   {
    "team": "GSW",
+   "player_id": "6589",
+   "player": "Draymond Green",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Rest",
+   "return_date": "2026-11-19",
+   "updated": "2026-11-19T14:59Z",
+   "comment": "Green (elbow) is available for Wednesday's game against the Mavericks."
+  },
+  {
+   "team": "GSW",
    "player_id": "3213",
    "player": "Al Horford",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Back",
    "return_date": "2026-11-19",
-   "updated": "2026-11-18T23:38Z",
+   "updated": "2026-11-19T14:51Z",
    "comment": "Horford (back) is out for Wednesday's game against the Mavericks, but will play Thursday against the Grizzlies, Nick Friedell of The Athletic reports."
   },
   {
@@ -366,6 +377,17 @@
   },
   {
    "team": "IND",
+   "player_id": "4395712",
+   "player": "Andrew Nembhard",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hip Soreness",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-19T14:45Z",
+   "comment": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports."
+  },
+  {
+   "team": "IND",
    "player_id": "5105854",
    "player": "Braden Smith",
    "status": "day-to-day",
@@ -374,17 +396,6 @@
    "return_date": "2026-11-20",
    "updated": "2026-11-19T02:52Z",
    "comment": "Smith suffered a right ankle sprain during Wednesday's game against the Wizards, Tony East of Forbes.com reports."
-  },
-  {
-   "team": "IND",
-   "player_id": "4395712",
-   "player": "Andrew Nembhard",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hip Soreness",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-18T22:27Z",
-   "comment": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports."
   },
   {
    "team": "IND",
@@ -465,6 +476,17 @@
   },
   {
    "team": "MEM",
+   "player_id": "4432810",
+   "player": "Isaiah Stewart",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Illness",
+   "return_date": "2026-11-19",
+   "updated": "2026-11-19T14:44Z",
+   "comment": "Stewart (illness) won't play Wednesday against the Cavs."
+  },
+  {
+   "team": "MEM",
    "player_id": "5105550",
    "player": "GG Jackson",
    "status": "out",
@@ -473,17 +495,6 @@
    "return_date": "2027-01-18",
    "updated": "2026-11-17T23:18Z",
    "comment": "Jackson underwent a procedure Wednesday to repair a broken fifth metatarsal in his left foot. He is expected to recover fully and will be re-evaluated in approximately three months."
-  },
-  {
-   "team": "MEM",
-   "player_id": "4432810",
-   "player": "Isaiah Stewart",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Illness",
-   "return_date": "2026-11-19",
-   "updated": "2026-11-17T22:10Z",
-   "comment": "Stewart (illness) won't play Wednesday against the Cavs."
   },
   {
    "team": "MEM",
@@ -522,22 +533,22 @@
    "team": "MIA",
    "player_id": "4431772",
    "player": "Myron Gardner",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hamstring",
    "return_date": "2026-11-22",
-   "updated": "2026-11-18T18:09Z",
+   "updated": "2026-11-19T14:45Z",
    "comment": "Gardner (hamstring) is out for Wednesday's game against the Bucks."
   },
   {
    "team": "MIL",
    "player_id": "4591725",
    "player": "Ryan Rollins",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Illness",
    "return_date": "2026-11-19",
-   "updated": "2026-11-18T18:10Z",
+   "updated": "2026-11-19T14:45Z",
    "comment": "Rollins (illness) has been ruled out for Wednesday's game at Miami."
   },
   {
@@ -756,7 +767,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Ankle Sprain",
-   "return_date": "2026-11-22",
+   "return_date": "2026-11-29",
    "updated": "2026-10-24T16:47Z",
    "comment": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports."
   },
@@ -789,7 +800,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Hamstring Not Specified",
-   "return_date": "2026-11-21",
+   "return_date": "2026-11-23",
    "updated": "2026-11-18T22:21Z",
    "comment": "Brown (hamstring) will be re-evaluated at some point this weekend, per Kris Rihm of ESPN.com."
   },
@@ -971,6 +982,28 @@
   },
   {
    "team": "TOR",
+   "player_id": "4395625",
+   "player": "RJ Barrett",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hamstring Soreness",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-19T14:48Z",
+   "comment": "Barrett (hamstring) is out for Wednesday's game against the Wizards, Michael Grange of Sportsnet.ca reports."
+  },
+  {
+   "team": "TOR",
+   "player_id": "4433134",
+   "player": "Scottie Barnes",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Groin",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-19T14:48Z",
+   "comment": "Barnes (injury management) has been ruled out for Wednesday's game against Washington, Esfandiar Baraheni of The Athletic reports."
+  },
+  {
+   "team": "TOR",
    "player_id": "5093267",
    "player": "Collin Murray-Boyles",
    "status": "day-to-day",
@@ -979,28 +1012,6 @@
    "return_date": "2026-11-20",
    "updated": "2026-11-19T01:34Z",
    "comment": "Murray-Boyles will not return to Wednesday's game against the Wizards due to an illness, Blake Murphy of Sportsnet.ca reports."
-  },
-  {
-   "team": "TOR",
-   "player_id": "4395625",
-   "player": "RJ Barrett",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring Soreness",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-18T22:55Z",
-   "comment": "Barrett (hamstring) is out for Wednesday's game against the Wizards, Michael Grange of Sportsnet.ca reports."
-  },
-  {
-   "team": "TOR",
-   "player_id": "4433134",
-   "player": "Scottie Barnes",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Groin",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-18T17:46Z",
-   "comment": "Barnes (injury management) has been ruled out for Wednesday's game against Washington, Esfandiar Baraheni of The Athletic reports."
   },
   {
    "team": "TOR",
