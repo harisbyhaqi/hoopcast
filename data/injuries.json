@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T21:46:04-0500",
+ "generated": "2026-11-18T23:01:02-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -366,6 +366,17 @@
   },
   {
    "team": "IND",
+   "player_id": "5105854",
+   "player": "Braden Smith",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-19T02:52Z",
+   "comment": "Smith suffered a right ankle sprain during Wednesday's game against the Wizards, Tony East of Forbes.com reports."
+  },
+  {
+   "team": "IND",
    "player_id": "4395712",
    "player": "Andrew Nembhard",
    "status": "out",
@@ -649,6 +660,17 @@
    "return_date": "2026-11-20",
    "updated": "2026-11-13T20:19Z",
    "comment": "Murray (ankle) is out for Friday's game against Memphis."
+  },
+  {
+   "team": "OKC",
+   "player_id": "2991350",
+   "player": "Alex Caruso",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hip Soreness",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-19T03:13Z",
+   "comment": "Caruso won't return to Wednesday's game against the Hawks due to right hip soreness, Clemente Almanza of USA Today reports."
   },
   {
    "team": "OKC",

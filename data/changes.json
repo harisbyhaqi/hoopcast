@@ -1,6 +1,22 @@
 [
  {
   "kind": "injury_new",
+  "team": "IND",
+  "player": "Braden Smith",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-18T23:01:02-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "OKC",
+  "player": "Alex Caruso",
+  "to": "out",
+  "injury": "Hip Soreness",
+  "time": "2026-11-18T23:01:02-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "HOU",
   "player": "Alperen Sengun",
   "to": "day-to-day",
@@ -8009,22 +8025,6 @@
   "player": "Ivica Zubac",
   "from": "day-to-day",
   "to": "out",
-  "injury": "Ankle Sprain",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "LAC",
-  "player": "Rui Hachimura",
-  "to": "out",
-  "injury": "Quadriceps Soreness",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "MIA",
-  "player": "Pelle Larsson",
-  "to": "day-to-day",
   "injury": "Ankle Sprain",
   "time": "2026-10-27T19:15:54-0400"
  }
