@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T19:45:50-0500",
+ "generated": "2026-11-18T21:15:46-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -229,19 +229,8 @@
    "status_raw": "Out",
    "injury": "Knee Soreness",
    "return_date": "2026-11-20",
-   "updated": "2026-11-19T00:33Z",
-   "comment": "Cunningham is questionable for Wednesday's game against the Pelicans due to right knee soreness"
-  },
-  {
-   "team": "DET",
-   "player_id": "4395702",
-   "player": "Isaiah Joe",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hip Bruise",
-   "return_date": "2026-11-18",
-   "updated": "2026-11-18T19:08Z",
-   "comment": "Joe (hip) is listed as questionable for Wednesday's game against the Pelicans."
+   "updated": "2026-11-19T00:37Z",
+   "comment": "Cunningham (knee) won't play in Wednesday's game against New Orleans."
   },
   {
    "team": "DET",
@@ -355,6 +344,17 @@
   },
   {
    "team": "HOU",
+   "player_id": "4871144",
+   "player": "Alperen Sengun",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Eye",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-19T01:27Z",
+   "comment": "Sengun (eye) will not return to Wednesday's game against the Pacers, Will Guillory of The Athletic reports."
+  },
+  {
+   "team": "HOU",
    "player_id": "3102529",
    "player": "Clint Capela",
    "status": "out",
@@ -449,8 +449,8 @@
    "status_raw": "Out",
    "injury": "Heel Bruise",
    "return_date": "2026-11-20",
-   "updated": "2026-11-18T21:03Z",
-   "comment": "Reaves (heel) is out for Wednesday's game against the Jazz."
+   "updated": "2026-11-19T01:38Z",
+   "comment": "Head coach JJ Redick said Reaves' (heel) pregame workout went \"well,\" but he remains without an official timetable to return, Daniel Starkand of LakersNation.com reports."
   },
   {
    "team": "MEM",
@@ -949,6 +949,17 @@
   },
   {
    "team": "TOR",
+   "player_id": "5093267",
+   "player": "Collin Murray-Boyles",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Illness",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-19T01:34Z",
+   "comment": "Murray-Boyles will not return to Wednesday's game against the Wizards due to an illness, Blake Murphy of Sportsnet.ca reports."
+  },
+  {
+   "team": "TOR",
    "player_id": "4395625",
    "player": "RJ Barrett",
    "status": "out",
@@ -990,17 +1001,6 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-14T21:59Z",
    "comment": "Bittle (foot) has been ruled out for Sunday's game against the Knicks, Zulfi Sheikh of Sportsnet.ca reports."
-  },
-  {
-   "team": "UTA",
-   "player_id": "4397077",
-   "player": "Jaxson Hayes",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Strain",
-   "return_date": "2026-11-18",
-   "updated": "2026-11-18T21:05Z",
-   "comment": "Hayes (knee) is questionable for Wednesday's game against the Lakers."
   },
   {
    "team": "UTA",

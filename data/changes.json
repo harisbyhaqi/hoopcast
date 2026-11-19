@@ -1,5 +1,35 @@
 [
  {
+  "kind": "injury_new",
+  "team": "HOU",
+  "player": "Alperen Sengun",
+  "to": "day-to-day",
+  "injury": "Eye",
+  "time": "2026-11-18T21:15:46-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "TOR",
+  "player": "Collin Murray-Boyles",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-11-18T21:15:46-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "DET",
+  "player": "Isaiah Joe",
+  "from": "out",
+  "time": "2026-11-18T21:15:46-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "UTA",
+  "player": "Jaxson Hayes",
+  "from": "day-to-day",
+  "time": "2026-11-18T21:15:46-0500"
+ },
+ {
   "kind": "status_change",
   "team": "DET",
   "player": "Cade Cunningham",
@@ -7996,38 +8026,6 @@
   "player": "Pelle Larsson",
   "to": "day-to-day",
   "injury": "Ankle Sprain",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "MIA",
-  "player": "Simone Fontecchio",
-  "to": "day-to-day",
-  "injury": "Illness",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "MIN",
-  "player": "Anthony Edwards",
-  "to": "out",
-  "injury": "Knee Surgery",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "NOP",
-  "player": "Jordan Poole",
-  "to": "day-to-day",
-  "injury": "Illness",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "OKC",
-  "player": "Ajay Mitchell",
-  "to": "day-to-day",
-  "injury": "Ankle",
   "time": "2026-10-27T19:15:54-0400"
  }
 ]
