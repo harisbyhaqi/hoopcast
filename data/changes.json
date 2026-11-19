@@ -1,5 +1,42 @@
 [
  {
+  "kind": "status_change",
+  "team": "DAL",
+  "player": "Tobi Lawal",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Groin",
+  "time": "2026-11-18T19:15:47-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "DAL",
+  "player": "Walter Clayton Jr.",
+  "from": "day-to-day",
+  "time": "2026-11-18T19:15:47-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "DAL",
+  "player": "Max Christie",
+  "from": "day-to-day",
+  "time": "2026-11-18T19:15:47-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "DAL",
+  "player": "Santi Aldama",
+  "from": "day-to-day",
+  "time": "2026-11-18T19:15:47-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "OKC",
+  "player": "Jaylin Williams",
+  "from": "out",
+  "time": "2026-11-18T19:15:47-0500"
+ },
+ {
   "kind": "signed",
   "team": "CLE",
   "player": "Zack Austin",
@@ -7991,49 +8028,6 @@
   "from": "day-to-day",
   "to": "out",
   "injury": "Ankle",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "status_change",
-  "team": "PHI",
-  "player": "Jabari Walker",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Knee Soreness",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "status_change",
-  "team": "TOR",
-  "player": "Kawhi Leonard",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Knee Inflammation",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "status_change",
-  "team": "UTA",
-  "player": "Jaren Jackson Jr.",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Knee Not Specified",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "status_change",
-  "team": "WAS",
-  "player": "Justin Champagnie",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Foot Not Specified",
-  "time": "2026-10-27T19:15:54-0400"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "VJ Edgecombe",
-  "from": "day-to-day",
   "time": "2026-10-27T19:15:54-0400"
  }
 ]
