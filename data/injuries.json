@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T19:15:47-0500",
+ "generated": "2026-11-18T19:45:50-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -225,11 +225,11 @@
    "team": "DET",
    "player_id": "4432166",
    "player": "Cade Cunningham",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Soreness",
-   "return_date": "2026-11-18",
-   "updated": "2026-11-18T19:09Z",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-19T00:33Z",
    "comment": "Cunningham is questionable for Wednesday's game against the Pelicans due to right knee soreness"
   },
   {
