@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T19:45:56-0500",
+ "generated": "2026-11-19T23:00:56-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -536,9 +536,20 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Heel Bruise",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-19T01:38Z",
-   "comment": "Head coach JJ Redick said Reaves' (heel) pregame workout went \"well,\" but he remains without an official timetable to return, Daniel Starkand of LakersNation.com reports."
+   "return_date": "2026-11-23",
+   "updated": "2026-11-20T01:05Z",
+   "comment": "Reaves (heel) is listed as out for Friday's game against the Kings."
+  },
+  {
+   "team": "MEM",
+   "player_id": "2991070",
+   "player": "Jerami Grant",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Calf Not Specified",
+   "return_date": "2026-11-21",
+   "updated": "2026-11-20T02:08Z",
+   "comment": "Grant won't return to Thursday's game against the Warriors due to a left calf injury. He'll finish with three points (1-2 FG, 1-1 3Pt) across five minutes."
   },
   {
    "team": "MEM",
@@ -608,25 +619,25 @@
   },
   {
    "team": "MIL",
-   "player_id": "3134907",
-   "player": "Kyle Kuzma",
-   "status": "out",
-   "status_raw": "Out",
+   "player_id": "3133628",
+   "player": "Myles Turner",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Shoulder Bruise",
    "return_date": "2026-11-21",
-   "updated": "2026-11-19T19:20Z",
-   "comment": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion."
+   "updated": "2026-11-20T03:55Z",
+   "comment": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,"
   },
   {
    "team": "MIL",
-   "player_id": "3133628",
-   "player": "Myles Turner",
-   "status": "out",
-   "status_raw": "Out",
+   "player_id": "3134907",
+   "player": "Kyle Kuzma",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Shoulder Bruise",
    "return_date": "2026-11-21",
-   "updated": "2026-11-19T19:15Z",
-   "comment": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,"
+   "updated": "2026-11-20T03:55Z",
+   "comment": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion."
   },
   {
    "team": "MIL",
@@ -968,6 +979,28 @@
    "return_date": "2027-03-02",
    "updated": "2026-08-24T20:23Z",
    "comment": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN."
+  },
+  {
+   "team": "SAC",
+   "player_id": "4431679",
+   "player": "Precious Achiuwa",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Lower Leg Bruise",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-20T01:22Z",
+   "comment": "Achiuwa is doubtful for Friday's game against the Lakers due to a left lower leg bruise."
+  },
+  {
+   "team": "SAC",
+   "player_id": "4065732",
+   "player": "De'Andre Hunter",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hip Soreness",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-20T01:21Z",
+   "comment": "Hunter (hip) is listed as questionable for Friday's game against the Lakers."
   },
   {
    "team": "SAC",
