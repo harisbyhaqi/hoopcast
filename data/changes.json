@@ -1,5 +1,41 @@
 [
  {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Draymond Green",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-20T02:00:52-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Zach Edey",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Ankle",
+  "time": "2026-11-20T02:00:52-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Robert Williams III",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Rest",
+  "time": "2026-11-20T02:00:52-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Deni Avdija",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Foot",
+  "time": "2026-11-20T02:00:52-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "MEM",
   "player": "Jerami Grant",
@@ -8023,33 +8059,5 @@
   "to": "day-to-day",
   "injury": "Achilles Soreness",
   "time": "2026-10-29T02:00:46-0400"
- },
- {
-  "kind": "cleared",
-  "team": "OKC",
-  "player": "Otega Oweh",
-  "from": "out",
-  "time": "2026-10-29T02:00:46-0400"
- },
- {
-  "kind": "signed",
-  "team": "LAL",
-  "player": "Lawson Lovering",
-  "time": "2026-10-28T22:15:52-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "NOP",
-  "player": "Jordan Poole",
-  "to": "day-to-day",
-  "injury": "Ankle",
-  "time": "2026-10-28T22:15:52-0400"
- },
- {
-  "kind": "cleared",
-  "team": "NYK",
-  "player": "Landry Shamet",
-  "from": "day-to-day",
-  "time": "2026-10-28T22:15:52-0400"
  }
 ]

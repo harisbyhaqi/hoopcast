@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T23:00:56-0500",
+ "generated": "2026-11-20T02:00:52-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -335,11 +335,11 @@
    "team": "GSW",
    "player_id": "6589",
    "player": "Draymond Green",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Rest",
    "return_date": "2026-11-22",
-   "updated": "2026-11-19T18:51Z",
+   "updated": "2026-11-20T03:53Z",
    "comment": "Green (elbow) is out for Thursday's game against the Grizzlies."
   },
   {
@@ -542,6 +542,17 @@
   },
   {
    "team": "MEM",
+   "player_id": "4600663",
+   "player": "Zach Edey",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle",
+   "return_date": "2026-11-21",
+   "updated": "2026-11-20T03:53Z",
+   "comment": "Edey (hip) has been ruled out for Thursday's game against the Warriors."
+  },
+  {
+   "team": "MEM",
    "player_id": "2991070",
    "player": "Jerami Grant",
    "status": "day-to-day",
@@ -550,17 +561,6 @@
    "return_date": "2026-11-21",
    "updated": "2026-11-20T02:08Z",
    "comment": "Grant won't return to Thursday's game against the Warriors due to a left calf injury. He'll finish with three points (1-2 FG, 1-1 3Pt) across five minutes."
-  },
-  {
-   "team": "MEM",
-   "player_id": "4600663",
-   "player": "Zach Edey",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle",
-   "return_date": "2026-11-21",
-   "updated": "2026-11-19T19:09Z",
-   "comment": "Edey (hip) has been ruled out for Thursday's game against the Warriors."
   },
   {
    "team": "MEM",
@@ -916,13 +916,24 @@
   },
   {
    "team": "POR",
+   "player_id": "4066211",
+   "player": "Robert Williams III",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Rest",
+   "return_date": "2026-11-21",
+   "updated": "2026-11-20T03:55Z",
+   "comment": "Williams (rest) is listed as out for Thursday's game versus the Bucks."
+  },
+  {
+   "team": "POR",
    "player_id": "4683021",
    "player": "Deni Avdija",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Foot",
    "return_date": "2026-11-21",
-   "updated": "2026-11-20T00:21Z",
+   "updated": "2026-11-20T03:55Z",
    "comment": "Avdija (foot) is listed as out for Thursday's game against the Bucks."
   },
   {
@@ -935,17 +946,6 @@
    "return_date": "2026-11-21",
    "updated": "2026-11-19T15:06Z",
    "comment": "Youngblood (heel) has been ruled out for Thursday's game against the Bucks."
-  },
-  {
-   "team": "POR",
-   "player_id": "4066211",
-   "player": "Robert Williams III",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Rest",
-   "return_date": "2026-11-21",
-   "updated": "2026-11-18T22:58Z",
-   "comment": "Williams (rest) is listed as out for Thursday's game versus the Bucks."
   },
   {
    "team": "POR",
