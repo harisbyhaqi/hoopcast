@@ -3,6 +3,243 @@
   "kind": "status_change",
   "team": "ATL",
   "player": "Jock Landale",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hip Inflammation",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "BKN",
+  "player": "Grant Nelson",
+  "to": "out",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CHA",
+  "player": "Grant Williams",
+  "to": "out",
+  "injury": "Hamstring",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "CHA",
+  "player": "Grayson Allen",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Concussion",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "CHI",
+  "player": "Noa Essengue",
+  "to": "day-to-day",
+  "injury": "Wrist Soreness",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "CLE",
+  "player": "Jaylon Tyson",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Ankle",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "DET",
+  "player": "Taurean Prince",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Surgery",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DET",
+  "player": "Ebuka Okorie",
+  "to": "out",
+  "injury": "Oblique Strain",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "DET",
+  "player": "Ronald Holland II",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Knee Bruise",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "DET",
+  "player": "Ugonna Onyenso",
+  "to": "day-to-day",
+  "injury": "Foot",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "GSW",
+  "player": "Draymond Green",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Rest",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "HOU",
+  "player": "Steven Adams",
+  "to": "day-to-day",
+  "injury": "Quadriceps Bruise",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "IND",
+  "player": "T.J. McConnell",
+  "to": "day-to-day",
+  "injury": "Hamstring Strain",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MEM",
+  "player": "Zach Edey",
+  "to": "out",
+  "injury": "Ankle",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MIL",
+  "player": "Kyle Kuzma",
+  "to": "out",
+  "injury": "Shoulder Bruise",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "MIL",
+  "player": "Myles Turner",
+  "to": "out",
+  "injury": "Shoulder Bruise",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Alex Caruso",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hip Soreness",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Dean Wade",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring Soreness",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Tyrese Maxey",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Foot Soreness",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "POR",
+  "player": "Deni Avdija",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Foot",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "TOR",
+  "player": "Collin Murray-Boyles",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Concussion",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "TOR",
+  "player": "RJ Barrett",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Hamstring Strain",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Al Horford",
+  "from": "day-to-day",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "MEM",
+  "player": "Isaiah Stewart",
+  "from": "day-to-day",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIL",
+  "player": "Ryan Rollins",
+  "from": "day-to-day",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIN",
+  "player": "Zyon Pullin",
+  "from": "day-to-day",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "MIN",
+  "player": "Jonathan Kuminga",
+  "from": "day-to-day",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "POR",
+  "player": "Toumani Camara",
+  "from": "day-to-day",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "TOR",
+  "player": "Scottie Barnes",
+  "from": "day-to-day",
+  "time": "2026-11-19T19:45:56-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "ATL",
+  "player": "Jock Landale",
   "from": "out",
   "to": "day-to-day",
   "injury": "Hip Inflammation",
@@ -7813,232 +8050,5 @@
   "to": "out",
   "injury": "Wrist Not Specified",
   "time": "2026-10-28T20:45:51-0400"
- },
- {
-  "kind": "cleared",
-  "team": "DAL",
-  "player": "Caleb Martin",
-  "from": "out",
-  "time": "2026-10-28T20:45:51-0400"
- },
- {
-  "kind": "cleared",
-  "team": "DAL",
-  "player": "Kyrie Irving",
-  "from": "day-to-day",
-  "time": "2026-10-28T20:45:51-0400"
- },
- {
-  "kind": "cleared",
-  "team": "OKC",
-  "player": "Ajay Mitchell",
-  "from": "day-to-day",
-  "time": "2026-10-28T20:45:51-0400"
- },
- {
-  "kind": "cleared",
-  "team": "UTA",
-  "player": "Jaxson Hayes",
-  "from": "day-to-day",
-  "time": "2026-10-28T20:45:51-0400"
- },
- {
-  "kind": "status_change",
-  "team": "DEN",
-  "player": "Cameron Johnson",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Ankle Sprain",
-  "time": "2026-10-28T19:15:56-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "GSW",
-  "player": "Gui Santos",
-  "to": "out",
-  "injury": "Knee Tendinitis",
-  "time": "2026-10-28T19:15:56-0400"
- },
- {
-  "kind": "cleared",
-  "team": "DET",
-  "player": "Ausar Thompson",
-  "from": "day-to-day",
-  "time": "2026-10-28T19:15:56-0400"
- },
- {
-  "kind": "cleared",
-  "team": "IND",
-  "player": "Obi Toppin",
-  "from": "day-to-day",
-  "time": "2026-10-28T19:15:56-0400"
- },
- {
-  "kind": "status_change",
-  "team": "CHI",
-  "player": "Tobe Awaka",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Ankle",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "status_change",
-  "team": "CHI",
-  "player": "Patrick Williams",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Groin Soreness",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "status_change",
-  "team": "DET",
-  "player": "Isaiah Joe",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Hip Bruise",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "DET",
-  "player": "Ausar Thompson",
-  "to": "day-to-day",
-  "injury": "Ankle",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "status_change",
-  "team": "HOU",
-  "player": "Marcus Smart",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Forearm Strain",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "status_change",
-  "team": "IND",
-  "player": "Tyrese Haliburton",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Hamstring Strain",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "LAL",
-  "player": "Ziaire Williams",
-  "to": "out",
-  "injury": "Foot",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "LAL",
-  "player": "Luka Doncic",
-  "to": "out",
-  "injury": "Back",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "status_change",
-  "team": "MIA",
-  "player": "Simone Fontecchio",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Illness",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "status_change",
-  "team": "NYK",
-  "player": "Jose Alvarado",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Ankle Sprain",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "WAS",
-  "player": "Tre Johnson",
-  "to": "out",
-  "injury": "Achilles Soreness",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "cleared",
-  "team": "ATL",
-  "player": "Aaron Wiggins",
-  "from": "day-to-day",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "cleared",
-  "team": "GSW",
-  "player": "Yaxel Lendeborg",
-  "from": "day-to-day",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "cleared",
-  "team": "IND",
-  "player": "Andrew Nembhard",
-  "from": "day-to-day",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "cleared",
-  "team": "IND",
-  "player": "Aaron Nesmith",
-  "from": "day-to-day",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "cleared",
-  "team": "MIA",
-  "player": "Pelle Larsson",
-  "from": "day-to-day",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "cleared",
-  "team": "NOP",
-  "player": "Jordan Poole",
-  "from": "day-to-day",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "cleared",
-  "team": "WAS",
-  "player": "AJ Dybantsa",
-  "from": "out",
-  "time": "2026-10-28T18:45:49-0400"
- },
- {
-  "kind": "signed",
-  "team": "MIN",
-  "player": "Enrique Freeman",
-  "time": "2026-10-28T02:00:50-0400"
- },
- {
-  "kind": "status_change",
-  "team": "DET",
-  "player": "Isaiah Joe",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Hip Bruise",
-  "time": "2026-10-28T02:00:50-0400"
- },
- {
-  "kind": "status_change",
-  "team": "NYK",
-  "player": "Jose Alvarado",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Ankle Sprain",
-  "time": "2026-10-28T02:00:50-0400"
  }
 ]
