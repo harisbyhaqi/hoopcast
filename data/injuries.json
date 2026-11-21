@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T19:15:49-0500",
+ "generated": "2026-11-20T19:46:04-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -267,6 +267,17 @@
   },
   {
    "team": "DET",
+   "player_id": "4683771",
+   "player": "Ronald Holland II",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Bruise",
+   "return_date": "2026-11-22",
+   "updated": "2026-11-21T00:32Z",
+   "comment": "Holland (knee) has been upgraded to doubtful for Friday's game against Toronto, Hunter Patterson of The Athletic reports."
+  },
+  {
+   "team": "DET",
    "player_id": "2990962",
    "player": "Taurean Prince",
    "status": "out",
@@ -278,17 +289,6 @@
   },
   {
    "team": "DET",
-   "player_id": "4683771",
-   "player": "Ronald Holland II",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Bruise",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-20T17:46Z",
-   "comment": "Holland (knee) has been upgraded to doubtful for Friday's game against Toronto, Hunter Patterson of The Athletic reports."
-  },
-  {
-   "team": "DET",
    "player_id": "5258459",
    "player": "Ebuka Okorie",
    "status": "out",
@@ -297,17 +297,6 @@
    "return_date": "2026-11-22",
    "updated": "2026-11-19T21:43Z",
    "comment": "Okorie (oblique) has been ruled out for Friday's game against Toronto."
-  },
-  {
-   "team": "DET",
-   "player_id": "4432166",
-   "player": "Cade Cunningham",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Soreness",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-19T21:36Z",
-   "comment": "Cunningham (knee) is expected to play in Friday's game against the Raptors, Blake Murphy of Sportsnet.ca reports."
   },
   {
    "team": "DET",
