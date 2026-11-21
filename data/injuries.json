@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T18:45:48-0500",
+ "generated": "2026-11-20T19:15:49-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -135,17 +135,6 @@
   },
   {
    "team": "CHI",
-   "player_id": "5242496",
-   "player": "Noa Essengue",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Wrist Soreness",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-19T22:12Z",
-   "comment": "Essengue is listed as probable for Friday's game against Washington due to bilateral wrist soreness."
-  },
-  {
-   "team": "CHI",
    "player_id": "5105555",
    "player": "Tobe Awaka",
    "status": "out",
@@ -176,17 +165,6 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-19T21:55Z",
    "comment": "Tyson (ankle) has been ruled out for Friday's game against Indiana."
-  },
-  {
-   "team": "CLE",
-   "player_id": "4576087",
-   "player": "Peyton Watson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back Bruise",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-19T21:50Z",
-   "comment": "Watson (back) is questionable for Friday's game against the Pacers."
   },
   {
    "team": "CLE",
@@ -473,17 +451,6 @@
    "return_date": "2026-12-13",
    "updated": "2026-11-20T20:41Z",
    "comment": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports."
-  },
-  {
-   "team": "IND",
-   "player_id": "2530530",
-   "player": "T.J. McConnell",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hamstring Strain",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-19T22:14Z",
-   "comment": "McConnell (hamstring) is listed as probable for Friday's game in Cleveland."
   },
   {
    "team": "IND",
