@@ -1,5 +1,12 @@
 [
  {
+  "kind": "cleared",
+  "team": "CHA",
+  "player": "Brandon Miller",
+  "from": "day-to-day",
+  "time": "2026-11-20T23:00:56-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "BKN",
   "player": "Nolan Traore",
@@ -8026,15 +8033,6 @@
   "from": "out",
   "to": "day-to-day",
   "injury": "Ankle",
-  "time": "2026-10-29T23:00:57-0400"
- },
- {
-  "kind": "status_change",
-  "team": "NOP",
-  "player": "Dejounte Murray",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Personal",
   "time": "2026-10-29T23:00:57-0400"
  }
 ]

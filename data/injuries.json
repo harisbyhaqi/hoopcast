@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T21:45:54-0500",
+ "generated": "2026-11-20T23:00:56-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -110,17 +110,6 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-19T21:18Z",
    "comment": "Nelson (ankle) has been ruled out for Friday's game against Orlando."
-  },
-  {
-   "team": "CHA",
-   "player_id": "4433287",
-   "player": "Brandon Miller",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Not Specified",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-21T00:35Z",
-   "comment": "Miller amassed 28 points (10-19 FG, 5-12 3Pt, 3-3 FT), two rebounds, four assists and one block in 32 minutes during Tuesday's 118-114 overtime loss to the Lakers."
   },
   {
    "team": "CHA",
