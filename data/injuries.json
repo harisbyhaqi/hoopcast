@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T19:46:04-0500",
+ "generated": "2026-11-20T21:15:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -68,6 +68,28 @@
    "comment": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday."
   },
   {
+   "team": "BOS",
+   "player_id": "4065648",
+   "player": "Jayson Tatum",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Rest",
+   "return_date": "2026-11-21",
+   "updated": "2026-11-21T01:07Z",
+   "comment": "Tatum (rest) is listed as questionable for Saturday's game against Sacramento."
+  },
+  {
+   "team": "BOS",
+   "player_id": "3078576",
+   "player": "Derrick White",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Shoulder",
+   "return_date": "2026-11-21",
+   "updated": "2026-11-21T01:00Z",
+   "comment": "White (shoulder) is questionable to play in Saturday's game against Sacramento."
+  },
+  {
    "team": "BKN",
    "player_id": "4702670",
    "player": "Grant Nelson",
@@ -77,6 +99,17 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-19T21:18Z",
    "comment": "Nelson (ankle) has been ruled out for Friday's game against Orlando."
+  },
+  {
+   "team": "CHA",
+   "player_id": "4433287",
+   "player": "Brandon Miller",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Not Specified",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-21T00:35Z",
+   "comment": "Miller amassed 28 points (10-19 FG, 5-12 3Pt, 3-3 FT), two rebounds, four assists and one block in 32 minutes during Tuesday's 118-114 overtime loss to the Lakers."
   },
   {
    "team": "CHA",
@@ -273,8 +306,8 @@
    "status_raw": "Out",
    "injury": "Knee Bruise",
    "return_date": "2026-11-22",
-   "updated": "2026-11-21T00:32Z",
-   "comment": "Holland (knee) has been upgraded to doubtful for Friday's game against Toronto, Hunter Patterson of The Athletic reports."
+   "updated": "2026-11-21T00:34Z",
+   "comment": "Holland (knee) is listed as out for Friday's game against Toronto."
   },
   {
    "team": "DET",
@@ -399,17 +432,6 @@
   },
   {
    "team": "HOU",
-   "player_id": "2991235",
-   "player": "Steven Adams",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Quadriceps Bruise",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-19T23:22Z",
-   "comment": "Adams (quadriceps) is listed as questionable for Friday's game against Denver."
-  },
-  {
-   "team": "HOU",
    "player_id": "3102529",
    "player": "Clint Capela",
    "status": "out",
@@ -418,17 +440,6 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-19T23:19Z",
    "comment": "Capela (ankle) is out for Friday's game against Denver."
-  },
-  {
-   "team": "HOU",
-   "player_id": "4871144",
-   "player": "Alperen Sengun",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Eye",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-19T23:17Z",
-   "comment": "Sengun (eye) is questionable for Friday's game against the Nuggets."
   },
   {
    "team": "IND",
@@ -504,8 +515,8 @@
    "status_raw": "Out",
    "injury": "Heel Bruise",
    "return_date": "2026-11-23",
-   "updated": "2026-11-20T01:05Z",
-   "comment": "Reaves (heel) is listed as out for Friday's game against the Kings."
+   "updated": "2026-11-21T01:26Z",
+   "comment": "Head coach JJ Redick said he expects Reaves (heel) to return for Monday's matchup with Utah or Friday's game in San Antonio, Mark Medina of TheSportingTribune.com reports."
   },
   {
    "team": "MEM",
@@ -960,17 +971,6 @@
   },
   {
    "team": "SAC",
-   "player_id": "4065732",
-   "player": "De'Andre Hunter",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip Soreness",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-20T01:21Z",
-   "comment": "Hunter (hip) is listed as questionable for Friday's game against the Lakers."
-  },
-  {
-   "team": "SAC",
    "player_id": "4898371",
    "player": "Maxime Raynaud",
    "status": "out",
@@ -1105,11 +1105,11 @@
    "team": "WAS",
    "player_id": "5105841",
    "player": "Felix Okpara",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Back Strain",
-   "return_date": "2026-11-20",
-   "updated": "2026-11-17T16:38Z",
+   "return_date": "2026-11-22",
+   "updated": "2026-11-21T00:43Z",
    "comment": "Okpara (illness) is available for Friday's game against Toronto."
   },
   {
