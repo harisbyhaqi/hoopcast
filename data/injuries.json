@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T02:00:43-0500",
+ "generated": "2026-11-21T10:00:46-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -96,7 +96,7 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Hamstring",
-   "return_date": "2026-11-20",
+   "return_date": "2026-11-23",
    "updated": "2026-11-21T02:25Z",
    "comment": "Traore (hamstring) won't return to Friday's game against Orlando, Meghan Triplett of YES Network reports. He finished with four points (2-6 FG, 0-2 3Pt) and two assists over 18 minutes."
   },
@@ -115,22 +115,22 @@
    "team": "CHA",
    "player_id": "4066218",
    "player": "Grant Williams",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hamstring",
    "return_date": "2026-11-23",
-   "updated": "2026-11-19T22:21Z",
+   "updated": "2026-11-21T14:49Z",
    "comment": "Williams (hamstring) is listed as out for Friday's game versus the Hawks."
   },
   {
    "team": "CHA",
    "player_id": "3135045",
    "player": "Grayson Allen",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Concussion",
    "return_date": "2026-11-23",
-   "updated": "2026-11-19T22:02Z",
+   "updated": "2026-11-21T14:49Z",
    "comment": "Allen (concussion) has been ruled out for Friday's game against Atlanta."
   },
   {
@@ -300,6 +300,17 @@
   },
   {
    "team": "DET",
+   "player_id": "5258459",
+   "player": "Ebuka Okorie",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Oblique Strain",
+   "return_date": "2026-11-22",
+   "updated": "2026-11-21T14:53Z",
+   "comment": "Okorie (oblique) has been ruled out for Friday's game against Toronto."
+  },
+  {
+   "team": "DET",
    "player_id": "4683771",
    "player": "Ronald Holland II",
    "status": "out",
@@ -319,17 +330,6 @@
    "return_date": "2026-12-13",
    "updated": "2026-11-20T23:02Z",
    "comment": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports."
-  },
-  {
-   "team": "DET",
-   "player_id": "5258459",
-   "player": "Ebuka Okorie",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Oblique Strain",
-   "return_date": "2026-11-22",
-   "updated": "2026-11-19T21:43Z",
-   "comment": "Okorie (oblique) has been ruled out for Friday's game against Toronto."
   },
   {
    "team": "DET",
@@ -531,6 +531,17 @@
   },
   {
    "team": "MEM",
+   "player_id": "2991070",
+   "player": "Jerami Grant",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Not Specified",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-21T08:08Z",
+   "comment": "Grant (calf) is out for Saturday's game against the Timberwolves."
+  },
+  {
+   "team": "MEM",
    "player_id": "4781746",
    "player": "Javon Small",
    "status": "out",
@@ -561,17 +572,6 @@
    "return_date": "2026-11-21",
    "updated": "2026-11-20T23:11Z",
    "comment": "Jerome (hip) is probable for Saturday's game in Minnesota."
-  },
-  {
-   "team": "MEM",
-   "player_id": "2991070",
-   "player": "Jerami Grant",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Not Specified",
-   "return_date": "2026-11-21",
-   "updated": "2026-11-20T02:08Z",
-   "comment": "Grant won't return to Thursday's game against the Warriors due to a left calf injury. He'll finish with three points (1-2 FG, 1-1 3Pt) across five minutes."
   },
   {
    "team": "MEM",
@@ -984,11 +984,11 @@
    "team": "SAC",
    "player_id": "4431679",
    "player": "Precious Achiuwa",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Lower Leg Bruise",
    "return_date": "2026-11-21",
-   "updated": "2026-11-20T21:21Z",
+   "updated": "2026-11-21T14:55Z",
    "comment": "Achiuwa (lower leg) has been ruled out for Friday's game against the Lakers."
   },
   {
@@ -1048,6 +1048,17 @@
   },
   {
    "team": "TOR",
+   "player_id": "5093267",
+   "player": "Collin Murray-Boyles",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Concussion",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-21T14:52Z",
+   "comment": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons."
+  },
+  {
+   "team": "TOR",
    "player_id": "6450",
    "player": "Kawhi Leonard",
    "status": "out",
@@ -1056,17 +1067,6 @@
    "return_date": "2026-12-03",
    "updated": "2026-11-20T20:42Z",
    "comment": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN."
-  },
-  {
-   "team": "TOR",
-   "player_id": "5093267",
-   "player": "Collin Murray-Boyles",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Concussion",
-   "return_date": "2026-11-23",
-   "updated": "2026-11-19T21:41Z",
-   "comment": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons."
   },
   {
    "team": "TOR",
@@ -1127,11 +1127,11 @@
    "team": "WAS",
    "player_id": "5105841",
    "player": "Felix Okpara",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Back Strain",
    "return_date": "2026-11-22",
-   "updated": "2026-11-21T00:43Z",
+   "updated": "2026-11-21T14:54Z",
    "comment": "Okpara (illness) is available for Friday's game against Toronto."
   },
   {

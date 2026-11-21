@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-21T02:00:47-05:00",
+ "generated": "2026-11-21T10:00:50-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
  ],
  "teams": {
   "ATL": {
-   "roster": -1.39,
+   "roster": -1.2,
    "market": 0.74,
-   "prior": -0.32,
+   "prior": -0.23,
    "rotation": [
     {
      "player": "Onyeka Okongwu",
      "rating": 1.9,
      "o": 0.7,
-     "d": 1.2,
+     "d": 1.3,
      "min": 31.5
     },
     {
@@ -25,25 +25,25 @@
      "min": 30.7
     },
     {
-     "player": "CJ McCollum",
+     "player": "Dyson Daniels",
      "rating": 0.7,
-     "o": 0.8,
-     "d": -0.2,
-     "min": 29.9
+     "o": -0.6,
+     "d": 1.3,
+     "min": 30.1
     },
     {
      "player": "Jalen Johnson",
      "rating": 0.6,
-     "o": 0.9,
+     "o": 1.0,
      "d": -0.3,
      "min": 29.4
     },
     {
-     "player": "Dyson Daniels",
-     "rating": 0.6,
-     "o": -0.6,
-     "d": 1.2,
-     "min": 29.1
+     "player": "CJ McCollum",
+     "rating": 0.7,
+     "o": 0.8,
+     "d": -0.2,
+     "min": 28.9
     },
     {
      "player": "Mouhamed Gueye",
@@ -54,17 +54,17 @@
     },
     {
      "player": "Aaron Wiggins",
-     "rating": 0.2,
-     "o": 0.4,
-     "d": -0.1,
+     "rating": 0.5,
+     "o": 0.5,
+     "d": -0.0,
      "min": 20.6
     },
     {
      "player": "Luguentz Dort",
      "rating": -1.0,
-     "o": -1.1,
+     "o": -1.2,
      "d": 0.1,
-     "min": 17.8
+     "min": 16.8
     },
     {
      "player": "Jock Landale",
@@ -77,15 +77,15 @@
      "player": "Dorian Finney-Smith",
      "rating": -1.2,
      "o": -2.4,
-     "d": 1.1,
-     "min": 11.1
+     "d": 1.2,
+     "min": 12.1
     }
    ]
   },
   "BOS": {
-   "roster": 5.93,
+   "roster": 5.98,
    "market": 3.7,
-   "prior": 4.82,
+   "prior": 4.84,
    "rotation": [
     {
      "player": "Jayson Tatum",
@@ -167,16 +167,16 @@
    ]
   },
   "BKN": {
-   "roster": -5.6,
+   "roster": -5.79,
    "market": -6.3,
-   "prior": -5.95,
+   "prior": -6.04,
    "rotation": [
     {
      "player": "Michael Porter Jr.",
-     "rating": 1.8,
+     "rating": 1.6,
      "o": 2.5,
-     "d": -0.8,
-     "min": 33.3
+     "d": -0.9,
+     "min": 32.8
     },
     {
      "player": "Julius Randle",
@@ -187,23 +187,23 @@
     },
     {
      "player": "Day'Ron Sharpe",
-     "rating": 1.7,
-     "o": 0.2,
+     "rating": 1.8,
+     "o": 0.3,
      "d": 1.5,
-     "min": 25.7
+     "min": 26.2
     },
     {
      "player": "Keon Ellis",
      "rating": 0.0,
-     "o": -0.9,
+     "o": -0.8,
      "d": 0.9,
      "min": 25.1
     },
     {
      "player": "Danny Wolf",
-     "rating": -1.5,
-     "o": -1.6,
-     "d": 0.2,
+     "rating": -1.3,
+     "o": -1.3,
+     "d": 0.0,
      "min": 22.6
     },
     {
@@ -222,8 +222,8 @@
     },
     {
      "player": "Noah Clowney",
-     "rating": -1.7,
-     "o": -1.2,
+     "rating": -1.9,
+     "o": -1.3,
      "d": -0.5,
      "min": 17.9
     },
@@ -238,106 +238,106 @@
      "player": "Chaney Johnson",
      "rating": -1.9,
      "o": -1.9,
-     "d": -0.1,
-     "min": 12.2
-    },
-    {
-     "player": "Moritz Wagner",
-     "rating": -1.9,
-     "o": -0.9,
-     "d": -1.0,
-     "min": 12.1
+     "d": -0.0,
+     "min": 13.2
     },
     {
      "player": "Mikel Brown Jr.",
-     "rating": -2.8,
+     "rating": -3.0,
      "o": -1.3,
-     "d": -1.5,
-     "min": 5.5
+     "d": -1.7,
+     "min": 11.5
+    },
+    {
+     "player": "Terance Mann",
+     "rating": -2.7,
+     "o": -2.1,
+     "d": -0.6,
+     "min": 5.2
     }
    ]
   },
   "CHA": {
-   "roster": -1.83,
+   "roster": -1.97,
    "market": -0.74,
-   "prior": -1.29,
+   "prior": -1.36,
    "rotation": [
     {
      "player": "Kon Knueppel",
-     "rating": 1.4,
+     "rating": 1.5,
      "o": 2.3,
-     "d": -0.9,
+     "d": -0.8,
      "min": 32.6
     },
     {
      "player": "Brandon Miller",
      "rating": 0.8,
-     "o": 1.2,
-     "d": -0.4,
+     "o": 1.4,
+     "d": -0.6,
      "min": 29.2
     },
     {
      "player": "Grant Williams",
-     "rating": 1.3,
+     "rating": 1.2,
      "o": 0.5,
      "d": 0.8,
-     "min": 28.0
-    },
-    {
-     "player": "Moussa Diabate",
-     "rating": 1.4,
-     "o": -0.1,
-     "d": 1.4,
-     "min": 27.7
+     "min": 29.0
     },
     {
      "player": "Coby White",
      "rating": 0.6,
-     "o": 1.9,
+     "o": 1.8,
      "d": -1.3,
      "min": 27.4
     },
     {
-     "player": "Ryan Kalkbrenner",
+     "player": "Moussa Diabate",
      "rating": 1.2,
+     "o": -0.1,
+     "d": 1.3,
+     "min": 26.7
+    },
+    {
+     "player": "Ryan Kalkbrenner",
+     "rating": 1.1,
      "o": -0.3,
      "d": 1.5,
      "min": 24.9
     },
     {
      "player": "Grayson Allen",
-     "rating": 0.2,
-     "o": 0.6,
+     "rating": 0.1,
+     "o": 0.5,
      "d": -0.4,
      "min": 24.2
     },
     {
      "player": "Naz Reid",
-     "rating": -0.8,
-     "o": -0.9,
+     "rating": -1.0,
+     "o": -1.1,
      "d": 0.1,
      "min": 21.3
     },
     {
      "player": "Royce O'Neale",
-     "rating": -1.5,
+     "rating": -1.3,
      "o": -1.8,
-     "d": 0.3,
-     "min": 15.8
+     "d": 0.5,
+     "min": 16.8
     },
     {
      "player": "Dennis Schroder",
-     "rating": -3.0,
-     "o": -1.6,
+     "rating": -3.1,
+     "o": -1.7,
      "d": -1.4,
-     "min": 8.9
+     "min": 7.9
     }
    ]
   },
   "CHI": {
-   "roster": -5.8,
+   "roster": -6.1,
    "market": -4.63,
-   "prior": -5.21,
+   "prior": -5.37,
    "rotation": [
     {
      "player": "Caleb Wilson",
@@ -348,30 +348,30 @@
     },
     {
      "player": "Norman Powell",
-     "rating": 0.2,
-     "o": 1.4,
-     "d": -1.2,
+     "rating": 0.1,
+     "o": 1.2,
+     "d": -1.1,
      "min": 30.3
     },
     {
      "player": "Josh Giddey",
-     "rating": -0.2,
-     "o": 0.5,
-     "d": -0.8,
+     "rating": -0.3,
+     "o": 0.4,
+     "d": -0.7,
      "min": 29.1
     },
     {
      "player": "Jalen Smith",
      "rating": 1.3,
      "o": 0.7,
-     "d": 0.7,
+     "d": 0.6,
      "min": 26.2
     },
     {
      "player": "Tre Jones",
-     "rating": -0.4,
+     "rating": -0.5,
      "o": 0.6,
-     "d": -1.0,
+     "d": -1.1,
      "min": 25.9
     },
     {
@@ -383,8 +383,8 @@
     },
     {
      "player": "Matas Buzelis",
-     "rating": -1.1,
-     "o": -0.1,
+     "rating": -1.2,
+     "o": -0.2,
      "d": -1.0,
      "min": 18.4
     },
@@ -392,49 +392,49 @@
      "player": "Leonard Miller",
      "rating": -0.8,
      "o": -0.3,
-     "d": -0.5,
+     "d": -0.4,
      "min": 18.0
     },
     {
-     "player": "Nic Claxton",
-     "rating": -1.2,
-     "o": -1.3,
-     "d": 0.0,
-     "min": 17.9
-    },
-    {
      "player": "Noa Essengue",
-     "rating": -0.8,
-     "o": -1.1,
-     "d": 0.3,
+     "rating": -1.1,
+     "o": -1.2,
+     "d": 0.1,
      "min": 16.0
     },
     {
+     "player": "Nic Claxton",
+     "rating": -1.6,
+     "o": -1.7,
+     "d": 0.1,
+     "min": 13.9
+    },
+    {
      "player": "Isaac Okoro",
-     "rating": -1.8,
-     "o": -0.5,
-     "d": -1.2,
-     "min": 7.9
+     "rating": -1.4,
+     "o": -0.4,
+     "d": -1.0,
+     "min": 11.9
     }
    ]
   },
   "CLE": {
-   "roster": 1.85,
+   "roster": 1.47,
    "market": 2.59,
-   "prior": 2.22,
+   "prior": 2.03,
    "rotation": [
     {
      "player": "Donovan Mitchell",
-     "rating": 3.8,
-     "o": 4.4,
-     "d": -0.7,
+     "rating": 3.5,
+     "o": 4.3,
+     "d": -0.8,
      "min": 33.6
     },
     {
      "player": "James Harden",
-     "rating": 1.9,
+     "rating": 1.8,
      "o": 2.6,
-     "d": -0.7,
+     "d": -0.8,
      "min": 31.9
     },
     {
@@ -453,31 +453,24 @@
     },
     {
      "player": "Sam Merrill",
-     "rating": -0.1,
+     "rating": 0.0,
      "o": 0.4,
-     "d": -0.4,
-     "min": 22.9
+     "d": -0.3,
+     "min": 24.4
     },
     {
      "player": "Jaylon Tyson",
-     "rating": -0.2,
+     "rating": -0.3,
      "o": 0.2,
      "d": -0.4,
-     "min": 18.5
-    },
-    {
-     "player": "Norchad Omier",
-     "rating": 0.3,
-     "o": -0.6,
-     "d": 0.9,
-     "min": 17.9
+     "min": 20.5
     },
     {
      "player": "Thomas Bryant",
-     "rating": -0.1,
-     "o": 0.1,
+     "rating": -0.2,
+     "o": 0.0,
      "d": -0.2,
-     "min": 16.6
+     "min": 18.6
     },
     {
      "player": "Nae'Qwan Tomlin",
@@ -487,25 +480,32 @@
      "min": 13.8
     },
     {
+     "player": "Norchad Omier",
+     "rating": -0.3,
+     "o": -0.8,
+     "d": 0.6,
+     "min": 12.4
+    },
+    {
      "player": "Peyton Watson",
      "rating": -1.3,
      "o": -1.0,
-     "d": -0.3,
+     "d": -0.2,
      "min": 12.3
     },
     {
      "player": "Meleek Thomas",
-     "rating": -1.7,
-     "o": -0.8,
-     "d": -0.9,
+     "rating": -1.5,
+     "o": -1.0,
+     "d": -0.5,
      "min": 10.8
     }
    ]
   },
   "DAL": {
-   "roster": -3.17,
+   "roster": -3.12,
    "market": -2.41,
-   "prior": -2.79,
+   "prior": -2.76,
    "rotation": [
     {
      "player": "Kyrie Irving",
@@ -580,21 +580,21 @@
    ]
   },
   "DEN": {
-   "roster": 3.81,
+   "roster": 3.97,
    "market": 2.96,
-   "prior": 3.39,
+   "prior": 3.47,
    "rotation": [
     {
      "player": "Nikola Jokic",
      "rating": 7.1,
-     "o": 4.7,
-     "d": 2.4,
+     "o": 4.8,
+     "d": 2.3,
      "min": 34.8
     },
     {
      "player": "Jamal Murray",
-     "rating": 3.6,
-     "o": 3.9,
+     "rating": 3.5,
+     "o": 3.8,
      "d": -0.3,
      "min": 34.0
     },
@@ -607,36 +607,36 @@
     },
     {
      "player": "Christian Braun",
-     "rating": 0.9,
+     "rating": 1.0,
      "o": 0.8,
-     "d": 0.1,
+     "d": 0.2,
      "min": 29.2
     },
     {
      "player": "Cameron Johnson",
-     "rating": 0.6,
-     "o": 0.8,
-     "d": -0.2,
+     "rating": 0.9,
+     "o": 1.0,
+     "d": -0.1,
      "min": 28.5
     },
     {
      "player": "DeMar DeRozan",
-     "rating": -2.8,
-     "o": -0.6,
+     "rating": -2.9,
+     "o": -0.7,
      "d": -2.2,
      "min": 16.8
     },
     {
      "player": "Marvin Bagley III",
-     "rating": -1.0,
-     "o": -0.7,
+     "rating": -0.9,
+     "o": -0.5,
      "d": -0.3,
      "min": 16.5
     },
     {
      "player": "DaRon Holmes II",
-     "rating": 0.1,
-     "o": -0.2,
+     "rating": 0.0,
+     "o": -0.3,
      "d": 0.3,
      "min": 15.7
     },
@@ -664,15 +664,15 @@
    ]
   },
   "DET": {
-   "roster": 2.49,
+   "roster": 2.73,
    "market": 2.96,
-   "prior": 2.73,
+   "prior": 2.85,
    "rotation": [
     {
      "player": "Cade Cunningham",
      "rating": 4.4,
      "o": 4.2,
-     "d": 0.3,
+     "d": 0.2,
      "min": 34.1
     },
     {
@@ -684,73 +684,73 @@
     },
     {
      "player": "Ausar Thompson",
-     "rating": 1.3,
+     "rating": 1.2,
      "o": -0.6,
-     "d": 1.9,
+     "d": 1.8,
      "min": 27.1
     },
     {
      "player": "Paul Reed",
-     "rating": 2.3,
+     "rating": 2.5,
      "o": 0.4,
-     "d": 2.0,
+     "d": 2.1,
      "min": 24.5
     },
     {
-     "player": "Isaiah Joe",
-     "rating": 1.0,
-     "o": 1.4,
-     "d": -0.4,
-     "min": 23.7
-    },
-    {
      "player": "Duncan Robinson",
-     "rating": 0.8,
+     "rating": 0.7,
      "o": 1.0,
      "d": -0.3,
      "min": 23.4
     },
     {
      "player": "Javonte Green",
-     "rating": 0.8,
-     "o": -0.7,
+     "rating": 0.9,
+     "o": -0.5,
      "d": 1.5,
-     "min": 21.2
+     "min": 22.7
+    },
+    {
+     "player": "Isaiah Joe",
+     "rating": 0.9,
+     "o": 1.4,
+     "d": -0.5,
+     "min": 22.2
     },
     {
      "player": "Kevin Huerter",
-     "rating": -0.0,
-     "o": -0.3,
+     "rating": 0.2,
+     "o": -0.2,
      "d": 0.3,
      "min": 19.9
-    },
-    {
-     "player": "John Collins",
-     "rating": -0.7,
-     "o": -0.8,
-     "d": 0.2,
-     "min": 13.9
-    },
-    {
-     "player": "Taurean Prince",
-     "rating": -1.5,
-     "o": -0.9,
-     "d": -0.5,
-     "min": 12.9
     },
     {
      "player": "Ronald Holland II",
      "rating": -0.1,
      "o": -1.5,
      "d": 1.4,
-     "min": 10.0
+     "min": 14.9
+    },
+    {
+     "player": "John Collins",
+     "rating": -0.8,
+     "o": -0.9,
+     "d": 0.1,
+     "min": 13.9
+    },
+    {
+     "player": "Taurean Prince",
+     "rating": -1.5,
+     "o": -1.0,
+     "d": -0.5,
+     "min": 8.0
     }
    ]
   },
   "GSW": {
-   "roster": 1.15,
+   "roster": 1.2,
    "market": -0.37,
-   "prior": 0.39,
+   "prior": 0.42,
    "rotation": [
     {
      "player": "Stephen Curry",
@@ -832,15 +832,15 @@
    ]
   },
   "HOU": {
-   "roster": 4.54,
+   "roster": 4.26,
    "market": 2.41,
-   "prior": 3.48,
+   "prior": 3.33,
    "rotation": [
     {
      "player": "Kevin Durant",
-     "rating": 3.4,
-     "o": 3.3,
-     "d": 0.2,
+     "rating": 3.3,
+     "o": 3.2,
+     "d": 0.1,
      "min": 35.2
     },
     {
@@ -852,38 +852,45 @@
     },
     {
      "player": "Fred VanVleet",
-     "rating": 1.6,
-     "o": 0.8,
-     "d": 0.9,
+     "rating": 1.4,
+     "o": 0.7,
+     "d": 0.7,
      "min": 32.0
     },
     {
      "player": "Amen Thompson",
-     "rating": 1.5,
-     "o": 1.1,
+     "rating": 1.4,
+     "o": 1.0,
      "d": 0.4,
      "min": 29.7
     },
     {
      "player": "Steven Adams",
-     "rating": 1.7,
-     "o": -1.3,
+     "rating": 1.6,
+     "o": -1.4,
      "d": 3.0,
      "min": 24.1
     },
     {
      "player": "Marcus Smart",
      "rating": 1.1,
-     "o": -0.1,
+     "o": -0.2,
      "d": 1.2,
-     "min": 22.9
+     "min": 20.9
     },
     {
      "player": "Jabari Smith Jr.",
-     "rating": 0.9,
+     "rating": 0.8,
      "o": 0.4,
-     "d": 0.4,
+     "d": 0.3,
      "min": 20.5
+    },
+    {
+     "player": "Clint Capela",
+     "rating": 1.1,
+     "o": -2.1,
+     "d": 3.1,
+     "min": 19.1
     },
     {
      "player": "Oscar Tshiebwe",
@@ -894,73 +901,59 @@
     },
     {
      "player": "Tari Eason",
-     "rating": 1.0,
+     "rating": 1.1,
      "o": -0.5,
      "d": 1.5,
-     "min": 18.5
-    },
-    {
-     "player": "Clint Capela",
-     "rating": 1.1,
-     "o": -2.1,
-     "d": 3.1,
-     "min": 5.5
+     "min": 6.9
     }
    ]
   },
   "IND": {
-   "roster": -1.22,
+   "roster": -1.18,
    "market": 1.11,
-   "prior": -0.06,
+   "prior": -0.04,
    "rotation": [
     {
      "player": "Tyrese Haliburton",
      "rating": 3.1,
-     "o": 3.1,
+     "o": 3.0,
      "d": 0.1,
      "min": 33.5
     },
     {
      "player": "Pascal Siakam",
      "rating": 1.4,
-     "o": 1.8,
+     "o": 1.9,
      "d": -0.4,
      "min": 33.0
     },
     {
      "player": "Ivica Zubac",
      "rating": 0.9,
-     "o": 0.0,
-     "d": 0.9,
+     "o": -0.0,
+     "d": 1.0,
      "min": 30.4
     },
     {
      "player": "Obi Toppin",
-     "rating": 0.2,
-     "o": 1.3,
-     "d": -1.1,
+     "rating": 0.3,
+     "o": 1.5,
+     "d": -1.2,
      "min": 23.4
     },
     {
      "player": "Jalen Slawson",
-     "rating": 0.7,
-     "o": -1.1,
-     "d": 1.8,
+     "rating": 0.8,
+     "o": -1.3,
+     "d": 2.0,
      "min": 22.2
     },
     {
-     "player": "Aaron Nesmith",
-     "rating": -0.7,
-     "o": 0.0,
-     "d": -0.7,
-     "min": 21.8
-    },
-    {
-     "player": "Kelly Oubre Jr.",
+     "player": "Andrew Nembhard",
      "rating": -0.9,
-     "o": -0.2,
-     "d": -0.7,
-     "min": 21.7
+     "o": 0.4,
+     "d": -1.3,
+     "min": 20.6
     },
     {
      "player": "Jay Huff",
@@ -971,24 +964,38 @@
     },
     {
      "player": "Quenton Jackson",
-     "rating": -0.1,
-     "o": -0.2,
-     "d": 0.1,
+     "rating": 0.1,
+     "o": -0.1,
+     "d": 0.2,
      "min": 18.8
     },
     {
-     "player": "Andrew Nembhard",
+     "player": "Kelly Oubre Jr.",
      "rating": -1.0,
-     "o": 0.4,
-     "d": -1.4,
-     "min": 15.3
+     "o": -0.1,
+     "d": -0.9,
+     "min": 18.7
+    },
+    {
+     "player": "Aaron Nesmith",
+     "rating": -0.9,
+     "o": -0.3,
+     "d": -0.6,
+     "min": 17.8
+    },
+    {
+     "player": "Johnny Furphy",
+     "rating": -0.8,
+     "o": -1.4,
+     "d": 0.6,
+     "min": 1.7
     }
    ]
   },
   "LAC": {
-   "roster": -4.29,
+   "roster": -4.24,
    "market": -5.37,
-   "prior": -4.83,
+   "prior": -4.8,
    "rotation": [
     {
      "player": "Darius Garland",
@@ -1063,63 +1070,63 @@
    ]
   },
   "LAL": {
-   "roster": 2.99,
+   "roster": 3.06,
    "market": 1.67,
-   "prior": 2.33,
+   "prior": 2.36,
    "rotation": [
     {
      "player": "Luka Doncic",
      "rating": 5.7,
      "o": 5.4,
-     "d": 0.2,
+     "d": 0.3,
      "min": 35.1
     },
     {
      "player": "Austin Reaves",
      "rating": 1.9,
-     "o": 2.9,
+     "o": 3.0,
      "d": -1.1,
      "min": 33.5
     },
     {
      "player": "Walker Kessler",
-     "rating": 1.7,
-     "o": 0.6,
+     "rating": 1.6,
+     "o": 0.5,
      "d": 1.1,
      "min": 29.4
     },
     {
      "player": "Matisse Thybulle",
-     "rating": 1.3,
-     "o": -0.7,
-     "d": 1.9,
+     "rating": 1.5,
+     "o": -0.5,
+     "d": 2.0,
      "min": 25.0
-    },
-    {
-     "player": "Sandro Mamukelashvili",
-     "rating": 1.1,
-     "o": 0.8,
-     "d": 0.2,
-     "min": 22.1
-    },
-    {
-     "player": "Jake LaRavia",
-     "rating": 0.2,
-     "o": -1.5,
-     "d": 1.7,
-     "min": 21.7
     },
     {
      "player": "Jarred Vanderbilt",
      "rating": 1.0,
      "o": -1.1,
      "d": 2.1,
-     "min": 20.4
+     "min": 21.9
+    },
+    {
+     "player": "Jake LaRavia",
+     "rating": 0.2,
+     "o": -1.4,
+     "d": 1.6,
+     "min": 21.7
+    },
+    {
+     "player": "Sandro Mamukelashvili",
+     "rating": 0.9,
+     "o": 0.8,
+     "d": 0.2,
+     "min": 20.6
     },
     {
      "player": "Quentin Grimes",
      "rating": -0.7,
-     "o": -0.0,
+     "o": 0.0,
      "d": -0.7,
      "min": 19.5
     },
@@ -1127,22 +1134,22 @@
      "player": "Ziaire Williams",
      "rating": -0.3,
      "o": -0.3,
-     "d": -0.0,
+     "d": 0.0,
      "min": 19.5
     },
     {
      "player": "Collin Sexton",
      "rating": -1.2,
-     "o": -0.0,
-     "d": -1.2,
+     "o": -0.1,
+     "d": -1.1,
      "min": 13.8
     }
    ]
   },
   "MEM": {
-   "roster": -1.21,
+   "roster": -1.16,
    "market": -4.63,
-   "prior": -2.92,
+   "prior": -2.9,
    "rotation": [
     {
      "player": "Cedric Coward",
@@ -1224,9 +1231,9 @@
    ]
   },
   "MIA": {
-   "roster": -0.42,
+   "roster": -0.37,
    "market": 2.04,
-   "prior": 0.81,
+   "prior": 0.84,
    "rotation": [
     {
      "player": "Giannis Antetokounmpo",
@@ -1315,9 +1322,9 @@
    ]
   },
   "MIL": {
-   "roster": -5.73,
+   "roster": -5.68,
    "market": -5.74,
-   "prior": -5.74,
+   "prior": -5.71,
    "rotation": [
     {
      "player": "Tyler Herro",
@@ -1399,9 +1406,9 @@
    ]
   },
   "MIN": {
-   "roster": 4.84,
+   "roster": 4.88,
    "market": 2.59,
-   "prior": 3.71,
+   "prior": 3.74,
    "rotation": [
     {
      "player": "Anthony Edwards",
@@ -1476,86 +1483,86 @@
    ]
   },
   "NOP": {
-   "roster": -5.26,
+   "roster": -4.65,
    "market": -5.19,
-   "prior": -5.22,
+   "prior": -4.92,
    "rotation": [
     {
      "player": "Trey Murphy III",
      "rating": 0.3,
      "o": 1.4,
-     "d": -1.1,
+     "d": -1.0,
      "min": 32.4
     },
     {
      "player": "Zion Williamson",
-     "rating": 1.1,
+     "rating": 1.2,
      "o": 1.8,
      "d": -0.7,
      "min": 32.2
+    },
+    {
+     "player": "Herbert Jones",
+     "rating": 0.7,
+     "o": -0.5,
+     "d": 1.2,
+     "min": 31.0
     },
     {
      "player": "Dejounte Murray",
      "rating": -0.3,
      "o": 0.3,
      "d": -0.6,
-     "min": 31.1
-    },
-    {
-     "player": "Herbert Jones",
-     "rating": 0.5,
-     "o": -0.6,
-     "d": 1.2,
-     "min": 31.0
-    },
-    {
-     "player": "Saddiq Bey",
-     "rating": -0.7,
-     "o": 0.6,
-     "d": -1.3,
-     "min": 25.7
-    },
-    {
-     "player": "Derik Queen",
-     "rating": -0.6,
-     "o": -0.4,
-     "d": -0.2,
-     "min": 24.1
-    },
-    {
-     "player": "Karlo Matkovic",
-     "rating": -0.4,
-     "o": -1.0,
-     "d": 0.7,
-     "min": 21.7
+     "min": 28.6
     },
     {
      "player": "Yves Missi",
+     "rating": -0.2,
+     "o": -1.1,
+     "d": 0.9,
+     "min": 25.9
+    },
+    {
+     "player": "Saddiq Bey",
      "rating": -0.8,
-     "o": -1.3,
-     "d": 0.6,
-     "min": 19.4
+     "o": 0.5,
+     "d": -1.4,
+     "min": 23.7
+    },
+    {
+     "player": "Derik Queen",
+     "rating": -0.4,
+     "o": -0.2,
+     "d": -0.3,
+     "min": 22.1
+    },
+    {
+     "player": "Karlo Matkovic",
+     "rating": -0.3,
+     "o": -1.0,
+     "d": 0.8,
+     "min": 21.7
     },
     {
      "player": "Jeremiah Fears",
-     "rating": -1.3,
+     "rating": -1.4,
      "o": -0.1,
-     "d": -1.2,
-     "min": 19.3
+     "d": -1.3,
+     "min": 17.3
     },
     {
-     "player": "Bennedict Mathurin",
-     "rating": -2.6,
-     "o": -1.2,
-     "d": -1.3,
-     "min": 3.0
+     "player": "Bryce McGowens",
+     "rating": -1.4,
+     "o": -0.8,
+     "d": -0.5,
+     "min": 5.0
     }
    ]
   },
   "NYK": {
-   "roster": 3.82,
+   "roster": 3.87,
    "market": 4.07,
-   "prior": 3.95,
+   "prior": 3.97,
    "rotation": [
     {
      "player": "OG Anunoby",
@@ -1630,9 +1637,9 @@
    ]
   },
   "OKC": {
-   "roster": 8.15,
+   "roster": 8.26,
    "market": 7.22,
-   "prior": 7.68,
+   "prior": 7.74,
    "rotation": [
     {
      "player": "Shai Gilgeous-Alexander",
@@ -1678,50 +1685,50 @@
     },
     {
      "player": "Ajay Mitchell",
-     "rating": 1.4,
-     "o": 1.4,
-     "d": 0.0,
+     "rating": 1.3,
+     "o": 1.2,
+     "d": 0.1,
      "min": 21.8
     },
     {
      "player": "Jaylin Williams",
-     "rating": 0.9,
+     "rating": 0.8,
      "o": -0.3,
-     "d": 1.2,
+     "d": 1.1,
      "min": 16.5
     },
     {
-     "player": "Jared McCain",
-     "rating": -0.8,
-     "o": 0.3,
-     "d": -1.0,
-     "min": 14.3
-    },
-    {
      "player": "Kenrich Williams",
-     "rating": -0.2,
-     "o": -0.6,
-     "d": 0.4,
+     "rating": 0.1,
+     "o": -0.5,
+     "d": 0.7,
      "min": 14.1
     },
     {
+     "player": "Jared McCain",
+     "rating": -0.7,
+     "o": 0.3,
+     "d": -1.0,
+     "min": 13.3
+    },
+    {
      "player": "Bennett Stirtz",
-     "rating": -0.8,
-     "o": -0.2,
-     "d": -0.6,
-     "min": 1.3
+     "rating": -0.6,
+     "o": 0.5,
+     "d": -1.1,
+     "min": 2.3
     }
    ]
   },
   "ORL": {
-   "roster": 1.1,
+   "roster": 1.01,
    "market": 0.93,
-   "prior": 1.01,
+   "prior": 0.97,
    "rotation": [
     {
      "player": "Franz Wagner",
-     "rating": 2.3,
-     "o": 2.4,
+     "rating": 2.4,
+     "o": 2.5,
      "d": -0.1,
      "min": 33.4
     },
@@ -1730,14 +1737,14 @@
      "rating": 1.2,
      "o": 1.6,
      "d": -0.3,
-     "min": 31.9
+     "min": 32.9
     },
     {
      "player": "Jalen Suggs",
-     "rating": 1.3,
+     "rating": 1.2,
      "o": -0.3,
-     "d": 1.6,
-     "min": 29.4
+     "d": 1.4,
+     "min": 28.4
     },
     {
      "player": "Wendell Carter Jr.",
@@ -1757,14 +1764,14 @@
      "player": "Goga Bitadze",
      "rating": 1.7,
      "o": -0.2,
-     "d": 1.8,
+     "d": 1.9,
      "min": 24.9
     },
     {
      "player": "Anthony Black",
-     "rating": 0.6,
-     "o": -0.6,
-     "d": 1.2,
+     "rating": 0.4,
+     "o": -0.7,
+     "d": 1.1,
      "min": 20.6
     },
     {
@@ -1776,24 +1783,24 @@
     },
     {
      "player": "Tristan da Silva",
-     "rating": 0.1,
-     "o": 0.2,
+     "rating": -0.0,
+     "o": 0.1,
      "d": -0.1,
      "min": 18.1
     },
     {
      "player": "Nikola Vucevic",
      "rating": -1.8,
-     "o": -1.9,
+     "o": -1.8,
      "d": 0.1,
      "min": 8.9
     }
    ]
   },
   "PHI": {
-   "roster": 1.76,
+   "roster": 1.81,
    "market": 3.52,
-   "prior": 2.64,
+   "prior": 2.66,
    "rotation": [
     {
      "player": "Tyrese Maxey",
@@ -1868,13 +1875,13 @@
    ]
   },
   "PHX": {
-   "roster": -2.35,
+   "roster": -2.15,
    "market": -0.19,
-   "prior": -1.27,
+   "prior": -1.17,
    "rotation": [
     {
      "player": "Devin Booker",
-     "rating": 1.7,
+     "rating": 1.8,
      "o": 3.3,
      "d": -1.5,
      "min": 34.7
@@ -1882,29 +1889,29 @@
     {
      "player": "Collin Gillespie",
      "rating": 1.2,
-     "o": 0.8,
-     "d": 0.4,
+     "o": 0.9,
+     "d": 0.3,
      "min": 28.1
     },
     {
      "player": "Miles Bridges",
-     "rating": -0.1,
+     "rating": -0.2,
      "o": 0.7,
      "d": -0.8,
      "min": 26.2
     },
     {
      "player": "Oso Ighodaro",
-     "rating": 0.9,
+     "rating": 1.0,
      "o": -1.2,
-     "d": 2.1,
+     "d": 2.2,
      "min": 25.8
     },
     {
      "player": "Jordan Goodwin",
      "rating": 0.7,
-     "o": -0.0,
-     "d": 0.8,
+     "o": 0.0,
+     "d": 0.6,
      "min": 24.9
     },
     {
@@ -1923,31 +1930,31 @@
     },
     {
      "player": "Jalen Green",
-     "rating": -0.8,
-     "o": 0.6,
+     "rating": -0.7,
+     "o": 0.7,
      "d": -1.4,
      "min": 19.3
     },
     {
      "player": "Dillon Brooks",
-     "rating": -0.9,
-     "o": 0.1,
+     "rating": -0.8,
+     "o": 0.2,
      "d": -1.0,
      "min": 18.4
     },
     {
      "player": "Ryan Dunn",
-     "rating": -0.5,
-     "o": -1.5,
+     "rating": -0.4,
+     "o": -1.4,
      "d": 1.0,
      "min": 13.7
     }
    ]
   },
   "POR": {
-   "roster": 1.35,
+   "roster": 1.4,
    "market": 0.56,
-   "prior": 0.95,
+   "prior": 0.98,
    "rotation": [
     {
      "player": "Deni Avdija",
@@ -2022,28 +2029,28 @@
    ]
   },
   "SAC": {
-   "roster": -6.94,
+   "roster": -6.85,
    "market": -7.59,
-   "prior": -7.27,
+   "prior": -7.22,
    "rotation": [
     {
      "player": "Keegan Murray",
-     "rating": -0.2,
-     "o": -0.3,
-     "d": 0.1,
+     "rating": -0.0,
+     "o": -0.2,
+     "d": 0.2,
      "min": 33.4
     },
     {
      "player": "Domantas Sabonis",
-     "rating": -0.3,
+     "rating": -0.4,
      "o": -0.1,
-     "d": -0.2,
+     "d": -0.3,
      "min": 31.6
     },
     {
      "player": "Darius Acuff Jr.",
      "rating": -0.7,
-     "o": 1.0,
+     "o": 1.1,
      "d": -1.7,
      "min": 28.3
     },
@@ -2056,7 +2063,7 @@
     },
     {
      "player": "Precious Achiuwa",
-     "rating": -0.3,
+     "rating": -0.2,
      "o": -0.2,
      "d": -0.0,
      "min": 26.8
@@ -2065,7 +2072,7 @@
      "player": "Ben Simmons",
      "rating": -0.7,
      "o": -2.4,
-     "d": 1.8,
+     "d": 1.7,
      "min": 23.2
     },
     {
@@ -2076,32 +2083,32 @@
      "min": 20.6
     },
     {
+     "player": "Leaky Black",
+     "rating": -0.7,
+     "o": -1.6,
+     "d": 0.9,
+     "min": 18.0
+    },
+    {
+     "player": "De'Andre Hunter",
+     "rating": -1.6,
+     "o": -0.6,
+     "d": -1.0,
+     "min": 17.0
+    },
+    {
      "player": "Zach LaVine",
      "rating": -2.0,
-     "o": 0.4,
-     "d": -2.4,
-     "min": 16.9
-    },
-    {
-     "player": "Malik Monk",
-     "rating": -1.2,
-     "o": 0.2,
-     "d": -1.4,
-     "min": 16.7
-    },
-    {
-     "player": "Leaky Black",
-     "rating": -0.9,
-     "o": -1.5,
-     "d": 0.6,
-     "min": 15.7
+     "o": 0.3,
+     "d": -2.3,
+     "min": 14.2
     }
    ]
   },
   "SAS": {
-   "roster": 5.93,
+   "roster": 5.98,
    "market": 7.04,
-   "prior": 6.49,
+   "prior": 6.51,
    "rotation": [
     {
      "player": "De'Aaron Fox",
@@ -2176,22 +2183,22 @@
    ]
   },
   "TOR": {
-   "roster": 3.36,
+   "roster": 3.34,
    "market": 1.67,
-   "prior": 2.51,
+   "prior": 2.5,
    "rotation": [
     {
      "player": "Scottie Barnes",
-     "rating": 2.9,
+     "rating": 2.8,
      "o": 1.2,
-     "d": 1.6,
+     "d": 1.7,
      "min": 33.3
     },
     {
      "player": "Kawhi Leonard",
-     "rating": 5.7,
-     "o": 4.7,
-     "d": 0.9,
+     "rating": 5.6,
+     "o": 4.6,
+     "d": 1.0,
      "min": 33.3
     },
     {
@@ -2203,59 +2210,59 @@
     },
     {
      "player": "Jakob Poeltl",
-     "rating": 2.1,
+     "rating": 2.0,
      "o": -0.3,
      "d": 2.3,
      "min": 28.8
     },
     {
      "player": "Immanuel Quickley",
-     "rating": 0.6,
-     "o": 1.0,
-     "d": -0.4,
+     "rating": 0.9,
+     "o": 1.2,
+     "d": -0.3,
      "min": 28.7
     },
     {
-     "player": "Ja'Kobe Walter",
+     "player": "Collin Murray-Boyles",
      "rating": 0.1,
-     "o": -0.2,
-     "d": 0.3,
+     "o": -0.6,
+     "d": 0.7,
      "min": 23.1
     },
     {
-     "player": "Collin Murray-Boyles",
-     "rating": 0.0,
-     "o": -0.7,
-     "d": 0.7,
+     "player": "Ja'Kobe Walter",
+     "rating": -0.1,
+     "o": -0.5,
+     "d": 0.4,
      "min": 21.1
     },
     {
      "player": "Jamal Shead",
-     "rating": -0.2,
+     "rating": -0.3,
      "o": -0.6,
      "d": 0.3,
      "min": 18.8
     },
     {
      "player": "Trayce Jackson-Davis",
-     "rating": -0.6,
-     "o": -0.9,
+     "rating": -0.5,
+     "o": -0.8,
      "d": 0.3,
      "min": 12.6
     },
     {
-     "player": "Jamison Battle",
-     "rating": -0.8,
-     "o": 0.4,
-     "d": -1.2,
+     "player": "Allen Graves",
+     "rating": -0.9,
+     "o": -0.8,
+     "d": -0.0,
      "min": 9.9
     }
    ]
   },
   "UTA": {
-   "roster": -4.18,
+   "roster": -4.66,
    "market": -2.04,
-   "prior": -3.11,
+   "prior": -3.35,
    "rotation": [
     {
      "player": "Lauri Markkanen",
@@ -2273,23 +2280,23 @@
     },
     {
      "player": "Josh Green",
-     "rating": -0.0,
-     "o": -0.6,
+     "rating": -0.2,
+     "o": -0.8,
      "d": 0.6,
      "min": 24.7
     },
     {
      "player": "Josh Okogie",
-     "rating": 0.6,
-     "o": -1.2,
+     "rating": 0.4,
+     "o": -1.3,
      "d": 1.7,
      "min": 24.0
     },
     {
      "player": "Jaxson Hayes",
-     "rating": 0.1,
-     "o": -1.1,
-     "d": 1.2,
+     "rating": 0.0,
+     "o": -1.0,
+     "d": 1.1,
      "min": 23.4
     },
     {
@@ -2304,62 +2311,62 @@
      "rating": -0.6,
      "o": -2.2,
      "d": 1.6,
-     "min": 18.5
+     "min": 22.5
     },
     {
      "player": "Darryn Peterson",
-     "rating": -1.0,
+     "rating": -1.1,
      "o": -0.3,
-     "d": -0.7,
+     "d": -0.8,
      "min": 18.3
     },
     {
      "player": "Svi Mykhailiuk",
-     "rating": -0.6,
-     "o": -0.1,
+     "rating": -0.7,
+     "o": -0.2,
      "d": -0.5,
      "min": 17.5
     },
     {
-     "player": "Mo Bamba",
-     "rating": -0.6,
-     "o": -1.6,
-     "d": 1.0,
-     "min": 17.2
+     "player": "Keyonte George",
+     "rating": -1.3,
+     "o": 0.9,
+     "d": -2.2,
+     "min": 15.5
     },
     {
-     "player": "Keyonte George",
-     "rating": -1.1,
-     "o": 1.1,
-     "d": -2.2,
-     "min": 8.7
+     "player": "Ace Bailey",
+     "rating": -1.5,
+     "o": -0.4,
+     "d": -1.1,
+     "min": 6.4
     }
    ]
   },
   "WAS": {
-   "roster": -3.66,
+   "roster": -4.09,
    "market": -2.04,
-   "prior": -2.85,
+   "prior": -3.06,
    "rotation": [
     {
      "player": "Anthony Davis",
-     "rating": 1.6,
-     "o": 0.3,
-     "d": 1.3,
+     "rating": 1.8,
+     "o": 0.4,
+     "d": 1.4,
      "min": 34.0
     },
     {
      "player": "Trae Young",
-     "rating": 0.5,
-     "o": 2.6,
+     "rating": 0.3,
+     "o": 2.4,
      "d": -2.1,
      "min": 31.8
     },
     {
      "player": "Deandre Ayton",
      "rating": 0.3,
-     "o": -0.7,
-     "d": 1.0,
+     "o": -0.8,
+     "d": 1.1,
      "min": 27.0
     },
     {
@@ -2370,25 +2377,32 @@
      "min": 26.6
     },
     {
-     "player": "Kyshawn George",
-     "rating": -0.7,
-     "o": -0.4,
-     "d": -0.3,
-     "min": 24.3
+     "player": "Alex Sarr",
+     "rating": -1.0,
+     "o": -0.9,
+     "d": -0.1,
+     "min": 23.5
     },
     {
      "player": "AJ Dybantsa",
-     "rating": -1.4,
-     "o": -0.6,
+     "rating": -1.6,
+     "o": -0.7,
      "d": -0.8,
      "min": 23.0
     },
     {
      "player": "Tristan Vukcevic",
-     "rating": 0.7,
-     "o": 0.4,
+     "rating": 0.6,
+     "o": 0.2,
      "d": 0.4,
      "min": 22.6
+    },
+    {
+     "player": "Kyshawn George",
+     "rating": -1.5,
+     "o": -0.9,
+     "d": -0.6,
+     "min": 22.3
     },
     {
      "player": "Jamir Watkins",
@@ -2398,17 +2412,10 @@
      "min": 22.3
     },
     {
-     "player": "Alex Sarr",
-     "rating": -1.0,
-     "o": -0.8,
-     "d": -0.2,
-     "min": 21.5
-    },
-    {
      "player": "Bilal Coulibaly",
      "rating": -1.8,
      "o": -1.5,
-     "d": -0.4,
+     "d": -0.3,
      "min": 6.8
     }
    ]
