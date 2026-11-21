@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T21:15:55-0500",
+ "generated": "2026-11-20T21:45:54-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -88,6 +88,17 @@
    "return_date": "2026-11-21",
    "updated": "2026-11-21T01:00Z",
    "comment": "White (shoulder) is questionable to play in Saturday's game against Sacramento."
+  },
+  {
+   "team": "BKN",
+   "player_id": "5279130",
+   "player": "Nolan Traore",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring",
+   "return_date": "2026-11-20",
+   "updated": "2026-11-21T02:25Z",
+   "comment": "Traore (hamstring) won't return to Friday's game against Orlando, Meghan Triplett of YES Network reports. He finished with four points (2-6 FG, 0-2 3Pt) and two assists over 18 minutes."
   },
   {
    "team": "BKN",
