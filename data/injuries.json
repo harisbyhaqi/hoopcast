@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T10:00:46-0500",
+ "generated": "2026-11-21T12:45:46-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -93,22 +93,22 @@
    "team": "BKN",
    "player_id": "5279130",
    "player": "Nolan Traore",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hamstring",
    "return_date": "2026-11-23",
-   "updated": "2026-11-21T02:25Z",
+   "updated": "2026-11-21T14:51Z",
    "comment": "Traore (hamstring) won't return to Friday's game against Orlando, Meghan Triplett of YES Network reports. He finished with four points (2-6 FG, 0-2 3Pt) and two assists over 18 minutes."
   },
   {
    "team": "BKN",
    "player_id": "4702670",
    "player": "Grant Nelson",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Ankle Sprain",
    "return_date": "2026-11-23",
-   "updated": "2026-11-19T21:18Z",
+   "updated": "2026-11-21T14:51Z",
    "comment": "Nelson (ankle) has been ruled out for Friday's game against Orlando."
   },
   {
@@ -159,11 +159,11 @@
    "team": "CHI",
    "player_id": "4397189",
    "player": "Jalen Smith",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Illness",
    "return_date": "2026-11-22",
-   "updated": "2026-11-20T23:19Z",
+   "updated": "2026-11-21T14:54Z",
    "comment": "Smith (illness) is out for Friday's game against the Wizards, Joel Lorenzi of The Athletic reports."
   },
   {
@@ -223,6 +223,17 @@
   },
   {
    "team": "DAL",
+   "player_id": "5106040",
+   "player": "Tobi Lawal",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Groin",
+   "return_date": "2026-11-22",
+   "updated": "2026-11-21T15:08Z",
+   "comment": "Lawal (groin) is out for Saturday's game against the Clippers."
+  },
+  {
+   "team": "DAL",
    "player_id": "4278078",
    "player": "P.J. Washington",
    "status": "day-to-day",
@@ -253,17 +264,6 @@
    "return_date": "2026-11-27",
    "updated": "2026-11-20T19:31Z",
    "comment": "Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's \"close\" to returning, Mike Curtis of The Dallas Morning News reports."
-  },
-  {
-   "team": "DAL",
-   "player_id": "5106040",
-   "player": "Tobi Lawal",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin",
-   "return_date": "2026-11-21",
-   "updated": "2026-11-19T14:51Z",
-   "comment": "Lawal is out for Wednesday's game against the Warriors due to tightness in his right groin."
   },
   {
    "team": "DAL",
@@ -445,11 +445,11 @@
    "team": "IND",
    "player_id": "2530530",
    "player": "T.J. McConnell",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hamstring",
    "return_date": "2026-11-22",
-   "updated": "2026-11-21T04:58Z",
+   "updated": "2026-11-21T14:51Z",
    "comment": "Rick Carlisle revealed during his postgame interview that McConnell exited Friday's 128-119 loss with a left hamstring issue, Tony East of Forbes.com reports."
   },
   {
@@ -707,6 +707,28 @@
   },
   {
    "team": "NYK",
+   "player_id": "3934719",
+   "player": "OG Anunoby",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Calf",
+   "return_date": "2026-11-21",
+   "updated": "2026-11-21T16:09Z",
+   "comment": "Anunoby (calf) has been downgraded to doubtful for Saturday's game against the Trail Bllazers."
+  },
+  {
+   "team": "NYK",
+   "player_id": "3136195",
+   "player": "Karl-Anthony Towns",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Illness",
+   "return_date": "2026-11-21",
+   "updated": "2026-11-21T16:05Z",
+   "comment": "Towns is questionable for Saturday's game against the Trail Blazers due to an illness."
+  },
+  {
+   "team": "NYK",
    "player_id": "2528426",
    "player": "Jordan Clarkson",
    "status": "out",
@@ -717,37 +739,26 @@
    "comment": "Clarkson (foot) won't play in Saturday's game against Portland."
   },
   {
-   "team": "NYK",
-   "player_id": "3934719",
-   "player": "OG Anunoby",
+   "team": "OKC",
+   "player_id": "5159925",
+   "player": "Nikola Topic",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Calf",
-   "return_date": "2026-11-21",
-   "updated": "2026-11-20T22:10Z",
-   "comment": "Anunoby (calf) is questionable for Saturday's game against Portland."
+   "injury": "Hip Soreness",
+   "return_date": "2026-11-22",
+   "updated": "2026-11-21T14:54Z",
+   "comment": "Topic (hip) is out for Friday's game against New Orleans."
   },
   {
    "team": "OKC",
    "player_id": "2991350",
    "player": "Alex Caruso",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hip Soreness",
    "return_date": "2026-11-22",
-   "updated": "2026-11-20T23:24Z",
+   "updated": "2026-11-21T14:54Z",
    "comment": "Caruso (hip) is listed as out for Friday's game against the Pelicans."
-  },
-  {
-   "team": "OKC",
-   "player_id": "5159925",
-   "player": "Nikola Topic",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hip Soreness",
-   "return_date": "2026-11-22",
-   "updated": "2026-11-20T17:02Z",
-   "comment": "Topic (hip) is out for Friday's game against New Orleans."
   },
   {
    "team": "OKC",
@@ -839,17 +850,6 @@
   },
   {
    "team": "PHI",
-   "player_id": "4870562",
-   "player": "Dominick Barlow",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Back Fracture",
-   "return_date": "2026-11-21",
-   "updated": "2026-11-20T22:13Z",
-   "comment": "Barlow (back) is probable for Saturday's game versus the Bucks."
-  },
-  {
-   "team": "PHI",
    "player_id": "3912848",
    "player": "Dean Wade",
    "status": "out",
@@ -858,17 +858,6 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-20T22:11Z",
    "comment": "Wade (hamstring) won't play Saturday against the Bucks."
-  },
-  {
-   "team": "PHI",
-   "player_id": "4431678",
-   "player": "Tyrese Maxey",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Foot Soreness",
-   "return_date": "2026-11-21",
-   "updated": "2026-11-20T22:07Z",
-   "comment": "Maxey (foot) is questionable for Saturday's game against the Bucks."
   },
   {
    "team": "PHI",
@@ -907,11 +896,11 @@
    "team": "PHX",
    "player_id": "4888725",
    "player": "Ryan Dunn",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Quadriceps",
    "return_date": "2026-11-23",
-   "updated": "2026-11-21T04:06Z",
+   "updated": "2026-11-21T14:55Z",
    "comment": "Dunn won't return to Friday's game against the Jazz due to a right quad injury, Amanda Pflugrad of 3TV Phoenix reports."
   },
   {
