@@ -1,5 +1,21 @@
 [
  {
+  "kind": "injury_new",
+  "team": "IND",
+  "player": "T.J. McConnell",
+  "to": "out",
+  "injury": "Hamstring",
+  "time": "2026-11-21T02:00:43-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHX",
+  "player": "Ryan Dunn",
+  "to": "out",
+  "injury": "Quadriceps",
+  "time": "2026-11-21T02:00:43-0500"
+ },
+ {
   "kind": "cleared",
   "team": "CHA",
   "player": "Brandon Miller",
@@ -8016,23 +8032,5 @@
   "to": "day-to-day",
   "injury": "Hamstring Not Specified",
   "time": "2026-10-30T02:00:46-0400"
- },
- {
-  "kind": "status_change",
-  "team": "CLE",
-  "player": "Meleek Thomas",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Foot",
-  "time": "2026-10-29T23:00:57-0400"
- },
- {
-  "kind": "status_change",
-  "team": "NOP",
-  "player": "Jordan Poole",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Ankle",
-  "time": "2026-10-29T23:00:57-0400"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T23:00:56-0500",
+ "generated": "2026-11-21T02:00:43-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -440,6 +440,17 @@
    "return_date": "2026-11-23",
    "updated": "2026-11-19T23:19Z",
    "comment": "Capela (ankle) is out for Friday's game against Denver."
+  },
+  {
+   "team": "IND",
+   "player_id": "2530530",
+   "player": "T.J. McConnell",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring",
+   "return_date": "2026-11-22",
+   "updated": "2026-11-21T04:58Z",
+   "comment": "Rick Carlisle revealed during his postgame interview that McConnell exited Friday's 128-119 loss with a left hamstring issue, Tony East of Forbes.com reports."
   },
   {
    "team": "IND",
@@ -891,6 +902,17 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-06T19:17Z",
    "comment": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN."
+  },
+  {
+   "team": "PHX",
+   "player_id": "4888725",
+   "player": "Ryan Dunn",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Quadriceps",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-21T04:06Z",
+   "comment": "Dunn won't return to Friday's game against the Jazz due to a right quad injury, Amanda Pflugrad of 3TV Phoenix reports."
   },
   {
    "team": "PHX",
