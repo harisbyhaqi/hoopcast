@@ -1,9 +1,9 @@
 {
-  "mae": 9.98,
-  "rmse": 12.57,
-  "win_accuracy": 63.4,
-  "margin_sigma": 16.23,
-  "test_games": 424,
+  "mae": 10.03,
+  "rmse": 12.61,
+  "win_accuracy": 62.1,
+  "margin_sigma": 16.25,
+  "test_games": 428,
   "test_from": "2026-03-28",
   "test_to": "2026-11-21"
 }

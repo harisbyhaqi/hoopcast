@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T21:45:55-0500",
+ "generated": "2026-11-21T23:00:56-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -764,34 +764,34 @@
    "team": "NYK",
    "player_id": "3136195",
    "player": "Karl-Anthony Towns",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Illness",
    "return_date": "2026-11-22",
-   "updated": "2026-11-21T22:51Z",
+   "updated": "2026-11-22T03:05Z",
    "comment": "Towns (illness) won't play in Saturday's game versus the Trail Blazers."
-  },
-  {
-   "team": "NYK",
-   "player_id": "3934719",
-   "player": "OG Anunoby",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Calf",
-   "return_date": "2026-11-22",
-   "updated": "2026-11-21T21:49Z",
-   "comment": "Anunoby (calf) has been ruled out for Saturday's game against the Trail Blazers."
   },
   {
    "team": "NYK",
    "player_id": "2528426",
    "player": "Jordan Clarkson",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Foot Plantar Fasciitis",
    "return_date": "2026-11-22",
-   "updated": "2026-11-20T22:21Z",
+   "updated": "2026-11-22T03:05Z",
    "comment": "Clarkson (foot) won't play in Saturday's game against Portland."
+  },
+  {
+   "team": "NYK",
+   "player_id": "3934719",
+   "player": "OG Anunoby",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Calf",
+   "return_date": "2026-11-22",
+   "updated": "2026-11-22T03:04Z",
+   "comment": "Anunoby (calf) has been ruled out for Saturday's game against the Trail Blazers."
   },
   {
    "team": "OKC",
