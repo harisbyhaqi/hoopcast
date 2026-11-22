@@ -1,5 +1,20 @@
 [
  {
+  "kind": "injury_new",
+  "team": "CHI",
+  "player": "Patrick Williams",
+  "to": "day-to-day",
+  "injury": "Thumb",
+  "time": "2026-11-22T02:00:56-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "GSW",
+  "player": "Draymond Green",
+  "from": "day-to-day",
+  "time": "2026-11-22T02:00:56-0500"
+ },
+ {
   "kind": "status_change",
   "team": "NYK",
   "player": "Karl-Anthony Towns",
@@ -8043,22 +8058,6 @@
   "player": "LeBron James",
   "to": "out",
   "injury": "Back",
-  "time": "2026-10-31T14:45:47-0400"
- },
- {
-  "kind": "status_change",
-  "team": "PHI",
-  "player": "Joel Embiid",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Foot",
-  "time": "2026-10-31T14:45:47-0400"
- },
- {
-  "kind": "cleared",
-  "team": "HOU",
-  "player": "Alperen Sengun",
-  "from": "day-to-day",
   "time": "2026-10-31T14:45:47-0400"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T23:01:03-05:00",
+ "generated": "2026-11-22T02:01:02-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -83,9 +83,9 @@
    ]
   },
   "BOS": {
-   "roster": 5.98,
+   "roster": 5.99,
    "market": 3.7,
-   "prior": 4.84,
+   "prior": 4.85,
    "rotation": [
     {
      "player": "Jayson Tatum",
@@ -106,14 +106,14 @@
      "rating": 2.1,
      "o": 1.0,
      "d": 1.1,
-     "min": 29.5
+     "min": 29.6
     },
     {
      "player": "Neemias Queta",
      "rating": 2.4,
      "o": 0.2,
      "d": 2.2,
-     "min": 26.5
+     "min": 26.6
     },
     {
      "player": "Payton Pritchard",
@@ -141,7 +141,7 @@
      "rating": 0.8,
      "o": 0.9,
      "d": -0.2,
-     "min": 19.4
+     "min": 19.5
     },
     {
      "player": "Hugo Gonzalez",
@@ -162,7 +162,7 @@
      "rating": -1.4,
      "o": -1.9,
      "d": 0.5,
-     "min": 6.2
+     "min": 6.1
     }
    ]
   },
@@ -2029,9 +2029,9 @@
    ]
   },
   "SAC": {
-   "roster": -6.85,
+   "roster": -6.86,
    "market": -7.59,
-   "prior": -7.22,
+   "prior": -7.23,
    "rotation": [
     {
      "player": "Keegan Murray",
@@ -2052,20 +2052,20 @@
      "rating": -0.7,
      "o": 1.1,
      "d": -1.7,
-     "min": 28.3
-    },
-    {
-     "player": "Dylan Cardwell",
-     "rating": 0.6,
-     "o": -1.2,
-     "d": 1.8,
-     "min": 26.9
+     "min": 28.4
     },
     {
      "player": "Precious Achiuwa",
      "rating": -0.2,
      "o": -0.2,
      "d": -0.0,
+     "min": 26.8
+    },
+    {
+     "player": "Dylan Cardwell",
+     "rating": 0.6,
+     "o": -1.2,
+     "d": 1.8,
      "min": 26.8
     },
     {
@@ -2087,21 +2087,21 @@
      "rating": -0.7,
      "o": -1.6,
      "d": 0.9,
-     "min": 18.0
+     "min": 17.8
     },
     {
      "player": "De'Andre Hunter",
      "rating": -1.6,
      "o": -0.6,
      "d": -1.0,
-     "min": 17.0
+     "min": 17.1
     },
     {
      "player": "Zach LaVine",
      "rating": -2.0,
      "o": 0.3,
      "d": -2.3,
-     "min": 14.2
+     "min": 14.4
     }
    ]
   },
