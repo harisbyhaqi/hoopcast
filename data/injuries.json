@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T19:45:54-0500",
+ "generated": "2026-11-21T21:45:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -696,6 +696,17 @@
   },
   {
    "team": "NOP",
+   "player_id": "4395628",
+   "player": "Zion Williamson",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Thigh Bruise",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-22T00:39Z",
+   "comment": "Williamson is out for Saturday's game against the Spurs due to a left thigh contusion."
+  },
+  {
+   "team": "NOP",
    "player_id": "4397688",
    "player": "Trey Murphy III",
    "status": "out",
@@ -1023,17 +1034,6 @@
    "return_date": "2027-03-02",
    "updated": "2026-08-24T20:23Z",
    "comment": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN."
-  },
-  {
-   "team": "SAC",
-   "player_id": "4431679",
-   "player": "Precious Achiuwa",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Lower Leg Bruise",
-   "return_date": "2026-11-21",
-   "updated": "2026-11-21T21:19Z",
-   "comment": "Achiuwa (lower leg) is questionable for Saturday's game against the Celtics."
   },
   {
    "team": "SAC",

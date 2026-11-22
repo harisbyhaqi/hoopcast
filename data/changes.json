@@ -1,6 +1,21 @@
 [
  {
   "kind": "injury_new",
+  "team": "NOP",
+  "player": "Zion Williamson",
+  "to": "out",
+  "injury": "Thigh Bruise",
+  "time": "2026-11-21T21:45:55-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "SAC",
+  "player": "Precious Achiuwa",
+  "from": "day-to-day",
+  "time": "2026-11-21T21:45:55-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "BOS",
   "player": "Mitchell Robinson",
   "to": "out",
@@ -8039,22 +8054,5 @@
   "player": "Lauri Markkanen",
   "from": "day-to-day",
   "time": "2026-10-31T14:45:47-0400"
- },
- {
-  "kind": "injury_new",
-  "team": "PHI",
-  "player": "Joel Embiid",
-  "to": "day-to-day",
-  "injury": "Rest",
-  "time": "2026-10-31T10:00:51-0400"
- },
- {
-  "kind": "status_change",
-  "team": "CHI",
-  "player": "Dailyn Swain",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Back Soreness",
-  "time": "2026-10-31T02:00:49-0400"
  }
 ]
