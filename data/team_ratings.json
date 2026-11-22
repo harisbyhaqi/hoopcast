@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T12:45:49-05:00",
+ "generated": "2026-11-21T19:15:47-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -995,7 +995,7 @@
   "LAC": {
    "roster": -4.24,
    "market": -5.37,
-   "prior": -4.8,
+   "prior": -4.81,
    "rotation": [
     {
      "player": "Darius Garland",
@@ -1366,20 +1366,20 @@
      "rating": -0.3,
      "o": -0.1,
      "d": -0.2,
-     "min": 23.2
-    },
-    {
-     "player": "Kasparas Jakucionis",
-     "rating": -0.4,
-     "o": 0.5,
-     "d": -1.0,
-     "min": 19.1
+     "min": 23.4
     },
     {
      "player": "Jaime Jaquez Jr.",
      "rating": -0.8,
      "o": 0.0,
      "d": -0.8,
+     "min": 19.0
+    },
+    {
+     "player": "Kasparas Jakucionis",
+     "rating": -0.4,
+     "o": 0.5,
+     "d": -1.0,
      "min": 19.0
     },
     {
