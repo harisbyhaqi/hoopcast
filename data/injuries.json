@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T17:45:51-0500",
+ "generated": "2026-11-22T18:45:53-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -291,11 +291,11 @@
    "team": "DET",
    "player_id": "5258459",
    "player": "Ebuka Okorie",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Oblique Strain",
    "return_date": "2026-11-24",
-   "updated": "2026-11-21T22:34Z",
+   "updated": "2026-11-22T22:57Z",
    "comment": "Okorie (oblique) is out for Sunday's game in Atlanta."
   },
   {
@@ -440,17 +440,6 @@
    "return_date": "2027-01-02",
    "updated": "2026-10-28T21:41Z",
    "comment": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports."
-  },
-  {
-   "team": "LAC",
-   "player_id": "3913176",
-   "player": "Brandon Ingram",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Achilles Surgery",
-   "return_date": "2026-11-23",
-   "updated": "2026-11-20T20:20Z",
-   "comment": "Ingram (Achilles) is expected to make his season and team debut Monday against the Rockets, per Shams Charania of ESPN."
   },
   {
    "team": "LAC",
@@ -887,10 +876,10 @@
    "player": "Ryan Dunn",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Quadriceps",
+   "injury": "Quadriceps Soreness",
    "return_date": "2026-11-23",
-   "updated": "2026-11-22T18:34Z",
-   "comment": "Dunn (quadriceps) was a full participant in Sunday's practice, Duane Rankin of The Arizona Republic reports."
+   "updated": "2026-11-22T23:24Z",
+   "comment": "Dunn (quadriceps) is listed as questionable for Monday's game against the Pelicans."
   },
   {
    "team": "PHX",
@@ -1078,28 +1067,6 @@
    "return_date": "2026-12-14",
    "updated": "2026-10-27T19:25Z",
    "comment": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN."
-  },
-  {
-   "team": "WAS",
-   "player_id": "4845374",
-   "player": "Bub Carrington",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-22",
-   "updated": "2026-11-22T18:21Z",
-   "comment": "Carrington (illness) has been downgraded to questionable for Sunday's game against the Magic."
-  },
-  {
-   "team": "WAS",
-   "player_id": "4278129",
-   "player": "Deandre Ayton",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-22",
-   "updated": "2026-11-22T17:28Z",
-   "comment": "Ayton (illness) is questionable to play in Sunday's game against Orlando."
   },
   {
    "team": "WAS",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T17:45:55-05:00",
+ "generated": "2026-11-22T18:45:57-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -664,7 +664,7 @@
    ]
   },
   "DET": {
-   "roster": 2.7,
+   "roster": 2.71,
    "market": 2.96,
    "prior": 2.83,
    "rotation": [
@@ -715,14 +715,14 @@
      "rating": 0.9,
      "o": 1.4,
      "d": -0.5,
-     "min": 22.2
+     "min": 22.3
     },
     {
      "player": "Kevin Huerter",
      "rating": 0.2,
      "o": -0.2,
      "d": 0.3,
-     "min": 19.9
+     "min": 20.0
     },
     {
      "player": "Ronald Holland II",
@@ -2262,7 +2262,7 @@
   "UTA": {
    "roster": -4.69,
    "market": -2.04,
-   "prior": -3.36,
+   "prior": -3.37,
    "rotation": [
     {
      "player": "Lauri Markkanen",
