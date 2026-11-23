@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T18:45:53-0500",
+ "generated": "2026-11-22T19:45:53-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -399,17 +399,6 @@
   },
   {
    "team": "IND",
-   "player_id": "3149673",
-   "player": "Pascal Siakam",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Hip Soreness",
-   "return_date": "2026-11-22",
-   "updated": "2026-11-21T22:19Z",
-   "comment": "Siakam (hip) is listed as questionable for Sunday's game against New York."
-  },
-  {
-   "team": "IND",
    "player_id": "4396993",
    "player": "Tyrese Haliburton",
    "status": "out",
@@ -652,6 +641,17 @@
   },
   {
    "team": "NYK",
+   "player_id": "4431823",
+   "player": "Miles McBride",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Abdomen",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-23T00:04Z",
+   "comment": "McBride (abdomen) has been ruled out for Sunday's game against the Pacers."
+  },
+  {
+   "team": "NYK",
    "player_id": "3934719",
    "player": "OG Anunoby",
    "status": "out",
@@ -660,17 +660,6 @@
    "return_date": "2026-11-25",
    "updated": "2026-11-22T18:13Z",
    "comment": "Anunoby (calf) won't play Sunday against the Pacers."
-  },
-  {
-   "team": "NYK",
-   "player_id": "3136195",
-   "player": "Karl-Anthony Towns",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-22",
-   "updated": "2026-11-22T18:09Z",
-   "comment": "Towns (illness) is questionable to play in Sunday's game against the Pacers."
   },
   {
    "team": "NYK",

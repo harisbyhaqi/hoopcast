@@ -1,5 +1,27 @@
 [
  {
+  "kind": "injury_new",
+  "team": "NYK",
+  "player": "Miles McBride",
+  "to": "out",
+  "injury": "Abdomen",
+  "time": "2026-11-22T19:45:53-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Pascal Siakam",
+  "from": "day-to-day",
+  "time": "2026-11-22T19:45:53-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "NYK",
+  "player": "Karl-Anthony Towns",
+  "from": "day-to-day",
+  "time": "2026-11-22T19:45:53-0500"
+ },
+ {
   "kind": "status_change",
   "team": "DET",
   "player": "Ebuka Okorie",
@@ -8037,31 +8059,6 @@
   "from": "day-to-day",
   "to": "out",
   "injury": "Back Soreness",
-  "time": "2026-11-01T16:45:51-0500"
- },
- {
-  "kind": "injury_new",
-  "team": "LAC",
-  "player": "Yanic Konan Niederhauser",
-  "to": "out",
-  "injury": "Foot Surgery",
-  "time": "2026-11-01T16:45:51-0500"
- },
- {
-  "kind": "injury_new",
-  "team": "LAC",
-  "player": "Brandon Ingram",
-  "to": "out",
-  "injury": "Achilles Surgery",
-  "time": "2026-11-01T16:45:51-0500"
- },
- {
-  "kind": "status_change",
-  "team": "LAL",
-  "player": "Ziaire Williams",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Foot",
   "time": "2026-11-01T16:45:51-0500"
  }
 ]
