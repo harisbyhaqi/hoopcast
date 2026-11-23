@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T19:45:53-0500",
+ "generated": "2026-11-22T20:16:00-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -459,9 +459,9 @@
    "status": "out",
    "status_raw": "Out",
    "injury": "Heel Bruise",
-   "return_date": "2026-11-23",
-   "updated": "2026-11-22T20:25Z",
-   "comment": "Reaves (heel) was a full participant in Sunday's practice, Thuc Nhi Nguyen of the Los Angeles Times reports."
+   "return_date": "2026-11-27",
+   "updated": "2026-11-23T01:09Z",
+   "comment": "Reaves (heel) has been ruled out for Monday's game against the Jazz, Jovan Buha of The Athletic reports."
   },
   {
    "team": "MEM",
@@ -470,7 +470,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Calf Not Specified",
-   "return_date": "2026-11-23",
+   "return_date": "2026-12-12",
    "updated": "2026-11-22T22:21Z",
    "comment": "Grant (calf) has been ruled out for Monday's game against the Hornets."
   },
@@ -1023,6 +1023,17 @@
    "return_date": "2026-12-13",
    "updated": "2026-11-19T21:13Z",
    "comment": "Barrett has been diagnosed with a right hamstring strain and will be re-evaluated in two weeks, Brett Siegel of ClutchPoints.com reports."
+  },
+  {
+   "team": "UTA",
+   "player_id": "4397077",
+   "player": "Jaxson Hayes",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Not Specified",
+   "return_date": "2026-11-22",
+   "updated": "2026-11-23T01:03Z",
+   "comment": "Hayes produced 18 points (7-8 FG, 4-8 FT) and 14 rebounds in 28 minutes during Friday's 111-101 loss to Phoenix."
   },
   {
    "team": "UTA",
