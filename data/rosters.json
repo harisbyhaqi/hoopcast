@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T10:00:44-0500",
+ "generated": "2026-11-23T18:45:50-0500",
  "teams": {
   "ATL": [
    {
@@ -2799,6 +2799,12 @@
     "player": "Ben Simmons",
     "position": "G",
     "jersey": "25"
+   },
+   {
+    "player_id": "3137259",
+    "player": "Gabe Vincent",
+    "position": "G",
+    "jersey": ""
    }
   ],
   "SAS": [
