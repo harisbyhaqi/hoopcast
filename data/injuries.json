@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T20:16:00-0500",
+ "generated": "2026-11-22T23:00:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -471,8 +471,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Calf Not Specified",
    "return_date": "2026-12-12",
-   "updated": "2026-11-22T22:21Z",
-   "comment": "Grant (calf) has been ruled out for Monday's game against the Hornets."
+   "updated": "2026-11-23T01:14Z",
+   "comment": "Grant was diagnosed with a grade 1 left calf strain and will be re-evaluated in two weeks."
   },
   {
    "team": "MEM",
@@ -949,6 +949,28 @@
   },
   {
    "team": "SAS",
+   "player_id": "4066259",
+   "player": "De'Aaron Fox",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Lower Leg Bruise",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-23T01:39Z",
+   "comment": "Fox is questionable for Monday's game against the Kings due to a right shin contusion, Jared Weiss of The Athletic reports."
+  },
+  {
+   "team": "SAS",
+   "player_id": "3134916",
+   "player": "Jordan McLaughlin",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Shoulder Bruise",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-23T01:38Z",
+   "comment": "McLaughlin (shoulder) is listed as questionable for Monday's game against the Kings."
+  },
+  {
+   "team": "SAS",
    "player_id": "5037871",
    "player": "Dylan Harper",
    "status": "out",
@@ -1028,12 +1050,12 @@
    "team": "UTA",
    "player_id": "4397077",
    "player": "Jaxson Hayes",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Not Specified",
-   "return_date": "2026-11-22",
-   "updated": "2026-11-23T01:03Z",
-   "comment": "Hayes produced 18 points (7-8 FG, 4-8 FT) and 14 rebounds in 28 minutes during Friday's 111-101 loss to Phoenix."
+   "return_date": "2026-11-23",
+   "updated": "2026-11-23T01:16Z",
+   "comment": "Hayes (knee) has been ruled out for the remainder of Sunday's game against the Mavericks, Grant Afseth of DallasHoopsJournal.com reports."
   },
   {
    "team": "UTA",
