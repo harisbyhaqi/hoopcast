@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T23:00:55-0500",
+ "generated": "2026-11-23T02:00:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -467,11 +467,11 @@
    "team": "MEM",
    "player_id": "2991070",
    "player": "Jerami Grant",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Calf Not Specified",
    "return_date": "2026-12-12",
-   "updated": "2026-11-23T01:14Z",
+   "updated": "2026-11-23T04:04Z",
    "comment": "Grant was diagnosed with a grade 1 left calf strain and will be re-evaluated in two weeks."
   },
   {
@@ -946,6 +946,17 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-21T04:22Z",
    "comment": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports."
+  },
+  {
+   "team": "SAS",
+   "player_id": "5104157",
+   "player": "Victor Wembanyama",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-23T04:52Z",
+   "comment": "Wembanyama (back) is questionable for Monday's game against the Kings, Jared Weiss of The Athletic reports."
   },
   {
    "team": "SAS",

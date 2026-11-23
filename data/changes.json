@@ -1,5 +1,22 @@
 [
  {
+  "kind": "status_change",
+  "team": "MEM",
+  "player": "Jerami Grant",
+  "from": "day-to-day",
+  "to": "out",
+  "injury": "Calf Not Specified",
+  "time": "2026-11-23T02:00:51-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "SAS",
+  "player": "Victor Wembanyama",
+  "to": "day-to-day",
+  "injury": "Back",
+  "time": "2026-11-23T02:00:51-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "SAS",
   "player": "De'Aaron Fox",
@@ -8044,20 +8061,6 @@
   "kind": "cleared",
   "team": "MEM",
   "player": "Ty Jerome",
-  "from": "day-to-day",
-  "time": "2026-11-01T20:16:02-0500"
- },
- {
-  "kind": "cleared",
-  "team": "MIN",
-  "player": "Rudy Gobert",
-  "from": "day-to-day",
-  "time": "2026-11-01T20:16:02-0500"
- },
- {
-  "kind": "cleared",
-  "team": "PHI",
-  "player": "LeBron James",
   "from": "day-to-day",
   "time": "2026-11-01T20:16:02-0500"
  }
