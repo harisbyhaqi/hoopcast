@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T18:45:50-0500",
+ "generated": "2026-11-23T19:15:48-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -231,17 +231,6 @@
    "return_date": "2026-11-27",
    "updated": "2026-11-17T22:42Z",
    "comment": "Biberovic (heel) is out for Wednesday's game against the Warriors."
-  },
-  {
-   "team": "DEN",
-   "player_id": "4432181",
-   "player": "Julian Strawther",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Knee Sprain",
-   "return_date": "2026-11-29",
-   "updated": "2026-10-17T00:52Z",
-   "comment": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports."
   },
   {
    "team": "DET",
