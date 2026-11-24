@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T23:01:02-05:00",
+ "generated": "2026-11-24T02:00:56-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -1100,7 +1100,7 @@
      "rating": 1.6,
      "o": 0.5,
      "d": 1.1,
-     "min": 29.4
+     "min": 29.5
     },
     {
      "player": "Matisse Thybulle",
@@ -1121,7 +1121,7 @@
      "rating": 0.2,
      "o": -1.4,
      "d": 1.6,
-     "min": 21.7
+     "min": 21.8
     },
     {
      "player": "Sandro Mamukelashvili",
@@ -1149,7 +1149,7 @@
      "rating": -1.2,
      "o": -0.1,
      "d": -1.1,
-     "min": 13.8
+     "min": 13.7
     }
    ]
   },
@@ -1238,7 +1238,7 @@
    ]
   },
   "MIA": {
-   "roster": -0.29,
+   "roster": -0.28,
    "market": 2.04,
    "prior": 0.88,
    "rotation": [
@@ -2038,7 +2038,7 @@
   "SAC": {
    "roster": -7.04,
    "market": -7.59,
-   "prior": -7.31,
+   "prior": -7.32,
    "rotation": [
     {
      "player": "Keegan Murray",
@@ -2066,21 +2066,21 @@
      "rating": 0.5,
      "o": -1.3,
      "d": 1.8,
-     "min": 26.8
+     "min": 26.7
     },
     {
      "player": "Leaky Black",
      "rating": -0.5,
      "o": -1.5,
      "d": 0.9,
-     "min": 23.3
+     "min": 23.2
     },
     {
      "player": "Darius Acuff Jr.",
      "rating": -1.5,
      "o": 0.5,
      "d": -2.0,
-     "min": 21.4
+     "min": 21.3
     },
     {
      "player": "Ben Simmons",
@@ -2108,7 +2108,14 @@
      "rating": -1.4,
      "o": -0.6,
      "d": -0.8,
-     "min": 17.8
+     "min": 18.1
+    },
+    {
+     "player": "Zach LaVine",
+     "rating": -1.9,
+     "o": 0.3,
+     "d": -2.2,
+     "min": 0.1
     }
    ]
   },
@@ -2178,7 +2185,7 @@
      "rating": 0.0,
      "o": 0.0,
      "d": 0.0,
-     "min": 18.4
+     "min": 18.3
     }
    ]
   },
@@ -2290,7 +2297,7 @@
      "rating": 0.3,
      "o": -1.4,
      "d": 1.7,
-     "min": 24.0
+     "min": 23.9
     },
     {
      "player": "Jaxson Hayes",
@@ -2318,7 +2325,7 @@
      "rating": -1.0,
      "o": -0.1,
      "d": -0.9,
-     "min": 18.2
+     "min": 18.1
     },
     {
      "player": "Svi Mykhailiuk",
@@ -2339,7 +2346,7 @@
      "rating": -1.6,
      "o": -0.5,
      "d": -1.1,
-     "min": 6.5
+     "min": 6.6
     }
    ]
   },

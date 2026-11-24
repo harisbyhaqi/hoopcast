@@ -1,5 +1,93 @@
 [
  {
+  "kind": "status_change",
+  "team": "CHA",
+  "player": "Grant Williams",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "Aaron Nesmith",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Foot",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "IND",
+  "player": "T.J. McConnell",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Jaylin Williams",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back Spasms",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "OKC",
+  "player": "Aday Mara",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Lower Leg Bruise",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAS",
+  "player": "Victor Wembanyama",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Back",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "SAS",
+  "player": "De'Aaron Fox",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Lower Leg Bruise",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "UTA",
+  "player": "Jaxson Hayes",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Knee Not Specified",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHX",
+  "player": "Collin Gillespie",
+  "from": "day-to-day",
+  "time": "2026-11-24T02:00:51-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "PHX",
   "player": "Collin Gillespie",
@@ -7975,84 +8063,6 @@
   "player": "LaMelo Ball",
   "to": "day-to-day",
   "injury": "Wrist",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "injury_new",
-  "team": "NOP",
-  "player": "Dejounte Murray",
-  "to": "out",
-  "injury": "Personal",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "injury_new",
-  "team": "ORL",
-  "player": "Anthony Black",
-  "to": "out",
-  "injury": "Rest",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "injury_new",
-  "team": "TOR",
-  "player": "Scottie Barnes",
-  "to": "day-to-day",
-  "injury": "Hip Soreness",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "injury_new",
-  "team": "WAS",
-  "player": "Reece Beekman",
-  "to": "out",
-  "injury": "Shoulder",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "status_change",
-  "team": "WAS",
-  "player": "Anthony Gill",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Back Spasms",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "status_change",
-  "team": "WAS",
-  "player": "Alex Sarr",
-  "from": "day-to-day",
-  "to": "out",
-  "injury": "Knee Soreness",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "cleared",
-  "team": "BOS",
-  "player": "Mitchell Robinson",
-  "from": "day-to-day",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "cleared",
-  "team": "BKN",
-  "player": "Mikel Brown Jr.",
-  "from": "day-to-day",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "cleared",
-  "team": "CHI",
-  "player": "Jalen Smith",
-  "from": "day-to-day",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "cleared",
-  "team": "CHI",
-  "player": "Tobe Awaka",
-  "from": "day-to-day",
   "time": "2026-11-02T18:45:55-0500"
  }
 ]
