@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T19:15:48-0500",
+ "generated": "2026-11-23T19:45:57-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -143,17 +143,6 @@
    "return_date": "2026-12-13",
    "updated": "2026-11-12T21:35Z",
    "comment": "Wilson (hand) is expected to miss four to six weeks, Shams Charania of ESPN reports."
-  },
-  {
-   "team": "CLE",
-   "player_id": "4683747",
-   "player": "Jaylon Tyson",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle",
-   "return_date": "2026-11-23",
-   "updated": "2026-11-22T21:51Z",
-   "comment": "Tyson (ankle) is probable for Monday's game against the Bulls."
   },
   {
    "team": "CLE",
@@ -528,17 +517,6 @@
    "return_date": "2027-04-02",
    "updated": "2026-10-05T20:53Z",
    "comment": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports."
-  },
-  {
-   "team": "NOP",
-   "player_id": "4395628",
-   "player": "Zion Williamson",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Thigh Bruise",
-   "return_date": "2026-11-23",
-   "updated": "2026-11-22T20:50Z",
-   "comment": "Williamson (thigh) is probable for Monday's game against Phoenix."
   },
   {
    "team": "NOP",
