@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T21:45:48-0500",
+ "generated": "2026-11-23T23:00:55-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -759,6 +759,17 @@
    "return_date": "2027-10-01",
    "updated": "2026-10-06T19:17Z",
    "comment": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN."
+  },
+  {
+   "team": "PHX",
+   "player_id": "4278585",
+   "player": "Collin Gillespie",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Undisclosed Not Specified",
+   "return_date": "2026-11-23",
+   "updated": "2026-11-24T02:48Z",
+   "comment": "Gillespie went to the locker room during the third quarter of Monday's game against the Pelicans due to an undisclosed injury, Duane Rankin of The Arizona Republic reports."
   },
   {
    "team": "PHX",

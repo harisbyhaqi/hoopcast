@@ -1,6 +1,14 @@
 [
  {
   "kind": "injury_new",
+  "team": "PHX",
+  "player": "Collin Gillespie",
+  "to": "day-to-day",
+  "injury": "Undisclosed Not Specified",
+  "time": "2026-11-23T23:00:55-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "CHA",
   "player": "Ryan Kalkbrenner",
   "to": "day-to-day",
@@ -8044,13 +8052,6 @@
   "kind": "cleared",
   "team": "CHI",
   "player": "Tobe Awaka",
-  "from": "day-to-day",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "cleared",
-  "team": "GSW",
-  "player": "Draymond Green",
   "from": "day-to-day",
   "time": "2026-11-02T18:45:55-0500"
  }
