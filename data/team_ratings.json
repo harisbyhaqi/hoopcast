@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T20:15:52-05:00",
+ "generated": "2026-11-23T21:45:52-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -274,7 +274,7 @@
      "rating": 0.8,
      "o": 1.4,
      "d": -0.6,
-     "min": 29.2
+     "min": 29.3
     },
     {
      "player": "Grant Williams",
@@ -302,7 +302,7 @@
      "rating": 1.1,
      "o": -0.3,
      "d": 1.5,
-     "min": 24.9
+     "min": 24.8
     },
     {
      "player": "Grayson Allen",
@@ -1154,7 +1154,7 @@
    ]
   },
   "MEM": {
-   "roster": -0.82,
+   "roster": -0.81,
    "market": -4.63,
    "prior": -2.72,
    "rotation": [
@@ -1163,7 +1163,7 @@
      "rating": 1.4,
      "o": 1.5,
      "d": -0.1,
-     "min": 29.7
+     "min": 29.8
     },
     {
      "player": "Ty Jerome",
@@ -1233,7 +1233,7 @@
      "rating": -1.0,
      "o": -0.7,
      "d": -0.4,
-     "min": 8.6
+     "min": 8.5
     }
    ]
   },
@@ -1849,7 +1849,7 @@
      "rating": 0.5,
      "o": -0.4,
      "d": 0.9,
-     "min": 23.0
+     "min": 23.1
     },
     {
      "player": "Dominick Barlow",
@@ -1877,7 +1877,7 @@
      "rating": -1.5,
      "o": 0.5,
      "d": -2.0,
-     "min": 6.3
+     "min": 6.4
     }
    ]
   },
@@ -2024,14 +2024,14 @@
      "rating": -0.2,
      "o": -0.1,
      "d": -0.1,
-     "min": 14.5
+     "min": 14.4
     },
     {
      "player": "Vit Krejci",
      "rating": -0.6,
      "o": -0.6,
      "d": -0.0,
-     "min": 3.6
+     "min": 3.7
     }
    ]
   },

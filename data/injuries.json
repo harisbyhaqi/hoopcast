@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T20:15:48-0500",
+ "generated": "2026-11-23T21:45:48-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -77,6 +77,17 @@
    "return_date": "2027-01-27",
    "updated": "2026-11-23T15:22Z",
    "comment": "Traore will be re-evaluated in approximately 8-10 weeks due to a right hamstring strain, Michael Scotto of HoopsHype.com reports."
+  },
+  {
+   "team": "CHA",
+   "player_id": "4576060",
+   "player": "Ryan Kalkbrenner",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hip Soreness",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-24T02:14Z",
+   "comment": "Kalkbrenner has been ruled out for the rest of Monday's game against Memphis due to left hip soreness. He'll end with two rebounds in nine minutes."
   },
   {
    "team": "CHA",
@@ -333,6 +344,17 @@
   },
   {
    "team": "IND",
+   "player_id": "2580365",
+   "player": "Larry Nance Jr.",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Soreness",
+   "return_date": "2026-11-27",
+   "updated": "2026-11-24T02:00Z",
+   "comment": "Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports."
+  },
+  {
+   "team": "IND",
    "player_id": "2530530",
    "player": "T.J. McConnell",
    "status": "out",
@@ -416,8 +438,8 @@
    "status_raw": "Out",
    "injury": "Heel Bruise",
    "return_date": "2026-11-27",
-   "updated": "2026-11-23T01:09Z",
-   "comment": "Reaves (heel) has been ruled out for Monday's game against the Jazz, Jovan Buha of The Athletic reports."
+   "updated": "2026-11-24T01:31Z",
+   "comment": "Coach JJ Redick stated Monday that the team is optimistic Reaves (heel) will return for Friday's game against San Antonio, Daniel Starkand of LakersNation.com reports."
   },
   {
    "team": "MEM",
@@ -817,36 +839,25 @@
   },
   {
    "team": "SAS",
-   "player_id": "5104157",
-   "player": "Victor Wembanyama",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-11-23",
-   "updated": "2026-11-23T04:52Z",
-   "comment": "Wembanyama (back) is questionable for Monday's game against the Kings, Jared Weiss of The Athletic reports."
-  },
-  {
-   "team": "SAS",
    "player_id": "4066259",
    "player": "De'Aaron Fox",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Lower Leg Bruise",
-   "return_date": "2026-11-23",
-   "updated": "2026-11-23T01:39Z",
-   "comment": "Fox is questionable for Monday's game against the Kings due to a right shin contusion, Jared Weiss of The Athletic reports."
+   "return_date": "2026-11-25",
+   "updated": "2026-11-24T01:24Z",
+   "comment": "Fox (shin) has been ruled out for Monday's game against the Kings, Jeff McDonald of the San Antonio Express-News reports."
   },
   {
    "team": "SAS",
-   "player_id": "3134916",
-   "player": "Jordan McLaughlin",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder Bruise",
-   "return_date": "2026-11-23",
-   "updated": "2026-11-23T01:38Z",
-   "comment": "McLaughlin (shoulder) is listed as questionable for Monday's game against the Kings."
+   "player_id": "5104157",
+   "player": "Victor Wembanyama",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-24T01:24Z",
+   "comment": "Wembanyama (back) won't play Monday against the Kings, Jeff McDonald of the San Antonio Express-News reports."
   },
   {
    "team": "SAS",
