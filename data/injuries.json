@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T10:00:52-0500",
+ "generated": "2026-11-25T16:45:44-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -82,12 +82,23 @@
    "team": "CHA",
    "player_id": "4576060",
    "player": "Ryan Kalkbrenner",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Hip Soreness",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-24T22:33Z",
-   "comment": "Kalkbrenner (hip) is doubtful to play Wednesday against the Bulls."
+   "return_date": "2026-11-28",
+   "updated": "2026-11-25T17:41Z",
+   "comment": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago."
+  },
+  {
+   "team": "CHA",
+   "player_id": "3135045",
+   "player": "Grayson Allen",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Concussion",
+   "return_date": "2026-11-28",
+   "updated": "2026-11-25T17:39Z",
+   "comment": "Allen (concussion) has been ruled out for Wednesday's game against Chicago."
   },
   {
    "team": "CHA",
@@ -110,17 +121,6 @@
    "return_date": "2026-11-25",
    "updated": "2026-11-24T22:30Z",
    "comment": "James is probable for Wednesday's game against the Bulls due to general soreness."
-  },
-  {
-   "team": "CHA",
-   "player_id": "3135045",
-   "player": "Grayson Allen",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Concussion",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-24T22:29Z",
-   "comment": "Allen (concussion) is listed as questionable for Wednesday's game versus Chicago."
   },
   {
    "team": "CHA",
@@ -236,11 +236,11 @@
    "team": "DET",
    "player_id": "4432166",
    "player": "Cade Cunningham",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee",
    "return_date": "2026-11-27",
-   "updated": "2026-11-24T23:36Z",
+   "updated": "2026-11-25T19:00Z",
    "comment": "Cunningham (knee) is listed as out for Tuesday's game against Orlando."
   },
   {
@@ -438,8 +438,8 @@
    "status_raw": "Out",
    "injury": "Heel Bruise",
    "return_date": "2026-11-27",
-   "updated": "2026-11-24T01:31Z",
-   "comment": "Coach JJ Redick stated Monday that the team is optimistic Reaves (heel) will return for Friday's game against San Antonio, Daniel Starkand of LakersNation.com reports."
+   "updated": "2026-11-25T20:33Z",
+   "comment": "Reaves (heel) was a full participant in Wednesday's practice, Daniel Starkand of LakersNation.com reports."
   },
   {
    "team": "MEM",
@@ -497,17 +497,6 @@
    "comment": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports."
   },
   {
-   "team": "MIA",
-   "player_id": "3032977",
-   "player": "Giannis Antetokounmpo",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Groin",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-24T22:07Z",
-   "comment": "Antetokounmpo (groin) is questionable for Wednesday's game in Philadelphia."
-  },
-  {
    "team": "MIN",
    "player_id": "3934673",
    "player": "Donte DiVincenzo",
@@ -539,6 +528,17 @@
    "return_date": "2026-12-21",
    "updated": "2026-10-29T18:33Z",
    "comment": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced."
+  },
+  {
+   "team": "NOP",
+   "player_id": "4683742",
+   "player": "Julian Reese",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-25T16:11Z",
+   "comment": "The Pelicans transferred Reese from the G League's Laketown Squadron, and he will be available for New Orleans' game against the Warriors on Monday."
   },
   {
    "team": "NOP",
@@ -575,14 +575,47 @@
   },
   {
    "team": "NYK",
-   "player_id": "4431823",
-   "player": "Miles McBride",
+   "player_id": "3934672",
+   "player": "Jalen Brunson",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
-   "injury": "Groin Soreness",
+   "injury": "Illness",
    "return_date": "2026-11-25",
-   "updated": "2026-11-24T21:56Z",
-   "comment": "McBride (adductor) is listed as questionable for Wednesday's game versus Cleveland."
+   "updated": "2026-11-25T21:35Z",
+   "comment": "Brunson (illness) is probable for Wednesday's game against Cleveland."
+  },
+  {
+   "team": "NYK",
+   "player_id": "3062679",
+   "player": "Josh Hart",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Shoulder Sprain",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-25T17:57Z",
+   "comment": "Hart (shoulder) has been upgraded to probable for Wednesday's game against the Cavaliers."
+  },
+  {
+   "team": "NYK",
+   "player_id": "4431823",
+   "player": "Miles McBride",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Groin Soreness",
+   "return_date": "2026-11-27",
+   "updated": "2026-11-25T17:57Z",
+   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers."
+  },
+  {
+   "team": "NYK",
+   "player_id": "3136195",
+   "player": "Karl-Anthony Towns",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Inflammation",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-25T17:54Z",
+   "comment": "Towns (knee) is probable for Wednesday's game against Cleveland."
   },
   {
    "team": "NYK",
@@ -597,17 +630,6 @@
   },
   {
    "team": "NYK",
-   "player_id": "3062679",
-   "player": "Josh Hart",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Shoulder Sprain",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-24T21:54Z",
-   "comment": "Hart (shoulder) is listed as questionable for Wednesday's game against Cleveland."
-  },
-  {
-   "team": "NYK",
    "player_id": "3934719",
    "player": "OG Anunoby",
    "status": "out",
@@ -616,17 +638,6 @@
    "return_date": "2026-11-27",
    "updated": "2026-11-24T21:53Z",
    "comment": "Anunoby (calf) is out for Wednesday's game against Cleveland."
-  },
-  {
-   "team": "NYK",
-   "player_id": "3136195",
-   "player": "Karl-Anthony Towns",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-24T21:50Z",
-   "comment": "Towns (knee) is questionable for Wednesday's game against Cleveland."
   },
   {
    "team": "OKC",
@@ -753,12 +764,12 @@
    "team": "PHI",
    "player_id": "3059318",
    "player": "Joel Embiid",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Illness",
    "return_date": "2026-11-27",
-   "updated": "2026-11-24T22:09Z",
-   "comment": "Embiid (illness) is listed as doubtful for Wednesday's game versus Miami."
+   "updated": "2026-11-25T20:07Z",
+   "comment": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports."
   },
   {
    "team": "PHI",
@@ -834,8 +845,19 @@
    "status_raw": "Out",
    "injury": "Knee Dislocated",
    "return_date": "2026-12-02",
-   "updated": "2026-11-25T04:21Z",
-   "comment": "Raynaud (knee) is out for Wednesday's game against the Warriors."
+   "updated": "2026-11-25T21:38Z",
+   "comment": "Raynaud (knee) was recalled from the G League's Stockton Kings on Wednesday, Marc J. Spears of ESPN.com reports."
+  },
+  {
+   "team": "SAC",
+   "player_id": "3064440",
+   "player": "Zach LaVine",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Knee Soreness",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-25T20:49Z",
+   "comment": "LaVine (knee) has been downgraded to questionable for Wednesday's game against Golden State."
   },
   {
    "team": "SAC",
