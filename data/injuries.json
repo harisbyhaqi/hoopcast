@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T19:45:52-0500",
+ "generated": "2026-11-24T21:45:49-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -198,17 +198,6 @@
    "return_date": "2026-11-27",
    "updated": "2026-11-23T23:25Z",
    "comment": "Lawal (groin) is out for Tuesday's game against Denver."
-  },
-  {
-   "team": "DAL",
-   "player_id": "4278078",
-   "player": "P.J. Washington",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-24",
-   "updated": "2026-11-23T23:21Z",
-   "comment": "Washington (illness) is questionable for Tuesday's game against the Nuggets."
   },
   {
    "team": "DAL",
@@ -861,25 +850,25 @@
   },
   {
    "team": "SAS",
-   "player_id": "5104157",
-   "player": "Victor Wembanyama",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-24T06:06Z",
-   "comment": "Wembanyama (back) won't play Monday against the Kings, Jeff McDonald of the San Antonio Express-News reports."
-  },
-  {
-   "team": "SAS",
    "player_id": "4066259",
    "player": "De'Aaron Fox",
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Lower Leg Bruise",
    "return_date": "2026-11-25",
-   "updated": "2026-11-24T06:06Z",
-   "comment": "Fox (shin) has been ruled out for Monday's game against the Kings, Jeff McDonald of the San Antonio Express-News reports."
+   "updated": "2026-11-25T01:27Z",
+   "comment": "Fox (shin) is questionable to play Wednesday's game against the Trail Blazers."
+  },
+  {
+   "team": "SAS",
+   "player_id": "5104157",
+   "player": "Victor Wembanyama",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Back",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-25T01:23Z",
+   "comment": "Wembanyama (back) is questionable for Wednesday's game in Portland."
   },
   {
    "team": "SAS",

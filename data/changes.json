@@ -1,6 +1,13 @@
 [
  {
   "kind": "cleared",
+  "team": "DAL",
+  "player": "P.J. Washington",
+  "from": "day-to-day",
+  "time": "2026-11-24T21:45:49-0500"
+ },
+ {
+  "kind": "cleared",
   "team": "WAS",
   "player": "Tre Mann",
   "from": "day-to-day",
@@ -8050,14 +8057,6 @@
   "from": "day-to-day",
   "to": "out",
   "injury": "Ankle",
-  "time": "2026-11-02T18:45:55-0500"
- },
- {
-  "kind": "injury_new",
-  "team": "BOS",
-  "player": "Paul George",
-  "to": "out",
-  "injury": "Rest",
   "time": "2026-11-02T18:45:55-0500"
  }
 ]
