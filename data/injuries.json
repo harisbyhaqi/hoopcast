@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T23:00:53-0500",
+ "generated": "2026-11-26T02:00:40-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -93,11 +93,11 @@
    "team": "CHA",
    "player_id": "4576060",
    "player": "Ryan Kalkbrenner",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Hip Soreness",
    "return_date": "2026-11-28",
-   "updated": "2026-11-25T17:41Z",
+   "updated": "2026-11-26T05:30Z",
    "comment": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago."
   },
   {
@@ -137,11 +137,11 @@
    "team": "CHI",
    "player_id": "4397189",
    "player": "Jalen Smith",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Illness",
    "return_date": "2026-11-28",
-   "updated": "2026-11-25T22:07Z",
+   "updated": "2026-11-26T05:29Z",
    "comment": "Smith (illness) is listed as out for Wednesday's game against Charlotte."
   },
   {
@@ -427,8 +427,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Soreness",
    "return_date": "2026-11-27",
-   "updated": "2026-11-26T02:48Z",
-   "comment": "Edey (ankle) is doubtful to return to Wednesday's game against the Clippers."
+   "updated": "2026-11-26T03:43Z",
+   "comment": "Edey (ankle) did not return to Wednesday's 115-97 win over the Clippers. He finished with seven points (3-4 FG, 1-1 FT), four rebounds, two assists and two blocks across nine minutes."
   },
   {
    "team": "MEM",
@@ -536,7 +536,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Knee",
-   "return_date": "2026-11-25",
+   "return_date": "2026-12-01",
    "updated": "2026-11-25T16:11Z",
    "comment": "The Pelicans transferred Reese from the G League's Laketown Squadron, and he will be available for New Orleans' game against the Warriors on Monday."
   },
@@ -575,6 +575,17 @@
   },
   {
    "team": "NYK",
+   "player_id": "4431823",
+   "player": "Miles McBride",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Groin Soreness",
+   "return_date": "2026-11-27",
+   "updated": "2026-11-26T05:31Z",
+   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers."
+  },
+  {
+   "team": "NYK",
    "player_id": "6585",
    "player": "Andre Drummond",
    "status": "day-to-day",
@@ -594,17 +605,6 @@
    "return_date": "2026-11-27",
    "updated": "2026-11-25T23:19Z",
    "comment": "Anunoby (calf) participated in on-court work for the first time since sustaining the injury, Ian Begley of SportsNet New York reports."
-  },
-  {
-   "team": "NYK",
-   "player_id": "4431823",
-   "player": "Miles McBride",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Groin Soreness",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-25T17:57Z",
-   "comment": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers."
   },
   {
    "team": "NYK",
@@ -830,11 +830,11 @@
    "team": "SAC",
    "player_id": "3064440",
    "player": "Zach LaVine",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Knee Soreness",
    "return_date": "2026-11-29",
-   "updated": "2026-11-25T22:40Z",
+   "updated": "2026-11-26T05:33Z",
    "comment": "LaVine (knee) is listed as out for Wednesday's game versus the Warriors."
   },
   {
@@ -863,11 +863,11 @@
    "team": "SAS",
    "player_id": "4066259",
    "player": "De'Aaron Fox",
-   "status": "out",
-   "status_raw": "Out",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
    "injury": "Lower Leg Bruise",
    "return_date": "2026-11-27",
-   "updated": "2026-11-26T02:20Z",
+   "updated": "2026-11-26T06:01Z",
    "comment": "Fox (shin) has been ruled out for Wednesday's game against Portland, Jeff McDonald of the San Antonio Express-News reports."
   },
   {

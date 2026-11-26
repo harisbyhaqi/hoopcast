@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T23:00:53-0500",
+ "generated": "2026-11-26T02:00:40-0500",
  "teams": {
   "ATL": [
    {
@@ -2359,6 +2359,12 @@
     "player": "Noah Penda",
     "position": "F",
     "jersey": "93"
+   },
+   {
+    "player_id": "4397140",
+    "player": "Kevin Porter Jr.",
+    "position": "G",
+    "jersey": "7"
    },
    {
     "player_id": "5239561",
