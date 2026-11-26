@@ -1,6 +1,24 @@
 [
  {
   "kind": "status_change",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Illness",
+  "time": "2026-11-25T20:15:52-0500"
+ },
+ {
+  "kind": "status_change",
+  "team": "PHI",
+  "player": "Jaylen Brown",
+  "from": "out",
+  "to": "day-to-day",
+  "injury": "Hamstring",
+  "time": "2026-11-25T20:15:52-0500"
+ },
+ {
+  "kind": "status_change",
   "team": "CHI",
   "player": "Jalen Smith",
   "from": "day-to-day",
@@ -8041,24 +8059,6 @@
   "player": "Jordan Goodwin",
   "to": "day-to-day",
   "injury": "Calf Not Specified",
-  "time": "2026-11-03T02:00:55-0500"
- },
- {
-  "kind": "status_change",
-  "team": "TOR",
-  "player": "Jakob Poeltl",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Shoulder Inflammation",
-  "time": "2026-11-03T02:00:55-0500"
- },
- {
-  "kind": "status_change",
-  "team": "WAS",
-  "player": "Alex Sarr",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Knee Soreness",
   "time": "2026-11-03T02:00:55-0500"
  }
 ]

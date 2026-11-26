@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T19:45:51-0500",
+ "generated": "2026-11-25T20:15:52-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -718,25 +718,25 @@
   },
   {
    "team": "PHI",
-   "player_id": "3917376",
-   "player": "Jaylen Brown",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring",
+   "player_id": "3059318",
+   "player": "Joel Embiid",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Illness",
    "return_date": "2026-11-27",
-   "updated": "2026-11-25T23:30Z",
-   "comment": "Brown (hamstring) won't return to Wednesday's game against Miami, Kyle Neubeck of AllPHLY.com reports. He finished with six points (2-8 FG, 0-1 3Pt, 2-2 FT), one rebound and one assist over 17 minutes."
+   "updated": "2026-11-26T01:06Z",
+   "comment": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports."
   },
   {
    "team": "PHI",
-   "player_id": "3059318",
-   "player": "Joel Embiid",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Illness",
+   "player_id": "3917376",
+   "player": "Jaylen Brown",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Hamstring",
    "return_date": "2026-11-27",
-   "updated": "2026-11-25T20:07Z",
-   "comment": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports."
+   "updated": "2026-11-26T01:06Z",
+   "comment": "Brown (hamstring) will receive imaging, and the Sixers will provide an update Thursday, Ky Carlin of USA Today reports."
   },
   {
    "team": "PHI",
