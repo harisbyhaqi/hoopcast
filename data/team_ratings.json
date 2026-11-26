@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T19:15:51-05:00",
+ "generated": "2026-11-25T19:45:55-05:00",
  "unmatched": [
   "AK Okereke",
   "Ernest Udeh Jr."
@@ -1268,7 +1268,7 @@
      "rating": -0.2,
      "o": -0.0,
      "d": -0.2,
-     "min": 21.0
+     "min": 20.9
     },
     {
      "player": "Nikola Jovic",
@@ -1798,7 +1798,7 @@
    ]
   },
   "PHI": {
-   "roster": 1.4,
+   "roster": 1.39,
    "market": 3.52,
    "prior": 2.46,
    "rotation": [
@@ -1821,7 +1821,7 @@
      "rating": 2.0,
      "o": 2.9,
      "d": -0.9,
-     "min": 32.6
+     "min": 32.5
     },
     {
      "player": "LeBron James",
