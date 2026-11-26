@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T20:15:52-0500",
+ "generated": "2026-11-25T21:45:51-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -66,6 +66,17 @@
    "return_date": "2026-11-27",
    "updated": "2026-11-23T21:09Z",
    "comment": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports."
+  },
+  {
+   "team": "BKN",
+   "player_id": "3150844",
+   "player": "Moritz Wagner",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee Soreness",
+   "return_date": "2026-11-27",
+   "updated": "2026-11-26T02:29Z",
+   "comment": "Wagner closed with 11 points (4-4 FG, 2-2 3Pt, 1-3 FT), two rebounds, three assists and one steal over 20 minutes during Wednesday's 137-107 loss to the Bulls."
   },
   {
    "team": "BKN",
@@ -278,36 +289,14 @@
   },
   {
    "team": "GSW",
-   "player_id": "5175737",
-   "player": "Yaxel Lendeborg",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-24T23:20Z",
-   "comment": "Lendeborg is questionable for Wednesday's game against the Kings with an illness."
-  },
-  {
-   "team": "GSW",
-   "player_id": "4397040",
-   "player": "Brandon Williams",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring Strain",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-24T20:58Z",
-   "comment": "Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area."
-  },
-  {
-   "team": "GSW",
    "player_id": "3975",
    "player": "Stephen Curry",
    "status": "out",
    "status_raw": "Out",
    "injury": "Abdomen",
    "return_date": "2026-12-12",
-   "updated": "2026-11-12T17:03Z",
-   "comment": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports."
+   "updated": "2026-11-26T01:36Z",
+   "comment": "Curry (abdomen) will be re-evaluated Friday after Thanksgiving, Anthony Slater of ESPN.com reports."
   },
   {
    "team": "GSW",
@@ -561,6 +550,17 @@
    "return_date": "2026-11-27",
    "updated": "2026-11-13T20:19Z",
    "comment": "Murray (ankle) is out for Friday's game against Memphis."
+  },
+  {
+   "team": "NYK",
+   "player_id": "6585",
+   "player": "Andre Drummond",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Head Not Specified",
+   "return_date": "2026-11-25",
+   "updated": "2026-11-26T02:31Z",
+   "comment": "Drummond is questionable to return to Wednesday's game against Cleveland due to a head injury, Stefan Bondy of The New York Post reports."
   },
   {
    "team": "NYK",
@@ -841,23 +841,12 @@
    "team": "SAS",
    "player_id": "4066259",
    "player": "De'Aaron Fox",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Lower Leg Bruise",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-25T01:27Z",
-   "comment": "Fox (shin) is questionable to play Wednesday's game against the Trail Blazers."
-  },
-  {
-   "team": "SAS",
-   "player_id": "5104157",
-   "player": "Victor Wembanyama",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Back",
-   "return_date": "2026-11-25",
-   "updated": "2026-11-25T01:23Z",
-   "comment": "Wembanyama (back) is questionable for Wednesday's game in Portland."
+   "return_date": "2026-11-27",
+   "updated": "2026-11-26T02:20Z",
+   "comment": "Fox (shin) has been ruled out for Wednesday's game against Portland, Jeff McDonald of the San Antonio Express-News reports."
   },
   {
    "team": "SAS",
