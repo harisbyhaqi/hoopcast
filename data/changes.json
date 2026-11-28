@@ -1,5 +1,19 @@
 [
  {
+  "kind": "cleared",
+  "team": "IND",
+  "player": "Larry Nance Jr.",
+  "from": "day-to-day",
+  "time": "2026-11-27T19:15:57-0500"
+ },
+ {
+  "kind": "cleared",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "from": "day-to-day",
+  "time": "2026-11-27T19:15:57-0500"
+ },
+ {
   "kind": "injury_new",
   "team": "CHI",
   "player": "Noa Essengue",
@@ -8033,23 +8047,6 @@
   "player": "Cameron Johnson",
   "to": "day-to-day",
   "injury": "Ankle",
-  "time": "2026-11-03T23:00:48-0500"
- },
- {
-  "kind": "injury_new",
-  "team": "DEN",
-  "player": "Alpha Diallo",
-  "to": "day-to-day",
-  "injury": "Wrist",
-  "time": "2026-11-03T23:00:48-0500"
- },
- {
-  "kind": "status_change",
-  "team": "HOU",
-  "player": "Clint Capela",
-  "from": "out",
-  "to": "day-to-day",
-  "injury": "Ankle Sprain",
   "time": "2026-11-03T23:00:48-0500"
  }
 ]

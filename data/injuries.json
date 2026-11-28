@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T18:45:48-0500",
+ "generated": "2026-11-27T19:15:57-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -377,17 +377,6 @@
   },
   {
    "team": "IND",
-   "player_id": "2580365",
-   "player": "Larry Nance Jr.",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Ankle Soreness",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-27T18:07Z",
-   "comment": "Nance (ankle) is probable for Friday's game against the 76ers."
-  },
-  {
-   "team": "IND",
    "player_id": "4396993",
    "player": "Tyrese Haliburton",
    "status": "out",
@@ -652,6 +641,17 @@
   },
   {
    "team": "OKC",
+   "player_id": "5159925",
+   "player": "Nikola Topic",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hip Strain",
+   "return_date": "2026-12-13",
+   "updated": "2026-11-27T23:49Z",
+   "comment": "Topic (hip) is out for Saturday's game against the Bucks, Brandon Rahbar of DailyThunder.com reports."
+  },
+  {
+   "team": "OKC",
    "player_id": "5174983",
    "player": "Aday Mara",
    "status": "out",
@@ -660,17 +660,6 @@
    "return_date": "2026-11-30",
    "updated": "2026-11-27T23:10Z",
    "comment": "Mara (leg) is out for Saturday's game versus the Bucks, per Clemente Almanza of USA Today."
-  },
-  {
-   "team": "OKC",
-   "player_id": "5159925",
-   "player": "Nikola Topic",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hip Strain",
-   "return_date": "2026-12-13",
-   "updated": "2026-11-24T23:29Z",
-   "comment": "Topic (hip) is listed as out for Wednesday's game versus Minnesota."
   },
   {
    "team": "OKC",
@@ -825,17 +814,6 @@
    "return_date": "2026-12-01",
    "updated": "2026-11-27T23:15Z",
    "comment": "Brown (hamstring) underwent an MRI that showed no signs of a new injury or re-aggravation, but he didn't travel with the team for the road trip, so he will miss the team's next two games, Kris Rhim of ESPN reports."
-  },
-  {
-   "team": "PHI",
-   "player_id": "3059318",
-   "player": "Joel Embiid",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-27T16:32Z",
-   "comment": "Embiid (illness) was at shootaround for the 76ers on Friday, Chris Hine of The Philly Inquirer reports."
   },
   {
    "team": "PHI",
