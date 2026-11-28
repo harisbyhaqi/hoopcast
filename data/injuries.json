@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T19:15:57-0500",
+ "generated": "2026-11-27T19:45:43-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -203,12 +203,12 @@
    "team": "DAL",
    "player_id": "6442",
    "player": "Kyrie Irving",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Knee Not Specified",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-27T19:07Z",
-   "comment": "Irving (knee) is listed as questionable for Friday's game against the Suns due to left knee injury management."
+   "return_date": "2026-11-30",
+   "updated": "2026-11-28T00:30Z",
+   "comment": "Irving (knee) has been ruled out for Friday's game against the Suns, Noah Weber of TheSmokingCuban.com reports."
   },
   {
    "team": "DAL",
@@ -423,12 +423,12 @@
    "team": "MEM",
    "player_id": "4432810",
    "player": "Isaiah Stewart",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
+   "status": "out",
+   "status_raw": "Out",
    "injury": "Hip Soreness",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-26T23:27Z",
-   "comment": "Stewart is questionable for Friday's game against the Timberwolves due to right hip soreness."
+   "return_date": "2026-11-29",
+   "updated": "2026-11-28T00:26Z",
+   "comment": "Stewart (hip) is out for Friday's game against the Timberwolves, Jon Krawczynski of The Athletic reports."
   },
   {
    "team": "MEM",
@@ -438,8 +438,8 @@
    "status_raw": "Day-To-Day",
    "injury": "Ankle Soreness",
    "return_date": "2026-11-27",
-   "updated": "2026-11-26T23:24Z",
-   "comment": "Edey (ankle) is questionable for Friday's game against the Timberwolves."
+   "updated": "2026-11-28T00:23Z",
+   "comment": "Edey (ankle) is a game-time decision for Friday's game versus Minnesota, Jon Krawczynski of The Athletic reports."
   },
   {
    "team": "MEM",
