@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T19:45:43-0500",
+ "generated": "2026-11-27T20:16:05-0500",
  "teams": {
   "ATL": [
    {
@@ -1577,6 +1577,12 @@
     "player": "Karim Lopez",
     "position": "F",
     "jersey": "35"
+   },
+   {
+    "player_id": "4596528",
+    "player": "Lawson Lovering",
+    "position": "C",
+    "jersey": "34"
    },
    {
     "player_id": "4683934",
