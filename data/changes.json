@@ -1,6 +1,46 @@
 [
  {
   "kind": "injury_new",
+  "team": "DAL",
+  "player": "Caleb Martin",
+  "to": "day-to-day",
+  "injury": "Ankle Sprain",
+  "time": "2026-11-28T02:00:40-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "GSW",
+  "player": "Gui Santos",
+  "to": "out",
+  "injury": "Knee",
+  "time": "2026-11-28T02:00:40-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "LAC",
+  "player": "Yanic Konan Niederhauser",
+  "to": "out",
+  "injury": "Toe",
+  "time": "2026-11-28T02:00:40-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "Joel Embiid",
+  "to": "out",
+  "injury": "Foot Plantar Fasciitis",
+  "time": "2026-11-28T02:00:40-0500"
+ },
+ {
+  "kind": "injury_new",
+  "team": "PHI",
+  "player": "LeBron James",
+  "to": "out",
+  "injury": "Back",
+  "time": "2026-11-28T02:00:40-0500"
+ },
+ {
+  "kind": "injury_new",
   "team": "TOR",
   "player": "Ja'Kobe Walter",
   "to": "out",
@@ -8008,41 +8048,6 @@
   "team": "CHA",
   "player": "Kon Knueppel",
   "from": "out",
-  "time": "2026-11-04T18:45:54-0500"
- },
- {
-  "kind": "cleared",
-  "team": "CHA",
-  "player": "Coby White",
-  "from": "day-to-day",
-  "time": "2026-11-04T18:45:54-0500"
- },
- {
-  "kind": "cleared",
-  "team": "CHI",
-  "player": "Jalen Smith",
-  "from": "day-to-day",
-  "time": "2026-11-04T18:45:54-0500"
- },
- {
-  "kind": "cleared",
-  "team": "MIA",
-  "player": "Myron Gardner",
-  "from": "day-to-day",
-  "time": "2026-11-04T18:45:54-0500"
- },
- {
-  "kind": "cleared",
-  "team": "ORL",
-  "player": "Anthony Black",
-  "from": "day-to-day",
-  "time": "2026-11-04T18:45:54-0500"
- },
- {
-  "kind": "cleared",
-  "team": "SAC",
-  "player": "Precious Achiuwa",
-  "from": "day-to-day",
   "time": "2026-11-04T18:45:54-0500"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T23:01:02-0500",
+ "generated": "2026-11-28T02:00:40-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -201,6 +201,17 @@
   },
   {
    "team": "DAL",
+   "player_id": "3138160",
+   "player": "Caleb Martin",
+   "status": "day-to-day",
+   "status_raw": "Day-To-Day",
+   "injury": "Ankle Sprain",
+   "return_date": "2026-11-30",
+   "updated": "2026-11-28T05:35Z",
+   "comment": "Martin didn't return for the second half of Friday's win over the Suns due to a left ankle sprain, Grant Afseth of DallasHoopsJournal.com reports."
+  },
+  {
+   "team": "DAL",
    "player_id": "6442",
    "player": "Kyrie Irving",
    "status": "out",
@@ -311,6 +322,17 @@
   },
   {
    "team": "GSW",
+   "player_id": "4997536",
+   "player": "Gui Santos",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Knee",
+   "return_date": "2026-11-29",
+   "updated": "2026-11-28T04:19Z",
+   "comment": "Santos exited Friday's game against the Trail Blazers with a knee injury in the second half and won't return."
+  },
+  {
+   "team": "GSW",
    "player_id": "3975",
    "player": "Stephen Curry",
    "status": "out",
@@ -396,6 +418,17 @@
    "return_date": "2027-01-02",
    "updated": "2026-10-28T21:41Z",
    "comment": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports."
+  },
+  {
+   "team": "LAC",
+   "player_id": "5108024",
+   "player": "Yanic Konan Niederhauser",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Toe",
+   "return_date": "2026-11-29",
+   "updated": "2026-11-28T04:17Z",
+   "comment": "Niederhauser suffered a right toe injury during Friday's game against the Pelicans and won't return, Joey Linn of SI.com reports."
   },
   {
    "team": "LAC",
@@ -770,6 +803,28 @@
    "return_date": "2026-11-29",
    "updated": "2026-10-24T16:47Z",
    "comment": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports."
+  },
+  {
+   "team": "PHI",
+   "player_id": "3059318",
+   "player": "Joel Embiid",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Foot Plantar Fasciitis",
+   "return_date": "2026-12-01",
+   "updated": "2026-11-28T05:48Z",
+   "comment": "Embiid has been ruled out for Saturday's game against the Rockets due to right foot plantar fasciitis management, Kris Rhim of ESPN.com reports."
+  },
+  {
+   "team": "PHI",
+   "player_id": "1966",
+   "player": "LeBron James",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Back",
+   "return_date": "2026-12-01",
+   "updated": "2026-11-28T05:46Z",
+   "comment": "James (back injury management) won't be available for Saturday's game against the Rockets, according to Kris Rhim of ESPN."
   },
   {
    "team": "PHI",
