@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T20:16:05-0500",
+ "generated": "2026-11-27T20:46:01-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -542,25 +542,14 @@
   },
   {
    "team": "NOP",
-   "player_id": "4431675",
-   "player": "Trendon Watford",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Ankle Sprain",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-26T21:22Z",
-   "comment": "Watford (ankle) is probable for Friday's game against the Clippers."
-  },
-  {
-   "team": "NOP",
    "player_id": "4683634",
    "player": "Bennedict Mathurin",
    "status": "out",
    "status_raw": "Out",
    "injury": "Foot Plantar Fasciitis",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-26T21:21Z",
-   "comment": "Mathurin (foot) is doubtful for Friday's game against the Clippers."
+   "return_date": "2026-11-29",
+   "updated": "2026-11-28T01:22Z",
+   "comment": "Mathurin (foot) is out for Friday's game against the Clippers."
   },
   {
    "team": "NOP",
@@ -998,7 +987,7 @@
    "status": "day-to-day",
    "status_raw": "Day-To-Day",
    "injury": "Illness",
-   "return_date": "2026-11-27",
+   "return_date": "2026-11-29",
    "updated": "2026-11-27T16:41Z",
    "comment": "Bamba (illness) is listed as questionable for Friday's game against the Nuggets, according to the Jazz's injury report."
   },
@@ -1019,8 +1008,8 @@
    "player": "Jusuf Nurkic",
    "status": "out",
    "status_raw": "Out",
-   "injury": "Foot Strain",
-   "return_date": "2026-11-27",
+   "injury": "",
+   "return_date": null,
    "updated": "2026-11-27T00:08Z",
    "comment": "Nurkic (foot) is questionable for Friday's game against the Nuggets."
   },
