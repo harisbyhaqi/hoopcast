@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T21:15:54-0500",
+ "generated": "2026-11-27T23:01:02-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -924,6 +924,17 @@
    "return_date": "2026-12-03",
    "updated": "2026-10-05T21:43Z",
    "comment": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports."
+  },
+  {
+   "team": "TOR",
+   "player_id": "4684272",
+   "player": "Ja'Kobe Walter",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Quadriceps Bruise",
+   "return_date": "2026-11-29",
+   "updated": "2026-11-28T02:34Z",
+   "comment": "Walter won't return to Friday's game against Brooklyn due to a right quad contusion, Josh Lewenberg of TSN.ca reports."
   },
   {
    "team": "TOR",
