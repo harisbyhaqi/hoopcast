@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T20:46:01-0500",
+ "generated": "2026-11-27T21:15:54-0500",
  "injuries": [
   {
    "team": "ATL",
@@ -135,6 +135,17 @@
   },
   {
    "team": "CHI",
+   "player_id": "2595516",
+   "player": "Norman Powell",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Hamstring Strain",
+   "return_date": "2026-12-01",
+   "updated": "2026-11-28T01:54Z",
+   "comment": "Powell (hamstring) is out for Saturday's game against the Pacers."
+  },
+  {
+   "team": "CHI",
    "player_id": "5242496",
    "player": "Noa Essengue",
    "status": "day-to-day",
@@ -154,17 +165,6 @@
    "return_date": "2026-11-28",
    "updated": "2026-11-27T18:36Z",
    "comment": "Smith (illness) is listed as probable for Saturday's game against Indiana."
-  },
-  {
-   "team": "CHI",
-   "player_id": "2595516",
-   "player": "Norman Powell",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hamstring Strain",
-   "return_date": "2026-11-28",
-   "updated": "2026-11-22T15:25Z",
-   "comment": "Powell has been diagnosed with a mild right hamstring strain and will be re-evaluated later this week."
   },
   {
    "team": "CHI",
@@ -696,6 +696,17 @@
   },
   {
    "team": "ORL",
+   "player_id": "4397204",
+   "player": "Colin Castleton",
+   "status": "out",
+   "status_raw": "Out",
+   "injury": "Calf Soreness",
+   "return_date": "2026-11-29",
+   "updated": "2026-11-28T01:53Z",
+   "comment": "Castleton totaled five points (2-4 FG, 1-1 3Pt) and four rebounds in seven minutes during Tuesday's 132-116 preseason win over the Cavaliers."
+  },
+  {
+   "team": "ORL",
    "player_id": "4397140",
    "player": "Kevin Porter Jr.",
    "status": "out",
@@ -715,17 +726,6 @@
    "return_date": "2026-11-28",
    "updated": "2026-11-27T21:05Z",
    "comment": "Black (back) is questionable for Saturday's game against the Wizards."
-  },
-  {
-   "team": "ORL",
-   "player_id": "4397204",
-   "player": "Colin Castleton",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Calf Soreness",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-26T16:10Z",
-   "comment": "Castleton totaled five points (2-4 FG, 1-1 3Pt) and four rebounds in seven minutes during Tuesday's 132-116 preseason win over the Cavaliers."
   },
   {
    "team": "ORL",
@@ -905,28 +905,6 @@
   },
   {
    "team": "SAS",
-   "player_id": "5037871",
-   "player": "Dylan Harper",
-   "status": "out",
-   "status_raw": "Out",
-   "injury": "Hip Strain",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-27T18:51Z",
-   "comment": "Harper (hip) participated in Friday's morning shootaround, per Matt Guzman of SI.com."
-  },
-  {
-   "team": "SAS",
-   "player_id": "4066259",
-   "player": "De'Aaron Fox",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Lower Leg Bruise",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-26T23:35Z",
-   "comment": "Fox (shin) is questionable for Friday's game against the Lakers."
-  },
-  {
-   "team": "SAS",
    "player_id": "6440",
    "player": "Tobias Harris",
    "status": "out",
@@ -984,34 +962,12 @@
    "team": "UTA",
    "player_id": "4277919",
    "player": "Mo Bamba",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Illness",
-   "return_date": "2026-11-29",
-   "updated": "2026-11-27T16:41Z",
-   "comment": "Bamba (illness) is listed as questionable for Friday's game against the Nuggets, according to the Jazz's injury report."
-  },
-  {
-   "team": "UTA",
-   "player_id": "4397077",
-   "player": "Jaxson Hayes",
-   "status": "day-to-day",
-   "status_raw": "Day-To-Day",
-   "injury": "Knee Not Specified",
-   "return_date": "2026-11-27",
-   "updated": "2026-11-27T00:11Z",
-   "comment": "Hayes (knee) is questionable for Friday's game against the Nuggets."
-  },
-  {
-   "team": "UTA",
-   "player_id": "3102530",
-   "player": "Jusuf Nurkic",
    "status": "out",
    "status_raw": "Out",
-   "injury": "",
-   "return_date": null,
-   "updated": "2026-11-27T00:08Z",
-   "comment": "Nurkic (foot) is questionable for Friday's game against the Nuggets."
+   "injury": "Illness",
+   "return_date": "2026-11-29",
+   "updated": "2026-11-28T01:37Z",
+   "comment": "Bamba (illness) has been ruled out for Friday's game against the Nuggets."
   },
   {
    "team": "UTA",
